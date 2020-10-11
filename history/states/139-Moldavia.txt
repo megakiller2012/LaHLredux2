@@ -1,0 +1,10 @@
+
+state={
+	id=139
+	name="STATE_139"
+	provinces={
+		2019 2222 3581 5066 5416 5776 6152 6179 8081 8278 9327 11109 11120 11134 11150 11171 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
