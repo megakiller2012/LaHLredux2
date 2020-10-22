@@ -19,6 +19,15 @@ can_ROOT_get_wargoal_on_THIS = {
 	NOT = { is_subject_of = ROOT }
 }
 
+#Country scope
+is_JAP_or_ally_of_JAP = {
+	OR = {
+		tag = JAP
+		is_in_faction_with = JAP
+		is_subject_of = JAP
+	}
+}
+
 is_border_conflict_defender_vs_FROM = {
 	has_variable = ROOT.defender_state_vs_@FROM
 }
@@ -51,6 +60,27 @@ has_ROOT_at_least_1_div_in_current_state_scope = {
 		tooltip = at_least_one_division_in_state
 		ROOT = { divisions_in_state = { state = PREV size > 0 } }
 	}
+}
+
+check_has_focus_tree_to_switch_to_fascism = {
+
+	# Long_and_Happy_Life
+	always = no
+
+}
+
+check_has_focus_tree_to_switch_to_democratic = {
+
+	# Long_and_Happy_Life
+	always = no
+
+}
+
+check_has_focus_tree_to_switch_to_communism = {
+
+	# Long_and_Happy_Life
+	always = no
+
 }
 
 #State scope
@@ -88,6 +118,30 @@ is_controlled_by_ROOT_or_ally = {
 	}
 }
 
+is_csa_state = {
+	OR = {
+		state = 366
+		state = 365
+		state = 367
+		state = 370
+		state = 362
+		state = 363
+		state = 364
+		state = 371
+		state = 375
+		state = 368
+		state = 372
+	}
+}
+
+has_naval_treaty_trigger = {
+	OR = {
+		has_idea = MTG_naval_treaty_adherent
+		has_idea = MTG_naval_treaty_cheating
+		has_idea = MTG_naval_treaty_adherent_reduced
+		has_idea = MTG_naval_treaty_cheating_reduced
+	}
+}
 
 ai_air_doctrine_tier_1_trigger = {
 	OR = {
@@ -131,6 +185,36 @@ ai_land_doctrine_tier_2_trigger = {
 		has_tech = large_front_offensive
 	}
 }
+
+
+# Long_and_Happy_Life
+# TAG_is_on_historical_plan_trigger
+
+SOV_save_pp_for_manpower_trouble = {
+	has_manpower < 1000000
+	has_political_power < 200
+	surrender_progress > 0	
+}
+
+anti_submarine_strategy_required_trigger = {
+
+	# Long_and_Happy_Life
+	OR = {
+		AND = {
+			has_war = yes
+			any_enemy_country = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		convoy_threat > 0.3
+	}
+
+}
+
+# Long_and_Happy_Life
 
 enemy_has_equal_or_better_radar_tech_trigger = {
 	custom_trigger_tooltip = {
@@ -219,21 +303,12 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 	}
 }
 
-# is_available_to_collaboration_government = { # occupied_countries.1 should be updated along with this
-	# NOT = {
-		# any_country_with_original_tag = {
-			# original_tag_to_check = FROM
-			# is_puppet_of = PREV # if already created one do not create another
-			# has_autonomy_state = autonomy_collaboration_government
-		# }
-	# }
-# }
-
-has_large_ally_not_pick_closed_economy = {
-	any_of_scopes = {
-		array = faction_members
-		
-		NOT = { tag = PREV }
-		num_of_military_factories > 30
+is_available_to_collaboration_government = { # occupied_countries.1 should be updated along with this
+	NOT = {
+		any_country_with_original_tag = {
+			original_tag_to_check = FROM
+			is_puppet_of = PREV # if already created one do not create another
+			has_autonomy_state = autonomy_collaboration_government
+		}
 	}
 }

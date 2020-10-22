@@ -1,0 +1,32 @@
+﻿capital = 788
+
+oob = "DON_2020"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+set_convoys = 50
+set_politics = {
+	ruling_party = millenarism 
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	millenarism  = 100
+}
+create_country_leader = {
+	name = "Anatolij Sharij"
+	desc = "POLITICS_SHAR_DESC"
+	picture = "Portrait_DON_SHAR.dds"
+	expire = "1953.3.1"
+	ideology = religious_millennialism
+	traits = {
+		
+	}
+}

@@ -1,0 +1,40 @@
+﻿capital = 10
+
+oob = "POL_2020"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+set_convoys = 10
+
+set_politics = {
+	ruling_party = left_authoritarianism
+	elections_allowed = no
+}
+set_popularities = {
+	left_authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "Janusz Korwin-Mikke"
+	desc = "POLITICS_KORWIN_MIKKE_DESC"
+	picture = "Portrait_Salvation_Poland_Korwin_Mikke.dds"
+	ideology = atlantic_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrzej Lepper"
+	desc = "POLITICS_ANDZEJ_LEPPER_DESC"
+	picture = "Portrait_Salvation_Poland_Andrzej_Lepper.dds"
+	ideology = paternalism
+	traits = {
+		#
+	}
+}

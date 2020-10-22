@@ -2,8 +2,6 @@ ideas = {
 
 	economy = { 
 		law = yes
-		use_list_view = yes
-		
 		undisturbed_isolation = {
 			
 			
@@ -33,6 +31,10 @@ ideas = {
 				OR = {
 					has_war_support > 0.5
 					has_war = yes
+
+					# Long_and_Happy_Life
+					# has_completed_focus = USA_limited_intervention
+
 				}
 			}
 			
@@ -40,7 +42,7 @@ ideas = {
 		}
 		
 		isolation = {
-						
+			
 			allowed = {
 				always = no
 			}
@@ -64,7 +66,11 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					has_war_support > 0.75
-					has_war = yes			
+					has_war = yes
+
+					# Long_and_Happy_Life
+					# has_completed_focus = USA_limited_intervention					
+
 				}
 			}
 			
@@ -96,6 +102,34 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.15
+
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# original_tag = HUN
+						# has_dlc = "Death or Dishonor"
+					# }
+					# NOT = { has_idea = HUN_treaty_of_triannon }
+				# }
+				# if = {
+					# limit = {
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# has_war_support > 0.3
+					# congress_high_support_trigger = yes
+				# }	
+			}
+			on_add = {
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# tag = USA
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# USA_congress_large_opposition = yes
+				# }
 			}
 			
 			cost = 150
@@ -122,6 +156,13 @@ ideas = {
 					has_war_support > 0.25
 					factor = 0 #don't even look at it if you could be taking partial mob
 				}
+				# Long_and_Happy_Life
+				# modifier = {
+					# tag = ENG
+					# has_war = no
+					# date < 1937.6.1
+					# factor = 0
+				# }
    			}
 		}
 		
@@ -129,6 +170,26 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.25
+
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# original_tag = HUN
+						# has_dlc = "Death or Dishonor"
+					# }
+					# OR = {
+						# has_completed_focus = HUN_secret_rearmament
+						# NOT = { has_idea = HUN_treaty_of_triannon }
+					# }
+				# }
+				# if = {
+					# limit = {
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# has_war_support > 0.5
+					# congress_high_support_trigger = yes
+				# }
 			}
 
 			cost = 150
@@ -143,6 +204,17 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+			on_add = {
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# tag = USA
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# USA_congress_large_opposition = yes
+				# }
+			}
 			ai_will_do = {
    				factor = 2
 
@@ -159,20 +231,38 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.5
-				OR = {
-					has_government = fascism
-					has_government = communism
-					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
-					AND = {
-						has_war = yes
-						any_enemy_country = {
-							ic_ratio = { 
-								tag = ROOT 
-								ratio > 0.4
-							}
-						}
-					}
-				}
+
+				# Long_and_Happy_Life
+				# OR = {
+					# has_government = fascism
+					# has_government = communism
+					# custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
+					# AND = {
+						# has_war = yes
+						# any_enemy_country = {
+							# ic_ratio = { 
+								# tag = ROOT 
+								# ratio > 0.4
+							# }
+						# }
+					# }
+				# }
+
+				# if = {
+					# limit = {
+						# original_tag = HUN
+						# has_dlc = "Death or Dishonor"
+					# }
+					# NOT = { has_idea = HUN_treaty_of_triannon }
+				# }
+				# if = {
+					# limit = {
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# has_war_support > 0.75
+					# congress_high_support_trigger = yes
+				# }		
 			}
 		
 			cost = 150
@@ -186,6 +276,17 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+			on_add = {
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# tag = USA
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# USA_congress_large_opposition = yes
+				# }
+			}
 			ai_will_do = {
    				factor = 5
 
@@ -193,13 +294,6 @@ ideas = {
 					#High prio on production
 					factor = 20
 					manpower_per_military_factory >  1000
-				}
-				
-				modifier = {
-					add = 1800
-					
-					# revert from closed_economy if we have large allies
-					has_idea = closed_economy
 				}
    			}
 		}
@@ -216,6 +310,34 @@ ideas = {
 						ratio > 0.5
 					}
 				}
+
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# original_tag = HUN
+						# has_dlc = "Death or Dishonor"
+					# }
+					# NOT = { has_idea = HUN_treaty_of_triannon }
+				# }
+				# if = {
+					# limit = {
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# has_war_support > 0.9
+					# congress_high_support_trigger = yes
+				# }
+			}
+			on_add = {
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# tag = USA
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# USA_congress_large_opposition = yes
+				# }
 			}
 			ai_will_do = {
    				factor = 1
@@ -241,6 +363,32 @@ ideas = {
 						has_idea = limited_conscription
 					}
 				}
+
+				# Long_and_Happy_Life
+				# # Germany needs to be careful
+				# modifier = {
+					# factor = 0
+
+					# tag = GER
+					# NOT = { has_tech = volkssturm }
+					# has_war = yes
+					# date < 1944.01.01
+				# }
+				# modifier = {
+					# factor = 0
+
+					# tag = SOV
+					# has_war = yes
+					# OR = {
+						# has_manpower < 2000000
+						# NOT = {
+							# OR = {
+								# has_idea = all_adults_serve
+								# has_idea = service_by_requirement
+							# }
+						# }
+					# }									
+				# }
    			}
 			
 			cost = 150
@@ -260,10 +408,22 @@ ideas = {
 	
 	trade_laws = { 
 		law = yes
-		use_list_view = yes
-		
+
 		free_trade = {
-		
+
+			available = {
+
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# original_tag = SPR
+						# has_dlc = "La Resistance"
+					# }
+					# NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+				# }
+
+			}
+						
 			cost = 150
 			removal_cost = -1
 			
@@ -281,10 +441,57 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
+
+				# Long_and_Happy_Life
+   				# modifier = {
+					# factor = 300
+
+					# OR = {
+						# tag = PER
+						# tag = IRQ
+					# }
+					# is_in_faction = no
+				# }
+
+				# modifier = {
+					# factor = 300
+
+					# tag = BRA
+					# date > 1943.1.1 # at this point we can probably cash in on rubber lack in the world
+				# }
+
+				# # Oil for hitlers oil throne!
+				# modifier = {
+					# factor = 600
+					# tag = ROM
+					# is_in_faction_with = GER
+				# }
    			}
 		}
 		
 		export_focus = {
+			
+			available = {
+
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# original_tag = CHI
+						# has_dlc = "Waking the Tiger"
+					# }
+					# NOT = { has_idea = CHI_nine_power_treaty }
+				# }
+				# if = {
+					# limit = {
+						# original_tag = SPR
+						# has_dlc = "La Resistance"
+					# }
+					# NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+				# }
+
+			}
+
+
 			cost = 150
 			removal_cost = -1
 			
@@ -299,38 +506,78 @@ ideas = {
 			}
 			
 			default = yes
-			
+
 			cancel_if_invalid = no
 
 			ai_will_do = {
    				factor = 1
+
+				modifier = {
+					factor = 0
+					
+					is_major = no
+					has_war = no
+					is_in_faction = no
+
+					# Long_and_Happy_Life
+					# OR = {
+						# # portugal and sweden are special tungsten snowflakes
+						# tag = POR
+						# tag = SWE
+
+						# # Iraq & Iran are special oil snowflakes
+						# tag = PER
+						# tag = IRQ
+					# }
+
+				}
    			}
 		}
 		
 		limited_exports = {
+			
+			
 			available = {
-				OR = {
-					AND = {
-						has_government = democratic
-						has_war = yes
-						any_enemy_country = {
-							ic_ratio = { 
-								tag = ROOT 
-								ratio > 0.2
-							}
-						}
-					}
-					AND = {
-						NOT = { has_government = democratic }
+				# Long_and_Happy_Life
+				# OR = {
+					# AND = {
+						# has_government = democratic
+						# has_war = yes
+						# any_enemy_country = {
+							# ic_ratio = { 
+								# tag = ROOT 
+								# ratio > 0.2
+							# }
+						# }
+					# }
+					# AND = {
+						# NOT = { has_government = democratic }
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
 							has_idea = tot_economic_mobilisation
 						}
-					}
-				}
+					# }
+				# }
+
+				# Long_and_Happy_Life
+				# if = {
+					# limit = {
+						# original_tag = CHI
+						# has_dlc = "Waking the Tiger"
+					# }
+					# NOT = { has_idea = CHI_nine_power_treaty }
+				# }
+				# if = {
+					# limit = {
+						# original_tag = SPR
+						# has_dlc = "La Resistance"
+					# }
+					# NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+				# }
+
 			}
-		
+  
 			cost = 150
 			removal_cost = -1
 			
@@ -343,14 +590,14 @@ ideas = {
 				civilian_intel_to_others = 10.0
 				navy_intel_to_others = 5
 			}
-			
+
 			cancel_if_invalid = no
 
 			ai_will_do = {
    				factor = 1
 
    				modifier = {
-					add = -1
+					factor = 0
 					
 					is_major = no
 					is_in_faction = yes
@@ -359,17 +606,10 @@ ideas = {
 
 				# minors not at war should want to get the bonuses from free trade
 				modifier = {
-					add = -1
+					factor = 0
 					
 					is_major = no
 					has_war = no
-				}
-				
-				modifier = {
-					add = 1500
-					
-					# revert from closed_economy if we have large allies
-					has_idea = closed_economy
 				}
    			}
 		}
@@ -379,14 +619,31 @@ ideas = {
 			
 			available = {
 				has_war = yes
-				OR = { 
-					has_government = fascism
-					has_government = communism
-				}
+
+				# Long_and_Happy_Life
+				# OR = { 
+					# has_government = fascism
+					# has_government = communism
+				# }
+
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
 				}
+
+				# Long_and_Happy_Life
+				# OR = {
+					# NOT = {	tag = SOV }
+					# NOT = { has_opinion_modifier = MR_pact }
+				# }
+
+				# if = {
+					# limit = {
+						# original_tag = CHI
+						# has_dlc = "Waking the Tiger"
+					# }
+					# NOT = { has_idea = CHI_nine_power_treaty }
+				# }
 			}
 			
 			cost = 150
@@ -421,10 +678,6 @@ ideas = {
 					
 					is_major = no
 					has_war = no
-				}
-				
-				modifier = {
-					factor = 0
 				}
    			}
 		}

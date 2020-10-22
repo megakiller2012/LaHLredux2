@@ -4,6 +4,11 @@ state={
 	provinces={
 		1121 5414 6913 
 	}
-	manpower=0
+	manpower=519067
 	buildings_max_level_factor=1.000
-}
+	history={
+		owner = RGD
+		add_core_of = RGD
+	}
+	state_category=pastoral
+	

@@ -1,0 +1,107 @@
+bookmarks = {
+	bookmark = {
+		name = "LHLBOOKMARK_NAME"
+		desc = "LHLBOOKMARK_DESC"
+		date = 2020.1.1.14
+		picture = "GFX_select_date_1936"
+		default_country = "RTS"
+
+		RTS = {
+			history = RTS_LHLBOOKMARK_DESC
+			ideology = ur_fascism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		UST = {
+			history = UST_LHLBOOKMARK_DESC
+			ideology = left_authoritarianism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		NSU = {
+			history = NSU_LHLBOOKMARK_DESC
+			ideology = commendationism
+			ideas={
+				russian_civl_war_disaster
+				extraordinary_commission
+			}
+			focuses = {
+				NSU_police_coup
+				NSU_predel
+				NSU_sacralisationofindustry
+			}
+		}
+		NRU = {
+			history = NRU_LHLBOOKMARK_DESC
+			ideology = regressionsim
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RGD = {
+			history = RGD_LHLBOOKMARK_DESC
+			ideology = hegemonism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RIS = {
+			history = RIS_LHLBOOKMARK_DESC
+			ideology = ur_fascism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RST = {
+			history = RST_LHLBOOKMARK_DESC
+			ideology = millenarism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"---"={
+			history = "OTHER_LHLBOOKMARK_DESC"
+		}
+
+		# Minors
+
+		CHS = {
+			minor = yes
+			history = "CHS_LHLBOOKMARK_DESC"
+			ideology = regressionism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+
+	}
+}

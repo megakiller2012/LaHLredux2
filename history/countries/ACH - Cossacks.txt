@@ -1,0 +1,37 @@
+﻿capital = 16
+
+oob = "ACH_2020"
+
+
+set_research_slots = 3
+
+set_stability = 0.7
+
+set_war_support = 0.5
+
+set_technology = {
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1	
+}
+
+set_politics = {
+	ruling_party = hegemonism     
+	last_election = "1933.7.1"
+	elections_allowed = no
+}
+set_popularities = {
+	hegemonism = 100
+}
+
+create_country_leader = {
+	name = "Nikolaj Kozitsyn"
+	desc = "POLITICS_KOS_DESC"
+	picture = "Portrait_ACH_NIKOLAJ.dds"
+	expire = "1953.3.1"
+	ideology = stratocracy 
+	traits = {
+		
+	}
+}
+
+
