@@ -4,6 +4,10 @@ state={
 	provinces={
 		382 723 1380 2117 2375 3156 4013 4884 4937 6515 6657 6866 6900 7004 7835 8109 8936 9822 11479 11486 11533 11535 11536 11556 11592 11598 11632 11633 11653 11656 11702 11705 
 	}
-	manpower=0
+	manpower=1988506
+	state_category=pastoral
 	buildings_max_level_factor=1.000
-}
+	history={
+		owner = JAP
+		add_core_of = JAP
+	}	

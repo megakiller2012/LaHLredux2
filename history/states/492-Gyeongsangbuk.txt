@@ -4,6 +4,10 @@ state={
 	provinces={
 		333 7557 8512 9125 9572 9694 12387 12464 
 	}
-	manpower=0
+	manpower=1988506
+	state_category=pastoral
 	buildings_max_level_factor=1.000
-}
+	history={
+		owner = KOR
+		add_core_of = KOR
+	}	
