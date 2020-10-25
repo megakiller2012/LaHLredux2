@@ -4,10 +4,20 @@ state={
 	provinces={
 		5108 5304 6770 8334 9542 9793 10629 
 	}
-	manpower=1988506
-	state_category=pastoral
+	manpower=1684321
+	state_category=town
 	buildings_max_level_factor=1.000
 	history={
 		owner = EAG
 		add_core_of = EAG
+		victory_points = {
+			5304 10
+			}
+			victory_points = {
+			9793 15
+			}
+			victory_points = {
+			6770 25
+			}
+			
 }

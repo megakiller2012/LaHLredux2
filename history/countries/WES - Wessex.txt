@@ -29,6 +29,7 @@ set_popularities = {
 	ur_fascism = 5
 }
 
+
 country_event = { id = WES_event.2 days = 1 }
 
 create_country_leader = {

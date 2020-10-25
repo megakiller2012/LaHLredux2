@@ -4,8 +4,8 @@ state={
 	provinces={
 		3932 5538 7265 10559 10607 10641 10658 
 	}
-		manpower=1988506
-	state_category=pastoral
+		manpower=3409787
+	state_category=town
 	buildings_max_level_factor=1.000
 	history={
 		owner = WLS

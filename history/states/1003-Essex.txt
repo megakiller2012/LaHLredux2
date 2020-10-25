@@ -4,10 +4,24 @@ state={
 	provinces={
 		2559 5582 10680 
 	}
-	manpower=1988506
-	state_category=pastoral
+	
+	manpower=12602427 
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 	history={
 		owner = ESS
 		add_core_of = ESS
-}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			2559 50
+			}
+			victory_points = {
+			10680 10
+			}
+			
+			
+} 

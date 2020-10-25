@@ -5,7 +5,7 @@ state={
 		8263 
 	}
 	manpower=1988506
-	state_category=pastoral
+	state_category=city
 	buildings_max_level_factor=1.000
 	history={
 		owner = IRE

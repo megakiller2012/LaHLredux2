@@ -4,8 +4,8 @@ state={
 	provinces={
 		15041 15042 15043 
 	}
-		manpower=1988506
-	state_category=pastoral
+		manpower=2045
+	state_category=small_island
 	buildings_max_level_factor=1.000
 	history={
 		owner = SCO

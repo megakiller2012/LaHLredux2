@@ -5,10 +5,16 @@ state={
 	provinces={
 		6430 10378 10398 
 	}
-		manpower=1988506
-	state_category=pastoral
+		manpower=2602300 
+	state_category=large_town
 	buildings_max_level_factor=1.000
 	history={
 		owner = NTH
 		add_core_of = NTH
+		victory_points = {
+			10378 10
+			}
+			victory_points = {
+			10378 10
+			}
 }

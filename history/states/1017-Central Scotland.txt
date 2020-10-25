@@ -4,8 +4,8 @@ state={
 	provinces={
 		5254 
 	}
-		manpower=1988506
-	state_category=pastoral
+		manpower=567987
+	state_category=city
 	buildings_max_level_factor=1.000
 	history={
 		owner = SCO

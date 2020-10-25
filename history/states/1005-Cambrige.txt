@@ -5,10 +5,16 @@ state={
 		9218 10574 10603 
 	}
 		manpower=1988506
-	state_category=pastoral
+	state_category=large_town
 	buildings_max_level_factor=1.000
 	history={
 		owner = MRC
 		add_core_of = MRC
+		victory_points = {
+			10603 30
+			}
+			victory_points = {
+			10574 10
+			}
 }
 }

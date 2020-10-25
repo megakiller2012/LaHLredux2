@@ -4,10 +4,16 @@ state={
 	provinces={
 		3644 6426 
 	}
-		manpower=1988506
-	state_category=pastoral
+		manpower=2734564
+	state_category=city
 	buildings_max_level_factor=1.000
 	history={
 		owner = KNT
 		add_core_of = KNT
+		victory_points = {
+			3644 10
+			}
+			victory_points = {
+			6426 30
+			}
 }
