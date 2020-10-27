@@ -31,6 +31,42 @@ SET_COUNTRY = {
 	    trigger = { tag = WES }
 		localization_key = COUNTRY_ROYALISTS
 	}
+	text = {
+	    trigger = { tag = IRE }
+		localization_key = COUNTRY_IRELAND
+	}
+	text = {
+	    trigger = { tag = MRC }
+		localization_key = COUNTRY_FOLCISTS
+	}
+	text = {
+	    trigger = { tag = SUS }
+		localization_key = COUNTRY_ABSOLUTISTS
+	}
+	text = {
+	    trigger = { tag = WLS }
+		localization_key = COUNTRY_WALES
+	}
+	text = {
+	    trigger = { tag = SCO }
+		localization_key = COUNTRY_SCOTLAND
+	}
+	text = {
+	    trigger = { tag = EAG }
+		localization_key = COUNTRY_INTERVENTIONISTS
+	}
+	text = {
+	    trigger = { tag = ESS }
+		localization_key = COUNTRY_NATIONALISTS
+	}
+	text = {
+	    trigger = { tag = KNT }
+		localization_key = COUNTRY_JACOBITES
+	}
+	text = {
+	    trigger = { tag = NTH }
+		localization_key = COUNTRY_REPUBLICANS
+	}
 	## Default
 	text = {
 		localization_key = COUNTRY_TEST

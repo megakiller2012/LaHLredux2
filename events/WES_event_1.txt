@@ -1,4 +1,4 @@
-﻿add_namespace = WES_event
+﻿`add_namespace = WES_event
 
 country_event = {
 	id = WES_event.1
