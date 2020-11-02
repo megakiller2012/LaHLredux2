@@ -5,6 +5,9 @@ state={
 	provinces={
 		27 298 421 1288 1444 1973 2078 2128 2478 3478 3842 5222 6300 6511 7281 10021 10025 10048 17309 
 	}
-	manpower=0
+	manpower=409245
 	buildings_max_level_factor=1.000
+	history={
+		owner = NRU
+		add_core_of = NRU
 }

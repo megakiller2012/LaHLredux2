@@ -4,11 +4,14 @@ state={
 	provinces={
 		3106 4249 4594 10570 10597 
 	}
-	manpower=1988506
+	manpower=745242
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 	history={
 		owner = IRE
 		add_core_of = IRE
+		victory_points = {
+			10570 1
+			}
 	}	
 }

@@ -4,8 +4,11 @@ state={
 	provinces={
 		3746 4653 6101 7348 7377 8637 9396 10495 10496 10508 10509 10617 10647 
 	}
-	manpower=1988506
-	state_category=rural
+	manpower=9888506
+	state_category=metropolis
+	resources={
+		steel=48
+	}
 	buildings_max_level_factor=1.000
 	history={
 		owner = MRC
@@ -29,12 +32,17 @@ state={
 			4653 5
 			}
 			victory_points = {
-			7377 5
+			7377 3
 			}
 			victory_points = {
-			8637 5
+			8637 3
 			}
-			
+			buildings = {
+			infrastructure = 6
+			arms_factory = 5
+			industrial_complex = 4
+			air_base = 6
+		}
 			
 			
 }

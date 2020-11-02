@@ -4,6 +4,15 @@ state={
 	provinces={
 		10146 
 	}
-	manpower=0
+	manpower=5398064
 	buildings_max_level_factor=1.000
+	history={
+		owner = NSU
+		add_core_of = NSU
+
+		victory_points={
+			8811 50
+		}
+		
 }
+

@@ -11,13 +11,23 @@ state={
 		owner = EAG
 		add_core_of = EAG
 		victory_points = {
-			5304 10
+			5304 2
 			}
 			victory_points = {
 			9793 15
 			}
 			victory_points = {
 			6770 25
+			}
+			buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 3
+			anti_air_building = 2
+			radar_station = 1
+			air_base = 7
+			271 = {
+				naval_base = 3
 			}
 			
 }

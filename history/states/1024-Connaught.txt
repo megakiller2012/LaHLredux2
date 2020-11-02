@@ -10,5 +10,10 @@ state={
 	history={
 		owner = IRE
 		add_core_of = IRE
+		victory_points = {
+			5259 3
+			}
+			buildings = {
+			infrastructure = 4
 	}	
 }

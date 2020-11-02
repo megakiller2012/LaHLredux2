@@ -4,6 +4,9 @@ state={
 	provinces={
 		3150 4476 7815 10375 10388 10406 10445 10472 10501 10531 10535 
 	}
-	manpower=0
+	manpower=1039464
 	buildings_max_level_factor=1.000
+		history={
+		owner = UST
+		add_core_of = UST
 }

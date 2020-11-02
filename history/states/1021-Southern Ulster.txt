@@ -4,11 +4,14 @@ state={
 	provinces={
 		8263 
 	}
-	manpower=1988506
+	manpower=1273069
 	state_category=city
 	buildings_max_level_factor=1.000
 	history={
 		owner = IRE
 		add_core_of = IRE
+			victory_points = {
+			8263 12
+			}
 	}	
 }

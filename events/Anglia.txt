@@ -48,4 +48,34 @@ country_event = {
 		set_province_name = { id = 7825		name = VICTORY_POINTS_7825_NTH }
 		set_province_name = { id = 10418	name = VICTORY_POINTS_10418_NTH  }
 	}
+	}
+	
+	
+	country_event = {
+	id = albion.2
+	title = albion.2.t
+	desc = albion.2.d
+	
+	immediate = {
+		
+	}
+	trigger = {
+	}
+
+	is_triggered_only = yes
+	
+
+	option = {
+		name = albion.2.a
+		ai_chance = {
+			base = 100
+		}
+		set_province_name = { id = 5717		name = VICTORY_POINTS_5717_NTH  }
+		set_province_name = { id = 10405	name = VICTORY_POINTS_10405_NTH  }
+		set_province_name = { id = 5259		name = VICTORY_POINTS_5259_NTH  }
+		set_province_name = { id = 10570	name = VICTORY_POINTS_10570_NTH }
+		set_province_name = { id = 10658	name = VICTORY_POINTS_10658_NTH  }
+		set_province_name = { id = 10641	name = VICTORY_POINTS_10641_NTH  }
+		set_province_name = { id = 7454 	name = VICTORY_POINTS_7454_NTH  }
+			}
 }

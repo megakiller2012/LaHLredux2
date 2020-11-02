@@ -4,8 +4,11 @@ state={
 	provinces={
 		2310 2735 4353 6624 7791 10725 10731 10741 10760 10771 15071 
 	}
+	resources={
+		steel=25
+	}
 		manpower=6108506
-	state_category=rural
+	state_category=city
 	buildings_max_level_factor=1.000
 	history={
 		owner = WES
@@ -19,6 +22,13 @@ state={
 			victory_points = {
 			10741 30
 			}
-			
+			buildings = {
+			infrastructure = 7
+			arms_factory = 4
+			industrial_complex = 2
+			air_base = 2
+			10741 = {
+				naval_base = 2
+			}
 }
 

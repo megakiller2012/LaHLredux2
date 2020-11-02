@@ -5,8 +5,12 @@ state={
 	provinces={
 		2737 3896 7790 10429 10440 10464 10482 10491 
 	}
-		manpower=1988506
-	state_category=pastoral
+	resources={
+		steel=31
+		aluminium=4
+	}
+		manpower=5488506
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 	history={
 		owner = NTH
@@ -25,5 +29,14 @@ victory_points = {
 			}
 			victory_points = {
 			3896 10
+			}
+			buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 3
+			air_base = 3
+			10482 = {
+				naval_base = 5
 			}
 }

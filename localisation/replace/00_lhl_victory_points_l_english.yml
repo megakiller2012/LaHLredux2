@@ -34,7 +34,33 @@
  VICTORY_POINTS_3896:0 "Blackpool"
  VICTORY_POINTS_7825:0 "Carlisle"
  VICTORY_POINTS_10418:0 "Scarborough"
-
+ VICTORY_POINTS_5183:0 "Shrewsbury"
+ 
+ ###Celtic###
+ VICTORY_POINTS_2944:0 "Glasgow"
+ VICTORY_POINTS_10244:0 "Aberdeen"
+ VICTORY_POINTS_5578:0 "Edinburgh"
+ VICTORY_POINTS_8263:0 "Dublin"
+ VICTORY_POINTS_7381:0 "Belfast"
+ VICTORY_POINTS_10543:0 "Limerick"
+ VICTORY_POINTS_5717:0 "Londonderry"
+ VICTORY_POINTS_10405:0 "Newcastle"
+ VICTORY_POINTS_5259:0 "Galway"
+ VICTORY_POINTS_10570:0 "Kilkenny"
+ VICTORY_POINTS_10658:0 "Cardiff"
+ VICTORY_POINTS_10641:0 "Swansea"
+ VICTORY_POINTS_7454:0 "Fort William"
+ 
+ 
+ ###Celtic-->Albion###
+ VICTORY_POINTS_5717_NTH:0 "Derry"
+ VICTORY_POINTS_10405_NTH:0 "Muammar"
+ VICTORY_POINTS_5259_NTH:0 "Galloway"
+ VICTORY_POINTS_10570_NTH:0 "Moore"
+ VICTORY_POINTS_10658_NTH:0 "Caerdydd"
+ VICTORY_POINTS_10641_NTH:0 "Abertawe"
+ VICTORY_POINTS_7454_NTH:0 "Fort Fuck Jacobites" #Вставьте имя главного республиканского генерала#
+  
  ###Angeln-->Albion###
  VICTORY_POINTS_2559_NTH:0 "Cromwell"
  VICTORY_POINTS_6426_NTH:0 "Galloway"
@@ -60,6 +86,7 @@
  VICTORY_POINTS_9205_NTH:0 "Muammar upon Tyne"
  VICTORY_POINTS_7825_NTH:0 "Harclay"
  VICTORY_POINTS_10418_NTH:0 "Blakeborough"
+ VICTORY_POINTS_5183_NTH:0 "Pengwern"
 
  ###Greece###
  VICTORY_POINTS_13830:0 "Athens"
