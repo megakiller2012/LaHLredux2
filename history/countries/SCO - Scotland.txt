@@ -1,4 +1,4 @@
-capital = 121
+capital = 1014
 oob = "SCO_2020"
 
 set_research_slots = 3

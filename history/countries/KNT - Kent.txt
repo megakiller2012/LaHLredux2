@@ -1,4 +1,4 @@
-﻿capital = 839
+﻿capital = 1002
 
 oob = "KNT_2020"
 

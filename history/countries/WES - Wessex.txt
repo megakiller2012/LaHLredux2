@@ -1,4 +1,4 @@
-﻿capital = 338
+﻿capital = 1000
 
 oob = "WES_2020"
 

@@ -1,0 +1,22 @@
+﻿ESS_INF_01 = 
+{
+	name = "London Guards"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. District Regiment"
+
+	ordered =
+	{
+		1 = { "Enfield Regiment" }
+		2 = { "Westminister Regiment" }
+		3 = { "Richmond Regiment" }
+		
+	}
+}
+
+

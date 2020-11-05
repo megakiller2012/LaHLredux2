@@ -1,0 +1,64 @@
+﻿division_template = {
+	name = "London Guards"
+	division_names_group = ESS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 		
+	}
+}
+
+
+
+units = {
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2559
+		division_template = "London Guards"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+
+	}	
+
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 5582
+		division_template = "London Guards"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+
+	}
+
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10680
+		division_template = "London Guards"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+
+	}
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ESS"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+	
+}

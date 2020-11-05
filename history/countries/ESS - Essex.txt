@@ -1,4 +1,4 @@
-﻿capital = 126
+﻿capital = 1003
 
 oob = "ESS_2020"
 

@@ -1,0 +1,40 @@
+﻿EAG_INF_01 = 
+{
+	name = "Englische Milizia"
+
+	for_countries = { EAG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Milizia"
+
+	ordered =
+	{
+		1 = { "Englische Milizia" }
+		2 = { "Englische Milizia" }
+		3 = { "Englische Milizia" }
+		
+	}
+}
+EAG_INF_02 = 
+{
+	name = "Deutsch Korps"
+
+	for_countries = { EAG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Korps"
+
+	ordered =
+	{
+		1 = { "Befriedungsbrigade" }
+		2 = { "Befriedungsbrigade" }
+				
+	}
+}
+

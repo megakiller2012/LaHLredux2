@@ -1,4 +1,4 @@
-﻿capital = 128
+﻿capital = 1008
 
 oob = "MRC_2020"
 
@@ -28,4 +28,14 @@ create_country_leader = {
 	traits = {
 		lastbelovedofeurope
 	}
+}
+create_corps_commander = {
+	name = "Patrick Sanders"
+		picture = ".dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 }

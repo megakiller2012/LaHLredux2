@@ -1,4 +1,4 @@
-﻿capital = 131
+﻿capital = 1010
 
 oob = "NTH_2020"
 

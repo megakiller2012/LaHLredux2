@@ -1,4 +1,4 @@
-﻿capital = 125
+﻿capital = 1004
 
 oob = "EAG_2020"
 
