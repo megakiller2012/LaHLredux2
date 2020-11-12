@@ -1,0 +1,14 @@
+state={
+	id=1126
+	name="STATE_1126"
+	provinces={
+		7251 7329 9147 10504 10635
+	}
+	manpower=668895
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	history={
+		owner = SAH
+		add_core_of = SAH
+	
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=1149
+	name="STATE_1149"
+
+	history={
+		owner = MAN
+		add_core_of = MAN
+
+	}
+
+	provinces={
+		1381 1950 3456 6074 6444 8988 9262 11097 11143 11224 11256 17385 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
