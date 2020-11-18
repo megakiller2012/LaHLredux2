@@ -1,0 +1,9 @@
+state={
+	id=1160
+	name="MOSCOW"
+	provinces={
+		138 5663 15019 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
