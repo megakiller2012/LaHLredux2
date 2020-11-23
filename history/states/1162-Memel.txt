@@ -1,9 +1,0 @@
-state={
-	id=1162
-	name="Memel"
-	provinces={
-		3117 14997 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
-}

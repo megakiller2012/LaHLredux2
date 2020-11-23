@@ -1,9 +1,0 @@
-state={
-	id=1161
-	name="SERGIJEV POSAD"
-	provinces={
-		2765 7456 10278 10300 10301 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
-}

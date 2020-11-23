@@ -1,20 +1,18 @@
-
 state={
 	id=39
 	name="STATE_39"
-
-	history={
-		owner = NSU
-		add_core_of = NSU
-		victory_points = {
-			8811 50 
-		}
-
-	}
-
 	provinces={
-		2694 9312 10146 
+		10146 
 	}
 	manpower=5398064
 	buildings_max_level_factor=1.000
+	history={
+		owner = NSU
+		add_core_of = NSU
+
+		victory_points={
+			8811 50
+		}
+		
 }
+

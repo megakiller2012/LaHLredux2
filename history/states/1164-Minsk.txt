@@ -1,9 +1,0 @@
-state={
-	id=1164
-	name="Minsk City"
-	provinces={
-		14991 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
-}
