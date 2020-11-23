@@ -2,16 +2,17 @@
 state={
 	id=6
 	name="STATE_6"
-	provinces={
-		539 1240 1850 3626 8040 9738 11146 11163 
-	}
-	manpower=4698766
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = ACC
 		add_core_of = ACC
+
 	}
-	
+
+	provinces={
+		539 1240 1850 3626 8040 9738 11146 11163 14961 
+	}
+	manpower=4698766
+	buildings_max_level_factor=1.000
 	state_category=large_city
 }
-
