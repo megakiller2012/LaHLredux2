@@ -1,17 +1,12 @@
-
 state={
 	id=41
 	name="STATE_41"
-
-	history={
-		owner = UST
-		add_core_of = UST
-
-	}
-
 	provinces={
-		795 1185 2103 5407 5823 6887 6904 7912 10197 10276 
+		774 795 1185 2103 5407 5823 6887 6904 7912 10197 10276 
 	}
 	manpower=626115
 	buildings_max_level_factor=1.000
+	history={
+		owner = UST
+		add_core_of = UST
 }
