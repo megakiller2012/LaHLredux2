@@ -2,7 +2,7 @@
 
 shared_focus = {
 	id = EAG_rob_fatherland
-	icon = GFX
+	icon = GFX_EAG_rob_fatherland
 	cost = 10
 	x = 3
 	y = 0
@@ -10,7 +10,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_steal_equipment
-	icon = GFX
+	icon = GFX_EAG_steal_equipment
 	prerequisite = {
 		focus = EAG_rob_fatherland 
 	}
@@ -21,7 +21,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_request_personnel
-	icon = GFX
+	icon = GFX_EAG_request_personnel
 	prerequisite = {
 		focus = EAG_rob_fatherland
 	}
@@ -32,7 +32,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_ask_loan
-	icon = GFX
+	icon = GFX_EAG_ask_loan
 	prerequisite = {
 		focus = EAG_rob_fatherland
 	}
@@ -43,7 +43,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_redirect_gastarbeiters
-	icon = GFX
+	icon = GFX_EAG_redirect_gastarbeiters
 	prerequisite = {
 		focus = EAG_rob_fatherland
 	}
@@ -54,7 +54,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_hijack_transports
-	icon = GFX
+	icon = GFX_EAG_hijack_transports
 	prerequisite = {
 		focus = EAG_steal_equipment
 		focus = EAG_request_personnel
@@ -66,7 +66,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_trick_merkel
-	icon = GFX
+	icon = GFX_EAG_trick_merkel
 	prerequisite = {
 		focus = EAG_request_personnel
 		focus = EAG_ask_loan
@@ -78,7 +78,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_ponzi_scheme
-	icon = GFX
+	icon = GFX_EAG_ponzi_scheme
 	prerequisite = {
 		focus = EAG_ask_loan
 		focus = EAG_redirect_gastarbeiters
@@ -90,7 +90,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_convince_military
-	icon = GFX
+	icon = GFX_EAG_convince_military
 	prerequisite = {
 		focus = EAG_hijack_transports
 		focus = EAG_trick_merkel
@@ -102,7 +102,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_pgerman_investors
-	icon = GFX
+	icon = GFX_EAG_pgerman_investors
 	prerequisite = {
 		focus = EAG_trick_merkel
 		focus = EAG_ponzi_scheme
