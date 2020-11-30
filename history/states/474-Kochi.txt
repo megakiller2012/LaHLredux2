@@ -1,14 +1,18 @@
+
 state={
 	id=474
 	name="STATE_474"
-	provinces={
-		2939 7242 12754 12766 12781 
-	}
-		manpower=1988506
-	state_category=pastoral
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = JAP
 		add_core_of = JAP
-	}	
+
+	}
+
+	provinces={
+		2939 3349 3397 7242 12697 12720 12754 12764 12766 12781 15130 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
