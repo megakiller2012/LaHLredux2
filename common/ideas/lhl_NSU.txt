@@ -346,19 +346,5 @@ ideas = {
 				factor = 0
 			}
 		}
-
-		oleg_sokolov  = {
-
-			picture = oleg_sokolov
-			allowed = {
-				original_tag = NSU
-			}
-						
-			traits = { mass_attack_supporter }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 }

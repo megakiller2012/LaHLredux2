@@ -45,7 +45,7 @@ ideas = {
 				original_tag = "NTH"
 			}
 
-			traits = { ideological_crusader }
+			traits = { }
 
 			do_effect = {
 				#
@@ -63,7 +63,7 @@ ideas = {
 				original_tag = "SUS"
 			}
 
-			traits = { maenad }
+			traits = { }
 
 			do_effect = {
 				#
@@ -81,7 +81,7 @@ ideas = {
 				original_tag = "WES"
 			}
 
-			traits = { renaissance_man }
+			traits = {}
 
 			do_effect = {
 				#
@@ -99,7 +99,7 @@ ideas = {
 				original_tag = "MRC"
 			}
 
-			traits = { black_monk }
+			traits = {}
 
 			do_effect = {
 				#
@@ -117,7 +117,7 @@ ideas = {
 				original_tag = "ESS"
 			}
 
-			traits = { black_monk }
+			traits = {}
 
 			do_effect = {
 				#
@@ -134,7 +134,7 @@ ideas = {
 				original_tag = "KNT"
 			}
 
-			traits = { black_monk }
+			traits = {}
 
 			do_effect = {
 				#
@@ -151,7 +151,7 @@ ideas = {
 				original_tag = "EAG"
 			}
 
-			traits = { black_monk }
+			traits = {}
 
 			do_effect = {
 				#
