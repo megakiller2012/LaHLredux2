@@ -1,0 +1,23 @@
+ideas = {
+
+	head_of_government = {
+
+		jeremy_corbyn = {
+
+			picture = jeremy_corbyn
+			allowed = {
+				original_tag = "SUS"
+			}
+
+			traits = { }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+ideas = {
+
+	head_of_government = {
+	
+		lulzim_basha = {
+
+			picture = lulzim_basha
+			allowed = {
+				original_tag = "ALB"
+			}
+
+			traits = { renaissance_man }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

@@ -55,5 +55,22 @@ ideas = {
 				factor = 0
 			}
 		}
+		jurij_rybnikov = {
+
+			picture = rybnikov
+			allowed = {
+				original_tag = "RST"
+			}
+
+			traits = { keeper_of_the_lore }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}
 }

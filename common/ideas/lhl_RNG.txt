@@ -1,0 +1,42 @@
+ideas = {
+
+	political_advisor = {
+
+		vasilij_topolev = {
+
+			picture = vasilij_topolev
+			allowed = {
+			    original_tag = "RNG"
+			}
+
+			traits = { vatoadmin }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		anatolij_mizzengendler = {
+
+			picture = anatolij_mizzengendler
+			allowed = {
+			    original_tag = "RNG"
+			}
+
+			traits = { spider }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+	}
+}
