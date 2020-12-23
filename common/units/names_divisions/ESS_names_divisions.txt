@@ -15,6 +15,62 @@
 		1 = { "Enfield Regiment" }
 		2 = { "Westminister Regiment" }
 		3 = { "Richmond Regiment" }
+		4 = { "Greenwich Regiment" }
+		5 = { "Bexley Regiment" }
+		6 = { "Sutton Regiment" }
+		7 = { "Kingston Regiment" }
+		8 = { "Bromley Regiment" }
+		9 = { "Redbridge Regiment" }
+		10 = { "Chelsea Regiment" }
+		11 = { "Coombe Regiment" }
+		12 = { "Hounslow Regiment" }
+		13 = { "Lewisham Regiment" }
+		14 = { "Croydon Regiment" }
+		14 = { "Islington Regiment" }
+		15 = { "Southwark Regiment" }
+		16 = { "Wandsworth Regiment" }
+		17 = { "Newham Regiment" }
+		18 = { "Fulham Regiment" }
+		19 = { "Lambeth Regiment" }
+		20 = { "Camden Regiment" }
+		
+	}
+}
+ESS_INF_02 = 
+{
+	name = "London Bands"
+
+	for_countries = { ESS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Milita"
+
+	ordered =
+	{
+		1 = { "Cockney Tongs" }
+		2 = { "Oi' Bois" }
+		3 = { "Borough Hikers" }
+		4 = { "Big-Bens" }
+		5 = { "Buckingham Squatters" }
+		6 = { "Hunter's Bastards" }
+		7 = { "Kingston Kings" }
+		8 = { "Goldfingers" }
+		9 = { "Redbridge Guards" }
+		10 = { "Chelsea Milita" }
+		11 = { "Capital Owners" }
+		12 = { "The Buzzards" }
+		13 = { "Zhonggers" }
+		14 = { "Great Rajas" }
+		14 = { "Eastern Brothers" }
+		15 = { "All-London Forces" }
+		16 = { "Free Richmond Army" }
+		17 = { "Doel Band" }
+		18 = { "Mary's Axes" }
+		19 = { "Newham Authonomists" }
+		20 = { "Great City Protectors" }
 		
 	}
 }
