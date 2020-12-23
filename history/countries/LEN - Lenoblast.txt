@@ -25,6 +25,6 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Maksim Surajkin"
-	picture = "LEN_Maksim_Surajkin.dds"
+	picture = "Portrait_LEN_Maksim_Surajkin.dds"
 	ideology = soviet_marxism
 }

@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "George Galloway"
 	desc = ""
-	picture = "george_galloway.dds"
+	picture = "Portrait_NTH_George_Galloway.dds"
 	ideology = nazbol_gang
 	traits = {
 	}

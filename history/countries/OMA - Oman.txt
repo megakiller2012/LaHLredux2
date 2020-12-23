@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Qaboos bin Said al-Said"
-	picture = "Qaboos bin Said al Said.dds"
+	picture = "Portrait_OMA_Qaboos_bin_Said_al_Said.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 }

@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Pope Michael"
-	picture = "michael.dds"
+	picture = "Porrtrait_PSM_Michael.dds"
 	expire = "1953.3.1"
 	ideology = autocracy
 	traits = {

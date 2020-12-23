@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Sergej Kara-Murza"
-	desc = "POLITICS_RPR_KARA_MURZA_DESC"
+	desc = "Portrait_RPR_KARA_MURZA"
 	picture = "Portrait_RPR_KARA_MURZA.dds"
 	ideology = agrarian_socialism
 	traits = {

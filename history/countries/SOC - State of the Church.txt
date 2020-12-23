@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Pope Francis"
-	picture = "Pope_Francis.dds"
+	picture = "Portrait_SOC_Pope_Francis.dds"
 	expire = "1953.3.1"
 	ideology = autocracy
 	traits = {

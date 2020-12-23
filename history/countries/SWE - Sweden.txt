@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Izabella Jarvandi"
 	desc = "POLITICS_JARVANDI_DESC"
-	picture = "Portrait_SWE_Joan.dds"
+	picture = "Portrait_SWE_Izabella_Nilsson_Jarvandi.dds"
 	ideology = charismatic_dictatorship
 	traits = { maid_of_goteborg }
 }

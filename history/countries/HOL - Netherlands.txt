@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Catharina-Amalia I"
 	desc = ""
-	picture = "Portrait_HOL_Amalia.dds"
+	picture = "Portrait_HOL_Catharina_Amalia.dds"
 	ideology = progressivism
 	traits = {
 		

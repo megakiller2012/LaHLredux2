@@ -19,7 +19,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Vladimir Shamanov"
 	desc = ""
-	picture = "Portrait_GAZ_Shamanov.dds"
+	picture = "Portrait_GAZ_Vladimir_Shamanov.dds"
 	ideology = social_conservatism
 	traits = {
 		

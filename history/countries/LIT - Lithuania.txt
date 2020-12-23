@@ -27,7 +27,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Stanislovas Tomas"
-	picture = "LIT_Stanislovas_Tomas.dds"
+	picture = "Portrait_LIT_Stanislovas_Tomas.dds"
 	ideology = atlantic_liberalism  
 	traits = { 
 	}

@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ebba Busch Thor"
 	desc = "POLITICS_BUSCH_DESC"
-	picture = "Portrait_SDE_Busch.dds"
+	picture = "Portrait_SDE_Edda_Busch.dds"
 	ideology = progressivism
 	traits = { nation_unifier }
 }

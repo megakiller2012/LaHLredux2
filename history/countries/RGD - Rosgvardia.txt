@@ -28,7 +28,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Vladimir Putin"
 	desc = "POLITICS_PUTIN_DESC"
-	picture = "Portrait_VLAD_PUTIN.dds"
+	picture = "Portrait_RGD_Vladimir_Putin.dds"
 	ideology = stratocracy 
 	traits = { possessed
 	}
@@ -49,7 +49,7 @@ if = {
 	}
 	create_operative_leader = {
 		name = "Ruslan Boshirov"
-		GFX = GFX_portrait_ruslan_boshirov
+		GFX = Portrait_RDG_Ruslan_Boshirov
 		traits = { operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes
@@ -57,7 +57,7 @@ if = {
 	}	
 	create_operative_leader = {
 		name = "Alexander Petrov"
-		GFX = GFX_portrait_alexander_petrov
+		GFX = Portrait_RDG_Alexander_Petrov
 		traits = { operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes

@@ -21,7 +21,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Mikhail Svetov"
 	desc = "POLITICS_SVETOV_DESC"
-	picture = "Portrait_Mikhail_Sovetov.dds"
+	picture = "Portrait_FRS_Mikhail_Sovetov.dds"
 	ideology = national_anarchism 
 	traits = { great_lustrator }
 }

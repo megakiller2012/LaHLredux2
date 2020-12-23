@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Mintimer Shaimiev"
 	desc = "POLITICS_SHAMIEV_DESC"
-	picture = "Portrait_TAT_SHAMIEV.dds"
+	picture = "Portrait_TAT_Mintimer_Shaimiev.dds"
 	ideology = paternalism 
 	traits = {
 		old_boar

@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Gerhard Schröder"
-	picture = "FRG_Gerhard_Schroder.dds"
+	picture = "Portrait_FRG_Gerhard_Schroder.dds"
 	ideology = progressivism  
 	traits = { 
 	}

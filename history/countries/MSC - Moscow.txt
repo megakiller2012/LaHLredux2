@@ -28,14 +28,14 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Heydar Cahid oglu Camal"
-	picture = "MOS_Gejdar_Dzhemal'.dds"
+	picture = "Portrait_MSC_Gejdar_Dzhemal''.dds"
 	expire = "1953.3.1"
 	ideology = religious_millennialism  
 }
 
 create_country_leader = {
 	name = "Aleksandr Dugin"
-	picture = "MOS_Aleksandr_Dugin.dds"
+	picture = "Portrait_MSC_Aleksandr_Dugin.dds"
 	desc = "POLITICS_DUGIN_DESC"
 	ideology = neo_feudalism 
 	traits = {
@@ -45,14 +45,14 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Igor' Tal'kov"
-	picture = "MOS_Igor_Talkov.dds"
+	picture = "Portrait_MSC_Igor_Talkov.dds"
 	expire = "1953.3.1"
 	ideology = charismatic_dictatorship 
 }
 
 create_country_leader = {
 	name = "Aleksej Naval'nyj"
-	picture = "MOS_Aleksej_Navalnyj.dds"
+	picture = "Portrait_MSC_Aleksej_Navalnyj.dds"
 	expire = "1953.3.1"
 	ideology = nazbol_gang 
 }
@@ -60,14 +60,14 @@ create_country_leader = {
 create_country_leader = {
 	name = "Philosopher King"
 	picture = "MOS_Philosopher_King.dds"
-	desc = "POLITICS_PHILOSOPHER_KING_DESC"
+	desc = "Portrait_MSC_Philosopher_King"
 	ideology = ultrahegelianism
 	traits = {	the_kings_two_bodies  }
 }
 
 create_country_leader = {
 	name = "Interregnum"
-	picture = "MOS_White_House.dds"
+	picture = "Portrait_MSC_White_House.dds"
 	expire = "1953.3.1"
 	ideology = nazbol_gang 
 }

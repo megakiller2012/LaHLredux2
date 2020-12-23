@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Tamim bin Hamad"
-	picture = "Tamim bin Hamad.dds"
+	picture = "Portrait_QAT_Tamim_bin_Hamad.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 }

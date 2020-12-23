@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Orbán Viktor"
 	desc = "POLITICS_ORBAN_DESC"
-	picture = "Portrait_HUN_ORBAN.dds"
+	picture = "Portrait_HUN_Victor_Orban.dds"
 	ideology = social_conservatism
 	traits = {
 	}

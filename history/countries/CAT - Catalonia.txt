@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ines Arrimandas"
 	desc = "POLITICS_INES_DESC"
-	picture = "Portrait_CAT_Ines.dds"
+	picture = "Portrait_CAT_Ines_Arrimadas.dds"
 	ideology = social_conservatism
 	traits = { hopeless }
 }

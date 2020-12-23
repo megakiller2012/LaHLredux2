@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Kurdistan Council"
-	picture = "Kurdistan_Council.dds"
+	picture = "Portrait_SKD_Kurdistan_Council.dds"
 	expire = "1953.3.1"
 	ideology = ultrahegelianism
 	traits = {

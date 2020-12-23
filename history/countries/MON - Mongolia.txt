@@ -27,7 +27,7 @@ country_event = { id = MON_event.1 days = 10 }
 
 create_country_leader = {
 	name = "Baron Michael von Ungern-Sternberg"
-	picture = "Portrait_Baron_Michael_von_Ungern_Sternberg.dds"
+	picture = "Portrait_MON_Baron_Michael_von_Ungern_Sternberg.dds"
 	ideology = nazbol_gang
 	traits = { 
 	}

@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Viktor Tsoj"
 	desc = ""
-	picture = "Portrait_Viktor_Tsoj.dds"
+	picture = "Portrait_SAH_Viktor_Tsoj.dds"
 	expire = "1965.1.1"
 	ideology = nazbol_gang
 	traits = {
@@ -33,7 +33,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Hideo Kojima"
-		picture = "Portrait_Sakhalin_Hideo_Kojima.dds"
+		picture = "Portrait_SAH_Hideo_Kojima.dds"
 	traits = { trickster commando guerilla_fighter }
 	skill = 4
 	attack_skill = 4

@@ -26,7 +26,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Radij Khabirov"
 	desc = "POLITICS_KHABIROV_DESC"
-	picture = "Portrait_BSK_KHABIROV.dds"
+	picture = "Portrait_BSK_Radij_Khabirov.dds"
 	ideology = social_conservatism 
 	traits = {
 		moderate_technocrat

@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Aleksandr Barkashov"
 	desc = "POLITICS_BARKASHOW_DESC"
-	picture = "Portrait_RNE_BARKASHOW.dds"
+	picture = "Portrait_RNE_Alexander_Barkashow.dds"
 	ideology = stratocracy 
 	traits = {
 		diligent_officer_without_imagination

@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Salman bin Abdulaziz Al-Saud"
-	picture = "Salman bin Abdulaziz Al Saud.dds"
+	picture = "Portrait_SAR_Salman_bin_Abdulaziz_Al_Saud.dds"
 	expire = "1953.3.1"
 	ideology = autocracy
 	traits = {

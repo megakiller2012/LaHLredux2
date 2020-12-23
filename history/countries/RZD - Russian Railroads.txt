@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Oleg Belozyorov"
 	desc = ""
-	picture = "Portrait_RZD_Oleg_Below_Zero.dds"
+	picture = "Portrait_RZD_Oleg_Belozerow.dds"
 	ideology = statecorporation
 	traits = {
 		

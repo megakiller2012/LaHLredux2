@@ -35,7 +35,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Koshiro Tanaka"
-	picture = "Portrait_Koshiro_Tanaka.dds"
+	picture = "Portrait_RIS_Koshiro_Tanaka.dds"
 	traits = { commando guerilla_fighter desert_fox }
 	skill = 2
 	attack_skill = 2

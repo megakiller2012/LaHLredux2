@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Michael Daerden"
 	desc = ""
-	picture = "Portrait_WAL_Daerden.dds"
+	picture = "Portrait_WAL_Michel_Daerden.dds"
 	ideology = social_conservatism
 	traits = {
 	}

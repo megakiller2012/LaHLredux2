@@ -27,7 +27,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Pentti Linkola"
 	desc = "POLITICS_Pentti_Linkola_DESC"
-	picture = "Portrait_Finland_Pentti_Linkola.dds"
+	picture = "Portrait_FIN_Pentti_Linkola.dds"
 	ideology = ecofascism
 	traits = {
 		#

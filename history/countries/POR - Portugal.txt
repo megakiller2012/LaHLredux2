@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Marianno Rajoy"
 	desc = "POLITICS_RAJOY_DESC"
-	picture = "Portrait_POR_Rajoy.dds"
+	picture = "Portrait_POR_Mariano_Rajoy.dds"
 	ideology = charismatic_dictatorship
 	traits = { sucellus_chosen }
 }

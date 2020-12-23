@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Zhongjing Liu"
 	desc = "POLITICS_MCCAIN_DESC"
-	picture = "Zhongjing_Liu.dds"
+	picture = "Portrait_NRC_Zhongjing_Liu.dds"
 	ideology = charismatic_dictatorship
 	traits = 
 }

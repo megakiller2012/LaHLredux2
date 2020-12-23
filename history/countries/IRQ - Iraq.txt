@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Saddam Hussein"
-	picture = "Saddam_Hussein.dds"
+	picture = "Portrait_IRQ_Saddam_Hussein.dds"
 	expire = "1953.3.1"
 	ideology = nazbol_gang
 	traits = {

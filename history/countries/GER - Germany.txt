@@ -26,7 +26,7 @@ country_event = { id = GER_event.1 days = 15 }
 
 create_country_leader = {
 	name = "Angela Merkel"
-	picture = "Portrait_GER_Merkel.dds"
+	picture = "Portrait_GER_Angela_Merkel.dds"
 	expire = "1953.3.1"
 	ideology = christian_democracy
 	traits = { }

@@ -26,7 +26,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Boris Jel'tsin"
 	desc = "POLITICS_Boris_DESC"
-	picture = "Portrait_RNG_ELCYN.dds"
+	picture = "Portrait_RNG_Boris_Elcyn.dds"
 	ideology = national_populism
 	traits = { icehaired }
 }
@@ -37,7 +37,7 @@ if = {
 	}
 	create_operative_leader = {
 		name = "Marija Butina"
-		GFX = GFX_portrait_marija_butina
+		GFX = Portrait_RNG_Marija_Butina
 		traits = { operative_seducer }
 		bypass_recruitment = no
 		available_to_spy_master = yes

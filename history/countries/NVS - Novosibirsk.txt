@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Alexander Lebed"
 	desc = ""
-	picture = "Portrait_NVS_Lebed.dds"
+	picture = "Portrait_NVS_Alexander_Lebed'.dds"
 	ideology = soviet_marxism
 	traits = {
 		

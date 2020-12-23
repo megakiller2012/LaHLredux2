@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Abdullah II"
-	picture = "Abdullah II.dds"
+	picture = "Portrait_HAR_Abdullah_II.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = {

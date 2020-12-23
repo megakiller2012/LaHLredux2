@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Max Mosley"
 	desc = ""
-	picture = "max_mosley.dds"
+	picture = "Portrait_ESS_Max_Mosley.dds"
 	ideology = accelerationism
 	traits = {
 		mad_max

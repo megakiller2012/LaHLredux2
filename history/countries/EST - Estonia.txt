@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Jevgenij Osinovskij"
-	picture = "EST_Jevgenij_Osinovskij.dds"
+	picture = "Portrait_EST_Jevgenij_Osinovskij.dds"
 	ideology = progressivism  
 	traits = { 
 	}

@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Al-Saadi Gaddafi"
-	picture = "Saadi.dds"
+	picture = "Portrait_ASG_Saadi_Gaddafi.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = {

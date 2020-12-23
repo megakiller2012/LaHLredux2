@@ -26,7 +26,7 @@ set_popularities = {
 create_country_leader = {
 	name = "George Becali"
 	desc = "POLITICS_BECALI_DESC"
-	picture = "Portrait_Romania_George_Becali.dds"
+	picture = "Portrait_ROM_George_Becali.dds"
 	ideology = charismatic_dictatorship
 	traits = {
 	}

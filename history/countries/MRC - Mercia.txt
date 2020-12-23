@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Douglas Pearce"
 	desc = ""
-	picture = "DouglasP.dds"
+	picture = "Portrait_MRC_Douglas_Pierce.dds"
 	ideology = charismatic_dictatorship
 	traits = {
 		lastbelovedofeurope

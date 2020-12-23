@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Sebastian Kurz"
-	picture = "Portrait_AUS_KURZ.dds"
+	picture = "Portrait_AUS_Sebastian_Kurz.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = { 

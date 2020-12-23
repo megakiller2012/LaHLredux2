@@ -19,7 +19,7 @@ set_popularities = {
 create_country_leader = {
 	name = "No Authority"
 	desc = ""
-	picture = "no_authority.dds"
+	picture = "Portrait_USS_No_Authority.dds"
 	ideology = neo_feudalism
 	traits = {  }
 }

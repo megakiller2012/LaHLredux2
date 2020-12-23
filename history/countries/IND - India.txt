@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Rahul Gandhi"
-	picture = "Rahul_Gandhi.dds"
+	picture = "Portrait_IND_Rahul_Gandhi.dds"
 	expire = "1960.1.1"
 	ideology = paternalism
 	traits = {

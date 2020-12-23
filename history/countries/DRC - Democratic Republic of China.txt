@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Chang An-Lo"
-	picture = "Chang_An-Lo.dds"
+	picture = "Portrait_DRC_Chang_An-Lo.dds"
 	expire = "1960.1.1"
 	ideology = social_conservatism
 	traits = {

@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Jacob Rees-Mogg"
 	desc = ""
-	picture = "rees_mogg.dds"
+	picture = "Portrait_KNT_Rees_Mogg.dds"
 	ideology = social_conservatism
 	traits = {
 		high_handed_despot

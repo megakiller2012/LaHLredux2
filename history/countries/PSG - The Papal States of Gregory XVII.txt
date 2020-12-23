@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Pope Gregory XVII"
-	picture = "Daniel_Dolan.dds"
+	picture = "Portrait_PSG_Daniel_Dolan.dds"
 	expire = "1953.3.1"
 	ideology = autocracy
 	traits = {

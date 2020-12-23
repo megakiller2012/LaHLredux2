@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Samy Gemayel"
-	picture = "Samy Gemayel.dds"
+	picture = "Portrait_LEB_Samy_Gemayel.dds"
 	expire = "1953.3.1"
 	ideology = neo_feudalism
 	traits = {

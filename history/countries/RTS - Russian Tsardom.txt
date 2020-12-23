@@ -28,7 +28,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Dmitrij Medvedev"
 	desc = "POLITICS_MEDVEDEV_DESC"
-	picture = "Portrait_RTS_MEDVEDEV.dds"
+	picture = "Portrait_RTS_Dmitrij_Medvedev.dds"
 	ideology = charismatic_dictatorship
 	traits = {
 		scourge_of_god

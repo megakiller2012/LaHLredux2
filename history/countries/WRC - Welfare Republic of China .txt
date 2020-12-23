@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Xin De Yong"
-	picture = "Xin_De_Yong.dds"
+	picture = "Portrait_WRC_Xin_De_Yong.dds"
 	expire = "1960.1.1"
 	ideology = nazbol_gang
 	traits = {
