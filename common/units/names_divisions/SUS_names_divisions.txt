@@ -1,0 +1,41 @@
+﻿SUS_INF_01 = 
+{
+	name = "Patriotic forces"
+
+	for_countries = { SUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Gang"
+
+	ordered =
+	{
+		1 = { "Pure Hearts" }
+		2 = { "Dadley's boys" }
+		3 = { "Cambridge squad" }
+		4 = { "Sons of England" }
+		5 = { "Homelovers" }
+		6 = { "Lifesavers" }
+		7 = { "Albion's chosens" }
+		8 = { "Islandborn" }
+		9 = { "Londoneers" }
+		10 = { "Luton lads" }
+		11 = { "Swinepushers" }
+		12 = { "Mercia gang" }
+		13 = { "Harry band" }
+		14 = { "Traitor seekers" }
+		14 = { "Kingslayers" }
+		15 = { "Repentance band" }
+		16 = { "Birmingham folks" }
+		17 = { "Oxford pals" }
+		18 = { "Children of Britain" }
+		19 = { "Hornblowers" }
+		20 = { "Griffit's mob" }
+		
+		
+	}
+}
+
+
