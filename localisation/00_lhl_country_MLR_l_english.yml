@@ -1,5 +1,14 @@
 ﻿l_english:
- ###Destruction of Ukraine###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ MLR_left_authoritarianism:0 "Malorossia"
+ MLR_left_authoritarianism_DEF:0 "Malorossia"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
  MLR_event.1.t:0 "Destroy the Ukranians"
  MLR_event.1.d:0 "It's time to teach those khokols a lesson, we have an opportunity to wipe out their pathetic nation once and for all"
  MLR_event.1.a:0 "For Little Russia!"

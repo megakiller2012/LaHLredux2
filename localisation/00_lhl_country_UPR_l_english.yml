@@ -1,5 +1,14 @@
 ﻿l_english:
- ###Destruction of Ukraine###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ UPR_regressionism:0 "Ukrainian Peasant Republic"
+ UPR_regressionism_DEF:0 "Ukrainian Peasant Republic"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
  UPR_event.1.t:0 "For The Peasants!"
  UPR_event.1.d:0 "We shall destroy the pathetic Republic and forge the glorious future for our country!"
  UPR_event.1.a:0 "Ukraine isn't dead! For Glory!"

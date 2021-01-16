@@ -1,4 +1,10 @@
 ﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
  SCO_british_schism:0 "British Schism"
  SCO_british_schism_desc:0 "Lorem Ipsum"
  SCO_brave_and_independent:0 "Brave And Independent"
@@ -45,4 +51,5 @@
  SCO_big_trouble_desc:0 "Lorem Ipsum"
  SCO_call_world:0 "Call To The World"
  SCO_call_world_desc:0 "Lorem Ipsum"
- 
+ ##DECISIONS##
+ ##EVENTS##

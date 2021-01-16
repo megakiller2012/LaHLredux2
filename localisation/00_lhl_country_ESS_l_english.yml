@@ -1,22 +1,6 @@
 ﻿l_english:
  ###Party###
- NSU_millenarism_party:0 "Neo-Bogomils"
- NSU_commendationism_party:0 ""Dead End" Group"
- NSU_left_authoritarianism_party_long:0 "Communists of Petersburg and Leningrad Region"
- NSU_left_authoritarianism_party:0 "CoPaLR"
- NSU_socialism_party_long:0 "Socialist Workers Party"
- NSU_socialism_party:0 "SWP"
- NSU_national_bolshevism_party_long:0 "National Bolshevik Party"
- NSU_national_bolshevism_party:0 "NBP"
- NSU_neocameralism_party:0 "Oligarchs"
- NSU_right_populism_party:0 "Strong Russia"
- NSU_hegemonism_party:0 "National Guard"
- NSU_regressionism_party:0 "NBP — Katechon"
- NSU_regressionism_party_long:0 "National Bolshevik Party — Faction “Katechon“"
- NSU_ur_fascism_party:0 "Black Hundreds"
  ###Name###
- NSU_commendationism:0 "Emergent Commission"
- NSU_commendationism_DEF:0 "Emergent Commission"
  ###Focuses###
  ESS_luciferoverlondon:0 "Lucifer over London"
  ESS_luciferoverlondon_desc:0 "Police Coup"

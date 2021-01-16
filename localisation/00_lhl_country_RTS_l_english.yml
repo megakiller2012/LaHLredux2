@@ -1,5 +1,7 @@
 ﻿l_english:
- ###Party###
+ ##LEADERS##
+ POLITICS_MEDVEDEV_DESC:0 "§WHe was already at the helm.\n\nOne term was enough for the higher-level, distraught with horror, to return the decrepit Letov and to hand him the powers of a dictator, pumping him with botox, panicking.\n\nWhen he brought troops into Georgia, in his eyes there was nothing but a thirst for conquest, similar to the thirst of a combat blade falling upon the heads of enemies, without being at a loss even for a second.\n\nThis is a man who renamed the «militia» into the police, ignoring the genetic memory of the people about the fascist Polizei. And the people stayed in silence, because they knew that He shouldn’t be angered.\n\nHe made it clear that he didn’t give a damn even for time. He shortened time zones, hinting that if He wanted to, there would be only one time zone left and everyone would live in it.\n\nRepent, repent, those who shout «Letov, go away!» Because it is very easy for him to leave. After all, Letov is trying harder and harder every day to restrain what is breaking out into the light of day.\n\nAnd then all these marches will turn into rivers of blood.§!"
+ ##POLITICAL PARTIES##
  RTS_millenarism_party:0 "Jehovah witnesses"
  RTS_commendationism_party:0 "CPRF"
  RTS_commendationism_party_long:0 "Communist Party of the Russian Federation"
@@ -16,7 +18,10 @@
  RTS_regressionism_party:0 "WRPC"
  RTS_regressionism_party_long:0 "World Russian People’s Council"
  RTS_ur_fascism_party:0 "Medvedev loyalists"
- ###Advisors###
+ ##COUNTRY NAME##
+ RTS_ur_fascism:0 "Tsardom of Russia"
+ RTS_ur_fascism_DEF:0 "Tsardom of Russia"
+ ##TRAITS##
  eminent_oceanologist:0 "Eminent Oceanologist"
  Successful_businessman:0 "Successful Businessman"
  Patriarch_of_All_Russia:0 "Patriarch of All Russia"
@@ -47,9 +52,40 @@
  White_Ataman:0 "White Ataman"
  Tank_General:0 "Tank General"
  MotoGusar:0 "MotoGusar"
- ###Name###
-
- ###Focuses###
+ ##IDEAS##
+ Smirnov:0 "Patriarch Smirnov"
+ Aleksey_Krivoruchko:0 "Aleksej Krivoruchko"
+ Milonov:0 "Vitalij Milonov"
+ Medinsky:0 "Vladimir Medinskij"
+ Vladimir_Sorokin:0 "Vladimir Sorokin"
+ Sergey_Miheev:0 "Sergej Mikheev"
+ Nikolay_Valuev:0 "Nikolaj Valuev"
+ Sergey_Baburin:0 "Sergej Baburin"
+ Petr_Tolstoy:0 "Pjotr Tolstoj"
+ Ochlobistyn:0 "Ivan Okhlobystin"
+ Malofeev:0 "Konstantin Malofeev"
+ Andrej_Afanasev:0 "Andrej Afanas'ev"
+ Irina_Yarovaya:0 "Irina Jarovaja"
+ Inga_Yumasheva:0 "Inga Jumasheva"
+ Boris_Rotenberg:0 "Boris Rotenberg"
+ Artemiy_Lebedev:0 "Artemij Lebedev"
+ Alena_Arshinova:0 "Aljona Arshinova"
+ Vsevlod_Chaplin:0 "Vsevlod Chaplin"
+ Vladimir_Soloviyov:0 "Vladimir Solov'jov"
+ Artur_Chilingarov:0 "Artur Chilingarov"
+ Arkadiy_Rotenberg:0 "Arkadij Rotenberg"
+ Evgeniy_Kaspersky:0 "Evgenij Kasperskij"
+ Yuriy_Baluevsky:0 "Jurij Balujevskij"
+ Rashid_Nurgaliev:0 "Rashid Nurgalijev"
+ Viktor_Chirikov:0 "Viktor Chirikov"
+ Sergey_Avakyanc:0 "Sergej Avakjants"
+ Sergey_Dronov:0 "Sergej Dronov"
+ Valeriy_Evtuhovich:0 "Valerij Evtukhovich"
+ Andrey_Ivanaev:0 "Andrej Ivanajev"
+ Aleksandr_Shevchenko:0 "Aleksandr Shevchenko"
+ Valera_Kamshilov:0 "Valerij Kamshilov"
+ Dmitrij_Trunenkov:0 "Dmitrij Trunenkov"
+ ##FOCUS TREES##
  RTS_Beautiful_Saffron:0 "Beautiful Saffron"
  RTS_Jeux_denfants:0 "Jeux D'enfants"
  RTS_marriage_of_the_Bear_and_the_Tiger:0 "Marriage of the Bear and the Tiger"
@@ -209,46 +245,5 @@
  RTS_The_cult_of_personality_desc:0 ""
  RTS_What_I_say_in_granite_is_cast:0 "What I say in granite is cast"
  RTS_What_I_say_in_granite_is_cast_desc:0 ""
- 
- ###Desc###
-
- ###Ideas###
-
- ###Events###
- 
- ###RTS###
- Smirnov:0 "Patriarch Smirnov"
- Aleksey_Krivoruchko:0 "Aleksej Krivoruchko"
- Milonov:0 "Vitalij Milonov"
- Medinsky:0 "Vladimir Medinskij"
- Vladimir_Sorokin:0 "Vladimir Sorokin"
- Sergey_Miheev:0 "Sergej Mikheev"
- Nikolay_Valuev:0 "Nikolaj Valuev"
- Sergey_Baburin:0 "Sergej Baburin"
- Petr_Tolstoy:0 "Pjotr Tolstoj"
- Ochlobistyn:0 "Ivan Okhlobystin"
- Malofeev:0 "Konstantin Malofeev"
- Andrej_Afanasev:0 "Andrej Afanas'ev"
- Irina_Yarovaya:0 "Irina Jarovaja"
- Inga_Yumasheva:0 "Inga Jumasheva"
- Boris_Rotenberg:0 "Boris Rotenberg"
- Artemiy_Lebedev:0 "Artemij Lebedev"
- Alena_Arshinova:0 "Aljona Arshinova"
- Vsevlod_Chaplin:0 "Vsevlod Chaplin"
- Vladimir_Soloviyov:0 "Vladimir Solov'jov"
- Artur_Chilingarov:0 "Artur Chilingarov"
- Arkadiy_Rotenberg:0 "Arkadij Rotenberg"
- Evgeniy_Kaspersky:0 "Evgenij Kasperskij"
- Yuriy_Baluevsky:0 "Jurij Balujevskij"
- Rashid_Nurgaliev:0 "Rashid Nurgalijev"
- Viktor_Chirikov:0 "Viktor Chirikov"
- Sergey_Avakyanc:0 "Sergej Avakjants"
- Sergey_Dronov:0 "Sergej Dronov"
- Valeriy_Evtuhovich:0 "Valerij Evtukhovich"
- Andrey_Ivanaev:0 "Andrej Ivanajev"
- Aleksandr_Shevchenko:0 "Aleksandr Shevchenko"
- Valera_Kamshilov:0 "Valerij Kamshilov"
- Dmitrij_Trunenkov:0 "Dmitrij Trunenkov"
-
- ###bio###
- POLITICS_MEDVEDEV_DESC:0 "§WHe was already at the helm.\n\nOne term was enough for the higher-level, distraught with horror, to return the decrepit Letov and to hand him the powers of a dictator, pumping him with botox, panicking.\n\nWhen he brought troops into Georgia, in his eyes there was nothing but a thirst for conquest, similar to the thirst of a combat blade falling upon the heads of enemies, without being at a loss even for a second.\n\nThis is a man who renamed the «militia» into the police, ignoring the genetic memory of the people about the fascist Polizei. And the people stayed in silence, because they knew that He shouldn’t be angered.\n\nHe made it clear that he didn’t give a damn even for time. He shortened time zones, hinting that if He wanted to, there would be only one time zone left and everyone would live in it.\n\nRepent, repent, those who shout «Letov, go away!» Because it is very easy for him to leave. After all, Letov is trying harder and harder every day to restrain what is breaking out into the light of day.\n\nAnd then all these marches will turn into rivers of blood.§!"
+ ##DECISIONS##
+ ##EVENTS##

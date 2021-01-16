@@ -1,12 +1,18 @@
 ﻿l_english:
- ###Advisors###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ RST_millenarism:0 "Roman Social Tsardom"
+ RST_millenarism_DEF:0 "Roman Social Tsardom"
+ ##TRAITS##
+ ##IDEAS##
  valerij_chudinov:0 "Valerij Chudinov"
  anatolij_fomenko:0 "Anatolij Fomenko"
  jurij_petukhov:0 "Jurij Petukhov"
  tyrant:0 "Tyrant"
  white_tsar:0 "White Tsar'"
  voice_of_ancestors:0 "Voice of Ancestors"
- ###Focuses###
+ ##FOCUS TREES##
  RST_stateoraculs:0 "State Oracles"
  RST_stateoraculs_desc:0 "State Oracles"
  RST_theocracy:0 "Theocracy"
@@ -47,3 +53,5 @@
  RST_deusexmachina_desc:0 "White National"
  RST_cyberneticmysteries:0 "Сybernetic Mysteries"
  RST_cyberneticmysteries_desc:0 "Сybernetic Mysteries"
+ ##DECISIONS##
+ ##EVENTS##

@@ -1,5 +1,12 @@
 ﻿l_english:
- ###EVENTS###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
  EAG_event.1.t:0 "An visit from Germany"
  EAG_event.1.d:0 "After Merkel fell ill, an examiner has arrived from Germany to check how we are doing"
  EAG_event.1.a:0 "Oh no"

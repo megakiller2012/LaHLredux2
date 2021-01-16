@@ -1,5 +1,17 @@
 ﻿l_english:
- ###Destruction of Ukraine###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ KHA_right_populism:0 "Ukrainian People's Republic"
+ KHA_right_populism_DEF:0 "Ukrainian People's Republic"
+ KHA_national_bolshevism:0 "Malorossija"
+ KHA_national_bolshevism_DEF:0 "Malorossija"
+ KHA_governorate:0 "Malorossian Governorate"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
  KHA_event.1.t:0 "The Nationalists Revolt!"
  KHA_event.1.d:0 "With Dugin going insane and rising to power in Moscow, Ukranian nationalists have take over western Ukraine!"
  KHA_event.1.a:0 "That's bad!"

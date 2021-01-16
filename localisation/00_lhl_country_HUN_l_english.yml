@@ -1,5 +1,14 @@
 ﻿l_english:
- ###Destruction of Ukraine###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ HUN_right_populism:0 "Kingdom of Hungary"
+ HUN_right_populism_DEF:0 "Kingdom of Hungary"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
  HUN_event.1.t:0 "Ukranians are weak..."
  HUN_event.1.d:0 "The collapse of Eurasia and the recent rebellion in Ukraine has given us a prime opportunity to take over our rightdul land!"
  HUN_event.1.a:0 "Do it"

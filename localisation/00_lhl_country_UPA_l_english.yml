@@ -1,5 +1,14 @@
 ﻿l_english:
- ###Destruction of Ukraine###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ UPA_commendationism:0 "Ukrainian Insurgent Army"
+ UPA_commendationism_DEF:0 "Ukrainian Insurgent Army"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
  UPA_event.1.t:0 "Take back our country!"
  UPA_event.1.d:0 "With the recent collapse of the Malorossian Govenrnorate we have a prime opportunity to take back our country from the Eurasian occupation"
  UPA_event.1.a:0 "Ukraine isn't dead! For Glory!"
