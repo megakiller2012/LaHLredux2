@@ -19,7 +19,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Ali Khamenei"
 	desc = "POLITICS_KHAMENI_DESC"
-	picture = "Portrait_PER__Ali_Khamenei.dds"
+	picture = "Portrait_PER_Ali_Khamenei.dds"
 	ideology = nazbol_gang
 	traits = {
 		#

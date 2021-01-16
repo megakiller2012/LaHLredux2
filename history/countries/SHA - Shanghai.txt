@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Sergei Lavrov"
-	picture = "Portrait_SHA_Eurasia.dds"
+	picture = "Portrait_SHA_Sergei_Lavrov.dds"
 	expire = "1953.3.1"
 	ideology = nazbol_gang
 	traits = { }
@@ -31,7 +31,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Martin Sonneborn"
-	picture = "Portrait_SHA_Germany.dds"
+	picture = "Portrait_SHA_Martin_Sonneborn.dds"
 	expire = "1953.3.1"
 	ideology = progressivism
 	traits = { }
@@ -39,7 +39,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "François Asselineau"
-	picture = "Portrait_SHA_France.dds"
+	picture = "Portrait_SHA_François_Asselineau.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = { }
@@ -47,7 +47,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Nikolaos Michaloliakos"
-	picture = "Portrait_SHA_Greece.dds"
+	picture = "Portrait_SHA_Nikolaos_Michaloliakos.dds"
 	expire = "1953.3.1"
 	ideology = charismatic_dictatorship
 	traits = { }
@@ -55,7 +55,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Gholam-Ali Haddad-Adel"
-	picture = "Portrait_SHA_Iran.dds"
+	picture = "Portrait_SHA_Gholam-Ali_Haddad-Adel.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = { }
@@ -63,7 +63,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mitsuhira Kimura"
-	picture = "Portrait_SHA_Japan.dds"
+	picture = "Portrait_SHA_Mitsuhira_Kimura.dds"
 	expire = "1953.3.1"
 	ideology = stratocracy
 	traits = { }

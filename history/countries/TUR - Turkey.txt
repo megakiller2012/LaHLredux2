@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Recep Tayyip Erdoğan"
-	picture = "Portrait_Erdogan.dds"
+	picture = "Portrait_TUR_Recep_Erdogan.dds"
 	expire = "1960.1.1"
 	ideology = autocracy
 	traits = {

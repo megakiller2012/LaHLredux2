@@ -22,9 +22,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Elizabeth II"
+	name = "Malta"
 	desc = "POLITICS_OUR_QUEEN_DESC"
-	picture = "Portrait_OUR_QUEEN.dds"
+	picture = ".dds"
 	ideology = social_conservatism
 	traits = { cornered_fox }
 }

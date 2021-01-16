@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Bashar al-Assad"
-	picture = "Bashar al-Assad.dds"
+	name = "Aksum Leader"
+	picture = ".dds"
 	expire = "1953.3.1"
 	ideology = neo_feudalism
 	traits = {

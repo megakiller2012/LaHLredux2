@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Manuel Godoy II"
 	desc = "POLITICS_RAPOLI_DESC"
-	picture = "Portrait_ALV_Ruspoli.dds"
+	picture = "Portrait_ALV_Manuel_Godoy_II.dds"
 	ideology = autocracy
 	traits = { paranoid_prince }
 }

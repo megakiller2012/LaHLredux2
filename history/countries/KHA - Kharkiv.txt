@@ -60,7 +60,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Zakhar Prilepin"
 	desc = "POLITICS_PRILEPIN_DESC"
-	picture = "Portrait_KHA_ZAKHAR_PRILEPIN.dds"
+	picture = "Portrait_KHA_Zakhar_Prilepin.dds"
 	ideology = nazbol_gang 
 	traits = {
 	}

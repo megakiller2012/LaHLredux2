@@ -28,7 +28,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Heydar Cahid oglu Camal"
-	picture = "Portrait_MSC_Gejdar_Dzhemal''.dds"
+	picture = "Portrait_MSC_Gejdar_Dzhemal'.dds"
 	expire = "1953.3.1"
 	ideology = religious_millennialism  
 }
@@ -41,13 +41,6 @@ create_country_leader = {
 	traits = {
 		greatraven
 	}
-}
-
-create_country_leader = {
-	name = "Igor' Tal'kov"
-	picture = "Portrait_MSC_Igor_Talkov.dds"
-	expire = "1953.3.1"
-	ideology = charismatic_dictatorship 
 }
 
 create_country_leader = {

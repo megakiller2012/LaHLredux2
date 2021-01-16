@@ -47,7 +47,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Anastasia A.I"
 	desc = "POLITICS_ANASTASIA_AI_DESC"
-	picture = "Portrait_IMT_Evil_Anastasia_A.I..dds"
+	picture = "Portrait_IMT_Anastasia_A.I..dds"
 	ideology = ethical_millennialism
 	traits = {
 		     haywire_ai

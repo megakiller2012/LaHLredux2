@@ -21,7 +21,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Nursultan Nazarbajev"
-	picture = "Portrait_KAZ_Nazarbajev.dds"
+	picture = ".dds"
 	ideology = republican_dictatorship
 	traits = {
 		

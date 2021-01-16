@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Abdurrahman Mustafa"
-	picture = "Abdurrahman_Mustafa.dds"
+	picture = "Portrait_TSY_Abdurrahman_Mustafa.dds"
 	expire = "1953.3.1"
 	ideology = labor_socialism 
 	traits = {

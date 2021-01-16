@@ -30,7 +30,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = " Maria Devi Christos"
+	name = "Maria Devi Christos"
 	desc = ""
 	picture = "Portrait_Tsvigun.dds"
 	ideology = religious_millennialism 

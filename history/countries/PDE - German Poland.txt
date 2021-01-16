@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Robert Biedron"
 	desc = "POLITICS_BIEDRON_DESC"
-	picture = "Portrait_FED_Robert_Biedron.dds"
+	picture = "Portrait_PDE_Robert_Biedron.dds"
 	ideology = progressivism 
 	traits = {
 	}

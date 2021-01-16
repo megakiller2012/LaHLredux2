@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Kirill Teiter"
-	picture = "TRG_Kirill_Teiter.dds"
+	picture = "Portrait_TRG_Kirill_Teiter.dds"
 	ideology = social_conservatism 
 	traits = { 
 	}
