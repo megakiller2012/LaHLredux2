@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ LEB_regressionism_party:0 "Al-Katā'ib"
  ##COUNTRY NAME##
  LEB_regressionism:0 "Phoenicia"
  LEB_regressionism_DEF:0 "Phoenicia"
  ##TRAITS##
+ last_of_the_phoenicians:0 "Last of the Phoenicians"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

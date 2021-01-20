@@ -1,6 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ POD_hegemonism_party:0 "Ukrainian Orthodox Church — "Kiev Patriarchate""
+ POD_ur_fascism_party:0 "Ukrainian Orthodox Church — "Moscow Patriarchate""
+ POD_regressionism_party:0 "Ukrainian Autocephalous Orthodox Church"
+ POD_natpop_party:0 "Ukrainian Greek Catholic Church"
+ POD_national_bolshevism_party:0 "Ukrainian Orthodox Church — "Constantinople Patriarchate""
+ POD_millenarism_party:0 "Great White Brotherhood"
  ##COUNTRY NAME##
  POD_hegemonism:0 "Ukrainian State"
  POD_hegemonism_DEF:0 "Ukrainian State"

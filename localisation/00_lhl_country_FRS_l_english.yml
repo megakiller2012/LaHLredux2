@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ FRS_national_bolshevism_party:0 "Libertarian Party of Russia"
  ##COUNTRY NAME##
  FRS_national_bolshevism:0 "Free State"
  FRS_national_bolshevism_DEF:0 "Free State"
  ##TRAITS##
+ great_lustrator:0 "Great Lustrator"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

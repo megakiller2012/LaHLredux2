@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ GEO_ur_fascism_party:0 "Georgian Orthodox Church"
  ##COUNTRY NAME##
  GEO_ur_fascism:0 "Georgia"
  GEO_ur_fascism_DEF:0 "Kingdom of Georgia"
  ##TRAITS##
+ spiritual_leader:0 "Spiritual Leader"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

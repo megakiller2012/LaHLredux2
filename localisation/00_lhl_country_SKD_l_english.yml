@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ SKD_commendationism_party:0 "Workers' Party of Kurdistan"
  ##COUNTRY NAME##
  SKD_commendationism:0 "Rojava"
  SKD_commendationism_DEF:0 "Rojava"
  ##TRAITS##
+ stronghold_of_democracy:0 "Stronghold of Democracy"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

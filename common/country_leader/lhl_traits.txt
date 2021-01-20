@@ -669,6 +669,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	keeper_of_the_lore = { #Jurij Rybnikov#
+		random = no
+		research_speed_factor = 0.03
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 
 ###NEW_SOVIET_UNION###
 ##LEADERS_NEW_SOVIET_UNION##
@@ -1061,7 +1069,22 @@ leader_traits = {
 		}
 	}
 ##IDEAS_RUSSIAN_NATIONAL_STATE##
+	vatoadmin = { #Vasilij Topolev#
+		production_factory_max_efficiency_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	spider = { #Anatolij Mizzengendler#
+		political_power_factor = -0.05
+		consumer_goods_factor = -0.2
 
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ###RUSSIAN_PEASANT_REPUBLIC###
 ##LEADERS_RUSSIAN_PEASANT_REPUBLIC##
 	leftwing_intellectual = { #Sergej_Kara-Murza#
@@ -1295,6 +1318,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	shaman_king = { #Alexander Gabishiev#
+		random = no
+		political_power_factor = 0.15
+		army_morale_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 ##IDEAS_GULAG##
 
 ###DJIBOUTI###
@@ -1324,38 +1356,6 @@ leader_traits = {
 ##IDEAS_SWEDEN##
 
 ###GENERIC_IDEAS###
-	keeper_of_the_lore = {
-		random = no
-		research_speed_factor = 0.03
 
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	shaman_king = {
-		random = no
-		political_power_factor = 0.15
-		army_morale_factor = 0.1
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	vatoadmin = {
-		production_factory_max_efficiency_factor = 0.10
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	spider = {
-		political_power_factor = -0.05
-		consumer_goods_factor = -0.2
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 }
 

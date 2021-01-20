@@ -1,9 +1,14 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ SUS_commendationism_party:0 "Windsor Dynasty"
  ##COUNTRY NAME##
+ SUS_left_authoritarianism:0 "Absolutists"
+ SUS_left_authoritarianism_DEF:0 "British Provisional Government"
  ##TRAITS##
+ comrade_king:0 "Comrade King"
  ##IDEAS##
+ jeremy_corbyn:0 "Jeremy Corbyn"
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##

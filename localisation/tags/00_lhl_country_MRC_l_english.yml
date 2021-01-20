@@ -1,9 +1,14 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ MRC_ur_fascism_party:0 "Black Army of Britain"
  ##COUNTRY NAME##
+ MRC_ur_fascism:0 "Folcists"
+ MRC_ur_fascism_DEF:0 "Black Army of Britain"
  ##TRAITS##
+ lastbelovedofeurope:0 "Last Beloved of Evropa"
  ##IDEAS##
+ regency_councilmer:0 "Regency Council"
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##

@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ ISR_ur_fascism_party:0 "Likud"
  ##COUNTRY NAME##
  ISR_ur_fascism:0 "Second Kingdom of Judah"
  ISR_ur_fascism_DEF:0 "Second Kingdom of Judah"
  ##TRAITS##
+ dabbat_al_ard:0 "Dābbat al-Arḍ"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

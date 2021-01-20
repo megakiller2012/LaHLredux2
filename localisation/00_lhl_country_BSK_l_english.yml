@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ BSK_neocameralism_party:0 "Provisional Government"
  ##COUNTRY NAME##
  BSK_neocameralism:0 "Provisional Government of Bashkiria"
  BSK_neocameralism_DEF:0 "Provisional Government of Bashkiria"
  ##TRAITS##
+ moderate_technocrat:0 "Moderate Technocrat"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

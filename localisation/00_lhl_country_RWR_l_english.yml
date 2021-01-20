@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ RWR_socialism_party:0 "Labor Party"
  ##COUNTRY NAME##
  RWR_socialism:0 "Worker's Republic"
  RWR_socialism_DEF:0 "Worker's Republic"
  ##TRAITS##
+ tribune_of_the_people:0 "Tribune of the People"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

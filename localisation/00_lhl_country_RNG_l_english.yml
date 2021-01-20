@@ -1,11 +1,18 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ RNG_right_populism_party:0 "Our Home – Russia"
  ##COUNTRY NAME##
  RNG_right_populism:0 "Russian National State"
  RNG_right_populism_DEF:0 "Russian National State"
  ##TRAITS##
+ vatoadmin:0 "Brilliant Economist"
+ spider:0 "People's favorite"
+ icehaired:0 "Ice-haired"
  ##IDEAS##
+ xenia_sobchak:0 "Xenia Sobchak"
+ vasilij_topolev:0 "Vasilij Topolev"
+ anatolij_mizzengendler:0 "Anatolij Mizzengendler"
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##

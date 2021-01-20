@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ SAR_hegemonism_party:0 "Saud Dynasty"
  ##COUNTRY NAME##
  SAR_hegemonism:0 "Saudi Arabia"
  SAR_hegemonism_DEF:0 "Saudi Arabia"
  ##TRAITS##
+ self_proclaimed_al_masiyah:0 "Self-proclaimed al-Masiyah"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

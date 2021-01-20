@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ TSY_socialism_party:0 "Syrian National Coalition"
  ##COUNTRY NAME##
  TSY_socialism:0 "Syrian National Council"
  TSY_socialism_DEF:0 "Syrian National Council"
  ##TRAITS##
+ turkish_lapdog:0 "Turkish Lapdog"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

@@ -1,6 +1,16 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ NOD_national_bolshevism_party:0 "Civil Defense"
+ NOD_neocameralism_party:0 "Eurasian Railroads"
+ NOD_socialism_party:0 "Union of Salvation"
+ NOD_right_populism_party:0 "Strong Russia"
+ NOD_hegemonism_party:0 "Gerasimov's Army"
+ NOD_left_authoritarianism_party:0 "Coalition of Self-Independent Humans"
+ NOD_commendationism_party:0 "Great Fatherland"
+ NOD_millenarism_party:0 "Parental All-Russian Resistanse"
+ NOD_ur_fascism_party:0 "Imperial Rule Assistance Association"
+ NOD_regressionism_party:0 "Katechon"
  ##COUNTRY NAME##
  NOD_national_bolshevism:0 "National Liberation Government"
  NOD_national_bolshevism_DEF:0 "National Liberation Government"

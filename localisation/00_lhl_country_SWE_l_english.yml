@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ SWE_ur_fascism_party:0 "Hovpartiet"
  ##COUNTRY NAME##
  SWE_ur_fascism:0 "Kingdom of Sweden"
  SWE_ur_fascism_DEF:0 "Kingdom of Sweden"
  ##TRAITS##
+ maid_of_goteborg:0 "Maid of Göteborg"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

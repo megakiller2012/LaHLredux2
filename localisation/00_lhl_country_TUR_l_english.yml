@@ -1,11 +1,13 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ TUR_hegemonism_party:0 "Justice and Development Party"
  ##COUNTRY NAME##
  TUR_hegemonism:0 "Sublime Porte"
  TUR_hegemonism_DEF:0 "Sublime Porte"
  ##TRAITS##
  ##IDEAS##
+ qaysar_i_rum:0 "Qaysar-i Rūm"
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##

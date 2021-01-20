@@ -1,6 +1,7 @@
 ﻿l_english:
  ##LEADERS##
- ##LEADERS##
+ ##POLITICAL_PARTIES##
+ UST_left_authoritarianism_party:0 "Union Government"
  ##COUNTRY_NAME##
  UST_left_authoritarianism:0 "Union State"
  UST_left_authoritarianism_DEF:0 "The Union State"

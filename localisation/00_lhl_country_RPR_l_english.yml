@@ -1,11 +1,14 @@
 ﻿l_english:
  ##LEADERS##
+  POLITICS_RPR_KARA_MURZA_DESC:0 "§YBiography:§! §WOver his long life, Sergej Georgievich Kara-Murza, born back in 1931, managed to change more than one specialty and more than one vocation. Having begun his career as a chemist (achieved significant success on the field of this science), in 1968 he abruptly goes down in history and later becomes a member of the commission of experts of the Central Committee of the CPSU on the organization of science.\n\nDuring the rule of the Jel’tsin criminal regime, Kara-Murza continued to work in the government bodies. With the establishment of Jegor Letov’s administration, Sergej Georgievich became a member of the National Bolshevik Party, where he became a prominent representative of the left-patriotic wing.\n\nKara-Murza is a zealous advocate of the ideals of collectivism, the "traditional" ideocratic society and rational thinking. On the whole, he has a positive attitude to the historical experience of the USSR, criticizing Marxism from positions close to Antonio Gramsci and Folkism. Respectfully refers to religion, he speaks rather warmly about Orthodoxy.\n\nWith the collapse of the Eurasian Union, Kara-Murza headed the Penza Provisional Government of Russia (also known as «Land and Liberty Movement»), formed by left-wing National Bolsheviks and representatives of the People’s Patriotic Union «Rodina».§!"
  ##POLITICAL PARTIES##
+ RPR_socialism_party:0 "Land and Liberty Movement"
  ##COUNTRY NAME##
  RPR_socialism:0 "Land and Liberty"
  RPR_socialism_DEF:0 "Land and Liberty Movement"
  ##TRAITS##
  ##IDEAS##
+ leftwing_intellectual:0 "Left-wing Intellectual"
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##

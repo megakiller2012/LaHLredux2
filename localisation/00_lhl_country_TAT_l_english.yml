@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ TAT_left_authoritarianism_party:0 "World Congress of Tatars"
  ##COUNTRY NAME##
  TAT_left_authoritarianism:0 "Republic of Tatarstan"
  TAT_left_authoritarianism_DEF:0 "Republic of Tatarstan"
  ##TRAITS##
+ old_boar:0 "Old Boar"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

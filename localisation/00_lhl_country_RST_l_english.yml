@@ -1,17 +1,20 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ RST_millenarism_party:0 "Essence of Time"
  ##COUNTRY NAME##
  RST_millenarism:0 "Roman Social Tsardom"
  RST_millenarism_DEF:0 "Roman Social Tsardom"
  ##TRAITS##
+ tyrant:0 "Tyrant"
+ white_tsar:0 "White Tsar'"
+ voice_of_ancestors:0 "Voice of Ancestors"
+ keeper_of_the_lore:0 "Keeper of the RUS Lore"
  ##IDEAS##
  valerij_chudinov:0 "Valerij Chudinov"
  anatolij_fomenko:0 "Anatolij Fomenko"
  jurij_petukhov:0 "Jurij Petukhov"
- tyrant:0 "Tyrant"
- white_tsar:0 "White Tsar'"
- voice_of_ancestors:0 "Voice of Ancestors"
+ jurij_rybnikov:0 "Jurij Rybnikov"
  ##FOCUS TREES##
  RST_stateoraculs:0 "State Oracles"
  RST_stateoraculs_desc:0 "State Oracles"

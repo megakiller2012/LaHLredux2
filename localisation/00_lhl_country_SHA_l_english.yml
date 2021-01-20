@@ -1,6 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ SHA_ur_fascism_party:0 "Greek Administration"
+ SHA_neocameralism_party:0 "French Administration"
+ SHA_right_populism_party:0 "Iranian Administration"
+ SHA_national_bolshevism_party:0 "Eurasian Administration"
+ SHA_hegemonism_party:0 "Japanese Administration"
+ SHA_socialism_party:0 "German Administration"
  ##COUNTRY NAME##
  SHA_national_bolshevism:0 "Yangtze Occupation Zone"
  SHA_national_bolshevism_DEF:0 "Yangtze Occupation Zone"

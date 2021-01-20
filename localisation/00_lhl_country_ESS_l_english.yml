@@ -1,7 +1,15 @@
 ﻿l_english:
- ###Party###
- ###Name###
- ###Focuses###
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ESS_national_bolshevism_party:0 "British Union"
+ ##COUNTRY NAME##
+ ESS_neocameralism:0 "Nationalists"
+ ESS_neocameralism_DEF:0 "State of Great Britain"
+ ##TRAITS##
+ ##IDEAS##
+ nick_land:0 "Nick Land"
+ mad_max:0 "Mad Max"
+ ##FOCUS TREES##
  ESS_luciferoverlondon:0 "Lucifer over London"
  ESS_luciferoverlondon_desc:0 "Police Coup"
  ESS_national_revolutionary_army:0 "National Revolutionary Army"
@@ -387,7 +395,6 @@
  ESS_happiness_is_a_warm_gun_desc:0 "Happiness is a Warm Gun"  
  
  ESS_revival_of_formula_one:0 "Revival of Formula One"
- ESS_revival_of_formula_one_desc:0 "Revival of Formula One"  
- 
- ###guns###
- 
+ ESS_revival_of_formula_one_desc:0 "Revival of Formula One" 
+ ##DECISIONS##
+ ##EVENTS##

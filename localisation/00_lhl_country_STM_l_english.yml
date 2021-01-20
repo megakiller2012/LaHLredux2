@@ -1,10 +1,13 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ STM_regressionism_party:0 "Russian Peasant Assembly"
+ STM_millenarism_party:0 "Followers of God Kuzya"
  ##COUNTRY NAME##
  STM_regressionism:0 "Sterligov Manor"
  STM_regressionism_DEF:0 "The Sterligov's Manor"
  ##TRAITS##
+ chevalier_of_fortune:0 "Chevalier of Fortune"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

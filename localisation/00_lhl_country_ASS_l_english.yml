@@ -1,10 +1,12 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ ASS_national_bolshevism_party:0 "Ba'ath Party (Hard-line)"
  ##COUNTRY NAME##
  ASS_national_bolshevism:0 "Alawite State"
  ASS_national_bolshevism_DEF:0 "Alawite State"
  ##TRAITS##
+ lion_of_syria:0 "Lion of Syria"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

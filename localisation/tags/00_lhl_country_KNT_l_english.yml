@@ -1,9 +1,14 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ KNT_right_populism_party:0 "Ultra-Tories"
  ##COUNTRY NAME##
+ KNT_right_populism:0 "Jacobites"
+ KNT_right_populism_DEF:0 "Kingdom of Great Britain"
  ##TRAITS##
+ high_handed_despot:0 "High-handed Despot"
  ##IDEAS##
+ patrick_cormack:0 "Patrick Cormack"
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##

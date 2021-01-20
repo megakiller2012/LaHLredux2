@@ -52,6 +52,8 @@
  White_Ataman:0 "White Ataman"
  Tank_General:0 "Tank General"
  MotoGusar:0 "MotoGusar"
+ first_oprichnik:0 "Oprichnik"
+ scourge_of_god:0 "Scourge of God"
  ##IDEAS##
  Smirnov:0 "Patriarch Smirnov"
  Aleksey_Krivoruchko:0 "Aleksej Krivoruchko"
@@ -85,6 +87,7 @@
  Aleksandr_Shevchenko:0 "Aleksandr Shevchenko"
  Valera_Kamshilov:0 "Valerij Kamshilov"
  Dmitrij_Trunenkov:0 "Dmitrij Trunenkov"
+ vladimir_sorokin:0 "Vladimir Sorokin"
  ##FOCUS TREES##
  RTS_Beautiful_Saffron:0 "Beautiful Saffron"
  RTS_Jeux_denfants:0 "Jeux D'enfants"

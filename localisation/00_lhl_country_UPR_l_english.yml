@@ -1,10 +1,16 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ UPR_regressionism_party:0 "Radical Party"
  ##COUNTRY NAME##
  UPR_regressionism:0 "Ukrainian Peasant Republic"
  UPR_regressionism_DEF:0 "Ukrainian Peasant Republic"
  ##TRAITS##
+ barking_buffoon:0 "Barking Buffoon"
+ ambitious_parvenu:0 "Ambitious Parvenu"
+ waste_of_space:0 "Waste of Space"
+ reviver_of_lesser_russia:0 "Reviver of Lesser Russia"
+ inexperienced_enthusiast:0 "Inexperienced Enthusiast"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##
