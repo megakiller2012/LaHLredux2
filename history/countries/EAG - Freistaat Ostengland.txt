@@ -1,4 +1,4 @@
-﻿capital = 1004
+﻿capital = 125
 
 oob = "EAG_2020"
 
@@ -23,79 +23,9 @@ set_popularities = {
 create_country_leader = {
 	name = "Josef Maria Klumb"
 	desc = ""
-	picture = "Portrait_EAG_Josef_Maria_Klumb.dds"
+	picture = "josef_maria_klumb.dds"
 	ideology = stratocracy
 	traits = {
 		
 	}
-}
-create_corps_commander = {
-	name = "Wolfgang Schneiderhan"
-		picture = ".dds"
-	traits = {}
-	skill = 3
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Reinhard Günzel"
-		picture = ".dds"
-	traits = { politically_connected }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Dag Baehr"
-		picture = ".dds"
-	traits = { commando }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Heinz Feldmann"
-		picture = ".dds"
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Christian Freuding"
-		picture = ".dds"
-	traits = { panzer_leader }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Georg Pazderski"
-		picture = ".dds"
-	traits = { politically_connected ambusher}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Erich Vad"
-		picture = ".dds"
-	traits = {}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
 }
