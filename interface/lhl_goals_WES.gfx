@@ -1,338 +1,338 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_return_king"
-		texturefile = "gfx/interface/goals/WES/return_king.dds"
+		name = "GFX_goal_WES_return_king"
+		texturefile = "gfx/interface/goals/WES/goal_WES_return_king.dds"
 	}
 	SpriteType = {
-		name = "GFX_wes_artilerry_man"
-		texturefile = "gfx/interface/goals/WES/wes_artilerry_man.dds"
+		name = "GFX_goal_WES_artilerry_man"
+		texturefile = "gfx/interface/goals/WES/goal_WES_artilerry_man.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_fight_monarchy"
-		texturefile = "gfx/interface/goals/WES/WES_fight_monarchy.dds"
+		name = "GFX_goal_WES_fight_monarchy"
+		texturefile = "gfx/interface/goals/WES/goal_WES_fight_monarchy.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_battle_britain"
-		texturefile = "gfx/interface/goals/WES/WES_battle_britain.dds"
+		name = "GFX_goal_WES_battle_britain"
+		texturefile = "gfx/interface/goals/WES/goal_WES_battle_britain.dds"
 	}
 	SpriteType = {
-		name = "GFX_wes_heroes_skies"
-		texturefile = "gfx/interface/goals/WES/wes_heroes_skies.dds"
+		name = "GFX_goal_WES_heroes_skies"
+		texturefile = "gfx/interface/goals/WES/goal_WES_heroes_skies.dds"
 	}
 	SpriteType = {
-		name = "GFX_wes_museum_pieces"
-		texturefile = "gfx/interface/goals/WES/wes_museum_pieces.dds"
+		name = "GFX_goal_WES_museum_pieces"
+		texturefile = "gfx/interface/goals/WES/goal_WES_museum_pieces.dds"
 	}
 	SpriteType = {
-		name = "GFX_wes_protect_land"
-		texturefile = "gfx/interface/goals/WES/wes_protect_land.dds"
+		name = "GFX_goal_WES_protect_land"
+		texturefile = "gfx/interface/goals/WES/goal_WES_protect_land.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_rebuild_schools"
-		texturefile = "gfx/interface/goals/WES/WES_rebuild_schools.dds"
+		name = "GFX_goal_WES_rebuild_schools"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rebuild_schools.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_royal_military"
-		texturefile = "gfx/interface/goals/WES/WES_royal_military.dds"
+		name = "GFX_goal_WES_royal_military"
+		texturefile = "gfx/interface/goals/WES/goal_WES_royal_military.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_rules_skies"
-		texturefile = "gfx/interface/goals/WES/WES_rules_skies.dds"
+		name = "GFX_goal_WES_rules_skies"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rules_skies.dds"
 	}
 	SpriteType = {
-		name = "GFX_wes_top_grade"
-		texturefile = "gfx/interface/goals/WES/wes_top_grade.dds"
+		name = "GFX_goal_WES_top_grade"
+		texturefile = "gfx/interface/goals/WES/goal_WES_top_grade.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_weapon_Guilds"
-		texturefile = "gfx/interface/goals/WES/WES_weapon_Guilds.dds"
+		name = "GFX_goal_WES_weapon_Guilds"
+		texturefile = "gfx/interface/goals/WES/goal_WES_weapon_Guilds.dds"
 	}
 	SpriteType = {
-		name = "GFX_wes_concentrated_strikes"
-		texturefile = "gfx/interface/goals/WES/wes_concentrated_strikes.dds"
+		name = "GFX_goal_WES_concentrated_strikes"
+		texturefile = "gfx/interface/goals/WES/goal_WES_concentrated_strikes.dds"
 	}
 	SpriteType = {
-		name = "GFX_wes_tank_knights"
-		texturefile = "gfx/interface/goals/WES/wes_tank_knights.dds"
+		name = "GFX_goal_WES_tank_knights"
+		texturefile = "gfx/interface/goals/WES/goal_WES_tank_knights.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_fortress_britain"
-		texturefile = "gfx/interface/goals/WES/WES_fortress_britain.dds"
+		name = "GFX_goal_WES_fortress_britain"
+		texturefile = "gfx/interface/goals/WES/goal_WES_fortress_britain.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_battle_faiths"
-		texturefile = "gfx/interface/goals/WES/WES_battle_faiths.dds"
+		name = "GFX_goal_WES_battle_faiths"
+		texturefile = "gfx/interface/goals/WES/goal_WES_battle_faiths.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_final_decision"
-		texturefile = "gfx/interface/goals/WES/WES_final_decision.dds"
+		name = "GFX_goal_WES_final_decision"
+		texturefile = "gfx/interface/goals/WES/goal_WES_final_decision.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_ideological_conflict"
-		texturefile = "gfx/interface/goals/WES/WES_ideological_conflict.dds"
+		name = "GFX_goal_WES_ideological_conflict"
+		texturefile = "gfx/interface/goals/WES/goal_WES_ideological_conflict.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_knight_mercia"
-		texturefile = "gfx/interface/goals/WES/WES_knight_mercia.dds"
+		name = "GFX_goal_WES_knight_mercia"
+		texturefile = "gfx/interface/goals/WES/goal_WES_knight_mercia.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_cringe"
-		texturefile = "gfx/interface/goals/WES/wes_arise_folk.dds"
+		name = "GFX_goal_WES_cringe"
+		texturefile = "gfx/interface/goals/WES/goal_WES_arise_folk.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_battle_camlann"
-		texturefile = "gfx/interface/goals/WES/wes_battle_camlann.dds"
+		name = "GFX_goal_WES_battle_camlann"
+		texturefile = "gfx/interface/goals/WES/goal_WES_battle_camlann.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_traitors_fate"
-		texturefile = "gfx/interface/goals/WES/WES_traitors_fate.dds"
+		name = "GFX_goal_WES_traitors_fate"
+		texturefile = "gfx/interface/goals/WES/goal_WES_traitors_fate.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_road_unification"
-		texturefile = "gfx/interface/goals/WES/wes_road_unification.dds"
+		name = "GFX_goal_WES_road_unification"
+		texturefile = "gfx/interface/goals/WES/goal_WES_road_unification.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_catholic_scourge"
-		texturefile = "gfx/interface/goals/WES/wes_catholic_scourge.dds"
+		name = "GFX_goal_WES_catholic_scourge"
+		texturefile = "gfx/interface/goals/WES/goal_WES_catholic_scourge.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_no_place_for_anglophobes"
-		texturefile = "gfx/interface/goals/WES/wes_no_place_for_anglophobes.dds"
+		name = "GFX_goal_WES_no_place_for_anglophobes"
+		texturefile = "gfx/interface/goals/WES/goal_WES_no_place_for_anglophobes.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_retake_capital"
-		texturefile = "gfx/interface/goals/WES/wes_retake_capital.dds"
+		name = "GFX_goal_WES_retake_capital"
+		texturefile = "gfx/interface/goals/WES/goal_WES_retake_capital.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_the_teuton_menace"
-		texturefile = "gfx/interface/goals/WES/wes_the_teuton_menace.dds"
+		name = "GFX_goal_WES_the_teuton_menace"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_teuton_menace.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_A_new_age_of_Chilvary"
-		texturefile = "gfx/interface/goals/WES/WES_A_new_age_of_Chilvary.dds"
+		name = "GFX_goal_WES_A_new_age_of_Chilvary"
+		texturefile = "gfx/interface/goals/WES/goal_WES_A_new_age_of_Chilvary.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_a_pastoral_life"
-		texturefile = "gfx/interface/goals/WES/WES_a_pastoral_life.dds"
+		name = "GFX_goal_WES_a_pastoral_life"
+		texturefile = "gfx/interface/goals/WES/goal_WES_a_pastoral_life.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_A_subsistence_economy"
-		texturefile = "gfx/interface/goals/WES/WES_A_subsistence_economy.dds"
+		name = "GFX_goal_WES_A_subsistence_economy"
+		texturefile = "gfx/interface/goals/WES/goal_WES_A_subsistence_economy.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_careful_reform"
-		texturefile = "gfx/interface/goals/WES/WES_careful_reform.dds"
+		name = "GFX_goal_WES_careful_reform"
+		texturefile = "gfx/interface/goals/WES/goal_WES_careful_reform.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_competetive_spirit"
-		texturefile = "gfx/interface/goals/WES/WES_competetive_spirit.dds"
+		name = "GFX_goal_WES_competetive_spirit"
+		texturefile = "gfx/interface/goals/WES/goal_WES_competetive_spirit.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Connect_With_Nature"
-		texturefile = "gfx/interface/goals/WES/WES_Connect_With_Nature.dds"
+		name = "GFX_goal_WES_Connect_With_Nature"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Connect_With_Nature.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_dismantle_cities"
-		texturefile = "gfx/interface/goals/WES/WES_dismantle_cities.dds"
+		name = "GFX_goal_WES_dismantle_cities"
+		texturefile = "gfx/interface/goals/WES/goal_WES_dismantle_cities.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_embrace_modernity"
-		texturefile = "gfx/interface/goals/WES/WES_embrace_modernity.dds"
+		name = "GFX_goal_WES_embrace_modernity"
+		texturefile = "gfx/interface/goals/WES/goal_WES_embrace_modernity.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Embrace_The_Human_Nature"
-		texturefile = "gfx/interface/goals/WES/WES_Embrace_The_Human_Nature.dds"
+		name = "GFX_goal_WES_Embrace_The_Human_Nature"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Embrace_The_Human_Nature.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_End_of_the_Industrial_Society"
-		texturefile = "gfx/interface/goals/WES/WES_End_of_the_Industrial_Society.dds"
+		name = "GFX_goal_WES_End_of_the_Industrial_Society"
+		texturefile = "gfx/interface/goals/WES/goal_WES_End_of_the_Industrial_Society.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Jousing"
-		texturefile = "gfx/interface/goals/WES/WES_Jousing.dds"
+		name = "GFX_goal_WES_Jousing"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Jousing.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Long_Term_Planning"
-		texturefile = "gfx/interface/goals/WES/WES_Long_Term_Planning.dds"
+		name = "GFX_goal_WES_Long_Term_Planning"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Long_Term_Planning.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Mannerbunds"
-		texturefile = "gfx/interface/goals/WES/WES_Mannerbunds.dds"
+		name = "GFX_goal_WES_Mannerbunds"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Mannerbunds.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Medieval_State"
-		texturefile = "gfx/interface/goals/WES/WES_Medieval_State.dds"
+		name = "GFX_goal_WES_Medieval_State"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Medieval_State.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_rebuild_the_scenery"
-		texturefile = "gfx/interface/goals/WES/WES_rebuild_the_scenery.dds"
+		name = "GFX_goal_WES_rebuild_the_scenery"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rebuild_the_scenery.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_relocation_programs"
-		texturefile = "gfx/interface/goals/WES/WES_relocation_programs.dds"
+		name = "GFX_goal_WES_relocation_programs"
+		texturefile = "gfx/interface/goals/WES/goal_WES_relocation_programs.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_return_tradition"
-		texturefile = "gfx/interface/goals/WES/WES_return_tradition.dds"
+		name = "GFX_goal_WES_return_tradition"
+		texturefile = "gfx/interface/goals/WES/goal_WES_return_tradition.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Rule_of_george"
-		texturefile = "gfx/interface/goals/WES/WES_Rule_of_george.dds"
+		name = "GFX_goal_WES_Rule_of_george"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Rule_of_george.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_rural_paradise"
-		texturefile = "gfx/interface/goals/WES/WES_rural_paradise.dds"
+		name = "GFX_goal_WES_rural_paradise"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rural_paradise.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Simplified_Infrastructure"
-		texturefile = "gfx/interface/goals/WES/WES_Simplified_Infrastructure.dds"
+		name = "GFX_goal_WES_Simplified_Infrastructure"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Simplified_Infrastructure.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_societal_roles"
-		texturefile = "gfx/interface/goals/WES/WES_societal_roles.dds"
+		name = "GFX_goal_WES_societal_roles"
+		texturefile = "gfx/interface/goals/WES/goal_WES_societal_roles.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_The_Days_of_Old"
-		texturefile = "gfx/interface/goals/WES/WES_The_Days_of_Old.dds"
+		name = "GFX_goal_WES_The_Days_of_Old"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_Days_of_Old.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_voluntary_colonialism"
-		texturefile = "gfx/interface/goals/WES/WES_voluntary_colonialism.dds"
+		name = "GFX_goal_WES_voluntary_colonialism"
+		texturefile = "gfx/interface/goals/WES/goal_WES_voluntary_colonialism.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Worthie_of_england"
-		texturefile = "gfx/interface/goals/WES/WES_Worthie_of_england.dds"
+		name = "GFX_goal_WES_Worthie_of_england"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Worthie_of_england.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Virtue_Test"
-		texturefile = "gfx/interface/goals/WES/WES_Virtue_Test.dds"
+		name = "GFX_goal_WES_Virtue_Test"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Virtue_Test.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_trial_of_courage"
-		texturefile = "gfx/interface/goals/WES/WES_trial_of_courage.dds"
+		name = "GFX_goal_WES_trial_of_courage"
+		texturefile = "gfx/interface/goals/WES/goal_WES_trial_of_courage.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_The_Law_of_the_king"
-		texturefile = "gfx/interface/goals/WES/WES_The_Law_of_the_king.dds"
+		name = "GFX_goal_WES_The_Law_of_the_king"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_Law_of_the_king.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_The_Law_of_England"
-		texturefile = "gfx/interface/goals/WES/WES_The_Law_of_England.dds"
+		name = "GFX_goal_WES_The_Law_of_England"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_Law_of_England.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_The_English_Tongue"
-		texturefile = "gfx/interface/goals/WES/WES_The_English_Tongue.dds"
+		name = "GFX_goal_WES_The_English_Tongue"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_English_Tongue.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_the_english_spirit"
-		texturefile = "gfx/interface/goals/WES/WES_the_english_spirit.dds"
+		name = "GFX_goal_WES_the_english_spirit"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_english_spirit.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_the_cult_of_shakespear"
-		texturefile = "gfx/interface/goals/WES/WES_the_cult_of_shakespear.dds"
+		name = "GFX_goal_WES_the_cult_of_shakespear"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_cult_of_shakespear.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Soldier_King"
-		texturefile = "gfx/interface/goals/WES/WES_Soldier_King.dds"
+		name = "GFX_goal_WES_Soldier_King"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Soldier_King.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Slaves_and_Masters"
-		texturefile = "gfx/interface/goals/WES/WES_Slaves_and_Masters.dds"
+		name = "GFX_goal_WES_Slaves_and_Masters"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Slaves_and_Masters.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_round_table"
-		texturefile = "gfx/interface/goals/WES/WES_round_table.dds"
+		name = "GFX_goal_WES_round_table"
+		texturefile = "gfx/interface/goals/WES/goal_WES_round_table.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Protector_of_England"
-		texturefile = "gfx/interface/goals/WES/WES_Protector_of_England.dds"
+		name = "GFX_goal_WES_Protector_of_England"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Protector_of_England.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_New_Curriculum"
-		texturefile = "gfx/interface/goals/WES/WES_New_Curriculum.dds"
+		name = "GFX_goal_WES_New_Curriculum"
+		texturefile = "gfx/interface/goals/WES/goal_WES_New_Curriculum.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_mutual_prosperity"
-		texturefile = "gfx/interface/goals/WES/WES_mutual_prosperity.dds"
+		name = "GFX_goal_WES_mutual_prosperity"
+		texturefile = "gfx/interface/goals/WES/goal_WES_mutual_prosperity.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_mighty_men_of_england"
-		texturefile = "gfx/interface/goals/WES/WES_mighty_men_of_england.dds"
+		name = "GFX_goal_WES_mighty_men_of_england"
+		texturefile = "gfx/interface/goals/WES/goal_WES_mighty_men_of_england.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Matters_of_The_future"
-		texturefile = "gfx/interface/goals/WES/WES_Matters_of_The_future.dds"
+		name = "GFX_goal_WES_Matters_of_The_future"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Matters_of_The_future.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_many_tongues_of_britain"
-		texturefile = "gfx/interface/goals/WES/WES_many_tongues_of_britain.dds"
+		name = "GFX_goal_WES_many_tongues_of_britain"
+		texturefile = "gfx/interface/goals/WES/goal_WES_many_tongues_of_britain.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Local_Administrations"
-		texturefile = "gfx/interface/goals/WES/WES_Local_Administrations.dds"
+		name = "GFX_goal_WES_Local_Administrations"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Local_Administrations.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Kings_speech"
-		texturefile = "gfx/interface/goals/WES/WES_Kings_speech.dds"
+		name = "GFX_goal_WES_Kings_speech"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Kings_speech.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Holy_Grail2"
-		texturefile = "gfx/interface/goals/WES/WES_Holy_Grail2.dds"
+		name = "GFX_goal_WES_Holy_Grail2"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Holy_Grail2.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_heroic_absolutism"
-		texturefile = "gfx/interface/goals/WES/WES_heroic_absolutism.dds"
+		name = "GFX_goal_WES_heroic_absolutism"
+		texturefile = "gfx/interface/goals/WES/goal_WES_heroic_absolutism.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_great_embassy"
-		texturefile = "gfx/interface/goals/WES/WES_great_embassy.dds"
+		name = "GFX_goal_WES_great_embassy"
+		texturefile = "gfx/interface/goals/WES/goal_WES_great_embassy.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Death_Of_Pop_Culture"
-		texturefile = "gfx/interface/goals/WES/WES_Death_Of_Pop_Culture.dds"
+		name = "GFX_goal_WES_Death_Of_Pop_Culture"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Death_Of_Pop_Culture.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_cultural_symbiosis"
-		texturefile = "gfx/interface/goals/WES/WES_cultural_symbiosis.dds"
+		name = "GFX_goal_WES_cultural_symbiosis"
+		texturefile = "gfx/interface/goals/WES/goal_WES_cultural_symbiosis.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_common_men"
-		texturefile = "gfx/interface/goals/WES/WES_common_men.dds"
+		name = "GFX_goal_WES_common_men"
+		texturefile = "gfx/interface/goals/WES/goal_WES_common_men.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Clinging_to_the_Present"
-		texturefile = "gfx/interface/goals/WES/WES_Clinging_to_the_Present.dds"
+		name = "GFX_goal_WES_Clinging_to_the_Present"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Clinging_to_the_Present.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Charity"
-		texturefile = "gfx/interface/goals/WES/WES_Charity.dds"
+		name = "GFX_goal_WES_Charity"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Charity.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Centralized_Education"
-		texturefile = "gfx/interface/goals/WES/WES_Centralized_Education.dds"
+		name = "GFX_goal_WES_Centralized_Education"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Centralized_Education.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_A_Clean_Start"
-		texturefile = "gfx/interface/goals/WES/WES_A_Clean_Start.dds"
+		name = "GFX_goal_WES_A_Clean_Start"
+		texturefile = "gfx/interface/goals/WES/goal_WES_A_Clean_Start.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_test_of_wisdom"
-		texturefile = "gfx/interface/goals/WES/WES_test_of_wisdom.dds"
+		name = "GFX_goal_WES_test_of_wisdom"
+		texturefile = "gfx/interface/goals/WES/goal_WES_test_of_wisdom.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Sword_In_The_Stone"
-		texturefile = "gfx/interface/goals/WES/WES_Sword_In_The_Stone.dds"
+		name = "GFX_goal_WES_Sword_In_The_Stone"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Sword_In_The_Stone.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Strength_Of-Monarchy"
-		texturefile = "gfx/interface/goals/WES/WES_Strength_Of-Monarchy.dds"
+		name = "GFX_goal_WES_Strength_Of-Monarchy"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Strength_Of-Monarchy.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Strength Of Monarchy"
-		texturefile = "gfx/interface/goals/WES/WES_Strength Of Monarchy.dds"
+		name = "GFX_goal_WES_Strength Of Monarchy"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Strength Of Monarchy.dds"
 	}
 	SpriteType = {
-		name = "GFX_WES_Perish_The_Thought"
-		texturefile = "gfx/interface/goals/WES/WES_Perish_The_Thought.dds"
+		name = "GFX_goal_WES_Perish_The_Thought"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Perish_The_Thought.dds"
 	}
 }

@@ -2,7 +2,7 @@
 
 shared_focus = {
 	id = EAG_rob_fatherland
-	icon = GFX_EAG_rob_fatherland
+	icon = GFX_goal_EAG_rob_fatherland
 	cost = 10
 	x = 3
 	y = 0
@@ -10,7 +10,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_steal_equipment
-	icon = GFX_EAG_steal_equipment
+	icon = GFX_goal_EAG_steal_equipment
 	prerequisite = {
 		focus = EAG_rob_fatherland 
 	}
@@ -21,7 +21,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_request_personnel
-	icon = GFX_EAG_request_personnel
+	icon = GFX_goal_EAG_request_personnel
 	prerequisite = {
 		focus = EAG_rob_fatherland
 	}
@@ -32,7 +32,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_ask_loan
-	icon = GFX_EAG_ask_loan
+	icon = GFX_goal_EAG_ask_loan
 	prerequisite = {
 		focus = EAG_rob_fatherland
 	}
@@ -43,7 +43,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_redirect_gastarbeiters
-	icon = GFX_EAG_redirect_gastarbeiters
+	icon = GFX_goal_EAG_redirect_gastarbeiters
 	prerequisite = {
 		focus = EAG_rob_fatherland
 	}
@@ -54,7 +54,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_hijack_transports
-	icon = GFX_EAG_hijack_transports
+	icon = GFX_goal_EAG_hijack_transports
 	prerequisite = {
 		focus = EAG_steal_equipment
 		focus = EAG_request_personnel
@@ -66,7 +66,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_trick_merkel
-	icon = GFX_EAG_trick_merkel
+	icon = GFX_goal_EAG_trick_merkel
 	prerequisite = {
 		focus = EAG_request_personnel
 		focus = EAG_ask_loan
@@ -78,7 +78,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_ponzi_scheme
-	icon = GFX_EAG_ponzi_scheme
+	icon = GFX_goal_EAG_ponzi_scheme
 	prerequisite = {
 		focus = EAG_ask_loan
 		focus = EAG_redirect_gastarbeiters
@@ -90,7 +90,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_convince_military
-	icon = GFX_EAG_convince_military
+	icon = GFX_goal_EAG_convince_military
 	prerequisite = {
 		focus = EAG_hijack_transports
 		focus = EAG_trick_merkel
@@ -102,7 +102,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_pgerman_investors
-	icon = GFX_EAG_pgerman_investors
+	icon = GFX_goal_EAG_pgerman_investors
 	prerequisite = {
 		focus = EAG_trick_merkel
 		focus = EAG_ponzi_scheme
@@ -117,7 +117,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_chain_broken
-	icon = GFX
+	icon = GFX_goal_EAG_chain_broken
 	cost = 10
 	x = 11
 	y = 0
@@ -125,7 +125,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_seize_arsenal
-	icon = GFX
+	icon = GFX_goal_EAG_seize_arsenal
 	prerequisite = {
 		focus = EAG_chain_broken
 	}
@@ -136,7 +136,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_rally_men
-	icon = GFX
+	icon = GFX_goal_EAG_rally_men
 	prerequisite = {
 		focus = EAG_chain_broken
 	}
@@ -147,7 +147,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_battle_norwich
-	icon = GFX
+	icon = GFX_goal_EAG_battle_norwich
 	prerequisite = {
 		focus = EAG_seize_arsenal
 	}
@@ -161,7 +161,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_the_anarchists
-	icon = GFX
+	icon = GFX_goal_EAG_anarchists
 	prerequisite = {
 		focus = EAG_battle_norwich
 	}
@@ -172,7 +172,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_the_governor
-	icon = GFX
+	icon = GFX_goal_EAG_the_governor
 	prerequisite = {
 		focus = EAG_battle_norwich
 	}
@@ -183,7 +183,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_the_mercenary
-	icon = GFX
+	icon = GFX_goal_EAG_the_mercenary
 	prerequisite = {
 		focus = EAG_battle_norwich
 	}
@@ -478,7 +478,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_english_tachanka
-	icon = GFX
+	icon = GFX_goal_EAG_Englich_Tachanka
 	prerequisite = {
 		focus = EAG_guerilla_warfare
 	}
@@ -516,7 +516,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_trouble_countryside
-	icon = GFX
+	icon = GFX_goal_EAG_trouble_countryside
 	cost = 10
 	x = 20
 	y = 0
@@ -524,7 +524,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_take_capital
-	icon = GFX
+	icon = GFX_goal_EAG_take_the_capital
 	prerequisite = {
 		focus = EAG_trouble_countryside
 	}
@@ -535,7 +535,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_crush_fanatics
-	icon = GFX
+	icon = GFX_goal_EAG_crush_the_fanatics
 	prerequisite = {
 		focus = EAG_trouble_countryside
 	}
@@ -546,7 +546,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_settler_promises
-	icon = GFX
+	icon = GFX_goal_EAG_setter_promises
 	prerequisite = {
 		focus = EAG_take_capital
 	}
@@ -560,51 +560,51 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_southern_thrust
-	icon = GFX
+	icon = GFX_goal_EAG_southen_thrust
 	prerequisite = {
 		focus = EAG_settler_promises
 	}
 	cost = 10
 	x = 20
-	y = 3
+	y = 4
 }
 
 shared_focus = {
 	id = EAG_red_king
-	icon = GFX
+	icon = GFX_goal_EAG_behead_the_red_king
 	prerequisite = {
 		focus = EAG_southern_thrust
 	}
 	cost = 10
 	x = 18
-	y = 4
+	y = 5
 }
 
 shared_focus = {
 	id = EAG_kill_catholics
-	icon = GFX
+	icon = GFX_goal_EAG_extinquish_thec_atholics
 	prerequisite = {
 		focus = EAG_southern_thrust
 	}
 	cost = 10
 	x = 20
-	y = 4
+	y = 5
 }
 
 shared_focus = {
 	id = EAG_fall_arthur
-	icon = GFX
+	icon = GFX_goal_EAG_fall_of_arthur
 	prerequisite = {
 		focus = EAG_southern_thrust
 	}
 	cost = 10
 	x = 22
-	y = 4
+	y = 5
 }
 
 shared_focus = {
 	id = EAG_fate_cornwall
-	icon = GFX
+	icon = GFX_goal_EAG_fate_of_cronwell
 	prerequisite = {
 		focus = EAG_red_king
 	}
@@ -613,12 +613,12 @@ shared_focus = {
 	}
 	cost = 10
 	x = 19
-	y = 5
+	y = 6
 }
 
 shared_focus = {
 	id = EAG_communes_britain
-	icon = GFX
+	icon = GFX_goal_EAG_the_communes_of_britain
 	prerequisite = {
 		focus = EAG_kill_catholics
 	}
@@ -627,12 +627,12 @@ shared_focus = {
 	}
 	cost = 10
 	x = 21
-	y = 5
+	y = 6
 }
 
 shared_focus = {
 	id = EAG_republican_deal
-	icon = GFX
+	icon = GFX_goal_EAG_repubclian_deal
 	prerequisite = {
 		focus = EAG_fate_cornwall
 	}
@@ -641,34 +641,34 @@ shared_focus = {
 	}
 	cost = 10
 	x = 20
-	y = 6
+	y = 7
 }
 
 shared_focus = {
 	id = EAG_liberate_scotland
-	icon = GFX
+	icon = GFX_goal_EAG_liberate_scotland
 	prerequisite = {
 		focus = EAG_republican_deal
 	}
 	cost = 10
 	x = 19
-	y = 7
+	y = 8
 }
 
 shared_focus = {
 	id = EAG_liberate_wales
-	icon = GFX
+	icon = GFX_goal_EAG_liberate_wales
 	prerequisite = {
 		focus = EAG_republican_deal
 	}
 	cost = 10
 	x = 21
-	y = 7
+	y = 8
 }
 
 shared_focus = {
 	id = EAG_final_solution
-	icon = GFX
+	icon = GFX_goal_EAG_the_final_solution
 	prerequisite = {
 		focus = EAG_liberate_scotland
 	}
@@ -677,7 +677,7 @@ shared_focus = {
 	}
 	cost = 10
 	x = 20
-	y = 8
+	y = 9
 }
 
 ### GOVERNOR ###

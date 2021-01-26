@@ -2,11 +2,11 @@ spriteTypes = {
 
 	#### George
 	SpriteType = {
-		name = "GFX_return_king_shine"
-		texturefile = "gfx/interface/goals/WES/return_king.dds"
+		name = "GFX_goal_WES_return_king_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_return_king.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/return_king.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_return_king.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -18,7 +18,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/return_king.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_return_king.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -32,11 +32,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_wes_artilerry_man_shine"
-		texturefile = "gfx/interface/goals/WES/wes_artilerry_man.dds"
+		name = "GFX_goal_WES_artilerry_man_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_artilerry_man.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_artilerry_man.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_artilerry_man.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -48,7 +48,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_artilerry_man.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_artilerry_man.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -62,11 +62,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_fight_monarchy_shine"
-		texturefile = "gfx/interface/goals/WES/WES_fight_monarchy.dds"
+		name = "GFX_goal_WES_fight_monarchy_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_fight_monarchy.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_fight_monarchy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_fight_monarchy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -78,7 +78,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_fight_monarchy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_fight_monarchy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -92,11 +92,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_fortress_britain_shine"
-		texturefile = "gfx/interface/goals/WES/WES_fortress_britain.dds"
+		name = "GFX_goal_WES_fortress_britain_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_fortress_britain.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_fortress_britain.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_fortress_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -108,7 +108,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_fortress_britain.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_fortress_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -122,11 +122,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_wes_heroes_skies_shine"
-		texturefile = "gfx/interface/goals/WES/wes_heroes_skies.dds"
+		name = "GFX_goal_WES_heroes_skies_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_heroes_skies.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_heroes_skies.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_heroes_skies.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -138,7 +138,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WESwes_heroes_skies.dds"
+			animationmaskfile = "gfx/interface/goals/WESWES_heroes_skies.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -152,11 +152,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_wes_museum_pieces_shine"
-		texturefile = "gfx/interface/goals/WES/wes_museum_pieces.dd"
+		name = "GFX_goal_WES_museum_pieces_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_museum_pieces.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_museum_pieces.dd"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_museum_pieces.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -168,7 +168,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_museum_pieces.dd"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_museum_pieces.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -182,11 +182,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_wes_protect_land_shine"
-		texturefile = "gfx/interface/goals/WES/wes_protect_land.dds"
+		name = "GFX_goal_WES_protect_land_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_protect_land.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_protect_land.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_protect_land.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -198,7 +198,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_protect_land.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_protect_land.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -212,11 +212,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_rebuild_schools_shine"
-		texturefile = "gfx/interface/goals/WES/WES_rebuild_schools.dds"
+		name = "GFX_goal_WES_rebuild_schools_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rebuild_schools.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rebuild_schools.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rebuild_schools.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -228,7 +228,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rebuild_schools.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rebuild_schools.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -242,11 +242,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_royal_military_shine"
-		texturefile = "gfx/interface/goals/WES/WES_royal_military.dds"
+		name = "GFX_goal_WES_royal_military_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_royal_military.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_royal_military.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_royal_military.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -258,7 +258,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_royal_military.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_royal_military.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -272,11 +272,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_rules_skies_shine"
-		texturefile = "gfx/interface/goals/WES/WES_rules_skies.dds"
+		name = "GFX_goal_WES_rules_skies_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rules_skies.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rules_skies.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rules_skies.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -288,7 +288,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rules_skies.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rules_skies.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -302,11 +302,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_wes_top_grade_shine"
-		texturefile = "gfx/interface/goals/WES/wes_top_grade.dds"
+		name = "GFX_goal_WES_top_grade_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_top_grade.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_top_grade.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_top_grade.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -318,7 +318,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_top_grade.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_top_grade.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -332,11 +332,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_weapon_Guilds_shine"
-		texturefile = "gfx/interface/goals/WES/WES_weapon_Guilds.dds"
+		name = "GFX_goal_WES_weapon_Guilds_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_weapon_Guilds.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_weapon_Guilds.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_weapon_Guilds.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -348,7 +348,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_weapon_Guilds.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_weapon_Guilds.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -362,11 +362,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_wes_concentrated_strikes_shine"
-		texturefile = "gfx/interface/goals/WES/wes_concentrated_strikes.dds"
+		name = "GFX_goal_WES_concentrated_strikes_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_concentrated_strikes.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_concentrated_strikes.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_concentrated_strikes.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -378,7 +378,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_concentrated_strikes.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_concentrated_strikes.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -392,11 +392,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_wes_tank_knights_shine"
-		texturefile = "gfx/interface/goals/WES/wes_tank_knights.dds"
+		name = "GFX_goal_WES_tank_knights_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_tank_knights.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_tank_knights.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_tank_knights.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -408,7 +408,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_tank_knights.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_tank_knights.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -422,11 +422,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_battle_britain_shine"
-		texturefile = "gfx/interface/goals/WES/wes_battle_britian.dds"
+		name = "GFX_goal_WES_battle_britain_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_battle_britian.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_battle_britain.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_battle_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -438,7 +438,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_battle_britain.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_battle_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -452,11 +452,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_battle_faiths_shine"
-		texturefile = "gfx/interface/goals/WES/WES_battle_faiths.dds"
+		name = "GFX_goal_WES_battle_faiths_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_battle_faiths.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_battle_faiths.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_battle_faiths.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -468,7 +468,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_battle_faiths.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_battle_faiths.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -482,11 +482,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_final_decision_shine"
-		texturefile = "gfx/interface/goals/WES/WES_final_decision.dds"
+		name = "GFX_goal_WES_final_decision_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_final_decision.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_final_decision.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_final_decision.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -498,7 +498,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_final_decision.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_final_decision.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -512,11 +512,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_ideological_conflict_shine"
-		texturefile = "gfx/interface/goals/WES/WES_ideological_conflict.dds"
+		name = "GFX_goal_WES_ideological_conflict_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_ideological_conflict.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_ideological_conflict.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_ideological_conflict.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -528,7 +528,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_ideological_conflict.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_ideological_conflict.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -542,11 +542,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_knight_mercia_shine"
-		texturefile = "gfx/interface/goals/WES/WES_knight_mercia.dds"
+		name = "GFX_goal_WES_knight_mercia_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_knight_mercia.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_knight_mercia.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_knight_mercia.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -558,7 +558,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_knight_mercia.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_knight_mercia.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -572,11 +572,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_cringe_shine"
-		texturefile = "gfx/interface/goals/WES/wes_arise_folk.dds"
+		name = "GFX_goal_WES_cringe_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_arise_folk.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_arise_folk.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_arise_folk.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -588,7 +588,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_arise_folk.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_arise_folk.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -602,11 +602,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_battle_camlann_shine"
-		texturefile = "gfx/interface/goals/WES/wes_battle_camlann.dds"
+		name = "GFX_goal_WES_battle_camlann_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_battle_camlann.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_battle_camlann.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_battle_camlann.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -618,7 +618,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_battle_camlann.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_battle_camlann.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -632,11 +632,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_traitors_fate_shine"
-		texturefile = "gfx/interface/goals/WES/WES_traitors_fate.dds"
+		name = "GFX_goal_WES_traitors_fate_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_traitors_fate.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_traitors_fate.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_traitors_fate.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -648,7 +648,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_traitors_fate.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_traitors_fate.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -662,11 +662,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_road_unification_shine"
-		texturefile = "gfx/interface/goals/WES/wes_road_unification.dds"
+		name = "GFX_goal_WES_road_unification_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_road_unification.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_road_unification.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_road_unification.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -678,7 +678,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_road_unification.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_road_unification.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -692,11 +692,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_catholic_scourge_shine"
-		texturefile = "gfx/interface/goals/WES/wes_catholic_scourge.dds"
+		name = "GFX_goal_WES_catholic_scourge_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_catholic_scourge.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_catholic_scourge.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_catholic_scourge.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -708,7 +708,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_catholic_scourge.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_catholic_scourge.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -722,11 +722,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_no_place_for_anglophobes_shine"
-		texturefile = "gfx/interface/goals/WES/wes_no_place_for_anglophobes.dds"
+		name = "GFX_goal_WES_no_place_for_anglophobes_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_no_place_for_anglophobes.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_no_place_for_anglophobes.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_no_place_for_anglophobes.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -738,7 +738,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_no_place_for_anglophobes.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_no_place_for_anglophobes.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -752,11 +752,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_retake_capital_shine"
-		texturefile = "gfx/interface/goals/WES/WES_retake_capital.dds"
+		name = "GFX_goal_WES_retake_capital_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_retake_capital.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_retake_capital.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_retake_capital.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -768,7 +768,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_retake_capital.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_retake_capital.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -782,11 +782,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_the_teuton_menace_shine"
-		texturefile = "gfx/interface/goals/WES/wes_the_teuton_menace.dds"
+		name = "GFX_goal_WES_the_teuton_menace_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_teuton_menace.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_the_teuton_menace.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_the_teuton_menace.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -798,7 +798,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/wes_the_teuton_menace.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_the_teuton_menace.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -812,11 +812,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_A_new_age_of_Chilvary_shine"
-		texturefile = "gfx/interface/goals/WES/WES_A_new_age_of_Chilvary.dds"
+		name = "GFX_goal_WES_A_new_age_of_Chilvary_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_A_new_age_of_Chilvary.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_A_new_age_of_Chilvary.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_A_new_age_of_Chilvary.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -828,7 +828,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_A_new_age_of_Chilvary.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_A_new_age_of_Chilvary.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -842,11 +842,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_a_pastoral_life_shine"
-		texturefile = "gfx/interface/goals/WES/WES_a_pastoral_life.dds"
+		name = "GFX_goal_WES_a_pastoral_life_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_a_pastoral_life.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_a_pastoral_life.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_a_pastoral_life.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -858,7 +858,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_a_pastoral_life.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_a_pastoral_life.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -872,11 +872,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_A_subsistence_economy_shine"
-		texturefile = "gfx/interface/goals/WES/WES_A_subsistence_economy.dds"
+		name = "GFX_goal_WES_A_subsistence_economy_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_A_subsistence_economy.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_A_subsistence_economy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_A_subsistence_economy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -888,7 +888,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_A_subsistence_economy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_A_subsistence_economy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -902,11 +902,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_careful_reform_shine"
-		texturefile = "gfx/interface/goals/WES/WES_careful_reform.dds"
+		name = "GFX_goal_WES_careful_reform_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_careful_reform.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_careful_reform.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_careful_reform.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -918,7 +918,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_careful_reform.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_careful_reform.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -932,11 +932,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_competetive_spirit_shine"
-		texturefile = "gfx/interface/goals/WES/WES_competetive_spirit.dds"
+		name = "GFX_goal_WES_competetive_spirit_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_competetive_spirit.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_competetive_spirit.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_competetive_spirit.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -948,7 +948,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_competetive_spirit.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_competetive_spirit.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -962,11 +962,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Connect_With_Nature_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Connect_With_Nature.dds"
+		name = "GFX_goal_WES_Connect_With_Nature_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Connect_With_Nature.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Connect_With_Nature.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Connect_With_Nature.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -978,7 +978,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Connect_With_Nature.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Connect_With_Nature.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -992,11 +992,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_dismantle_cities_shine"
-		texturefile = "gfx/interface/goals/WES/WES_dismantle_cities.dds"
+		name = "GFX_goal_WES_dismantle_cities_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_dismantle_cities.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_dismantle_cities.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_dismantle_cities.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1008,7 +1008,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_dismantle_cities.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_dismantle_cities.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1022,11 +1022,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_embrace_modernity_shine"
-		texturefile = "gfx/interface/goals/WES/WES_embrace_modernity.dds"
+		name = "GFX_goal_WES_embrace_modernity_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_embrace_modernity.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_embrace_modernity.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_embrace_modernity.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1038,7 +1038,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_embrace_modernity.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_embrace_modernity.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1052,11 +1052,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Embrace_The_Human_Nature_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Embrace_The_Human_Nature.dds"
+		name = "GFX_goal_WES_Embrace_The_Human_Nature_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Embrace_The_Human_Nature.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Embrace_The_Human_Nature.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Embrace_The_Human_Nature.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1068,7 +1068,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Embrace_The_Human_Nature.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Embrace_The_Human_Nature.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1082,11 +1082,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_End_of_the_Industrial_Society_shine"
-		texturefile = "gfx/interface/goals/WES/WES_End_of_the_Industrial_Society.dds"
+		name = "GFX_goal_WES_End_of_the_Industrial_Society_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_End_of_the_Industrial_Society.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_End_of_the_Industrial_Society.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_End_of_the_Industrial_Society.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1098,7 +1098,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_End_of_the_Industrial_Society.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_End_of_the_Industrial_Society.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1112,11 +1112,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Jousing_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Jousing.dds"
+		name = "GFX_goal_WES_Jousing_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Jousing.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Jousing.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Jousing.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1128,7 +1128,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Jousing.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Jousing.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1142,11 +1142,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Long_Term_Planning_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Long_Term_Planning.dds"
+		name = "GFX_goal_WES_Long_Term_Planning_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Long_Term_Planning.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Long_Term_Planning.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Long_Term_Planning.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1158,7 +1158,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Long_Term_Planning.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Long_Term_Planning.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1172,11 +1172,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Mannerbunds_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Mannerbunds.dds"
+		name = "GFX_goal_WES_Mannerbunds_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Mannerbunds.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Mannerbunds.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Mannerbunds.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1188,7 +1188,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Mannerbunds.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Mannerbunds.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1202,11 +1202,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Medieval_State_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Medieval_State.dds"
+		name = "GFX_goal_WES_Medieval_State_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Medieval_State.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Medieval_State.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Medieval_State.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1218,7 +1218,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Medieval_State.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Medieval_State.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1232,11 +1232,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_rebuild_the_scenery_shine"
-		texturefile = "gfx/interface/goals/WES/WES_rebuild_the_scenery.dds"
+		name = "GFX_goal_WES_rebuild_the_scenery_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rebuild_the_scenery.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rebuild_the_scenery.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rebuild_the_scenery.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1248,7 +1248,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rebuild_the_scenery.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rebuild_the_scenery.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1262,11 +1262,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_relocation_programs_shine"
-		texturefile = "gfx/interface/goals/WES/WES_relocation_programs.dds"
+		name = "GFX_goal_WES_relocation_programs_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_relocation_programs.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_relocation_programs.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_relocation_programs.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1278,7 +1278,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_relocation_programs.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_relocation_programs.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1292,11 +1292,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_return_tradition_shine"
-		texturefile = "gfx/interface/goals/WES/WES_return_tradition.dds"
+		name = "GFX_goal_WES_return_tradition_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_return_tradition.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_return_tradition.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_return_tradition.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1308,7 +1308,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_return_tradition.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_return_tradition.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1322,11 +1322,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Rule_of_george_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Rule_of_george.dds"
+		name = "GFX_goal_WES_Rule_of_george_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Rule_of_george.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Rule_of_george.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Rule_of_george.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1338,7 +1338,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Rule_of_george.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Rule_of_george.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1352,11 +1352,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_rural_paradise_shine"
-		texturefile = "gfx/interface/goals/WES/WES_rural_paradise.dds"
+		name = "GFX_goal_WES_rural_paradise_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_rural_paradise.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rural_paradise.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rural_paradise.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1368,7 +1368,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_rural_paradise.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_rural_paradise.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1382,11 +1382,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Simplified_Infrastructure_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Simplified_Infrastructure.dds"
+		name = "GFX_goal_WES_Simplified_Infrastructure_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Simplified_Infrastructure.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Simplified_Infrastructure.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Simplified_Infrastructure.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1398,7 +1398,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Simplified_Infrastructure.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Simplified_Infrastructure.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1412,11 +1412,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_societal_roles_shine"
-		texturefile = "gfx/interface/goals/WES/WES_societal_roles.dds"
+		name = "GFX_goal_WES_societal_roles_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_societal_roles.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_societal_roles.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_societal_roles.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1428,7 +1428,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_societal_roles.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_societal_roles.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1442,11 +1442,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_The_Days_of_Old_shine"
-		texturefile = "gfx/interface/goals/WES/WES_The_Days_of_Old.dds"
+		name = "GFX_goal_WES_The_Days_of_Old_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_Days_of_Old.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_Days_of_Old.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_Days_of_Old.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1458,7 +1458,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_Days_of_Old.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_Days_of_Old.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1472,11 +1472,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_voluntary_colonialism_shine"
-		texturefile = "gfx/interface/goals/WES/WES_voluntary_colonialism.dds"
+		name = "GFX_goal_WES_voluntary_colonialism_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_voluntary_colonialism.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_voluntary_colonialism.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_voluntary_colonialism.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1488,7 +1488,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_voluntary_colonialism.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_voluntary_colonialism.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1502,11 +1502,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Worthie_of_england_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Worthie_of_england.dds"
+		name = "GFX_goal_WES_Worthie_of_england_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Worthie_of_england.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Worthie_of_england.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Worthie_of_england.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1518,7 +1518,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Worthie_of_england.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Worthie_of_england.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1532,11 +1532,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Virtue_Test_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Virtue_Test.dds"
+		name = "GFX_goal_WES_Virtue_Test_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Virtue_Test.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Virtue_Test.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Virtue_Test.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1548,7 +1548,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Virtue_Test.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Virtue_Test.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1562,11 +1562,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_trial_of_courage_shine"
-		texturefile = "gfx/interface/goals/WES/WES_trial_of_courage.dds"
+		name = "GFX_goal_WES_trial_of_courage_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_trial_of_courage.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_trial_of_courage.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_trial_of_courage.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1578,7 +1578,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_trial_of_courage.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_trial_of_courage.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1592,11 +1592,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_The_Law_of_the_king_shine"
-		texturefile = "gfx/interface/goals/WES/WES_The_Law_of_the_king.dds"
+		name = "GFX_goal_WES_The_Law_of_the_king_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_Law_of_the_king.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_Law_of_the_king.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_Law_of_the_king.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1608,7 +1608,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_Law_of_the_king.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_Law_of_the_king.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1622,11 +1622,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_The_Law_of_England_shine"
-		texturefile = "gfx/interface/goals/WES/WES_The_Law_of_England.dds"
+		name = "GFX_goal_WES_The_Law_of_England_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_Law_of_England.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_Law_of_England.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_Law_of_England.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1638,7 +1638,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_Law_of_England.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_Law_of_England.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1652,11 +1652,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_The_English_Tongue_shine"
-		texturefile = "gfx/interface/goals/WES/WES_The_English_Tongue.dds"
+		name = "GFX_goal_WES_The_English_Tongue_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_The_English_Tongue.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_English_Tongue.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_English_Tongue.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1668,7 +1668,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_The_English_Tongue.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_The_English_Tongue.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1682,11 +1682,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_the_english_spirit_shine"
-		texturefile = "gfx/interface/goals/WES/WES_the_english_spirit.dds"
+		name = "GFX_goal_WES_the_english_spirit_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_english_spirit.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_the_english_spirit.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_the_english_spirit.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1698,7 +1698,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_the_english_spirit.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_the_english_spirit.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1712,11 +1712,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_the_cult_of_shakespear_shine"
-		texturefile = "gfx/interface/goals/WES/WES_the_cult_of_shakespear.dds"
+		name = "GFX_goal_WES_the_cult_of_shakespear_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_the_cult_of_shakespear.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_the_cult_of_shakespear.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_the_cult_of_shakespear.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1728,7 +1728,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_the_cult_of_shakespear.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_the_cult_of_shakespear.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1742,11 +1742,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_test_of_wisdom_shine"
-		texturefile = "gfx/interface/goals/WES/WES_test_of_wisdom.dds"
+		name = "GFX_goal_WES_test_of_wisdom_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_test_of_wisdom.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_test_of_wisdom.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_test_of_wisdom.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1758,7 +1758,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_test_of_wisdom.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_test_of_wisdom.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1772,11 +1772,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Sword_In_The_Stone_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Sword_In_The_Stone.dds"
+		name = "GFX_goal_WES_Sword_In_The_Stone_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Sword_In_The_Stone.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Sword_In_The_Stone.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Sword_In_The_Stone.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1788,7 +1788,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Sword_In_The_Stone.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Sword_In_The_Stone.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1802,11 +1802,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Strength_Of-Monarchy_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Strength_Of-Monarchy.dds"
+		name = "GFX_goal_WES_Strength_Of-Monarchy_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Strength_Of-Monarchy.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Strength_Of-Monarchy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Strength_Of-Monarchy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1818,7 +1818,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Strength_Of-Monarchy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Strength_Of-Monarchy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1832,11 +1832,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Strength Of Monarchy_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Strength Of Monarchy.dds"
+		name = "GFX_goal_WES_Strength Of Monarchy_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Strength Of Monarchy.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Strength Of Monarchy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Strength Of Monarchy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1848,7 +1848,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Strength Of Monarchy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Strength Of Monarchy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1862,11 +1862,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Soldier_King_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Soldier_King.dds"
+		name = "GFX_goal_WES_Soldier_King_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Soldier_King.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Soldier_King.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Soldier_King.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1878,7 +1878,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Soldier_King.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Soldier_King.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1892,11 +1892,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Slaves_and_Masters_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Slaves_and_Masters.dds"
+		name = "GFX_goal_WES_Slaves_and_Masters_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Slaves_and_Masters.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Slaves_and_Masters.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Slaves_and_Masters.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1908,7 +1908,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Slaves_and_Masters.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Slaves_and_Masters.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1922,11 +1922,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_round_table_shine"
-		texturefile = "gfx/interface/goals/WES/WES_round_table.dds"
+		name = "GFX_goal_WES_round_table_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_round_table.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_round_table.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_round_table.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1938,7 +1938,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_round_table.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_round_table.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1952,11 +1952,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Protector_of_England_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Protector_of_England.dds"
+		name = "GFX_goal_WES_Protector_of_England_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Protector_of_England.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Protector_of_England.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Protector_of_England.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1968,7 +1968,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Protector_of_England.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Protector_of_England.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1982,11 +1982,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_New_Curriculum_shine"
-		texturefile = "gfx/interface/goals/WES/WES_New_Curriculum.dds"
+		name = "GFX_goal_WES_New_Curriculum_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_New_Curriculum.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_New_Curriculum.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_New_Curriculum.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1998,7 +1998,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_New_Curriculum.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_New_Curriculum.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2012,11 +2012,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_mutual_prosperity_shine"
-		texturefile = "gfx/interface/goals/WES/WES_mutual_prosperity.dds"
+		name = "GFX_goal_WES_mutual_prosperity_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_mutual_prosperity.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_mutual_prosperity.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_mutual_prosperity.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2028,7 +2028,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_mutual_prosperity.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_mutual_prosperity.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2042,11 +2042,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_mighty_men_of_england_shine"
-		texturefile = "gfx/interface/goals/WES/WES_mighty_men_of_england.dds"
+		name = "GFX_goal_WES_mighty_men_of_england_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_mighty_men_of_england.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_mighty_men_of_england.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_mighty_men_of_england.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2058,7 +2058,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_mighty_men_of_england.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_mighty_men_of_england.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2072,11 +2072,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Matters_of_The_future_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Matters_of_The_future.dds"
+		name = "GFX_goal_WES_Matters_of_The_future_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Matters_of_The_future.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Matters_of_The_future.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Matters_of_The_future.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2088,7 +2088,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Matters_of_The_future.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Matters_of_The_future.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2102,11 +2102,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_many_tongues_of_britain_shine"
-		texturefile = "gfx/interface/goals/WES/WES_many_tongues_of_britain.dds"
+		name = "GFX_goal_WES_many_tongues_of_britain_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_many_tongues_of_britain.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_many_tongues_of_britain.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_many_tongues_of_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2118,7 +2118,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_many_tongues_of_britain.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_many_tongues_of_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2132,11 +2132,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Local_Administrations_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Local_Administrations.dds"
+		name = "GFX_goal_WES_Local_Administrations_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Local_Administrations.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Local_Administrations.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Local_Administrations.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2148,7 +2148,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Local_Administrations.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Local_Administrations.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2162,11 +2162,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Kings_speech_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Kings_speech.dds"
+		name = "GFX_goal_WES_Kings_speech_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Kings_speech.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Kings_speech.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Kings_speech.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2178,7 +2178,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Kings_speech.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Kings_speech.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2192,11 +2192,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Holy_Grail2_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Holy_Grail2.dds"
+		name = "GFX_goal_WES_Holy_Grail2_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Holy_Grail2.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Holy_Grail2.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Holy_Grail2.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2208,7 +2208,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Holy_Grail2.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Holy_Grail2.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2222,11 +2222,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_heroic_absolutism_shine"
-		texturefile = "gfx/interface/goals/WES/WES_heroic_absolutism.dds"
+		name = "GFX_goal_WES_heroic_absolutism_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_heroic_absolutism.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_heroic_absolutism.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_heroic_absolutism.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2238,7 +2238,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_heroic_absolutism.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_heroic_absolutism.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2252,11 +2252,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_great_embassy_shine"
-		texturefile = "gfx/interface/goals/WES/WES_great_embassy.dds"
+		name = "GFX_goal_WES_great_embassy_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_great_embassy.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_great_embassy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_great_embassy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2268,7 +2268,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_great_embassy.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_great_embassy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2282,11 +2282,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Death_Of_Pop_Culture_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Death_Of_Pop_Culture.dds"
+		name = "GFX_goal_WES_Death_Of_Pop_Culture_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Death_Of_Pop_Culture.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Death_Of_Pop_Culture.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Death_Of_Pop_Culture.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2298,7 +2298,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Death_Of_Pop_Culture.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Death_Of_Pop_Culture.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2312,11 +2312,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_cultural_symbiosis_shine"
-		texturefile = "gfx/interface/goals/WES/WES_cultural_symbiosis.dds"
+		name = "GFX_goal_WES_cultural_symbiosis_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_cultural_symbiosis.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_cultural_symbiosis.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_cultural_symbiosis.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2328,7 +2328,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_cultural_symbiosis.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_cultural_symbiosis.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2342,11 +2342,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_common_men_shine"
-		texturefile = "gfx/interface/goals/WES/WES_common_men.dds"
+		name = "GFX_goal_WES_common_men_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_common_men.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_common_men.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_common_men.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2358,7 +2358,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_common_men.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_common_men.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2372,11 +2372,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Clinging_to_the_Present_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Clinging_to_the_Present.dds"
+		name = "GFX_goal_WES_Clinging_to_the_Present_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Clinging_to_the_Present.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Clinging_to_the_Present.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Clinging_to_the_Present.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2388,7 +2388,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Clinging_to_the_Present.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Clinging_to_the_Present.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2402,11 +2402,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Charity_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Charity.dds"
+		name = "GFX_goal_WES_Charity_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Charity.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Charity.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Charity.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2418,7 +2418,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Charity.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Charity.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2432,11 +2432,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Centralized_Education_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Centralized_Education.dds"
+		name = "GFX_goal_WES_Centralized_Education_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Centralized_Education.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Centralized_Education.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Centralized_Education.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2448,7 +2448,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Centralized_Education.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Centralized_Education.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2462,11 +2462,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_A_Clean_Start_shine"
-		texturefile = "gfx/interface/goals/WES/WES_A_Clean_Start.dds"
+		name = "GFX_goal_WES_A_Clean_Start_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_A_Clean_Start.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_A_Clean_Start.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_A_Clean_Start.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2478,7 +2478,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_A_Clean_Start.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_A_Clean_Start.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2492,11 +2492,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_WES_Perish_The_Thought_shine"
-		texturefile = "gfx/interface/goals/WES/WES_Perish_The_Thought.dds"
+		name = "GFX_goal_WES_Perish_The_Thought_shine"
+		texturefile = "gfx/interface/goals/WES/goal_WES_Perish_The_Thought.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Perish_The_Thought.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Perish_The_Thought.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -2508,7 +2508,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/WES/WES_Perish_The_Thought.dds"
+			animationmaskfile = "gfx/interface/goals/WES/goal_WES_Perish_The_Thought.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

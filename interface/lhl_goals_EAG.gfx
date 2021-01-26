@@ -1,130 +1,130 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_EAG_rob_fatherland"
-		texturefile = "gfx/interface/goals/EAG/EAG_rob_fatherland.dds"
+		name = "GFX_goal_EAG_rob_fatherland"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_rob_fatherland.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_steal_equipment"
-		texturefile = "gfx/interface/goals/EAG/EAG_steal_equipment.dds"
+		name = "GFX_goal_EAG_steal_equipment"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_steal_equipment.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_request_personnel"
-		texturefile = "gfx/interface/goals/EAG/EAG_request_personnel.dds"
+		name = "GFX_goal_EAG_request_personnel"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_request_personnel.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_ask_loan"
-		texturefile = "gfx/interface/goals/EAG/EAG_ask_loan.dds"
+		name = "GFX_goal_EAG_ask_loan"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_ask_loan.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_redirect_gastarbeiters"
-		texturefile = "gfx/interface/goals/EAG/EAG_redirect_gastarbeiters.dds"
+		name = "GFX_goal_EAG_redirect_gastarbeiters"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_redirect_gastarbeiters.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_hijack_transports"
-		texturefile = "gfx/interface/goals/EAG/EAG_hijack_transports.dds"
+		name = "GFX_goal_EAG_hijack_transports"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_hijack_transports.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_trick_merkel"
-		texturefile = "gfx/interface/goals/EAG/EAG_trick_merkel.dds"
+		name = "GFX_goal_EAG_trick_merkel"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_trick_merkel.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_ponzi_scheme"
-		texturefile = "gfx/interface/goals/EAG/EAG_ponzi_scheme.dds"
+		name = "GFX_goal_EAG_ponzi_scheme"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_ponzi_scheme.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_convince_military"
-		texturefile = "gfx/interface/goals/EAG/EAG_convince_military.dds"
+		name = "GFX_goal_EAG_convince_military"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_convince_military.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_pgerman_investors"
-		texturefile = "gfx/interface/goals/EAG/EAG_pgerman_investors.dds"
+		name = "GFX_goal_EAG_pgerman_investors"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_pgerman_investors.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_anarchists"
-		texturefile = "gfx/interface/goals/EAG/EAG_anarchists.dds"
+		name = "GFX_goal_EAG_anarchists"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_anarchists.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_battle_norwich"
-		texturefile = "gfx/interface/goals/EAG/EAG_battle_norwich.dds"
+		name = "GFX_goal_EAG_battle_norwich"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_battle_norwich.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_behead_the_red_king"
-		texturefile = "gfx/interface/goals/EAG/EAG_behead_the_red_king.dds"
+		name = "GFX_goal_EAG_behead_the_red_king"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_behead_the_red_king.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_chain_broken"
-		texturefile = "gfx/interface/goals/EAG/EAG_chain_broken.dds"
+		name = "GFX_goal_EAG_chain_broken"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_chain_broken.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_crush_the_fanatics"
-		texturefile = "gfx/interface/goals/EAG/EAG_crush_the_fanatics.dds"
+		name = "GFX_goal_EAG_crush_the_fanatics"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_crush_the_fanatics.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_extinquish_thec_atholics"
-		texturefile = "gfx/interface/goals/EAG/EAG_extinquish_thec_atholics.dds"
+		name = "GFX_goal_EAG_extinquish_thec_atholics"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_extinquish_thec_atholics.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_fall_of_arthur"
-		texturefile = "gfx/interface/goals/EAG/EAG_fall_of_arthur.dds"
+		name = "GFX_goal_EAG_fall_of_arthur"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_fall_of_arthur.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_fate_of_cronwell"
-		texturefile = "gfx/interface/goals/EAG/EAG_fate_of_cronwell.dds"
+		name = "GFX_goal_EAG_fate_of_cronwell"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_fate_of_cronwell.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_liberate_scotland"
-		texturefile = "gfx/interface/goals/EAG/EAG_liberate_scotland.dds"
+		name = "GFX_goal_EAG_liberate_scotland"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_liberate_scotland.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_liberate_wales"
-		texturefile = "gfx/interface/goals/EAG/EAG_liberate_wales.dds"
+		name = "GFX_goal_EAG_liberate_wales"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_liberate_wales.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_rally_men"
-		texturefile = "gfx/interface/goals/EAG/EAG_rally_men.dds"
+		name = "GFX_goal_EAG_rally_men"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_rally_men.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_repubclian_deal"
-		texturefile = "gfx/interface/goals/EAG/EAG_repubclian_deal.dds"
+		name = "GFX_goal_EAG_repubclian_deal"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_repubclian_deal.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_seize_arsenal"
-		texturefile = "gfx/interface/goals/EAG/EAG_seize_arsenal.dds"
+		name = "GFX_goal_EAG_seize_arsenal"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_seize_arsenal.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_setter_promises"
-		texturefile = "gfx/interface/goals/EAG/EAG_setter_promises.dds"
+		name = "GFX_goal_EAG_setter_promises"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_setter_promises.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_southen_thrust"
-		texturefile = "gfx/interface/goals/EAG/EAG_southen_thrust.dds"
+		name = "GFX_goal_EAG_southen_thrust"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_southen_thrust.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_take_the_capital"
-		texturefile = "gfx/interface/goals/EAG/EAG_take_the_capital.dds"
+		name = "GFX_goal_EAG_take_the_capital"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_take_the_capital.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_the_communes_of_britain"
-		texturefile = "gfx/interface/goals/EAG/EAG_the_communes_of_britain.dds"
+		name = "GFX_goal_EAG_the_communes_of_britain"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_communes_of_britain.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_the_final_solution"
-		texturefile = "gfx/interface/goals/EAG/EAG_the_final_solution.dds"
+		name = "GFX_goal_EAG_the_final_solution"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_final_solution.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_the_governor"
-		texturefile = "gfx/interface/goals/EAG/EAG_the_governor.dds"
+		name = "GFX_goal_EAG_the_governor"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_governor.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_the_mercenary"
-		texturefile = "gfx/interface/goals/EAG/EAG_the_mercenary.dds"
+		name = "GFX_goal_EAG_the_mercenary"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_mercenary.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_trouble_countryside"
-		texturefile = "gfx/interface/goals/EAG/EAG_trouble_countryside.dds"
+		name = "GFX_goal_EAG_trouble_countryside"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_trouble_countryside.dds"
 	}
 	SpriteType = {
-		name = "GFX_EAG_Englich_Tachanka"
-		texturefile = "gfx/interface/goals/EAG/EAG_Englich_Tachanka.dds"
+		name = "GFX_goal_EAG_Englich_Tachanka"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_Englich_Tachanka.dds"
 	}
 }

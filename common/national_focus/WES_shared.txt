@@ -2,19 +2,23 @@
 
 shared_focus = {
 	id = WES_retrun_king
-	icon = GFX_return_king
+	icon = GFX_goal_WES_return_king
 	cost = 3.5
 	completion_reward = {
-	    add_political_power = 150
-		country_event = {}
-	}
+		    WES = {
+			    country_event = {
+				    days = 1
+					id = WES_event.6 
+				}
+			}
+		}
 	x = 17
 	y = 0
 }
 
 shared_focus = {
 	id = WES_worthie_england
-	icon = GFX_WES
+	icon = GFX_goal_WES_Worthie_of_england
 	prerequisite = {
         focus = WES_retrun_king
 	}
@@ -25,7 +29,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_strength_monarchy
-	icon = GFX_WES
+	icon = GFX_goal_WES_Strength_Of-Monarchy
 	prerequisite = {
         focus = WES_worthie_england
 	}
@@ -36,7 +40,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_trial_wisdom
-	icon = GFX_WES
+	icon = GFX_goal_WES_test_of_wisdom
 	prerequisite = {
         focus = WES_strength_monarchy
 	}
@@ -47,7 +51,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_trial_courage
-	icon = GFX_WES
+	icon = GFX_goal_WES_trial_of_courage
 	prerequisite = {
         focus = WES_strength_monarchy
 	}
@@ -58,7 +62,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_sword_stone
-	icon = GFX_WES
+	icon = GFX_goal_WES_Sword_In_The_Stone
 	prerequisite = {
         focus = WES_trial_courage
 	}
@@ -72,7 +76,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_search_grail
-	icon = GFX_WES
+	icon = GFX_goal_WES_Holy_Grail2
 	prerequisite = {
         focus = WES_sword_stone
 	}
@@ -89,7 +93,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_knights_table
-	icon = GFX_WES
+	icon = GFX_goal_WES_round_table
 	prerequisite = {
         focus = WES_worthie_england
 	}
@@ -100,7 +104,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_great_embassy
-	icon = GFX_WES
+	icon = GFX_goal_WES_great_embassy
 	prerequisite = {
         focus = WES_knights_table
 	}
@@ -111,7 +115,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_mighty_men
-	icon = GFX_WES
+	icon = GFX_goal_WES_mighty_men_of_england
 	prerequisite = {
         focus = WES_knights_table
 	}
@@ -122,7 +126,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_virtue_test
-	icon = GFX_WES
+	icon = GFX_goal_WES_Virtue_Test
 	prerequisite = {
         focus = WES_great_embassy
 	}
@@ -136,7 +140,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_common_men
-	icon = GFX_WES
+	icon = GFX_goal_WES_common_men
 	prerequisite = {
         focus = WES_worthie_england
 	}
@@ -147,7 +151,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_charity_campaigns
-	icon = GFX_WES
+	icon = GFX_goal_WES_Charity
 	prerequisite = {
         focus = WES_common_men
 	}
@@ -158,7 +162,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_soldier_king
-	icon = GFX_WES
+	icon = GFX_goal_WES_Soldier_King
 	prerequisite = {
         focus = WES_common_men
 	}
@@ -169,7 +173,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_kings_speech
-	icon = GFX_WES
+	icon = GFX_goal_WES_Kings_speech
 	prerequisite = {
         focus = WES_charity_campaigns
 	}
@@ -183,10 +187,18 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_royal_military
-	icon = GFX_WES_royal_military
+	icon = GFX_goal_WES_royal_military
 	prerequisite = {
         focus = WES_retrun_king
 	}
+	completion_reward = {
+		    WES = {
+			    country_event = {
+				    days = 1
+					id = WES_event.7
+				}
+			}
+		}
 	cost = 3.5
 	x = 5
 	y = 1
@@ -194,9 +206,13 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_fight_monarchy
-	icon = GFX_WES_fight_monarchy
+	icon = GFX_goal_WES_fight_monarchy
 	prerequisite = {
         focus = WES_royal_military
+	}
+	completion_reward = {
+	    army_experience = 10
+		add_war_support = 0.2
 	}
 	cost = 3.5
 	x = 5
@@ -205,9 +221,12 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_rebuild_schools
-	icon = GFX_WES_rebuild_schools
+	icon = GFX_goal_WES_rebuild_schools
 	prerequisite = {
         focus = WES_fight_monarchy
+	}
+	completion_reward = {
+        add_ideas = WES_advanced_schools
 	}
 	cost = 3.5
 	x = 4
@@ -216,9 +235,21 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_top_grade
-	icon = GFX_wes_top_grade
+	icon = GFX_goal_WES_top_grade
 	prerequisite = {
         focus = WES_fight_monarchy
+	}
+	completion_reward = {
+        add_tech_bonus = {
+            bonus = 0.5
+            uses = 2
+            category = infantry_tech
+        }
+	    add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 1000
+            producer = WES
+        }
 	}
 	cost = 3.5
 	x = 6
@@ -227,12 +258,21 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_weapon_guilds
-	icon = GFX_WES_weapon_Guilds
+	icon = GFX_goal_WES_weapon_Guilds
 	prerequisite = {
         focus = WES_rebuild_schools
 	}
 	prerequisite = {
         focus = WES_top_grade
+	}
+	completion_reward = {
+        add_ideas = WES_weapon_guilds
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.8
+			}
+		}
 	}
 	cost = 3.5
 	x = 5
@@ -241,7 +281,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_fortress_britain
-	icon = GFX_WES_fortress_britain
+	icon = GFX_goal_WES_fortress_britain
 	prerequisite = {
         focus = WES_weapon_guilds
 	}
@@ -251,6 +291,13 @@ shared_focus = {
 	prerequisite = {
         focus = WES_tank_knights
 	}
+	completion_reward = {
+	    add_equipment_to_stockpile = {
+            type = light_cruiser_1 
+            amount = 5
+            producer = WES
+        }
+	}
 	cost = 3.5
 	x = 5
 	y = 5
@@ -258,9 +305,16 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_protect_land
-	icon = GFX_wes_protect_land
+	icon = GFX_goal_WES_protect_land
 	prerequisite = {
         focus = WES_royal_military
+	}
+	completion_reward = {
+	    add_equipment_to_stockpile = {
+            type = light_cruiser_1 
+            amount = 5
+            producer = WES
+        }
 	}
 	cost = 3.5
 	x = 1
@@ -269,7 +323,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_concentrated_strikes
-	icon = GFX_wes_concentrated_strikes
+	icon = GFX_goal_WES_concentrated_strikes
 	prerequisite = {
         focus = WES_protect_land
 	}
@@ -280,7 +334,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_artillery_men
-	icon = GFX_wes_artilerry_man
+	icon = GFX_goal_WES_artilerry_man
 	prerequisite = {
         focus = WES_protect_land
 	}
@@ -291,7 +345,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_tank_knights
-	icon = GFX_wes_tank_knights
+	icon = GFX_goal_WES_tank_knights
 	prerequisite = {
         focus = WES_concentrated_strikes
 	}
@@ -305,7 +359,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_rule_skies
-	icon = GFX_WES_rules_skies
+	icon = GFX_goal_WES_rules_skies
 	prerequisite = {
         focus = WES_royal_military
 	}
@@ -316,7 +370,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_museum_pieces
-	icon = GFX_wes_museum_pieces
+	icon = GFX_goal_WES_museum_pieces
 	prerequisite = {
         focus = WES_rule_skies
 	}
@@ -327,7 +381,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_battle_britain
-	icon = GFX_WES_battle_britain
+	icon = GFX_goal_WES_battle_britain
 	prerequisite = {
         focus = WES_rule_skies
 	}
@@ -338,7 +392,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_heroes_skies
-	icon = GFX_wes_heroes_skies
+	icon = GFX_goal_WES_heroes_skies
 	prerequisite = {
         focus = WES_museum_pieces
 	}
@@ -352,7 +406,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_arise_folk
-	icon = GFX_WES_cringe
+	icon = GFX_goal_WES_cringe
 	prerequisite = {
         focus = WES_retrun_king
 	}
@@ -368,7 +422,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_battle_camlann
-	icon = GFX_WES_battle_camlann
+	icon = GFX_goal_WES_battle_camlann
 	prerequisite = {
         focus = WES_arise_folk
 	}
@@ -387,7 +441,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_traitors_fate
-	icon = GFX_WES_traitors_fate
+	icon = GFX_goal_WES_traitors_fate
 	prerequisite = {
         focus = WES_battle_camlann
 	}
@@ -401,7 +455,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_road_unification
-	icon = GFX_WES_road_unification
+	icon = GFX_goal_WES_road_unification
 	prerequisite = {
 		focus = WES_traitors_fate
 	}
@@ -415,7 +469,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_orthodox_diplomacy
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	cost = 3.5
 	x = 25
 	y = 2
@@ -423,7 +477,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_keepers_athos
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_orthodox_diplomacy
 	}
@@ -434,7 +488,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_plead_help
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_orthodox_diplomacy
 	}
@@ -445,7 +499,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_eurasian_connections
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_keepers_athos
 	}
@@ -459,7 +513,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_knight_mercia
-	icon = GFX_WES_knight_mercia
+	icon = GFX_goal_WES_knight_mercia
 	prerequisite = {
         focus = WES_arise_folk
 	}
@@ -470,7 +524,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_battle_faiths
-	icon = GFX_WES_battle_faiths
+	icon = GFX_goal_WES_battle_faiths
 	prerequisite = {
         focus = WES_knight_mercia
 	}
@@ -481,7 +535,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_ideological_conflict
-	icon = GFX_WES_ideological_conflict
+	icon = GFX_goal_WES_ideological_conflict
 	prerequisite = {
         focus = WES_knight_mercia
 	}
@@ -492,7 +546,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_final_decision
-	icon = GFX_WES_final_decision
+	icon = GFX_goal_WES_final_decision
 	prerequisite = {
         focus = WES_battle_faiths
 	}
@@ -506,7 +560,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_curious_proposal
-	icon = GFX_wes_curious_proposal
+	icon = GFX_goal_WES_curious_proposal
 	cost = 3.5
 	x = 33
 	y = 5
@@ -514,7 +568,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_establish_supplies
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_curious_proposal
 	}
@@ -525,7 +579,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_military_expertise
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_curious_proposal
 	}
@@ -536,7 +590,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_anglo_russian_state
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_establish_supplies
 	}
@@ -554,7 +608,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_catholic_scourge
-	icon = GFX_WES
+	icon = GFX_goal_WES_catholic_scourge
 	prerequisite = {
         focus = WES_road_unification
 	}
@@ -573,7 +627,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_retake_capital
-	icon = GFX_WES
+	icon = GFX_goal_WES_retake_capital
 	prerequisite = {
         focus = WES_road_unification
 	}
@@ -592,7 +646,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_place_anglophobes
-	icon = GFX_WES
+	icon = GFX_goal_WES_no_place_for_anglophobes
 	prerequisite = {
         focus = WES_road_unification
 	}
@@ -611,7 +665,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_teuton_intruders
-	icon = GFX_WES
+	icon = GFX_goal_WES_the_teuton_menace
 	prerequisite = {
         focus = WES_road_unification
 	}
@@ -630,7 +684,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_protector_england
-	icon = GFX_WES
+	icon = GFX_goal_WES_Protector_of_England
 	prerequisite = {
         focus = WES_catholic_scourge
 	}
@@ -650,7 +704,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_masters_slaves
-	icon = GFX_WES
+	icon = GFX_goal_WES_Slaves_and_Masters
 	prerequisite = {
         focus = WES_protector_england
 	}
@@ -664,7 +718,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_mutual_prosperity
-	icon = GFX_WES
+	icon = GFX_goal_WES_mutual_prosperity
 	prerequisite = {
         focus = WES_protector_england
 	}
@@ -678,7 +732,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_rule_george
-	icon = GFX_WES
+	icon = GFX_goal_WES_Rule_of_george
 	cost = 3.5
 	x = 17
 	y = 6
@@ -686,7 +740,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_medieval_state
-	icon = GFX_WES
+	icon = GFX_goal_WES_Medieval_State
 	prerequisite = {
         focus = WES_rule_george
 	}
@@ -697,7 +751,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_days_old
-	icon = GFX_WES
+	icon = GFX_goal_WES_The_Days_of_Old
 	prerequisite = {
         focus = WES_medieval_state
 	}
@@ -708,7 +762,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_human_nauture
-	icon = GFX_WES
+	icon = GFX_goal_WES_Embrace_The_Human_Nature
 	prerequisite = {
         focus = WES_days_old
 	}
@@ -719,7 +773,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_competetive_spirit
-	icon = GFX_WES
+	icon = GFX_goal_WES_competetive_spirit
 	prerequisite = {
         focus = WES_human_nauture
 	}
@@ -730,7 +784,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_societal_roles
-	icon = GFX_WES
+	icon = GFX_goal_WES_societal_roles
 	prerequisite = {
         focus = WES_human_nauture
 	}
@@ -741,7 +795,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_mannerbunds
-	icon = GFX_WES
+	icon = GFX_goal_WES_Mannerbunds
 	prerequisite = {
         focus = WES_competetive_spirit
 	}
@@ -752,7 +806,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_jousting
-	icon = GFX_WES
+	icon = GFX_goal_WES_Jousing
 	prerequisite = {
         focus = WES_competetive_spirit
 	}
@@ -763,7 +817,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_return_tradition
-	icon = GFX_WES
+	icon = GFX_goal_WES_return_tradition
 	prerequisite = {
         focus = WES_societal_roles
 	}
@@ -777,7 +831,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_embrace_modernity
-	icon = GFX_WES
+	icon = GFX_goal_WES_embrace_modernity
 	prerequisite = {
         focus = WES_societal_roles
 	}
@@ -791,7 +845,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_new_chivilary
-	icon = GFX_WES
+	icon = GFX_goal_WES_A_new_age_of_Chilvary
 	prerequisite = {
         focus = WES_mannerbunds
 	}
@@ -805,7 +859,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_careful_reform
-	icon = GFX_WES
+	icon = GFX_goal_WES_careful_reform
 	prerequisite = {
         focus = WES_return_tradition
 		focus = WES_embrace_modernity
@@ -817,7 +871,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_english_spirit
-	icon = GFX_WES
+	icon = GFX_goal_WES_the_english_spirit
 	prerequisite = {
         focus = WES_new_chivilary
 	}
@@ -831,7 +885,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_end_industrial_society
-	icon = GFX_WES
+	icon = GFX_goal_WES_End_of_the_Industrial_Society
 	prerequisite = {
         focus = WES_medieval_state
 	}
@@ -842,7 +896,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_long_planning
-	icon = GFX_WES
+	icon = GFX_goal_WES_Long_Term_Planning
 	prerequisite = {
         focus = WES_end_industrial_society
 	}
@@ -853,7 +907,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_simplifid_infrastructure
-	icon = GFX_WES
+	icon = GFX_goal_WES_Simplified_Infrastructure
 	prerequisite = {
         focus = WES_end_industrial_society
 	}
@@ -864,7 +918,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_voluntarily_colony
-	icon = GFX_WES
+	icon = GFX_goal_WES_voluntary_colonialism
 	prerequisite = {
         focus = WES_long_planning
 	}
@@ -878,7 +932,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_rebuild_scenery
-	icon = GFX_WES
+	icon = GFX_goal_WES_rebuild_the_scenery
 	prerequisite = {
         focus = WES_voluntarily_colony
 	}
@@ -889,7 +943,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_dismantle_cities
-	icon = GFX_WES
+	icon = GFX_goal_WES_dismantle_cities
 	prerequisite = {
         focus = WES_rebuild_scenery
 	}
@@ -900,7 +954,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_connect_nature
-	icon = GFX_WES
+	icon = GFX_goal_WES_Connect_With_Nature
 	prerequisite = {
         focus = WES_rebuild_scenery
 	}
@@ -911,7 +965,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_pastoral_life
-	icon = GFX_WES
+	icon = GFX_goal_WES_a_pastoral_life
 	prerequisite = {
         focus = WES_days_old
 	}
@@ -922,7 +976,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_subsistence_economy
-	icon = GFX_WES
+	icon = GFX_goal_WES_A_subsistence_economy
 	prerequisite = {
         focus = WES_pastoral_life
 	}
@@ -933,7 +987,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_relocation_programmes
-	icon = GFX_WES
+	icon = GFX_goal_WES_relocation_programs
 	prerequisite = {
         focus = WES_pastoral_life
 	}
@@ -944,7 +998,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_rural_paradise
-	icon = GFX_WES
+	icon = GFX_goal_WES_rural_paradise
 	prerequisite = {
         focus = WES_subsistence_economy
 	}
@@ -958,7 +1012,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_matters_future
-	icon = GFX_WES
+	icon = GFX_goal_WES_Matters_of_The_future
 	prerequisite = {
         focus = WES_days_old
 	}
@@ -969,7 +1023,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_clean_start
-	icon = GFX_WES
+	icon = GFX_goal_WES_A_Clean_Start
 	prerequisite = {
         focus = WES_matters_future
 	}
@@ -984,7 +1038,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_clinging_present
-	icon = GFX_WES
+	icon = GFX_goal_WES_Clinging_to_the_Present
 	prerequisite = {
         focus = WES_matters_future
 	}
@@ -998,7 +1052,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_new_fiefdoms
-	icon = GFX_WES
+	icon = GFX_goal_WES_Local_Administrations
 	prerequisite = {
         focus = WES_clean_start
 	}
@@ -1009,7 +1063,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_heroic_absolutism
-	icon = GFX_WES
+	icon = GFX_goal_WES_heroic_absolutism
 	prerequisite = {
         focus = WES_clinging_present
 	}
@@ -1020,7 +1074,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_law_england
-	icon = GFX_WES
+	icon = GFX_goal_WES_The_Law_of_England
 	prerequisite = {
         focus = WES_new_fiefdoms
 	}
@@ -1037,7 +1091,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_law_king
-	icon = GFX_WES
+	icon = GFX_goal_WES_The_Law_of_the_king
 	prerequisite = {
         focus = WES_heroic_absolutism
 	}
@@ -1054,7 +1108,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_english_tongue
-	icon = GFX_WES
+	icon = GFX_goal_WES_The_English_Tongue
 	prerequisite = {
         focus = WES_clean_start
 	}
@@ -1065,7 +1119,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_perish_thought
-	icon = GFX_WES
+	icon = GFX_goal_WES_Perish_The_Thought
 	prerequisite = {
         focus = WES_english_tongue
 	}
@@ -1076,7 +1130,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_new_curriculum
-	icon = GFX_WES
+	icon = GFX_goal_WES_New_Curriculum
 	prerequisite = {
         focus = WES_clean_start
 	}
@@ -1087,7 +1141,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_pop_culture
-	icon = GFX_WES
+	icon = GFX_goal_WES_Death_Of_Pop_Culture
 	prerequisite = {
         focus = WES_new_curriculum
 	}
@@ -1098,7 +1152,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_many_tongues
-	icon = GFX_WES
+	icon = GFX_goal_WES_many_tongues_of_britain
 	prerequisite = {
         focus = WES_clinging_present
 	}
@@ -1109,7 +1163,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_cult_shakespeare
-	icon = GFX_WES
+	icon = GFX_goal_WES_the_cult_of_shakespear
 	prerequisite = {
         focus = WES_many_tongues
 	}
@@ -1120,7 +1174,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_centralized_education
-	icon = GFX_WES
+	icon = GFX_goal_WES_Centralized_Education
 	prerequisite = {
         focus = WES_clinging_present
 	}
@@ -1131,7 +1185,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_secret_orthodox
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	cost = 3.5
 	x = 5
 	y = 7
@@ -1139,7 +1193,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_head_church
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_secret_orthodox
 	}
@@ -1150,7 +1204,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_anglican_tradition
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_head_church
 	}
@@ -1164,7 +1218,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_under_unity
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_head_church
 	}
@@ -1178,7 +1232,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_define_dogmas
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_anglican_tradition
 	}
@@ -1189,7 +1243,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_patriarch_england
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_under_unity
 	}
@@ -1200,7 +1254,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_world_knows
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_define_dogmas
         focus = WES_patriarch_england
@@ -1212,7 +1266,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_orthodox_spectre
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_secret_orthodox
 	}
@@ -1223,7 +1277,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_easy_path
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_orthodox_spectre
 	}
@@ -1237,7 +1291,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_hard_way
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_orthodox_spectre
 	}
@@ -1251,7 +1305,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_education_programmes
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_easy_path
 	}
@@ -1262,7 +1316,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_down_old
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_hard_way
 	}
@@ -1273,7 +1327,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_convert_populace
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_education_programmes
         focus = WES_down_old
@@ -1285,7 +1339,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_orders_chilvarly
-	icon = GFX_WES
+	icon = GFX_goal_WES
 	prerequisite = {
         focus = WES_world_knows
         focus = WES_convert_populace
@@ -1297,7 +1351,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_cultural_symbiosis
-	icon = GFX_WES
+	icon = GFX_goal_WES_cultural_symbiosis
 	prerequisite = {
         focus = WES_centralized_education
 	}

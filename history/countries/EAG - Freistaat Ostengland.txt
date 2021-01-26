@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Josef Maria Klumb"
 	desc = ""
-	picture = "josef_maria_klumb.dds"
+	picture = "Portrait_EAG_Josef_Maria_Klumb.dds"
 	ideology = stratocracy
 	traits = {
 		

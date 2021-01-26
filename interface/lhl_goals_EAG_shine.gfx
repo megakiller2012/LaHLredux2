@@ -1,11 +1,11 @@
 spriteTypes = {
 
 	SpriteType = {
-		name = "GFX_EAG_rob_fatherland_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_rob_fatherland.dds"
+		name = "GFX_goal_EAG_rob_fatherland_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_rob_fatherland.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_rob_fatherland.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_rob_fatherland.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -17,7 +17,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_rob_fatherland.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_rob_fatherland.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -31,11 +31,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_steal_equipment_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_steal_equipment.dds"
+		name = "GFX_goal_EAG_steal_equipment_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_steal_equipment.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_steal_equipment.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_steal_equipment.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -47,7 +47,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_steal_equipment.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_steal_equipment.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -61,11 +61,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_request_personnel_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_request_personnel.dds"
+		name = "GFX_goal_EAG_request_personnel_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_request_personnel.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_request_personnel.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_request_personnel.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -77,7 +77,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_request_personnel.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_request_personnel.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -91,11 +91,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_ask_loan_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_ask_loan.dds"
+		name = "GFX_goal_EAG_ask_loan_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_ask_loan.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_ask_loan.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_ask_loan.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -107,7 +107,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_ask_loan.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_ask_loan.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -121,11 +121,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_redirect_gastarbeiters_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_redirect_gastarbeiters.dds"
+		name = "GFX_goal_EAG_redirect_gastarbeiters_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_redirect_gastarbeiters.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_redirect_gastarbeiters.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_redirect_gastarbeiters.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -137,7 +137,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_redirect_gastarbeiters.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_redirect_gastarbeiters.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -151,11 +151,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_hijack_transports_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_hijack_transports.dds"
+		name = "GFX_goal_EAG_hijack_transports_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_hijack_transports.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_hijack_transports.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_hijack_transports.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -167,7 +167,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_hijack_transports.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_hijack_transports.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -181,11 +181,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_trick_merkel_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_trick_merkel.dds"
+		name = "GFX_goal_EAG_trick_merkel_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_trick_merkel.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_trick_merkel.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_trick_merkel.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -197,7 +197,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_trick_merkel.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_trick_merkel.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -211,11 +211,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_ponzi_scheme_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_ponzi_scheme.dds"
+		name = "GFX_goal_EAG_ponzi_scheme_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_ponzi_scheme.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_ponzi_scheme.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_ponzi_scheme.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -227,7 +227,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_ponzi_scheme.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_ponzi_scheme.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -241,11 +241,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_convince_military_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_convince_military.dds"
+		name = "GFX_goal_EAG_convince_military_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_convince_military.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_convince_military.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_convince_military.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -257,7 +257,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_convince_military.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_convince_military.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -271,11 +271,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_pgerman_investors_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_pgerman_investors.dds"
+		name = "GFX_goal_EAG_pgerman_investors_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_pgerman_investors.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_pgerman_investors.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_pgerman_investors.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -287,7 +287,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_pgerman_investors.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_pgerman_investors.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -301,11 +301,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_anarchists_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_anarchists.dds"
+		name = "GFX_goal_EAG_anarchists_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_anarchists.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_anarchists.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_anarchists.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -317,7 +317,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_anarchists.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_anarchists.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -331,11 +331,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_battle_norwich_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_battle_norwich.dds"
+		name = "GFX_goal_EAG_battle_norwich_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_battle_norwich.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_battle_norwich.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_battle_norwich.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -347,7 +347,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_battle_norwich.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_battle_norwich.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -361,11 +361,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_behead_the_red_king_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_behead_the_red_king.dds"
+		name = "GFX_goal_EAG_behead_the_red_king_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_behead_the_red_king.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_behead_the_red_king.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_behead_the_red_king.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -377,7 +377,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_behead_the_red_king.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_behead_the_red_king.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -391,11 +391,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_chain_broken_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_chain_broken.dds"
+		name = "GFX_goal_EAG_chain_broken_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_chain_broken.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_chain_broken.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_chain_broken.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -407,7 +407,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_chain_broken.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_chain_broken.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -421,11 +421,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_crush_the_fanatics_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_crush_the_fanatics.dds"
+		name = "GFX_goal_EAG_crush_the_fanatics_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_crush_the_fanatics.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_crush_the_fanatics.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_crush_the_fanatics.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -437,7 +437,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_crush_the_fanatics.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_crush_the_fanatics.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -451,11 +451,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_extinquish_thec_atholics_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_extinquish_thec_atholics.dds"
+		name = "GFX_goal_EAG_extinquish_thec_atholics_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_extinquish_thec_atholics.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_extinquish_thec_atholics.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_extinquish_thec_atholics.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -467,7 +467,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_extinquish_thec_atholics.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_extinquish_thec_atholics.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -481,11 +481,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_fall_of_arthur_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_fall_of_arthur.dds"
+		name = "GFX_goal_EAG_fall_of_arthur_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_fall_of_arthur.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_fall_of_arthur.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_fall_of_arthur.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -497,7 +497,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_fall_of_arthur.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_fall_of_arthur.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -511,11 +511,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_fate_of_cronwell_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_fate_of_cronwell.dds"
+		name = "GFX_goal_EAG_fate_of_cronwell_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_fate_of_cronwell.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_fate_of_cronwell.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_fate_of_cronwell.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -527,7 +527,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_fate_of_cronwell.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_fate_of_cronwell.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -541,11 +541,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_liberate_scotland_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_liberate_scotland.dds"
+		name = "GFX_goal_EAG_liberate_scotland_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_liberate_scotland.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_liberate_scotland.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_liberate_scotland.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -557,7 +557,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_liberate_scotland.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_liberate_scotland.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -571,11 +571,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_liberate_wales_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_liberate_wales.dds"
+		name = "GFX_goal_EAG_liberate_wales_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_liberate_wales.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_liberate_wales.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_liberate_wales.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -587,7 +587,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_liberate_wales.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_liberate_wales.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -601,11 +601,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_rally_men_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_rally_men.dds"
+		name = "GFX_goal_EAG_rally_men_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_rally_men.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_rally_men.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_rally_men.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -617,7 +617,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_rally_men.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_rally_men.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -631,11 +631,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_repubclian_deal_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_repubclian_deal.dds"
+		name = "GFX_goal_EAG_repubclian_deal_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_repubclian_deal.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_repubclian_deal.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_repubclian_deal.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -647,7 +647,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_repubclian_deal.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_repubclian_deal.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -661,11 +661,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_seize_arsenal_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_seize_arsenal.dds"
+		name = "GFX_goal_EAG_seize_arsenal_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_seize_arsenal.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_seize_arsenal.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_seize_arsenal.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -677,7 +677,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_seize_arsenal.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_seize_arsenal.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -691,11 +691,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_setter_promises_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_setter_promises.dds"
+		name = "GFX_goal_EAG_setter_promises_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_setter_promises.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_setter_promises.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_setter_promises.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -707,7 +707,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_setter_promises.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_setter_promises.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -721,11 +721,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_southen_thrust_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_southen_thrust.dds"
+		name = "GFX_goal_EAG_southen_thrust_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_southen_thrust.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_southen_thrust.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_southen_thrust.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -737,7 +737,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_southen_thrust.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_southen_thrust.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -751,11 +751,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_take_the_capital_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_take_the_capital.dds"
+		name = "GFX_goal_EAG_take_the_capital_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_take_the_capital.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_take_the_capital.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_take_the_capital.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -767,7 +767,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_take_the_capital.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_take_the_capital.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -781,11 +781,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_the _communes_of_britain_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_the _communes_of_britain.dds"
+		name = "GFX_goal_EAG_the _communes_of_britain_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the _communes_of_britain.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the _communes_of_britain.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the _communes_of_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -797,7 +797,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the _communes_of_britain.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the _communes_of_britain.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -811,11 +811,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_the_final_solution_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_the_final_solution.dds"
+		name = "GFX_goal_EAG_the_final_solution_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_final_solution.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the_final_solution.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the_final_solution.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -827,7 +827,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the_final_solution.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the_final_solution.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -841,11 +841,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_the_governor_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_the_governor.dds"
+		name = "GFX_goal_EAG_the_governor_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_governor.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the_governor.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the_governor.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -857,7 +857,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the_governor.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the_governor.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -871,11 +871,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_the_mercenary_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_the_mercenary.dds"
+		name = "GFX_goal_EAG_the_mercenary_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_the_mercenary.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the_mercenary.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the_mercenary.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -887,7 +887,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_the_mercenary.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_the_mercenary.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -901,11 +901,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_trouble_countryside_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_trouble_countryside.dds"
+		name = "GFX_goal_EAG_trouble_countryside_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_trouble_countryside.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_trouble_countryside.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_trouble_countryside.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -917,7 +917,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_trouble_countryside.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_trouble_countryside.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -931,11 +931,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_EAG_Englich_Tachanka_shine"
-		texturefile = "gfx/interface/goals/EAG/EAG_Englich_Tachanka.dds"
+		name = "GFX_goal_EAG_Englich_Tachanka_shine"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_Englich_Tachanka.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_Englich_Tachanka.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_Englich_Tachanka.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -947,7 +947,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/EAG/EAG_Englich_Tachanka.dds"
+			animationmaskfile = "gfx/interface/goals/EAG/goal_EAG_Englich_Tachanka.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
