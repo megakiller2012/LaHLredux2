@@ -1,5 +1,6 @@
 spriteTypes = {
-	
+
+#Advisors#
 	spriteType = {
 		name = "GFX_idea_GOR_Aleksandsr_Kolchenko"
 		texturefile = "gfx/interface/ideas/GOR/idea_GOR_Aleksandsr_Kolchenko.dds"

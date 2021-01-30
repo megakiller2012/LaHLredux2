@@ -1,12 +1,14 @@
 spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_idea_BUL_new_order"
-		texturefile = "gfx/interface/ideas/BUL/idea_BUL_new_order.dds"
-	}
+
+#Advisors#
 	spriteType = {
 		name = "GFX_idea_BUL_rumen_ralchev"
 		texturefile = "gfx/interface/ideas/BUL/idea_BUL_rumen_ralchev.dds"
+	}
+#Ideas#	
+	spriteType = {
+		name = "GFX_idea_BUL_new_order"
+		texturefile = "gfx/interface/ideas/BUL/idea_BUL_new_order.dds"
 	}
 }
 

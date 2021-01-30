@@ -1,5 +1,6 @@
 spriteTypes = {
-	
+
+#Advisors#
 	spriteType = {
 		name = "GFX_idea_ALB_lulzim_basha"
 		texturefile = "gfx/interface/ideas/ALB/idea_ALB_lulzim_basha.dds"

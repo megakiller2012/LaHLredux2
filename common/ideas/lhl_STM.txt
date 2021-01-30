@@ -1,0 +1,40 @@
+ideas = {
+
+	political_advisor = {
+
+		STM_Oleg_Sirota = {
+			
+			picture = STM_Oleg_Sirota
+			
+			allowed = {
+				original_tag = STM
+			}
+			
+			traits = { }
+
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		STM_Sergij_Sterlingov = {
+			
+			picture = STM_Sergij_Sterlingov
+			
+			allowed = {
+				original_tag = STM
+			}
+			
+			traits = { }
+
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+}

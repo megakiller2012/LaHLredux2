@@ -1,4 +1,4 @@
-﻿capital = 1010
+﻿capital = 131
 
 oob = "NTH_2020"
 
@@ -11,15 +11,91 @@ set_technology = {
 	infantry_weapons1 = 1
 }
 set_convoys = 50
-
+add_ideas = {
+	Salma_Yaqoob
+}
 set_politics = {
 	ruling_party = national_bolshevism
 	elections_allowed = no
 }
 set_popularities = {
-	national_bolshevism  = 100
+	national_bolshevism  = 60
+	commendationism = 21
+	hegemonism = 19
 }
 
+create_country_leader = {
+	name = "Salma Yaqoob"
+	desc = ""
+	picture = "salma_yaqoob.dds"
+	ideology = ultrahegelianism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Mick Hume"
+	desc = ""
+	picture = "mick_hume.dds"
+	ideology = nationalism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Chris Coleman"
+	desc = ""
+	picture = ""
+	ideology = soviet_marxism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Ken Livingstone"
+	desc = ""
+	picture = ""
+	ideology = nazbol_gang
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Gordon Brown"
+	desc = ""
+	picture = ""
+	ideology = labor_socialism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Ed Davey"
+	desc = ""
+	picture = ""
+	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Ben Elliot"
+	desc = ""
+	picture = ""
+	ideology = social_conservatism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Michael Stevens"
+	desc = ""
+	picture = ""
+	ideology = neo_feudalism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Brendan Perry"
+	desc = ""
+	picture = ""
+	ideology = charismatic_dictatorship
+	traits = {
+	}
+}
 create_country_leader = {
 	name = "George Galloway"
 	desc = ""

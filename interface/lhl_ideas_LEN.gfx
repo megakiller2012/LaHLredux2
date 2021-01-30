@@ -1,0 +1,13 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_LEN_Nikolaj_Platoshkin"
+		texturefile = "gfx/interface/ideas/LEN/idea_LEN_Nikolaj_Platoshkin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LEN_Pavel_Grudinin"
+		texturefile = "gfx/interface/ideas/LEN/idea_LEN_Pavel_Grudinin.dds"
+	}
+}
+

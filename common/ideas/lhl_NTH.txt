@@ -1,5 +1,813 @@
 ideas = {
 
+	head_of_government = {
+
+
+		NTH_Arthur_Scargill = {
+			
+			picture = NTH_Arthur_Scargill
+			allowed = {
+				 original_tag = "NTH"
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pavel_Milyukov_hog_mli"
+			}
+			traits = {head_of_government
+					  Orthodox
+					  ambitious_union_boss
+			}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+			cost = 0
+			
+		}
+		NTH_Munira_Mirza = {
+
+			picture = NTH_Munira_Mirza
+			allowed = {
+				 original_tag = "NTH"
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pavel_Milyukov_hog_mli"
+			}
+			traits = {head_of_government 
+					  Sovereigns
+					  RES_Supporter }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+			cost = 0
+		}
+		NTH_Salma_Yaqoob = {
+
+			picture = NTH_Salma_Yaqoob
+			allowed = {
+				 original_tag = "NTH"
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pavel_Milyukov_hog_mli"
+			}
+			traits = { head_of_government 
+						Orthodox
+						}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+			cost = 0
+		}
+		NTH_Yvonne_Ridley = {
+
+			picture = NTH_Yvonne_Ridley
+			allowed = {
+				 original_tag = "NTH"
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Pavel_Milyukov_hog_mli"
+			}
+			traits = { head_of_government 
+			Internationalist}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+			cost = 0
+		}
+	
+		
+	}
+	political_advisor = {
+
+		NTH_Beatrix_Campbell = {
+
+			picture = NTH_Beatrix_Campbell
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}	
+		}
+		NTH_Chris_Williamson = {
+
+			picture = NTH_Chris_Williamson
+			allowed = {
+				original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Clive_Lewis = {
+
+			picture = NTH_Clive_Lewis
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Mark_Seddon = {
+
+			picture = NTH_Mark_Seddon
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+				
+		NTH_Murad_Qureshi = {
+
+			picture = NTH_Murad_Qureshi
+			allowed = {
+				original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Tahir_Ali = {
+
+			picture = NTH_Tahir_Ali
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Ted_Honderich = {
+
+			picture = NTH_Ted_Honderich
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		NTH_Valerie_Wise = {
+
+			picture = NTH_Valerie_Wise
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = national_bolshevism
+						}
+			traits = { political_advisor
+			Orthodox }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		NTH_Barbara_Hewson = {
+
+			picture = NTH_Barbara_Hewson
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Brendan_ONeill = {
+
+			picture = NTH_Brendan_ONeill
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Claire_Fox = {
+
+			picture = NTH_Claire_Fox
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Fiona_Bernadette_Fox = {
+
+			picture = NTH_Fiona_Bernadette_Fox
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns }
+
+			do_effect = {
+				#
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Frank_Furedi = {
+
+			picture = NTH_Frank_Furedi
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_James_Heartfield = {
+
+			picture = NTH_James_Heartfield
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Steve_Baker = {
+
+			picture = NTH_Steve_Baker
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Stuart_Waiton = {
+
+			picture = NTH_Stuart_Waiton
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = hegemonism
+						}
+			traits = { political_advisor
+						Sovereigns }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_David_Gilmour = {
+
+			picture = NTH_David_Gilmour
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Gary_Younge = {
+
+			picture = NTH_Gary_Younge
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Ken_Loach = {
+
+			picture = NTH_Ken_Loach
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Lee_Jasper = {
+
+			picture = NTH_Lee_Jasper
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Neil_Faulkner = {
+
+			picture = NTH_Neil_Faulkner
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Perry_Anderson = {
+
+			picture = NTH_Perry_Anderson
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Tariq_Ali = {
+
+			picture = NTH_Tariq_Ali
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Yasmin_Alibhai_Brown = {
+
+			picture = NTH_Yasmin_Alibhai_Brown
+			allowed = {
+				 original_tag = "NTH"
+			}
+			visible = {
+				has_government = commendationism
+						}
+			traits = { political_advisor
+						Internationalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+	
+	theorist = {
+		NTH_Aleksandr_Maksimtsev = {
+			
+			picture = NTH_Aleksandr_Maksimtsev
+			allowed = {
+				original_tag = NTH
+			}
+			traits = {  }
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_David_Richards = {
+
+			picture = NTH_David_Richards
+			allowed = {
+				original_tag = "NTH"
+			}
+
+			traits = {  }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Edzard_Ernst = {
+
+			picture = NTH_Edzard_Ernst
+			allowed = {
+				original_tag = "NTH"
+			}
+
+			traits = { Scientist_showman }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Gareth_Derrick = {
+
+			picture = NTH_Gareth_Derrick
+			allowed = {
+				original_tag = "NTH"
+			}
+
+			traits = {  }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		NTH_Marc_Wadsworth = {
+
+			picture = NTH_Marc_Wadsworth
+			allowed = {
+				original_tag = "NTH"
+			}
+
+			traits = { Scientist_showman }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+
+	army_chief = {
+
+		NTH_INTH_HuNTHskoj = {
+				
+			picture = NTH_INTH_HuNTHskoj
+			allowed = {
+				original_tag = NTH
+			}
+			
+			traits = { Bone_breaker }			
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+        NTH_Vadim_Kurylev = {
+				
+			picture = NTH_Vadim_Kurylev
+			allowed = {
+				original_tag = NTH
+			}
+			
+			traits = { Electric_partisan }			
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	navy_chief = {
+	    NTH_Aleksej_Polikhovich  = {
+
+			picture = NTH_Aleksej_Polikhovich
+			allowed = {
+				original_tag = NTH
+			}
+						
+			traits = { Submarine_sailor }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+    air_chief = {
+		NTH_Konstantin_Labetskij  = {
+
+			picture = NTH_Konstantin_Labetskij
+			allowed = {
+				original_tag = NTH
+			}
+						
+			traits = { Bombardier }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	
+	}
+	high_command = {
+	
+		NTH_Aleksej_Sutuga  = {
+
+			picture = NTH_Aleksej_Sutuga
+			allowed = {
+				original_tag = NTH
+			}
+						
+			traits = { Socrates }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		NTH_Valerij_Skoroded  = {
+
+			picture = NTH_Valerij_Skoroded
+			allowed = {
+				original_tag = NTH
+			}
+						
+			traits = { battle_bard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		NTH_Vjacheslav_Maltsev  = {
+
+			picture = NTH_Vjacheslav_Maltsev
+			allowed = {
+				original_tag = NTH
+			}
+						
+			traits = { Starshina }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	}
 	country = {
 	
 		NTH_landsknecht_new = {
@@ -15,28 +823,6 @@ ideas = {
 			modifier = {
 			war_support_factor = 0.10
 			political_power_factor = 0.05
-			}
-		}
-	}
-
-
-	head_of_government = {
-
-		NTH_salma_yaqoob = {
-
-			picture = NTH_salma_yaqoob
-			allowed = {
-				original_tag = "NTH"
-			}
-
-			traits = { }
-
-			do_effect = {
-				#
-			}
-
-			ai_will_do = {
-				factor = 0
 			}
 		}
 	}

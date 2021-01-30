@@ -1,0 +1,9 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_GUL_Irina_Hakamada"
+		texturefile = "gfx/interface/ideas/GUL/idea_GUL_Irina_Hakamada.dds"
+	}
+}
+

@@ -1,0 +1,13 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_STM_Oleg_Sirota"
+		texturefile = "gfx/interface/ideas/STM/idea_STM_Oleg_Sirota.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_STM_Sergij_Sterlingov"
+		texturefile = "gfx/interface/ideas/STM/idea_STM_Sergij_Sterlingov.dds"
+	}
+}
+

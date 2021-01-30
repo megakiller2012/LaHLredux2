@@ -36,4 +36,75 @@ ideas = {
 			}
 		}
 	}
+	political_advisor = {
+	
+		CHS_Dmitrij_Madurov = {
+
+			picture = CHS_Dmitrij_Madurov
+			allowed = {
+			    original_tag = CHS
+			}
+
+			traits = { }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		CHS_Ilja_Aleksejev = {
+
+			picture = CHS_Ilja_Aleksejev
+			allowed = {
+			    original_tag = CHS
+			}
+
+			traits = { }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		CHS_Nikolaj_Jegorov = {
+
+			picture = CHS_Nikolaj_Jegorov
+			allowed = {
+			    original_tag = CHS
+			}
+
+			traits = { }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		CHS_Vladimir_Galoshev = {
+
+			picture = CHS_Vladimir_Galoshev
+			allowed = {
+			    original_tag = CHS
+			}
+
+			traits = { }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
 }

@@ -1,0 +1,23 @@
+ideas = {
+
+	political_advisor = {
+
+		GUL_Irina_Hakamada = {
+			
+			picture = GUL_Irina_Hakamada
+			
+			allowed = {
+				original_tag = GUL
+			}
+			
+			traits = {  }
+
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+}

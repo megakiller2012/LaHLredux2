@@ -72,5 +72,22 @@ ideas = {
 				factor = 0
 			}
 		}
+    	RST_Igor_Prokopenko = {
+
+			picture = RST_Igor_Prokopenko
+			allowed = {
+				original_tag = "RST"
+			}
+
+			traits = { }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
 	}
 }

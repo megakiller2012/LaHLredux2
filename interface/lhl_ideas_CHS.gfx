@@ -1,4 +1,21 @@
 spriteTypes = {
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_CHS_Dmitrij_Madurov"
+		texturefile = "gfx/interface/ideas/CHS/idea_CHS_Dmitrij_Madurov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHS_Ilja_Aleksejev"
+		texturefile = "gfx/interface/ideas/CHS/idea_CHS_Ilja_Aleksejev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHS_Nikolaj_Jegorov"
+		texturefile = "gfx/interface/ideas/CHS/idea_CHS_Nikolaj_Jegorov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHS_Vladimir_Galoshev"
+		texturefile = "gfx/interface/ideas/CHS/idea_CHS_Vladimir_Galoshev.dds"
+	}
 
 #Ideas#
 	spriteType = {

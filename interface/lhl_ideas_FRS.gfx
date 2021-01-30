@@ -1,0 +1,9 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_FRS_Ilja_Varlamov"
+		texturefile = "gfx/interface/ideas/FRS/idea_FRS_Ilja_Varlamov.dds"
+	}
+}
+

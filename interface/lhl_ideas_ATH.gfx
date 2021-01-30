@@ -1,12 +1,14 @@
 spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_idea_ATH_saint_state"
-		texturefile = "gfx/interface/ideas/ATH/idea_ATH_saint_state.dds"
-	}
+
+#Advisors#
 	spriteType = {
 		name = "GFX_idea_ATH_iera_koinotita"
 		texturefile = "gfx/interface/ideas/ATH/idea_ATH_iera_koinotita.dds"
+	}
+#Ideas#	
+	spriteType = {
+		name = "GFX_idea_ATH_saint_state"
+		texturefile = "gfx/interface/ideas/ATH/idea_ATH_saint_state.dds"
 	}
 }
 

@@ -10,6 +10,10 @@
  ##IDEAS##
  CHS_russian_slaves:0 "Enslavement of the Russian population"
  CHS_nomadic_society:0 "Nomadic lifestyle"
+ CHS_Dmitrij_Madurov:0 "Dmitrij Madurov"
+ CHS_Ilja_Aleksejev:0 "Ilja Aleksejev"
+ CHS_Nikolaj_Jegorov:0 "Nikolaj Jegorov"
+ CHS_Vladimir_Galoshev:0 "Vladimir Galoshev"
  ##FOCUS TREES##
  CHS_trumpet:0 "Trumpets of Apocalypse"
  CHS_trumpet_desc:0 "Trumpets of Apocalypse"

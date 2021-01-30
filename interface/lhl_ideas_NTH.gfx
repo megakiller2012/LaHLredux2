@@ -1,9 +1,141 @@
 spriteTypes = {
+
+#Advisors#	
+	spriteType = {
+		name = "GFX_idea_NTH_Arthur_Scargill"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Arthur_Scargill.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Munira_Mirza"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Munira_Mirza.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Salma_Yaqoob"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Salma_Yaqoob.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Yvonne_Ridley"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Yvonne_Ridley.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Barbara_Hewson"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Barbara_Hewson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Beatrix_Campbell"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Beatrix_Campbell.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Brendan_ONeill"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Brendan_ONeill.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Chris_Williamson"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Chris_Williamson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Claire_Fox"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Claire_Fox.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Clive_Lewis"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Clive_Lewis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_David_Gilmour"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_David_Gilmour.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Fiona_Bernadette_Fox"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Fiona_Bernadette_Fox.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Frank_Furedi"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Frank_Furedi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Gary_Younge"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Gary_Younge.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_James_Heartfield"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_James_Heartfield.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Ken_Loach"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Ken_Loach.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Lee_Jasper"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Lee_Jasper.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Mark_Seddon"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Mark_Seddon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Murad_Qureshi"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Murad_Qureshi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Neil_Faulkner"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Neil_Faulkner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Perry_Anderson"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Perry_Anderson.dds"
+	}
 	
 	spriteType = {
-		name = "GFX_idea_NTH_salma_yaqoob"
-		texturefile = "gfx/interface/ideas/NTH/idea_NTH_salma_yaqoob.dds"
+		name = "GFX_idea_NTH_Steve_Baker"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Steve_Baker.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_NTH_Stuart_Waiton"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Stuart_Waiton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Tahir_Ali"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Tahir_Ali.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Tariq_Ali"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Tariq_Ali.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Ted_Honderich"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Ted_Honderich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Valerie_Wise"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Valerie_Wise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Yasmin_Alibhai_Brown"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Yasmin_Alibhai_Brown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Aleksandr_Maksimtsev"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Aleksandr_Maksimtsev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_David_Richards"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_David_Richards.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Edzard_Ernst"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Edzard_Ernst.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Gareth_Derrick"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Gareth_Derrick.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Marc_Wadsworth"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_Marc_Wadsworth.dds"
+	}
+
+#Ideas#
 	spriteType = {
 		name = "GFX_idea_NTH_landsknecht_new"
 		texturefile = "gfx/interface/ideas/NTH/idea_NTH_landsknecht_new.dds"

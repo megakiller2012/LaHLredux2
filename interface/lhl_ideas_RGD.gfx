@@ -1,0 +1,9 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_RGD_Konstantin_Sjomin"
+		texturefile = "gfx/interface/ideas/RGD/idea_RGD_Konstantin_Sjomin.dds"
+	}
+}
+

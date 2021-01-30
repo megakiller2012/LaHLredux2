@@ -1,5 +1,6 @@
 spriteTypes = {
 
+#Advisors#
 	spriteType = {
 		name = "GFX_idea_ESS_nick_land"
 		texturefile = "gfx/interface/ideas/ESS/idea_ESS_nick_land.dds"

@@ -77,6 +77,7 @@ spriteTypes = {
 		name = "GFX_idea_NSU_oleg_sokolov"
 		texturefile = "gfx/interface/ideas/NSU/idea_NSU_oleg_sokolov.dds"
 	}
+	
 #Ideas#
 	spriteType = {
 		name = "GFX_idea_NSU_famine"

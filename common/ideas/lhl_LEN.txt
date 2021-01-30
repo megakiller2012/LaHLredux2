@@ -1,0 +1,40 @@
+ideas = {
+
+	political_advisor = {
+
+		LEN_Nikolaj_Platoshkin = {
+			
+			picture = LEN_Nikolaj_Platoshkin
+			
+			allowed = {
+				original_tag = LEN
+			}
+			
+			traits = { }
+
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		LEN_Pavel_Grudinin = {
+			
+			picture = LEN_Pavel_Grudinin
+			
+			allowed = {
+				original_tag = LEN
+			}
+			
+			traits = { }
+
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+}

@@ -1,0 +1,23 @@
+ideas = {
+
+	political_advisor = {
+
+		RGD_Konstantin_Sjomin = {
+			
+			picture = RGD_Konstantin_Sjomin
+			
+			allowed = {
+				original_tag = RGD
+			}
+			
+			traits = { }
+
+			do_effect = {
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+}

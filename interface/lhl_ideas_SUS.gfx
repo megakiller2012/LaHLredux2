@@ -1,9 +1,11 @@
 spriteTypes = {
-	
+
+#Advisors#
 	spriteType = {
 		name = "GFX_idea_SUS_jeremy_corbyn"
 		texturefile = "gfx/interface/ideas/SUS/idea_SUS_jeremy_corbyn.dds"
 	}	
+#Ideas#
 	spriteType = {
 		name = "GFX_idea_ENG_dynastic_crisis"
 		texturefile = "gfx/interface/ideas/ENG/idea_ENG_dynastic_crisis.dds"

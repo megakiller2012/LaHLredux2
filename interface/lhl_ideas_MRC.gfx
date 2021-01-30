@@ -1,5 +1,6 @@
 spriteTypes = {
-	
+
+#Advisors#
 	spriteType = {
 		name = "GFX_idea_MRC_regency_councilmer"
 		texturefile = "gfx/interface/ideas/MRC/idea_MRC_regency_councilmer.dds"
