@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 
-		jeremy_corbyn = {
+		SUS_jeremy_corbyn = {
 
-			picture = jeremy_corbyn
+			picture = SUS_jeremy_corbyn
 			allowed = {
 				original_tag = "SUS"
 			}

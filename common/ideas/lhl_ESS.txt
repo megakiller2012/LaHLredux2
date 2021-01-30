@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 		
-		nick_land = {
+		ESS_nick_land = {
 
-			picture = nick_land
+			picture = ESS_nick_land
 			allowed = {
 				original_tag = "ESS"
 			}

@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 	
-		regency_councilmer = {
+		MRC_regency_councilmer = {
 
-			picture = regency_councilmer
+			picture = MRC_regency_councilmer
 			allowed = {
 				original_tag = "MRC"
 			}

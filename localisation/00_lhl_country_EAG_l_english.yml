@@ -6,7 +6,7 @@
  EAG_hegemonism_DEF:0 "East Anglia Intervention"
  ##TRAITS##
  ##IDEAS##
- reinhard_gunzel:0 "Reinhard Günzel"
+ EAG_reinhard_gunzel:0 "Reinhard Günzel"
  ##FOCUS TREES##
  EAG_rob_fatherland:0 "Rob The Fatherland"
  EAG_steal_equipment:0 "Steal Equipment"

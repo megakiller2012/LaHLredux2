@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 
-		reinhard_gunzel = {
+		EAG_reinhard_gunzel = {
 
-			picture = reinhard_gunzel
+			picture = EAG_reinhard_gunzel
 			allowed = {
 				original_tag = "EAG"
 			}

@@ -11,10 +11,10 @@
  voice_of_ancestors:0 "Voice of Ancestors"
  keeper_of_the_lore:0 "Keeper of the RUS Lore"
  ##IDEAS##
- valerij_chudinov:0 "Valerij Chudinov"
- anatolij_fomenko:0 "Anatolij Fomenko"
- jurij_petukhov:0 "Jurij Petukhov"
- jurij_rybnikov:0 "Jurij Rybnikov"
+ RST_valerij_chudinov:0 "Valerij Chudinov"
+ RST_anatolij_fomenko:0 "Anatolij Fomenko"
+ RST_jurij_petukhov:0 "Jurij Petukhov"
+ RST_jurij_rybnikov:0 "Jurij Rybnikov"
  ##FOCUS TREES##
  RST_stateoraculs:0 "State Oracles"
  RST_stateoraculs_desc:0 "State Oracles"

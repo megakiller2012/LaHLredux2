@@ -6,9 +6,9 @@
  ESS_neocameralism:0 "Nationalists"
  ESS_neocameralism_DEF:0 "State of Great Britain"
  ##TRAITS##
- ##IDEAS##
- nick_land:0 "Nick Land"
  mad_max:0 "Mad Max"
+ ##IDEAS##
+ ESS_nick_land:0 "Nick Land"
  ##FOCUS TREES##
  ESS_luciferoverlondon:0 "Lucifer over London"
  ESS_luciferoverlondon_desc:0 "Police Coup"

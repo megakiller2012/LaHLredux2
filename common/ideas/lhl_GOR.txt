@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 
-		Sergej_Udaltsov = {
+		GOR_Sergej_Udaltsov = {
 
-			picture = Sergej_Udaltsov
+			picture = GOR_Sergej_Udaltsov
 			allowed = {
 				original_tag = "GOR"
 			}
@@ -19,9 +19,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Vjacheslav_Maltsev = {
+		GOR_Vjacheslav_Maltsev = {
 
-			picture = Vjacheslav_Maltsev
+			picture = GOR_Vjacheslav_Maltsev
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -36,12 +36,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		
-		
-	
-		Andrej_Knjazev = {
+		GOR_Andrej_Knjazev = {
 
-			picture = Andrej_Knjazev
+			picture = GOR_Andrej_Knjazev
 			allowed = {
 				original_tag = "GOR"
 			}
@@ -56,14 +53,12 @@ ideas = {
 				factor = 0
 			}
 		}
-	
-		
 	}
 	political_advisor = {
 
-		Aleksandsr_Kolchenko = {
+		GOR_Aleksandsr_Kolchenko = {
 
-			picture = Aleksandsr_Kolchenko
+			picture = GOR_Aleksandsr_Kolchenko
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -78,9 +73,9 @@ ideas = {
 				factor = 0
 			}	
 		}
-		Aleksej_Gaskarov = {
+		GOR_Aleksej_Gaskarov = {
 
-			picture = Aleksej_Gaskarov
+			picture = GOR_Aleksej_Gaskarov
 			allowed = {
 				original_tag = "GOR"
 			}
@@ -95,9 +90,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Aleksej_Nikonov = {
+		GOR_Aleksej_Nikonov = {
 
-			picture = Aleksej_Nikonov
+			picture = GOR_Aleksej_Nikonov
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -112,9 +107,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Anastasia_Baburova = {
+		GOR_Anastasia_Baburova = {
 
-			picture = Anastasia_Baburova
+			picture = GOR_Anastasia_Baburova
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -128,11 +123,10 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		}
-				
-		Sergej_Troitskij = {
+		}		
+		GOR_Sergej_Troitskij = {
 
-			picture = Sergej_Troitskij
+			picture = GOR_Sergej_Troitskij
 			allowed = {
 				original_tag = "GOR"
 			}
@@ -147,9 +141,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Andrej_Isajev = {
+		GOR_Andrej_Isajev = {
 
-			picture = Andrej_Isajev
+			picture = GOR_Andrej_Isajev
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -164,9 +158,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Stanislav_Markelov = {
+		GOR_Stanislav_Markelov = {
 
-			picture = Stanislav_Markelov
+			picture = GOR_Stanislav_Markelov
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -181,10 +175,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		
-		Valerij_Kipelov_2 = {
+		GOR_Valerij_Kipelov_2 = {
 
-			picture = Valerij_Kipelov_2
+			picture = GOR_Valerij_Kipelov_2
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -199,10 +192,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		
-		Vjacheslav_Butusov = {
+		GOR_Vjacheslav_Butusov = {
 
-			picture = Vjacheslav_Butusov
+			picture = GOR_Vjacheslav_Butusov
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -217,9 +209,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Marija_Alyokhina = {
+		GOR_Marija_Alyokhina = {
 
-			picture = Marija_Alyokhina
+			picture = GOR_Marija_Alyokhina
 			allowed = {
 				 original_tag = "GOR"
 			}
@@ -235,12 +227,11 @@ ideas = {
 			}
 		}
 		
-		}
-	
+	}
 	theorist = {
-		Pjotr_Rjabov = {
+		GOR_Pjotr_Rjabov = {
 			
-			picture = Pjotr_Rjabov
+			picture = GOR_Pjotr_Rjabov
 			allowed = {
 				original_tag = GOR
 			}
@@ -252,9 +243,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Aleksandr_Pushnoj = {
+		GOR_Aleksandr_Pushnoj = {
 
-			picture = Aleksandr_Pushnoj
+			picture = GOR_Aleksandr_Pushnoj
 			allowed = {
 				original_tag = "GOR"
 			}
@@ -269,14 +260,12 @@ ideas = {
 				factor = 0
 			}
 		}
-		
-		}
-
+	}
 	army_chief = {
 
-		Igor_Hugorskoj = {
+		GOR_Igor_Hugorskoj = {
 				
-			picture = Igor_Hugorskoj
+			picture = GOR_Igor_Hugorskoj
 			allowed = {
 				original_tag = GOR
 			}
@@ -289,9 +278,9 @@ ideas = {
 				factor = 0
 			}
 		}
-Vadim_Kurylev = {
+        GOR_Vadim_Kurylev = {
 				
-			picture = Vadim_Kurylev
+			picture = GOR_Vadim_Kurylev
 			allowed = {
 				original_tag = GOR
 			}
@@ -304,11 +293,11 @@ Vadim_Kurylev = {
 				factor = 0
 			}
 		}
-		}
+	}
 	navy_chief = {
-	Aleksej_Polikhovich  = {
+	    GOR_Aleksej_Polikhovich  = {
 
-			picture = Aleksej_Polikhovich
+			picture = GOR_Aleksej_Polikhovich
 			allowed = {
 				original_tag = GOR
 			}
@@ -320,11 +309,11 @@ Vadim_Kurylev = {
 			}
 		}
 	}
+    air_chief = {
+	
+		GOR_Konstantin_Labetskij  = {
 
-air_chief = {
-		Konstantin_Labetskij  = {
-
-			picture = Konstantin_Labetskij
+			picture = GOR_Konstantin_Labetskij
 			allowed = {
 				original_tag = GOR
 			}
@@ -335,14 +324,12 @@ air_chief = {
 				factor = 1
 			}
 		}
-	
-	
 	}
 	high_command = {
 	
-		Aleksej_Sutuga  = {
+		GOR_Aleksej_Sutuga  = {
 
-			picture = Aleksej_Sutuga
+			picture = GOR_Aleksej_Sutuga
 			allowed = {
 				original_tag = GOR
 			}
@@ -353,9 +340,9 @@ air_chief = {
 				factor = 1
 			}
 		}
-		Valerij_Skoroded  = {
+		GOR_Valerij_Skoroded  = {
 
-			picture = Valerij_Skoroded
+			picture = GOR_Valerij_Skoroded
 			allowed = {
 				original_tag = GOR
 			}
@@ -366,9 +353,9 @@ air_chief = {
 				factor = 1
 			}
 		}
-		Vjacheslav_Maltsev  = {
+		GOR_Vjacheslav_Maltsev  = {
 
-			picture = Vjacheslav_Maltsev
+			picture = GOR_Vjacheslav_Maltsev
 			allowed = {
 				original_tag = GOR
 			}
@@ -378,7 +365,6 @@ air_chief = {
 			ai_will_do = {
 				factor = 1
 			}
-		}
-	
+		}	
 	}
-	}
+}

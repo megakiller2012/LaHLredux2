@@ -21,9 +21,9 @@ ideas = {
 
 	head_of_government = {
 	
-		rumen_ralchev = {
+		BUL_rumen_ralchev = {
 
-			picture = rumen_ralchev
+			picture = BUL_rumen_ralchev
 			allowed = {
 				original_tag = "BUL"
 			}

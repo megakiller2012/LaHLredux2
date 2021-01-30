@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 
-		darja_dugina = {
+		MSC_darja_dugina = {
 
-			picture = darja_dugina
+			picture = MSC_darja_dugina
 			allowed = {
 				original_tag = "MSC"
 			}
@@ -20,9 +20,9 @@ ideas = {
 			}
 		}
 	
-		natella_speranskaja = {
+		MSC_natella_speranskaja = {
 
-			picture = natella_speranskaja
+			picture = MSC_natella_speranskaja
 			allowed = {
 				original_tag = "MSC"
 			}
@@ -38,9 +38,9 @@ ideas = {
 			}
 		}
 	
-		evgenij_pchelov = {
+		MSC_evgenij_pchelov = {
 
-			picture = evgenij_pchelov
+			picture = MSC_evgenij_pchelov
 			allowed = {
 				original_tag = "MSC"
 			}
@@ -56,9 +56,9 @@ ideas = {
 			}
 		}
 	
-		sivers = {
+		MSC_sivers = {
 
-			picture = sivers
+			picture = MSC_sivers
 			allowed = {
 				original_tag = "MSC"
 			}
@@ -76,9 +76,9 @@ ideas = {
 	}
 	political_advisor = {
 
-		MSC_reshetnikov = {
+		MSC_leonid_reshetnikov = {
 			
-			picture = reshetnikov
+			picture = MSC_leonid_reshetnikov
 			
 			allowed = {
 				original_tag = MSC
@@ -93,9 +93,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		xenia_sobchak = {
+		MSC_xenia_sobchak = {
 
-			picture = xenia_sobchak
+			picture = MSC_xenia_sobchak
 			allowed = {
 			    original_tag = MSC
 			}

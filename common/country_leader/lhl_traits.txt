@@ -1,7 +1,7 @@
 leader_traits = {
 
 
-###EURASIA###
+###EURASIA### #MSC#
 ##LEADERS_EURASIA##
 	the_kings_two_bodies = { #Philosopher King#
 		random = no
@@ -47,7 +47,7 @@ leader_traits = {
 		}
 	}
 
-###ANARCHY_STATE###
+###ANARCHY_STATE### #GOR#
 ##LEADERS_ANARCHY_STATE##
 ##IDEAS_ANARCHY_STATE##
 	dark_prince = { #Andrej_Knjazev#
@@ -230,7 +230,7 @@ leader_traits = {
 		}
 	}
 
-###ROYALISTS/WESSEX###
+###ROYALISTS/WESSEX### #WES#
 ##LEADERS_ROYALISTS/WESSEX##
 	fisher_king = { #George VII#
 		random = no
@@ -266,7 +266,7 @@ leader_traits = {
 	}
 ##IDEAS_ROYALISTS/WESSEX##
 
-###IMPERIAL_THRONE###
+###IMPERIAL_THRONE### #IMT#
 ##LEADERS_IMPERIAL_THRONE##
 	eccentric_billionaire = { #Anton_Bakov#
 		random = no
@@ -373,7 +373,7 @@ leader_traits = {
 	}
 ##IDEAS_IMPERIAL_THRONE##
 
-###RUSSIAN_TSARDOM###
+###RUSSIAN_TSARDOM### #RTS#
 ##LEADERS_RUSSIAN_TSARDOM##
 	scourge_of_god = { #Dmitrij_Medvedev#
 		random = no
@@ -643,7 +643,7 @@ leader_traits = {
 		}
 	}
 
-###ROMAN_SOCIAL_TSARDOM###
+###ROMAN_SOCIAL_TSARDOM### #RST#
 ##LEADERS_ROMAN_SOCIAL_TSARDOM##
 ##IDEAS_ROMAN_SOCIAL_TSARDOM##
 	tyrant = { #Valerij_Chudinov#
@@ -678,7 +678,7 @@ leader_traits = {
 		}
 	}	
 
-###NEW_SOVIET_UNION###
+###NEW_SOVIET_UNION### #NSU#
 ##LEADERS_NEW_SOVIET_UNION##
 	lead_investigator = { #Dmitrij_Puchkov#
 		random = no
@@ -791,7 +791,7 @@ leader_traits = {
 		}
 	}
 	
-###STERLINGOV_MANOR###
+###STERLINGOV_MANOR### #STM#
 ##LEADERS_STERLINGOV_MANOR##
 	chevalier_of_fortune = { #German_Sterlingov#
 		random = no
@@ -804,7 +804,7 @@ leader_traits = {
 	}
 ##IDEAS_STERLINGOV_MANOR##
 
-###FREE_STATE###
+###FREE_STATE### #FRS#
 ##LEADERS_FREE_STATE_##
 	great_lustrator = { #Mikhail_Svetov#
 		random = no
@@ -817,7 +817,7 @@ leader_traits = {
 	}
 ##IDEAS_FREE_STATE##
 
-###NAVARRO###
+###NAVARRO### #NAV#
 ##LEADERS_NAVARRO##
 	maestro = { #Evgenij_Ponasenkov#
 		random = no
@@ -833,8 +833,8 @@ leader_traits = {
 	}
 ##IDEAS_NAVARRO##
 
-###ALGAVRE###
-##LEADERS_ALGGAVRE##
+###ALGAVRE### #ALV#
+##LEADERS_ALGAVRE##
 	paranoid_prince = { #Manuel_Godoy_II#
 		random = no
 		army_morale_Factor = -0.2
@@ -845,7 +845,7 @@ leader_traits = {
 	}
 ##IDEAS_ALGAVRE##
 
-###PORTUGAL###
+###PORTUGAL### #POR#
 ##LEADERS_PORTUGAL##
 	sucellus_chosen = { #Marianno_Rajoy#
 		random = no
@@ -855,7 +855,7 @@ leader_traits = {
 	}
 ##IDEAS_PORTUGAL##
 
-###ANDALUSIA###
+###ANDALUSIA### #AND#
 ##LEADERS_ANDALUSIA##
 	iron_fisted_woman = { #Susanna_Diaz#
 		random = no
@@ -868,7 +868,7 @@ leader_traits = {
 	}
 ##IDEAS_ANDALUSIA##
 
-###SPAIN###
+###SPAIN### #SPA#
 ##LEADERS_SPAIN##
 	self_harming = { #Felipe_VI#
 		random = no
@@ -880,7 +880,7 @@ leader_traits = {
 	}
 ##IDEAS_SPAIN##
 
-###CATALONIA###
+###CATALONIA### #CAT#
 ##LEADERS_CATALONIA##
 	hopeless = { #Ines_Arrimandas#
 		random = no
@@ -892,7 +892,7 @@ leader_traits = {
 	}
 ##IDEAS_CATALONIA##
 
-###TURKISH_SYRIA###
+###TURKISH_SYRIA### #TUR#
 ##LEADERS_TURKISH_SYRIA##
     turkish_lapdog = { #Abdurrahman_Mustafa#
 		random = no
@@ -903,7 +903,7 @@ leader_traits = {
 	}
 ##IDEAS_TURKISH_SYRIA##
 
-###SYRIA###
+###SYRIA### #SYR#
 ##LEADERS_SYRIA##
     hyena_of_syria = { #Abdul_Halim_Khaddam#
 		random = no
@@ -914,7 +914,7 @@ leader_traits = {
 	}
 ##IDEAS_SYRIA##
 
-###ISRAEL###
+###ISRAEL### #ISR#
 ##LEADERS_ISRAEL##
     dabbat_al_ard = { #Benjamin_Netanyahu#
 		random = no
@@ -925,7 +925,7 @@ leader_traits = {
 	}
 ##IDEAS_ISRAEL##
 
-###SAUDI_ARABIA###
+###SAUDI_ARABIA### #SAR#
 ##LEADERS_SAUDI_ARABIA##
     self_proclaimed_al_masiyah = { #Salman_bin_Abdulaziz_Al-Saud#
 		random = no
@@ -936,7 +936,7 @@ leader_traits = {
 	}
 ##IDEAS_SAUDI_ARABIA##
 
-###SYRIAN_KURDISTAN###
+###SYRIAN_KURDISTAN### #SKD#
 ##LEADERS_SYRIAN_KURDISTAN##
     stronghold_of_democracy = { #Kurdistan_Council#
 		random = no
@@ -947,7 +947,7 @@ leader_traits = {
 	}
 ##IDEAS_SYRIAN_KURDISTAN##
 
-###IRAQ###
+###IRAQ### #IRQ#
 ##LEADERS_IRAQ##
     bloodhound = { #Saddam_Hussein#
 		random = no
@@ -958,7 +958,7 @@ leader_traits = {
 	}
 ##IDEAS_IRAQ##
 
-###YEMEN###
+###YEMEN### #YEM#
 ##LEADERS_YEMEN##
     disgraced_general = { #Ahmed_Ali_Abdullah_Saleh#
 		random = no
@@ -969,7 +969,7 @@ leader_traits = {
 	}
 ##IDEAS_YEMEN##
 
-###PHOENICIA###
+###PHOENICIA### #LEB#
 ##LEADERS_PHOENICIA##
     last_of_the_phoenicians = { #Samy_Gemayel#
 		random = no
@@ -980,7 +980,7 @@ leader_traits = {
 	}
 ##IDEAS_PHOENICIA##
 
-###DRUZE###
+###DRUZE### #DRU#
 ##LEADERS_DRUZE##
     dark_horse_of_syria = { #Issam_Zahreddine#
 		random = no
@@ -991,7 +991,7 @@ leader_traits = {
 	}
 ##IDEAS_DRUZE##
 
-###HASHEMITE_ARABIA###
+###HASHEMITE_ARABIA### #HAR#
 ##LEADERS_HASHEMITE_ARABIA##
     fallen_king = { #Abdullah_II#
 		random = no
@@ -1002,7 +1002,7 @@ leader_traits = {
 	}
 ##IDEAS_HASHEMITE_ARABIA##
 
-###ASSAD_SYRIA###
+###ASSAD_SYRIA### #ASS#
 ##LEADERS_ASSAD_SYRIA##
 	lion_of_syria = { #Bashar_al-Assad#
 		random = no
@@ -1013,7 +1013,7 @@ leader_traits = {
 	}
 ##IDEAS_ASSAD_SYRIA##
 
-###NATIONALISTS/ESSEX###
+###NATIONALISTS/ESSEX### #ESS#
 ##LEADERS_NATIONALISTS/ESSEX##
 	mad_max = { #Max_Mosley#
 		random = no
@@ -1024,7 +1024,7 @@ leader_traits = {
 	}
 ##IDEAS_NATIONALISTS/ESSEX##
 
-###JACOBITES/KENT###
+###JACOBITES/KENT### #KNT#
 ##LEADERS_JACOBITES/KENT##
 	high_handed_despot = { #Jacob_Rees-Mogg#
 		random = no
@@ -1035,7 +1035,7 @@ leader_traits = {
 	}
 ##IDEAS_JACOBITES/KENT##
 
-###FOLCISTS/MERCIA###
+###FOLCISTS/MERCIA### #MRC#
 ##LEADERS_FOLCISTS/MERCIA##
 	lastbelovedofeurope = { #Douglas_Pearce#
 		random = no
@@ -1046,7 +1046,7 @@ leader_traits = {
 	}
 ##IDEAS_FOLCISTS/MERCIA##
 
-###ABSOLUTISTS/SUSSEX###
+###ABSOLUTISTS/SUSSEX### #SUS#
 ##LEADERS_ABSOLUTISTS/SUSSEX##
 	comrade_king = { #Henry_IX#
 		random = no
@@ -1057,7 +1057,7 @@ leader_traits = {
 	}
 ##IDEAS_ABSOLUTISTS/SUSSEX##
 
-###RUSSIAN_NATIONAL_STATE###
+###RUSSIAN_NATIONAL_STATE### #RNG#
 ##LEADERS_RUSSIAN_NATIONAL_STATE##
 	icehaired = { #Boris_Jel'tsin#
 		random = no
@@ -1085,7 +1085,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-###RUSSIAN_PEASANT_REPUBLIC###
+###RUSSIAN_PEASANT_REPUBLIC### #RPR#
 ##LEADERS_RUSSIAN_PEASANT_REPUBLIC##
 	leftwing_intellectual = { #Sergej_Kara-Murza#
 		random = no
@@ -1098,7 +1098,7 @@ leader_traits = {
 	}
 ##IDEAS_RUSSIAN_PEASANT_REPUBLIC##
 
-###RUSSIAN_NATIONALIST_REPUBLIC###
+###RUSSIAN_NATIONALIST_REPUBLIC### #RNE#
 ##LEADERS_RUSSIAN_NATIONALIST_REPUBLIC##
 	diligent_officer_without_imagination = { #Aleksandr_Barkashov#
 		random = no
@@ -1111,7 +1111,7 @@ leader_traits = {
 	}
 ##IDEAS_RUSSIAN_NATIONALIST_REPUBLIC##
 
-###CHUVASHIA###
+###CHUVASHIA### #CHS#
 ##LEADERS_CHUVASHIA##
 	red_horse = { #Uldin_Stan'jal#
 		random = no
@@ -1124,7 +1124,7 @@ leader_traits = {
 	}
 ##IDEAS_CHUVASHIA##
 
-###BASHKORTOSTAN###
+###BASHKORTOSTAN### #BSK#
 ##LEADERS_BASHKORTOSTAN##
 	moderate_technocrat = { #Radij_Khabirov#
 		random = no
@@ -1137,7 +1137,7 @@ leader_traits = {
 	}
 ##IDEAS_BASHKORTOSTAN##
 
-###TATARSTAN##
+###TATARSTAN## #TAT#
 ##LEADERS_TATARSTAN##
 	old_boar = { #Mintimer_Shaimiev#
 		random = no
@@ -1151,7 +1151,7 @@ leader_traits = {
 	}
 ##IDEAS_TATARSTAN##
 
-###RUSSIAN_WORKER_REPUBLIC###
+###RUSSIAN_WORKER_REPUBLIC### #RWR#
 ##LEADERS_RUSSIAN_WORKER_REPUBLIC##
 	tribune_of_the_people = { #Boris_Kagarlitskij#
 		random = no
@@ -1164,7 +1164,7 @@ leader_traits = {
 	}
 ##IDEAS_RUSSIAN_WORKER_REPUBLIC##
 
-###MALOROSSIYA_PROTECTORATE###
+###MALOROSSIYA_PROTECTORATE### #KHA#
 ##LEADERS_MALOROSSIYA_PROTECTORATE##
 	inexperienced_enthusiast = { #Vladimir_Zelenskij#
 		random = no
@@ -1221,7 +1221,7 @@ leader_traits = {
 	}
 ##IDEAS_MALOROSSIYA_PROTECTORATE##
 
-###UKRANIAN_PEASANT_REPUBLIC###
+###UKRANIAN_PEASANT_REPUBLIC### #UPR#
 ##LEADERS_UKRANIAN_PEASANT_REPUBLIC###
 	barking_buffoon = { #Oljeg_Ljashko#
 		random = no
@@ -1234,7 +1234,7 @@ leader_traits = {
 	}
 ##IDEAS_UKRANIAN_PEASANT_REPUBLIC##
 
-###GARDARIKI###
+###GARDARIKI### #NRU#
 ##LEADERS_GARDARIKI##
 	han_som_reiste = { #Louis_Cachet#
 		random = no
@@ -1256,7 +1256,7 @@ leader_traits = {
 	}
 ##IDEAS_GARDARIKI##
 
-###GEORGIA###
+###GEORGIA### #GEO#
 ##LEADERS_GEORGIA##
 	spiritual_leader = { #Elijah_II#
 		random = no
@@ -1269,7 +1269,7 @@ leader_traits = {
 	}
 ##IDEAS_GEORGIA##
 
-###TURKEY###
+###TURKEY### #TUR#
 ##LEADERS_TURKEY##
 	qaysar_i_rum = { #Recep_Tayyip_Erdoğan#
 		random = no
@@ -1282,7 +1282,7 @@ leader_traits = {
 	}
 ##IDEAS_TURKEY##
 
-###BALTICA###
+###BALTICA### #BAL#
 ##LEADERS_BALTICA##
 	black_lenin = { #Beness_Aijo#
 		random = no
@@ -1295,7 +1295,7 @@ leader_traits = {
 	}
 ##IDEAS_BALTICA##
 
-###ROSGVARDIA###
+###ROSGVARDIA### #RGD#
 ##LEADERS_ROSGVARDIA##
 	possessed = { #Vladimir_Putin_start#
 		random = no
@@ -1307,7 +1307,7 @@ leader_traits = {
 	}
 ##IDEAS_ROSGVARDIA##
 
-###GULAG###
+###GULAG### #GUL#
 ##LEADERS_GULAG##
 	grey_eminence = { #The Uncle/Xi Jinping#
 		random = no
@@ -1329,7 +1329,7 @@ leader_traits = {
 	}
 ##IDEAS_GULAG##
 
-###DJIBOUTI###
+###DJIBOUTI### #DJI#
 ##LEADERS_DJIBOUTI##
 	big_boss = { #Eduard_Limonov#
 		random = no
@@ -1341,7 +1341,7 @@ leader_traits = {
 	}
 ##IDEAS_DJIBOUTI##
 
-###SWEDEN###
+###SWEDEN### #SWE#
 ##LEADERS_SWEDEN##
 	maid_of_goteborg = { #Izabella_Jarvandi#
 	

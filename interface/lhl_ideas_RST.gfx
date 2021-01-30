@@ -1,0 +1,22 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_RST_valerij_chudinov"
+		texturefile = "gfx/interface/ideas/RST/idea_RST_valerij_chudinov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RST_anatolij_fomenko"
+		texturefile = "gfx/interface/ideas/RST/idea_RST_anatolij_fomenko.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_RST_jurij_petukhov"
+		texturefile = "gfx/interface/ideas/RST/idea_RST_jurij_petukhov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RST_jurij_rybnikov"
+		texturefile = "gfx/interface/ideas/RST/idea_RST_jurij_rybnikov.dds"
+	}
+}
+

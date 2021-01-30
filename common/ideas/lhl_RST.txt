@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 
-		valerij_chudinov = {
+		RST_valerij_chudinov = {
 
-			picture = valerij_chudinov
+			picture = RST_valerij_chudinov
 			allowed = {
 				original_tag = "RST"
 			}
@@ -20,9 +20,9 @@ ideas = {
 			}
 		}
 	
-		anatolij_fomenko = {
+		RST_anatolij_fomenko = {
 
-			picture = anatolij_fomenko
+			picture = RST_anatolij_fomenko
 			allowed = {
 				original_tag = "RST"
 			}
@@ -38,9 +38,9 @@ ideas = {
 			}
 		}
 	
-		jurij_petukhov = {
+		RST_jurij_petukhov = {
 
-			picture = jurij_petukhov
+			picture = RST_jurij_petukhov
 			allowed = {
 				original_tag = "RST"
 			}
@@ -55,9 +55,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		jurij_rybnikov = {
+		RST_jurij_rybnikov = {
 
-			picture = rybnikov
+			picture = RST_jurij_rybnikov
 			allowed = {
 				original_tag = "RST"
 			}

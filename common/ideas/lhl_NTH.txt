@@ -22,9 +22,9 @@ ideas = {
 
 	head_of_government = {
 
-		salma_yaqoob = {
+		NTH_salma_yaqoob = {
 
-			picture = darja_dugina
+			picture = NTH_salma_yaqoob
 			allowed = {
 				original_tag = "NTH"
 			}

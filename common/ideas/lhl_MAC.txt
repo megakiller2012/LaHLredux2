@@ -21,9 +21,9 @@ ideas = {
 
 	head_of_government = {
 	
-		gordana_jankuloska = {
+		MAC_gordana_jankuloska = {
 
-			picture = gordana_jankuloska
+			picture = MAC_gordana_jankuloska
 			allowed = {
 				original_tag = "MAC"
 			}

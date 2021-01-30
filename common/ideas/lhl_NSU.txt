@@ -18,9 +18,9 @@ ideas = {
 			}
 		}
 	
-		extraordinary_commission = {
+		NSU_extraordinary_commission = {
 			
-			picture = extraordinary_commission
+			picture = NSU_extraordinary_commission
 
 			allowed = {
 				always = no
@@ -37,9 +37,9 @@ ideas = {
 
 	head_of_government = {
 
-		dmitrij_pavlush = {
+		NSU_dmitrij_pavlush = {
 
-			picture = dmitrij_pavlush
+			picture = NSU_dmitrij_pavlush
 			allowed = {
 				original_tag = "NSU"
 			}
@@ -55,9 +55,9 @@ ideas = {
 			}
 		}
 	
-		boris_julin = {
+		NSU_boris_julin = {
 
-			picture = boris_julin
+			picture = NSU_boris_julin
 			allowed = {
 				original_tag = "NSU"
 			}
@@ -73,9 +73,9 @@ ideas = {
 			}
 		}
 	
-		klim_jukov = {
+		NSU_klim_jukov = {
 
-			picture = klim_jukov
+			picture = NSU_klim_jukov
 			allowed = {
 				original_tag = "NSU"
 			}
@@ -91,9 +91,9 @@ ideas = {
 			}
 		}
 	
-		igor_ashmanov = {
+		NSU_igor_ashmanov = {
 
-			picture = igor_ashmanov
+			picture = NSU_igor_ashmanov
 			allowed = {
 				original_tag = "NSU"
 			}
@@ -112,9 +112,9 @@ ideas = {
 	
 	political_advisor = {
 
-		aleksandr_panchin = {
+		NSU_aleksandr_panchin = {
 
-			picture = aleksandr_panchin
+			picture = NSU_aleksandr_panchin
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -129,9 +129,9 @@ ideas = {
 				factor = 0
 			}	
 		}
-		anatolj_vaserman = {
+		NSU_anatolj_vaserman = {
 
-			picture = anatolj_vaserman
+			picture = NSU_anatolj_vaserman
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -146,9 +146,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		andrej_rudoj = {
+		NSU_andrej_rudoj = {
 
-			picture = andrej_rudoj
+			picture = NSU_andrej_rudoj
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -163,9 +163,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		armen_gasparjan = {
+		NSU_armen_gasparjan = {
 
-			picture = armen_gasparjan
+			picture = NSU_armen_gasparjan
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -180,9 +180,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		evgenij_bahzenov = {
+		NSU_evgenij_bahzenov = {
 
-			picture = evgenij_bahzenov
+			picture = NSU_evgenij_bahzenov
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -197,9 +197,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		german_klimenko = {
+		NSU_german_klimenko = {
 
-			picture = german_klimenko
+			picture = NSU_german_klimenko
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -214,9 +214,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		jegor_jakovlev = {
+		NSU_jegor_jakovlev = {
 
-			picture = jegor_jakovlev
+			picture = NSU_jegor_jakovlev
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -231,9 +231,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		marija_zakharova = {
+		NSU_marija_zakharova = {
 
-			picture = marija_zakharova
+			picture = NSU_marija_zakharova
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -248,9 +248,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		mikhail_popov = {
+		NSU_mikhail_popov = {
 
-			picture = mikhail_popov
+			picture = NSU_mikhail_popov
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -265,9 +265,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		jegor_ivanov = {
+		NSU_jegor_ivanov = {
 
-			picture = jegor_ivanov
+			picture = NSU_jegor_ivanov
 			allowed = {
 				 original_tag = "NSU"
 			}
@@ -285,9 +285,9 @@ ideas = {
 	}
 	
 	theorist = {
-		aleksandr_sokolov = {
+		NSU_aleksandr_sokolov = {
 			
-			picture = aleksandr_sokolov
+			picture = NSU_aleksandr_sokolov
 			allowed = {
 				original_tag = NSU
 			}
@@ -299,9 +299,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		sergej_saveljev = {
+		NSU_sergej_saveljev = {
 			
-			picture = sergej_saveljev
+			picture = NSU_sergej_saveljev
 			allowed = {
 				original_tag = NSU
 			}
@@ -313,9 +313,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		stanislav_drobyshevskij = {
+		NSU_stanislav_drobyshevskij = {
 			
-			picture = stanislav_drobyshevskij
+			picture = NSU_stanislav_drobyshevskij
 			allowed = {
 				original_tag = NSU
 			}
@@ -331,9 +331,9 @@ ideas = {
 
 	army_chief = {
 
-		mikhail_lapidus = {
+		NSU_mikhail_lapidus = {
 				
-			picture = mikhail_lapidus
+			picture = NSU_mikhail_lapidus
 			allowed = {
 				original_tag = NSU
 			}

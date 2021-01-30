@@ -20,9 +20,9 @@ ideas = {
 	}
 	head_of_government = {
 	
-		iera_koinotita = {
+		ATH_iera_koinotita = {
 
-			picture = iera_koinotita
+			picture = ATH_iera_koinotita
 			allowed = {
 				original_tag = "ATH"
 			}

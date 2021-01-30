@@ -1,0 +1,9 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_NAV_jevgenij_ponasenkov"
+		texturefile = "gfx/interface/ideas/NAV/idea_NAV_jevgenij_ponasenkov.dds"
+	}
+}
+

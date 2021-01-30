@@ -13,15 +13,16 @@
  MSC_national_bolshevism_DEF:0 "Eurasian Union"
  ##TRAITS##
  greatraven:0 "Great Raven"
- ##IDEAS##
- MSC_reshetnikov:0 "Leonid Reshetnikov"
- darja_dugina:0 "Dar'ja Dugina"
- natella_speranskaja:0 "Natella Speranskaja"
  maenad:0 "Maenad"
- evgenij_pchelov:0 "Evgenij Pchelov"
  renaissance_man:0 "Renaissance Man"
- sivers:0 "Ambrosius von Sievers"
  black_monk:0 "Black Monk"
+ ##IDEAS##
+ MSC_leonid_reshetnikov:0 "Leonid Reshetnikov"
+ MSC_darja_dugina:0 "Dar'ja Dugina"
+ MSC_natella_speranskaja:0 "Natella Speranskaja"
+ MSC_evgenij_pchelov:0 "Evgenij Pchelov"
+ MSC_sivers:0 "Ambrosius von Sievers"
+ MSC_xenia_sobchak:0 "Xenia Sobchak"
  ##FOCUS TREES##
  DUG_11:0 "Dugin best politician"
  MSC_left_hand_path:0 "Left-Hand Path"

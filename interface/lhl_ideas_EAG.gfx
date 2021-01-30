@@ -1,0 +1,8 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_EAG_reinhard_gunzel"
+		texturefile = "gfx/interface/ideas/EAG/idea_EAG_reinhard_gunzel.dds"
+	}
+}
+

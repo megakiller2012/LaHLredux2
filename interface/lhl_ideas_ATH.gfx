@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_ATH_saint_state"
+		texturefile = "gfx/interface/ideas/ATH/idea_ATH_saint_state.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ATH_iera_koinotita"
+		texturefile = "gfx/interface/ideas/ATH/idea_ATH_iera_koinotita.dds"
+	}
+}
+

@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_WES_roger_scruton"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_roger_scruton.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_dynastic_crisis"
+		texturefile = "gfx/interface/ideas/ENG/idea_ENG_dynastic_crisis.dds"
+	}	
+}
+

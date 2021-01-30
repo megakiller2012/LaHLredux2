@@ -2,9 +2,9 @@ ideas = {
 
 	political_advisor = {
 
-		vasilij_topolev = {
+		RNG_vasilij_topolev = {
 
-			picture = vasilij_topolev
+			picture = RNG_vasilij_topolev
 			allowed = {
 			    original_tag = "RNG"
 			}
@@ -20,9 +20,9 @@ ideas = {
 			}
 		}
 
-		anatolij_mizzengendler = {
+		RNG_anatolij_mizzengendler = {
 
-			picture = anatolij_mizzengendler
+			picture = RNG_anatolij_mizzengendler
 			allowed = {
 			    original_tag = "RNG"
 			}

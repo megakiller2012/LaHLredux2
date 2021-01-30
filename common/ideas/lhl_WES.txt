@@ -70,9 +70,9 @@ ideas = {
 	}
 	head_of_government = {
 	
-		roger_scruton = {
+		WES_roger_scruton = {
 
-			picture = roger_scruton
+			picture = WES_roger_scruton
 			allowed = {
 				original_tag = "WES"
 			}

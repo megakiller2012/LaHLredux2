@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 
-		Aleksey_Krivoruchko = {
+		RTS_Aleksey_Krivoruchko = {
 
-			picture = Aleksey_Krivoruchko
+			picture = RTS_Aleksey_Krivoruchko
 			allowed = {
 				original_tag = "RTS"
 			}
@@ -20,9 +20,9 @@ ideas = {
 			}
 		}
 	
-		Smirnov = {
+		RTS_Dmitrij_Smirnov = {
 
-			picture = Smirnov
+			picture = RTS_Dmitrij_Smirnov
 			allowed = {
 				original_tag = "RTS"
 			}
@@ -38,9 +38,9 @@ ideas = {
 			}
 		}
 	
-		Milonov = {
+		RTS_Vitalij_Milonov = {
 
-			picture = Milonov
+			picture = RTS_Vitalij_Milonov
 			allowed = {
 				original_tag = "RTS"
 			}
@@ -55,9 +55,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Medinsky = {
+		RTS_Vladimir_Medinsky = {
 
-			picture = Medinsky
+			picture = RTS_Vladimir_Medinsky
 			allowed = {
 				original_tag = "RTS"
 			}
@@ -75,9 +75,9 @@ ideas = {
 	}
 	political_advisor = {
 
-		Nikolay_Valuev = {
+		RTS_Nikolay_Valuev = {
 
-			picture = Nikolay_Valuev
+			picture = RTS_Nikolay_Valuev
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -92,9 +92,9 @@ ideas = {
 				factor = 0
 			}	
 		}
-		Vladimir_Sorokin = {
+		RTS_Vladimir_Sorokin = {
 
-			picture = Vladimir_Sorokin
+			picture = RTS_Vladimir_Sorokin
 			allowed = {
 				original_tag = "RTS"
 			}
@@ -109,9 +109,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Sergey_Miheev = {
+		RTS_Sergey_Miheev = {
 
-			picture = Sergey_Miheev
+			picture = RTS_Sergey_Miheev
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -126,9 +126,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Sergey_Baburin = {
+		RTS_Sergey_Baburin = {
 
-			picture = Sergey_Baburin
+			picture = RTS_Sergey_Baburin
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -143,9 +143,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Petr_Tolstoy = {
+		RTS_Petr_Tolstoy = {
 
-			picture = Petr_Tolstoy
+			picture = RTS_Petr_Tolstoy
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -160,9 +160,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Ochlobistyn = {
+		RTS_Ivan_Ochlobistyn = {
 
-			picture = Ochlobistyn
+			picture = RTS_Ivan_Ochlobistyn
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -177,9 +177,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Malofeev = {
+		RTS_Konstantin_Malofeev = {
 
-			picture = Malofeev
+			picture = RTS_Konstantin_Malofeev
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -194,9 +194,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Andrej_Afanasev = {
+		RTS_Andrej_Afanasev = {
 
-			picture = Andrej_Afanasev
+			picture = RTS_Andrej_Afanasev
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -211,9 +211,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Irina_Yarovaya = {
+		RTS_Irina_Yarovaya = {
 
-			picture = Irina_Yarovaya
+			picture = RTS_Irina_Yarovaya
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -228,9 +228,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Inga_Yumasheva = {
+		RTS_Inga_Yumasheva = {
 
-			picture = Inga_Yumasheva
+			picture = RTS_Inga_Yumasheva
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -245,9 +245,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Boris_Rotenberg = {
+		RTS_Boris_Rotenberg = {
 
-			picture = Boris_Rotenberg
+			picture = RTS_Boris_Rotenberg
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -262,9 +262,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Artemiy_Lebedev = {
+		RTS_Artemiy_Lebedev = {
 
-			picture = Artemiy_Lebedev
+			picture = RTS_Artemiy_Lebedev
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -279,9 +279,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Alena_Arshinova = {
+		RTS_Alena_Arshinova = {
 
-			picture = Alena_Arshinova
+			picture = RTS_Alena_Arshinova
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -296,9 +296,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Vsevlod_Chaplin = {
+		RTS_Vsevlod_Chaplin = {
 
-			picture = Vsevlod_Chaplin
+			picture = RTS_Vsevlod_Chaplin
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -313,9 +313,9 @@ ideas = {
 				factor = 0
 			}
 		}
-		Vladimir_Soloviyov = {
+		RTS_Vladimir_Soloviyov = {
 
-			picture = Vladimir_Soloviyov
+			picture = RTS_Vladimir_Soloviyov
 			allowed = {
 				 original_tag = "RTS"
 			}
@@ -333,9 +333,9 @@ ideas = {
 	}
 	
 	theorist = {
-		Artur_Chilingarov = {
+		RTS_Artur_Chilingarov = {
 			
-			picture = Artur_Chilingarov
+			picture = RTS_Artur_Chilingarov
 			allowed = {
 				original_tag = RTS
 			}
@@ -348,9 +348,9 @@ ideas = {
 			}
 		}
 		
-		Evgeniy_Kaspersky = {
+		RTS_Evgeniy_Kaspersky = {
 			
-			picture = Evgeniy_Kaspersky
+			picture = RTS_Evgeniy_Kaspersky
 			allowed = {
 				original_tag = RTS
 			}
@@ -366,9 +366,9 @@ ideas = {
 
 	army_chief = {
 
-		Yuriy_Baluevsky = {
+		RTS_Yuriy_Baluevsky = {
 				
-			picture = Yuriy_Baluevsky
+			picture = RTS_Yuriy_Baluevsky
 			allowed = {
 				original_tag = RTS
 			}
@@ -382,9 +382,9 @@ ideas = {
 			}
 		}
 
-		Rashid_Nurgaliev  = {
+		RTS_Rashid_Nurgaliev  = {
 
-			picture = Rashid_Nurgaliev
+			picture = RTS_Rashid_Nurgaliev
 			allowed = {
 				original_tag = RTS
 			}
@@ -397,9 +397,10 @@ ideas = {
 		}
 	}
 	navy_chief = {
-	Viktor_Chirikov  = {
+	
+	    RTS_Viktor_Chirikov  = {
 
-			picture = Viktor_Chirikov
+			picture = RTS_Viktor_Chirikov
 			allowed = {
 				original_tag = RTS
 			}
@@ -411,9 +412,9 @@ ideas = {
 			}
 		}
 		
-	Sergey_Avakyanc  = {
+	    RTS_Sergey_Avakyanc  = {
 
-			picture = Sergey_Avakyanc
+			picture = RTS_Sergey_Avakyanc
 			allowed = {
 				original_tag = RTS
 			}
@@ -426,10 +427,10 @@ ideas = {
 		}
 	}
 
-air_chief = {
-		Sergey_Dronov  = {
+    air_chief = {
+		RTS_Sergey_Dronov  = {
 
-			picture = Sergey_Dronov
+			picture = RTS_Sergey_Dronov
 			allowed = {
 				original_tag = RTS
 			}
@@ -441,9 +442,9 @@ air_chief = {
 			}
 		}
 	
-	Valeriy_Evtuhovich  = {
+	    RTS_Valeriy_Evtuhovich  = {
 
-			picture = Valeriy_Evtuhovich
+			picture = RTS_Valeriy_Evtuhovich
 			allowed = {
 				original_tag = RTS
 			}
@@ -456,9 +457,9 @@ air_chief = {
 		}
 	}
 	high_command = {
-	Andrey_Ivanaev  = {
+	    RTS_Andrey_Ivanaev  = {
 
-			picture = Andrey_Ivanaev
+			picture = RTS_Andrey_Ivanaev
 			allowed = {
 				original_tag = RTS
 			}
@@ -469,9 +470,9 @@ air_chief = {
 				factor = 1
 			}
 		}
-		Aleksandr_Shevchenko  = {
+		RTS_Aleksandr_Shevchenko  = {
 
-			picture = Aleksandr_Shevchenko
+			picture = RTS_Aleksandr_Shevchenko
 			allowed = {
 				original_tag = RTS
 			}
@@ -482,9 +483,9 @@ air_chief = {
 				factor = 1
 			}
 		}
-		Valera_Kamshilov  = {
+		RTS_Valera_Kamshilov  = {
 
-			picture = Valera_Kamshilov
+			picture = RTS_Valera_Kamshilov
 			allowed = {
 				original_tag = RTS
 			}
@@ -495,9 +496,9 @@ air_chief = {
 				factor = 1
 			}
 		}
-		Dmitrij_Trunenkov  = {
+		RTS_Dmitrij_Trunenkov  = {
 
-			picture = Dmitrij_Trunenkov
+			picture = RTS_Dmitrij_Trunenkov
 			allowed = {
 				original_tag = RTS
 			}
@@ -508,6 +509,5 @@ air_chief = {
 				factor = 1
 			}
 		}
-	
 	}
-	}
+}

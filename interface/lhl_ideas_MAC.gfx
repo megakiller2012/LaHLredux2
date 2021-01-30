@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_MAC_gordana_jankuloska"
+		texturefile = "gfx/interface/ideas/MAC/idea_MAC_gordana_jankuloska.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MAC_antiquization"
+		texturefile = "gfx/interface/ideas/MAC/idea_MAC_antiquization.dds"
+	}
+}
+

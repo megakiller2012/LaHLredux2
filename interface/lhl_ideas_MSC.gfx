@@ -1,0 +1,28 @@
+spriteTypes = {
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_MSC_darja_dugina"
+		texturefile = "gfx/interface/ideas/MSC/idea_MSC_darja_dugina.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MSC_natella_speranskaja"
+		texturefile = "gfx/interface/ideas/MSC/idea_MSC_natella_speranskaja.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MSC_evgenij_pchelov"
+		texturefile = "gfx/interface/ideas/MSC/idea_MSC_evgenij_pchelov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MSC_sivers"
+		texturefile = "gfx/interface/ideas/MSC/idea_MSC_sivers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MSC_xenia_sobchak"
+		texturefile = "gfx/interface/ideas/MSC/idea_MSC_xenia_sobchak.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MSC_leonid_reshetnikov"
+		texturefile = "gfx/interface/ideas/MSC/idea_MSC_leonid_reshetnikov.dds"
+	}
+}
+

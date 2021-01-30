@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 	
-		lulzim_basha = {
+		ALB_lulzim_basha = {
 
-			picture = lulzim_basha
+			picture = ALB_lulzim_basha
 			allowed = {
 				original_tag = "ALB"
 			}

@@ -1,0 +1,13 @@
+spriteTypes = {
+
+#Ideas#
+	spriteType = {
+		name = "GFX_idea_CHS_russian_slaves"
+		texturefile = "gfx/interface/ideas/CHS/idea_CHS_russian_slaves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHS_nomadic_society"
+		texturefile = "gfx/interface/ideas/CHS/idea_CHS_nomadic_society.dds"
+	}
+}
+

@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 	
-		kyriakos_velopoulos = {
+		GRE_kyriakos_velopoulos = {
 
-			picture = kyriakos_velopoulos
+			picture = GRE_kyriakos_velopoulos
 			allowed = {
 				original_tag = "GRE"
 			}

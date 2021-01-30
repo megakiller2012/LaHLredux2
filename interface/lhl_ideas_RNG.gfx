@@ -1,0 +1,14 @@
+spriteTypes = {
+
+#Advisors#
+	spriteType = {
+		name = "GFX_idea_RNG_vasilij_topolev"
+		texturefile = "gfx/interface/ideas/RNG/idea_RNG_vasilij_topolev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RNG_anatolij_mizzengendler"
+		texturefile = "gfx/interface/ideas/RNG/idea_RNG_anatolij_mizzengendler.dds"
+	}
+}
+

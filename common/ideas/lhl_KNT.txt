@@ -2,9 +2,9 @@ ideas = {
 
 	head_of_government = {
 
-		patrick_cormack = {
+		KNT_patrick_cormack = {
 
-			picture = patrick_cormack
+			picture = KNT_patrick_cormack
 			allowed = {
 				original_tag = "KNT"
 			}

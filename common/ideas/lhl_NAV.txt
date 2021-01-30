@@ -2,11 +2,11 @@ ideas = {
 
 	head_of_government = {
 	
-		jevgenij_ponasenkov = {
+		NAV_jevgenij_ponasenkov = {
 
-			picture = jevgenij_ponasenkov
+			picture = NAV_jevgenij_ponasenkov
 			allowed = {
-				original_tag = "RGD"
+				original_tag = "NAV"
 			}
 
 			traits = { prince_of_terror popular_figurehead financial_expert compassionate_gentleman }

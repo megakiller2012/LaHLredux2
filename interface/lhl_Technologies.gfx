@@ -425,20 +425,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_NTH_advanced_infantry_fighting_vehicle_medium"
 		texturefile = "gfx/interface/technologies/ESS_advanced_infantry_fighting_vehicle.dds"
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+	}	
 }

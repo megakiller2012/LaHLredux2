@@ -2,9 +2,9 @@ ideas = {
 	
 	country = {
 	
-		russian_slaves = {
+		CHS_russian_slaves = {
 			
-			picture = russian_slaves
+			picture = CHS_russian_slaves
 
 			allowed = {
 				always = no
@@ -20,9 +20,9 @@ ideas = {
 			}
 		}
 		
-		nomadic_society = {
+		CHS_nomadic_society = {
 			
-			picture = nomadic_society
+			picture = CHS_nomadic_society
 
 			allowed = {
 				always = no

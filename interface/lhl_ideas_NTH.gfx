@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_NTH_salma_yaqoob"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_salma_yaqoob.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_landsknecht_new"
+		texturefile = "gfx/interface/ideas/NTH/idea_NTH_landsknecht_new.dds"
+	}	
+}
+

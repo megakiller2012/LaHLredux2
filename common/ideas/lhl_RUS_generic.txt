@@ -2,9 +2,9 @@ ideas = {
 	
 	country = {
 	
-		russian_civl_war_disaster = {
+		RUS_russian_civl_war_disaster = {
 			
-			picture = russian_civl_war_disaster
+			picture = RUS_russian_civl_war_disaster
 
 			allowed = {
 				always = no

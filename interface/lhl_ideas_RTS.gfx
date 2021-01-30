@@ -1,0 +1,137 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_RTS_Nikolay_Valuev"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Nikolay_Valuev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Aleksey_Krivoruchko"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Aleksey_Krivoruchko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Smirnov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Smirnov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Milonov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Milonov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Medinsky"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Medinsky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Artur_Chilingarov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Artur_Chilingarov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Arkadiy_Rotenberg"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Arkadiy_Rotenberg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Evgeniy_Kaspersky"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Evgeniy_Kaspersky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Viktor_Chirikov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Viktor_Chirikov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Sergey_Avakyanc"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Sergey_Avakyanc.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Yuriy_Baluevsky"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Yuriy_Baluevsky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Rashid_Nurgaliev"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Rashid_Nurgaliev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Valeriy_Evtuhovich"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Valeriy_Evtuhovich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Sergey_Dronov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Sergey_Dronov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Andrey_Ivanaev"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Andrey_Ivanaev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Aleksandr_Shevchenko"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Aleksandr_Shevchenko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Valera_Kamshilov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Valera_Kamshilov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Dmitrij_Trunenkov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Dmitrij_Trunenkov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Sergey_Miheev"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Sergey_Miheev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Vladimir_Sorokin"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Vladimir_Sorokin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Sergey_Baburin"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Sergey_Baburin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Petr_Tolstoy"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Petr_Tolstoy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Vladimir_Sorokin"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Vladimir_Sorokin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Ochlobistyn"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Ochlobistyn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Andrej_Afanasev"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Andrej_Afanasev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Malofeev"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Malofeev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Irina_Yarovaya"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Irina_Yarovaya.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Inga_Yumasheva"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Inga_Yumasheva.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Boris_Rotenberg"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Boris_Rotenberg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Artemiy_Lebedev"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Artemiy_Lebedev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Alena_Arshinova"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Alena_Arshinova.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Vsevlod_Chaplin"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Vsevlod_Chaplin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RTS_Vladimir_Soloviyov"
+		texturefile = "gfx/interface/ideas/RTS/idea_RTS_Vladimir_Soloviyov.dds"
+	}
+	
+}
+
