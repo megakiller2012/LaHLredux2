@@ -1,14 +1,18 @@
+
 state={
 	id=1017
 	name="STATE_1017"
-	provinces={
-		5254 
-	}
-		manpower=56798
-	state_category=city
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = SCO
 		add_core_of = SCO
-}
 
+	}
+
+	provinces={
+		5254 7454 10289 17586 17587 17588 17589 17590 17591 
+	}
+	manpower=56798
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,14 +1,18 @@
+
 state={
 	id=1020
 	name="STATE_1020"
-	provinces={
-		10368 
-	}
-	manpower=298803	
-	state_category=rural
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = IRE
 		add_core_of = IRE
-	}	
+
+	}
+
+	provinces={
+		10368 17574 17576 17580 
+	}
+	manpower=298803
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

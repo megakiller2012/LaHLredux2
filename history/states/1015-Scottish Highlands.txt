@@ -1,30 +1,16 @@
+
 state={
 	id=1015
 	name="STATE_1015"
-	provinces={
-		1432 5994 6196 7454 15048 15049 15052 15053 15054 15055 15057 15058 
-	}
 	resources={
-		chromium=5
-		tungsten=20
-		aluminium=12 
+		chromium=5.000
+		tungsten=20.000
+		aluminium=12.000
 	}
-		manpower=252900 
-	state_category=rural
+	provinces={
+		1432 5994 15048 15049 15052 15053 15054 15055 15057 17595 17596 17598 17599 17601 17603 17604 
+	}
+	manpower=252900
 	buildings_max_level_factor=1.000
-	history={
-		owner = SCO
-		add_core_of = SCO
-		victory_points = {
-			7454 1
-			}
-			buildings = {
-			infrastructure = 3
-			anti_air_building = 1
-			industrial_complex = 1
-			air_base = 1
-			7454 = {
-				naval_base = 3	
-			}
-			
+	state_category=rural
 }

@@ -1,21 +1,26 @@
+
 state={
 	id=1022
 	name="STATE_1022"
-	provinces={
-		336 3283 5993 7564 10543 10573 10587 10623 10646 
-	}
-		manpower=1246088
-	state_category=town
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = IRE
 		add_core_of = IRE
 		victory_points = {
-			10543 3
-			}
-			buildings = {
+			10543 3 
+		}
+		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
+
 		}
-	}	
+
+	}
+
+	provinces={
+		336 3283 5993 7564 10543 10573 10587 10623 10646 17502 17510 17512 17513 17518 17527 
+	}
+	manpower=1246088
+	buildings_max_level_factor=1.000
+	state_category=town
 }

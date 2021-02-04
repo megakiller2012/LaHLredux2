@@ -1,19 +1,25 @@
+
 state={
 	id=1024
 	name="STATE_1024"
-	provinces={
-		5259 9232 10434 
-	}
-	manpower=542547
-	state_category=pastoral
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = IRE
 		add_core_of = IRE
 		victory_points = {
-			5259 3
-			}
-			buildings = {
+			5259 3 
+		}
+		buildings = {
 			infrastructure = 4
-	}	
+
+		}
+
+	}
+
+	provinces={
+		402 5259 9232 10434 17539 17540 17542 17546 17550 17553 17556 17562 17563 17567 
+	}
+	manpower=542547
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

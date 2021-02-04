@@ -1,49 +1,52 @@
+
 state={
 	id=1008
 	name="STATE_1008"
-	provinces={
-		3746 4653 6101 7348 7377 8637 9396 10495 10496 10508 10509 10617 10647 
-	}
-	manpower=9888506
-	state_category=metropolis
 	resources={
-		steel=48
+		steel=48.000
 	}
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = MRC
 		add_core_of = MRC
 		victory_points = {
-			10496 15
-			}
-			victory_points = {
-			10509 10
-			}
-			victory_points = {
-			9396 30
-			}
-			victory_points = {
-			10617 10
-			}
-			victory_points = {
-			7348 50
-			}
-			victory_points = {
-			4653 5
-			}
-			victory_points = {
-			7377 3
-			}
-			victory_points = {
-			8637 3
-			}
-			buildings = {
+			10496 15 
+		}
+		victory_points = {
+			10509 10 
+		}
+		victory_points = {
+			9396 30 
+		}
+		victory_points = {
+			10617 10 
+		}
+		victory_points = {
+			7348 50 
+		}
+		victory_points = {
+			4653 5 
+		}
+		victory_points = {
+			7377 3 
+		}
+		victory_points = {
+			8637 3 
+		}
+		buildings = {
 			infrastructure = 6
 			arms_factory = 5
 			industrial_complex = 4
 			air_base = 6
-		}
-			
-			
-}
 
+		}
+
+	}
+
+	provinces={
+		3746 4653 6101 7348 7377 8637 9396 10495 10496 10508 10509 10647 
+	}
+	manpower=9888506
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,20 +1,11 @@
+
 state={
 	id=1007
 	name="STATE_1007"
 	provinces={
-		4484 5183 10520 10671 
+		4484 5183 10520 10617 17504 17505 17508 17509 17515 17517 17520 17534 
 	}
 	manpower=528506
-	state_category=pastoral
 	buildings_max_level_factor=1.000
-	history={
-		owner = MRC
-		add_core_of = MRC
-		victory_points = {
-			5183 1
-			}
-			buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+	state_category=pastoral
 }
-

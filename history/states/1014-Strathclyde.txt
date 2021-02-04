@@ -1,30 +1,11 @@
+
 state={
 	id=1014
 	name="STATE_1014"
 	provinces={
-		1032 2944 5578 10289 10336 
+		1032 2944 5578 10336 15058 17584 17585 
 	}
-		manpower=2300101
-	state_category=city
+	manpower=2300101
 	buildings_max_level_factor=1.000
-	history={
-		owner = SCO
-		add_core_of = SCO
-		victory_points = {
-			2944 10
-			}
-			victory_points = {
-			 5578 15
-			}
-			buildings = {
-			infrastructure = 5
-			industrial_complex = 3
-			dockyard = 1
-			air_base = 3
-			arms_factory = 2
-			
-			2944 = {
-				naval_base = 5
-			}
+	state_category=city
 }
-
