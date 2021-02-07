@@ -2,14 +2,10 @@
 state={
 	id=1006
 	name="STATE_1006"
-	resources={
-		steel=15.000
-		aluminium=7.000
-	}
 	provinces={
-		3932 5538 7265 10559 10607 10641 10658 10671 17503 17504 17506 17507 17508 17516 17521 17523 17525 17526 17533 17535 17536 
+		2310 10741 17515 17521 17527 
 	}
-	manpower=3409787
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=town
 }

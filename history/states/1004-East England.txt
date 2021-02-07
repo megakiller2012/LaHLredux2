@@ -1,33 +1,11 @@
+
 state={
 	id=1004
 	name="STATE_1004"
 	provinces={
-		5108 5304 6770 8334 9542 9793 10629 
+		5108 5304 6770 9542 17590 17595 17597 17602 
 	}
 	manpower=1684321
-	state_category=town
 	buildings_max_level_factor=1.000
-	history={
-		owner = EAG
-		add_core_of = EAG
-		victory_points = {
-			5304 2
-			}
-			victory_points = {
-			9793 15
-			}
-			victory_points = {
-			6770 25
-			}
-			buildings = {
-			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 3
-			anti_air_building = 2
-			radar_station = 1
-			air_base = 7
-			271 = {
-				naval_base = 3
-			}
-			
+	state_category=town
 }

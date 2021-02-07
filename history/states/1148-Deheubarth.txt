@@ -1,0 +1,21 @@
+
+state={
+	id=1148
+	name="STATE_1148"
+
+	history={
+		owner = add_core_of
+		= victory_points
+		= {
+
+		}
+
+	}
+
+	provinces={
+		7265 10641 17543 17549 17550 17570 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

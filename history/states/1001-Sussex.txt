@@ -1,17 +1,21 @@
+
 state={
 	id=1001
 	name="STATE_1001"
-	provinces={
-		10732 10733 10742 10763 
-	}
-	manpower=4588506
-	state_category=city
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = SUS
 		add_core_of = SUS
 		victory_points = {
-			10763 10
-			}
-			
+			10763 10 
+		}
+
+	}
+
+	provinces={
+		10732 10733 10742 10763 17508 17519 17522 17524 17529 17531 17533 
+	}
+	manpower=4588506
+	buildings_max_level_factor=1.000
+	state_category=city
 }

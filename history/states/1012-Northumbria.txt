@@ -1,22 +1,24 @@
+
 state={
 	id=1012
 	name="STATE_1012"
-	provinces={
-		5627 6261 7825 9205 9580 10391 
-	}
-		manpower=2528506
-	state_category=pastoral
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = NTH
 		add_core_of = NTH
-		
-			victory_points = {
-			7825 15
-			}
-			victory_points = {
-			9205 15
-			}
-}
-}
+		victory_points = {
+			7825 15 
+		}
+		victory_points = {
+			9205 15 
+		}
 
+	}
+
+	provinces={
+		5627 7825 9205 17693 17694 17695 17698 17699 
+	}
+	manpower=2528506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
