@@ -1,7 +1,7 @@
 
 state={
-	id=1155
-	name="STATE_1155"
+	id=1159
+	name="STATE_1159"
 
 	history={
 		owner = add_core_of
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		9396 17574 17578 17582 17583 17584 17585 17594 17603 17606 17613 
+		2735 17537 17544 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
