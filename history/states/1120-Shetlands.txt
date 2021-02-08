@@ -1,13 +1,18 @@
+
 state={
 	id=1120
 	name="STATE_1120"
-	provinces={
-		15041 15042 15043 
-	}
-		manpower=2045
-	state_category=small_island
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = SCO
 		add_core_of = SCO
+
+	}
+
+	provinces={
+		15041 15042 15043 15048 15049 
+	}
+	manpower=2045
+	buildings_max_level_factor=1.000
+	state_category=small_island
 }
