@@ -2,8 +2,18 @@
 state={
 	id=1002
 	name="STATE_1002"
+
+	history={
+		owner = KNT
+		add_core_of = KNT
+		victory_points = {
+
+		}
+
+	}
+
 	provinces={
-		3644 6426 17509 17510 17514 17520 17523 17525 17526 17530 
+		6426 17509 17510 17514 17520 17523 
 	}
 	manpower=2734564
 	buildings_max_level_factor=1.000

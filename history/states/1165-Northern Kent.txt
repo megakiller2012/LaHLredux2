@@ -1,11 +1,11 @@
 
 state={
-	id=1156
-	name="STATE_1156"
+	id=1165
+	name="STATE_1165"
 
 	history={
-		owner = SUS
-		add_core_of = SUS
+		owner = KNT
+		add_core_of = KNT
 		victory_points = {
 
 		}
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		10733 17529 17531 17533 
+		3644 17525 17526 17530 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

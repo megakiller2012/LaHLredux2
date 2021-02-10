@@ -8,6 +8,13 @@ state={
 	provinces={
 		2559 5582 10680 17541 17556 17557 17561 17571 
 	}
+		history={
+		owner = ESS
+		add_core_of = ESS
+		victory_points
+		= {
+		}
+		}
 	manpower=12602427
 	buildings_max_level_factor=1.000
 	state_category=metropolis

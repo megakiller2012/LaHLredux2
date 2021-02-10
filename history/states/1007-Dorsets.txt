@@ -6,6 +6,13 @@ state={
 		941 7791 10771 17503 17504 17506 17511 17512 17516 17517 
 	}
 	manpower=0
+			history={
+		owner = WES
+		add_core_of = WES
+		victory_points
+		= {
+		}
+		}
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

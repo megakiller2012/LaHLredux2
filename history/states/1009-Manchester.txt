@@ -6,6 +6,15 @@ state={
 		steel=31.000
 		aluminium=4.000
 	}
+		history={
+		owner = NTH
+		add_core_of = NTH
+		victory_points = {
+
+		}
+
+	}
+
 	provinces={
 		3896 10429 10464 10491 10520 17623 17639 17640 17641 17645 17658 17663 
 	}

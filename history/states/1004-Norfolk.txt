@@ -5,6 +5,14 @@ state={
 	provinces={
 		5108 5304 6770 9542 17590 17595 17597 17602 
 	}
+		manpower=0
+			history={
+		owner = EAG
+		add_core_of = EAG
+		victory_points
+		= {
+		}
+		}
 	manpower=1684321
 	buildings_max_level_factor=1.000
 	state_category=town

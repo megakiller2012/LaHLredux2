@@ -5,6 +5,14 @@ state={
 	provinces={
 		1522 8046 17502 17505 17507 17513 
 	}
+		history={
+		owner = WES
+		add_core_of = WES
+		victory_points
+		= {
+		}
+
+	}
 	manpower=1758506
 	buildings_max_level_factor=1.000
 	state_category=town

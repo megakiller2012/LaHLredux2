@@ -3,14 +3,14 @@ state={
 	id=1143
 	name="STATE_1143"
 
-	history={
-		owner = add_core_of
-		= victory_points
+	manpower=0
+			history={
+		owner = EAG
+		add_core_of = EAG
+		victory_points
 		= {
-
 		}
-
-	}
+		}
 
 	provinces={
 		8334 9793 10629 17569 17575 17579 

@@ -5,6 +5,14 @@ state={
 	resources={
 		steel=25.000
 	}
+		manpower=0
+			history={
+		owner = WES
+		add_core_of = WES
+		victory_points
+		= {
+		}
+		}
 	provinces={
 		2735 10725 10731 10760 15071 17518 
 	}

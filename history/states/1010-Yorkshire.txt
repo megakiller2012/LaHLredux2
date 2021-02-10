@@ -8,6 +8,14 @@ state={
 	provinces={
 		7628 8609 10418 17652 17653 17660 17666 17670 17682 
 	}
+			history={
+		owner = NTH
+		add_core_of = NTH
+		victory_points = {
+
+		}
+
+	}
 	manpower=5316700
 	buildings_max_level_factor=1.000
 	state_category=metropolis

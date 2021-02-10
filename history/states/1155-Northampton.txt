@@ -4,13 +4,12 @@ state={
 	name="STATE_1155"
 
 	history={
-		owner = add_core_of
-		= victory_points
+		owner = MRC
+		add_core_of = MRC
+		victory_points
 		= {
-
 		}
-
-	}
+		}
 
 	provinces={
 		9396 17574 17578 17582 17583 17584 17585 17594 17603 17606 17613 

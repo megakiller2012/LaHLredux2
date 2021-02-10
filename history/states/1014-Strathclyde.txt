@@ -5,6 +5,14 @@ state={
 	provinces={
 		2944 5578 17702 
 	}
+			history={
+		owner = SCO
+		add_core_of = SCO
+		victory_points = {
+
+		}
+
+	}
 	manpower=2300101
 	buildings_max_level_factor=1.000
 	state_category=city

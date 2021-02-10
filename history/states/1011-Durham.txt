@@ -9,6 +9,14 @@ state={
 	provinces={
 		2737 6430 10378 10398 17686 
 	}
+			history={
+		owner = NTH
+		add_core_of = NTH
+		victory_points = {
+
+		}
+
+	}
 	manpower=2602300
 	buildings_max_level_factor=1.000
 	state_category=large_town

@@ -6,6 +6,13 @@ state={
 		2310 10741 17515 17521 17527 
 	}
 	manpower=0
+			history={
+		owner = WES
+		add_core_of = WES
+		victory_points
+		= {
+		}
+		}
 	buildings_max_level_factor=1.000
 	state_category=town
 }
