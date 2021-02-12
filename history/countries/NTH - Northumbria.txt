@@ -27,7 +27,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Salma Yaqoob"
 	desc = ""
-	picture = "salma_yaqoob.dds"
+	picture = "Portrait_NTH_Salma_Yaqoob.dds"
 	ideology = ultrahegelianism
 	traits = {
 	}
@@ -35,7 +35,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mick Hume"
 	desc = ""
-	picture = "mick_hume.dds"
+	picture = "Portrait_NTH_Mick_Hume.dds"
 	ideology = nationalism
 	traits = {
 	}
@@ -51,7 +51,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ken Livingstone"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NTH_Ken_Livingstone.dds"
 	ideology = nazbol_gang
 	traits = {
 	}
@@ -103,4 +103,35 @@ create_country_leader = {
 	ideology = nazbol_gang
 	traits = {
 	}
+}
+create_field_marshal = {
+	name = "Peter Wall"
+	id = 996
+	picture = "Portrait_NTH_Peter_Wall.dds"
+	traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
+	skill = 4 
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Johnson Gideon Beharry"
+	picture = "Portrait_NTH_Johnson_Gideon_Beharry.dds"
+	traits = { war_hero  cavalry_leader combined_arms_expert}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Asim Hafiz"
+	picture = "Portrait_NTH_Asim_Hafiz.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }

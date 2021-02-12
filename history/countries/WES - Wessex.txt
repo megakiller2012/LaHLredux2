@@ -41,9 +41,9 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Sir Mike Jackson"
-		picture = ".dds"
+		picture = "Portrait_WES_Sir_Mike_Jackson.dds"
 	traits = { harsh_leader	 old_guard }
 	skill = 3
 	attack_skill = 3
@@ -53,7 +53,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Nick Houghton"
-		picture = ".dds"
+		picture = "Portrait_WES_Nick_Houghton.dds"
 	traits = {  }
 	skill = 2
 	attack_skill = 2
@@ -63,7 +63,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Graeme Lamb"
-		picture = ".dds"
+		picture = "Portrait_WES_Graeme_Lamb.dds"
 	traits = { trait_reckless }
 	skill = 2
 	attack_skill = 2
@@ -71,9 +71,9 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {
-	name = "Patrick Sanders"
-		picture = ".dds"
+create_field_marshal = {
+	name = "Prince Edward, Duke of Kent"
+		picture = "Portrait_WES_Prince_Edward_Duke_of_Kent.dds"
 	traits = {  }
 	skill = 3
 	attack_skill = 2
@@ -83,7 +83,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Nick Parker"
-		picture = ".dds"
+		picture = "Portrait_WES_Nick_Parker.dds"
 	traits = {  }
 	skill = 3
 	attack_skill = 2
@@ -93,7 +93,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Richard Dannatt"
-		picture = ".dds"
+		picture = "Portrait_WES_Richard_Dannatt.dds"
 	traits = { career_officer }
 	skill = 3
 	attack_skill = 3
@@ -103,7 +103,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Dave Gahan"
-		picture = ".dds"
+		picture = "Portrait_WES_Dave_Gahan.dds"
 	traits = { substance_abuser media_personality}
 	skill = 1
 	attack_skill = 1
@@ -113,7 +113,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Richard Barrons"
-		picture = ".dds"
+		picture = "Portrait_WES_Richard_Barrons.dds"
 	traits = {  }
 	skill = 2
 	attack_skill = 1
@@ -123,7 +123,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Timothy Cross"
-		picture = ".dds"
+		picture = "Portrait_WES_Timothy_Cross.dds"
 	traits = { trait_cautious }
 	skill = 3
 	attack_skill = 1
@@ -133,7 +133,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "John Drewienkiewicz"
-		picture = ".dds"
+		picture = "Portrait_WES_John_Drewienkiewicz.dds"
 	traits = {  }
 	skill = 2
 	attack_skill = 1
@@ -143,7 +143,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Peter Thomas Clayton Pearson"
-		picture = ".dds"
+		picture = "Portrait_WES_Peter_Pearson.dds"
 	traits = {  }
 	skill = 3
 	attack_skill = 2
@@ -153,7 +153,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Jonathon Riley"
-		picture = ".dds"
+		picture = "Portrait_WES_Jonathon_Riley.dds"
 	traits = { cavalry_officer }
 	skill = 3
 	attack_skill = 2
@@ -163,7 +163,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Ashley Truluck"
-		picture = ".dds"
+		picture = "Portrait_WES_Ashley_Truluck.dds"
 	traits = { urban_assault_specialist }
 	skill = 3
 	attack_skill = 2
