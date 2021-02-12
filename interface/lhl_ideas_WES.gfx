@@ -5,6 +5,62 @@ spriteTypes = {
 		name = "GFX_idea_WES_roger_scruton"
 		texturefile = "gfx/interface/ideas/WES/idea_WES_roger_scruton.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_WES_Alister_McGrath"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Alister_McGrath.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Andrew_Brownsword"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Andrew_Brownsword.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Christopher_Chope"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Christopher_Chope.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Fiona_Bruce"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Fiona_Bruce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_John_Hayes"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_John_Hayes.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Kallistos_Ware"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Kallistos_Ware.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Laurence_Robertson"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Laurence_Robertson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Melanie_Phillips"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Melanie_Phillips.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Nadine_Dorries"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Nadine_Dorries.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Nikolai_Tolstoy"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Nikolai_Tolstoy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Peter_Hitchens"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Peter_Hitchens.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Simon_Heffer"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Simon_Heffer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Sir_David_Amess"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Sir_David_Amess.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WES_Sir_David_Amess_royal"
+		texturefile = "gfx/interface/ideas/WES/idea_WES_Sir_David_Amess_royal.dds"
+	}
 #Ideas#
 	spriteType = {
 		name = "GFX_idea_ENG_dynastic_crisis"
