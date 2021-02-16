@@ -1,0 +1,31 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ FSD_millenarism_party:0 "UNKNOWN"
+ FSD_millenarism_party_long:0 "UNKNOWN"
+ FSD_commendationism_party:0 "Leftist remnants"
+ FSD_commendationism_party_long:0 "Leftist remnants"
+ FSD_left_authoritarianism_party:0 "Leftist remnants"
+ FSD_left_authoritarianism_party_long:0 "Leftist remnants"
+ FSD_socialism_party:0 "Leftist remnants"
+ FSD_socialism_party_long:0 "Leftist remnants"
+ FSD_national_bolshevism_party:0 "Eurasianists"
+ FSD_national_bolshevism_party_long:0 "Eurasianists"
+ FSD_neocameralism_party:0 "Pro-Japanese"
+ FSD_neocameralism_party_long:0 "Pro-Japanese"
+ FSD_right_populism_party:0 "Disciples of Li"
+ FSD_right_populism_party_long:0 "Disciples of Li-Radicalists"
+ FSD_hegemonism_party:0 "Qing supporters"
+ FSD_hegemonism_party_long:0 "Qing supporters"
+ FSD_regressionism_party:0 "Qing supporters"
+ FSD_regressionism_party_long:0 "Qing supporters"
+ FSD_ur_fascism_party:0 "Disciples of Li"
+ FSD_ur_fascism_party_long:0 "Disciples of Li-Fanatics"
+ ##COUNTRY NAME##
+ FSD_ur_fascism:0 "Falun State of Dharmapala"
+ FSD_ur_fascism_DEF:0 "Falun State of Dharmapala"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
