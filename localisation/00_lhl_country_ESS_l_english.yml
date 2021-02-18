@@ -1,12 +1,32 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- ESS_national_bolshevism_party:0 "British Union"
+
+ ESS_millenarism_party:0 "WTA"
+ ESS_millenarism_party_long:0 "World Transhumanist Association"
+ ESS_commendationism_party:0 "CPB"
+ ESS_commendationism_party_long:0 "Commendationalist Party of Britain"
+ ESS_left_authoritarianism_party:0 "Anarchists"
+ ESS_socialism_party_long:0 "Republican-Socialist  Party"
+ ESS_socialism_party:0 "RSP"
+ ESS_national_bolshevism_party:0 "NAM"
+ ESS_national_bolshevism_party_long:0 "National Anarchist Movement"
+ ESS_neocameralism_party:0 "British Union"
+ ESS_right_populism_party:0 "Tories"
+ ESS_right_populism_party_long:0 "Conservative and Unionist Party"
+ ESS_hegemonism_party:0 "British Army"
+ ESS_regressionism_party:0 "Royalists"
+ ESS_regressionism_party_long:0 "Yeomen Warders"
+ ESS_ur_fascism_party:0 "Black Army"
+ ESS_ur_fascism_party_long:0 "Black Army of London"
  ##COUNTRY NAME##
  ESS_neocameralism:0 "Nationalists"
  ESS_neocameralism_DEF:0 "State of Great Britain"
  ##TRAITS##
  mad_max:0 "Mad Max"
+ militiaman:0 "Militiaman"
+ loyalist:0 "Loyalist"
+ military_specialist:0 "Military Specialist"
  ##IDEAS##
  ESS_nick_land:0 "Nick Land"
  ##FOCUS TREES##
