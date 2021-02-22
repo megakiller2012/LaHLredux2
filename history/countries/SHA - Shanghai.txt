@@ -1,70 +1,62 @@
-capital = 613
+capital = 419
 
 oob = "SHA_2020"
 
-set_research_slots = 3
-
-set_stability = 0.7
-
-set_war_support = 0.5
-
 set_technology = {
- 	infantry_weapons = 1
+	infantry_weapons = 1
+	gw_artillery = 1
+	
 }
+
+set_convoys = 5
 
 set_politics = {
-	ruling_party = national_bolshevism
+	ruling_party = right_populism
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	national_bolshevism = 100
+	right_populism = 40
+	hegemonism = 5
+	socialism = 30
+	left_authoritarianism = 10
+	neocameralism = 15
+
 }
 
 create_country_leader = {
-	name = "Sergei Lavrov"
-	picture = "Portrait_SHA_Sergei_Lavrov.dds"
+	name = "Chen Liangyu"
+	picture = "Portrait_Chen_Liangyu.dds"
 	expire = "1953.3.1"
-	ideology = nazbol_gang
-	traits = { }
+	ideology = social_conservatism
+	traits = { 
+	}
 }
 
 create_country_leader = {
-	name = "Martin Sonneborn"
-	picture = "Portrait_SHA_Martin_Sonneborn.dds"
-	expire = "1953.3.1"
+	name = "Han Zheng"
+	picture = "Portrait_Han_Zheng.dds"
+	expire = "1960.1.1"
 	ideology = progressivism
-	traits = { }
+	traits = {
+	}
 }
 
 create_country_leader = {
-	name = "François Asselineau"
-	picture = "Portrait_SHA_François_Asselineau.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism
-	traits = { }
+	name = "Wang Huning"
+	picture = "Portrait_Wang_Huning.dds"
+	expire = "1960.1.1"
+	ideology = soviet_marxism
+	traits = {
+	}
 }
 
 create_country_leader = {
-	name = "Nikolaos Michaloliakos"
-	picture = "Portrait_SHA_Nikolaos_Michaloliakos.dds"
-	expire = "1953.3.1"
-	ideology = charismatic_dictatorship
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Gholam-Ali Haddad-Adel"
-	picture = "Portrait_SHA_Gholam-Ali_Haddad-Adel.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Mitsuhira Kimura"
-	picture = "Portrait_SHA_Mitsuhira_Kimura.dds"
-	expire = "1953.3.1"
-	ideology = stratocracy
-	traits = { }
+	name = "He Anquan"
+	picture = "Portrait_He_Anquan.dds"
+	expire = "1960.1.1"
+	ideology = nationalism
+	traits = {
+	}
 }
