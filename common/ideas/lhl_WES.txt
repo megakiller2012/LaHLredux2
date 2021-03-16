@@ -77,6 +77,241 @@ ideas = {
 				original_tag = "WES"
 			}
 
+			traits = {Black_bird}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		WES_Nikolai_Tolstoy = {
+
+			picture = WES_Nikolai_Tolstoy
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {Aristocrat_intellectual}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	political_advisor = {
+	WES_Alister_McGrath = {
+
+			picture = WES_Alister_McGrath
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {Orthodox_scholastic}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Andrew_Brownsword = {
+
+			picture = WES_Andrew_Brownsword
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {treasurer}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Christopher_Chope = {
+
+			picture = WES_Christopher_Chope
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {Old_Guard}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Fiona_Bruce = {
+
+			picture = WES_Fiona_Bruce
+			allowed = {
+			
+				original_tag = "WES"
+			}
+
+			traits = {goodwill_ambassador}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_John_Hayes = {
+
+			picture = WES_John_Hayes
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {hospitaller}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Kallistos_Ware = {
+
+			picture = WES_Kallistos_Ware
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {england_metropolitan}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Laurence_Robertson = {
+
+			picture = WES_Laurence_Robertson
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {protectionist}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Melanie_Phillips = {
+
+			picture = WES_Melanie_Phillips
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {Herald}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Nadine_Dorries = {
+
+			picture = WES_Nadine_Dorries
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {Mother_teresa}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Peter_Hitchens = {
+
+			picture = WES_Peter_Hitchens
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {Follower_of_Burke}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Simon_Heffer = {
+
+			picture = WES_Simon_Heffer
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = {Social_Crusader}
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	WES_Sir_David_Amess = {
+
+			picture = WES_Sir_David_Amess
+			allowed = {
+				original_tag = "WES"
+			}
+
 			traits = {}
 
 			do_effect = {
@@ -87,5 +322,9 @@ ideas = {
 				factor = 0
 			}
 		}
+	
+	
+	}
+	
 	}
 }

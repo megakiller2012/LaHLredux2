@@ -17,9 +17,54 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism  = 100
+	millenarism = 6
+	commendationism = 11
+	left_authoritarianism = 10
+	socialism = 12
+	neocameralism  = 16
+	national_bolshevism = 13
+	right_populism = 6
+	hegemonism = 7
+	regressionism = 9
+	ur_fascism = 10
+	
 }
-
+create_country_leader = {
+	name = "David Pearce"
+	desc = ""
+	picture = "Portrait_ESS_David_Pearce.dds"
+	ideology = ethical_millennialism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "John Molyneux"
+	desc = ""
+	picture = "Portrait_ESS_John_Molyneux.dds"
+	ideology = ultrahegelianism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Steve Ignorant"
+	desc = ""
+	picture = "Portrait_ESS_Steve_Ignorant.dds"
+	ideology = soviet_marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Max Mosley"
+	desc = ""
+	picture = "Portrait_ESS_Max_Mosley.dds"
+	ideology = progressivism
+	traits = {
+		mad_max
+	}
+}
 create_country_leader = {
 	name = "Max Mosley"
 	desc = ""
@@ -28,4 +73,247 @@ create_country_leader = {
 	traits = {
 		mad_max
 	}
+}
+create_country_leader = {
+	name = "Dave Blackwell"
+	desc = ""
+	picture = "Portrait_ESS_Dave_Blackwell.dds"
+	ideology = national_anarchism
+	traits = {
+		mad_max
+	}
+}
+create_country_leader = {
+	name = "Amanda Milling"
+	desc = ""
+	picture = "Portrait_ESS_Amanda_Milling.dds"
+	ideology = social_conservatism
+	traits = {
+		mad_max
+	}
+}
+create_country_leader = {
+	name = "Richard Shirreff"
+	desc = ""
+	picture = "Portrait_ESS_Richard_Shirreff.dds"
+	ideology = autocracy
+	traits = {
+		mad_max
+	}
+}
+create_country_leader = {
+	name = "Moira Cameron"
+	desc = ""
+	picture = "Portrait_ESS_Moira_Cameron.dds"
+	ideology = neo_feudalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Michael Cashmore"
+	desc = ""
+	picture = "Portrait_ESS_Michael_Cashmore.dds"
+	ideology = charismatic_dictatorship
+	traits = {
+		
+	}
+}
+create_corps_commander = {
+	name = "Daniel Radcliffe"
+	desc = "NAZI HARRY POTTER"
+	picture = "Portrait_ESS_Daniel_Radcliffe.dds"
+	traits = { loyalist }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Bob Stewart "
+	desc = "Bosnia Bob"
+	picture = "Portrait_ESS_Bob_Stewart.dds"
+	traits = { war_hero  politically_connected media_personality loyalist}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Tim Collins"
+	desc = "Military Speaker"
+	picture = "Portrait_ESS_Tim_Collins.dds"
+	traits = { loyalist infantry_officer organizer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Philip Hollobone"
+	desc = ""
+	picture = "Portrait_ESS_Philip_Hollobone.dds"
+	traits = { loyalist }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Freddie Viggers"
+	desc = "Black Rod"
+	picture = "Portrait_ESS_Freddie_Viggers.dds"
+	traits = { loyalist old_guard bearer_of_artillery }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Roger Waters"
+	desc = "Co-founded the progressive rock band Pink Floyd"
+	picture = "Portrait_ESS_Roger_Waters.dds"
+	traits = { militiaman }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Paul McCartney"
+	desc = "Co-lead vocalist and bassist for the Beatles"
+	picture = "Portrait_ESS_Paul_McCartney.dds"
+	traits = { militiaman }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "John Rees-Evans"
+	desc = ""
+	picture = "Portrait_ESS_John_Rees-Evans.dds"
+	traits = { militiaman }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Winston McKenzie"
+	desc = ""
+	picture = "Portrait_ESS_Winston_McKenzie.dds"
+	traits = { militiaman }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ben Bathurst"
+	desc = ""
+	picture = "Portrait_ESS_Ben_Bathurst.dds"
+	traits = { military_specialist career_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Christopher Tickell"
+	desc = ""
+	picture = "Portrait_ESS_Christopher_Tickell.dds"
+	traits = { military_specialist career_officer trait_engineer trait_engineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Richard Shirreff"
+	desc = ""
+	picture = "Portrait_ESS_Richard_Shirreff.dds"
+	traits = { military_specialist career_officer panzer_leader panzer_expert }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Barney White-Spunner"
+	desc = ""
+	picture = "Portrait_ESS_Barney_White-Spunner.dds"
+	traits = { military_specialist career_officer combined_arms_expert cavalry_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Rupert Smith"
+	desc = ""
+	picture = "Portrait_ESS_Rupert_Smith.dds"
+	traits = { military_specialist career_officer logistics_wizard }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 4
+}
+create_navy_leader = {
+	name = "Mark Stanhope" 
+	id = 1
+		picture = "Portrait_ESS_Mark_Stanhope.dds"
+	traits = {  seawolf navy_career_officer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 3
+}
+create_navy_leader = {
+	name = "Philip Wilcocks" 
+	id = 2
+		picture = "Portrait_ESS_Philip_Wilcocks.dds"
+	traits = { fleet_protector navy_career_officer }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 5
+}
+create_navy_leader = {
+	name = "Michael Bath" 
+	id = 3
+		picture = "Portrait_ESS_Michael_Bath.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Jeffrey Maurice Sterling" 
+	id = 4
+		picture = "Portrait_ESS_Jeffrey_Maurice_Sterling.dds"
+	traits = { old_guard_navy }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
 }

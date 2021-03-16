@@ -265,7 +265,106 @@ leader_traits = {
 		}
 	}
 ##IDEAS_ROYALISTS/WESSEX##
-
+Black_bird = { #Roger Scruton#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Aristocrat_intellectual = { #Nikolai Tolstoy#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Orthodox_scholastic = { #Alister McGrath#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	treasurer = { #Andrew Brownsword#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Old_Guard = { #Christopher Chope#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	hospitaller = { #John Hayes#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Knight_Bachelor = { #John Hayes#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	england_metropolitan = { #Kallistos Ware#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	protectionist = { #Laurence Robertson#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Herald = { #Melanie Phillips#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	goodwill_ambassador = { #Fiona Bruce#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Follower_of_Burke = { #Peter Hitchens#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Social_Crusader = { #Simon Heffer#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Social_Crusader = { #Simon Heffer#
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 ###IMPERIAL_THRONE### #IMT#
 ##LEADERS_IMPERIAL_THRONE##
 	eccentric_billionaire = { #Anton_Bakov#

@@ -1,4 +1,4 @@
-﻿capital = 609
+﻿capital = 415
 
 oob = "WRC_2020"
 

@@ -5,5 +5,20 @@ spriteTypes = {
 		name = "GFX_idea_ESS_nick_land"
 		texturefile = "gfx/interface/ideas/ESS/idea_ESS_nick_land.dds"
 	}
+	#trait#
+	spriteType = {
+		name = "GFX_trait_loyalist"
+		texturefile = "gfx/interface/traits/trait_loyalist.dds"
+	}
+	#trait#
+	spriteType = {
+		name = "GFX_trait_militiaman"
+		texturefile = "gfx/interface/traits/trait_militiaman.dds"
+	}
+	#trait#
+	spriteType = {
+		name = "GFX_trait_military_specialist"
+		texturefile = "gfx/interface/traits/trait_military_specialist.dds"
+	}
 }
 
