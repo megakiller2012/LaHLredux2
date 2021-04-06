@@ -27,7 +27,7 @@ create_country_leader = {
 	name = "Anton Bakov"
 	desc = "POLITICS_BAKOV_DESC"
 	picture = "Portrait_IMT_Anton_Bakov.dds"
-	ideology = autocracy
+	ideology = accelerationism
 	traits = { 
 	         patron_of_cybernetics 
 			 eccentric_billionaire

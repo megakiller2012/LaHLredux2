@@ -3,14 +3,14 @@
 
 shared_focus = {
 	id = IMT_1_beacon
-	icon = GFX_IMT
+	icon = GFX_IMT_The_Shining_Beacon
 	cost = 2
 	x = 29
 	y = 0
 }
 shared_focus = {
 	id = IMT_1_cyber_dilemma
-	icon = GFX_IMT
+	icon = GFX_IMT_The_Cybernetic_Dilemma
 	prerequisite = {
         focus = IMT_1_beacon
 	}
@@ -31,7 +31,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = IMT_1_under_siege
-	icon = GFX_IMT
+	icon = GFX_IMT_City_Under_Siege
 	prerequisite = {
         focus = IMT_1_cyber_dilemma
 	}
@@ -41,7 +41,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = IMT_1_the_impossible_path
-	icon = GFX_IMT
+	icon = GFX_IMT_The_Impossible_Path
 	prerequisite = {
         focus = IMT_1_under_siege
 	}
@@ -67,7 +67,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = IMT_1_grooming_tsarina
-	icon = GFX_IMT
+	icon = GFX_IMT_Grooming_The_Tsarina
 	prerequisite = {
         focus = IMT_1_the_impossible_path
 	}
@@ -77,7 +77,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = IMT_1_bolts_motherboards
-	icon = GFX_IMT
+	icon = GFX_IMT_Bolts_and_Motherboards
 	prerequisite = {
         focus = IMT_1_the_impossible_path
 	}
@@ -87,7 +87,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = IMT_1_become_human
-	icon = GFX_IMT
+	icon = GFX_IMT_Become_Human
 	prerequisite = {
         focus = IMT_1_the_impossible_path
 	}
@@ -97,7 +97,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = IMT_1_hello_world
-	icon = GFX_IMT
+	icon = GFX_IMT_Hello_World_
 	prerequisite = {
         focus = IMT_1_grooming_tsarina
 	}
