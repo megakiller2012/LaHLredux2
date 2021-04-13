@@ -4,6 +4,13 @@ state={
 	provinces={
 		2946 3115 3228 3554 4277 7489 11436 11487 11497 11512 11527 11550 11574 
 	}
-	manpower=0
+buildings_max_level_factor=1.000
+	manpower=1988506
+	state_category=pastoral
 	buildings_max_level_factor=1.000
+	history={
+		owner = FRA
+		add_core_of = FRA
+	}
 }
+

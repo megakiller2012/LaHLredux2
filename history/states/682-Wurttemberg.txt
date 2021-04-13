@@ -4,6 +4,12 @@ state={
 	provinces={
 		690 1842 3138 4407 4622 5167 5508 6351 8025 8406 8495 8766 9185 9387 10934 10944 10950 10965 10976 10980 11037 11051 11052 11065 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	history={
+		owner = GER
+		add_core_of = GER
+	}
 }

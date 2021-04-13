@@ -5,6 +5,13 @@ state={
 	provinces={
 		1350 1411 1906 2386 3631 5793 6228 8099 8735 11108 11122 11128 11138 11140 11162 11192 11193 11235 11270 
 	}
-	manpower=0
+buildings_max_level_factor=1.000
+	manpower=1988506
+	state_category=pastoral
 	buildings_max_level_factor=1.000
+	history={
+		owner = SWI
+		add_core_of = SWI
+	}
 }
+

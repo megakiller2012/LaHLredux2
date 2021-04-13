@@ -4,6 +4,12 @@ state={
 	provinces={
 		825 1884 5399 8337 9376 11045 11063 11094 11098 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	history={
+		owner = AUS
+		add_core_of = AUS
+	}
 }

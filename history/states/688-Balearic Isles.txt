@@ -4,6 +4,12 @@ state={
 	provinces={
 		342 7135 7391 12013 15097 15100 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	history={
+		owner = SPA
+		add_core_of = SPA
+	}
 }

@@ -4,6 +4,12 @@ state={
 	provinces={
 		2961 3520 8016 9821 11679 11759 
 	}
-	manpower=0
 	buildings_max_level_factor=1.000
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	history={
+		owner = POR
+		add_core_of = POR
+	}
 }
