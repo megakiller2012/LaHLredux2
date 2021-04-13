@@ -1,4 +1,4 @@
-capital = 152
+capital = 264
 
 oob = "BUL_2020"
 

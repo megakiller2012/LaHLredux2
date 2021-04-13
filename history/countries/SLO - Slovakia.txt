@@ -1,4 +1,4 @@
-capital = 141
+capital = 233
 
 oob = "SLO_2020"
 

@@ -1,4 +1,4 @@
-capital = 47
+capital = 272
 
 oob = "GRE_2020"
 

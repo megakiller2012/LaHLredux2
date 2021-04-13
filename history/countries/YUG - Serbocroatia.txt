@@ -1,4 +1,4 @@
-capital = 45
+capital = 249
 oob = "YUG_2020"
 
 set_research_slots = 3

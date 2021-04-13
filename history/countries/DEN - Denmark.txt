@@ -1,4 +1,4 @@
-capital = 37
+capital = 
 
 oob = "DEN_2020"
 

@@ -10,7 +10,7 @@ state={
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 	history={
-		owner = DEN
-		add_core_of = DEN
+		owner = SWE
+		add_core_of = SWE
 	}
 }

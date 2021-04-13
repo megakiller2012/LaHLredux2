@@ -1,4 +1,4 @@
-﻿capital = 11
+﻿capital = 145
 
 oob = "LIT_2020"
 

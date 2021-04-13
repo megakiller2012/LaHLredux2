@@ -1,4 +1,4 @@
-﻿capital = 788
+﻿capital = 113
 
 oob = "KHA_2020"
 

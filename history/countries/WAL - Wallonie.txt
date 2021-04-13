@@ -1,4 +1,4 @@
-capital = 34
+capital = 286
 
 oob = "WAL_2020"
 

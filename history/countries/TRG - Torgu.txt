@@ -1,4 +1,4 @@
-﻿capital = 804
+﻿capital = 150
 
 oob = "TRG_2020"
 
