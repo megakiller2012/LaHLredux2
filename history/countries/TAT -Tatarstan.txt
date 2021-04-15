@@ -1,4 +1,4 @@
-﻿capital = 680
+﻿capital = 54
 
 create_faction = Idelural
 add_to_faction = CHS

@@ -1,4 +1,4 @@
-﻿capital = 563
+﻿capital = 70
 
 oob = "RZD_2020"
 

@@ -1,4 +1,4 @@
-﻿capital = 328
+﻿capital = 406
 
 oob = "MON_2020"
 

@@ -1,4 +1,4 @@
-﻿capital = 571
+﻿capital = 64
 
 oob = "RNG_2020"
 

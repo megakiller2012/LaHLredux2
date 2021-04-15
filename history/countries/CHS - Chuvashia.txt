@@ -1,4 +1,4 @@
-﻿capital = 82
+﻿capital = 53
 
 oob = "CHS_2020"
 
