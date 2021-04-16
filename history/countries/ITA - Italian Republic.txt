@@ -1,5 +1,6 @@
-capital = 699
-oob = "SOC_2020"
+﻿capital = 702
+
+oob = "ITA_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -12,19 +13,20 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
-
 set_popularities = {
-	hegemonism = 100
+	neocameralism  = 100
+	
 }
-
 create_country_leader = {
-	name = "Pope Francis"
-	picture = "Portrait_SOC_Pope_Francis.dds"
-	expire = "1953.3.1"
-	ideology = autocracy
+	name = "Italian 1"
+	desc = ""
+	picture = ".dds"
+	ideology = accelerationism
 	traits = {
+		
 	}
 }
+

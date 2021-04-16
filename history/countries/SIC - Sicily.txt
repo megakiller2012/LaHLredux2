@@ -1,5 +1,5 @@
-capital = 341
-oob = "SIC_2020"
+capital = 691
+oob = "HMG_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -12,20 +12,19 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = regressionism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 
 set_popularities = {
-	regressionism  = 100
+	right_populism  = 100
 }
 
 create_country_leader = {
-	name = "Somebody Toucha Ma Spaghett"
-	picture = ""
+	name = "Hannibal Gaddafi"
+	picture = "Portrait_HMG_Hannibal_Gaddafi.dds"
 	expire = "1953.3.1"
-	ideology = neo_feudalism
+	ideology = social_conservatism
 	traits = {
-
 	}
 }

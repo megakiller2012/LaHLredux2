@@ -1,5 +1,5 @@
-capital = 699
-oob = "SOC_2020"
+capital = 709
+oob = "HMG_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -12,19 +12,19 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 
 set_popularities = {
-	hegemonism = 100
+	right_populism  = 100
 }
 
 create_country_leader = {
-	name = "Pope Francis"
-	picture = "Portrait_SOC_Pope_Francis.dds"
+	name = ""
+	picture = ".dds"
 	expire = "1953.3.1"
-	ideology = autocracy
+	ideology = social_conservatism
 	traits = {
 	}
 }
