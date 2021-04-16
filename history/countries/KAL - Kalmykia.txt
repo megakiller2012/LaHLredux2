@@ -1,5 +1,4 @@
-﻿capital = 237
-
+﻿capital = 7
 oob = "KAL_2020"
 
 set_research_slots = 3

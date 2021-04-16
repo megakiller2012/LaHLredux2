@@ -1,0 +1,49 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL_PARTIES##
+ STR_millenarism_party:0 ""
+ STR_millenarism_party_long:0 ""
+ STR_commendationism_party:0 ""
+ STR_commendationism_party_long:0 ""
+ STR_left_authoritarianism_party:0 ""
+ STR_left_authoritarianism_party_long:0 ""
+ STR_socialism_party:0 ""
+ STR_socialism_party_long:0 ""
+ STR_national_bolshevism_party:0 ""
+ STR_national_bolshevism_party_long:0 ""
+ STR_neocameralism_party:0 ""
+ STR_neocameralism_party_long:0 ""
+ STR_right_populism_party:0 ""
+ STR_right_populism_party_long:0 ""
+ STR_hegemonism_party:0 ""
+ STR_hegemonism_party_long:0 ""
+ STR_regressionism_party:0 ""
+ STR_regressionism_party_long:0 ""
+ STR_ur_fascism_party:0 ""
+ STR_ur_fascism_party_long:0 ""
+ ##COUNTRY_NAME##
+ STR_neocameralism:0 ""
+ STR_neocameralism_DEF:0 ""
+ STR_millenarism:0 "Southern Regency"
+ STR_millenarism_DEF:0 "Southern Regency"
+ STR_commendationism:0 ""
+ STR_commendationism_DEF:0 ""
+ STR_left_authoritarianism:0 ""
+ STR_left_authoritarianism_DEF:0 ""
+ STR_socialism:0 ""
+ STR_socialism_DEF:0 ""
+ STR_national_bolshevism:0 ""
+ STR_national_bolshevism_DEF:0 ""
+ STR_right_populism:0 ""
+ STR_right_populism_DEF:0 ""
+ STR_hegemonism:0 ""
+ STR_hegemonism_DEF:0 ""
+ STR_regressionism:0 ""
+ STR_regressionism_DEF:0 ""
+ STR_ur_fascism:0 ""
+ STR_ur_fascism_DEF:0 ""
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##

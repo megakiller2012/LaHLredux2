@@ -1,9 +1,15 @@
+
 state={
 	id=144
 	name="SERGIJEV POSAD"
 	provinces={
-		2765 7456 10278 10300 10301 
+		2765 5657 7456 10278 10300 10301 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	history={
+		owner = RNE
+		add_core_of = RNE
+	}
+
 }

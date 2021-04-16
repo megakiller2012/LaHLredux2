@@ -1,9 +1,14 @@
+
 state={
 	id=147
 	name="MOSCOW"
 	provinces={
-		138 5663 15019 
+		138 2765 5663 7456 15019 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	history={
+		owner = MSC
+		add_core_of = MSC
+	}
 }

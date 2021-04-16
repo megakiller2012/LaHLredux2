@@ -3,8 +3,12 @@ state={
 	id=33
 	name="Moskva"
 	provinces={
-		3077 3245 4351 5657 6005 8126 9557 10284 10308 10320 10372 
+		3077 3245 4351 6005 8126 9557 10284 10308 10320 10372 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	history={
+		owner = MSC
+		add_core_of = MSC
+	}
 }

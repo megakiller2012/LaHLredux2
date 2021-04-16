@@ -3,7 +3,7 @@ state={
 	id=875
 	name="West Kongo"
 	provinces={
-		  2765 5150 5365 5663 6326 7456 7827 14965 15019 
+		5150 5365 6326 7827 14965 17500 17501 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

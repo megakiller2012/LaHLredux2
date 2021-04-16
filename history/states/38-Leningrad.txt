@@ -6,5 +6,9 @@ state={
 	}
 	manpower=1875872
 	buildings_max_level_factor=1.000
+	history={
+		owner = LEN
+		add_core_of = LEN
+        }
 }
 

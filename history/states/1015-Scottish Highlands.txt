@@ -7,16 +7,18 @@ state={
 		tungsten=20.000
 		aluminium=12.000
 	}
-	provinces={
-		1432 5994 15057 17596 17599 17708 17713 17717 17719 17721 17722 
-	}
-				history={
+
+	history={
 		owner = SCO
 		add_core_of = SCO
 		victory_points = {
 
 		}
 
+	}
+
+	provinces={
+		1432 5994 15057 17599 17708 17713 17717 17719 17721 17722 
 	}
 	manpower=252900
 	buildings_max_level_factor=1.000

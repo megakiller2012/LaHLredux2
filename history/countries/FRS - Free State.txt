@@ -1,4 +1,4 @@
-﻿capital = 253
+﻿capital = 28
 
 oob = "FRS_2020"
 

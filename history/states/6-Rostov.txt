@@ -14,5 +14,9 @@ state={
 	}
 	manpower=4698766
 	buildings_max_level_factor=1.000
+	history={
+		owner = ACH
+		add_core_of = ACH
+	}
 	state_category=large_city
 }

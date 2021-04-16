@@ -1,9 +1,14 @@
+
 state={
 	id=481
 	name="STATE_481"
 	provinces={
-		608 2356 2490 4362 6394 6644 7181 10125 10127 10143 10157 10170 10176 
+		608 2356 2490 4362 6394 6644 7181 10125 10127 10143 10157 10170 10176 17313 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	history={
+		owner = NRU
+		add_core_of = NRU
+        }
 }

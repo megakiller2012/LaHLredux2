@@ -1,4 +1,4 @@
-﻿capital = 400 
+﻿capital = 50
 
 oob = "RWR_2020"
 
