@@ -30,6 +30,7 @@ create_country_leader = {
 	expire = "1960.1.1"
 	ideology = autocracy
 	traits = {
+	nominal_president
 	}
 }
 
@@ -48,6 +49,7 @@ create_country_leader = {
 	expire = "1960.1.1"
 	ideology = neo_feudalism
 	traits = {
+	fengtian_viceroy
 	}
 }
 

@@ -6,4 +6,11 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	history={
+		owner = TIB
+		add_core_of = TIB
+		victory_points = {
+
+		}
+   }
 }

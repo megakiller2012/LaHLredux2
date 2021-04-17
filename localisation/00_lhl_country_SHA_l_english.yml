@@ -13,13 +13,13 @@
  SHA_neocameralism_party_long:0 "Office of Shanghai - Enterprise Confederation"
  ##COUNTRY NAME##
  SHA_right_populism:0 "Shanghai"
- SHA_right_populism_DEF:0 "Shanghai"
- SHA_socialism:0 "People's Government of Shanghai"
- SHA_socialism_DEF:0 "People's Government of Shanghai"
- SHA_left_authoritarianism:0 "People's Government of Shanghai"
- SHA_left_authoritarianism_DEF:0 "People's Government of Shanghai"
+ SHA_right_populism_DEF:0 "the Shanghai"
+ SHA_socialism:0 "Shanghai"
+ SHA_socialism_DEF:0 "the People's Government of Shanghai"
+ SHA_left_authoritarianism:0 "Shanghai"
+ SHA_left_authoritarianism_DEF:0 "the People's Government of Shanghai"
  SHA_hegemonism:0 "Shanghai"
- SHA_hegemonism_DEF:0 "Shanghai"
+ SHA_hegemonism_DEF:0 "the Shanghai"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

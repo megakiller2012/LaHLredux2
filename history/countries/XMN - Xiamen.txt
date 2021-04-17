@@ -1,0 +1,39 @@
+﻿capital = 1207
+
+oob = "XMN_2020"
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	socialism = 100
+}
+
+create_country_leader = {
+	name = "Jiang Wen"
+	picture = "Portrait_Jiang_Wen.dds"
+	expire = "1960.1.1"
+	ideology = progressivism
+	traits = {
+    }
+}
+
+create_country_leader = {
+	name = "Liu Xiaobo"
+	picture = "Portrait_Liu_Xiaobo.dds"
+	expire = "1960.1.1"
+	ideology = social_conservatism
+	traits = {
+    }
+}

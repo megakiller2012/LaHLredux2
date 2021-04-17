@@ -6,4 +6,11 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	history={
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+
+		}
+   }
 }

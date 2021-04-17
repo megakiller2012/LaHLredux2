@@ -1,0 +1,19 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ GUD_commendationism_party:0 "CPC"
+ GUD_commendationism_party_long:0 "Communist Party of China"
+ GUD_left_authoritarianism_party:0 "CPC"
+ GUD_left_authoritarianism_party_long:0 "Communist Party of China"
+ GUD_socialism_party:0 "CPC"
+ GUD_socialism_party_long:0 "Communist Party of China"
+ ##COUNTRY NAME##
+ GUD_socialism:0 "Guangdong"
+ GUD_socialism_DEF:0 "the People's Government of Guangdong"
+ GUD_left_authoritarianism:0 "Guangdong"
+ GUD_left_authoritarianism_DEF:0 "the People's Government of Guangdong"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
