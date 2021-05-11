@@ -1,0 +1,246 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_MRC_Berserker_Charge"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Berserker_Charge.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_British_Expertise"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_British_Expertise.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Create_The_TNO"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Create_The_TNO.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Terror_Brigades"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Terror_Brigades.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Amatuers"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Amatuers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Saxon_Raiders"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Saxon_Raiders.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_A_Conscription_System"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_A_Conscription_System.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_A_Forceful_Approach"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_A_Forceful_Approach.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_A_Limited_Airforce"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_A_Limited_Airforce.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_A_Path_For_Redemption"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_A_Path_For_Redemption.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_A_place_for_all_of_us"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_A_place_for_all_of_us.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Ace_In_The_Hole"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Ace_In_The_Hole.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_An_Army_Of_One"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_An_Army_Of_One.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_An_Unequal_Trade"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_An_Unequal_Trade.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Ancestor_Spirit"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Ancestor_Spirit.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Baptized_By_Fire"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Baptized_By_Fire.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Border_Demarcration"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Border_Demarcration.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Brothers_in_Arms"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Brothers_in_Arms.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Call_Of_The_Occult"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Call_Of_The_Occult.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Do_What_Thou_Wilt"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Do_What_Thou_Wilt.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Dragonfly_Pirates"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Dragonfly_Pirates.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Eggbrains"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Eggbrains.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Experimental_Design"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Experimental_Design.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Faith_In_Douglas"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Faith_In_Douglas.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_German_Steel"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_German_Steel.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Helicopter_Primacy"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Helicopter_Primacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Hollows_Of_Devotion"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Hollows_Of_Devotion.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Improvised_Weaponry"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Improvised_Weaponry.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Lost_Brothers"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Lost_Brothers.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Mass_Assault"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Mass_Assault.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Matters_Of_Ideology"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Matters_Of_Ideology.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Mind_Over_Equipment"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Mind_Over_Equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Night_Witches"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Night_Witches.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Nothing_Left_to_lose"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Nothing_Left_to_lose.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Old_Connections"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Old_Connections.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Our_Own_SAS"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Our_Own_SAS.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Pincer_Attack"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Pincer_Attack.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Quality_Over_Quantity"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Quality_Over_Quantity.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Regiments_Of_Renown"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Regiments_Of_Renown.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Required_Concessions"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Required_Concessions.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Return_Of_The_King"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Return_Of_The_King.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Return_Of_The_Tankettes"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Return_Of_The_Tankettes.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Simplified_Production"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Simplified_Production.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Strength_in_Diversity"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Strength_in_Diversity.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Superior_Firepower"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Superior_Firepower.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_test_their_might"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_test_their_might.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Bishop_Of_England"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Bishop_Of_England.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Calling"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Calling.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Chivalorous_Youth"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Chivalorous_Youth.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_English_Legion"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_English_Legion.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_King_Of_England"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_King_Of_England.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Man_Route"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Man_Route.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Naval_Issue"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Naval_Issue.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Perfume_of_Traitors"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Perfume_of_Traitors.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Song_Of_Steel"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Song_Of_Steel.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Sound_Of_Neofolk"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Sound_Of_Neofolk.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Treaty"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Treaty.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Those_Who_Dare"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Those_Who_Dare.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Professionals"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Professionals.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Aria_Of_Wind"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Aria_Of_Wind.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_March_Of_Men"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_March_Of_Men.dds"
+	}
+}

@@ -1,0 +1,930 @@
+
+###FIRST TREE###
+
+shared_focus = {
+	id = MRC_the_calling
+	icon = GFX_goal_MRC_The_Calling
+	cost = 10
+	x = 32
+	y = 0
+}
+
+shared_focus = {
+	id = MRC_the_chilvalrous_youth
+	icon = GFX_goal_MRC_The_Chivalorous_Youth
+	prerequisite = {
+		focus = MRC_the_calling
+	}
+	cost = 10
+	x = 30
+	y = 1
+}
+
+shared_focus = {
+	id = MRC_brothers_in_arms
+	icon = GFX_goal_MRC_Brothers_in_Arms
+	prerequisite = {
+		focus = MRC_the_calling
+	}
+	cost = 10
+	x = 32
+	y = 1
+}
+
+shared_focus = {
+	id = MRC_nothing_left_to_lose
+	icon = GFX_goal_MRC_Nothing_Left_to_lose
+	prerequisite = {
+		focus = MRC_the_calling
+	}
+	cost = 10
+	x = 34
+	y = 1
+}
+
+shared_focus = {
+	id = MRC_path_of_redemption
+	icon = GFX_goal_MRC_A_Path_For_Redemption
+	prerequisite = {
+		focus = MRC_the_chilvalrous_youth
+	}
+	prerequisite = {
+		focus = MRC_brothers_in_arms
+	}
+	cost = 10
+	x = 31
+	y = 2
+}
+
+shared_focus = {
+	id = MRC_place_for_all_of_us
+	icon = GFX_goal_MRC_A_place_for_all_of_us
+	prerequisite = {
+		focus = MRC_brothers_in_arms
+	}
+	prerequisite = {
+		focus = MRC_nothing_left_to_lose
+	}
+	cost = 10
+	x = 33
+	y = 2
+}
+
+shared_focus = {
+	id = MRC_test_their_might
+	icon = GFX_goal_MRC_test_their_might
+	prerequisite = {
+		focus = MRC_path_of_redemption
+	}
+	cost = 10
+	x = 30
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_faith_in_douglas
+	icon = GFX_goal_MRC_Faith_In_Douglas
+	prerequisite = {
+		focus = MRC_path_of_redemption
+	}
+	prerequisite = {
+		focus = MRC_place_for_all_of_us
+	}
+	cost = 10
+	x = 32
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_mind_over_equipment
+	icon = GFX_goal_MRC_Mind_Over_Equipment
+	prerequisite = {
+		focus = MRC_place_for_all_of_us
+	}
+	cost = 10
+	x = 34
+	y = 3
+}
+
+shared_focus = {
+	id = MRC_the_perfume_of_traitors
+	icon = GFX_goal_MRC_The_Perfume_of_Traitors
+	prerequisite = {
+		focus = MRC_test_their_might
+	}
+	prerequisite = {
+		focus = MRC_faith_in_douglas
+	}
+	prerequisite = {
+		focus = MRC_mind_over_equipment
+	}
+	cost = 10
+	x = 32
+	y = 4
+}
+
+shared_focus = {
+	id = MRC_daedalus_rising
+	icon = GFX_goal_MRC_daedalus_rising
+	prerequisite = {
+		focus = MRC_the_perfume_of_traitors
+	}
+	cost = 10
+	x = 32
+	y = 6
+}
+
+shared_focus = {
+	id = MRC_reorganize_the_cadres
+	icon = GFX_goal_MRC_reorganize_the_cadres
+	prerequisite = {
+		focus = MRC_daedalus_rising
+	}
+	cost = 10
+	x = 32
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_finish_off_the_republicans
+	icon = GFX_goal_finish_off_the_republicans
+	prerequisite = {
+		focus = MRC_reorganize_the_cadres
+	}
+	cost = 10
+	x = 31
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_ministers_and_advisors 
+	icon = GFX_goal_MRC_ministers_and_advisors 
+	prerequisite = {
+		focus = MRC_reorganize_the_cadres
+	}
+	cost = 10
+	x = 33
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_the_secret_service
+	icon = GFX_goal_MRC_the_secret_service
+	prerequisite = {
+		focus = MRC_ministers_and_advisors
+	}
+	prerequisite = {
+		focus = MRC_finish_off_the_republicans
+	}
+	cost = 10
+	x = 32
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_all_pigs_must_die
+	icon = GFX_goal_MRC_all_pigs_must_die
+	prerequisite = {
+		focus = MRC_the_secret_service
+	}
+	prerequisite = {
+		focus = MRC_polictical_activism
+	}
+	prerequisite = {
+		focus = MRC_the_concert
+	}
+	cost = 10
+	x = 32
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_governing_apparatus
+	icon = GFX_goal_MRC_governing_apparatus
+	prerequisite = {
+		focus = MRC_daedalus_rising
+	}
+	cost = 10
+	x = 28
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_constitutional_assembly
+	icon = GFX_goal_MRC_constitutional_assembly
+	prerequisite = {
+		focus = MRC_governing_apparatus
+	}
+	cost = 10
+	x = 27
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_chain_of_command  
+	icon = GFX_goal_MRC_chain_of_command   
+	prerequisite = {
+		focus = MRC_governing_apparatus
+	}
+	cost = 10
+	x = 29
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_polictical_activism
+	icon = GFX_goal_MRC_polictical_activism
+	prerequisite = {
+		focus = MRC_chain_of_command 
+	}
+	prerequisite = {
+		focus = MRC_constitutional_assembly
+	}
+	cost = 10
+	x = 28
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_the_peoples_leader
+	icon = GFX_goal_MRC_the_peoples_leader
+	prerequisite = {
+		focus = MRC_daedalus_rising
+	}
+	cost = 10
+	x = 36
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_freedom_of_expression 
+	icon = GFX_goal_MRC_freedom_of_expression
+	prerequisite = {
+		focus = MRC_the_peoples_leader
+	}
+	cost = 10
+	x = 35
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_workers_state 
+	icon = GFX_goal_MRC_workers_state 
+	prerequisite = {
+		focus = MRC_the_peoples_leader
+	}
+	cost = 10
+	x = 37
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_the_concert
+	icon = GFX_goal_MRC_the_concert
+	prerequisite = {
+		focus = MRC_freedom_of_expression
+	}
+	prerequisite = {
+		focus = MRC_workers_state 
+	}
+	cost = 10
+	x = 36
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_luthers_army
+	icon = GFX_goal_MRC_luthers_army 
+	prerequisite = {
+		focus = MRC_the_perfume_of_traitors
+	}
+	cost = 10
+	x = 13
+	y = 5
+}
+
+shared_focus = {
+	id = MRC_strength_in_diversity
+	icon = GFX_goal_MRC_Strength_in_Diversity
+	prerequisite = {
+		focus = MRC_luthers_army
+	}
+	cost = 10
+	x = 6
+	y = 6
+}
+
+shared_focus = {
+	id = MRC_the_sound_of_neofolk
+	icon = GFX_goal_MRC_The_Sound_Of_Neofolk
+	prerequisite = {
+		focus = MRC_strength_in_diversity
+	}
+	cost = 10
+	x = 6
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_ancestor_spirit
+	icon = GFX_goal_MRC_Ancestor_Spirit
+	prerequisite = {
+		focus = MRC_the_sound_of_neofolk
+	}
+	mutually_exclusive = {
+		focus = MRC_call_of_the_occult
+	}
+	cost = 10
+	x = 4
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_the_english_legion
+	icon = GFX_goal_MRC_The_English_Legion
+	prerequisite = {
+		focus = MRC_ancestor_spirit
+	}
+	cost = 10
+	x = 3
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_the_saxon_raiders
+	icon = GFX_goal_MRC_The_Saxon_Raiders
+	prerequisite = {
+		focus = MRC_ancestor_spirit
+	}
+	cost = 10
+	x = 5
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_berserker_charge
+	icon = GFX_goal_MRC_Berserker_Charge
+	prerequisite = {
+		focus = MRC_the_english_legion
+	}
+	prerequisite = {
+		focus = MRC_the_saxon_raiders
+	}
+	cost = 10
+	x = 4
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_call_of_the_occult
+	icon = GFX_goal_MRC_Call_Of_The_Occult
+	prerequisite = {
+		focus = MRC_the_sound_of_neofolk
+	}
+	mutually_exclusive = {
+		focus = MRC_ancestor_spirit
+	}
+	cost = 10
+	x = 8
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_terror_brigades
+	icon = GFX_goal_MRC_Terror_Brigades
+	prerequisite = {
+		focus = MRC_call_of_the_occult
+	}
+	cost = 10
+	x = 7
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_night_witches
+	icon = GFX_goal_MRC_Night_Witches
+	prerequisite = {
+		focus = MRC_call_of_the_occult
+	}
+	cost = 10
+	x = 9
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_do_what_thou_wilt
+	icon = GFX_goal_MRC_Do_What_Thou_Wilt
+	prerequisite = {
+		focus = MRC_terror_brigades
+	}
+	prerequisite = {
+		focus = MRC_night_witches
+	}
+	cost = 10
+	x = 8
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_the_professionals
+	icon = GFX_goal_MRC_The_Professionals
+	prerequisite = {
+		focus = MRC_strength_in_diversity
+	}
+	cost = 10
+	x = 1
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_german_steel
+	icon = GFX_goal_MRC_German_Steel
+	prerequisite = {
+		focus = MRC_the_professionals
+	}
+	cost = 10
+	x = 0
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_british_expertise
+	icon = GFX_goal_MRC_British_Expertise
+	prerequisite = {
+		focus = MRC_the_professionals
+	}
+	cost = 10
+	x = 2
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_create_the_tno
+	icon = GFX_goal_MRC_Create_The_TNO
+	prerequisite = {
+		focus = MRC_german_steel
+	}
+	prerequisite = {
+		focus = MRC_british_expertise
+	}
+	cost = 10
+	x = 1
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_the_amatuers
+	icon = GFX_goal_MRC_The_Amatuers
+	prerequisite = {
+		focus = MRC_strength_in_diversity
+	}
+	cost = 10
+	x = 11
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_eggbrains
+	icon = GFX_goal_MRC_Eggbrains
+	prerequisite = {
+		focus = MRC_the_amatuers
+	}
+	cost = 10
+	x = 10
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_old_connections
+	icon = GFX_goal_MRC_Old_Connections
+	prerequisite = {
+		focus = MRC_the_amatuers
+	}
+	cost = 10
+	x = 12
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_regiments_of_renown
+	icon = GFX_goal_MRC_Regiments_Of_Renown
+	prerequisite = {
+		focus = MRC_eggbrains
+	}
+	prerequisite = {
+		focus = MRC_old_connections
+	}
+	cost = 10
+	x = 11
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_an_army_of_one
+	icon = GFX_goal_MRC_An_Army_Of_One
+	prerequisite = {
+		focus = MRC_luthers_army
+	}
+	cost = 10
+	x = 19
+	y = 6
+}
+
+shared_focus = {
+	id = MRC_the_aria_of_wind
+	icon = GFX_goal_MRC_The_Aria_Of_Wind
+	prerequisite = {
+		focus = MRC_an_army_of_one
+	}
+	cost = 10
+	x = 19
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_helicopter_primacy
+	icon = GFX_goal_MRC_Helicopter_Primacy
+	prerequisite = {
+		focus = MRC_the_aria_of_wind
+	}
+	mutually_exclusive = {
+		focus = MRC_limited_airforce
+	}
+	cost = 10
+	x = 18
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_limited_airforce
+	icon = GFX_goal_MRC_A_Limited_Airforce
+	prerequisite = {
+		focus = MRC_the_aria_of_wind
+	}
+	mutually_exclusive = {
+		focus = MRC_helicopter_primacy
+	}
+	cost = 10
+	x = 20
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_dragonfly_pirates
+	icon = GFX_goal_MRC_Dragonfly_Pirates
+	prerequisite = {
+		focus = MRC_helicopter_primacy
+	}
+	cost = 10
+	x = 18
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_ace_in_the_hall
+	icon = GFX_goal_MRC_Ace_In_The_Hole
+	prerequisite = {
+		focus = MRC_limited_airforce
+	}
+	cost = 10
+	x = 20
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_those_who_dare
+	icon = GFX_goal_MRC_Those_Who_Dare
+	prerequisite = {
+		focus = MRC_dragonfly_pirates
+		focus = MRC_ace_in_the_hall
+	}
+	cost = 10
+	x = 19
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_the_song_of_steel
+	icon = GFX_goal_MRC_The_Song_Of_Steel
+	prerequisite = {
+		focus = MRC_an_army_of_one
+	}
+	cost = 10
+	x = 15
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_simplified_production
+	icon = GFX_goal_MRC_Simplified_Production
+	prerequisite = {
+		focus = MRC_the_song_of_steel
+	}
+	mutually_exclusive = {
+		focus = MRC_quality_over_quantity
+	}
+	cost = 10
+	x = 14
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_quality_over_quantity
+	icon = GFX_goal_MRC_Quality_Over_Quantity
+	prerequisite = {
+		focus = MRC_the_song_of_steel
+	}
+	mutually_exclusive = {
+		focus = MRC_simplified_production
+	}
+	cost = 10
+	x = 16
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_return_of_the_tankettes
+	icon = GFX_goal_MRC_Return_Of_The_Tankettes
+	prerequisite = {
+		focus = MRC_simplified_production
+	}
+	cost = 10
+	x = 14
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_experimental_designs
+	icon = GFX_goal_MRC_Experimental_Design
+	prerequisite = {
+		focus = MRC_quality_over_quantity
+	}
+	cost = 10
+	x = 16
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_baptized_by_fire
+	icon = GFX_goal_MRC_Baptized_By_Fire
+	prerequisite = {
+		focus = MRC_return_of_the_tankettes
+		focus = MRC_experimental_designs
+	}
+	cost = 10
+	x = 15
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_the_march_of_men
+	icon = GFX_goal_MRC_The_March_Of_Men
+	prerequisite = {
+		focus = MRC_an_army_of_one
+	}
+	cost = 10
+	x = 23
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_superior_firepower
+	icon = GFX_goal_MRC_Superior_Firepower
+	prerequisite = {
+		focus = MRC_the_march_of_men
+	}
+	mutually_exclusive = {
+		focus = MRC_mass_assault
+	}
+	cost = 10
+	x = 22
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_mass_assault
+	icon = GFX_goal_MRC_Mass_Assault
+	prerequisite = {
+		focus = MRC_the_march_of_men
+	}
+	mutually_exclusive = {
+		focus = MRC_superior_firepower
+	}
+	cost = 10
+	x = 24
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_our_own_sas
+	icon = GFX_goal_MRC_Our_Own_SAS
+	prerequisite = {
+		focus = MRC_superior_firepower
+	}
+	cost = 10
+	x = 22
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_improvised_weaponry
+	icon = GFX_goal_MRC_Improvised_Weaponry
+	prerequisite = {
+		focus = MRC_mass_assault
+	}
+	cost = 10
+	x = 24
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_conscription_system
+	icon = GFX_goal_MRC_A_Conscription_System
+	prerequisite = {
+		focus = MRC_our_own_sas
+		focus = MRC_improvised_weaponry
+	}
+	cost = 10
+	x = 23
+	y = 10
+}
+
+shared_focus = {
+	id = MRC_the_naval_issue
+	icon = GFX_goal_MRC_The_Naval_Issue
+	prerequisite = {
+		focus = MRC_baptized_by_fire
+		focus = MRC_conscription_system
+		focus = MRC_those_who_dare
+	}
+	cost = 10
+	x = 19
+	y = 11
+}
+
+shared_focus = {
+	id = MRC_hollows_of_devotion
+	icon = GFX_goal_MRC_Hollows_Of_Devotion
+	prerequisite = {
+		focus = MRC_the_perfume_of_traitors
+	}
+	cost = 10
+	x = 42
+	y = 5
+}
+
+shared_focus = {
+	id = MRC_return_of_the_king
+	icon = GFX_goal_MRC_Return_Of_The_King
+	prerequisite = {
+		focus = MRC_hollows_of_devotion
+	}
+	mutually_exclusive = {
+		focus = MRC_lost_brothers
+	}
+	cost = 10
+	x = 40
+	y = 6
+}
+
+shared_focus = {
+	id = MRC_the_man_route
+	icon = GFX_goal_MRC_The_Man_Route
+	prerequisite = {
+		focus = MRC_return_of_the_king
+	}
+	cost = 10
+	x = 39
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_matters_of_ideology
+	icon = GFX_goal_MRC_Matters_Of_Ideology
+	prerequisite = {
+		focus = MRC_return_of_the_king
+	}
+	cost = 10
+	x = 41
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_the_king_of_england
+	icon = GFX_goal_MRC_The_King_Of_England
+	prerequisite = {
+		focus = MRC_the_man_route
+	}
+	mutually_exclusive = {
+		focus = MRC_the_bishop_of_england
+	}
+	cost = 10
+	x = 39
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_the_bishop_of_england
+	icon = GFX_goal_MRC_The_Bishop_Of_England
+	prerequisite = {
+		focus = MRC_matters_of_ideology
+	}
+	mutually_exclusive = {
+		focus = MRC_the_king_of_england
+	}
+	cost = 10
+	x = 41
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_pincer_attack
+	icon = GFX_goal_MRC_Pincer_Attack
+	prerequisite = {
+		focus = MRC_the_bishop_of_england
+		focus = MRC_the_king_of_england
+	}
+	cost = 10
+	x = 40
+	y = 9
+}
+
+shared_focus = {
+	id = MRC_lost_brothers
+	icon = GFX_goal_MRC_Lost_Brothers
+	prerequisite = {
+		focus = MRC_hollows_of_devotion
+	}
+	mutually_exclusive = {
+		focus = MRC_return_of_the_king
+	}
+	cost = 10
+	x = 44
+	y = 6
+}
+
+shared_focus = {
+	id = MRC_an_unequal_trade
+	icon = GFX_goal_MRC_An_Unequal_Trade
+	prerequisite = {
+		focus = MRC_lost_brothers
+	}
+	cost = 10
+	x = 43
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_required_concessions
+	icon = GFX_goal_MRC_Required_Concessions
+	prerequisite = {
+		focus = MRC_lost_brothers
+	}
+	cost = 10
+	x = 45
+	y = 7
+}
+
+shared_focus = {
+	id = MRC_border_demarcation
+	icon = GFX_goal_MRC_Border_Demarcration
+	prerequisite = {
+		focus = MRC_an_unequal_trade
+	}
+	mutually_exclusive = {
+		focus = MRC_forceful_approach
+	}
+	cost = 10
+	x = 43
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_forceful_approach
+	icon = GFX_goal_MRC_A_Forceful_Approach
+	prerequisite = {
+		focus = MRC_required_concessions
+	}
+	mutually_exclusive = {
+		focus = MRC_border_demarcation
+	}
+	cost = 10
+	x = 45
+	y = 8
+}
+
+shared_focus = {
+	id = MRC_the_treaty
+	icon = GFX_goal_MRC_The_Treaty
+	prerequisite = {
+		focus = MRC_forceful_approach
+		focus = MRC_border_demarcation
+	}
+	cost = 10
+	x = 44
+	y = 9
+}
+
+
+
+
