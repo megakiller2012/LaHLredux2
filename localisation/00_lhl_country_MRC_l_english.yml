@@ -1,4 +1,4 @@
-﻿l_english:
+﻿ l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
  MRC_ur_fascism_party:0 "Black Army of Britain"
@@ -72,5 +72,19 @@
  MRC_border_demarcation:0 "Border Demarcation"
  MRC_forceful_approach:0 "A Forceful Approach"
  MRC_the_treaty:0 "The Treaty"
+ MRC_daedalus_rising:0 "Daedalus Rising"
+ MRC_reorganize_the_cadres:0 "Reorganize The Cadres"
+ MRC_finish_off_the_republicans:0 "Finish Off The Republicans"
+ MRC_ministers_and_advisors:0 "Mnisters And Advisors"
+ MRC_the_secret_service:0 "The Secret Service"
+ MRC_all_pigs_must_die:0 "All Pigs Must Die"
+ MRC_governing_apparatus:0 "Governing Apparatus"
+ MRC_constitutional_assembly:0 "Constitutional Assembly"
+ MRC_chain_of_command:0 "Chain Of Command"
+ MRC_polictical_activism:0 "Polictical Activism"
+ MRC_the_peoples_leader:0 "The People's Leader"
+ MRC_freedom_of_expression:0 "Freedom Of Expression"
+ MRC_workers_state:0 "Worker's State"
+ MRC_the_concert:0 "The Concert"
  ##DECISIONS##
  ##EVENTS##
