@@ -1954,3 +1954,93 @@ shared_focus = {
 	x = 32
 	y = 26
 }
+
+shared_focus = {
+	id = MRC_province_issues
+	icon = GFX_goal_MRC_Province_Issues
+	prerequisite = {
+		focus = MRC_canterbury_cathedral
+	}
+	cost = 10
+	x = 29
+	y = 24
+}
+
+shared_focus = {
+	id = MRC_pacification
+	icon = GFX_goal_MRC_Pacification
+	prerequisite = {
+		focus = MRC_province_issues
+	}
+	cost = 10
+	x = 29
+	y = 25
+}
+
+shared_focus = {
+	id = MRC_internal_structure
+	icon = GFX_goal_MRC_Internal_Structure
+	prerequisite = {
+		focus = MRC_pacification
+	}
+	cost = 10
+	x = 29
+	y = 26
+}
+
+shared_focus = {
+	id = MRC_syncretic_unity
+	icon = GFX_goal_MRC_Syncretic_Unity
+	prerequisite = {
+		focus = MRC_canterbury_cathedral
+	}
+	cost = 10
+	x = 35
+	y = 24
+}
+
+shared_focus = {
+	id = MRC_enlightenment_journey
+	icon = GFX_goal_MRC_Enlightenment_Journey
+	prerequisite = {
+		focus = MRC_syncretic_unity
+	}
+	cost = 10
+	x = 35
+	y = 25
+}
+
+shared_focus = {
+	id = MRC_spiritual_control 
+	icon = GFX_goal_MRC_Spiritual_Control 
+	prerequisite = {
+		focus = MRC_enlightenment_journey
+	}
+	cost = 10
+	x = 35
+	y = 26
+}
+
+shared_focus = {
+	id = MRC_earthly_laws
+	icon = GFX_goal_MRC_Earthly_Laws
+	prerequisite = {
+		focus = MRC_unity_in_faith
+		focus = MRC_spiritual_control
+		focus = MRC_internal_structure
+	}
+	cost = 10
+	x = 32
+	y = 27
+}
+
+shared_focus = {
+	id = MRC_earthly_laws
+	icon = GFX_goal_MRC_Earthly_Laws
+	prerequisite = {
+		focus = MRC_earthly_laws
+	}
+	cost = 10
+	x = 32
+	y = 28
+}
