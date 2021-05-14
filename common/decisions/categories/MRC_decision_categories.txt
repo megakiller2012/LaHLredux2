@@ -1,0 +1,6 @@
+MRC_debug = {
+	icon = GFX
+	picture = GFX
+	allowed = { original_tag = MRC }
+}
+

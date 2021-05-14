@@ -3,6 +3,37 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
         shared_focus = MRC_the_calling
+		shared_focus = MRC_apostolic_nation
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = MRC
+		}
+	}
+}
+
+focus_tree = {
+	id = MRC_madoka_magica
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = MRC_the_calling
+		shared_focus = MRC_falling_into_darkness
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = MRC
+		}
+	}
+}
+
+focus_tree = {
+	id = MRC_christian
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = MRC_the_calling
+		shared_focus = MRC_apostolic_nation
 	country = {
 		factor = 0
 		modifier = {
