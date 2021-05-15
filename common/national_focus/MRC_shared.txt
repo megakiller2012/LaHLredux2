@@ -2044,3 +2044,416 @@ shared_focus = {
 	x = 32
 	y = 28
 }
+
+shared_focus = {
+	id = MRC_ancient_empire
+	icon = GFX_goal_MRC_the_ancient_empire
+	cost = 10
+	x = 32
+	y = 17
+}
+
+shared_focus = {
+	id = MRC_back_to_the_past
+	icon = GFX_goal_MRC_Back_To_The_Past
+	prerequisite = {
+		focus = MRC_ancient_empire
+	}
+	cost = 10
+	x = 31
+	y = 18
+}
+
+shared_focus = {
+	id = MRC_unto_the_future
+	icon = GFX_goal_MRC_Unto_The_Future
+	prerequisite = {
+		focus = MRC_ancient_empire
+	}
+	cost = 10
+	x = 33
+	y = 18
+}
+
+shared_focus = {
+	id = MRC_revive_the_dead_language
+	icon = GFX_goal_MRC_Revive_The_Dead_Language
+	prerequisite = {
+		focus = MRC_back_to_the_past
+	}
+	cost = 10
+	x = 30
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_fate_of_the_western_civilization
+	icon = GFX_goal_MRC_Fate_Of_The_Western_Civilization
+	prerequisite = {
+		focus = MRC_back_to_the_past
+	}
+	prerequisite = {
+		focus = MRC_unto_the_future
+	}
+	cost = 10
+	x = 32
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_a_strict_stratification
+	icon = GFX_goal_MRC_A_Strict_Stratification
+	prerequisite = {
+		focus = MRC_unto_the_future
+	}
+	cost = 10
+	x = 34
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_deal_with_the_celts
+	icon = GFX_goal_MRC_Deal_With_The_Celts
+	prerequisite = {
+		focus = MRC_revive_the_dead_language
+	}
+	cost = 10
+	x = 30
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_the_imperial_army
+	icon = GFX_goal_MRC_The_Imperial_Army
+	prerequisite = {
+		focus = MRC_a_strict_stratification
+	}
+	cost = 10
+	x = 34
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_kings_fate
+	icon = GFX_goal_MRC_Kings_Fate
+	prerequisite = {
+		focus = MRC_fate_of_the_western_civilization
+	}
+	cost = 10
+	x = 32
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_societal_rebirth
+	icon = GFX_goal_MRC_Societal_Rebirth
+	prerequisite = {
+		focus = MRC_deal_with_the_celts
+	}
+	prerequisite = {
+		focus = MRC_the_imperial_army
+	}
+	prerequisite = {
+		focus = MRC_kings_fate
+	}
+	cost = 10
+	x = 32
+	y = 21
+}
+
+shared_focus = {
+	id = MRC_mithraism_revival
+	icon = GFX_goal_MRC_Mithraism_Revival
+	prerequisite = {
+		focus = MRC_ancient_empire
+	}
+	cost = 10
+	x = 27
+	y = 18
+}
+
+shared_focus = {
+	id = MRC_underground_temples
+	icon = GFX_goal_MRC_Underground_Temples
+	prerequisite = {
+		focus = MRC_mithraism_revival
+	}
+	cost = 10
+	x = 26
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_define_history
+	icon = GFX_goal_MRC_Define_History
+	prerequisite = {
+		focus = MRC_mithraism_revival
+	}
+	cost = 10
+	x = 28
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_the_cultist_army
+	icon = GFX_goal_MRC_The_Cultist_Army
+	prerequisite = {
+		focus = MRC_underground_temples
+	}
+	prerequisite = {
+		focus = MRC_define_history
+	}
+	cost = 10
+	x = 27
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_imperial_reforms
+	icon = GFX_goal_MRC_Imperial_Reforms
+	prerequisite = {
+		focus = MRC_ancient_empire
+	}
+	cost = 10
+	x = 37
+	y = 18
+}
+
+shared_focus = {
+	id = MRC_a_semblance_of_democracy
+	icon = GFX_goal_MRC_A_Semblance_Of_Democracy
+	prerequisite = {
+		focus = MRC_imperial_reforms
+	}
+	mutually_exclusive = {
+		focus = MRC_the_great_empreror
+	}
+	cost = 10
+	x = 36
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_the_great_empreror
+	icon = GFX_goal_MRC_The_Great_Empreror
+	prerequisite = {
+		focus = MRC_imperial_reforms
+	}
+	mutually_exclusive = {
+		focus = MRC_a_semblance_of_democracy
+	}
+	cost = 10
+	x = 38
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_the_first_constitution
+	icon = GFX_goal_MRC_The_First_Constitution
+	prerequisite = {
+		focus = MRC_a_semblance_of_democracy
+	}
+	prerequisite = {
+		focus = MRC_the_great_empreror
+	}
+	cost = 10
+	x = 37
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_an_advanced_superculture
+	icon = GFX_goal_MRC_An_Advanced_Superculture
+	prerequisite = {
+		focus = MRC_societal_rebirth
+	}
+	cost = 10
+	x = 32
+	y = 22
+}
+
+shared_focus = {
+	id = MRC_the_european_legacy
+	icon = GFX_goal_MRC_The_European_Legacy
+	prerequisite = {
+		focus = MRC_an_advanced_superculture
+	}
+	cost = 10
+	x = 30
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_the_asian_legacy
+	icon = GFX_goal_MRC_The_Asian_Legacy
+	prerequisite = {
+		focus = MRC_an_advanced_superculture
+	}
+	cost = 10
+	x = 32
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_the_african_legacy
+	icon = GFX_goal_MRC_The_African_Legacy
+	prerequisite = {
+		focus = MRC_an_advanced_superculture
+	}
+	cost = 10
+	x = 34
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_the_oceanic_legacy
+	icon = GFX_goal_MRC_The_Oceanic_Legacy
+	prerequisite = {
+		focus = MRC_the_european_legacy
+	}
+	prerequisite = {
+		focus = MRC_the_asian_legacy
+	}
+	cost = 10
+	x = 31
+	y = 24
+}
+
+shared_focus = {
+	id = MRC_the_american_legacy
+	icon = GFX_goal_MRC_The_American_Legacy
+	prerequisite = {
+		focus = MRC_the_asian_legacy
+	}
+	prerequisite = {
+		focus = MRC_the_african_legacy
+	}
+	cost = 10
+	x = 33
+	y = 24
+}
+
+shared_focus = {
+	id = MRC_myths_and_legends
+	icon = GFX_goal_MRC_Myths_And_Legends
+	prerequisite = {
+		focus = MRC_the_oceanic_legacy
+	}
+	prerequisite = {
+		focus = MRC_the_american_legacy
+	}
+	cost = 10
+	x = 32
+	y = 25
+}
+
+shared_focus = {
+	id = MRC_rebuild_the_nation
+	icon = GFX_goal_MRC_Rebuild_The_Nation
+	prerequisite = {
+		focus = MRC_societal_rebirth
+	}
+	cost = 10
+	x = 27
+	y = 22
+}
+
+shared_focus = {
+	id = MRC_standardized_city_planning
+	icon = GFX_goal_MRC_Standardized_City_Planning
+	prerequisite = {
+		focus = MRC_rebuild_the_nation
+	}
+	cost = 10
+	x = 26
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_infrastructure_of_an_empire
+	icon = GFX_goal_MRC_Infrastructure_Of_An_Empire
+	prerequisite = {
+		focus = MRC_rebuild_the_nation
+	}
+	cost = 10
+	x = 28
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_city_on_a_hill
+	icon = GFX_goal_MRC_City_On_A_Hill
+	prerequisite = {
+		focus = MRC_standardized_city_planning
+	}
+	prerequisite = {
+		focus = MRC_infrastructure_of_an_empire
+	}
+	cost = 10
+	x = 27
+	y = 24
+}
+
+shared_focus = {
+	id = MRC_a_new_geopolitical_theory
+	icon = GFX_goal_MRC_A_New_Geopolitical_Theory
+	prerequisite = {
+		focus = MRC_societal_rebirth
+	}
+	cost = 10
+	x = 37
+	y = 22
+}
+
+shared_focus = {
+	id = MRC_barbarian_menace
+	icon = GFX_goal_MRC_Barbarian_Menace
+	prerequisite = {
+		focus = MRC_a_new_geopolitical_theory
+	}
+	cost = 10
+	x = 36
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_the_lost_lands
+	icon = GFX_goal_MRC_The_Lost_Lands
+	prerequisite = {
+		focus = MRC_a_new_geopolitical_theory
+	}
+	cost = 10
+	x = 38
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_a_culture_of_perpetual_conquest
+	icon = GFX_goal_MRC_A_Culture_Of_Perpetual_Conquest
+	prerequisite = {
+		focus = MRC_barbarian_menace
+	}
+	prerequisite = {
+		focus = MRC_the_lost_lands
+	}
+	cost = 10
+	x = 37
+	y = 24
+}
+
+shared_focus = {
+	id = MRC_the_die_is_cast
+	icon = GFX_goal_MRC_The_Die_Is_Cast
+	prerequisite = {
+		focus = MRC_myths_and_legends
+	}
+	prerequisite = {
+		focus = MRC_a_culture_of_perpetual_conquest
+	}
+	prerequisite = {
+		focus = MRC_city_on_a_hill
+	}
+	cost = 10
+	x = 32
+	y = 26
+}
