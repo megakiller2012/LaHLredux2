@@ -2457,3 +2457,392 @@ shared_focus = {
 	x = 32
 	y = 26
 }
+
+shared_focus = {
+	id = MRC_anglo_saxons
+	icon = GFX_goal_MRC_anglo_saxons
+	cost = 10
+	x = 32
+	y = 17
+}
+
+shared_focus = {
+	id = MRC_carve_the_path
+	icon = GFX_goal_MRC_Carve_The_Path
+	prerequisite = {
+		focus = MRC_anglo_saxons
+	}
+	cost = 10
+	x = 32
+	y = 18
+}
+
+shared_focus = {
+	id = MRC_government_assigned_wyrd
+	icon = GFX_goal_MRC_Government_Assigned_Wyrd
+	prerequisite = {
+		focus = MRC_carve_the_path
+	}
+	cost = 10
+	x = 30
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_the_anglosaxon_laws
+	icon = GFX_goal_MRC_The_Anglosaxon_Laws
+	prerequisite = {
+		focus = MRC_carve_the_path
+	}
+	cost = 10
+	x = 32
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_repossesion_campaign
+	icon = GFX_goal_MRC_Repossesion_Campaign
+	prerequisite = {
+		focus = MRC_carve_the_path
+	}
+	cost = 10
+	x = 34
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_folkmoot
+	icon = GFX_goal_MRC_folkmoot
+	prerequisite = {
+		focus = MRC_government_assigned_wyrd
+	}
+	prerequisite = {
+		focus = MRC_the_anglosaxon_laws
+	}
+	cost = 10
+	x = 31
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_integrate_the_celts
+	icon = GFX_goal_MRC_Integrate_The_Celts
+	prerequisite = {
+		focus = MRC_repossesion_campaign
+	}
+	prerequisite = {
+		focus = MRC_the_anglosaxon_laws
+	}
+	cost = 10
+	x = 33
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_hyperborean_planning
+	icon = GFX_goal_MRC_Hyperborean_Planning
+	prerequisite = {
+		focus = MRC_folkmoot
+	}
+	cost = 10
+	x = 30
+	y = 21
+}
+
+shared_focus = {
+	id = MRC_societal_stratas
+	icon = GFX_goal_MRC_Societal_Stratas
+	prerequisite = {
+		focus = MRC_folkmoot
+	}
+	prerequisite = {
+		focus = MRC_integrate_the_celts
+	}
+	cost = 10
+	x = 32
+	y = 21
+}
+
+shared_focus = {
+	id = MRC_a_question_of_slavery
+	icon = GFX_goal_MRC_A_Question_Of_Slavery
+	prerequisite = {
+		focus = MRC_integrate_the_celts
+	}
+	cost = 10
+	x = 34
+	y = 21
+}
+
+shared_focus = {
+	id = MRC_ancestor_dieties
+	icon = GFX_goal_MRC_Ancestor_Dieties
+	prerequisite = {
+		focus = MRC_hyperborean_planning
+	}
+	prerequisite = {
+		focus = MRC_societal_stratas
+	}
+	cost = 10
+	x = 31
+	y = 22
+}
+
+shared_focus = {
+	id = MRC_advanced_primitivism
+	icon = GFX_goal_MRC_Advanced_Primitivism
+	prerequisite = {
+		focus = MRC_societal_stratas
+	}
+	prerequisite = {
+		focus = MRC_a_question_of_slavery
+	}
+	cost = 10
+	x = 33
+	y = 22
+}
+
+shared_focus = {
+	id = MRC_hearts_and_minds
+	icon = GFX_goal_MRC_Hearts_And_Minds
+	prerequisite = {
+		focus = MRC_ancestor_dieties
+	}
+	cost = 10
+	x = 31
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_nomadic_lifestyle
+	icon = GFX_goal_MRC_Nomadic_Lifestyle
+	prerequisite = {
+		focus = MRC_advanced_primitivism
+	}
+	cost = 10
+	x = 33
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_an_island_of_legend
+	icon = GFX_goal_MRC_An_Island_Of_Legend
+	prerequisite = {
+		focus = MRC_hearts_and_minds
+	}
+	prerequisite = {
+		focus = MRC_nomadic_lifestyle
+	}
+	cost = 10
+	x = 32
+	y = 24
+}
+
+shared_focus = {
+	id = MRC_a_message_to_the_world
+	icon = GFX_goal_MRC_A_Message_To_The_World
+	prerequisite = {
+		focus = MRC_anglo_saxons
+	}
+	cost = 10
+	x = 37
+	y = 18
+}
+
+shared_focus = {
+	id = MRC_retake_the_isles
+	icon = GFX_goal_MRC_Retake_The_Isles
+	prerequisite = {
+		focus = MRC_a_message_to_the_world
+	}
+	cost = 10
+	x = 36
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_the_land_up_north
+	icon = GFX_goal_MRC_The_Land_Up_North
+	prerequisite = {
+		focus = MRC_a_message_to_the_world
+	}
+	cost = 10
+	x = 38
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_the_pagan_internationale
+	icon = GFX_goal_MRC_The_Pagan_Internationale
+	prerequisite = {
+		focus = MRC_retake_the_isles
+	}
+	cost = 10
+	x = 36
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_designated_homeland
+	icon = GFX_goal_MRC_Designated_Homeland
+	prerequisite = {
+		focus = MRC_the_land_up_north
+	}
+	cost = 10
+	x = 38
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_an_expedition
+	icon = GFX_goal_MRC_An_Expedition
+	prerequisite = {
+		focus = MRC_the_pagan_internationale
+	}
+	prerequisite = {
+		focus = MRC_designated_homeland
+	}
+	cost = 10
+	x = 37
+	y = 21
+}
+
+shared_focus = {
+	id = MRC_prepearing_for_ragnarok
+	icon = GFX_goal_MRC_Prepearing_For_Ragnarok
+	prerequisite = {
+		focus = MRC_anglo_saxons
+	}
+	cost = 10
+	x = 25
+	y = 18
+}
+
+shared_focus = {
+	id = MRC_revive_the_north_spirit
+	icon = GFX_goal_MRC_Revive_The_North_Spirit
+	prerequisite = {
+		focus = MRC_prepearing_for_ragnarok
+	}
+	cost = 10
+	x = 23
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_tools_of_war
+	icon = GFX_goal_MRC_Tools_Of_War
+	prerequisite = {
+		focus = MRC_revive_the_north_spirit
+	}
+	cost = 10
+	x = 22
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_warrior_society
+	icon = GFX_goal_MRC_warrior_society
+	prerequisite = {
+		focus = MRC_revive_the_north_spirit
+	}
+	cost = 10
+	x = 24
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_scandinavian_pirates
+	icon = GFX_goal_MRC_Scandinavian_Pirates
+	prerequisite = {
+		focus = MRC_tools_of_war
+	}
+	prerequisite = {
+		focus = MRC_warrior_society
+	}
+	cost = 10
+	x = 23
+	y = 21
+}
+
+shared_focus = {
+	id = MRC_anglosaxons_rule_the_waves
+	icon = GFX_goal_MRC_Anglosaxons_Rule_The_Waves
+	prerequisite = {
+		focus = MRC_prepearing_for_ragnarok
+	}
+	cost = 10
+	x = 27
+	y = 19
+}
+
+shared_focus = {
+	id = MRC_the_mighty_fleet
+	icon = GFX_goal_MRC_The_Mighty_Fleet
+	prerequisite = {
+		focus = MRC_anglosaxons_rule_the_waves
+	}
+	cost = 10
+	x = 26
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_the_swarming_hive
+	icon = GFX_goal_MRC_The_Swarming_Hive
+	prerequisite = {
+		focus = MRC_anglosaxons_rule_the_waves
+	}
+	cost = 10
+	x = 28
+	y = 20
+}
+
+shared_focus = {
+	id = MRC_an_attractive_synergy
+	icon = GFX_goal_MRC_An_Attractive_Synergy
+	prerequisite = {
+		focus = MRC_the_mighty_fleet
+	}
+	prerequisite = {
+		focus = MRC_the_swarming_hive
+	}
+	cost = 10
+	x = 27
+	y = 21
+}
+
+shared_focus = {
+	id = MRC_the_north_awakens
+	icon = GFX_goal_MRC_The_North_Awakens
+	prerequisite = {
+		focus = MRC_scandinavian_pirates
+		focus = MRC_an_attractive_synergy
+	}
+	cost = 10
+	x = 25
+	y = 22
+}
+
+shared_focus = {
+	id = MRC_the_end_awaits
+	icon = GFX_goal_MRC_The_End_Awaits
+	prerequisite = {
+		focus = MRC_the_north_awakens
+	}
+	cost = 10
+	x = 24
+	y = 23
+}
+
+shared_focus = {
+	id = MRC_the_medieval_combat
+	icon = GFX_goal_MRC_The_Medieval_Combat
+	prerequisite = {
+		focus = MRC_the_north_awakens
+	}
+	cost = 10
+	x = 26
+	y = 23
+}
+

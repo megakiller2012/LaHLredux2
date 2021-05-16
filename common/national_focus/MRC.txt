@@ -3,7 +3,6 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
         shared_focus = MRC_the_calling
-		shared_focus = MRC_ancient_empire
 	country = {
 		factor = 0
 		modifier = {
@@ -49,6 +48,21 @@ focus_tree = {
 	continuous_focus_position = { x = 20 y = 4000 }
         shared_focus = MRC_the_calling
 		shared_focus = MRC_ancient_empire
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = MRC
+		}
+	}
+}
+
+focus_tree = {
+	id = MRC_anglo_saxons
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = MRC_the_calling
+		shared_focus = MRC_anglo_saxons
 	country = {
 		factor = 0
 		modifier = {
