@@ -1,0 +1,144 @@
+
+shared_focus = {
+	id = NTH_according_to_plan
+	icon = GFX_goal_NTH_According_To_Plan
+	cost = 10
+	x = 8
+	y = 0
+}
+
+shared_focus = {
+	id = NTH_peoples_promise
+	icon = GFX_goal_NTH_Peoples_Promise
+	prerequisite = {
+		focus = NTH_according_to_plan
+	}	
+	cost = 10
+	x = 5
+	y = 1
+}
+
+shared_focus = {
+	id = NTH_gallowayka
+	icon = GFX_goal_NTH_Gallowayka
+	prerequisite = {
+		focus = NTH_peoples_promise
+	}	
+	cost = 10
+	x = 3
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_war_time_media
+	icon = GFX_goal_NTH_War_Time_Media
+	prerequisite = {
+		focus = NTH_peoples_promise
+	}	
+	cost = 10
+	x = 5
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_the_most_democratic_constitution
+	icon = GFX_goal_NTH_The_Most_Democratic_Constitution
+	prerequisite = {
+		focus = NTH_peoples_promise
+	}	
+	cost = 10
+	x = 7
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_heroes_of_the_state
+	icon = GFX_goal_NTH_Heroes_Of_The_State
+	prerequisite = {
+		focus = NTH_gallowayka
+	}	
+	prerequisite = {
+		focus = NTH_war_time_media
+	}
+	prerequisite = {
+		focus = NTH_the_most_democratic_constitution
+	}
+	cost = 10
+	x = 5
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_the_reconstruction
+	icon = GFX_goal_NTH_The_Reconstruction
+	prerequisite = {
+		focus = NTH_according_to_plan
+	}	
+	cost = 10
+	x = 11
+	y = 1
+}
+
+shared_focus = {
+	id = NTH_one_way_trip
+	icon = GFX_goal_NTH_One_Way_Trip
+	prerequisite = {
+		focus = NTH_the_reconstruction
+	}	
+	cost = 10
+	x = 9
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_nationalization_campaign
+	icon = GFX_goal_NTH_Nationalization_Campaign
+	prerequisite = {
+		focus = NTH_the_reconstruction
+	}	
+	cost = 10
+	x = 11
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_reindustrialization
+	icon = GFX_goal_NTH_Reindustrialization
+	prerequisite = {
+		focus = NTH_the_reconstruction
+	}	
+	cost = 10
+	x = 13
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_the_great_leap
+	icon = GFX_goal_NTH_The_Great_Leap
+	prerequisite = {
+		focus = NTH_one_way_trip
+	}	
+	prerequisite = {
+		focus = NTH_nationalization_campaign
+	}
+	prerequisite = {
+		focus = NTH_reindustrialization
+	}
+	cost = 10
+	x = 11
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_now_we_move_forward
+	icon = GFX_goal_NTH_Now_We_Move_Forward
+	prerequisite = {
+		focus = NTH_the_great_leap
+	}
+	prerequisite = {
+		focus = NTH_heroes_of_the_state
+	}
+	cost = 10
+	x = 8
+	y = 4
+}

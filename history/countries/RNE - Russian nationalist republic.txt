@@ -31,4 +31,18 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Vasilij Bojko-Velikij"
+	desc = "POLITICS_Vasilij_Bojko_Velikij_DESC"
+	picture = "Portrait_RNE_Vasilij_Bojko_Velikij.dds"
+	ideology = charismatic_dictatorship 
+	traits = {
+		diligent_officer_without_imagination
+	}
+}
+
+
+
+
+
 
