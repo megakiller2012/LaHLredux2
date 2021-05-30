@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Pope Francis"
-	picture = "Portrait_SOC_Pope_Francis.dds"
+	name = "Maurizio Murelli"
+	picture = "Portrait_SOC_Maurizio_Murelli.dds"
 	expire = "1953.3.1"
 	ideology = autocracy
 	traits = {

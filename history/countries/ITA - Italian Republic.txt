@@ -21,9 +21,9 @@ set_popularities = {
 	
 }
 create_country_leader = {
-	name = "Italian 1"
+	name = "Matteo Renzi"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_ITA_Matteo_Renzi.dds"
 	ideology = accelerationism
 	traits = {
 		
