@@ -8,7 +8,9 @@ state={
 		owner = EAG
 		add_core_of = EAG
 		victory_points
+		
 		= {
+		17569 4
 		}
 		}
 

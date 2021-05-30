@@ -38,4 +38,43 @@
 	}
 }
 
+MRC_INF_02 = 
+{
+	name = "Albion's Vikings"
+
+	for_countries = { MRC }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d. Raiders"
+
+	ordered =
+	{
+		1 = { "Harald's Axes" }
+		2 = { "Walhalla Seekers" }
+		3 = { "Mjolnir Cannons" }
+		4 = { ""Pillage and Rape" Brigade" }
+		5 = { "Heralds of Ragnarok" }
+		6 = { "Iron Drakkars" }
+		7 = { "Snorri's Scholars" }
+		8 = { "Rurik's Vataga" }
+		9 = { "Souls of Ancestors" }
+		10 = { "Birmingham Wolves" }
+		11 = { "Rune Preists" }
+		12 = { "Loki's Trixsters" }
+		13 = { "Normann's Offsprings" }
+		14 = { "" }
+		15 = { "" }
+		16 = { "" }
+		17 = { "Sons of Saxony" }
+		18 = { "First Odin Brigade" }
+		19 = { "Second Odin Brigade" }
+		20 = { "Third Odin Brigade" }
+		
+		
+	}
+}
+
 

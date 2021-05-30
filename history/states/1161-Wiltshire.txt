@@ -8,6 +8,7 @@ state={
 		add_core_of = WES
 		victory_points
 		= {
+		17542 10
 		}
 		}
 

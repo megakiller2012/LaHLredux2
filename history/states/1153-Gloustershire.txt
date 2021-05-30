@@ -8,6 +8,11 @@ state={
 		add_core_of = WES
 		victory_points
 		= {
+		10617 5
+		}
+		victory_points
+		= {
+		17551 2 
 		}
 }
 	provinces={

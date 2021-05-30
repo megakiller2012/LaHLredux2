@@ -9,8 +9,8 @@ state={
 			history={
 		owner = WES
 		add_core_of = WES
-		victory_points
-		= {
+		victory_points = {
+			10760 10 
 		}
 		}
 	provinces={

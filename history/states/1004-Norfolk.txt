@@ -11,6 +11,11 @@ state={
 		add_core_of = EAG
 		victory_points
 		= {
+		17595 3
+		}
+		victory_points
+		= {
+		17597 15
 		}
 		}
 	manpower=1684321

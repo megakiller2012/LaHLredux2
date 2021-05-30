@@ -6,8 +6,11 @@ state={
 	history={
 		owner = KNT
 		add_core_of = KNT
-		victory_points = {
-
+	victory_points = {
+			17510 15 
+		}
+			victory_points = {
+			17520 10
 		}
 
 	}
