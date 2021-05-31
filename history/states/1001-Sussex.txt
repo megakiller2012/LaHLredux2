@@ -7,7 +7,7 @@ state={
 		owner = SUS
 		add_core_of = SUS
 		victory_points = {
-			10508 10 
+			17508 10 
 		}
 
 	}

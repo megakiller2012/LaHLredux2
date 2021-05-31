@@ -10,7 +10,7 @@ state={
 		owner = WES
 		add_core_of = WES
 		victory_points = {
-			10504 10 
+			17516 10 
 		}
 		}
 	buildings_max_level_factor=1.000
