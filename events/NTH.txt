@@ -32,14 +32,14 @@ country_event = {
 		set_province_name = { id = 9091 	name = VICTORY_POINTS_9091_NTH  }
 		set_province_name = { id = 17527	name = VICTORY_POINTS_17527_NTH }
 		set_province_name = { id = 17542	name = VICTORY_POINTS_17542_NTH }
-		set_province_name = { id = 10574	name = VICTORY_POINTS_10574_NTH }
+		set_province_name = { id = 17578	name = VICTORY_POINTS_17578_NTH }
 		set_province_name = { id = 9396		name = VICTORY_POINTS_9396_NTH }
 		set_province_name = { id = 17551	name = VICTORY_POINTS_17551_NTH }
 		set_province_name = { id = 17635	name = VICTORY_POINTS_17635_NTH }
 		set_province_name = { id = 7790		name = VICTORY_POINTS_7790_NTH  }
 		set_province_name = { id = 10464	name = VICTORY_POINTS_10464_NTH  }
 		set_province_name = { id = 10617	name = VICTORY_POINTS_10617_NTH  }
-		set_province_name = { id = 17597		name = VICTORY_POINTS_17597_NTH }
+		set_province_name = { id = 17597	name = VICTORY_POINTS_17597_NTH }
 		set_province_name = { id = 17595	name = VICTORY_POINTS_17595_NTH  }
 		set_province_name = { id = 10603	name = VICTORY_POINTS_10603_NTH }
 		set_province_name = { id = 10496	name = VICTORY_POINTS_10496_NTH }
@@ -47,6 +47,10 @@ country_event = {
 		set_province_name = { id = 9205		name = VICTORY_POINTS_9205_NTH }
 		set_province_name = { id = 7825		name = VICTORY_POINTS_7825_NTH }
 		set_province_name = { id = 10418	name = VICTORY_POINTS_10418_NTH  }
+		set_province_name = { id = 17516	name = VICTORY_POINTS_17516_NTH  }
+		set_province_name = { id = 17529	name = VICTORY_POINTS_17529_NTH  }
+		
+		
 	}
 	}
 	
