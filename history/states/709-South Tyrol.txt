@@ -1,0 +1,13 @@
+state={
+	id=709
+	name="STATE_709"
+	provinces={
+		3263 6861 11197 11216 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TYR
+		add_core_of = TYR
+	}
+}
