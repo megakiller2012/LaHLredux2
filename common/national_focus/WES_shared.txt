@@ -363,6 +363,9 @@ shared_focus = {
 	prerequisite = {
         focus = WES_royal_military
 	}
+	completion_reward = {
+	    air_experience = 100
+	}
 	cost = 3.5
 	x = 9
 	y = 2
