@@ -2,12 +2,13 @@ state={
 	id=251
 	name="STATE_251"
 	provinces={
-		4839 6792 8800 11587 11594 11634 11660 11678 
+		6792 8800 11634 11660 11678 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	history={
-		owner = BOS
-		add_core_of = BOS
+		owner = ALB
+		add_core_of = ALB
+		add_core_of = YUG
 	}
 }
