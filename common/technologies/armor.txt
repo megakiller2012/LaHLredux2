@@ -1,5 +1,5 @@
 technologies = {
-
+	
 	motorised_infantry = {
 
 		enable_subunits = {
@@ -99,6 +99,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = outdated_tank_upgrade
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2
 		start_year = 1918
 
@@ -114,6 +119,48 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+		}
+	}
+
+	outdated_tank_upgrade = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
 		}
 	}	
 	

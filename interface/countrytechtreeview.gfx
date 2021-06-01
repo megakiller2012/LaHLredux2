@@ -1364,4 +1364,11 @@ spriteTypes = {
 		name = "GFX_support_folder_icon"
 		textureFile = "gfx/interface/techtree/icons/support_folder_icon.dds"
 	}
+	
+	###LAHL CONTENT###
+	
+	    spriteType = {
+        name = "GFX_technology_outdated_tank_upgradeA1_small"
+        textureFile = "gfx//interface//technologies//tank_upgrade.dds"
+    }  
 }
