@@ -14,20 +14,17 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = ur_fascism
-	last_election = "1933.7.1"
-	election_frequency = 48
+	ruling_party = commendationism
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism = 100
+	commendationism = 100
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS_BECALI_DESC"
-	picture = ".dds"
-	ideology = charismatic_dictatorship
+	name = "Dorin George Lala"
+	picture = "Portrait_ANR_Dorin_George_Lala.dds"
+	ideology = leftwing_chauvinism
 	traits = {
 	}
 }

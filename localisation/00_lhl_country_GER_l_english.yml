@@ -4,6 +4,8 @@
  ##COUNTRY NAME##
  GER_socialism:0 "Federal Republic of Germany"
  GER_socialism_DEF:0 "Federal Republic of Germany"
+ GER_hegemonism:0 "Germany"
+ GER_hegemonism_DEF:0 "Federal Republic of Germany"
  ##TRAITS##
  fading_leader:0 "Fading Leader"
  ##IDEAS##

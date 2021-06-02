@@ -4,6 +4,8 @@
  ##COUNTRY NAME##
  PDE_socialism:0 "Silesia"
  PDE_socialism_DEF:0 "Silesian Republic"
+ PDE_right_populism:0 "Silesia"
+ PDE_right_populism_DEF:0 "Silesian Republic"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

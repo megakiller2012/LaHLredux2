@@ -13,18 +13,17 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 set_popularities = {
-	socialism  = 100
+	right_populism  = 100
 }
 
 create_country_leader = {
-	name = "Robert Biedron"
-	desc = "POLITICS_BIEDRON_DESC"
-	picture = "Portrait_PDE_Robert_Biedron.dds"
-	ideology = progressivism 
+	name = "Elżbieta Bieńkowska"
+	picture = "Portrait_PDE_Elżbieta_Bieńkowska.dds"
+	ideology = national_populism 
 	traits = {
 	}
 }

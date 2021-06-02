@@ -13,18 +13,16 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = ur_fascism
+	ruling_party = hegemonism
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism  = 100
+	hegemonism  = 100
 }
 
 create_country_leader = {
-	name = "Ferdinand Zvonimir von Habsburg"
-	desc = "POLITICS_ZVONIMIR_DESC"
-	picture = "Portrait_LUX_Ferdinand_Zvonimir.dds"
-	expire = "1953.3.1"
-	ideology = charismatic_dictatorship
+	name = "Jup Weber"
+	picture = "Portrait_LUX_Jup_Weber.dds"
+	ideology = green_autocracy
 	}
 }

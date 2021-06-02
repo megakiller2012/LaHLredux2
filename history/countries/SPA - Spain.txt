@@ -13,18 +13,17 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = regressionism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 
 set_popularities = {
-	regressionism  = 100
+	right_populism  = 100
 }
 
 create_country_leader = {
 	name = "Felipe VI"
-	desc = "POLITICS_FELIPE_DESC"
-	picture = "Portrait_SPA_Felipe.dds"
-	ideology = neo_feudalism
-	traits = { self_harming }
+	picture = "Portrait_SPA_Felipe_VI.dds"
+	ideology = social_conservatism
+	traits = { }
 }

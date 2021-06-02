@@ -1,6 +1,6 @@
 ﻿capital = 174
 
-oob = "PLP_2020"
+oob = ""
 
 set_research_slots = 3
 
@@ -22,8 +22,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Jarosław Kaczyński"
-	picture = "Portrait_PLP_Jaroslaw_Kaczynski.dds"
+	name = "Donald Tusk"
+	picture = "Portrait_PLP_Donald_Tusk.dds"
 	ideology = national_populism 
 	traits = { 
 	}

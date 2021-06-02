@@ -19,3 +19,10 @@ set_politics = {
 set_popularities = {
 	socialism  = 100
 }
+create_country_leader = {
+	name = "Federal Council"
+	picture = "Portrait_SWI_House.dds"
+	ideology = progressivism
+	traits = {  }
+}
+

@@ -4,8 +4,9 @@
  ##COUNTRY NAME##
  SPA_regressionism:0 "Iberia"
  SPA_regressionism_DEF:0 "Iberian Kingdom"
+ SPA_right_populism:0 "Iberia"
+ SPA_right_populism_DEF:0 "Iberian Kingdom"
  ##TRAITS##
- self_harming:0 "Self-harming"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

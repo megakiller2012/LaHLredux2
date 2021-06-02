@@ -9,7 +9,9 @@ ideologies = {
 			nationalism = {
 			}	
 			stratocracy = {
-			}				
+			}	
+			green_autocracy = {
+			}		
 		}
 		
 		dynamic_faction_names = {

@@ -12,17 +12,16 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = socialism
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism  = 100
+	socialism  = 100
 }
 
 create_country_leader = {
-	name = "Marion Maréchal-Le Pen"
-	desc = "POLITICS_LIMONOV_DESC"
-	picture = "Portrait_FRA_Marion-Le_Pen.dds"
-	ideology = social_conservatism
+	name = "French Committee"
+	picture = "Portrait_FRA_Cock.dds"
+	ideology = labor_socialism
 	traits = {  }
 }

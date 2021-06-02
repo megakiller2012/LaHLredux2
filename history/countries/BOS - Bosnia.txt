@@ -12,19 +12,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
 
 set_popularities = {
-	right_populism  = 100
+	neocameralism  = 100
 }
 
 create_country_leader = {
-	name = ""
-	picture = ".dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism
+	name = "Rifat Hadžiselimović"
+	picture = "Portrait_BOS_Rifat_Hadžiselimović.dds"
+	ideology = accelerationism
 	traits = {
 	}
 }

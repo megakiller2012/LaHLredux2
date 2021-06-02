@@ -13,22 +13,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = hegemonism
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	right_populism = 100
+	hegemonism = 100
 }
 
 country_event = { id = GER_event.1 days = 15 }
 
 create_country_leader = {
-	name = "Angela Merkel"
-	picture = "Portrait_GER_Angela_Merkel.dds"
-	expire = "1953.3.1"
-	ideology = christian_democracy
+	name = "Annalena Baerbock"
+	picture = "Portrait_GER_Annalena_Baerbock.dds"
+	ideology = green_autocracy
 	traits = { }
 }
 
