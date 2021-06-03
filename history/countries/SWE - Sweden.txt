@@ -13,17 +13,16 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = ur_fascism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism  = 100
+	right_populism  = 100
 }
 
 create_country_leader = {
-	name = "Izabella Jarvandi"
-	desc = "POLITICS_JARVANDI_DESC"
-	picture = "Portrait_SWE_Izabella_Nilsson_Jarvandi.dds"
-	ideology = charismatic_dictatorship
-	traits = { maid_of_goteborg }
+	name = "Gunnar Wetterberg"
+	picture = "Portrait_SWE_Gunnar_Wetterberg.dds"
+	ideology = national_populism
+	traits = {  }
 }

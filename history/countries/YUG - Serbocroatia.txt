@@ -12,19 +12,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = national_bolshevism
 	elections_allowed = no
 }
 
 set_popularities = {
-	right_populism  = 100
+	national_bolshevism  = 100
 }
 
 create_country_leader = {
-	name = "Fikret Abdic"
-	picture = "Portrait_YUG_Fikret_Abdic.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism
+	name = "Emir Kusturica"
+	picture = "Portrait_YUG_Emir_Kusturica.dds"
+	ideology = national_anarchism
 	traits = {
 	}
 }

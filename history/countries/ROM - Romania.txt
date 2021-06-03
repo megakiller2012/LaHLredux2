@@ -14,20 +14,17 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = ur_fascism
-	last_election = "1933.7.1"
-	election_frequency = 48
+	ruling_party = right_populism
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism = 100
+	right_populism = 100
 }
 
 create_country_leader = {
-	name = "George Becali"
-	desc = "POLITICS_BECALI_DESC"
-	picture = "Portrait_ROM_George_Becali.dds"
-	ideology = charismatic_dictatorship
+	name = "Elisabeta I"
+	picture = "Portrait_ROM_Elisabeta_Maria_of_Romania.dds"
+	ideology = social_conservatism
 	traits = {
 	}
 }

@@ -81,6 +81,8 @@
  nationalism_desc:0 "???"
  stratocracy:0 "Stratocracy"
  stratocracy_desc:0 "State system, in which the civilian government apparatus controlled by paramilitary groups, or is completely merged with them into one structure."
+ green_autocracy:0 "Green Autocracy"
+ green_autocracy_desc:0 "???"
  
  ecofascism:0 "Ecofascism"
  ecofascism_desc:0 "A moderate form of regressionism, advocating for the creation of a totalitarian guard state, whose main task is to restrain and limit the growth of human civilization."

@@ -13,18 +13,17 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = socialism
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism  = 100
+	socialism  = 100
 }
 
 create_country_leader = {
 	name = "Michael Daerden"
-	desc = ""
 	picture = "Portrait_WAL_Michel_Daerden.dds"
-	ideology = social_conservatism
+	ideology = progressivism
 	traits = {
 	}
 }

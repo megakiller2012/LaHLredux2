@@ -5,8 +5,11 @@
  ##COUNTRY NAME##
  SWE_ur_fascism:0 "Kingdom of Sweden"
  SWE_ur_fascism_DEF:0 "Kingdom of Sweden"
+ SWE_hegemonism:0 "Scandinavia"
+ SWE_hegemonism_DEF:0 "Scandinavian Federation"
+ SWE_right_populism:0 "Scandinavia"
+ SWE_right_populism_DEF:0 "Scandinavian Federation"
  ##TRAITS##
- maid_of_goteborg:0 "Maid of Göteborg"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

@@ -13,9 +13,17 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = commendationism
 	elections_allowed = no
 }
 set_popularities = {
-	socialism  = 100
+	commendationism  = 100
+}
+create_country_leader = {
+	name = "Slavoj_Žižek"
+	picture = "Portrait_SLV_Slavoj_Žižek.dds"
+	ideology = ultrahegelianism
+	traits = {
+		
+	}
 }
