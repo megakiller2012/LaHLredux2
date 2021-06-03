@@ -1,0 +1,17 @@
+state={
+	id=1167
+	name="STATE_1167"
+	history={
+		owner = RGD
+		add_core_of = RGD
+		victory_points
+		= {
+	
+		}
+		}
+	provinces={
+		1801 9570 11325 11390 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

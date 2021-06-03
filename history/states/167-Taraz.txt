@@ -4,7 +4,7 @@ state={
 	provinces={
 		672 3061 3081 3170 3265 3582 4443 5666 5729 6033 6589 7300 7964 11319 11441 11517 11583 11624 11626 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = CMD

@@ -1,0 +1,17 @@
+
+state={
+	id=33
+	name="Kubinka"
+
+	history={
+		owner = STM
+		add_core_of = STM
+
+	}
+
+	provinces={
+		9557 10284 10308 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

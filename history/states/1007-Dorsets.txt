@@ -5,7 +5,7 @@ state={
 	provinces={
 		941 7791 10771 17503 17504 17506 17511 17512 17516 17517 
 	}
-	manpower=0
+	manpower=1
 			history={
 		owner = WES
 		add_core_of = WES

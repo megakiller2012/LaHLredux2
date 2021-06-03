@@ -5,7 +5,7 @@ state={
 	provinces={
 		732 1667 2691 3230 4160 4681 4846 6206 7925 9562 9986 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
         history={
 		owner = GAZ

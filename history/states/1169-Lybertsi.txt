@@ -1,0 +1,13 @@
+state={
+	id=1169
+	name="Lybertsi"
+	provinces={
+		3077 3245 8126 10320 
+	}
+		history={
+		owner = MSC
+		add_core_of = MSC
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

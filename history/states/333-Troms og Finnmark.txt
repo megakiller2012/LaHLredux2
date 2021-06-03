@@ -4,7 +4,7 @@ state={
 	provinces={
 		199 477 514 2452 2591 2996 5402 5665 6950 9933 15023 15024 15025 15026 15027 15028 15029 15030 15031 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = SWE

@@ -5,7 +5,7 @@ state={
 	provinces={
 		519 550 1087 1322 2695 2776 4901 5728 6568 6715 7206 7520 7810 8752 9427 10515 10601 10711 10770 10847 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = TVA

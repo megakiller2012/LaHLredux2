@@ -4,7 +4,7 @@ state={
 	provinces={
 		22 4575 5202 5524 6678 7032 7316 7766 7941 9641 10519 10561 10567 10582 10583 10593 10621 10632 10642 10660 10664 10669 10690 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = POL

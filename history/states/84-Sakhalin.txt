@@ -10,5 +10,14 @@ state={
 	history={
 		owner = SAH
 		add_core_of = SAH
+		victory_points = {
+		11170 10
+		}
+		victory_points = {
+		7648 1
+		}
+		victory_points = {
+		9909 1
+		}
 	
 }

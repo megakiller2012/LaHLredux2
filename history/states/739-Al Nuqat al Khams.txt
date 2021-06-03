@@ -6,6 +6,6 @@ state={
 		8014 8688 12834 
 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 }

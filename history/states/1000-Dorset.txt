@@ -5,7 +5,7 @@ state={
 	resources={
 		steel=25.000
 	}
-		manpower=0
+		manpower=1
 			history={
 		owner = WES
 		add_core_of = WES

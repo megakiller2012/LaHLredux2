@@ -536,9 +536,10 @@
  VICTORY_POINTS_4283:0 "Blagoveshensk"
  VICTORY_POINTS_2439:0 "Belogorsk"
  VICTORY_POINTS_7137:0 "Tynda"
- VICTORY_POINTS_9078:0 "Juzhno-Sakhalinsk"
- VICTORY_POINTS_8905:0 "Kholmsk"
- VICTORY_POINTS_7521:0 "Aleksandrovsk-Sakhalinskij"
+ VICTORY_POINTS_11170:0 "Juzhno-Sakhalinsk"
+ VICTORY_POINTS_7648:0 "Kholmsk"
+ VICTORY_POINTS_9909:0 "Poronaysk"
+ VICTORY_POINTS_10635:0 "Aleksandrovsk-Sakhalinskij"
  VICTORY_POINTS_8563:0 "Severo-Kuril'sk"
  VICTORY_POINTS_12599:0 "Magadan"
  VICTORY_POINTS_11992:0 "Gizhiga"
@@ -677,3 +678,4 @@
  VICTORY_POINTS_5837:0 "Catania"
  ##SIBERIA##
  VICTORY_POINTS_994:0 "Saint Nicholas"
+ 

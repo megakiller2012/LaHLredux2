@@ -4,7 +4,7 @@ state={
 	provinces={
 		3369 3686 4690 5522 7368 8996 9563 11669 11698 11734 11752 17394 17396 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = MAC

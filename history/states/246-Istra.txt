@@ -4,7 +4,7 @@ state={
 	provinces={
 		11335 11372 15077 15078 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = SLV

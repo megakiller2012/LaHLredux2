@@ -5,7 +5,7 @@ state={
 	provinces={
 		329 924 3557 3742 5085 5436 7176 9824 10224 10253 10257 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = RWR

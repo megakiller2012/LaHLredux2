@@ -4,7 +4,7 @@ state={
 	provinces={
 		2230 5387 9085 11861 11869 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = LUM

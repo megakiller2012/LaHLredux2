@@ -4,7 +4,7 @@ state={
 	provinces={
 		1874 3168 4187 6541 6754 8715 9217 11314 11328 11329 11340 11346 11379 11384 11393 11397 11424 11432 11464 11492 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = PAD

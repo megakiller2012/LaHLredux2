@@ -1,0 +1,13 @@
+state={
+	id=1168
+	name="Kolomna"
+	provinces={
+		4351 6005 10372 
+	}
+		history={
+		owner = MSC
+		add_core_of = MSC
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
