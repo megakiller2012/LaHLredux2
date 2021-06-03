@@ -1,0 +1,47 @@
+capital = 121
+
+oob = "GAL_2020"
+
+set_research_slots = 1
+set_stability = 0.5
+set_war_support = 0.8
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = hegemonism
+	elections_allowed = no
+}
+
+set_popularities = {
+	hegemonism = 70
+	commendationism = 30	
+}
+
+create_country_leader = {
+	name = "Dmitro Jarosh"
+	picture = "Portrait_GAL_Dmitrij_Jarosh.dds"
+	ideology = nationalism
+	traits = { 
+	}
+}
+create_country_leader = {
+	name = "Andrij Biletskij"
+	desc = ""
+	picture = "Portrait_GAL_Andrij_Biletskij.dds"
+	ideology = leftwing_chauvinism
+	traits = {	
+	}
+}

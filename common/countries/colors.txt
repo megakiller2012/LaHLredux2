@@ -1,0 +1,4 @@
+GAL = {
+	color = rgb { 114  47  55 }
+	color_ui = rgb { 112  66  20 }
+}
