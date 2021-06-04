@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Vladimir Zelinskij"
-	picture = "Portrait_KRY_Vladimir Zelinskij.dds"
+	picture = "Portrait_KRY_Vladimir_Zelinskij.dds"
 	ideology = nazbol_gang
 	traits = {
 	}

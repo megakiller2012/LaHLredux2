@@ -14,21 +14,19 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = national_bolshevism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism = 100
+	national_bolshevism = 100
 }
 
 create_country_leader = {
-	name = "Vadim Krasnosel'skij"
-	desc = "POLITICS_KRASNOSELSKIJ_DESC"
-	picture = "Portrait_NRS_Vadim_Krasnosel'skij.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism 
+	name = "Zakhar Prilepin"
+	picture = "Portrait_NRS_Zakhar_Prilepin.dds"
+	ideology = nazbol_gang 
 	traits = {
 	}
 }

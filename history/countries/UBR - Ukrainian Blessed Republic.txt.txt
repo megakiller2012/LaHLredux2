@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Sunday Adelaja"
-	picture = "Portrait_UBP_Sunday_Adelaja.dds"
+	picture = "Portrait_UBR_Sunday_Adelaja.dds"
 	ideology = autocracy
 	traits = {
 	}

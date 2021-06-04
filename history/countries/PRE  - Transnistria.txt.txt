@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Vadim Krasnosel'skij"
-	picture = "Portrait_PRE_Vadima_Krasnoselskij.dds"
+	picture = "Portrait_PRE_Vadim_Krasnoselskij.dds"
 	ideology = autocracy
 	traits = {
 	}

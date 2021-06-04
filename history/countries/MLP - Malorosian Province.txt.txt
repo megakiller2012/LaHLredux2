@@ -23,7 +23,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Bogomolets Olga"
+	name = "Andrej Vadzhra"
 	picture = "Portrait_MLP_Andrej_Vadzhra.dds"
 	ideology = leftwing_chauvinism
 	traits = {
