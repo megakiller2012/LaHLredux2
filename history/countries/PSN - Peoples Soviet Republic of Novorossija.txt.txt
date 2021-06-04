@@ -1,0 +1,31 @@
+capital = 94
+oob = "PSN_2020"
+
+set_research_slots = 1
+set_stability = 0.5
+set_war_support = 0.8
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = left_authoritarianism
+	elections_allowed = no
+}
+
+set_popularities = {
+	left_authoritarianism  = 100
+}
+
+create_country_leader = {
+	name = "Natal'ja Vitrenko"
+	picture = "Portrait_PSN_Natalja_Vitrenko.dds"
+	ideology = soviet_marxism
+	traits = {
+	}
+}

@@ -1,4 +1,84 @@
 GAL = {
-	color = rgb { 114  47  55 }
+	color = rgb { 75  206  164 }
+	color_ui = rgb { 224  248  55 }
+}
+
+UCS = {
+	color = rgb { 89  197  121 }
+	color_ui = rgb { 224  248  55 }
+}
+
+UPS = {
+	color = rgb { 148  205  186 }
+	color_ui = rgb { 224  248  55 }
+}
+
+UBR = {
+	color = rgb { 215  190  153 }
+	color_ui = rgb { 224  248  55 }
+}
+
+UKS = {
+	color = rgb { 120  213  220 }
+	color_ui = rgb { 224  248  55 }
+}
+
+GDR = {
+	color = rgb { 128  255  180 }
+	color_ui = rgb { 224  248  55 }
+}
+
+MLP = {
+	color = rgb { 143  92  94 }
+	color_ui = rgb { 89  197  121 }
+}
+
+HRU = {
+	color = rgb { 191  233  48 }
+	color_ui = rgb { 89  197  121 }
+}
+
+RUK = {
+	color = rgb { 91  151  85 }
+	color_ui = rgb { 89  197  121 }
+}
+
+NUR = {
+	color = rgb { 217  243  190 }
+	color_ui = rgb { 89  197  121 }
+}
+
+PSN = {
+	color = rgb { 251  141  63 }
+	color_ui = rgb { 251  63  63 }
+}
+
+NRP = {
+	color = rgb { 255  179  49 }
+	color_ui = rgb { 251  63  63 }
+}
+
+SLU = {
+	color = rgb { 251  220  65 }
+	color_ui = rgb { 251  63  63 }
+}
+
+PRE = {
+	color = rgb { 222  112  115 }
+	color_ui = rgb { 251  63  63 }
+}
+
+KRY = {
+	color = rgb { 192  192  141 }
+	color_ui = rgb { 251  63  63 }
+}
+
+GER = {
+	color = rgb { 255 245 180 }
+	color_ui = rgb { 112  66  20 }
+}
+
+TYR = {
+	color = rgb { 147  130  110 }
 	color_ui = rgb { 112  66  20 }
 }
