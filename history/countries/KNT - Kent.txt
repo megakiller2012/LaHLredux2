@@ -29,3 +29,8 @@ create_country_leader = {
 		high_handed_despot
 	}
 }
+
+set_country_flag = {
+    flag = ENG_mogg_here
+	value = 1
+}

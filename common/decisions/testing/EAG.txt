@@ -1,0 +1,71 @@
+EAG_debug = {
+    EAG_anarchists = {
+		cost = 0
+		days_remove = 30
+        complete_effect = {
+            load_focus_tree = EAG_anarchists
+		}
+	}
+    EAG_hitler = {
+		cost = 0
+		days_remove = 30
+        complete_effect = { 
+		    load_focus_tree = EAG_hitler
+		}
+	}
+    EAG_mercenary = {
+		cost = 0
+		days_remove = 30
+        complete_effect = { 
+		    load_focus_tree = EAG_mercenary
+		}
+	}
+}
+
+EAG_prisoners_of_war = {
+    EAG_deal_galloway = {
+	    visible = {
+            has_country_flag = ENG_galloway_here
+        } 
+	}
+    EAG_deal_mogg = {
+	    visible = {
+            has_country_flag = ENG_mogg_here
+        } 
+	}
+    EAG_deal_pearce = {
+	    visible = {
+            has_country_flag = ENG_pearce_here
+        } 
+	}
+    EAG_deal_mosley = {
+	    visible = {
+            has_country_flag = ENG_mosley_here
+        } 
+	}
+    EAG_deal_land = {
+	    visible = {
+            has_country_flag = ENG_land_here
+        } 
+	}
+    EAG_deal_dawkins = {
+	    visible = {
+            has_country_flag = ENG_dawkins_here
+        } 
+	}
+    EAG_deal_corbyn = {
+	    visible = {
+            has_country_flag = ENG_corbyn_here
+        } 
+	}
+    EAG_deal_george = {
+	    visible = {
+            has_country_flag = ENG_george_here
+        } 
+	}
+    EAG_deal_henry = {
+	    visible = {
+            has_country_flag = ENG_henry_here
+        } 
+	}
+}	

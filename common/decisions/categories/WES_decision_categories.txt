@@ -1,11 +1,15 @@
-WES_love_letters = {
-	visible = { is_puppet = no }
-	allowed = { original_tag = WES  }
-}
 
 WES_ai_mechanic = {
-
 	icon = GFX_
-	visible = { is_puppet = no }
+	visible = {
+	    has_completed_focus = WES_return_king		
+	}
 	allowed = { original_tag = WES }
 }
+
+WES_prisoners_of_war = {
+	icon = GFX_
+	visible_when_empty = yes
+	allowed = { original_tag = WES }
+}
+

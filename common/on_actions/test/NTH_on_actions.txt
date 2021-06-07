@@ -1,46 +1,16 @@
 on_actions = {
-	on_startup = {
-		effect = {
-		    WES = {
-		        set_variable = {
-                    var = slot_12
-                    value = 2
-                }
-                set_variable = {
-                    var = george_slot_1
-                    value = 1
-                }
-				set_variable = {
-                    var = george_legitemacy
-                    value = 1
-                }
-		    }
-	    }
-    }
-	on_daily_WES = {
-	    effect = {
-			if = {
-				limit = {
-					check_variable = { george_legitemacy < 1 }
-				}
-				country_event = {
-					id = WES_event.1
-				}
-			}
-		}
-	}
     on_capitulation = {
 	    effect = {
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_mogg_here
 							value = 1
 						}
 					}					
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_mogg_here
 			    }
 			    FROM = {
@@ -49,14 +19,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_land_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_land_here
 			    }
 			    FROM = {
@@ -65,14 +35,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_dawkins_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_dawkins_here
 			    }
 			    FROM = {
@@ -81,14 +51,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_mosley_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_mosley_here
 			    }
 			    FROM = {
@@ -97,14 +67,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_pearce_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_pearce_here
 			    }
 			    FROM = {
@@ -113,14 +83,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_galloway_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_galloway_here
 			    }
 			    FROM = {
@@ -129,14 +99,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_gunzel_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_gunzel_here
 			    }
 			    FROM = {
@@ -145,14 +115,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_klumb_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_klumb_here
 			    }
 			    FROM = {
@@ -161,14 +131,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_southgate_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_southgate_here
 			    }
 			    FROM = {
@@ -177,14 +147,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_george_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_george_here
 			    }
 			    FROM = {
@@ -193,14 +163,14 @@ on_actions = {
 			}
 		    if = {
 			    limit = {
-				   WES = {
+				   NTH = {
 				        has_country_flag = {
 						    flag = ENG_henry_here
 							value = 1
 						}
 					}
 				}
-			    WES = {
+			    NTH = {
 			        clr_country_flag = ENG_henry_here
 			    }
 			    FROM = {
