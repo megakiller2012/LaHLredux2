@@ -9,6 +9,9 @@ state={
 	history={
 		owner = RGD
 		add_core_of = RGD
+		victory_points = {
+			6913 5
+		}
 	}
 	state_category=pastoral
 	

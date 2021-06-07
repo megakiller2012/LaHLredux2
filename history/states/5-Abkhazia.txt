@@ -4,10 +4,13 @@ state={
 	provinces={
 		3527 7476 8985 11590 
 	}
-	manpower=1
+	manpower=413000
 	buildings_max_level_factor=1.000
 	history={
 		owner = RGD
 		add_core_of = RGD
+		victory_points = {
+			11590 2
+		}
 	}
 }
