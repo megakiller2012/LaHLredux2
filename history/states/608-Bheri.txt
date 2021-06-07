@@ -2,8 +2,12 @@ state={
 	id=608
 	name="STATE_608"
 	provinces={
-		8129 13254 
+		1130 5036 10974 11014 11047 11069 
 	}
+	history={
+		owner = NRS
+		add_core_of = NRS
+	}	
 	manpower=1
 	buildings_max_level_factor=1.000
 }

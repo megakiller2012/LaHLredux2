@@ -20,9 +20,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Placeholderyan"
-	desc = "POLITICS_KHAMENI_DESC"
-	picture = ".dds"
+	name = "Margarita Simonyan"
+	desc = "POLITICS_Margarita_Simonyan_DESC"
+	picture = "Portrait_ARM_Margarita_Simonyan.dds"
 	ideology = nazbol_gang
 	traits = {
 		#
