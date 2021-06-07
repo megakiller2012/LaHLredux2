@@ -198,3 +198,6 @@ NRP = "countries/Novorossian Republic.txt"
 PRE = "countries/Transnistria.txt"
 SLU = "countries/Slavic Union.txt"
 KRY = "countries/Krivoj Rog.txt"
+###Trans-Caucasia###
+AZE = "countries/Azerbaijan.txt"
+KAR = "countries/Karabakh.txt"

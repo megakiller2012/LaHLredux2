@@ -9,13 +9,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = ur_fascism    
+	ruling_party = national_bolshevism    
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism = 100
+	national_bolshevism = 100
 }
 
 create_country_leader = {
@@ -26,4 +26,11 @@ create_country_leader = {
 	ideology = charismatic_dictatorship 
 	traits = {
 	spiritual_leader }
+}
+
+create_country_leader = {
+	name = "Irma Inashvili"
+	desc = "POLITICS_Inashvili_DESC"
+	picture = "Portrait_GEO_Irma_Inashvili.dds"
+	ideology = nazbol_gang 
 }

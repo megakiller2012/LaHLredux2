@@ -82,3 +82,13 @@ TYR = {
 	color = rgb { 147  130  110 }
 	color_ui = rgb { 112  66  20 }
 }
+
+AZR = {
+	color = rgb { 201 186 97 }
+	color_ui = rgb { 106  62  49 }
+}
+
+AZR = {
+	color = rgb { 131 95 101 }
+	color_ui = rgb { 106  62  49 }
+}

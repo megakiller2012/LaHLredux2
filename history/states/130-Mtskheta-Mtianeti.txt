@@ -1,13 +1,17 @@
+
 state={
 	id=130
 	name="STATE_130"
-	provinces={
-		2693 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = RGD
 		add_core_of = RGD
-        }
+
+	}
+
+	provinces={
+		5146 11647 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
 }

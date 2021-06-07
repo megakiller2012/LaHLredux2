@@ -21,7 +21,4 @@ create_country_leader = {
 	desc = "POLITICS_KHAMENI_DESC"
 	picture = "Portrait_PER_Ali_Khamenei.dds"
 	ideology = nazbol_gang
-	traits = {
-		#
-	}
 }
