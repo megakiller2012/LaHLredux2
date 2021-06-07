@@ -1,0 +1,12 @@
+MRC_debug = {
+	icon = GFX
+	picture = GFX
+	allowed = { original_tag = MRC }
+}
+
+MRC_prisoners_of_war = {
+	icon = GFX_
+	visible_when_empty = yes
+	allowed = { original_tag = MRC }
+}
+

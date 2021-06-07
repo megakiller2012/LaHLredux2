@@ -29,3 +29,18 @@ create_country_leader = {
 		
 	}
 }
+
+set_country_flag = {
+    flag = ENG_southgate_here
+	value = 1
+}
+
+set_country_flag = {
+    flag = ENG_klumb_here
+	value = 1
+}
+
+set_country_flag = {
+    flag = ENG_gunzel_here
+	value = 1
+}

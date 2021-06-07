@@ -1,66 +1,57 @@
-
-WES_ai_mechanic = {
-    WES_specialists = {
-	    cost = 10
-		days_remove = 30
-		complete_effect = {
-            add_to_variable = {
-                var = WES_ai_condition
-                value = 10
-			}
-		}
-	}
-}	
-
-WES_prisoners_of_war = {
-    WES_deal_galloway = {
+KNT_prisoners_of_war = {
+    KNT_deal_galloway = {
 	    visible = {
             has_country_flag = ENG_galloway_here
         } 
 	}
-    WES_deal_mogg = {
-	    visible = {
-            has_country_flag = ENG_mogg_here
-        } 
-	}
-    WES_deal_pearce = {
+    KNT_deal_pearce = {
 	    visible = {
             has_country_flag = ENG_pearce_here
         } 
 	}
-    WES_deal_gunzel = {
+    KNT_deal_gunzel = {
 	    visible = {
             has_country_flag = ENG_gunzel_here
         } 
 	}
-    WES_deal_klumb = {
+    KNT_deal_klumb = {
 	    visible = {
             has_country_flag = ENG_klumb_here
         } 
 	}
-    WES_deal_southgate = {
+    KNT_deal_southgate = {
 	    visible = {
             has_country_flag = ENG_sothgate_here
         } 
 	}
-    WES_deal_mosley = {
+    KNT_deal_mosley = {
 	    visible = {
             has_country_flag = ENG_mosley_here
         } 
 	}
-    WES_deal_land = {
+    KNT_deal_land = {
 	    visible = {
             has_country_flag = ENG_land_here
         } 
 	}
-    WES_deal_dawkins = {
+    KNT_deal_dawkins = {
 	    visible = {
             has_country_flag = ENG_dawkins_here
         } 
 	}
-    WES_deal_corbyn = {
+    KNT_deal_corbyn = {
 	    visible = {
             has_country_flag = ENG_corbyn_here
+        } 
+	}
+    KNT_deal_george = {
+	    visible = {
+            has_country_flag = ENG_george_here
+        } 
+	}
+    KNT_deal_henry = {
+	    visible = {
+            has_country_flag = ENG_henry_here
         } 
 	}
 }	    

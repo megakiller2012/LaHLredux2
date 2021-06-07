@@ -29,3 +29,13 @@ create_country_leader = {
 		comrade_king
 	}
 }
+
+set_country_flag = {
+    flag = ENG_henry_here
+	value = 1
+}
+
+set_country_flag = {
+    flag = ENG_corbyn_here
+	value = 1
+}
