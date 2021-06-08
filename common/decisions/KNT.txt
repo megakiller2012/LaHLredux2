@@ -21,7 +21,7 @@ KNT_prisoners_of_war = {
 	}
     KNT_deal_southgate = {
 	    visible = {
-            has_country_flag = ENG_sothgate_here
+            has_country_flag = ENG_southgate_here
         } 
 	}
     KNT_deal_mosley = {

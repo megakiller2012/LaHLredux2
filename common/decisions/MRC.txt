@@ -52,7 +52,7 @@ MRC_prisoners_of_war = {
 	}
     MRC_deal_southgate = {
 	    visible = {
-            has_country_flag = ENG_sothgate_here
+            has_country_flag = ENG_southgate_here
         } 
 	}
     MRC_deal_mosley = {

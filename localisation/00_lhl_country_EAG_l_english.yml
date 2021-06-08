@@ -41,6 +41,17 @@
  EAG_the_governor:0 "The Governor"
  EAG_the_mercenary:0 "The Mercenary"
  ##DECISIONS##
+ EAG_prisoners_of_war:0 "Prisoners Of War"
+ EAG_prisoners_of_war_desc:0 "Throughout our liberation campaign of the British Isles we have captured several prominent enemy leaders. It is now up to us, whether to give them a fair trial or exile them out of the country"
+ EAG_deal_galloway:0 "Deal with George Galloway"
+ EAG_deal_mogg:0 "Deal with Jacob Rees-Mogg"
+ EAG_deal_pearce:0 "Deal with Douglas Pearce"
+ EAG_deal_henry:0 "Deal with King Henry"
+ EAG_deal_george:0 "Deal with King George"
+ EAG_deal_mosley:0 "Deal with Max Mosley"
+ EAG_deal_land:0 "Deal with Nick Land"
+ EAG_deal_dawkins:0 "Deal with Richard Dawkins"
+ EAG_deal_corbyn:0 "Deal with Jeremy Corbyn"
  ##EVENTS##
  EAG_event.1.t:0 "An visit from Germany"
  EAG_event.1.d:0 "After Merkel fell ill, an examiner has arrived from Germany to check how we are doing"
