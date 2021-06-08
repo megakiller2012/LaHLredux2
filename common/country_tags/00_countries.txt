@@ -173,6 +173,7 @@ HRU = "countries/Holly Rus.txt"
 RUK = "countries/RusUkraina.txt"
 NUR = "countries/National Democratic Ukrainian Republic.txt"
 ###Novorossija###
+NRS = "countries/Novorossija.txt"
 PSN = "countries/Peoples Soviet Republic of Novorossija.txt"
 NRP = "countries/Novorossian Republic.txt"
 PRE = "countries/Transnistria.txt"
