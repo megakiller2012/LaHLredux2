@@ -88,7 +88,7 @@ AZR = {
 	color_ui = rgb { 106  62  49 }
 }
 
-AZR = {
-	color = rgb { 131 95 101 }
-	color_ui = rgb { 106  62  49 }
+SAR = {
+	color = rgb { 0 152 74 }
+	color_ui = rgb { 53  74  63 }
 }
