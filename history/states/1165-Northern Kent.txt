@@ -7,7 +7,7 @@ state={
 		owner = KNT
 		add_core_of = KNT
 		victory_points = {
-		17530 4
+			17530 4 
 		}
 		buildings = {
 			infrastructure = 4
@@ -15,9 +15,13 @@ state={
 			air_base = 1
 			17508 = {
 				naval_base = 5
+
 			}
+
+		}
+
 	}
-}
+
 	provinces={
 		3644 17525 17526 17530 
 	}
