@@ -9,5 +9,6 @@ state={
 	history={
 		owner = RNG
 		add_core_of = RNG
+		add_core_of = RLF
 	}
 }

@@ -6,7 +6,8 @@ ideologies = {
 		
 			charismatic_dictatorship = {
 			}
-
+			theodemocracy = {
+			}
 		}
 		
 		dynamic_faction_names = {

@@ -9,5 +9,6 @@ state={
 	history={
 		owner = TAJ
 		add_core_of = TAJ
+		add_core_of = SGD
 	}
 }

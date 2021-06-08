@@ -1,18 +1,24 @@
 ﻿capital = 370
 
-oob = ""
+oob = "UZB_2020"
 
+# Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 5
-
+set_convoys = 10
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
-
 set_popularities = {
-	hegemonism = 100
+	neocameralism = 100
+}
+
+create_country_leader = {
+	name = "Gulnara Karimova"
+	desc = "POLITICS_KARIMOVA_DESC"
+	picture = "Portrait_UZB_Gulnara_Karimova.dds"
+	ideology = accelerationism
 }

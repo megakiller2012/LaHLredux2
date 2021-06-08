@@ -164,3 +164,72 @@ country_event = {
 		}
     }	
 }
+
+
+country_event = {
+	id = smert_event.4
+	title = smert_event.4.t
+	desc = smert_event.4.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	
+	    option = {
+		name = smert_event.4.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    RLF = {
+		        add_state_core = 161
+		        transfer_state = 161
+		        add_state_core = 160
+		        transfer_state = 160					
+			}
+		    KAZ = {
+		        add_state_core = 164
+		        transfer_state = 164
+		        add_state_core = 159
+		        transfer_state = 159						
+		        add_state_core = 163
+		        transfer_state = 163
+		        add_state_core = 162
+		        transfer_state = 162					
+		        add_state_core = 64
+		        transfer_state = 64	
+		        add_state_core = 60
+		        transfer_state = 60	
+		        add_state_core = 58
+		        transfer_state = 58	
+		        add_state_core = 158
+		        transfer_state = 158	
+		        add_state_core = 157
+		        transfer_state = 157	
+		        add_state_core = 155
+		        transfer_state = 155	
+		        add_state_core = 154
+		        transfer_state = 154
+		        add_state_core = 156
+		        transfer_state = 156				
+			}
+		    SGD = {
+		        add_state_core = 369
+		        transfer_state = 369
+		        add_state_core = 371
+		        transfer_state = 371
+		        add_state_core = 370
+		        transfer_state = 370				
+		        add_state_core = 372
+		        transfer_state = 372
+		        add_state_core = 373
+		        transfer_state = 373
+		        add_state_core = 386
+		        transfer_state = 386	
+		        add_state_core = 389
+		        transfer_state = 389									
+			}	
+		    KYR = {
+		        transfer_state = 379
+			}				
+		}
+    }	
+}
