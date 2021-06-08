@@ -127,4 +127,8 @@ spriteTypes = {
 		name = "GFX_goal_EAG_Englich_Tachanka"
 		texturefile = "gfx/interface/goals/EAG/goal_EAG_Englich_Tachanka.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_EAG_mutualism"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_mutualism.tga"
+	}
 }
