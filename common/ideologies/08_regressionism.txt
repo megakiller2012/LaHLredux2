@@ -10,6 +10,8 @@ ideologies = {
 			}	
 			neo_feudalism = {
 			}	
+			paleo_revolutionism = {
+			}			
 		}
 		
 		dynamic_faction_names = {

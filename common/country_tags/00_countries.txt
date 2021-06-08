@@ -186,3 +186,5 @@ KAR = "countries/Karabakh.txt"
 NZZ = "countries/Neutral Zhuz.txt"
 RLF = "countries/Russian Liberation Front.txt"
 SGD = "countries/Sogdia.txt"
+###Apennine###
+SRD = "countries/Sardinia.txt"
