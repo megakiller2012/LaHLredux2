@@ -1392,7 +1392,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_mutualism
-	icon = GFX
+	icon = GFX_goal_EAG_mutualism
 	prerequisite = {
 		focus = EAG_many_faces
 	}
