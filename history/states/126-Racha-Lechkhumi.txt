@@ -3,8 +3,12 @@ state={
 	id=126
 	name="STATE_126"
 	provinces={
-		1874 8715 11397 11424 11432 11464 11492 
+		1874 8715 11464 11492 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	history={
+		owner = PAD
+		add_core_of = PAD
+	}	
 }
