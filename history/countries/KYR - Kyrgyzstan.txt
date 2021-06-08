@@ -1,18 +1,24 @@
 ﻿capital = 381
 
-oob = ""
+oob = "TAJ_2020"
 
+# Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 5
-
+set_convoys = 10
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
-
 set_popularities = {
-	hegemonism = 100
+	left_authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "Askar Akayev"
+	desc = "POLITICS_AKAYEV_DESC"
+	picture = "Portrait_KYR_Askar_Akayev.dds"
+	ideology = paternalism
 }

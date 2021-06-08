@@ -1,6 +1,6 @@
 ﻿capital = 161
 
-oob = "RST_2020"
+oob = "RLF_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -14,8 +14,6 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = millenarism 
-	last_election = "1933.7.1"
-	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
@@ -23,11 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Old Ded"
-	desc = ""
-	picture = ".dds"
-	ideology = ethical_millennialism
-	traits = {
-		
-	}
+	name = "Cornelius"
+	desc = "POLITICS_CORNELIUS_DESC"
+	picture = "Portrait_RLF_CORNELIUS.dds"
+	ideology = religious_millennialism
 }

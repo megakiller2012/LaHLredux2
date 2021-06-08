@@ -1,6 +1,6 @@
 ﻿capital = 370
 
-oob = "RST_2020"
+oob = "SGD_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -13,21 +13,16 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = millenarism 
-	last_election = "1933.7.1"
-	election_frequency = 48
+	ruling_party = ur_fascism 
 	elections_allowed = no
 }
 set_popularities = {
-	millenarism  = 100
+	ur_fascism  = 100
 }
 
 create_country_leader = {
-	name = "Old Ded"
-	desc = ""
-	picture = ".dds"
-	ideology = ethical_millennialism
-	traits = {
-		
-	}
+	name = "Emomali Rahmon"
+	desc = "POLITICS_RAHMON_DESC"
+	picture = "Portrait_SGD_Emomali_Rahmon.dds"
+	ideology = charismatic_dictatorship
 }
