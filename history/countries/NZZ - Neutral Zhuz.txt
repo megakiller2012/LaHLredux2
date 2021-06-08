@@ -1,4 +1,4 @@
-﻿capital = 381
+﻿capital = 156
 
 oob = ""
 
@@ -9,7 +9,7 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 

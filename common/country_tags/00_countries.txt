@@ -201,3 +201,4 @@ KRY = "countries/Krivoj Rog.txt"
 ###Trans-Caucasia###
 AZE = "countries/Azerbaijan.txt"
 KAR = "countries/Karabakh.txt"
+NZZ = "countries/Neutral Zhuz.txt"
