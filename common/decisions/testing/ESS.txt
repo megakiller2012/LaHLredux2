@@ -1,0 +1,47 @@
+ESS_prisoners_of_war = {
+    ESS_deal_galloway = {
+	    visible = {
+            has_country_flag = ENG_galloway_here
+        } 
+	}
+    ESS_deal_mogg = {
+	    visible = {
+            has_country_flag = ENG_mogg_here
+        } 
+	}
+    ESS_deal_pearce = {
+	    visible = {
+            has_country_flag = ENG_pearce_here
+        } 
+	}
+    ESS_deal_gunzel = {
+	    visible = {
+            has_country_flag = ENG_gunzel_here
+        } 
+	}
+    ESS_deal_klumb = {
+	    visible = {
+            has_country_flag = ENG_klumb_here
+        } 
+	}
+    ESS_deal_southgate = {
+	    visible = {
+            has_country_flag = ENG_sothgate_here
+        } 
+	}
+    ESS_deal_corbyn = {
+	    visible = {
+            has_country_flag = ENG_corbyn_here
+        } 
+	}
+    ESS_deal_george = {
+	    visible = {
+            has_country_flag = ENG_george_here
+        } 
+	}
+    ESS_deal_henry = {
+	    visible = {
+            has_country_flag = ENG_henry_here
+        } 
+	}
+}	    

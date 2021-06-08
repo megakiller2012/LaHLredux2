@@ -1,0 +1,57 @@
+KNT_prisoners_of_war = {
+    KNT_deal_galloway = {
+	    visible = {
+            has_country_flag = ENG_galloway_here
+        } 
+	}
+    KNT_deal_pearce = {
+	    visible = {
+            has_country_flag = ENG_pearce_here
+        } 
+	}
+    KNT_deal_gunzel = {
+	    visible = {
+            has_country_flag = ENG_gunzel_here
+        } 
+	}
+    KNT_deal_klumb = {
+	    visible = {
+            has_country_flag = ENG_klumb_here
+        } 
+	}
+    KNT_deal_southgate = {
+	    visible = {
+            has_country_flag = ENG_sothgate_here
+        } 
+	}
+    KNT_deal_mosley = {
+	    visible = {
+            has_country_flag = ENG_mosley_here
+        } 
+	}
+    KNT_deal_land = {
+	    visible = {
+            has_country_flag = ENG_land_here
+        } 
+	}
+    KNT_deal_dawkins = {
+	    visible = {
+            has_country_flag = ENG_dawkins_here
+        } 
+	}
+    KNT_deal_corbyn = {
+	    visible = {
+            has_country_flag = ENG_corbyn_here
+        } 
+	}
+    KNT_deal_george = {
+	    visible = {
+            has_country_flag = ENG_george_here
+        } 
+	}
+    KNT_deal_henry = {
+	    visible = {
+            has_country_flag = ENG_henry_here
+        } 
+	}
+}	    

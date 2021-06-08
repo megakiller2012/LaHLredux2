@@ -168,17 +168,23 @@
  WES_cult_shakespeare:0 "Cult Of Shakespeare"
  WES_centralized_education:0 "Centralized Education"
  WES_cultural_symbiosis:0 "A Cultural Symbiosis"
+ WES_law_king:0 "The Law Of The King"
+ WES_return_king: "Return Of The King"
  ##DECISIONS##
  WES_love_letters:0 "Prisioners Of War"
  WES_love_letters_desc:0 "After the defeat of an enemy faction during this conflict we were able to capture their leader. It is up to you, to decide their fate."
  WES_Dugin:0 "Put Max Mosley On Trial"
  WES_Eugenius:0 "The Fate of George Galloway"
-
+ 
  WES_ai_mechanic:0 "The Wounded King"
- WES_ai_mechanic_desc:0 "To maintain the stability of our current system, it is imperative that our kings wins back the favour of the populace. \n\nThe legitemacy of George VII currently is: §RLow§!"
+ WES_ai_mechanic_desc:0 "To maintain the stability of our current system, it is imperative that our kings wins back the favour of the populace. \n\nThe legitemacy of George VII currently is: §Y[?george_legitemacy]§!"
  WES_specialists:0 "Hire specialists"
  WES_turing_test:0 "Take the Turing Test"
  ##EVENTS##
+ WES_event.3.t:0 "King George Returns!"
+ WES_event.3.d:0 "King George has finally returned to England, however not everyone is pleased. Not everyone supports the depressed monarch. King will have to work on his own legitemacy before he can claim the throne."
+ WES_event.3.a:0 "Hail to the king?"
+ WES_event3.tt:0 "The legitemacy mechanic has been unlocked"
  ##NEW GUI##
  KNIGHT_SLEEPS:0 "This Knight is not yet present on the table"
  KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n\§YFisher King§!\n\- War Support: §R-50.00%§!\n\- Stability: §R-10.00%§!\n\- Daily Political Power Gain: §R-0.10%§!"

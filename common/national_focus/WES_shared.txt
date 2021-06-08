@@ -1,15 +1,18 @@
 ###NORMAL TREE###
 
 shared_focus = {
-	id = WES_retrun_king
+	id = WES_return_king
 	icon = GFX_goal_WES_return_king
 	cost = 3.5
 	completion_reward = {
 		    WES = {
 			    country_event = {
 				    days = 1
-					id = WES_event.6 
+					id = WES_event.3
 				}
+			    set_variable = { 
+			        george_legitemacy = 10
+			    }
 			}
 		}
 	x = 17
@@ -20,7 +23,7 @@ shared_focus = {
 	id = WES_worthie_england
 	icon = GFX_goal_WES_Worthie_of_england
 	prerequisite = {
-        focus = WES_retrun_king
+        focus = WES_return_king
 	}
 	cost = 3.5
 	x = 17
@@ -189,7 +192,7 @@ shared_focus = {
 	id = WES_royal_military
 	icon = GFX_goal_WES_royal_military
 	prerequisite = {
-        focus = WES_retrun_king
+        focus = WES_return_king
 	}
 	completion_reward = {
 		    WES = {
@@ -411,7 +414,7 @@ shared_focus = {
 	id = WES_arise_folk
 	icon = GFX_goal_WES_cringe
 	prerequisite = {
-        focus = WES_retrun_king
+        focus = WES_return_king
 	}
 	completion_reward = {
 	    add_political_power = 50

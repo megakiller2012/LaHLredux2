@@ -6,13 +6,22 @@ state={
 	history={
 		owner = ACC
 		add_core_of = ACC
+		victory_ponts = {
+			14961 16
+		}
+		victory_ponts = {
+			8040
+		}
+		victory_ponts = {
+			3626
+		}
 
 	}
 
 	provinces={
 		539 1240 1850 3626 8040 9738 11146 11163 14961 
 	}
-	manpower=4698766
+	manpower=5593186
 	buildings_max_level_factor=1.000
 	history={
 		owner = ACH

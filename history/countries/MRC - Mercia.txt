@@ -39,3 +39,8 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 2
 }
+
+set_country_flag = {
+    flag = ENG_pearce_here
+	value = 1
+}

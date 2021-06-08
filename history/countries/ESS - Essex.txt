@@ -317,3 +317,18 @@ create_navy_leader = {
 	maneuvering_skill = 2
 	coordination_skill = 2
 }
+
+set_country_flag = {
+    flag = ENG_mosley_here
+	value = 1
+}
+
+set_country_flag = {
+    flag = ENG_land_here
+	value = 1
+}
+
+set_country_flag = {
+    flag = ENG_dawkins_here
+	value = 1
+}

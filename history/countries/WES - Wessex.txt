@@ -29,8 +29,6 @@ set_popularities = {
 	ur_fascism = 5
 }
 
-country_event = { id = WES_event.2 days = 1 }
-
 create_country_leader = {
 	name = "George VII"
 	desc = "POLITICS_GEORGE_WEAK_DESC"
@@ -253,4 +251,9 @@ create_country_leader = {
 	ideology = charismatic_dictatorship
 	traits = {
 	}
+}
+
+set_country_flag = {
+    flag = ENG_george_here
+	value = 1
 }
