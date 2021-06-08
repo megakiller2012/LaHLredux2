@@ -137,7 +137,7 @@
  VICTORY_POINTS_6913:0 "Majkop"
  VICTORY_POINTS_9670:0 "Armavir"
  VICTORY_POINTS_11402:0 "Novorossijsk"
- VICTOERY_POINTS_11514:0 "Sochi"
+ VICTORY_POINTS_11514:0 "Sochi"
  VICTORY_POINTS_11590:0 "Sukhum"
  
  ###LOWER VOLGA###
@@ -158,7 +158,10 @@
  ###EASTERN SLAVS###
  
  
- ###Spaghettiland###
+ ###Italy Italy###
+ VICTORY_POINTS_12031:0 "Cagliari"
+ VICTORY_POINTS_11803:0 "Olbia"
+ VICTORY_POINTS_11849:0 "Alghero"
  
  ##SIBERIA##
 "

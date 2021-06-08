@@ -233,3 +233,24 @@ country_event = {
 		}
     }	
 }
+
+
+country_event = {
+	id = smert_event.5 ###ATLANTIDA AWAKENING 
+	title = smert_event.5.t
+	desc = smert_event.5.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	
+	    option = {
+		name = smert_event.5.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    SRD = {
+		        transfer_state = 690				
+			}	
+		}
+    }	
+}
