@@ -1,18 +1,23 @@
+
 state={
 	id=690
 	name="STATE_690"
-	provinces={
-		962 2774 4197 7878 11803 11849 11910 12031 15095 15098 
-	}
+
 	history={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			air_base = 2
+
 		}
 		owner = ITA
 		add_core_of = ITA
-		add_core_of = SRD		
+		add_core_of = SRD
+
+	}
+
+	provinces={
+		962 1878 2774 3119 4197 7878 11803 11849 11910 12031 15095 15098 
 	}
 	manpower=1639590
 	buildings_max_level_factor=1.000
