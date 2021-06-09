@@ -9,7 +9,7 @@ ideas = {
 				original_tag = "ESS"
 			}
 
-			traits = {}
+			traits = { the_father_of_accelerationism }
 
 			do_effect = {
 				#
@@ -19,5 +19,59 @@ ideas = {
 				factor = 0
 			}
 		}
+		ESS_Richard_Dawkins = {
+
+			picture = ESS_Richard_Dawkins
+			allowed = {
+				original_tag = "ESS"
+			}
+
+			traits = { militant_atheist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	political_advisor = {
+	ESS_Alan_Sugar = {
+
+			picture = ESS_Alan_Sugar
+			allowed = {
+				original_tag = "ESS"
+			}
+
+			traits = { Successful_businessman }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	ESS_Simon_Cowell = {
+
+			picture = ESS_Simon_Cowell
+			allowed = {
+				original_tag = "ESS"
+			}
+
+			traits = { Media_boss }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
 	}
 }
