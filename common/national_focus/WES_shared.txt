@@ -5,16 +5,19 @@ shared_focus = {
 	icon = GFX_goal_WES_return_king
 	cost = 3.5
 	completion_reward = {
-		    WES = {
-			    country_event = {
-				    days = 1
+	    hidden_effect = {
+			WES = {
+				country_event = {
+					days = 1
 					id = WES_event.3
 				}
-			    set_variable = { 
-			        george_legitemacy = 10
-			    }
+				set_variable = { 
+				    george_legitemacy = 10
+				}
 			}
 		}
+		custom_effect_tooltip = return_king.tt
+	}
 	x = 17
 	y = 0
 }
@@ -417,9 +420,15 @@ shared_focus = {
         focus = WES_return_king
 	}
 	completion_reward = {
-	    add_political_power = 50
-		add_manpower = 100000
-		country_event = {}
+	    hidden_effect = {
+		    WES = {
+				country_event = {
+					days = 1
+					id = WES_event.4
+				}
+			}
+	    }
+		custom_effect_tooltip = arise_folk.tt
 	}
 	cost = 3.5
 	x = 29
@@ -450,6 +459,11 @@ shared_focus = {
 	icon = GFX_goal_WES_traitors_fate
 	prerequisite = {
         focus = WES_battle_camlann
+	}
+	available = {
+			WES = {
+				has_country_flag = ENG_henry_here
+			}
 	}
 	completion_reward = {
 	    country_event = {}
