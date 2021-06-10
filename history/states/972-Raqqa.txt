@@ -1,9 +1,15 @@
+
 state={
 	id=972
 	name="STATE_972"
 	provinces={
-		2821 7199 7255 7565 7812 8233 9337 17413 
+		861 1094 3018 3032 7255 7565 7812 8889 9337 12426 17413 
 	}
-	manpower=1
+	manpower=1988506
+	state_category=pastoral
 	buildings_max_level_factor=1.000
+	history={
+		owner = SKD
+		add_core_of = SKD
+	}		
 }

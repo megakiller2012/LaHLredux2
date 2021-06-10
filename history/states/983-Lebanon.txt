@@ -1,9 +1,18 @@
+
 state={
 	id=983
 	name="STATE_983"
-	provinces={
-		209 8552 12673 12717 
+
+	history={
+		owner = LEB
+		add_core_of = LEB
+
 	}
-	manpower=1
+
+	provinces={
+		12673 12717 
+	}
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
