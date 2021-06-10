@@ -1,0 +1,57 @@
+NTH_prisoners_of_war = {
+    NTH_deal_mogg = {
+	    visible = {
+            has_country_flag = ENG_mogg_here
+        } 
+	}
+    NTH_deal_pearce = {
+	    visible = {
+            has_country_flag = ENG_pearce_here
+        } 
+	}
+    NTH_deal_gunzel = {
+	    visible = {
+            has_country_flag = ENG_gunzel_here
+        } 
+	}
+    NTH_deal_klumb = {
+	    visible = {
+            has_country_flag = ENG_klumb_here
+        } 
+	}
+    NTH_deal_southgate = {
+	    visible = {
+            has_country_flag = ENG_southgate_here
+        } 
+	}
+    NTH_deal_mosley = {
+	    visible = {
+            has_country_flag = ENG_mosley_here
+        } 
+	}
+    NTH_deal_land = {
+	    visible = {
+            has_country_flag = ENG_land_here
+        } 
+	}
+    NTH_deal_dawkins = {
+	    visible = {
+            has_country_flag = ENG_dawkins_here
+        } 
+	}
+    NTH_deal_corbyn = {
+	    visible = {
+            has_country_flag = ENG_corbyn_here
+        } 
+	}
+    NTH_deal_george = {
+	    visible = {
+            has_country_flag = ENG_george_here
+        } 
+	}
+    NTH_deal_henry = {
+	    visible = {
+            has_country_flag = ENG_henry_here
+        } 
+	}
+}	    

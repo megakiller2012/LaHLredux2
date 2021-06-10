@@ -171,21 +171,34 @@
  WES_law_king:0 "The Law Of The King"
  WES_return_king: "Return Of The King"
  ##DECISIONS##
- WES_love_letters:0 "Prisioners Of War"
- WES_love_letters_desc:0 "After the defeat of an enemy faction during this conflict we were able to capture their leader. It is up to you, to decide their fate."
- WES_Dugin:0 "Put Max Mosley On Trial"
- WES_Eugenius:0 "The Fate of George Galloway"
- 
- WES_ai_mechanic:0 "The Wounded King"
- WES_ai_mechanic_desc:0 "To maintain the stability of our current system, it is imperative that our kings wins back the favour of the populace. \n\nThe legitemacy of George VII currently is: §Y[?george_legitemacy]§!"
+ WES_prisoners_of_war:0 "Prisoners Of War"
+ WES_prisoners_of_war_desc:0 "Throughout our liberation campaign of the British Isles we have captured several prominent enemy leaders. It is now up to us, whether to give them a fair trial or exile them out of the country"
+ WES_deal_galloway:0 "Deal with George Galloway"
+ WES_deal_mogg:0 "Deal with Jacob Rees-Mogg"
+ WES_deal_pearce:0 "Deal with Douglas Pearce"
+ WES_deal_gunzel:0 "Deal with Reinhard Günzel"
+ WES_deal_klumb:0 "Deal with Josef Maria Klumb"
+ WES_deal_southgate:0 "Deal with Troy Southgate"
+ WES_deal_mosley:0 "Deal with Max Mosley"
+ WES_deal_land:0 "Deal with Nick Land"
+ WES_deal_dawkins:0 "Deal with Richard Dawkins"
+ WES_deal_corbyn:0 "Deal with Jeremy Corbyn"
+ ##
+ WES_king_legitimacy:0 "The Wounded King"
+ WES_king_legitimacy_desc:0 "To maintain the stability of our current system, it is imperative that our kings wins back the favour of the populace. \n\nThe legitemacy of George VII currently is: §Y[?george_legitemacy]§!"
  WES_specialists:0 "Hire specialists"
- WES_turing_test:0 "Take the Turing Test"
  ##EVENTS##
  WES_event.3.t:0 "King George Returns!"
  WES_event.3.d:0 "King George has finally returned to England, however not everyone is pleased. Not everyone supports the depressed monarch. King will have to work on his own legitemacy before he can claim the throne."
  WES_event.3.a:0 "Hail to the king?"
  WES_event3.tt:0 "The legitemacy mechanic has been unlocked"
+ #
+ WES_event.4.t:0 "We march forward"
+ WES_event.4.d:0 "Our king has ushered a call for volunteers all over Wessex to join the army and fight those who trample our beloved land. Soon we shall retake England for ourselves!"
+ WES_event.4.a:0 "For King and Country"
  ##NEW GUI##
  KNIGHT_SLEEPS:0 "This Knight is not yet present on the table"
  KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n\§YFisher King§!\n\- War Support: §R-50.00%§!\n\- Stability: §R-10.00%§!\n\- Daily Political Power Gain: §R-0.10%§!"
  KNIGHT_MENU:0 "Open the knight menu"
+ ##TOOLTIP##
+ ENG_henry_here:0 "Prince Harry has been captured"

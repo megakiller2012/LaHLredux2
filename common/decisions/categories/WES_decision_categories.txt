@@ -1,5 +1,5 @@
 
-WES_ai_mechanic = {
+WES_king_legitimacy = {
 	icon = GFX_
 	visible = {
 	    has_completed_focus = WES_return_king		

@@ -14,11 +14,11 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism  = 100
+	neocameralism  = 100
 }
 
 create_country_leader = {
@@ -26,6 +26,15 @@ create_country_leader = {
 	desc = "POLITICS_ORBAN_DESC"
 	picture = "Portrait_HUN_Victor_Orban.dds"
 	ideology = social_conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Soros Györg"
+	desc = "POLITICS_SOROS_DESC"
+	picture = "Portrait_HUN_Soros.dds"
+	ideology = atlantic_liberalism
 	traits = {
 	}
 }

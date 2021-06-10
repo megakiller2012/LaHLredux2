@@ -1,9 +1,18 @@
+
 state={
 	id=610
 	name="STATE_610"
-	provinces={
-		2323 13283 13318 
+
+	history={
+		owner = STR
+		add_core_of = STR
+
 	}
-	manpower=1
+
+	provinces={
+		1078 1100 8312 9395 10986 11006 17371 
+	}
+	manpower=1988506
+	state_category=pastoral
 	buildings_max_level_factor=1.000
 }

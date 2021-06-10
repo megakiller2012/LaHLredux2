@@ -1,0 +1,88 @@
+MRC_debug = {
+    MRC_madoka_magica = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = MRC_madoka_magica
+		}
+	}
+    MRC_christian = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = MRC_christian
+		}
+	}
+    MRC_ancient_empire = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = MRC_ancient_empire
+		}
+	}
+    MRC_anglo_saxons = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = MRC_anglo_saxons
+		}
+	}
+}
+
+MRC_prisoners_of_war = {
+    MRC_deal_galloway = {
+	    visible = {
+            has_country_flag = ENG_galloway_here
+        } 
+	}
+    MRC_deal_mogg = {
+	    visible = {
+            has_country_flag = ENG_mogg_here
+        } 
+	}
+    MRC_deal_gunzel = {
+	    visible = {
+            has_country_flag = ENG_gunzel_here
+        } 
+	}
+    MRC_deal_klumb = {
+	    visible = {
+            has_country_flag = ENG_klumb_here
+        } 
+	}
+    MRC_deal_southgate = {
+	    visible = {
+            has_country_flag = ENG_southgate_here
+        } 
+	}
+    MRC_deal_mosley = {
+	    visible = {
+            has_country_flag = ENG_mosley_here
+        } 
+	}
+    MRC_deal_land = {
+	    visible = {
+            has_country_flag = ENG_land_here
+        } 
+	}
+    MRC_deal_dawkins = {
+	    visible = {
+            has_country_flag = ENG_dawkins_here
+        } 
+	}
+    MRC_deal_corbyn = {
+	    visible = {
+            has_country_flag = ENG_corbyn_here
+        } 
+	}
+    MRC_deal_george = {
+	    visible = {
+            has_country_flag = ENG_george_here
+        } 
+	}
+    MRC_deal_henry = {
+	    visible = {
+            has_country_flag = ENG_henry_here
+        } 
+	}
+}	

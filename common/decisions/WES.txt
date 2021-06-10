@@ -1,5 +1,5 @@
 
-WES_ai_mechanic = {
+WES_king_legitimacy = {
     WES_specialists = {
 	    cost = 10
 		days_remove = 30
@@ -40,7 +40,7 @@ WES_prisoners_of_war = {
 	}
     WES_deal_southgate = {
 	    visible = {
-            has_country_flag = ENG_sothgate_here
+            has_country_flag = ENG_southgate_here
         } 
 	}
     WES_deal_mosley = {

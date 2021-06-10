@@ -1,0 +1,256 @@
+﻿add_namespace = smert_event
+
+country_event = {
+	id = smert_event.1
+	title = smert_event.1.t
+	desc = smert_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	
+	    option = {
+		name = smert_event.1.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    UKS = {
+		        add_state_core = 120
+		        transfer_state = 120
+		        add_state_core = 118
+		        transfer_state = 118
+		        add_state_core = 116
+		        transfer_state = 116	
+		        add_state_core = 115
+		        transfer_state = 115
+		        add_state_core = 112
+		        transfer_state = 112				
+			}
+		    GAL = {
+		        add_state_core = 122
+		        transfer_state = 122
+		        add_state_core = 119
+		        transfer_state = 119
+		        add_state_core = 121
+		        transfer_state = 121				
+			}
+		    ANR = {
+		        add_state_core = 117
+		        transfer_state = 117					
+			}			
+		    UPS = {
+		        add_state_core = 111
+		        transfer_state = 111					
+			}
+		    UCS = {
+		        add_state_core = 110
+		        transfer_state = 110	
+		        add_state_core = 104
+		        transfer_state = 104									
+			}	
+		    UBR = {
+		        add_state_core = 114
+		        transfer_state = 114	
+		        add_state_core = 113
+		        transfer_state = 113									
+			}			
+		}
+    }	
+}
+
+country_event = {
+	id = smert_event.2
+	title = smert_event.2.t
+	desc = smert_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	
+	    option = {
+		name = smert_event.2.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    MLP = {
+		        add_state_core = 105
+		        transfer_state = 105
+		        add_state_core = 107
+		        transfer_state = 107
+		        add_state_core = 106
+		        transfer_state = 106					
+			}
+		    RUK = {
+		        add_state_core = 120
+		        transfer_state = 120
+		        add_state_core = 118
+		        transfer_state = 118
+		        add_state_core = 122
+		        transfer_state = 122
+				add_state_core = 119
+		        transfer_state = 119
+		        add_state_core = 121
+		        transfer_state = 121
+		        add_state_core = 137
+		        transfer_state = 137			
+			}
+		    GDR = {
+		        add_state_core = 110
+		        transfer_state = 110	
+		        add_state_core = 104
+		        transfer_state = 104
+		        add_state_core = 111
+		        transfer_state = 111				
+			}	
+		    HRU = {
+		        add_state_core = 114
+		        transfer_state = 114	
+		        add_state_core = 113
+		        transfer_state = 113									
+			}	
+		    NUR = {
+		        add_state_core = 112
+		        transfer_state = 112	
+		        add_state_core = 115
+		        transfer_state = 115	
+		        add_state_core = 116
+		        transfer_state = 116				
+			}						
+		}
+    }	
+}
+
+country_event = {
+	id = smert_event.3
+	title = smert_event.3.t
+	desc = smert_event.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	
+	    option = {
+		name = smert_event.3.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    PSN = {
+		        add_state_core = 94
+		        transfer_state = 94					
+			}
+		    NRP = {
+		        add_state_core = 101
+		        transfer_state = 101
+		        add_state_core = 608
+		        transfer_state = 608			
+			}
+		    PRE = {
+		        add_state_core = 606
+		        transfer_state = 606				
+			}	
+		    SLU = {
+		        add_state_core = 93
+		        transfer_state = 93										
+			}	
+		    KRY = {
+		        add_state_core = 102
+		        transfer_state = 102	
+		        add_state_core = 103
+		        transfer_state = 103					
+			}
+		    RGD = {
+		        add_state_core = 1
+		        transfer_state = 1	
+		        add_state_core = 97
+		        transfer_state = 97					
+			}			
+		}
+    }	
+}
+
+
+country_event = {
+	id = smert_event.4
+	title = smert_event.4.t
+	desc = smert_event.4.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	
+	    option = {
+		name = smert_event.4.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    RLF = {
+		        add_state_core = 161
+		        transfer_state = 161
+		        add_state_core = 160
+		        transfer_state = 160					
+			}
+		    KAZ = {
+		        add_state_core = 164
+		        transfer_state = 164
+		        add_state_core = 159
+		        transfer_state = 159						
+		        add_state_core = 163
+		        transfer_state = 163
+		        add_state_core = 162
+		        transfer_state = 162					
+		        add_state_core = 64
+		        transfer_state = 64	
+		        add_state_core = 60
+		        transfer_state = 60	
+		        add_state_core = 58
+		        transfer_state = 58	
+		        add_state_core = 158
+		        transfer_state = 158	
+		        add_state_core = 157
+		        transfer_state = 157	
+		        add_state_core = 155
+		        transfer_state = 155	
+		        add_state_core = 154
+		        transfer_state = 154
+		        add_state_core = 156
+		        transfer_state = 156				
+			}
+		    SGD = {
+		        add_state_core = 369
+		        transfer_state = 369
+		        add_state_core = 371
+		        transfer_state = 371
+		        add_state_core = 370
+		        transfer_state = 370				
+		        add_state_core = 372
+		        transfer_state = 372
+		        add_state_core = 373
+		        transfer_state = 373
+		        add_state_core = 386
+		        transfer_state = 386	
+		        add_state_core = 389
+		        transfer_state = 389									
+			}	
+		    KYR = {
+		        transfer_state = 379
+			}				
+		}
+    }	
+}
+
+
+country_event = {
+	id = smert_event.5 ###ATLANTIDA AWAKENING 
+	title = smert_event.5.t
+	desc = smert_event.5.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	
+	    option = {
+		name = smert_event.5.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    SRD = {
+		        transfer_state = 690				
+			}	
+		}
+    }	
+}

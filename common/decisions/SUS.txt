@@ -26,7 +26,7 @@ SUS_prisoners_of_war = {
 	}
     SUS_deal_southgate = {
 	    visible = {
-            has_country_flag = ENG_sothgate_here
+            has_country_flag = ENG_southgate_here
         } 
 	}
     SUS_deal_mosley = {

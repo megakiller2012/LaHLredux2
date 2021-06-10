@@ -21,12 +21,22 @@ state={
 		17639 20
 		
 		}
-
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			3896 = {
+				naval_base = 1
+			}
+			17639 = {
+				naval_base = 4
+			}
+		}
 		
 	}
 
 	provinces={
-		3896 10429 10464 10491 10520 17623 17639 17640 17641 17645 17658 17663 
+		3896 10429 10464 17639 17640 17641 17645 17658 17663 
 	}
 	manpower=5488506
 	buildings_max_level_factor=1.000

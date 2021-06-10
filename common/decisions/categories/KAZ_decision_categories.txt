@@ -1,0 +1,5 @@
+KAZ_ai_mechanic = {
+	icon = GFX_
+    visible_when_empty = yes
+	allowed = { original_tag = KAZ }
+}

@@ -1,0 +1,41 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ SRD_millenarism_party:0 "Neo-Fraticelli"
+ SRD_commendationism_party:0 "IMLP"
+ SRD_commendationism_party_long:0 "Italian Marxist–Leninist Party"
+ SRD_left_authoritarianism_party:0 "Sardinia Nation"
+ SRD_socialism_party:0 "Red Moors"
+ SRD_national_bolshevism_party:0 "Lega Sardegna"
+ SRD_neocameralism_party:0 "ProgReS"
+ SRD_neocameralism_party_long:0 "Project Republic of Sardinia"
+ SRD_right_populism_party_long:0 "Sardinian Action Party" 
+ SRD_right_populism_party:0 "PSd'Az"
+ SRD_hegemonism_party:0 "Sardinian Military"
+ SRD_regressionism_party:0 "AIP"
+ SRD_regressionism_party_long:0 "Atlantik Independentist Party"
+ SRD_ur_fascism_party:0 "Italian Loyalists"
+ ##COUNTRY_NAME##
+ SRD_millenarism:0 "Sardinia" 
+ SRD_millenarism_DEF:0 "Blessed Land of Sardinia" 
+ SRD_commendationism:0 "Sardinia" 
+ SRD_commendationism_DEF:0 "Sardinian Commune" 
+ SRD_left_authoritarianism:0 "Sardinia" 
+ SRD_left_authoritarianism_DEF:0 "Sardinian Peoples Republic" 
+ SRD_socialism:0 "Sardinia" 
+ SRD_socialism_DEF:0 "Sardinian Republic" 
+ SRD_neocameralism:0 "Sardinia" 
+ SRD_neocameralism_DEF:0 "Sardinian Democratic Republic" 
+ SRD_right_populism:0 "Sardinia" 
+ SRD_right_populism_DEF:0 "Sardinian National Republic" 
+ SRD_hegemonism:0 "Sardinia" 
+ SRD_hegemonism_DEF:0 "Sardinian State" 
+ SRD_regressionism:0 "Atlantika" 
+ SRD_regressionism_DEF:0 "State of Atlantika"
+ SRD_ur_fascism:0 "Sadinia" 
+ SRD_ur_fascism_DEF:0 "Sardinian Area" 
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##

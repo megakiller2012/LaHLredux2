@@ -6,4 +6,9 @@ state={
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	history={
+		owner = TAJ
+		add_core_of = TAJ
+		add_core_of = SGD
+	}
 }

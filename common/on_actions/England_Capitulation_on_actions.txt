@@ -1,0 +1,198 @@
+on_actions = {
+    on_capitulation = {
+	    effect = {
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_mogg_here
+							value = 1
+						}
+					}					
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_mogg_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_mogg_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_land_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_land_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_land_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_dawkins_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_dawkins_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_dawkins_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_mosley_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_mosley_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_mosley_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_pearce_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_pearce_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_pearce_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_galloway_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_galloway_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_galloway_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_gunzel_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_gunzel_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_gunzel_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_klumb_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_klumb_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_klumb_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_southgate_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_southgate_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_southgate_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_george_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_george_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_george_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_henry_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_henry_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_henry_here
+			    }
+			}
+		    if = {
+			    limit = {
+				   ROOT = {
+				        has_country_flag = {
+						    flag = ENG_corbyn_here
+							value = 1
+						}
+					}
+				}
+			    ROOT = {
+			        clr_country_flag = ENG_corbyn_here
+			    }
+			    FROM = {
+			        set_country_flag = ENG_corbyn_here
+			    }
+			}
+		}
+	}
+}

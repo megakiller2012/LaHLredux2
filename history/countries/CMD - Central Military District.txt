@@ -22,9 +22,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Zhirik"
-	picture = ".dds"
-	expire = "1953.3.1"
+	name = "Vladimir Zhirinovsky"
+	picture = "Portrait_CMD_Vladimir_Zhirinovsky.dds"
+	expire = "2099.3.1"
 	ideology = social_conservatism
 	traits = {
 	}

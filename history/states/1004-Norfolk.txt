@@ -17,6 +17,12 @@ state={
 		= {
 		17597 15
 		}
+				buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			
+			}
 		}
 	manpower=1684321
 	buildings_max_level_factor=1.000

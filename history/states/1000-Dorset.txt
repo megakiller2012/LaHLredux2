@@ -12,9 +12,17 @@ state={
 		victory_points = {
 			10760 10 
 		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			10760 = {
+				naval_base = 3
+			}
+		}
 		}
 	provinces={
-		2735 10725 10731 10760 15071 17518 
+		 10725 10731 10760 15071 17518 
 	}
 	manpower=6108506
 	buildings_max_level_factor=1.000
