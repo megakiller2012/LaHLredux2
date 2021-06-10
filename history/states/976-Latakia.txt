@@ -1,9 +1,18 @@
+
 state={
 	id=976
 	name="STATE_976"
-	provinces={
-		4809 12529 
+
+	history={
+		owner = ASS
+		add_core_of = ASS
+
 	}
-	manpower=1
+
+	provinces={
+		4809 12529 12591 12603 
+	}
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

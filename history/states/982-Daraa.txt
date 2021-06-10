@@ -1,9 +1,15 @@
+
 state={
 	id=982
 	name="STATE_982"
 	provinces={
-		4046 7965 12835 
+		2258 2821 6964 7199 8195 8233 12530 12630 12649 
 	}
-	manpower=1
+	manpower=1988506
+	state_category=pastoral
 	buildings_max_level_factor=1.000
+	history={
+		owner = SYR
+		add_core_of = SYR
+	}		
 }
