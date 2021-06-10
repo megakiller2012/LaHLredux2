@@ -5,18 +5,15 @@ shared_focus = {
 	icon = GFX_goal_WES_return_king
 	cost = 3.5
 	completion_reward = {
-	    hidden_effect = {
-			WES = {
-				country_event = {
-					days = 1
-					id = WES_event.3
-				}
-				set_variable = { 
-				    george_legitemacy = 10
-				}
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.3
+			}
+			set_variable = { 
+				george_legitemacy = 10
 			}
 		}
-		custom_effect_tooltip = return_king.tt
 	}
 	x = 17
 	y = 0
@@ -420,15 +417,12 @@ shared_focus = {
         focus = WES_return_king
 	}
 	completion_reward = {
-	    hidden_effect = {
-		    WES = {
-				country_event = {
-					days = 1
-					id = WES_event.4
-				}
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.4
 			}
-	    }
-		custom_effect_tooltip = arise_folk.tt
+		}
 	}
 	cost = 3.5
 	x = 29
@@ -447,7 +441,6 @@ shared_focus = {
 			target = SUS
 			expire = 0
 		} 
-		country_event = {}
 	}
 	cost = 3.5
 	x = 29
@@ -466,7 +459,12 @@ shared_focus = {
 			}
 	}
 	completion_reward = {
-	    country_event = {}
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.5
+			}
+		}
 	}
 	cost = 3.5
 	x = 29

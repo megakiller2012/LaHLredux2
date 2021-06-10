@@ -124,6 +124,11 @@
  
  ###MALOROSSIA##
  
+ VICTORY_POINTS_8866:0 "Sevastopol`"
+ VICTORY_POINTS_3629:0 "Krasnoperekopsk"
+ VICTORY_POINTS_11363:0 "Simferopol`"
+ VICTORY_POINTS_11317:0 "Evpatorija"
+ VICTORY_POINTS_7792:0 "Kerch"
  ###KAUKASUS###
  
  VICTORY_POINTS_14961:0 "Rostov-na-Donu"
@@ -139,6 +144,9 @@
  VICTORY_POINTS_11402:0 "Novorossijsk"
  VICTORY_POINTS_11514:0 "Sochi"
  VICTORY_POINTS_11590:0 "Sukhum"
+ VICTORY_POINTS_9668:0 "Derbent"
+ VICTORY_POINTS_7729:0 "Mahachkala"
+ 
  
  ###LOWER VOLGA###
  
