@@ -5,12 +5,24 @@ state={
 	provinces={
 		2303 2822 3629 6189 6462 7420 7792 8029 11317 11336 11363 11364 11368 11383 
 	}
-	manpower=1988506
+	manpower=4442000
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 	history={
 		owner = NRS
 		add_core_of = NRS
-	}	
+		victory_ponts = {
+			3629 2
+		}
+		victory_ponts = {
+			11363 11
+		}
+		victory_ponts = {
+			11317 5
+		}
+		victory_ponts = {
+			7792 5
+		}
+	}
 		
 }
