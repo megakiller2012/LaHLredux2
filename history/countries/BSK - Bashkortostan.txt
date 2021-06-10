@@ -14,20 +14,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = neocameralism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism = 100
+	neocameralism = 100
 }
 
 create_country_leader = {
 	name = "Radij Khabirov"
 	desc = "POLITICS_KHABIROV_DESC"
 	picture = "Portrait_BSK_Radij_Khabirov.dds"
-	ideology = social_conservatism 
+	ideology = atlantic_liberalism 
 	traits = {
 		moderate_technocrat
 	}
