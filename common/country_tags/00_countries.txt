@@ -184,7 +184,6 @@ TYR = "countries/Tyrol.txt"
 ###Sham###
 ASS = "countries/Assad Syria.txt" ###Assad
 LEB = "countries/Phoenicia.txt"
-EGY = "countries/Egypt.txt"
 ISR = "countries/Israel.txt"
 SYR = "countries/Syria.txt" ###Pro-Iraq forces 
 TSY = "countries/Turkish Syria.txt" ###Atlantist Syria
@@ -192,4 +191,5 @@ IRQ = "countries/Iraq.txt"
 SKD = "countries/Syrian Kurdistan.txt" ###Just Kurdistan
 DRU = "countries/Druze.txt"
 PAL = "countries/Palestine.txt"
-###wtf###
+###North Africa###
+EGY = "countries/Egypt.txt" 

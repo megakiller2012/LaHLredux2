@@ -3,8 +3,13 @@ state={
 	id=985
 	name="STATE_985"
 	provinces={
-		2326 5554 12992 13047 17458 
+		1196 2326 3160 4154 4364 5554 5650 6880 12992 13047 17458 
 	}
-	manpower=1
+	history={
+		owner = EGY
+		add_core_of = EGY
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

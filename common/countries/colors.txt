@@ -92,3 +92,13 @@ SAR = {
 	color = rgb { 71 74 88 }
 	color_ui = rgb { 53  74  63 }
 }
+
+PAL = {
+	color = rgb { 193 188 155 }
+	color_ui = rgb { 53  74  63 }
+}
+
+EGY = {
+	color = rgb { 163 132 81 }
+	color_ui = rgb { 53  74  63 }
+}
