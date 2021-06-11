@@ -3,8 +3,13 @@ state={
 	id=969
 	name="STATE_969"
 	provinces={
-		729 953 3334 3426 3604 4384 4409 5352 5462 5965 6399 6871 7216 7580 7778 8145 9433 9448 9592 13785 13806 13868 13884 13890 14235 15149 
+		695 3334 4001 4409 5965 7580 8754 13806 13868 13890 
 	}
-	manpower=1
+	history={
+		owner = OMA
+		add_core_of = OMA
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

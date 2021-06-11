@@ -1,9 +1,15 @@
+
 state={
 	id=946
 	name="STATE_946"
 	provinces={
-		5609 5690 6894 12853 
+		5609 5690 6894 7355 12853 
 	}
-	manpower=1
+	history={
+		owner = HAR
+		add_core_of = HAR
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
