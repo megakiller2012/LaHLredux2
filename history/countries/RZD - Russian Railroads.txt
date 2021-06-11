@@ -13,18 +13,17 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
 set_popularities = {
-	social_conservatism  = 100
+	neocameralism  = 100
 }
 
 create_country_leader = {
 	name = "Oleg Belozyorov"
-	desc = ""
 	picture = "Portrait_RZD_Oleg_Belozerow.dds"
-	ideology = statecorporation
+	ideology = atlantic_liberalism
 	traits = {
 		
 	}

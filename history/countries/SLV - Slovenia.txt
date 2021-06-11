@@ -20,7 +20,7 @@ set_popularities = {
 	commendationism  = 100
 }
 create_country_leader = {
-	name = "Slavoj_Žižek"
+	name = "Slavoj Žižek"
 	picture = "Portrait_SLV_Slavoj_Žižek.dds"
 	ideology = ultrahegelianism
 	traits = {
