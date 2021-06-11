@@ -1,9 +1,15 @@
+
 state={
 	id=965
 	name="STATE_965"
 	provinces={
-		2715 8588 8782 13600 
+		2715 8588 8782 13600 13998 14216 14237 
 	}
-	manpower=1
+	history={
+		owner = QAT
+		add_core_of = QAT
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
