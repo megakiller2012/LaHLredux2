@@ -1,9 +1,15 @@
+
 state={
 	id=967
 	name="STATE_967"
 	provinces={
-		743 1267 2013 2158 4271 4412 4708 7014 9551 9577 9745 13685 15148 
+		743 987 1267 2013 2158 4271 4412 4708 7014 7034 7883 9551 9577 9745 13685 13756 14010 14207 15148 
 	}
-	manpower=1
+	history={
+		owner = UAS
+		add_core_of = UAS
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

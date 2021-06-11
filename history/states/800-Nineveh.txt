@@ -1,9 +1,18 @@
+
 state={
 	id=800
 	name="STATE_800"
-	provinces={
-		966 3567 6449 7615 9517 9567 9662 12401 12428 12439 12485 12535 
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+
 	}
-	manpower=1
+
+	provinces={
+		3503 3567 6449 9662 12401 12428 12439 12485 
+	}
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

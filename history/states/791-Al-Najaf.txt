@@ -1,9 +1,18 @@
+
 state={
 	id=791
 	name="STATE_791"
-	provinces={
-		1067 5973 6732 7533 7872 8280 12900 13024 
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+
 	}
-	manpower=1
+
+	provinces={
+		487 1067 1458 1892 2628 3558 4059 6732 7533 7701 7872 12769 12782 12862 12982 13024 17433 17435 
+	}
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

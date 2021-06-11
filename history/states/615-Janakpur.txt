@@ -1,9 +1,15 @@
+
 state={
 	id=615
 	name="STATE_615"
 	provinces={
-		7423 8052 13436 13467 
+		1805 8113 
 	}
-	manpower=1
+	history={
+		owner = EMI
+		add_core_of = EMI
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

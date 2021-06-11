@@ -1,9 +1,15 @@
+
 state={
 	id=789
 	name="STATE_789"
 	provinces={
-		5774 
+		3201 5371 5774 8066 8228 8934 12856 12911 12953 
 	}
-	manpower=1
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
