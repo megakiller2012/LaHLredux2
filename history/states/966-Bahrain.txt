@@ -6,8 +6,8 @@ state={
 		8659 15144 
 	}
 	history={
-		owner = YSM
-		add_core_of = YSM
+		owner = BAH
+		add_core_of = BAH
 	}	
 	manpower=1988506
 	buildings_max_level_factor=1.000

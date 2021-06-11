@@ -3,8 +3,8 @@
  ##POLITICAL PARTIES##
  HAR_right_populism_party:0 "Hashemite Dynasty"
  ##COUNTRY NAME##
- HAR_right_populism:0 "Hashemite Kingdom of Arabia"
- HAR_right_populism_DEF:0 "Hashemite Kingdom of Arabia"
+ HAR_hegemonism:0 "Jordan"
+ HAR_hegemonism_DEF:0 "Hashemite Kingdom of Jordan"
  ##TRAITS##
  fallen_king:0 "Fallen King"
  ##IDEAS##

@@ -12,20 +12,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = hegemonism
 	elections_allowed = no
 }
 
 set_popularities = {
-	right_populism  = 100
+	hegemonism  = 100
 }
 
 create_country_leader = {
 	name = "Abdullah II"
 	picture = "Portrait_HAR_Abdullah_II.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism
+	ideology = autocracy
 	traits = {
-		fallen_king
 	}
 }

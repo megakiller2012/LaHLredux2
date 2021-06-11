@@ -1,10 +1,10 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- TSY_socialism_party:0 "Syrian National Coalition"
+ TSY_neocameralism_party:0 "Syrian Civil Defence"
  ##COUNTRY NAME##
- TSY_socialism:0 "Syrian National Council"
- TSY_socialism_DEF:0 "Syrian National Council"
+ TSY_neocameralism:0 "Syrian Opposition"
+ TSY_neocameralism_DEF:0 "Syrian Civil Defence"
  ##TRAITS##
  turkish_lapdog:0 "Turkish Lapdog"
  ##IDEAS##

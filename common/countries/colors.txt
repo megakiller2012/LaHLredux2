@@ -88,7 +88,7 @@ AZR = {
 	color_ui = rgb { 106  62  49 }
 }
 
-SAR = {
+SRD = {
 	color = rgb { 71 74 88 }
 	color_ui = rgb { 53  74  63 }
 }
@@ -100,5 +100,85 @@ PAL = {
 
 EGY = {
 	color = rgb { 163 132 81 }
+	color_ui = rgb { 53  74  63 }
+}
+
+SAR = {
+	color = rgb { 133 211 133 }
+	color_ui = rgb { 53  74  63 }
+}
+
+YEM = {
+	color = rgb { 125 44 10 }
+	color_ui = rgb { 53  74  63 }
+}
+
+EMI = {
+	color = rgb { 152 197 171 }
+	color_ui = rgb { 53  74  63 }
+}
+
+QAT = {
+	color = rgb { 190 157 61 }
+	color_ui = rgb { 53  74  63 }
+}
+
+BHR = {
+	color = rgb { 64 179 64 }
+	color_ui = rgb { 53  74  63 }
+}
+
+KUW = {
+	color = rgb { 91 97 29 }
+	color_ui = rgb { 53  74  63 }
+}
+
+IRQ = {
+	color = rgb { 209 86 86 }
+	color_ui = rgb { 53  74  63 }
+}
+
+SYR = {
+	color = rgb { 170 144 188 }
+	color_ui = rgb { 53  74  63 }
+}
+
+ASS = {
+	color = rgb { 171 119 109 }
+	color_ui = rgb { 53  74  63 }
+}
+
+TSY = {
+	color = rgb { 203 180 152 }
+	color_ui = rgb { 53  74  63 }
+}
+
+DRU = {
+	color = rgb { 0 89 91 }
+	color_ui = rgb { 53  74  63 }
+}
+
+LEB = {
+	color = rgb { 108 90 209 }
+	color_ui = rgb { 53  74  63 }
+}
+
+HAR = {
+	color = rgb { 153 106 46 }
+	color_ui = rgb { 53  74  63 }
+}
+
+OMA = {
+	color = rgb { 217 131 110 }
+	color_ui = rgb { 53  74  63 }
+}
+
+BAH = {
+	color = rgb { 209 146 184 }
+	color_ui = rgb { 53  74  63 }
+}
+
+HOU = {
+	color = rgb { 82 130 144 }
 	color_ui = rgb { 53  74  63 }
 }

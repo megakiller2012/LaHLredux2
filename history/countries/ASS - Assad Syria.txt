@@ -12,19 +12,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = national_bolshevism
+	ruling_party = ur_fascism
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_bolshevism  = 100
+	ur_fascism  = 100
 }
 
 create_country_leader = {
 	name = "Bashar al-Assad"
 	picture = "Portrait_ASS_Bashar_al-Assad.dds"
-	expire = "1953.3.1"
-	ideology = nazbol_gang
+	ideology = charismatic_dictatorship
 	traits = {
 		lion_of_syria
 	}
