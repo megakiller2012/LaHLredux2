@@ -54,6 +54,12 @@ scripted_gui = {
                     var = slot_12
                     value = 2		
                }	
+            }
+            lhl_slot_12_henry_visible = {
+               check_variable = {
+                    var = slot_12
+                    value = 3		
+               }	
             }				
         }
 

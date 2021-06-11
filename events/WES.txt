@@ -111,6 +111,55 @@ country_event = {
     fire_only_once = true	
 	option = {
 	    name = WES_event.5.a
+		custom_effect_tooltip = WES_event.5a.tt
+		hidden_effect = {
+            set_variable = { slot_12 = 1 }
+        }
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.8
+			}
+		}
+    } 
+	option = {
+	    name = WES_event.5.b
+		custom_effect_tooltip = WES_event.5b.tt
+		hidden_effect = {
+            set_variable = { slot_12 = 1 }
+        }
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.9
+			}
+		}
+    } 
+	option = {
+	    name = WES_event.5.c
+		custom_effect_tooltip = WES_event.5c.tt
+		hidden_effect = {
+            set_variable = { slot_12 = 1 }
+        }
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.10
+			}
+		}		
+    } 
+	option = {
+	    name = WES_event.5.e
+		custom_effect_tooltip = WES_event.5.ett
+		hidden_effect = {
+            set_variable = { slot_12 = 1 }
+        }
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.11
+			}
+		}
     } 
 }
 
@@ -125,6 +174,206 @@ country_event = {
     fire_only_once = true	
 	option = {
 	    name = WES_event.6.a
+		WES = {
+		    unlock_national_focus = WES_traitors_fate
+		}
+    } 
+}
+
+country_event = {
+	id = WES_event.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.7"}
+	title = WES_event.7.t
+	desc = WES_event.7.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.7.a
+		custom_effect_tooltip = WES_event7.tt
+		hidden_effect = {
+            set_variable = { slot_12 = 3 }
+        }
+        create_field_marshal = {
+			name = "Prince Harry, Duke of Sussex"
+			picture = "Portrait_WES_Harry_Windsor.dds"
+			traits = { harsh_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+	    }
+		add_stability = 0.2
+		remove_ideas = {
+		    WES_dynastic_crisis
+		}
+	}
+	option = {
+	    name = WES_event.7.b
+		create_field_marshal = {
+			name = "Prince Harry, Duke of Sussex"
+			picture = "Portrait_WES_Harry_Windsor.dds"
+			traits = { harsh_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+	    }
+		add_stability = 0.2
+		remove_ideas = {
+		    WES_dynastic_crisis
+		}
+		add_political_power = 150
+	}
+}
+
+country_event = {
+	id = WES_event.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.8"}
+	title = WES_event.8.t
+	desc = WES_event.8.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.8.a
+		remove_ideas = {
+		    WES_dynastic_crisis
+		}
+        add_political_power = 50
+        add_stability = 0.1
+        add_popularity = {
+			ideology = regressionism
+			popularity = 0.2
+        }
+		1001 = {
+		     add_resistance = 50
+		}
+		1156 = {
+		     add_resistance = 50
+		}
+		custom_effect_tooltip = WES_event8.tt
+    } 
+}
+
+country_event = {
+	id = WES_event.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.9"}
+	title = WES_event.9.t
+	desc = WES_event.9.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.9.a
+		remove_ideas = {
+		    WES_dynastic_crisis
+		}
+        add_popularity = {
+			ideology = regressionism
+			popularity = 0.1
+        }
+		add_to_variable = { 
+			george_legitemacy = 5
+		}
+		1001 = {
+		     add_resistance = 50
+		}
+		1156 = {
+		     add_resistance = 50
+		}
+		custom_effect_tooltip = WES_event9.tt
+    } 
+}
+
+country_event = {
+	id = WES_event.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.10"}
+	title = WES_event.10.t
+	desc = WES_event.10.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.10.a
+        add_popularity = {
+			ideology = regressionism
+			popularity = 0.3
+        }
+		add_to_variable = { 
+			george_legitemacy = 5
+		}
+		create_field_marshal = {
+			name = "Prince Harry, Duke of Sussex"
+			picture = "Portrait_WES_Harry_Windsor.dds"
+			traits = { harsh_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+	    }
+        add_state_core = 1001
+		add_state_core = 1156
+		custom_effect_tooltip = WES_event10.tt
+    } 
+}
+
+country_event = {
+	id = WES_event.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.11"}
+	title = WES_event.11.t
+	desc = WES_event.11.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.11.a
+        add_popularity = {
+			ideology = regressionism
+			popularity = -0.05
+        }
+		add_stability = -0.1
+		add_to_variable = { 
+			george_legitemacy = -2
+		}
+		1001 = {
+		     add_resistance = 50
+		}
+		1156 = {
+		     add_resistance = 50
+		}
+		custom_effect_tooltip = WES_event11.tt
+		hidden_effect = {
+			ATH = {
+				country_event = {
+					days = 1
+					id = ATH_event.1
+			    }
+		    } 
+		}
+    } 
+}
+
+country_event = {
+	id = WES_event.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.12"}
+	title = WES_event.12.t
+	desc = WES_event.12.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.12.a
+	    add_war_support = 0.1
     } 
 }
 
