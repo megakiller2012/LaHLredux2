@@ -2,13 +2,16 @@
 state={
 	id=967
 	name="STATE_967"
-	provinces={
-		743 987 1267 2013 2158 4271 4412 4708 7014 7034 7883 9551 9577 9745 13685 13756 14010 14207 15148 
-	}
+
 	history={
-		owner = UAS
-		add_core_of = UAS
-	}	
+		owner = EMI
+		add_core_of = EMI
+
+	}
+
+	provinces={
+		743 987 1267 2013 2158 4271 4412 4708 7014 9577 9745 15148 
+	}
 	manpower=1988506
 	buildings_max_level_factor=1.000
 	state_category=pastoral

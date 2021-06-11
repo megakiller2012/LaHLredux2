@@ -1,9 +1,15 @@
+
 state={
 	id=542
 	name="STATE_542"
 	provinces={
-		363 6610 9177 
+		6291 6871 7778 8145 9448 13785 13884 
 	}
-	manpower=1
+	history={
+		owner = OMA
+		add_core_of = OMA
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

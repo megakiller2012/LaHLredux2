@@ -133,7 +133,7 @@ KUW = "countries/Kuwait.txt"
 QAT = "countries/Qatar.txt"
 EMI = "countries/Emirates.txt"
 YSM = "countries/Midiri.txt"
-UAS = "countries/United Arab State.txt"
+UAS = "countries/United Arab State.txt" ###Lybia
 ###Iberia###
 SPA = "countries/Spain.txt"
 POR = "countries/Portugal.txt"

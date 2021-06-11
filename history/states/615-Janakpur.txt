@@ -6,8 +6,8 @@ state={
 		1805 8113 
 	}
 	history={
-		owner = EMI
-		add_core_of = EMI
+		owner = OMA
+		add_core_of = OMA
 	}	
 	manpower=1988506
 	buildings_max_level_factor=1.000
