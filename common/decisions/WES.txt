@@ -63,4 +63,1381 @@ WES_prisoners_of_war = {
             has_country_flag = ENG_corbyn_here
         } 
 	}
-}	    
+}
+
+WES_england_cores = {
+	WES_compliance_coring_sussex = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1001
+			controls_state = 1156			
+		}
+		visible = {
+			owns_state = 1001
+			owns_state = 1156
+			NOT = {
+				1001 = {
+					is_core_of = WES
+				}
+				1156 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1001
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_sussex"
+			1156 = {
+			    add_compliance = 10
+			}
+			1001 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_sussex = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1001
+			controls_state = 1156	
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1001
+			owns_state = 1156
+			NOT = {
+				1001 = {
+					is_core_of = WES
+				}
+				1156 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1001
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_sussex"
+			1156 = {
+			    add_resistance = -5
+			}
+			1001 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_sussex = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1001
+			controls_state = 1156
+			1156 = {
+			    compliance > 75
+			}
+			1001 = {
+			    compliance > 75
+            }
+			1156 = {
+			    resistance < 10
+			}
+			1001 = {
+			    resistance < 10
+            }				
+		}
+		visible = {
+			owns_state = 1001
+			owns_state = 1156
+			NOT = {
+				1001 = {
+					is_core_of = WES
+				}
+				1156 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1001
+			state = 1156
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_sussex"
+			add_state_core = 1001
+			add_state_core = 1156
+		}
+	}
+	WES_compliance_coring_kent = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1002
+			controls_state = 1165			
+		}
+		visible = {
+			owns_state = 1002
+			owns_state = 1165
+			NOT = {
+				1002 = {
+					is_core_of = WES
+				}
+				1165 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1002
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_kent"
+			1002 = {
+			    add_compliance = 10
+			}
+			1165 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_kent = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1002
+			controls_state = 1165	
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1002
+			owns_state = 1165
+			NOT = {
+				1002 = {
+					is_core_of = WES
+				}
+				1165 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1002
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_kent"
+			1165 = {
+			    add_resistance = -5
+			}
+			1002 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_kent = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1002
+			controls_state = 1165
+			1165 = {
+			    compliance > 75
+			}
+			1002 = {
+			    compliance > 75
+            }
+			1165 = {
+			    resistance < 10
+			}
+			1002 = {
+			    resistance < 10
+            }				
+		}
+		visible = {
+			owns_state = 1002
+			owns_state = 1165
+			NOT = {
+				1002 = {
+					is_core_of = WES
+				}
+				1165 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1002
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_kent"
+			add_state_core = 1002
+			add_state_core = 1165
+		}
+	}
+	WES_compliance_coring_london = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1160
+			controls_state = 1159
+			controls_state = 1158			
+		}
+		visible = {
+			owns_state = 1160
+			owns_state = 1159
+			owns_state = 1158
+			NOT = {
+				1160 = {
+					is_core_of = WES
+				}
+				1159 = {
+					is_core_of = WES
+				}
+				1158 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1160
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_london"
+			1160 = {
+			    add_compliance = 10
+			}
+			1159 = {
+			    add_compliance = 10
+            }
+			1158 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_london = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1160
+			controls_state = 1159
+			controls_state = 1158
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1160
+			owns_state = 1159
+			owns_state = 1158
+			NOT = {
+				1160 = {
+					is_core_of = WES
+				}
+				1159 = {
+					is_core_of = WES
+				}
+				1158 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1160
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_london"
+			1160 = {
+			    add_resistance = -5
+			}
+			1159 = {
+			    add_resistance = -5
+            }
+			1158 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_london = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1160
+			controls_state = 1159
+			controls_state = 1158
+			1160 = {
+			    compliance > 75
+			}
+			1159 = {
+			    compliance > 75
+            }
+			1158 = {
+			    compliance > 75
+            }
+			1160 = {
+			    resistance < 10
+			}
+			1159 = {
+			    resistance < 10
+            }
+			1158 = {
+			    resistance < 10
+            }				
+		}
+		visible = {
+			owns_state = 1160
+			owns_state = 1159
+			owns_state = 1158
+			NOT = {
+				1160 = {
+					is_core_of = WES
+				}
+				1159 = {
+					is_core_of = WES
+				}
+				1158 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1160
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_london"
+			add_state_core = 1160
+			add_state_core = 1159
+			add_state_core = 1158
+		}
+	}
+	WES_compliance_coring_essex = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1157
+			controls_state = 1003		
+		}
+		visible = {
+			owns_state = 1157
+			owns_state = 1003
+			NOT = {
+				1157 = {
+					is_core_of = WES
+				}
+				1003 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1157
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_essex"
+			1157 = {
+			    add_compliance = 10
+			}
+			1003 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_essex = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1157
+			controls_state = 1003	
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1157
+			owns_state = 1003
+			NOT = {
+				1157 = {
+					is_core_of = WES
+				}
+				1003 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1157
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_essex"
+			1003 = {
+			    add_resistance = -5
+			}
+			1157 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_essex = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1157
+			controls_state = 1003
+			1003 = {
+			    compliance > 75
+			}
+			1157 = {
+			    compliance > 75
+            }
+			1003 = {
+			    resistance < 10
+			}
+			1157 = {
+			    resistance < 10
+            }				
+		}
+		visible = {
+			owns_state = 1157
+			owns_state = 1003
+			NOT = {
+				1157 = {
+					is_core_of = WES
+				}
+				1003 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1157
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_essex"
+			add_state_core = 1157
+			add_state_core = 1003
+		}
+	}
+	
+	WES_compliance_coring_east_anglia = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1004
+			controls_state = 1143		
+		}
+		visible = {
+			owns_state = 1004
+			owns_state = 1143
+			NOT = {
+				1004 = {
+					is_core_of = WES
+				}
+				1143 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1004
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_east_anglia"
+			1004 = {
+			    add_compliance = 10
+			}
+			1143 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_east_anglia = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1004
+			controls_state = 1143	
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1004
+			owns_state = 1143
+			NOT = {
+				1004 = {
+					is_core_of = WES
+				}
+				1143 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1004
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_east_anglia"
+			1143 = {
+			    add_resistance = -5
+			}
+			1004 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_east_anglia = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1004
+			controls_state = 1143
+			1143 = {
+			    compliance > 75
+			}
+			1004 = {
+			    compliance > 75
+            }
+			1143 = {
+			    resistance < 10
+			}
+			1004 = {
+			    resistance < 10
+            }				
+		}
+		visible = {
+			owns_state = 1004
+			owns_state = 1143
+			NOT = {
+				1004 = {
+					is_core_of = WES
+				}
+				1143 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1004
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_east_anglia"
+			add_state_core = 1004
+			add_state_core = 1143
+		}
+	}
+	WES_compliance_coring_west_midlands = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1152
+			controls_state = 1154
+			controls_state = 1146
+            controls_state = 1151			
+		}
+		visible = {
+			owns_state = 1152
+			owns_state = 1154
+			owns_state = 1146
+			owns_state = 1151
+			NOT = {
+				1152 = {
+					is_core_of = WES
+				}
+				1154 = {
+					is_core_of = WES
+				}
+				1146 = {
+					is_core_of = WES
+				}
+				1151 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1154
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_west_midlands"
+			1152 = {
+			    add_compliance = 10
+			}
+			1154 = {
+			    add_compliance = 10
+            }
+			1146 = {
+			    add_compliance = 10
+            }
+			1151 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_west_midlands = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1152
+			controls_state = 1154
+			controls_state = 1146
+			controls_state = 1151
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1152
+			owns_state = 1154
+			owns_state = 1146
+			owns_state = 1151
+			NOT = {
+				1152 = {
+					is_core_of = WES
+				}
+				1154 = {
+					is_core_of = WES
+				}
+				1146 = {
+					is_core_of = WES
+				}
+				1151 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1154
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_west_midlands"
+			1152 = {
+			    add_resistance = -5
+			}
+			1154 = {
+			    add_resistance = -5
+            }
+			1146 = {
+			    add_resistance = -5
+            }
+			1151 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_west_midlands = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1152
+			controls_state = 1154
+			controls_state = 1146
+			controls_state = 1151
+			1152 = {
+			    compliance > 75
+			}
+			1154 = {
+			    compliance > 75
+            }
+			1146 = {
+			    compliance > 75
+            }
+			1151 = {
+			    compliance > 75
+            }
+			1152 = {
+			    resistance < 10
+			}
+			1154 = {
+			    resistance < 10
+            }
+			1146 = {
+			    resistance < 10
+            }
+			1151 = {
+			    resistance < 10
+            }			
+		}
+		visible = {
+			owns_state = 1152
+			owns_state = 1154
+			owns_state = 1146
+			owns_state = 1151
+			NOT = {
+				1152 = {
+					is_core_of = WES
+				}
+				1154 = {
+					is_core_of = WES
+				}
+				1146 = {
+					is_core_of = WES
+				}
+				1151 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1154
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_west_midlands"
+			add_state_core = 1152
+			add_state_core = 1154
+			add_state_core = 1146
+			add_state_core = 1151
+		}
+	}
+	WES_compliance_coring_east_midlands = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1008
+			controls_state = 1155
+			controls_state = 1144
+            controls_state = 1005		
+		}
+		visible = {
+			owns_state = 1008
+			owns_state = 1155
+			owns_state = 1144
+			owns_state = 1005
+			NOT = {
+				1008 = {
+					is_core_of = WES
+				}
+				1155 = {
+					is_core_of = WES
+				}
+				1144 = {
+					is_core_of = WES
+				}
+				1005 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1155
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_east_midlands"
+			1008 = {
+			    add_compliance = 10
+			}
+			1155 = {
+			    add_compliance = 10
+            }
+			1144 = {
+			    add_compliance = 10
+            }
+			1005 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_east_midlands = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1008
+			controls_state = 1155
+			controls_state = 1144
+			controls_state = 1005
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1008
+			owns_state = 1155
+			owns_state = 1144
+			owns_state = 1005
+			NOT = {
+				1008 = {
+					is_core_of = WES
+				}
+				1155 = {
+					is_core_of = WES
+				}
+				1144 = {
+					is_core_of = WES
+				}
+				1005 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1155
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_east_midlands"
+			1008 = {
+			    add_resistance = -5
+			}
+			1155 = {
+			    add_resistance = -5
+            }
+			1144 = {
+			    add_resistance = -5
+            }
+			1005 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_east_midlands = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1008
+			controls_state = 1155
+			controls_state = 1144
+			controls_state = 1005
+			1008 = {
+			    compliance > 75
+			}
+			1155 = {
+			    compliance > 75
+            }
+			1144 = {
+			    compliance > 75
+            }
+			1005 = {
+			    compliance > 75
+            }
+			1008 = {
+			    resistance < 10
+			}
+			1155 = {
+			    resistance < 10
+            }
+			1144 = {
+			    resistance < 10
+            }
+			1005 = {
+			    resistance < 10
+            }			
+		}
+		visible = {
+			owns_state = 1008
+			owns_state = 1155
+			owns_state = 1144
+			owns_state = 1005
+			NOT = {
+				1008 = {
+					is_core_of = WES
+				}
+				1155 = {
+					is_core_of = WES
+				}
+				1144 = {
+					is_core_of = WES
+				}
+				1005 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1155
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_east_midlands"
+			add_state_core = 1008
+			add_state_core = 1155
+			add_state_core = 1144
+			add_state_core = 1005
+		}
+	}
+	WES_compliance_coring_northwest_england = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1009
+			controls_state = 1145		
+		}
+		visible = {
+			owns_state = 1009
+			owns_state = 1145
+			NOT = {
+				1009 = {
+					is_core_of = WES
+				}
+				1145 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1009
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_northwest_england"
+			1009 = {
+			    add_compliance = 10
+			}
+			1145 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_northwest_england = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1009
+			controls_state = 1145	
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1009
+			owns_state = 1145
+			NOT = {
+				1009 = {
+					is_core_of = WES
+				}
+				1145 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1009
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_northwest_england"
+			1145 = {
+			    add_resistance = -5
+			}
+			1009 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_northwest_england = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1009
+			controls_state = 1145
+			1145 = {
+			    compliance > 75
+			}
+			1009 = {
+			    compliance > 75
+            }
+			1145 = {
+			    resistance < 10
+			}
+			1009 = {
+			    resistance < 10
+            }				
+		}
+		visible = {
+			owns_state = 1009
+			owns_state = 1145
+			NOT = {
+				1009 = {
+					is_core_of = WES
+				}
+				1145 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1009
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_northwest_england"
+			add_state_core = 1009
+			add_state_core = 1145
+		}
+	}
+	WES_compliance_coring_yorkshire = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1010	
+		}
+		visible = {
+			owns_state = 1010
+			NOT = {
+				1010 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1010
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_yorkshire"
+			1010 = {
+			    add_compliance = 10
+			}
+		}
+	}
+	WES_resistance_coring_yorkshire = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1010	
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1010
+			NOT = {
+				1010 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1010
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_yorkshire"
+			1010 = {
+			    add_resistance = -5
+			}
+			add_manpower = -250
+		}
+	}
+	WES_coring_yorkshire = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1010
+			1010 = {
+			    compliance > 75
+			}
+			1010 = {
+			    resistance < 10
+			}				
+		}
+		visible = {
+			owns_state = 1009
+			NOT = {
+				1010 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1010
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_yorkshire"
+			add_state_core = 1010
+		}
+	}
+	WES_compliance_coring_northeast = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1011
+			controls_state = 1112	
+		}
+		visible = {
+			owns_state = 1011
+			owns_state = 1112
+			NOT = {
+				1011 = {
+					is_core_of = WES
+				}
+				1112 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1112
+		}
+		modifier = {
+			political_power_gain = -0.5
+		}
+		cost = 25
+		days_remove = 20
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_compliance_coring_northeast"
+			1011 = {
+			    add_compliance = 10
+			}
+			1112 = {
+			    add_compliance = 10
+            }
+		}
+	}
+	WES_resistance_coring_northeast = {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1011
+			controls_state = 1112	
+            has_manpower > 1000	
+            has_equipment = {
+                infantry_equipment_1 > 499
+            }
+		}
+		visible = {
+			owns_state = 1011
+			owns_state = 1112
+			NOT = {
+				1011 = {
+					is_core_of = WES
+				}
+				1112 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1112
+		}
+		modifier = {
+			political_power_gain = -0.5
+			weekly_manpower = -100
+		}
+		cost = 25
+		days_remove = 25
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_resistance_coring_northeast"
+			1112 = {
+			    add_resistance = -5
+			}
+			1011 = {
+			    add_resistance = -5
+            }
+			add_manpower = -250
+		}
+	}
+	WES_coring_northeast= {
+		icon = GFX_decision_generic_form_nation
+		available = {
+			controls_state = 1011
+			controls_state = 1112
+			1112 = {
+			    compliance > 75
+			}
+			1011 = {
+			    compliance > 75
+            }
+			1112 = {
+			    resistance < 10
+			}
+			1011 = {
+			    resistance < 10
+            }				
+		}
+		visible = {
+			owns_state = 1011
+			owns_state = 1112
+			NOT = {
+				1011 = {
+					is_core_of = WES
+				}
+				1112 = {
+					is_core_of = WES
+				}
+			}
+		}
+		highlight_states = {
+			state = 1112
+		}
+		modifier = {
+			political_power_gain = -0.10
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 50
+		fire_only_once = yes
+		remove_effect  = {
+			log = "[GetDateText]: [Root.GetName]: Decision WES_coring_northeast"
+			add_state_core = 1011
+			add_state_core = 1112
+		}
+	}
+}    

@@ -7,8 +7,8 @@ on_actions = {
 				}
 				WES = {
 					country_event = {
-						days = 1
-						id = WES_event.5
+						days = 10
+						id = WES_event.6
 					}
 				}
 			}

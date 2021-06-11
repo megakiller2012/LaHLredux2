@@ -13,3 +13,11 @@ WES_prisoners_of_war = {
 	allowed = { original_tag = WES }
 }
 
+WES_england_cores = {
+	icon = GFX_
+	visible = {
+	    has_completed_focus = WES_road_unification	
+	}
+	allowed = { original_tag = WES }
+}
+

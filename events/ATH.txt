@@ -1,0 +1,21 @@
+﻿add_namespace = ATH_event
+
+country_event = {
+	id = ATH_event.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ATH_event.1"}
+	title = ATH_event.1.t
+	desc = ATH_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = ATH_event.1.a
+		WES = {
+			country_event = {
+				days = 10
+				id = WES_event.7
+			}
+		}
+    } 
+}

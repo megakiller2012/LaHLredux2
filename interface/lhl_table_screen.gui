@@ -126,7 +126,13 @@ guiTypes = {
 		iconType = {
 			name = "lhl_slot_12_traitor"
 			spriteType = "GFX_lhl_henry_knight"
-			pdx_tooltip = ""
+			pdx_tooltip = "KNIGHT_HENRY_TRAITOR"
+			position = { x = 344 y = 111 }
+		}
+		iconType = {
+			name = "lhl_slot_12_henry"
+			spriteType = "GFX_lhl_henry_knight_redeemed"
+			pdx_tooltip = "KNIGHT_HENRY_REDEEMED"
 			position = { x = 344 y = 111 }
 		}
 		###Background###

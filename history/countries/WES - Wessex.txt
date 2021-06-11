@@ -29,6 +29,10 @@ set_popularities = {
 	ur_fascism = 5
 }
 
+add_ideas = {
+	WES_dynastic_crisis
+}
+
 create_country_leader = {
 	name = "George VII"
 	desc = "POLITICS_GEORGE_WEAK_DESC"
@@ -42,7 +46,7 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Sir Mike Jackson"
 		picture = "Portrait_WES_Sir_Mike_Jackson.dds"
-	traits = { harsh_leader	 old_guard }
+	traits = { harsh_leader }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2

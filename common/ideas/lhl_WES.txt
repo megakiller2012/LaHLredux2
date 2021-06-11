@@ -67,6 +67,17 @@ ideas = {
 			    production_factory_efficiency_gain_factor = 0.15
 			}
 		}
+		WES_dynastic_crisis = {   
+			picture = GFX_idea_WES_dynastic_crisis
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = -0.30
+			    political_power_factor = -0.10			
+			}
+		}
 	}
 	head_of_government = {
 	
