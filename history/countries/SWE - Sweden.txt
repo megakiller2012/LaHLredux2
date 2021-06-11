@@ -21,8 +21,80 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Gunnar Wetterberg"
-	picture = "Portrait_SWE_Gunnar_Wetterberg.dds"
+	name = "Jimmie Åkesson"
+	picture = "Portrait_SWE_Jimmie_Åkesson.dds"
 	ideology = national_populism
+	traits = {  }
+}
+
+###Others leaders###
+
+create_country_leader = {
+	name = "Nick Bostrom"
+	picture = "Portrait_SWE_Nick_Bostrom.dds"
+	ideology = ethical_millennialism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Per-Åke Westerlund"
+	picture = "Portrait_SWE_Povel_Johansson.dds"
+	ideology = ultrahegelianism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Jonas Sjöstedt"
+	picture = "Portrait_SWE_Jonas_Sjöstedt.dds"
+	ideology = soviet_marxism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Stefan Löfven"
+	picture = "Portrait_SWE_Britt_Bohlin.dds"
+	ideology = progressivism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Jan Björklund"
+	picture = "Portrait_SWE_Jan_Björklund.dds"
+	ideology = atlantic_liberalism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Anders Klarström"
+	picture = "Portrait_SWE_Anders_Klarström.dds"
+	ideology = national_conservatism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "William Petzäll"
+	picture = "Portrait_SWE_William_Petzäll.dds"
+	ideology = social_conservatism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Prince Carl Philip"
+	picture = "Portrait_SWE_Prince_Carl_Philip.dds"
+	ideology = autocracy
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Mehmet Kaplan"
+	picture = "Portrait_SWE_Mehmet_Kaplan.dds"
+	ideology = ecofascism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Olavi Voittonen"
+	picture = "Portrait_SWE_Olavi_Voittonen.dds"
+	ideology = theodemocracy
 	traits = {  }
 }

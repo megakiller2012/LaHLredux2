@@ -1,6 +1,6 @@
-capital = 
+capital = 323
 
-oob = "DEN_2020"
+oob = "SCA_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -21,81 +21,80 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Carsten Leth Schmidt"
-	picture = "Portrait_DEN_Carsten_Leth_Schmidt.dds"
-	ideology = green_autocracy
+	name = "Gunnar Wetterberg"
+	picture = "Portrait_SWE_Gunnar_Wetterberg.dds"
+	ideology = autocracy
 	traits = {  }
 }
 
 ###Others leaders###
 
 create_country_leader = {
-	name = "Jim Lyngvild"
-	picture = "Portrait_DEN_Jim_Lyngvild.dds"
+	name = "Nick Bostrom"
+	picture = "Portrait_SCA_Nick_Bostrom.dds"
 	ideology = ethical_millennialism
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Henning Mankell"
-	picture = "Portrait_DEN_Henning_Mankell.dds"
+	name = "Povel Johansson"
+	picture = "Portrait_SCA_Povel_Johansson.dds"
 	ideology = ultrahegelianism
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Henrik Stamer Hedin"
-	picture = "Portrait_DEN_Henrik_Stamer_Hedin.dds"
+	name = "Anders Carlsson"
+	picture = "Portrait_SCA_Anders_Carlsson.dds"
 	ideology = soviet_marxism
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Helle Thorning-Schmidt"
-	picture = "Portrait_DEN_Helle_Thorning-Schmidt.dds"
+	name = "Britt Bohlin"
+	picture = "Portrait_SCA_Britt_Bohlin.dds"
 	ideology = progressivism
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Lars_von_Trier"
-	picture = "Portrait_DEN_Lars_von_Trier.dds"
-	ideology = accelerationism
+	name = "Petter Stordalen"
+	picture = "Portrait_SCA_Petter_Stordalen.dds"
+	ideology = atlantic_liberalism
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Otto Jespersen"
-	picture = "Portrait_DEN_Otto_Jespersen.dds"
+	name = "Curt Linusson"
+	picture = "Portrait_SCA_Curt_Linusson.dds"
 	ideology = nazbol_gang
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Siv Jensen"
-	picture = "Portrait_DEN_Siv_Jensen.dds"
-	ideology = national_populism
+	name = "Jarvandi Nilsson"
+	picture = "Portrait_SCA_Jarvandi_Nilsson.dds"
+	ideology = social_conservatism
 	traits = {  }
 }
 
 create_country_leader = {
 	name = "Jens Stoltenberg"
-	picture = "Portrait_DEN_Jens_Stoltenberg.dds"
-	ideology = autocracy
+	picture = "Portrait_SCA_Jens_Stoltenberg.dds"
+	ideology = stratocracy
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Ludvig Nessa"
-	picture = "Portrait_DEN_Ludvig_Nessa.dds"
-	ideology = neo_feudalism
+	name = "Håkan Ljunggren"
+	picture = "Portrait_SCA_Håkan_Ljunggren.dds"
+	ideology = paleo_revolutionism
 	traits = {  }
 }
 
 create_country_leader = {
 	name = "Tore Tvedt"
-	picture = "Portrait_DEN_Tore_Tvedt.dds"
+	picture = "Portrait_SCA_Tore_Tvedt.dds"
 	ideology = charismatic_dictatorship
 	traits = {  }
 }
-

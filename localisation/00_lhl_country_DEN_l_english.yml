@@ -2,8 +2,26 @@
  ##LEADERS##
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
- DEN_socialism:0 "Freistaat Dänemark"
- DEN_socialism_DEF:0 "Freistaat Dänemark"
+ DEN_millenarism:0 "Denmark"
+ DEN_millenarism_DEF:0 "Kingdom of Denmark"
+ DEN_commendationism:0 "Denmark"
+ DEN_commendationism_DEF:0 "Danish Democratic Republic "
+ DEN_left_authoritarianism:0 "Denmark"
+ DEN_left_authoritarianism_DEF:0 "Danish communes"
+ DEN_socialism:0 "Denmark"
+ DEN_socialism_DEF:0 "Kingdom of Denmark"
+ DEN_neocameralism:0 "Denmark"
+ DEN_neocameralism_DEF:0 "Kingdom of Denmark"
+ DEN_national_bolshevism:0 "Denmark"
+ DEN_national_bolshevism_DEF:0 "Kingdom of Denmark"
+ DEN_right_populism:0 "Denmark"
+ DEN_right_populism_DEF:0 "Kingdom of Denmark"
+ DEN_hegemonism:0 "Denmark"
+ DEN_hegemonism_DEF:0 "Kingdom of Denmark"
+ DEN_regressionism:0 "Denmark"
+ DEN_regressionism_DEF:0 "Kingdom of Denmark"
+ DEN_ur_fascism:0 "Denmark"
+ DEN_ur_fascism_DEF:0 "Kingdom of Denmark"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

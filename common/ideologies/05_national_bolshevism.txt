@@ -9,6 +9,8 @@ ideologies = {
 			}
 			national_anarchism = {
 			}
+			national_conservatism = {
+			}
 		}
 		
 		dynamic_faction_names = {
