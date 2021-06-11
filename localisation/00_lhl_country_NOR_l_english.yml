@@ -2,8 +2,26 @@
  ##LEADERS##
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
- NOR_socialism:0 "Freistaat Norwegen"
- NOR_socialism_DEF:0 "Freistaat Norwegen"
+ NOR_millenarism:0 "Karmelberget"
+ NOR_millenarism_DEF:0 "Karmelberget"
+ NOR_commendationism:0 "Norway"
+ NOR_commendationism_DEF:0 "Red Army of Norway "
+ NOR_left_authoritarianism:0 "Norway"
+ NOR_left_authoritarianism_DEF:0 "Norwegian Socialist Republic"
+ NOR_socialism:0 "Norway"
+ NOR_socialism_DEF:0 "Kingdom of Norway"
+ NOR_neocameralism:0 "Norway"
+ NOR_neocameralism_DEF:0 "Kingdom of Norway"
+ NOR_national_bolshevism:0 "Norway"
+ NOR_national_bolshevism_DEF:0 "Norwegian Republic "
+ NOR_right_populism:0 "Norway"
+ NOR_right_populism_DEF:0 "Kingdom of Norway"
+ NOR_hegemonism:0 "Norway"
+ NOR_hegemonism_DEF:0 "Kingdom of Norway"
+ NOR_regressionism:0 "Norway"
+ NOR_regressionism_DEF:0 "Kingdom of Norway"
+ NOR_ur_fascism:0 "Norman State"
+ NOR_ur_fascism_DEF:0 "Norman State"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

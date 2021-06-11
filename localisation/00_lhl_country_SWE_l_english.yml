@@ -3,12 +3,26 @@
  ##POLITICAL PARTIES##
  SWE_ur_fascism_party:0 "Hovpartiet"
  ##COUNTRY NAME##
- SWE_ur_fascism:0 "Kingdom of Sweden"
+ SWE_millenarism:0 "Sweden"
+ SWE_millenarism_DEF:0 "Kingdom of Sweden"
+ SWE_commendationism:0 "Sweden"
+ SWE_commendationism_DEF:0 "Democratic People's Republic of Sweden"
+ SWE_left_authoritarianism:0 "Sweden"
+ SWE_left_authoritarianism_DEF:0 "Swedish Democratic Republic"
+ SWE_socialism:0 "Sweden"
+ SWE_socialism_DEF:0 "Kingdom of Sweden"
+ SWE_neocameralism:0 "Sweden"
+ SWE_neocameralism_DEF:0 "Kingdom of Sweden"
+ SWE_national_bolshevism:0 "Sweden"
+ SWE_national_bolshevism_DEF:0 "European Working Republic"
+ SWE_ur_fascism:0 "Sweden"
  SWE_ur_fascism_DEF:0 "Kingdom of Sweden"
- SWE_hegemonism:0 "Scandinavia"
- SWE_hegemonism_DEF:0 "Scandinavian Federation"
- SWE_right_populism:0 "Scandinavia"
- SWE_right_populism_DEF:0 "Scandinavian Federation"
+ SWE_hegemonism:0 "Sweden"
+ SWE_hegemonism_DEF:0 "Swedish Empire "
+ SWE_right_populism:0 "Sweden"
+ SWE_right_populism_DEF:0 "Government of National Salvation of Sweden"
+ SWE_regressionism:0 "Sweden"
+ SWE_regressionism_DEF:0 "Associations of Peace"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

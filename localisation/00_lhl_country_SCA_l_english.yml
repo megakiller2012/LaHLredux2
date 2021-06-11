@@ -1,0 +1,51 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ SWE_ur_fascism_party:0 "Hovpartiet"
+ ##COUNTRY NAME##
+ SCA_millenarism:0 "Scandinavia"
+ SCA_millenarism_DEF:0 "Scandinavian Unitary State"
+ SCA_commendationism:0 "Scandinavia"
+ SCA_commendationism_DEF:0 "Scandinavian Federal Socialist Republic "
+ SCA_left_authoritarianism:0 "Scandinavia"
+ SCA_left_authoritarianism_DEF:0 "United Socialist Scandinavian Republic "
+ SCA_socialism:0 "Nordic Council"
+ SCA_socialism_DEF:0 "Nordic Council"
+ SCA_neocameralism:0 "Scandinavia"
+ SCA_neocameralism_DEF:0 "Scandinavian Federation"
+ SCA_national_bolshevism:0 "Scandinavia"
+ SCA_national_bolshevism_DEF:0 "Scandinavian Federal Republic"
+ SCA_right_populism:0 "Scandinavia"
+ SCA_right_populism_DEF:0 "Scandinavian Federation"
+ SCA_hegemonism:0 "Scandinavia"
+ SCA_hegemonism_DEF:0 "Scandinavian Federation"
+ SCA_regressionism:0 "Nordic Community"
+ SCA_regressionism_DEF:0 "Nordic Asa-Community"
+ SCA_ur_fascism:0 "Vigrid"
+ SCA_ur_fascism_DEF:0 "Vigrid"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
+ 
+ _millenarism:0 ""
+ _millenarism_DEF:0 ""
+ _commendationism:0 ""
+ _commendationism_DEF:0 ""
+ _left_authoritarianism:0 ""
+ _left_authoritarianism_DEF:0 ""
+ _socialism:0 ""
+ _socialism_DEF:0 ""
+ _neocameralism:0 ""
+ _neocameralism_DEF:0 ""
+ _national_bolshevism:0 ""
+ _national_bolshevism_DEF:0 ""
+ _right_populism:0 ""
+ _right_populism_DEF:0 ""
+ _hegemonism:0 ""
+ _hegemonism_DEF:0 ""
+ _regressionism:0 ""
+ _regressionism_DEF:0 ""
+ _ur_fascism:0 ""
+ _ur_fascism_DEF:0 ""

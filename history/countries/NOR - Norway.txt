@@ -13,9 +13,88 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = commendationism
 	elections_allowed = no
 }
 set_popularities = {
-	socialism  = 100
+	commendationism  = 100
+}
+
+create_country_leader = {
+	name = "Øystein Aarseth"
+	picture = "Portrait_NOR_Øystein_Aarseth.dds"
+	ideology = leftwing_chauvinism
+	traits = {  }
+}
+
+###Others leaders###
+
+create_country_leader = {
+	name = "Lasse Thoresen"
+	picture = "Portrait_NOR_Lasse_Thoresen.dds"
+	ideology = ethical_millennialism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Henning Mankell"
+	picture = "Portrait_NOR_Henning_Mankell.dds"
+	ideology = ultrahegelianism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Zafer Gözet"
+	picture = "Portrait_NOR_Zafer_Gözet.dds"
+	ideology = soviet_marxism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Jonas Gahr Støre"
+	picture = "Portrait_NOR_Jonas_Gahr_Støre.dds"
+	ideology = progressivism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Jan Petersen"
+	picture = "Portrait_NOR_Jan_Petersen.dds"
+	ideology = atlantic_liberalism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Otto Jespersen"
+	picture = "Portrait_NOR_Otto_Jespersen.dds"
+	ideology = nazbol_gang
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Siv Jensen"
+	picture = "Portrait_NOR_Siv_Jensen.dds"
+	ideology = national_populism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Jens Stoltenberg"
+	picture = "Portrait_NOR_Jens_Stoltenberg.dds"
+	ideology = autocracy
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Ludvig Nessa"
+	picture = "Portrait_NOR_Ludvig_Nessa.dds"
+	ideology = neo_feudalism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Tore Tvedt"
+	picture = "Portrait_NOR_Tore_Tvedt.dds"
+	ideology = charismatic_dictatorship
+	traits = {  }
 }
