@@ -2,8 +2,26 @@
  ##LEADERS##
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
+ POL_millenarism:0 "Poland"
+ POL_millenarism_DEF:0 "Polish Unitary Republic "
+ POL_commendationism:0 "Poland"
+ POL_commendationism_DEF:0 "Polish People's Democratic Republic "
  POL_left_authoritarianism:0 "Poland"
- POL_left_authoritarianism_DEF:0 "Poland"
+ POL_left_authoritarianism_DEF:0 "Polish People's Republic "
+ POL_socialism:0 "Poland"
+ POL_socialism_DEF:0 "Republic of Poland"
+ POL_neocameralism:0 "Poland"
+ POL_neocameralism_DEF:0 "Republic of Poland"
+ POL_national_bolshevism:0 "Poland"
+ POL_national_bolshevism_DEF:0 "Polish Government of National Salvation"
+ POL_right_populism:0 "Poland"
+ POL_right_populism_DEF:0 "Republic of Poland"
+ POL_hegemonism:0 "Poland"
+ POL_hegemonism_DEF:0 "Republic of Poland"
+ POL_regressionism:0 "Slavic Union"
+ POL_regressionism_DEF:0 "Slavic Union"
+ POL_ur_fascism:0 "Lechia"
+ POL_ur_fascism_DEF:0 "Lechia"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

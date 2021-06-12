@@ -16,7 +16,7 @@ set_technology = {
 
 set_convoys = 5
 
-set_politics = {
+set_FINitics = {
 	ruling_party = regressionism
 	elections_allowed = no
 }
@@ -26,10 +26,83 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Pentti Linkola"
-	desc = "POLITICS_Pentti_Linkola_DESC"
+	desc = "FINITICS_Pentti_Linkola_DESC"
 	picture = "Portrait_FIN_Pentti_Linkola.dds"
 	ideology = ecofascism
 	traits = {
-		#
+		
 	}
 }
+
+###Others leaders###
+
+create_country_leader = {
+	name = "Terttu Savola"
+	picture = "Portrait_FIN_Terttu_Savola.dds"
+	ideology = ethical_millennialism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Aki Kaurismäki"
+	picture = "Portrait_FIN_Aki_Kaurismäki.dds"
+	ideology = ultrahegelianism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Juha-Pekka Väisänen"
+	picture = "Portrait_FIN_Juha-Pekka_Väisänen.dds"
+	ideology = soviet_marxism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Sanna Marin"
+	picture = "Portrait_FIN_Sanna_Marin.dds"
+	ideology = progressivism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Alexander Stubb"
+	picture = "Portrait_FIN_Alexander_Stubb.dds"
+	ideology = atlantic_liberalism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Georgij Alafuzoff"
+	picture = "Portrait_FIN_Georgij_Alafuzoff.dds"
+	ideology = nazbol_gang
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Jussi Halla-aho"
+	picture = "Portrait_FIN_Jussi_Halla-aho.dds"
+	ideology = social_conservatism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Taru Vuorela"
+	picture = "Portrait_FIN_Taru_Vuorela.dds"
+	ideology = autocracy
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Karol Weiher"
+	picture = "Portrait_FIN_Karol_Weiher.dds"
+	ideology = paleo_revolutionism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Lasse Naukkarinen"
+	picture = "Portrait_FIN_Lasse_Naukkarinen.dds"
+	ideology = charismatic_dictatorship
+	traits = {  }
+}
+
