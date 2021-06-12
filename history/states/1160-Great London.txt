@@ -7,8 +7,20 @@ state={
 		owner = ESS
 		add_core_of = ESS
 		victory_points = {
-			17548 20 
-		}
+			17539 20 
+			}
+			victory_points = {
+			17534 3
+			}
+			victory_points = {
+			15007 3
+			}
+			victory_points = {
+			17531 3
+			}
+			victory_points = {
+			17538 3
+			}
 
 	}
 

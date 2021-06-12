@@ -8,10 +8,11 @@ state={
 		add_core_of = ESS
 		victory_points
 		= {
-		2735 3 
+		 
+		17544 3
 		}
-		}
-
+		
+}
 	provinces={
 		2735 17537 17544 
 	}

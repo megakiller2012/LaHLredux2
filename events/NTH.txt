@@ -23,14 +23,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 		}
-		set_province_name = { id = 17548	name = VICTORY_POINTS_17548_NTH  }
+		set_province_name = { id = 17539	name = VICTORY_POINTS_17539_NTH  }
 		set_province_name = { id = 17510	name = VICTORY_POINTS_17510_NTH  }
 		set_province_name = { id = 17520	name = VICTORY_POINTS_17520_NTH  }
 		set_province_name = { id = 10508	name = VICTORY_POINTS_10508_NTH }
 		set_province_name = { id = 10760	name = VICTORY_POINTS_10760_NTH  }
 		set_province_name = { id = 17504	name = VICTORY_POINTS_17504_NTH  }
 		set_province_name = { id = 9091 	name = VICTORY_POINTS_9091_NTH  }
-		set_province_name = { id = 17527	name = VICTORY_POINTS_17527_NTH }
+		set_province_name = { id = 10733	name = VICTORY_POINTS_10733_NTH }
 		set_province_name = { id = 17542	name = VICTORY_POINTS_17542_NTH }
 		set_province_name = { id = 17578	name = VICTORY_POINTS_17578_NTH }
 		set_province_name = { id = 9396		name = VICTORY_POINTS_9396_NTH }
