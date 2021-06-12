@@ -126,15 +126,17 @@ HUN = "countries/Hungary.txt"
 ANR = "countries/Anarch Romania.txt"
 SBT = "countries/Sabbat Romania.txt"
 ###Arabia###
-BHR = "countries/Bahrain.txt"
+BHR = "countries/Bahrain.txt" ###Actually Saudi Arabia
+BAH = "countries/Real Bahrain.txt" ###Actually Saudi Arabia
 HAR = "countries/Hashemite Arabia.txt"
-SAR = "countrise/Saudi Arabia.txt"
+SAU = "countrise/Saudi Arabia.txt" ###actually not 
 OMA = "countries/Oman.txt"
 YEM = "countries/Yemen.txt"
 KUW = "countries/Kuwait.txt"
 QAT = "countries/Qatar.txt"
 EMI = "countries/Emirates.txt"
 UAS = "countries/United Arab State.txt"
+HOU = "countries/Houthis.txt"
 ###Iberia###
 SPA = "countries/Spain.txt"
 POR = "countries/Portugal.txt"
@@ -189,7 +191,7 @@ ISR = "countries/Israel.txt"
 SYR = "countries/Syria.txt" ###Pro-Iraq forces 
 TSY = "countries/Turkish Syria.txt" ###Atlantist Syria
 IRQ = "countries/Iraq.txt"
-SKD = "countries/Syrian Kurdistan.txt" ###Just Kurdistan
+SKD = "countries/Syrian Kurdistan.txt"
 DRU = "countries/Druze.txt"
 PAL = "countries/Palestine.txt"
 ###North Africa###

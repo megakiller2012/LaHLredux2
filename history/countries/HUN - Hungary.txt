@@ -31,7 +31,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Soros Györg"
+	name = "Györg Soros"
 	desc = "POLITICS_SOROS_DESC"
 	picture = "Portrait_HUN_Soros.dds"
 	ideology = atlantic_liberalism

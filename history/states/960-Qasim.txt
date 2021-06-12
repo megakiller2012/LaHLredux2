@@ -3,8 +3,13 @@ state={
 	id=960
 	name="STATE_960"
 	provinces={
-		98 1722 6264 9043 9682 13566 13578 13621 
+		19 536 964 993 1698 1846 1991 2807 3287 3464 3482 4115 5151 6260 6795 7056 8122 8343 8543 8878 9042 9425 9611 13304 13402 13451 13633 13705 13789 
 	}
-	manpower=1
+	history={
+		owner = BHR
+		add_core_of = BHR
+	}	
+	manpower=1988506
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

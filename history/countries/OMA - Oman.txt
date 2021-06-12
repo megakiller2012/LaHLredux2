@@ -12,17 +12,16 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
 
 set_popularities = {
-	right_populism  = 100
+	neocameralism  = 100
 }
 
 create_country_leader = {
 	name = "Qaboos bin Said al-Said"
 	picture = "Portrait_OMA_Qaboos_bin_Said_al_Said.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism
+	ideology = neo_reaction
 }

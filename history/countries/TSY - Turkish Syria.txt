@@ -12,20 +12,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
 
 set_popularities = {
-	socialism  = 100
+	neocameralism  = 100
 }
 
 create_country_leader = {
-	name = "Abdurrahman Mustafa"
-	picture = "Portrait_TSY_Abdurrahman_Mustafa.dds"
-	expire = "1953.3.1"
-	ideology = labor_socialism 
+	name = "Ribal al-Assad"
+	picture = "Portrait_TSY_Ribal_al_Assad.dds"
+	ideology = atlantic_liberalism 
 	traits = {
-		turkish_lapdog
 	}
 }

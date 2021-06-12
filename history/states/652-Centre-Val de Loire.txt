@@ -1,15 +1,18 @@
+
 state={
 	id=652
 	name="STATE_652"
-	provinces={
-		979 2151 2259 2521 4498 4621 6396 7299 7799 8156 9560 10988 10996 11027 11061 11067 11076 11116 11124 11144 11174 11185 11211 
-	}
-buildings_max_level_factor=1.000
-	manpower=1988506
-	state_category=pastoral
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = FRA
 		add_core_of = FRA
+
 	}
+
+	provinces={
+		6396 7299 7799 8156 9560 10988 10996 11027 11061 11067 11124 
+	}
+	manpower=1988506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
