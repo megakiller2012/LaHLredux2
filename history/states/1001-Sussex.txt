@@ -15,11 +15,15 @@ state={
 			air_base = 1
 			17508 = {
 				naval_base = 3
+
 			}
+
+		}
+
 	}
-}
+
 	provinces={
-		10732 10742 10763 17508 17519 17522 17524
+		10732 10742 10763 17508 17519 17522 
 	}
 	manpower=4588506
 	buildings_max_level_factor=1.000

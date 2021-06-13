@@ -6,16 +6,18 @@ state={
 		steel=45.000
 		aluminium=9.000
 	}
-	provinces={
-		2737 6430 10378 10398 17686 
-	}
-			history={
+
+	history={
 		owner = NTH
 		add_core_of = NTH
 		victory_points = {
 
 		}
 
+	}
+
+	provinces={
+		2737 6430 10378 10398 17686 
 	}
 	manpower=2602300
 	buildings_max_level_factor=1.000

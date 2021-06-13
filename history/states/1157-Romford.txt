@@ -7,14 +7,13 @@ state={
 		owner = ESS
 		add_core_of = ESS
 		victory_points = {
-			
 			14950 3 
 		}
 
 	}
 
 	provinces={
-		13587 14950 15014 17540 17553 17555 
+		13587 14950 17540 17553 17555 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
