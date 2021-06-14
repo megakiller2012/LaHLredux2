@@ -19,15 +19,6 @@ set_popularities = {
 	left_authoritarianism = 100
 }
 
-create_country_leader = {
-	name = "Janusz Korwin-Mikke"
-	desc = "POLITICS_KORWIN_MIKKE_DESC"
-	picture = "Portrait_Salvation_Poland_Korwin_Mikke.dds"
-	ideology = atlantic_liberalism
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Andrzej Lepper"
@@ -38,3 +29,76 @@ create_country_leader = {
 		#
 	}
 }
+
+###Others leaders###
+
+create_country_leader = {
+	name = "Riccardo Campa"
+	picture = "Portrait_POL_Riccardo_Campa.dds"
+	ideology = ethical_millennialism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Johanne Schmidt-Nielsen"
+	picture = "Portrait_POL_Johanne_Schmidt-Nielsen.dds"
+	ideology = ultrahegelianism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Krzysztof Szwej"
+	picture = "Portrait_POL_Krzysztof_Szwej.dds"
+	ideology = soviet_marxism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Paulina Matysiak"
+	picture = "Portrait_POL_Paulina_Matysiak.dds"
+	ideology = progressivism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Adam Szłapka"
+	picture = "Portrait_POL_Adam_Szłapka.dds"
+	ideology = atlantic_liberalism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Aleksander Jabłonowski"
+	picture = "Portrait_POL_Aleksander_Jabłonowski.dds"
+	ideology = national_anarchism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Robert Winnicki"
+	picture = "Portrait_POL_Robert_Winnicki.dds"
+	ideology = social_conservatism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Lech Kaczyński"
+	picture = "Portrait_POL_Lech_Kaczyński.dds"
+	ideology = autocracy
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Karol Weiher"
+	picture = "Portrait_POL_Karol_Weiher.dds"
+	ideology = paleo_revolutionism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Grzegorz Braun"
+	picture = "Portrait_POL_Grzegorz_Braun.dds"
+	ideology = charismatic_dictatorship
+	traits = {  }
+}
+

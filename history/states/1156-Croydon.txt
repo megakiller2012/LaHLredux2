@@ -7,13 +7,16 @@ state={
 		owner = SUS
 		add_core_of = SUS
 		victory_points = {
-			17529 4 
+			10733 3 
+		}
+		victory_points = {
+			17533 3 
 		}
 
 	}
 
 	provinces={
-		10733 17529 17533 
+		10733 17524 17529 17533 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

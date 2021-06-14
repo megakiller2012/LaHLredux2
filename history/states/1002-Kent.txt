@@ -6,11 +6,11 @@ state={
 	history={
 		owner = KNT
 		add_core_of = KNT
-	victory_points = {
+		victory_points = {
 			17510 15 
 		}
-			victory_points = {
-			17520 10
+		victory_points = {
+			17520 10 
 		}
 		buildings = {
 			infrastructure = 4
@@ -18,11 +18,15 @@ state={
 			air_base = 1
 			17510 = {
 				naval_base = 3
+
 			}
+
+		}
+
 	}
-}
+
 	provinces={
-		6426 17509 17510 17514 17520 17523 
+		3702 6426 17509 17510 17514 17520 17523 
 	}
 	manpower=2734564
 	buildings_max_level_factor=1.000

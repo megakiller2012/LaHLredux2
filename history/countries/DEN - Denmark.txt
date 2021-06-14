@@ -37,8 +37,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henning Mankell"
-	picture = "Portrait_DEN_Henning_Mankell.dds"
+	name = "Johanne Schmidt-Nielsen"
+	picture = "Portrait_DEN_Johanne_Schmidt-Nielsen.dds"
 	ideology = ultrahegelianism
 	traits = {  }
 }
@@ -65,36 +65,36 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Otto Jespersen"
-	picture = "Portrait_DEN_Otto_Jespersen.dds"
+	name = "Morten Uhrskov Jensen"
+	picture = "Portrait_DEN_Morten_Uhrskov_Jensen.dds"
 	ideology = nazbol_gang
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Siv Jensen"
-	picture = "Portrait_DEN_Siv_Jensen.dds"
+	name = "Rasmus Paludan"
+	picture = "Portrait_DEN_Rasmus_Paludan.dds"
 	ideology = national_populism
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Jens Stoltenberg"
-	picture = "Portrait_DEN_Jens_Stoltenberg.dds"
+	name = "Susanna Dyre-Greensite"
+	picture = "Portrait_DEN_Susanna_Dyre-Greensite.dds"
 	ideology = autocracy
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Ludvig Nessa"
-	picture = "Portrait_DEN_Ludvig_Nessa.dds"
-	ideology = neo_feudalism
+	name = "Eskild Tjalve"
+	picture = "Portrait_DEN_Eskild_Tjalve.dds"
+	ideology = paleo_revolutionism
 	traits = {  }
 }
 
 create_country_leader = {
-	name = "Tore Tvedt"
-	picture = "Portrait_DEN_Tore_Tvedt.dds"
+	name = "Daniel Carlsen"
+	picture = "Portrait_DEN_Daniel_Carlsen.dds"
 	ideology = charismatic_dictatorship
 	traits = {  }
 }

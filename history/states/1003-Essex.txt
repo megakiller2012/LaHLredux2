@@ -6,14 +6,12 @@ state={
 		steel=3.000
 	}
 	provinces={
-		2559 5582 10680 17541 17556 17557 17561 17571 
+		5582 10680 17541 17556 17557 17561 17571 
 	}
 		history={
 		owner = ESS
 		add_core_of = ESS
-		victory_points
-		
-		= {
+		victory_points = {
 		10680 4
 		}
 				buildings = {
@@ -24,7 +22,7 @@ state={
 				naval_base = 6
 			}
 		}
-		}
+	}
 	manpower=12602427
 	buildings_max_level_factor=1.000
 	state_category=metropolis
