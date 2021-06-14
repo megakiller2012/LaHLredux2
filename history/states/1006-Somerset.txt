@@ -2,16 +2,12 @@
 state={
 	id=1006
 	name="STATE_1006"
-	provinces={
-		2310 10741 17515 17521 17527 
-	}
-	manpower=1
-			history={
+
+	history={
 		owner = WES
 		add_core_of = WES
-		victory_points
-		= {
-		17527 10
+		victory_points = {
+			17527 10 
 		}
 		buildings = {
 			infrastructure = 4
@@ -19,9 +15,17 @@ state={
 			air_base = 1
 			17527 = {
 				naval_base = 4
+
 			}
+
 		}
-		}
+
+	}
+
+	provinces={
+		2310 5008 10741 17515 17521 17527 
+	}
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

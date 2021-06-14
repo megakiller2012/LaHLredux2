@@ -489,6 +489,7 @@ shared_focus = {
 				id = WES_event.12
 			}
 		}
+		custom_effect_tooltip = WES_road_unification.tt
 	}
 	cost = 3.5
 	x = 29
@@ -640,12 +641,23 @@ shared_focus = {
 	prerequisite = {
         focus = WES_road_unification
 	}
+	bypass = {
+	    NOT = {
+		    country_exists = KNT
+		}			
+	}
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
 			target = KNT
 			expire = 0
 		} 
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.13
+			}
+		}
 	}
 	cost = 3.5
 	x = 26
@@ -658,6 +670,11 @@ shared_focus = {
 	prerequisite = {
         focus = WES_road_unification
 	}
+	bypass = {
+	    NOT = {
+		    country_exists = ESS
+		}			
+	}
 	mutually_exclusive = {
 	    focus = WES_teuton_intruders
 	}
@@ -666,7 +683,13 @@ shared_focus = {
 			type = annex_everything
 			target = ESS
 			expire = 0
-		} 
+		}
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.14
+			}
+		}		
 	}
 	cost = 3.5
 	x = 30
@@ -679,12 +702,23 @@ shared_focus = {
 	prerequisite = {
         focus = WES_road_unification
 	}
+	bypass = {
+	    NOT = {
+		    country_exists = NTH
+		}			
+	}
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
 			target = NTH
 			expire = 0
 		} 
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.15
+			}
+		}
 	}
 	cost = 3.5
 	x = 32
@@ -700,12 +734,23 @@ shared_focus = {
 	mutually_exclusive = {
 	    focus = WES_retake_capital
 	}
+	bypass = {
+	    NOT = {
+		    country_exists = EAG
+		}			
+	}
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
 			target = EAG
 			expire = 0
 		} 
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.16
+			}
+		}
 	}
 	cost = 3.5
 	x = 28
@@ -722,10 +767,16 @@ shared_focus = {
         focus = WES_place_anglophobes
 	}
 	prerequisite = {
+        focus = WES_retake_capital
         focus = WES_teuton_intruders
 	}
-	prerequisite = {
-        focus = WES_retake_capital
+	completion_reward = {
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.22
+			}
+		}
 	}
 	cost = 3.5
 	x = 29
@@ -740,6 +791,33 @@ shared_focus = {
 	}
 	mutually_exclusive = {
 	    focus = WES_mutual_prosperity
+	}
+	completion_reward = {
+	    if = { 
+		    limit = {
+			    country_exists = SCO
+			}
+			OR = {
+			    country_exists = WLS
+            }			
+			WES = {
+				country_event = {
+					days = 1
+					id = WES_event.24
+				}
+			}
+		}
+	    if = { 
+		    limit = {
+			    country_exists = IRE
+			}			
+			WES = {
+				country_event = {
+					days = 1
+					id = WES_event.27
+				}
+			}
+		}
 	}
 	cost = 3.5
 	x = 28

@@ -19,6 +19,18 @@ set_popularities = {
 	right_populism = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = SCO
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = WLS
+    value = 200
+}
+
 create_country_leader = {
 	name = ""
 	desc = ""

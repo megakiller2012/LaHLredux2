@@ -2,19 +2,18 @@
 state={
 	id=999
 	name="STATE_999"
-	provinces={
-		1522 8046 17502 17505 17507 17513 
-	}
-		history={
+
+	history={
 		owner = WES
 		add_core_of = WES
-		victory_points
-		
-		= {
-		8046 3
-		
+		victory_points = {
+			8046 3 
 		}
 
+	}
+
+	provinces={
+		1522 8046 15037 17502 17505 17507 17513 
 	}
 	manpower=1758506
 	buildings_max_level_factor=1.000
