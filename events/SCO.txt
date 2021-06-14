@@ -1,0 +1,73 @@
+﻿add_namespace = SCO_event
+
+country_event = {
+	id = SCO_event.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SCO_event.1"}
+	title = SCO_event.1.t
+	desc = SCO_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = SCO_event.1.a
+		ai_chance = { factor = 0 }
+		WLS = {
+			country_event = {
+				days = 1
+				id = WLS_event.1
+			}
+		}
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.23
+			}
+		}
+        create_faction = CELTIC_ALLIANCE
+    }
+	option = {
+	    name = SCO_event.2.b
+		ai_chance = { factor = 1 }
+		WLS = {
+			country_event = {
+				days = 1
+				id = WLS_event.3
+			}
+		}
+    } 	
+}
+
+country_event = {
+	id = SCO_event.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SCO_event.2"}
+	title = SCO_event.2.t
+	desc = SCO_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = SCO_event.2.a
+		ai_chance = { factor = 1 }
+		WES = {
+		    annex_country = {
+            target = SCO
+            transfer_troops = yes
+        }
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.25
+			}
+		}
+    }
+	option = {
+	    name = SCO_event.2.b
+		ai_chance = { factor = 10 }
+        declare_war_on = {
+            target = WES
+            type = annex_everything
+        }
+    } 	
+}
