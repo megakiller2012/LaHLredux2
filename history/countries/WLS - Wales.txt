@@ -20,6 +20,18 @@ set_popularities = {
 	socialism  = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = SCO
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = IRE
+    value = 200
+}
+
 create_country_leader = {
 	name = "Welsh Leader"
 	picture = ".dds"

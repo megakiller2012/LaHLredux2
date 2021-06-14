@@ -1,0 +1,18 @@
+on_actions = {
+    on_capitulation = {
+	    effect = {
+		    if = {
+			    limit = {
+			        FROM = { tag = WES }
+					ROOT = { tag = MRC }
+				}
+				WES = {
+					country_event = {
+						days = 1
+						id = WES_event.19
+					}
+				}
+			}
+		}
+	}
+}					  
