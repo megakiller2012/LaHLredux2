@@ -649,6 +649,22 @@ country_event = {
     } 	
 }
 
+country_event = {
+	id = WES_event.28
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.28"}
+	title = WES_event.28.t
+	desc = WES_event.28.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.28.a
+	    add_political_power = 15
+    } 
+}
+
+
 
 
 

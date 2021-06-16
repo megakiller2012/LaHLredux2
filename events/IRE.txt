@@ -59,6 +59,12 @@ country_event = {
         WES = { 
 		    transfer_state = 1019
 		}
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.28
+			}
+		}
     }
 	option = {
 	    name = IRE_event.3.b

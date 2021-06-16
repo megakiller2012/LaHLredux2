@@ -1546,6 +1546,9 @@ WES_reunify_isles = {
             WES = { 
 			    set_cosmetic_tag = WES_REUNIFIED
 			}
+			hidden_effect = {
+				  news_event = { id = lhl_news.4 days = 1 }
+			}	
 		}
 	}
 }    

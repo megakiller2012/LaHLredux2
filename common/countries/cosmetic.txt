@@ -1,3 +1,4 @@
 WES_REUNIFIED = {
-        color = rgb { 201  56  93 }
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
 }

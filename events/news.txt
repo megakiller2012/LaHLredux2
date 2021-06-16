@@ -78,3 +78,26 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = lhl_news.4
+	title = lhl_news.4.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.4"}
+	desc = lhl_news.4.d
+	picture = GFX_WES_reunification_event
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.4.a
+		trigger = { TAG = WES }
+	}
+	option = {
+		name = lhl_news.4.b
+		trigger = { 
+			NOT = { 
+				TAG = WES
+			}
+		}
+	}
+}

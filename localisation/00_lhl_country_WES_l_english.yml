@@ -337,6 +337,10 @@
  WES_event.27.a:0 "Demand Ulster!"
  WES_event.27.b:0 "We shall take what is ours by force!"
  WES_event.27.c:0 "Fuck it, we are taking all of Ireland. To arms men!"
+ #
+ WES_event.28.t:0 "Ireland surrenders Ulster!"
+ WES_event.28.d:0 "Ireland has decided to surrender Ulster peacefully!" 
+ WES_event.28.a:0 "Great!"
  ##NEW GUI##
  KNIGHT_SLEEPS:0 "This Knight is not yet present on the table"
  KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n\§YFisher King§!\n\- War Support: §R-50.00%§!\n\- Stability: §R-10.00%§!\n\- Daily Political Power Gain: §R-0.10%§!"

@@ -11,4 +11,8 @@ spriteTypes = {
 		name = "GFX_mongol_nazi"
 		texturefile = "gfx/event_pictures/mongol_nazi.dds"
 	}	
+	spriteType = {
+		name = "GFX_WES_reunification_event"
+		texturefile = "gfx/event_pictures/WES_reunification_event.dds"
+	}	
 }
