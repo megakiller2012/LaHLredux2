@@ -17,7 +17,7 @@ focus_tree = {
 		id = ESS_luciferoverlondon
 		icon = GFX_goal_unknown
 		cost = 10
-		x = 5
+		x = 4
 		y = 0
 
 	}
@@ -25,7 +25,7 @@ focus_tree = {
 		id = ESS_national_revolutionary_army
 		icon = GFX_goal_unknown
 		cost = 10
-		x = 23
+		x = 21
 		y = 0
 
 	}
@@ -39,7 +39,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ESS_sword_of_the_republic
 		}
-		x = 19
+		x = 18
 		y = 1
 
 	}
@@ -61,7 +61,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_decentralized_command
 	}
-		x = 21
+		x = 19
 		y = 2
 
 	}
@@ -72,7 +72,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_decentralized_command
 	}
-		x = 19
+		x = 18
 		y = 3
 
 	}
@@ -94,7 +94,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_elevate_warlords
 	}
-		x = 21
+		x = 19
 		y = 4
 
 	}
@@ -111,7 +111,7 @@ focus_tree = {
 	prerequisite = {
 		focus = ESS_contacts_with_local_rebels
 	}
-		x = 19
+		x = 18
 		y = 5
 
 	}
@@ -122,7 +122,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_national_revolutionary_army
 	}
-		x = 23
+		x = 21
 		y = 3
 
 	}
@@ -136,7 +136,7 @@ focus_tree = {
 	mutually_exclusive = {
 			focus = ESS_decentralized_command
 		}
-	x = 27
+	x = 24
 	y = 1
 	}
 	focus = {
@@ -146,7 +146,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_sword_of_the_republic
 	}
-		x = 25
+		x = 23
 		y = 2
 
 	}
@@ -157,7 +157,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_sword_of_the_republic
 	}
-		x = 29
+		x = 25
 		y = 2
 
 	}
@@ -168,7 +168,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_sword_of_the_republic
 	}
-		x = 27
+		x = 24
 		y = 3
 
 	}
@@ -179,7 +179,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_revive_military_provost
 	}
-		x = 25
+		x = 23
 		y = 4
 
 	}
@@ -190,7 +190,7 @@ focus_tree = {
 		prerequisite = {
 		focus = ESS_suppress_independent_warlords
 	}
-		x = 29
+		x = 25
 		y = 4
 
 	}
@@ -207,7 +207,7 @@ focus_tree = {
 	prerequisite = {
 		focus = ESS_introduce_military_ranks
 	}
-		x = 27
+		x = 24
 		y = 5
 
 	}	
@@ -292,8 +292,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = ESS_peoples_militia
 			focus = ESS_expropriating_the_expropriators
+		}
+		prerequisite = {
+			focus = ESS_peoples_militia
 		}
 		x = 1
 		y = 3
@@ -350,6 +352,8 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = ESS_happiness_is_a_warm_gun
+		}
+		prerequisite = {
 			focus = ESS_lawless_welfare
 		}
 		x = 1
@@ -442,7 +446,11 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = ESS_meet_the_anarchists
+		}
+		prerequisite = {
 			focus = ESS_secure_the_tower
+		}
+		prerequisite = {
 			focus = ESS_secularization
 		}
 		x = 7
