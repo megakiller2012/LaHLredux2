@@ -1,0 +1,132 @@
+ENG_annexation_decisions = {
+
+	# Scotland
+	annexation_SCO = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		available = {
+            NOT = {
+			    original_tag = SCO
+			}
+        }
+        activation = {                     
+			controls_state = 1013
+			owns_state = 1013
+			controls_state = 1014
+			owns_state = 1014
+			controls_state = 1162
+			owns_state = 1162
+			controls_state = 1015
+			owns_state = 1015
+			controls_state = 1164
+			owns_state = 1164
+			controls_state = 1163
+			owns_state = 1163
+			controls_state = 1016
+			owns_state = 1016
+			controls_state = 1120
+			owns_state = 1120 	
+            NOT = {
+			    original_tag = SCO
+			}				
+        }
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_SCO"
+			country_event = ENG_annex.1
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SCO"
+			ROOT = {
+			    add_stability = -0.5
+				add_political_power = -200
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+	}
+
+	# Ireland
+	annexation_IRE = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		available = {
+            NOT = {
+			    original_tag = IRE
+			}
+        }
+        activation = {                     
+			controls_state = 1022
+			owns_state = 1022
+			controls_state = 1023
+			owns_state = 1023
+			controls_state = 1024
+			owns_state = 1024
+			controls_state = 1021
+			owns_state =  1021
+			controls_state = 1020
+			owns_state = 1020
+            NOT = {
+			    original_tag = IRE
+			}				
+        }
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_IRE"
+			country_event = ENG_annex.2
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IRE"
+			ROOT = {
+			    add_stability = -0.5
+				add_political_power = -200
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		fire_only_once = yes
+	}	
+
+	# Wales
+	annexation_WLS = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		available = {
+            NOT = {
+			    original_tag = WLS
+			}
+        }
+        activation = {                     
+			controls_state = 1148
+			owns_state = 1148
+			controls_state = 1149
+			owns_state = 1149
+			controls_state = 1150
+			owns_state = 1150
+			controls_state = 1147
+			owns_state = 1147  
+            NOT = {
+			    original_tag = WLS
+			}				
+        }
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_WLS"
+			country_event = ENG_annex.3
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WLS"
+			ROOT = {
+			    add_stability = -0.5
+				add_political_power = -200
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	    fire_only_once = yes
+	}
+}

@@ -521,6 +521,9 @@ country_event = {
 					id = SCO_event.1
 				}
 			}
+			WES = {
+				set_cosmetic_tag = WES_ENGLAND
+			}
         }
     } 
 }
@@ -662,6 +665,84 @@ country_event = {
 	    name = WES_event.28.a
 	    add_political_power = 15
     } 
+}
+
+country_event = {
+	id = WES_event.29
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.29"}
+	title = WES_event.29.t
+	desc = WES_event.29.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.29.a
+    } 
+	option = {
+	    name = WES_event.29.b
+    } 
+	option = {
+	    name = WES_event.29.c
+		SCO = {
+			create_country_leader = {
+				name = "Bashar al-Assad"
+				picture = "Portrait_SCO_Bashar_al-Assad.dds"
+				expire = "1953.3.1"
+				ideology = neo_feudalism
+			}
+		}
+    }
+	option = {
+	    name = WES_event.29.e
+    } 	
+}
+
+country_event = {
+	id = WES_event.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.30"}
+	title = WES_event.30.t
+	desc = WES_event.30.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.30.a
+    } 
+	option = {
+	    name = WES_event.30.b
+    } 
+	option = {
+	    name = WES_event.30.c
+    }
+	option = {
+	    name = WES_event.30.e
+    } 	
+}
+
+country_event = {
+	id = WES_event.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WES_event.31"}
+	title = WES_event.31.t
+	desc = WES_event.31.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = WES_event.31.a
+    } 
+	option = {
+	    name = WES_event.31.b
+    } 
+	option = {
+	    name = WES_event.31.c
+
+    }
+	option = {
+	    name = WES_event.31.e
+    } 	
 }
 
 

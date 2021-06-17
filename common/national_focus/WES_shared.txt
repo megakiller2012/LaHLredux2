@@ -777,6 +777,11 @@ shared_focus = {
 				id = WES_event.22
 			}
 		}
+		hidden_effect = {
+			WES = {
+				set_cosmetic_tag = WES_ENGLAND
+			}
+		}
 	}
 	cost = 3.5
 	x = 29
@@ -818,6 +823,7 @@ shared_focus = {
 				}
 			}
 		}
+	    custom_effect_tooltip = WES_masters_and_slaves.tt
 	}
 	cost = 3.5
 	x = 28
@@ -832,6 +838,9 @@ shared_focus = {
 	}
 	mutually_exclusive = {
 	    focus = WES_masters_slaves
+	}
+	completion_reward = {
+	    custom_effect_tooltip = WES_mutual_cooperation.tt
 	}
 	cost = 3.5
 	x = 30

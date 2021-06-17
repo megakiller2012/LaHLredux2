@@ -1,0 +1,215 @@
+﻿add_namespace = ENG_annex
+
+country_event = { #Fate of Scotland
+	id = ENG_annex.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG_annex.1 FROM = [From.GetName]" }
+	title = ENG_annex.1.t
+	desc = ENG_annex.1.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { 
+		name = ENG_annex.1.wes.a
+	    if = { 
+		    limit = {
+                original_tag = WES
+			}
+			release_puppet = SCO
+			SCO = {
+			    if = {
+				    limit = {
+						WES = {
+							has_cosmetic_tag = WES_REUNIFIED
+						}
+					}
+					SCO = {
+					    set_cosmetic_tag = WES_SCO_PUPPET2
+						
+						create_country_leader = {
+							name = "No Authority"
+							picture = "Portrait_SCO_No_Authority.dds"
+							expire = "1953.3.1"
+							ideology = neo_feudalism
+	                    }
+                    }						
+				}
+				else = {
+					SCO = {
+					    set_cosmetic_tag = WES_SCO_PUPPET
+						
+						create_country_leader = {
+							name = "No Authority"
+							picture = "Portrait_SCO_No_Authority.dds"
+							expire = "1953.3.1"
+							ideology = neo_feudalism
+					    }
+					}
+				}
+			}
+			WES = {
+				country_event = {
+					days = 3
+					id = WES_event.29
+				}
+			}
+        }			
+	}
+	option = { 
+		name = ENG_annex.1.wes.b
+	    if = { 
+		    limit = {
+                original_tag = WES
+			}
+			ai_chance = {
+				base = 0
+			}
+			add_stability = -0.5
+		}
+	}
+}
+
+country_event = { #Fate of Ireland
+	id = ENG_annex.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG_annex.2 FROM = [From.GetName]" }
+	title = ENG_annex.2.t
+	desc = ENG_annex.2.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { 
+		name = ENG_annex.2.wes.a
+	    if = { 
+		    limit = {
+                original_tag = WES
+			}
+			release_puppet = IRE
+			IRE = {
+			    if = {
+				    limit = {
+						WES = {
+							has_cosmetic_tag = WES_REUNIFIED
+						}
+					}
+					IRE = {
+					    set_cosmetic_tag = WES_IRE_PUPPET2
+						
+						create_country_leader = {
+							name = "No Authority"
+							picture = "Portrait_IRE_No_Authority.dds"
+							expire = "1953.3.1"
+							ideology = neo_feudalism
+	                    }
+						WES = {
+						    set_state_owner = 1019
+						}
+                    }						
+				}
+				else = {
+					IRE = {
+					    set_cosmetic_tag = WES_IRE_PUPPET
+						
+						create_country_leader = {
+							name = "No Authority"
+							picture = "Portrait_IRE_No_Authority.dds"
+							expire = "1953.3.1"
+							ideology = neo_feudalism
+					    }
+						WES = {
+						    set_state_owner = 1019
+						}
+					}
+				}
+			}
+			WES = {
+				country_event = {
+					days = 3
+					id = WES_event.30
+				}
+			}
+        }		
+	}
+	option = { 
+		name = ENG_annex.2.wes.b
+	    if = { 
+		    limit = {
+                original_tag = WES
+			}
+			ai_chance = {
+				base = 0
+			}
+			add_stability = -0.5
+		}
+	}
+}
+
+country_event = { #Fate of Wales
+	id = ENG_annex.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG_annex.3 FROM = [From.GetName]" }
+	title = ENG_annex.3.t
+	desc = ENG_annex.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = { 
+		name = ENG_annex.3.wes.a
+	    if = { 
+		    limit = {
+                original_tag = WES
+			}
+			release_puppet = WLS
+			WLS = {
+			    if = {
+				    limit = {
+						WES = {
+							has_cosmetic_tag = WES_REUNIFIED
+						}
+					}
+					WLS = {
+					    set_cosmetic_tag = WES_WLS_PUPPET2
+						
+						create_country_leader = {
+							name = "No Authority"
+							picture = "Portrait_WLS_No_Authority.dds"
+							expire = "1953.3.1"
+							ideology = neo_feudalism
+	                    }
+                    }						
+				}
+				else = {
+					WLS = {
+					    set_cosmetic_tag = WES_WLS_PUPPET
+						
+						create_country_leader = {
+							name = "No Authority"
+							picture = "Portrait_IRE_No_Authority.dds"
+							expire = "1953.3.1"
+							ideology = neo_feudalism
+					    }
+					}
+				}
+			}
+			WES = {
+				country_event = {
+					days = 3
+					id = WES_event.31
+				}
+			}
+        }			
+	}
+	option = { 
+		name = ENG_annex.3.wes.b
+	    if = { 
+		    limit = {
+                original_tag = WES
+			}
+			ai_chance = {
+				base = 0
+			}
+			add_stability = -0.5
+		}
+	}
+}
+

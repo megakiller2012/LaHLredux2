@@ -50,6 +50,7 @@
  collapsed_name:0 "Wessex"
  collapsed_name_DEF:0 "Wessex"
  WES_REUNIFIED:0 "Kingdom Of Great Britain"
+ WES_ENGLAND:0 "Kingdom of England"
  ##TRAITS##
  fisher_king:0 "Fisher King"
  new_pendragon:0 "New Pendragon"
@@ -341,6 +342,27 @@
  WES_event.28.t:0 "Ireland surrenders Ulster!"
  WES_event.28.d:0 "Ireland has decided to surrender Ulster peacefully!" 
  WES_event.28.a:0 "Great!"
+ #
+ WES_event.29.t:0 "The future of Scotland"
+ WES_event.29.d:0 "We have succesfully created a puppet state in Scotland. At this point only one question remains - who is fit for ruling this troubled land, until it can be fully integrated into Great Britain again. Several options present." 
+ WES_event.29.a:0 "A member of the royal family will do. Send Prince William there."
+ WES_event.29.b:0 "A true noble is up for the challenge! Call Knight Ponasenkov."
+ WES_event.29.c:0 "A troubled land needs a firm hand. Knight Bashar shall handle this."
+ WES_event.29.e:0 "Scotland should be ruled by the scots. Set up a local administration."
+ #
+ WES_event.30.t:0 "The future of Ireland"
+ WES_event.30.d:0 "We have succesfully created a puppet state in Ireland. At this point only one question remains - who is fit for ruling this troubled land, until it can be fully integrated into Great Britain again. Several options present." 
+ WES_event.30.a:0 "Assign Knight 1"
+ WES_event.30.b:0 "Assign Knight 2"
+ WES_event.30.c:0 "Assign Knight 3"
+ WES_event.30.e:0 "Assign Knight 4"
+ #
+ WES_event.31.t:0 "The future of Wales"
+ WES_event.31.d:0 "We have succesfully created a puppet state in Wales. At this point only one question remains - who is fit for ruling this troubled land, until it can be fully integrated into Great Britain again. Several options present." 
+ WES_event.31.a:0 "Assign Knight 1"
+ WES_event.31.b:0 "Assign Knight 2"
+ WES_event.31.c:0 "Assign Knight 3"
+ WES_event.31.e:0 "Assign Knight 4"
  ##NEW GUI##
  KNIGHT_SLEEPS:0 "This Knight is not yet present on the table"
  KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n\§YFisher King§!\n\- War Support: §R-50.00%§!\n\- Stability: §R-10.00%§!\n\- Daily Political Power Gain: §R-0.10%§!"
@@ -350,4 +372,7 @@
  ##TOOLTIP##
  ENG_henry_here:0 "Prince Harry has been captured"
  WES_road_unification.tt:0 "§GWe will be able to core states of England.§!"
- WES_reunify_country.tt:0 "We have succesfully defeated all other pretenders as well as secured Scotland and Wales"
+ WES_reunify_country1.tt:0 "\n\§GWe have succesfully reunited Great Britain by crushing other warlords as well as annexing Scotland and Wales§!"
+ WES_reunify_country2.tt:0 "\n\§YWe have succesfully reunited England by crushing other warlords as well as installing friendly regimes in Wales and Scotland§! "
+ WES_masters_and_slaves.tt:0 "§GWe will be able to take Scotland, Wales and Ulster by force and integrate them back into United Kingdom,§!§R but this will cause severe unrest among the local population and it will take some time to integrate the new lands§!"
+ WES_mutual_cooperation.tt:0 "§GWe will be able to peacfully co-exist with Scotland, Ireland and Wales and recieve possible benefits,§R however we shall lose any chance to reintegrate those lands into United Kingdom§!"

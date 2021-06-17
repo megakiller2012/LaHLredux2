@@ -1,0 +1,20 @@
+
+ENG_annexation_decisions = {
+	icon = GFX_
+	visible_when_empty = yes 
+    allowed = { 
+	    limit = {
+	        tag = WES
+			tag = SUS
+			tag = KNT
+			tag = ESS
+			tag = EAG
+			tag = NTH
+			tag = MRC
+			tag = WLS
+			tag = SCO
+			tag = IRE
+		}
+	}
+}
+
