@@ -1,7 +1,16 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- SUS_commendationism_party:0 "Windsor Dynasty"
+ SUS_left_authoritarianism_party:0 "Royal Camarilla"
+ SUS_commendationism_party:0 "Alliance of Workers' Liberty"
+ SUS_millenarism_party:0 "British Improvement Party"
+ SUS_right_populism_party:0 "Aristoracy"
+ SUS_hegemonism_party:0 "Militarists"
+ SUS_ur_fascism_party:0 "Black Army of Sussex"
+ SUS_regressionism_party:0 "Throne Support Fund"
+ SUS_neocameralism_party:0 "Sussex Universal Security"
+ SUS_socialism_party:0 "Labour Party"
+ SUS_national_bolshevism_party:0 "National-Bolshevik Party of Britain"
  ##COUNTRY NAME##
  SUS_left_authoritarianism:0 "Absolutists"
  SUS_left_authoritarianism_DEF:0 "British Provisional Government"
