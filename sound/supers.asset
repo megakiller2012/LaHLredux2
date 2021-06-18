@@ -5,3 +5,38 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+
+sound = {
+	name = "leviathan_vic"
+	file = "menu/leviathan.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "conservatives_vic"
+	file = "menu/conservatives.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "labourists_vic"
+	file = "menu/labourists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "007_vic"
+	file = "menu/007.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "witches_vic"
+	file = "menu/witches.wav"
+	volume = 1
+	always_load = yes
+}

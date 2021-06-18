@@ -1,7 +1,47 @@
 category = {
 	name = "Super Events"
 	soundeffects = {
-		absolutistsev_vic
+		absolutists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		leviathan_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		conservatives_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		labourists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		007_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		witches_vict
 	}
 	compressor = master_compressor
 }

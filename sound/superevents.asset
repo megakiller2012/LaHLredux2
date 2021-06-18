@@ -1,8 +1,48 @@
 
 soundeffect = {
-	name = "absolutistsev_vic"
+	name = "absolutists_vic"
 	sounds = {
 		sound = "absolutists_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "leviathan_vict"
+	sounds = {
+		sound = "leviathan_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "conservatives_vict"
+	sounds = {
+		sound = "conservatives_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "labourists_vict"
+	sounds = {
+		sound = "labourists_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "007_vict"
+	sounds = {
+		sound = "007_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "witches_vict"
+	sounds = {
+		sound = "witches_vic"
 	}
 	volume = 1
 }
