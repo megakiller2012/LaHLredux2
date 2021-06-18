@@ -40,3 +40,101 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+
+sound = {
+	name = "interventionists_vic"
+	file = "menu/interventionists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "jacobites_vic"
+	file = "menu/jacobites.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "mercenaries_vic"
+	file = "menu/mercenaries.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "neovictorians_vic"
+	file = "menu/neovictorians.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "northumbriansystem_vic"
+	file = "menu/northumbriansystem.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "progressivists_vic"
+	file = "menu/progressivists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "republicans_vic"
+	file = "menu/republicans.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "revisionists_vic"
+	file = "menu/revisionists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "revolutionaries_vic"
+	file = "menu/revolutionaries.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "romanists_vic"
+	file = "menu/romanists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "royalists_vic"
+	file = "menu/royalists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "gnostic_vic"
+	file = "menu/gnostic.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "occultists_vic"
+	file = "menu/occultists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "sexists_vic"
+	file = "menu/sexists.wav"
+	volume = 1
+	always_load = yes
+}

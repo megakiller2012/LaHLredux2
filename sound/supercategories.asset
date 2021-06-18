@@ -45,3 +45,115 @@ category = {
 	}
 	compressor = master_compressor
 }
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		interventionists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		jacobites_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		mercenaries_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		neovictorians_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		northumbriansystem_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		progressivists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		republicans_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		revisionists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		revolutionaries_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		romanists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		royalists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		gnostic_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		occultists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		sexists_vict
+	}
+	compressor = master_compressor
+}
