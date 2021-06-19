@@ -1,0 +1,17 @@
+state={
+	id=1232
+	name="STATE_1232"
+	provinces={
+		2563 3244 4472 6121 9132 13875 13916 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = GUD
+		add_core_of = GUD
+		victory_points = {
+
+		}
+
+	}
+}

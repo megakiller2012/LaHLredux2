@@ -1,0 +1,33 @@
+﻿l_english:
+ ##LEADERS##
+ POLITICS_LI_HONGZHI_DESC:0 "§YBiography:§! §WLi Hongzhi, the founder of Falun Dafa, has always been respected as Master Li by his practitioners. Li promoted the role of Qigong in the mainland in 1992, attracted millions of practitioners from all over the country in just six years, and began to expand the concept of "Truth, Compassion, Forbearance" abroad. However, because Falun Gong's influence was too mighty, the Chinese Communist Party completely suppressed Falun Gong's influence on the mainland in 1999, and Li was also forced to emigrate to the United States for preaching. §!\n\n§WThe Falun Dafa transferred overseas has not been weakened. So far, the number of practitioners has expanded to a hundred million people all over the world. With the collapse of the PRC, Li returned to the northeast, the outset, began to spread his influence, and named himself the true Dharmapala of Buddhism. §!\n\n§WMaybe Falun State does not have a hard fist to hit the enemy, but its residual global influence can penetrate the world; Li Hongzhi is not as fortunate as he thought, the rumors of "Demon of Manchuria" are already familiar to the Northeast people, unless even block the spread of rumors and suppress them, otherwise Li Hongzhi could not imagine how Demon's mysterious power would destroy his career."
+ ##POLITICAL PARTIES##
+ FSD_millenarism_party:0 "UNKNOWN"
+ FSD_millenarism_party_long:0 "UNKNOWN"
+ FSD_commendationism_party:0 "Leftist remnants"
+ FSD_commendationism_party_long:0 "Leftist remnants"
+ FSD_left_authoritarianism_party:0 "Leftist remnants"
+ FSD_left_authoritarianism_party_long:0 "Leftist remnants"
+ FSD_socialism_party:0 "Leftist remnants"
+ FSD_socialism_party_long:0 "Leftist remnants"
+ FSD_national_bolshevism_party:0 "Eurasianists"
+ FSD_national_bolshevism_party_long:0 "Eurasianists"
+ FSD_neocameralism_party:0 "Pro-Japanese"
+ FSD_neocameralism_party_long:0 "Pro-Japanese"
+ FSD_right_populism_party:0 "Disciples of Li"
+ FSD_right_populism_party_long:0 "Disciples of Li-Radicalists"
+ FSD_hegemonism_party:0 "Qing supporters"
+ FSD_hegemonism_party_long:0 "Qing supporters"
+ FSD_regressionism_party:0 "Qing supporters"
+ FSD_regressionism_party_long:0 "Qing supporters"
+ FSD_ur_fascism_party:0 "Disciples of Li"
+ FSD_ur_fascism_party_long:0 "Disciples of Li-Fanatics"
+ ##COUNTRY NAME##
+ FSD_ur_fascism:0 "Falun State of Dharmapala"
+ FSD_ur_fascism_DEF:0 "the Falun State of Dharmapala"
+ ##TRAITS##
+ great_enlightener:0 "Great Enlightener"
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##

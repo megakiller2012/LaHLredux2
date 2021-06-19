@@ -2,14 +2,20 @@
 state={
 	id=1163
 	name="STATE_1163"
+	history={
+		owner = RNG
+		add_core_of = RNG
+		victory_points = {
 
-			history={
+		}
+	}
+
+	history={
 		owner = SCO
 		add_core_of = SCO
 		victory_points = {
 
 		}
-
 	}
 
 	provinces={

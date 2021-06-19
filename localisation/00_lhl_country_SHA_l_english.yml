@@ -1,15 +1,25 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- SHA_ur_fascism_party:0 "Greek Administration"
- SHA_neocameralism_party:0 "French Administration"
- SHA_right_populism_party:0 "Iranian Administration"
- SHA_national_bolshevism_party:0 "Eurasian Administration"
- SHA_hegemonism_party:0 "Japanese Administration"
- SHA_socialism_party:0 "German Administration"
+ SHA_socialism_party:0 "CPC - Han"
+ SHA_socialism_party_long:0 "Communist Party of China - Han's Faction"
+ SHA_left_authoritarianism_party:0 "CPC - Wang"
+ SHA_left_authoritarianism_party_long:0 "Communist Party of China - Wang's Faction"
+ SHA_right_populism_party:0 "Office of Shanghai - SC"
+ SHA_right_populism_party_long:0 "Office of Shanghai - Shanghai Clique"
+ SHA_hegemonism_party:0 "SNP"
+ SHA_hegemonism_party_long:0 "Shanghai National Party"
+ SHA_neocameralism_party:0 "Office of Shanghai - EC"
+ SHA_neocameralism_party_long:0 "Office of Shanghai - Enterprise Confederation"
  ##COUNTRY NAME##
- SHA_national_bolshevism:0 "Yangtze Occupation Zone"
- SHA_national_bolshevism_DEF:0 "Yangtze Occupation Zone"
+ SHA_right_populism:0 "Shanghai"
+ SHA_right_populism_DEF:0 "the Shanghai"
+ SHA_socialism:0 "Shanghai"
+ SHA_socialism_DEF:0 "the People's Government of Shanghai"
+ SHA_left_authoritarianism:0 "Shanghai"
+ SHA_left_authoritarianism_DEF:0 "the People's Government of Shanghai"
+ SHA_hegemonism:0 "Shanghai"
+ SHA_hegemonism_DEF:0 "the Shanghai"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

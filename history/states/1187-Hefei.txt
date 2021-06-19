@@ -1,0 +1,13 @@
+state={
+	id=1187
+	name="STATE_1187"
+	provinces={
+		1699 3383 5997 8491 8599 9270 12861 12875 12876 12902 12925 12926 12946 12963 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = WEI
+		add_core_of = WEI
+	}
+}

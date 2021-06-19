@@ -1,0 +1,17 @@
+state={
+	id=1258
+	name="STATE_1258"
+	provinces={
+		9 839 1619 2606 4488 5158 5628 6072 6672 6804 6962 7467 7801 7967 8663 8989 11707 11797 11800 11988 11999 12029 12048 12063 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = ETK
+		add_core_of = ETK
+		victory_points = {
+
+		}
+
+	}
+}

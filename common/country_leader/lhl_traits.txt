@@ -1454,6 +1454,58 @@ Black_bird = { #Roger Scruton#
 	}
 ##IDEAS_SWEDEN##
 
+##NORTHEAST_CHINA##
+##LEADERS_FALUN_STATE##
+    great_enlightener = { #Li_Hongzhi#
+
+         random = no
+         stability_factor = 0.3
+         justify_war_goal_time = 0.05
+         war_support_factor = -0.05
+
+         
+
+         ai_will_do = {
+             factor = 1
+         }
+    }
+##IDEAS_FALUN_STATE##
+
+##LEADERS_QING##
+    return_of_destiny = { #AISIN_GIORO_YUZHANG#
+
+         random = no
+         stability_factor = 0.1
+         political_power_factor = 0.05
+
+         ai_will_do = {
+             factor = 1
+         }
+    }
+##IDEAS_QING##
+
+##LEADERS_MANCHUKUO##
+    nominal_president = { #PUJUN#
+
+         random = no
+
+
+         ai_will_do = {
+             factor = 1
+         }
+    }
+
+    fengtian_viceroy = { #LI_SHUO#
+
+         random = no
+
+
+         ai_will_do = {
+             factor = 1
+         }
+    }
+##IDEAS_MANCHUKUO##
+
 ###GENERIC_IDEAS###
 
 }

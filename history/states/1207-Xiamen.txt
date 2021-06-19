@@ -1,0 +1,16 @@
+state={
+	id=1207
+	name="STATE_1207"
+	provinces={
+		13717 13750 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = XMN
+		add_core_of = XMN
+		victory_points = {
+
+		}
+
+	}

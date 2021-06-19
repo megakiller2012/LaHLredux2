@@ -1,0 +1,16 @@
+
+state={
+	id=1250
+	name="STATE_1250"
+	provinces={
+		119 155 1020 1281 1361 1492 1706 1937 2093 2565 2619 2731 2851 3663 5035 5621 5924 6439 6702 7144 7320 8282 8857 11791 11922 12021 12071 12228 12386 12476 17397 17408 17410 17412 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = XIJ
+		add_core_of = XIJ
+		victory_points = {
+
+		}
+}

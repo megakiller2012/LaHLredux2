@@ -1,11 +1,30 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- MAN_hegemonism_party:0 "Qing Dynasty"
+ MAN_commendationism_party:0 "Leftist remnants"
+ MAN_commendationism_party_long:0 "Leftist remnants"
+ MAN_left_authoritarianism_party:0 "Leftist remnants"
+ MAN_left_authoritarianism_party_long:0 "Leftist remnants"
+ MAN_socialism_party:0 "Leftist remnants"
+ MAN_socialism_party_long:0 "Leftist remnants"
+ MAN_national_bolshevism_party:0 "Eurasianists"
+ MAN_national_bolshevism_party_long:0 "Eurasianists"
+ MAN_neocameralism_party:0 "CA - Japanophiles"
+ MAN_neocameralism_party_long:0 "Concordia Association - Japanophiles"
+ MAN_hegemonism_party:0 "CA - Separatists"
+ MAN_hegemonism_party_long:0 "Concordia Association - Separatists"
+ MAN_regressionism_party:0 "CA - Imperialists"
+ MAN_regressionism_party_long:0 "Concordia Association - Imperialists"
  ##COUNTRY NAME##
- MAN_hegemonism:0 "Manchuria"
- MAN_hegemonism_DEF:0 "Great Qing"
+ MAN_neocameralism:0 "Manchukuo"
+ MAN_neocameralism_DEF:0 "the Manchukuo"
+ MAN_hegemonism:0 "Manchukuo"
+ MAN_hegemonism_DEF:0 "the Manchukuo"
+ MAN_regressionism:0 "Manchuria"
+ MAN_regressionism_DEF:0 "the Empire of Manchuria"
  ##TRAITS##
+ nominal_president:0 "Nominal President"
+ fengtian_viceroy:0 "Fengtian Viceroy"
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##

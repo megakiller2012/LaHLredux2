@@ -1,0 +1,17 @@
+state={
+	id=1182
+	name="STATE_1182"
+	provinces={
+		6725 7309 8506 9258 12621 12669 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = WRC
+		add_core_of = WRC
+		victory_points = {
+
+		}
+
+	}
+}

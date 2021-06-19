@@ -1,0 +1,14 @@
+﻿l_english:
+ ##LEADERS##
+ POLITICS_AISIN_GIORO_YUZHANG_DESC:0 "§YBirth name:§! §WJin Yuzhang§!\n\n§YBiography:§! §WAisin Gioro Yuzhang, the 12th emperor of the Qing Dynasty, was a geologist in the People's Republic of China. Since the collapse of the PRC, his father, Aisin Gioro Puren, was secretly invited by the remnant royalists in Manchuria to be crowned as the 11th emperor after Puyi. §!\n\n§WIn 2015, Puren passed away and Yuzhang became the emperor of the Qing Dynasty. However, the socialist education which Yuzhang received and a series of work closely linked to the CPPCC or the CPC did not enable him to accept this sudden change in the past five years; although the emperor himself did nothing, the Qing Dynasty quickly became a powerful force in Northeast China under the protection of the royalists. §!\n\n§WIn 2019, the Qing Empire was officially established, quickly fell into a tense and hostile relationship with the Welfare Republic of China in the west. This means that if the Qing Empire wants to regain its glory, it must reorganize its own military and diplomatic forces, which also means there is not much time left for the Qing Dynasty and Yuzhang."
+ ##POLITICAL PARTIES##
+ QIN_hegemonism_party:0 "Qing Dynasty"
+ ##COUNTRY NAME##
+ QIN_hegemonism:0 "Qing"
+ QIN_hegemonism_DEF:0 "the Qing Empire"
+ ##TRAITS##
+ return_of_destiny:0 "Return of Destiny"
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##

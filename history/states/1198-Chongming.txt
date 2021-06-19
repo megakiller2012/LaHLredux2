@@ -1,0 +1,17 @@
+state={
+	id=1198
+	name="STATE_1198"
+	provinces={
+		4218 12960 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = SHA
+		add_core_of = SHA
+		victory_points = {
+
+		}
+
+	}
+}

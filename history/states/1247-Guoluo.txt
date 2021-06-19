@@ -1,0 +1,15 @@
+state={
+	id=1247
+	name="STATE_1247"
+	provinces={
+		273 912 2446 4131 6585 9378 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	 history={
+		owner = IDX
+		add_core_of = IDX
+		victory_points = {
+
+		}
+}

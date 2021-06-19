@@ -1,0 +1,16 @@
+state={
+	id=1225
+	name="STATE_1225"
+	provinces={
+		2728 2802 3184 3751 3996 4753 5528 7611 9532 9539 13418 13450 13573 13651 13677 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SWU
+		add_core_of = SWU
+		victory_points = {
+
+		}
+   }
+}

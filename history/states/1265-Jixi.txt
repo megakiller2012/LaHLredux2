@@ -1,0 +1,16 @@
+
+state={
+	id=1169
+	name="STATE_1265"
+	provinces={
+		1950 2775 3456 3511 6074 6444 8277 8988 9262 11143 11195 11224 11245 11256 11275 17385 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+
+		}
+}

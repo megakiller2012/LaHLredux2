@@ -1,0 +1,16 @@
+state={
+	id=1242
+	name="STATE_1242"
+	provinces={
+		152 984 3114 4555 6015 7493 13571 13620 13702 13721 13753 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+
+		}
+   }
+}

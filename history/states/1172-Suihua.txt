@@ -1,0 +1,17 @@
+state={
+	id=1172
+	name="STATE_1172"
+	provinces={
+		1814 2058 3195 3418 3794 3909 4605 4817 4827 5364 5659 6594 6711 8157 8576 9202 11126 11180 11183 11189 11190 11199 11219 11229 11234 11269 11272 11282 11283 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = FSD
+		add_core_of = FSD
+		victory_points = {
+
+		}
+
+	}
+}

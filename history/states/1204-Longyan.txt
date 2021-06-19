@@ -1,0 +1,17 @@
+state={
+	id=1204
+	name="STATE_1204"
+	provinces={
+		2690 3189 6599 6860 7293 7788 8033 8604 9439 13523 13548 13599 13625 13652 13704 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = HOK
+		add_core_of = HOK
+		victory_points = {
+
+		}
+
+	}
+}

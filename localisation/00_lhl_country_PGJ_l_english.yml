@@ -1,0 +1,23 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ PGJ_commendationism_party:0 "CPC"
+ PGJ_commendationism_party_long:0 "Communist Party of China"
+ PGJ_left_authoritarianism_party:0 "CPC"
+ PGJ_left_authoritarianism_party_long:0 "Communist Party of China"
+ PGJ_socialism_party:0 "CPC"
+ PGJ_socialism_party_long:0 "Communist Party of China"
+ PGJ_right_populism_party:0 "Local Supporters - Populists"
+ PGJ_right_populism_party_long:0 "Local Supporters - Populists"
+ PGJ_neocameralism_party:0 "Local Supporters - Capitalists"
+ PGJ_neocameralism_party_long:0 "Local Supporters - Capitalists"
+ PGJ_hegemonism_party:0 "Local Supporters - Patriots"
+ PGJ_hegemonism_party_long:0 "Local Supporters - Patriots"
+ ##COUNTRY NAME##
+ PGJ_right_populism:0 "Provisional Government of Jiangnan"
+ PGJ_right_populism_DEF:0 "the Provisional Government of Jiangnan"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##

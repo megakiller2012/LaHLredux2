@@ -1,0 +1,17 @@
+state={
+	id=1226
+	name="STATE_1226"
+	provinces={
+		1687 4036 4645 7345 7540 7675 7715 8479 9442 9460 9637 13398 13435 13497 13509 13547 13636 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = CHG
+		add_core_of = CHG
+		victory_points = {
+
+		}
+
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1166
+	name="STATE_1262"
+
+	history={
+		owner = WRC
+		add_core_of = WRC
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		2132 12431 12375 4990 1521 6315 12478 7011 7120 8455 8502 12600
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

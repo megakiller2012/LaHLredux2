@@ -1,0 +1,18 @@
+state={
+	id=1221
+	name="STATE_1221"
+	provinces={
+		413 1802 5747 5974 9780 13310 13314 13335 13343 13355 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = CMS
+		add_core_of = CMS
+		victory_points = {
+
+		}
+
+	}
+}
+}

@@ -1,0 +1,17 @@
+state={
+	id=1196
+	name="STATE_1196"
+	provinces={
+		3540 4221 6454 6738 8276 9830 12891 12927 12959 12966 12970 17447 17450 17452 17453 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = PGJ
+		add_core_of = PGJ
+		victory_points = {
+
+		}
+
+	}
+}

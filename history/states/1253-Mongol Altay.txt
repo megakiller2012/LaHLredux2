@@ -1,0 +1,16 @@
+state={
+	id=1253
+	name="STATE_1253"
+	history={
+		owner = RNG
+		add_core_of = RNG
+		victory_points = {
+
+		}
+	}
+	provinces={
+		393 651 841 1957 2156 2314 2860 3098 3242 4302 4596 5667 6126 6330 6612 7346 7997 9178 11075 11136 11252 11391 11395 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
