@@ -2,6 +2,10 @@
 state={
 	id=747
 	name="STATE_747"
+	history={
+		owner = UAS
+		add_core_of = UAS
+	}
 	provinces={
 		827 1518 4822 7117 13244 
 	}

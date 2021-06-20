@@ -7,8 +7,8 @@ state={
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-        history={
-		owner = NOD
-		add_core_of = NOD
+    history={
+		owner = YAK
+		add_core_of = YAK
 	}
 }

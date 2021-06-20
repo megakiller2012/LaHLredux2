@@ -1,6 +1,10 @@
 state={
 	id=911
 	name="STATE_911"
+	history={
+		owner = UAS
+		add_core_of = UAS
+	}
 	provinces={
 		1298 8915 12513 12573
 	}

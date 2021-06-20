@@ -1,0 +1,49 @@
+﻿l_english:
+ ##LEADERS##
+ ##COUNTRY_NAME##
+ ZZZ_neocameralism:0 ""
+ ZZZ_neocameralism_DEF:0 ""
+ ZZZ_millenarism:0 ""
+ ZZZ_millenarism_DEF:0 ""
+ ZZZ_commendationism:0 ""
+ ZZZ_commendationism_DEF:0 ""
+ ZZZ_left_authoritarianism:0 ""
+ ZZZ_left_authoritarianism_DEF:0 ""
+ ZZZ_socialism:0 ""
+ ZZZ_socialism_DEF:0 ""
+ ZZZ_national_bolshevism:0 ""
+ ZZZ_national_bolshevism_DEF:0 ""
+ ZZZ_right_populism:0 ""
+ ZZZ_right_populism_DEF:0 ""
+ ZZZ_hegemonism:0 ""
+ ZZZ_hegemonism_DEF:0 ""
+ ZZZ_regressionism:0 ""
+ ZZZ_regressionism_DEF:0 ""
+ ZZZ_ur_fascism:0 ""
+ ZZZ_ur_fascism_DEF:0 ""
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
+ ##POLITICAL PARTIES##
+ ZZZ_millenarism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_millenarism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_commendationism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_commendationism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_left_authoritarianism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_left_authoritarianism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_socialism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_socialism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_national_bolshevism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_national_bolshevism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_neocameralism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_neocameralism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_right_populism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_right_populism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_hegemonism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_hegemonism_party_long:0 "§RNON-EXISTENT §!"
+ ZZZ_regressionism_party:0 "Local Warlords"
+ ZZZ_regressionism_party_long:0 "Local Warlords"
+ ZZZ_ur_fascism_party:0 "§RNON-EXISTENT §!"
+ ZZZ_ur_fascism_party_long:0 "§RNON-EXISTENT §!"

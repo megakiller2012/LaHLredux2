@@ -72,6 +72,12 @@ GER = "countries/Germany.txt"
 FRA = "countries/France.txt"
 ###Africa###
 DJI = "countries/Djibouti.txt"
+CHD = "countries/Chad.txt"
+CMR = "countries/Cameroon.txt"
+NIG = "countries/Nigeria.txt"
+ZZZ = "countries/HAARP.txt" 
+CAR = "countries/Central African Republic.txt" 
+SUD = "countries/Sudan.txt" 
 ###Central Europe###
 HOL = "countries/Netherlands.txt"
 SLO = "countries/Slovakia.txt"

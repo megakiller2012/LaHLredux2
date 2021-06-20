@@ -1,5 +1,6 @@
-capital = 459
-oob = "MBG_2020"
+capital = 114
+
+oob = "CMR_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -12,19 +13,17 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = regressionism
 	elections_allowed = no
 }
-
 set_popularities = {
-	right_populism  = 100
+	regressionism  = 100
 }
 
 create_country_leader = {
-	name = "Mutassim Gaddafi"
-	picture = "Portrait_MBG_Mutassim_Gaddafi.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism
-	traits = {
+	name = "Fon Angwafo III of Mankon"
+	picture = ".dds"
+	ideology = neo_feudalism
+	traits = { 
 	}
 }

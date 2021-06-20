@@ -2,6 +2,11 @@
 state={
 	id=875
 	name="West Kongo"
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+	}
+    impassable = yes
 	provinces={
 		5150 5365 6326 7827 14965 17500 17501 
 	}

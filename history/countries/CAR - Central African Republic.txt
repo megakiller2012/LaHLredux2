@@ -1,0 +1,24 @@
+﻿capital = 893
+
+oob = "CAR_2020"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 10
+set_politics = {
+	ruling_party = neocameralism
+	elections_allowed = no
+}
+set_popularities = {
+	neocameralism = 100
+}
+
+create_country_leader = {
+	name = "Marie-Noëlle Koyara"
+	desc = "POLITICS_ABILOV_DESC"
+	picture = ".dds"
+	ideology = neo_reaction
+}

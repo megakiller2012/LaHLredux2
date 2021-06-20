@@ -1,6 +1,11 @@
 state={
 	id=873
 	name="STATE_873"
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+	}
+    impassable = yes
 	provinces={
 		 5430 654 14969 1969 7033 564 14985 1139 15013 15016 15017 1300 
 	}

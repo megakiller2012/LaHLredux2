@@ -2,6 +2,11 @@
 state={
 	id=1117
 	name="STATE_1117"
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+	}
+    impassable = yes
 	provinces={
 		4026 5275 
 	}

@@ -1,4 +1,4 @@
-capital = 448
+capital = 741
 oob = "UAS_2020"
 
 set_research_slots = 3
