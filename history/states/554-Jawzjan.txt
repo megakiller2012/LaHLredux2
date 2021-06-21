@@ -1,6 +1,10 @@
 state={
 	id=554
 	name="STATE_554"
+	history={
+		owner = AFG
+		add_core_of = AFG
+	}
 	provinces={
 		4112 4633 7568 12346 12409 12457 
 	}

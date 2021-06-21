@@ -1,6 +1,10 @@
 state={
 	id=989
 	name="STATE_989"
+	history={
+		owner = ETH
+		add_core_of = ETH
+	}
 	provinces={
 		1999 6867 8724 
 	}
