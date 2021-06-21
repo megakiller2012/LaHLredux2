@@ -16,7 +16,7 @@ country_event = {
 		name = super.1.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = Absolutist_Victory
+        set_global_flag = absolutists_Victory
 		sound_effect = "absolutists_vict"
 	}
 }
@@ -293,5 +293,159 @@ country_event = {
         set_global_flag = Super_Event_Visible
         set_global_flag = royalists_victory
 		sound_effect = "royalists_vict"
+	}
+}
+
+
+country_event = {
+	id = super.18
+	title = super.18.t
+	desc = super.18.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.18.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = gnostic_victory
+		sound_effect = "gnostic_vict"
+	}
+}
+
+country_event = {
+	id = super.19
+	title = super.19.t
+	desc = super.19.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.19.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = occultists_victory
+		sound_effect = "occultists_vict"
+	}
+}
+
+country_event = {
+	id = super.20
+	title = super.20.t
+	desc = super.20.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.20.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = sexists_victory
+		sound_effect = "sexists_vict"
+	}
+}
+
+country_event = {
+	id = super.21
+	title = super.21.t
+	desc = super.21.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.21.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = anarchy_victory
+		sound_effect = "anarchy_vict"
+	}
+}
+
+country_event = {
+	id = super.22
+	title = super.22.t
+	desc = super.22.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.22.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = bandits_victory
+		sound_effect = "bandits_vict"
+	}
+}
+
+country_event = {
+	id = super.23
+	title = super.23.t
+	desc = super.23.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.23.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = federalists_victory
+		sound_effect = "federalists_vict"
+	}
+}
+
+country_event = {
+	id = super.24
+	title = super.24.t
+	desc = super.24.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.24.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = otanjists_victory
+		sound_effect = "oranjists_vict"
+	}
+}
+
+country_event = {
+	id = super.25
+	title = super.25.t
+	desc = super.25.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.25.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = separatists_victory
+		sound_effect = "separatists_vict"
+	}
+}
+
+country_event = {
+	id = super.26
+	title = super.26.t
+	desc = super.26.d
+	picture = GFX_report_event_diplomatic_message
+    is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		name = super.26.a
+
+        set_global_flag = Super_Event_Visible
+        set_global_flag = unionists_victory
+		sound_effect = "unionists_vict"
 	}
 }

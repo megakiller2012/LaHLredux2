@@ -157,3 +157,51 @@ category = {
 	}
 	compressor = master_compressor
 }
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		anarchy_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		bandits_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		federalists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		oranjists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		separatists_vict
+	}
+	compressor = master_compressor
+}
+
+category = {
+	name = "Super Events"
+	soundeffects = {
+		unionists_vict
+	}
+	compressor = master_compressor
+}

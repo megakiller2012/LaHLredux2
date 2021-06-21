@@ -138,3 +138,45 @@ sound = {
 	volume = 1
 	always_load = yes
 }
+
+sound = {
+	name = "anarchy_vic"
+	file = "menu/anarchy.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "bandits_vic"
+	file = "menu/bandits.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "federalists_vic"
+	file = "menu/federalists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "oranjists_vic"
+	file = "menu/oranjists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "separatists_vic"
+	file = "menu/separatists.wav"
+	volume = 1
+	always_load = yes
+}
+
+sound = {
+	name = "unionists_vic"
+	file = "menu/unionists.wav"
+	volume = 1
+	always_load = yes
+}
