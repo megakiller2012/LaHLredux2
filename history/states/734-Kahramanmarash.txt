@@ -2,6 +2,10 @@
 state={
 	id=734
 	name="STATE_734"
+	history={
+		owner = BYZ
+		add_core_of = BYZ
+	}
 	provinces={
 		1523 3248 6947 8727 12138 12180 12216 12239 12295 
 	}

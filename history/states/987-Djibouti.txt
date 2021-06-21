@@ -1,6 +1,10 @@
 state={
 	id=987
 	name="STATE_987"
+	history= {
+		owner = DJI
+		add_core_of = DJI
+	}
 	provinces={
 		1664 2056 3378 14636 
 	}
