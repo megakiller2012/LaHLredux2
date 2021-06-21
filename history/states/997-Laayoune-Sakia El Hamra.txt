@@ -1,6 +1,10 @@
 state={
 	id=997
 	name="STATE_997"
+	history={
+		owner = WSH
+		add_core_of = WSH
+	}
 	provinces={
 		832 1276 1960 3152 4099 4319 5415 5484 6314 7364 9099 9897 13413 
 	}

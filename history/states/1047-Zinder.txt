@@ -1,6 +1,10 @@
 state={
 	id=1047
 	name="STATE_1047"
+	history={
+		owner = NGR
+		add_core_of = NGR
+	}
 	provinces={
 		855 996 1579 2021 2858 3126 3944 4405 4896 5140 14464 14525 14529 14535 14552 
 	}

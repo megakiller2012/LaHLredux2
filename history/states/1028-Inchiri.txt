@@ -1,6 +1,10 @@
 state={
 	id=1028
 	name="STATE_1028"
+	history={
+		owner = MAU
+		add_core_of = MAU
+	}
 	provinces={
 		143 1956 3213 6486 
 	}

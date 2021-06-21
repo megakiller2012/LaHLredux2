@@ -1,6 +1,10 @@
 state={
 	id=1043
 	name="STATE_1043"
+	history={
+		owner = MAL
+		add_core_of = MAL
+	}
 	provinces={
 		1027 2808 3057 3296 3774 4226 4712 6878 7407 14429 14447 14457 14489 14509 14575 
 	}

@@ -1,6 +1,10 @@
 state={
 	id=1049
 	name="STATE_1049"
+	history={
+		owner = NGR
+		add_core_of = NGR
+	}
 	provinces={
 		148 891 944 1631 1750 4693 5401 7236 7337 14441 14470 14500 14507 
 	}

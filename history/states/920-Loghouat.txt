@@ -1,6 +1,10 @@
 state={
 	id=920
 	name="STATE_920"
+	history={
+		owner = ALG
+		add_core_of = ALG
+	}
 	provinces={
 		2766 4590 6254 7401 9530 9549 12520 12648
 	}
