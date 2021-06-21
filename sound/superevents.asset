@@ -149,3 +149,51 @@ soundeffect = {
 	}
 	volume = 1
 }
+
+soundeffect = {
+	name = "anarchy_vict"
+	sounds = {
+		sound = "anarchy_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "bandits_vict"
+	sounds = {
+		sound = "bandits_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "federalists_vict"
+	sounds = {
+		sound = "federalists_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "oranjists_vict"
+	sounds = {
+		sound = "oranjists_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "separatists_vict"
+	sounds = {
+		sound = "separatists_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "unionists_vict"
+	sounds = {
+		sound = "unionists_vic"
+	}
+	volume = 1
+}
