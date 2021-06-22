@@ -1,135 +1,141 @@
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_absolutists_victory"
-		texturefile = "gfx/super_events/absolutists_Victory.dds"
+		texturefile = "gfx/super_events/absolutists_Victory.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_anarchy_victory"
-		texturefile = "gfx/super_events/anarchy_victory.dds"
+		texturefile = "gfx/super_events/anarchy_victory.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_bandits_victory"
-		texturefile = "gfx/super_events/bandits_victory.dds"
+		texturefile = "gfx/super_events/bandits_victory.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_conservatives_victory"
-		texturefile = "gfx/super_events/conservatives_victory.dds"
+		texturefile = "gfx/super_events/conservatives_victory.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_federalists_victory"
-		texturefile = "gfx/super_events/federalists_victory.dds"
+		texturefile = "gfx/super_events/federalists_victory.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_gnostic_victory"
-		texturefile = "gfx/super_events/gnostic_victory.dds"
+		texturefile = "gfx/super_events/gnostic_victory.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_interventionists_victory"
-		texturefile = "gfx/super_events/interventionists_victory.dds"
+		texturefile = "gfx/super_events/interventionists_victory.tga"
 	}
 		
 	spriteType = {
 		name = "GFX_jacobite_victory"
-		texturefile = "gfx/super_events/jacobite_victory.dds"
+		texturefile = "gfx/super_events/jacobite_victory.tga"
 	}
 		
 	spriteType = {
 		name = "GFX_labourists_victory"
-		texturefile = "gfx/super_events/labourists_victory.dds"
+		texturefile = "gfx/super_events/labourists_victory.tga"
 	}
 		
 	spriteType = {
 		name = "GFX_leviathan_victory"
-		texturefile = "gfx/super_events/leviathan_victory.dds"
+		texturefile = "gfx/super_events/leviathan_victory.tga"
 	}
 		
 	spriteType = {
 		name = "GFX_mercenaries_victory"
-		texturefile = "gfx/super_events/mercenaries_victory.dds"
+		texturefile = "gfx/super_events/mercenaries_victory.tga"
 	}
 		
 	spriteType = {
 		name = "GFX_nationalists_victory"
-		texturefile = "gfx/super_events/nationalists_victory.dds"
+		texturefile = "gfx/super_events/nationalists_victory.tga"
 	}
 		
 	spriteType = {
 		name = "GFX_neovictorians_victory"
-		texturefile = "gfx/super_events/neovictorians_victory.dds"
+		texturefile = "gfx/super_events/neovictorians_victory.tga"
 	}
 			
 	spriteType = {
 		name = "GFX_northumbriansystem_victory"
-		texturefile = "gfx/super_events/northumbriansystem_victory.dds"
+		texturefile = "gfx/super_events/northumbriansystem_victory.tga"
 	}
 				
 	spriteType = {
 		name = "GFX_occultists_victory"
-		texturefile = "gfx/super_events/occultists_victory.dds"
+		texturefile = "gfx/super_events/occultists_victory.tga"
 	}
 					
 	spriteType = {
 		name = "GFX_oranjists_victory"
-		texturefile = "gfx/super_events/oranjists_victory.dds"
+		texturefile = "gfx/super_events/oranjists_victory.tga"
 	}
 						
 	spriteType = {
 		name = "GFX_progressivists_victory"
-		texturefile = "gfx/super_events/progressivists_victory.dds"
+		texturefile = "gfx/super_events/progressivists_victory.tga"
 	}
 							
 	spriteType = {
 		name = "GFX_republicans_victory"
-		texturefile = "gfx/super_events/republicans_victory.dds"
+		texturefile = "gfx/super_events/republicans_victory.tga"
 	}
 								
 	spriteType = {
 		name = "GFX_revisionists_victory"
-		texturefile = "gfx/super_events/revisionists_victory.dds"
+		texturefile = "gfx/super_events/revisionists_victory.tga"
 	}
 									
 	spriteType = {
 		name = "GFX_revolutionaries_victory"
-		texturefile = "gfx/super_events/revolutionaries_victory.dds"
+		texturefile = "gfx/super_events/revolutionaries_victory.tga"
 	}
 										
 	spriteType = {
 		name = "GFX_romanists_victory"
-		texturefile = "gfx/super_events/romanists_victory.dds"
+		texturefile = "gfx/super_events/romanists_victory.tga"
 	}
 											
 	spriteType = {
 		name = "GFX_royalists_victory"
-		texturefile = "gfx/super_events/royalists_victory.dds"
+		texturefile = "gfx/super_events/royalists_victory.tga"
 	}
 											
 	spriteType = {
 		name = "GFX_separatists_victory"
-		texturefile = "gfx/super_events/separatists_victory.dds"
+		texturefile = "gfx/super_events/separatists_victory.tga"
 	}
 												
 	spriteType = {
 		name = "GFX_sexists_victory"
-		texturefile = "gfx/super_events/sexists_victory.dds"
+		texturefile = "gfx/super_events/sexists_victory.tga"
 	}
 													
 	spriteType = {
 		name = "GFX_unionists_victory"
-		texturefile = "gfx/super_events/unionists_victory.dds"
+		texturefile = "gfx/super_events/unionists_victory.tga"
 	}
 												
 	spriteType = {
 		name = "GFX_witches_victory"
-		texturefile = "gfx/super_events/witches_victory.dds"
+		texturefile = "gfx/super_events/witches_victory.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_007_victory"
+		texturefile = "gfx/super_events/007_victory.tga"
+	}
+	
 	spriteType = {
 		name = "GFX_CLOSE"
-		texturefile = "gfx/Super_Event_Close_Button.dds"
+		texturefile = "gfx/Super_Event_Close_Button.tga"
 	}
 }

@@ -16,20 +16,32 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name ="Super_Event_Anarchist_victory"
-			spriteType = "GFX_Anarchist_victory"
+			name ="Super_Event_anarchy_victory"
+			spriteType = "GFX_anarchy_victory"
 			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
-			name ="Super_Event_distributist_victory"
-			spriteType = "GFX_distributist_victory"
+			name ="Super_Event_bandits_victory"
+			spriteType = "GFX_bandits_victory"
+			position = { x = 35 y = 0 }
+		}
+
+		iconType = {
+			name ="Super_Event_conservatives_victory"
+			spriteType = "GFX_conservatives_victory"
 			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
-			name ="Super_Event_folcist_victory"
-			spriteType = "GFX_folcist_victory"
+			name ="Super_Event_federalists_victory"
+			spriteType = "GFX_federalists_victory"
+			position = { x = 35 y = 0 }
+		}
+
+		iconType = {
+			name ="Super_Event_gnostic_victory"
+			spriteType = "GFX_gnostic_victory"
 			position = { x = 35 y = 0 }
 		}
 		
@@ -40,20 +52,122 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name ="Super_Event_nationalist_victory"
-			spriteType = "GFX_nationalist_victory"
+			name ="Super_Event_interventionists_victory"
+			spriteType = "GFX_interventionists_victory"
 			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
-			name ="Super_Event_republicanist_victory"
-			spriteType = "GFX_republicanist_victory"
+			name ="Super_Event_labourists_victory"
+			spriteType = "GFX_labourists_victory"
 			position = { x = 35 y = 0 }
 		}
 		
 		iconType = {
-			name ="Super_Event_royalist_victory"
-			spriteType = "GFX_royalist_victory"
+			name ="Super_Event_leviathan_victory"
+			spriteType = "GFX_leviathan_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_mercenaries_victory"
+			spriteType = "GFX_mercenaries_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_nationalists_victory"
+			spriteType = "GFX_nationalists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_neovictorians_victory"
+			spriteType = "GFX_neovictorians_victory"
+			position = { x = 35 y = 0 }
+		}
+
+		iconType = {
+			name ="Super_Event_northumbriansystem_victory"
+			spriteType = "GFX_northumbriansystem_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_occultists_victory"
+			spriteType = "GFX_occultists_victory"
+			position = { x = 35 y = 0 }
+		}
+
+		iconType = {
+			name ="Super_Event_oranjists_victory"
+			spriteType = "GFX_oranjists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_progressivists_victory"
+			spriteType = "GFX_progressivists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_republicans_victory"
+			spriteType = "GFX_republicans_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_revisionists_victory"
+			spriteType = "GFX_revisionists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_revolutionaries_victory"
+			spriteType = "GFX_revolutionaries_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_romanists_victory"
+			spriteType = "GFX_romanists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_royalists_victory"
+			spriteType = "GFX_royalists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_separatists_victory"
+			spriteType = "GFX_separatists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_007_victory"
+			spriteType = "GFX_007_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_sexists_victory"
+			spriteType = "GFX_sexists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_unionists_victory"
+			spriteType = "GFX_unionists_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_witches_victory"
+			spriteType = "GFX_witches_victory"
 			position = { x = 35 y = 0 }
 		}
 

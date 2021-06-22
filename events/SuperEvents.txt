@@ -16,7 +16,7 @@ country_event = {
 		name = super.1.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = absolutists_Victory
+        set_global_flag = Absolutists_Victory
 		sound_effect = "absolutists_vict"
 	}
 }
@@ -152,7 +152,7 @@ country_event = {
 		name = super.9.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = mercenariess_victory
+        set_global_flag = mercenaries_victory
 		sound_effect = "mercenaries_vict"
 	}
 }
@@ -221,8 +221,8 @@ country_event = {
 		name = super.13.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = northumbriansystem
-		sound_effect = "northumbriansystem_vict"
+        set_global_flag = northumbriansystem_victory
+		sound_effect = "northumbriansystem_victory"
 	}
 }
 
@@ -411,7 +411,7 @@ country_event = {
 		name = super.24.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = otanjists_victory
+        set_global_flag = oranjists_victory
 		sound_effect = "oranjists_vict"
 	}
 }
