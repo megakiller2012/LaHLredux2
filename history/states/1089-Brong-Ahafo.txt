@@ -1,6 +1,10 @@
 state={
 	id=1089
 	name="STATE_1089"
+	history={
+		owner = GHA
+		add_core_of = GHA
+    }
 	provinces={
 		2639 3215 5054 5977 6703 7679 9398 14859 
 	}

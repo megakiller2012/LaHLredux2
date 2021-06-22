@@ -1,6 +1,10 @@
 state={
 	id=1056
 	name="STATE_1056"
+	history={
+		owner = LIB
+		add_core_of = LIB
+    }
 	provinces={
 		1490 1740 2204 3967 4725 4858 5802 6134 6311 6620 9832 14851 14889 14941 
 	}

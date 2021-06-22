@@ -1,6 +1,10 @@
 state={
 	id=1094
 	name="STATE_1094"
+	history={
+		owner = TOG
+		add_core_of = TOG
+    }
 	provinces={
 		1679 14697 
 	}

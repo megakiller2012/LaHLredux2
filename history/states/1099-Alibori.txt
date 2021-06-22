@@ -1,6 +1,10 @@
 state={
 	id=1099
 	name="STATE_1099"
+	history={
+		owner = BNN
+		add_core_of = BNN
+    }
 	provinces={
 		3113 3172 7297 
 	}

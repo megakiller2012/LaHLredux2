@@ -1,6 +1,10 @@
 state={
 	id=1054
 	name="STATE_1054"
+	history={
+		owner = SRL
+		add_core_of = SRL
+    }
 	provinces={
 		198 836 1493 1666 3590 5094 6374 8130 9287 9519 14812 
 	}

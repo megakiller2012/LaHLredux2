@@ -28,3 +28,20 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = CHD
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = CHD
+	}
+}
+create_faction = maghreb_jamahiriya

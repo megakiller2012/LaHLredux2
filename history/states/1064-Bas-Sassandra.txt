@@ -1,6 +1,10 @@
 state={
 	id=1064
 	name="STATE_1064"
+	history={
+		owner = IVC
+		add_core_of = IVC
+    }
 	provinces={
 		935 5955 5980 8528 14948 
 	}

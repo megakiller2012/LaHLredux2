@@ -182,3 +182,18 @@ HOU = {
 	color = rgb { 82 130 144 }
 	color_ui = rgb { 53  74  63 }
 }
+
+UAS = {
+	color = rgb (29 66 18)
+	color_ui = rgb (29 66 18)
+}
+
+NGR = {
+	color = rgb (29 122 18)
+	color_ui = rgb (29 122 18)
+}
+
+CHD = {
+	color = rgb (64 109 18)
+	color_ui = rgb (64 109 18)
+}

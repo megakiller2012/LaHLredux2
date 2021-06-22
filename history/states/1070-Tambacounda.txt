@@ -1,6 +1,10 @@
 state={
 	id=1070
 	name="STATE_1070"
+	history={
+		owner = SNG
+		add_core_of = SNG
+    }
 	provinces={
 		887 3222 4514 5981 6959 14511 
 	}
