@@ -17,7 +17,7 @@ focus_tree = {
 		id = ESS_luciferoverlondon
 		icon = GFX_goal_unknown
 		cost = 10
-		x = 5
+		x = 4
 		y = 0
 
 	}
@@ -104,9 +104,6 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 		focus = ESS_dare_to_die_corps
-	}
-	prerequisite = {
-		focus = ESS_autonomous_recruiting
 	}
 	prerequisite = {
 		focus = ESS_contacts_with_local_rebels
@@ -211,38 +208,7 @@ focus_tree = {
 		y = 5
 
 	}	
-	focus = {
-		id = ESS_tame_the_leviathan
-		icon = GFX_goal_unknown
-		cost = 10
-		x = 19
-		y = 6
 
-	}
-	focus = {
-		id = ESS_information_revolution
-		icon = GFX_goal_unknown
-		cost = 10
-		x = 26
-		y = 8
-
-	}
-	focus = {
-		id = ESS_deadly_race
-		icon = GFX_goal_unknown
-		cost = 10
-		x = 33
-		y = 6
-
-	}
-	focus = {
-		id = ESS_fast_nation
-		icon = GFX_goal_unknown
-		cost = 10
-		x = 14
-		y = 13
-
-	}
 	focus = {
 		id = ESS_revolutionary_ethic 
 		icon = GFX_goal_ESS_revolutionary_ethic
@@ -530,42 +496,67 @@ focus_tree = {
 		}
 		x = 14
 		y = 4
-
-
+}
 	focus = {
-		id = ESS_consumer_society
+		id = ESS_interregnum
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 13
+		y = 6
+
+	} 
+	focus = {
+		id = ESS_great_concils_choice
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = ESS_psychical_nomadism
-			focus = ESS_propaganda_of_hedonism
+			focus = ESS_interregnum
 		}
-		x = 16
-		y = 11
+		x = 11
+		y = 7
 
-	}
-	focus = {
-		id = ESS_mind_alteration
+	} 
+		focus = {
+		id = ESS_warlords_action
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = ESS_fast_nation
+			focus = ESS_interregnum
 		}
-		x = 16
-		y = 14
+		x = 13
+		y = 7
 
-	}
-	focus = {
-		id = ESS_live_fast_and_die_easy
+	} 
+		focus = {
+		id = ESS_unrest_on_the_streets
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = ESS_mind_alteration
+			focus = ESS_interregnum
 		}
-		x = 16
-		y = 15
+		x = 15
+		y = 7
 
 	}
+		focus = {
+		id = ESS_emergency_dictatorship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_unrest_on_the_streets
+		}
+		prerequisite = {
+			focus = ESS_warlords_action
+		}
+		prerequisite = {
+			focus = ESS_great_concils_choice
+		}
+		x = 13
+		y = 8
+
+	} 
+	
+
 	focus = {
 		id = ESS_autonomous_recruiting
 		icon = GFX_goal_unknown
@@ -588,39 +579,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
-		id = ESS_protective_economy
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_tame_the_leviathan
-		}
-		x = 19
-		y = 7
 
-	}
-	focus = {
-		id = ESS_trade_unionism
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_protective_economy
-		}
-		x = 20
-		y = 8
-
-	}
-	focus = {
-		id = ESS_universal_basic_income
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_trade_unionism
-		}
-		x = 20
-		y = 10
-
-	}
 	focus = {
 		id = ESS_centralized_command
 		icon = GFX_goal_unknown
@@ -669,28 +628,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
-		id = ESS_state_and_party
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_tame_the_leviathan
-		}
-		x = 22
-		y = 7
 
-	}
-	focus = {
-		id = ESS_peoples_guards
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_state_and_party
-		}
-		x = 22
-		y = 9
-
-	}
 	focus = {
 		id = ESS_birth_of_the_national_navy
 		icon = GFX_goal_unknown
@@ -724,17 +662,7 @@ focus_tree = {
 		y = 5
 
 	}
-	focus = {
-		id = ESS_new_academic_policy
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_state_and_party
-		}
-		x = 23
-		y = 8
 
-	}
 	focus = {
 		id = ESS_national_network_fund
 		icon = GFX_goal_unknown
@@ -746,32 +674,7 @@ focus_tree = {
 		y = 9
 
 	}
-	focus = {
-		id = ESS_political_education
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_new_academic_policy
-		}
-		prerequisite = {
-			focus = ESS_national_network_fund
-		}
-		x = 23
-		y = 10
-
-	}
-	focus = {
-		id = ESS_Partocracy
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_peoples_guards
-			focus = ESS_political_education
-		}
-		x = 22
-		y = 11
-
-	}
+	
 	focus = {
 		id = ESS_suppress_independent_warlords
 		icon = GFX_goal_unknown
@@ -1103,400 +1006,9 @@ focus_tree = {
 
 	}
 
-	focus = {
-		id = ESS_amnesty_for_service
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_german_invaders
-		}
-		x = 10
-		y = 8
 
-	}
-	focus = {
-		id = ESS_east_of_england
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_german_invaders
-		}
-		x = 9
-		y = 9
 
-	}
-	focus = {
-		id = ESS_death_to_folcists
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_warofthedragons
-		}
-		x = 5
-		y = 7
 
-	}
-	focus = {
-		id = ESS_anti_folcist_action
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_death_to_folcists
-		}
-		x = 4
-		y = 8
-
-	}
-	focus = {
-		id = ESS_mobilization_company
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_death_to_folcists
-		}
-		x = 6
-		y = 8
-
-	}
-	focus = {
-		id = ESS_Mercia
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_death_to_folcists
-		}
-		x = 5
-		y = 9
-
-	}
-	focus = {
-		id = ESS_eurasian_lapdogs
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_Mercia
-		}
-		x = 5
-		y = 10
-
-	}
-	focus = {
-		id = ESS_labor_militia
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_eurasian_lapdogs
-		}
-		x = 4
-		y = 11
-
-	}
-	focus = {
-		id = ESS_resbuild_cumbrian_docks 
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_eurasian_lapdogs
-		}
-		x = 6
-		y = 11
-
-	}
-	focus = {
-		id = ESS_Northumbria
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_eurasian_lapdogs
-		}
-		x = 5
-		y = 12
-
-	}
-	focus = {
-		id = ESS_papists
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_east_of_england
-		}
-		x = 9
-		y = 10
-
-	}
-	focus = {
-		id = ESS_anti_catholic_laws
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_papists
-		}
-		x = 10
-		y = 11
-
-	}
-	focus = {
-		id = ESS_secularization
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_papists
-		}
-		x = 8
-		y = 11
-
-	}
-	focus = {
-		id = ESS_kent
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_papists
-		}
-		x = 9
-		y = 12
-
-	}
-	focus = {
-		id = ESS_royal_matters
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_wessex
-		}
-		x = 7
-		y = 16
-
-	}
-	focus = {
-		id = ESS_false_king
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_kent
-		}
-		prerequisite = {
-			focus = ESS_Northumbria
-		}
-		x = 7
-		y = 13
-
-	}
-	focus = {
-		id = ESS_capture_the_royal_navy 
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_false_king
-		}
-		x = 8
-		y = 14
-
-	}
-	focus = {
-		id = ESS_defeodalization 
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_false_king
-		}
-		x = 6
-		y = 14
-
-	}
-	focus = {
-		id = ESS_wessex
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_false_king
-		}
-		x = 7
-		y = 15
-
-	}
-	focus = {
-		id = ESS_compromise_with_the_absolutists
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_royal_matters
-		}
-		mutually_exclusive = {
-			focus = ESS_suppress_the_absolutists
-		}
-		x = 8
-		y = 17
-
-	}
-	focus = {
-		id = ESS_suppress_the_absolutists
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_royal_matters
-		}
-		mutually_exclusive = {
-			focus = ESS_compromise_with_the_absolutists
-		}
-		x = 6
-		y = 17
-
-	}
-	focus = {
-		id = ESS_assign_royal_property
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_suppress_the_absolutists
-		}
-		x = 4
-		y = 18
-
-	}
-	focus = {
-		id = ESS_fate_of_the_royal_family
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_suppress_the_absolutists
-		}
-		x = 6
-		y = 18
-
-	}
-	focus = {
-		id = ESS_destroy_the_memory
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_fate_of_the_royal_family
-		}
-		x = 6
-		y = 19
-
-	}
-	focus = {
-		id = ESS_rule_england
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_approve_noble_privileges
-			focus = ESS_destroy_the_memory
-		}
-		x = 7
-		y = 20
-
-	}
-	focus = {
-		id = ESS_strong_realm_with_a_strong_king
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_compromise_with_the_absolutists
-		}
-		x = 8
-		y = 18
-
-	}
-	focus = {
-		id = ESS_approve_noble_privileges
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_strong_realm_with_a_strong_king
-		}
-		x = 8
-		y = 19
-
-	}
-	focus = {
-		id = ESS_amnesty_for_BRUH_members
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_compromise_with_the_absolutists
-		}
-		x = 10
-		y = 18
-
-	}
-	focus = {
-		id = ESS_the_royal_paras
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_conversion_of_civil_aviation 
-		}
-		x = 19
-		y = 5
-
-	}
-	focus = {
-		id = ESS_conversion_of_civil_aviation 
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_birth_of_national_air_force
-		}
-		x = 19
-		y = 4
-
-	}
-	focus = {
-		id = ESS_work_projects_administration
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_protective_economy
-		}
-		x = 19
-		y = 9
-
-	}
-	focus = {
-		id = ESS_recovery_growth
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_work_projects_administration
-		}
-		x = 18
-		y = 10
-
-	}
-	focus = {
-		id = ESS_dirigisme
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_recovery_growth
-			focus = ESS_universal_basic_income
-		}
-		prerequisite = {
-			focus = ESS_work_projects_administration
-		}
-		x = 19
-		y = 11
-
-	}
-	focus = {
-		id = ESS_utopia_under_protection
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_consumer_society
-		}
-		prerequisite = {
-			focus = ESS_dirigisme
-		}
-		prerequisite = {
-			focus = ESS_Partocracy
-		}
-		x = 19
-		y = 12
-
-	}
 	focus = {
 		id = ESS_social_darwinism
 		icon = GFX_goal_unknown
@@ -1549,25 +1061,5 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ESS_happiness_is_a_warm_gun
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_mind_alteration
-		}
-		x = 18
-		y = 15
 
-	}
-	focus = {
-		id = ESS_revival_of_formula_one
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_england_and_the_world
-		}
-		x = 10
-		y = 15
-
-	}
 }

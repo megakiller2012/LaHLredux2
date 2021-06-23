@@ -1,0 +1,301 @@
+
+		focus = {
+		id = ESS_essexs_turmoil
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_emergency_dictatorship
+		}
+		x = 13
+		y = 9
+
+	}
+		focus = {
+		id = ESS_the_torturemaster-general
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_emergency_dictatorship
+		}
+		x = 13
+		y = 9
+
+	}
+		focus = {
+		id = ESS_the_moon_devours_the_sun
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_emergency_dictatorship
+		}
+		x = 13
+		y = 9
+
+	}
+		focus = {
+		id = ESS_a_devils_chaplain
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_emergency_dictatorship
+		}
+		x = 13
+		y = 9
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		focus = {
+		id = ESS_tame_the_leviathan
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 13
+		y = 11
+
+	}
+		focus = {
+		id = ESS_protective_economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_tame_the_leviathan
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = ESS_trade_unionism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_protective_economy
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = ESS_universal_basic_income
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_trade_unionism
+		}
+		x = 14
+		y = 15
+
+	}
+		focus = {
+		id = ESS_work_projects_administration
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_protective_economy
+		}
+		x = 13
+		y = 14
+
+	}
+	focus = {
+		id = ESS_recovery_growth
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_work_projects_administration
+		}
+		x = 12
+		y = 15
+
+	}
+	focus = {
+		id = ESS_dirigisme
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_recovery_growth
+			focus = ESS_universal_basic_income
+		}
+		prerequisite = {
+			focus = ESS_work_projects_administration
+		}
+		x = 13
+		y = 16
+
+	}
+		focus = {
+		id = ESS_state_and_party
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_tame_the_leviathan
+		}
+		x = 16
+		y = 12
+
+	}
+		focus = {
+		id = ESS_new_academic_policy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_state_and_party
+		}
+		x = 17
+		y = 13
+
+	}
+	focus = {
+		id = ESS_peoples_guards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_state_and_party
+		}
+		x = 16
+		y = 14
+
+	}
+	focus = {
+		id = ESS_political_education
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_new_academic_policy
+		}
+		
+		x = 17
+		y = 15
+
+	}
+	focus = {
+		id = ESS_Partocracy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_peoples_guards
+			focus = ESS_political_education
+		}
+		x = 16
+		y = 16
+
+	}
+	focus = {
+		id = ESS_utopia_under_protection
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_consumer_society
+		}
+		prerequisite = {
+			focus = ESS_dirigisme
+		}
+		prerequisite = {
+			focus = ESS_Partocracy
+		}
+		x = 13
+		y = 17
+
+	}
+	focus = {
+		id = ESS_information_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = ESS_deadly_race
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = ESS_cultural_revolution
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_tame_the_leviathan
+
+		}
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = ESS_encourage_wastefullness
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_cultural_revolution
+
+		}
+		x = 11
+		y = 13
+
+	}
+		focus = {
+		id = ESS_secularization2-booba_obosralsya
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_cultural_revolution
+
+		}
+		x = 9
+		y = 13
+
+	}
+		focus = {
+		id = ESS_propaganda_of_hedonism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_encourage_wastefullness
+
+		}
+		x = 10
+		y = 14
+
+	}
+		focus = {
+		id = ESS_psychical_nomadism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_secularization2-booba_obosralsya
+
+		}
+		x = 9
+		y = 15
+
+	}
+	focus = {
+		id = ESS_consumer_society
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_propaganda_of_hedonism
+			focus = ESS_psychical_nomadism
+		}
+		x = 10
+		y = 16
+
+	}
