@@ -84,8 +84,8 @@ country_event = {
 		name = super.5.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = 007_victory
-		sound_effect = "007_vict"
+        set_global_flag = spy_victory
+		sound_effect = "spy_vict"
 	}
 }
 
@@ -222,7 +222,7 @@ country_event = {
 
         set_global_flag = Super_Event_Visible
         set_global_flag = northumbriansystem_victory
-		sound_effect = "northumbriansystem_victory"
+		sound_effect = "northumbriansystem_vict"
 	}
 }
 

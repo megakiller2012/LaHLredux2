@@ -31,9 +31,9 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = "007_vict"
+	name = "spy_vict"
 	sounds = {
-		sound = "007_vic"
+		sound = "spy_vic"
 	}
 	volume = 1
 }
@@ -194,6 +194,14 @@ soundeffect = {
 	name = "unionists_vict"
 	sounds = {
 		sound = "unionists_vic"
+	}
+	volume = 1
+}
+
+soundeffect = {
+	name = "revolutionaries_vict"
+	sounds = {
+		sound = "revolutionaries_vic"
 	}
 	volume = 1
 }

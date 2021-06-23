@@ -35,8 +35,8 @@ spriteTypes = {
 	}
 		
 	spriteType = {
-		name = "GFX_jacobite_victory"
-		texturefile = "gfx/super_events/jacobite_victory.tga"
+		name = "GFX_jacobites_victory"
+		texturefile = "gfx/super_events/jacobites_victory.tga"
 	}
 		
 	spriteType = {
@@ -130,8 +130,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_007_victory"
-		texturefile = "gfx/super_events/007_victory.tga"
+		name = "GFX_spy_victory"
+		texturefile = "gfx/super_events/spy_victory.tga"
 	}
 	
 	spriteType = {

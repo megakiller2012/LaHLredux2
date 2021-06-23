@@ -33,7 +33,7 @@ category = {
 category = {
 	name = "Super Events"
 	soundeffects = {
-		007_vict
+		spy_vict
 	}
 	compressor = master_compressor
 }

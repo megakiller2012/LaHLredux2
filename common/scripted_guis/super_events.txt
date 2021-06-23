@@ -45,8 +45,8 @@ scripted_gui = {
 		}
 		
 		triggers = {
-			Super_Event_jacobite_victory_visible = {
-				has_global_flag  = jacobite_victory
+			Super_Event_jacobites_victory_visible = {
+				has_global_flag  = jacobites_victory
 			}
 		}
 		
@@ -99,8 +99,8 @@ scripted_gui = {
 		}
 		
 		triggers = {
-			Super_Event_007_victory_visible = {
-				has_global_flag  = 007_victory
+			Super_Event_spy_victory_visible = {
+				has_global_flag  = spy_victory
 			}
 		}
 		
@@ -206,9 +206,9 @@ scripted_gui = {
 				}
 				if = {
 					limit = {	
-						has_global_flag = 007_victory
+						has_global_flag = spy_victory
 					}
-					clr_global_flag  = 007_victory
+					clr_global_flag  = spy_victory
 				}
 				if = {
 					limit = {	

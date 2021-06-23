@@ -28,8 +28,8 @@ sound = {
 }
 
 sound = {
-	name = "007_vic"
-	file = "menu/007.wav"
+	name = "spy_vic"
+	file = "menu/spy.wav"
 	volume = 1
 	always_load = yes
 }
