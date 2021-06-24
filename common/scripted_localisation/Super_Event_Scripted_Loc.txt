@@ -6,7 +6,7 @@ defined_text = { #SUPER EVENT CLOSE
         trigger = {
             has_global_flag = absolutists_victory
         }
-        localization_key = "GFX_absolutist_victory_CLOSE"
+        localization_key = "GFX_absolutists_victory_CLOSE"
     }
 
     text = { 
@@ -162,7 +162,25 @@ defined_text = { #SUPER EVENT CLOSE
         }
         localization_key = "GFX_occultists_victory_CLOSE"
     }
-}
-}
-
+									
+	text = { 
+        trigger = {
+            has_global_flag = jacobites_victory
+        }
+        localization_key = "GFX_jacobites_victory_CLOSE"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = conservatives_victory
+        }
+        localization_key = "GFX_conservatives_victory_CLOSE"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = republicans_victory
+        }
+        localization_key = "GFX_republicans_victory_CLOSE"
+    }
 }
