@@ -27,7 +27,7 @@ scripted_gui = {
 		}
 		
 		triggers = {
-			Super_Event_Absolutists_Victory_visible = {
+			Super_Event_absolutists_victory_visible = {
 				has_global_flag  = absolutists_Victory
 			}
 		}
