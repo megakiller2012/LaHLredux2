@@ -16,7 +16,7 @@ country_event = {
 		name = super.1.a
 
         set_global_flag = Super_Event_Visible
-        set_global_flag = Absolutists_Victory
+        set_global_flag = absolutists_Victory
 		sound_effect = "absolutists_vict"
 	}
 }
