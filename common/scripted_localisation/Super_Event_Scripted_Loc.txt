@@ -4,57 +4,165 @@ defined_text = { #SUPER EVENT CLOSE
 
     text = { 
         trigger = {
-            has_global_flag = Absolutist_Victory
+            has_global_flag = absolutists_victory
         }
-        localization_key = "GFX_Absolutist_Victory_CLOSE"
+        localization_key = "GFX_absolutist_victory_CLOSE"
     }
 
     text = { 
         trigger = {
-            has_global_flag = Anarchist_victory
+            has_global_flag = anarchy_victory
         }
-        localization_key = "GFX_Anarchist_victory_CLOSE"
+        localization_key = "GFX_anarchy_victory_CLOSE"
     }
 	
     text = { 
         trigger = {
-            has_global_flag = distributist_victory
+            has_global_flag = spy_victory
         }
-        localization_key = "GFX_distributist_victory_CLOSE"
+        localization_key = "GFX_spy_victory_CLOSE"
     }
 	
     text = { 
         trigger = {
-            has_global_flag = folcist_victory
+            has_global_flag = bandits_victory
         }
-        localization_key = "GFX_folcist_victory_CLOSE"
+        localization_key = "GFX_bandits_victory_CLOSE"
     }
 	
     text = { 
         trigger = {
-            has_global_flag = jacobite_victory
+            has_global_flag = gnostic_victory
         }
-        localization_key = "GFX_jacobite_victory_CLOSE"
+        localization_key = "GFX_gnostic_victory_CLOSE"
     }
 	
     text = { 
         trigger = {
-            has_global_flag = nationalist_victory
+            has_global_flag = federalists_victory
         }
-        localization_key = "GFX_nationalist_victory_CLOSE"
+        localization_key = "GFX_federalists_victory_CLOSE"
     }
 	
     text = { 
         trigger = {
-            has_global_flag = republicanist_victory
+            has_global_flag = interventionists_victory
         }
-        localization_key = "GFX_republicanist_victory_CLOSE"
+        localization_key = "GFX_interventionists_victory_CLOSE"
     }
 	
     text = { 
         trigger = {
-            has_global_flag = royalist_victory
+            has_global_flag = labourists_victory
         }
-        localization_key = "GFX_royalist_victory_CLOSE"
+        localization_key = "GFX_labourists_victory_CLOSE"
     }
+		
+    text = { 
+        trigger = {
+            has_global_flag = leviathan_victory
+        }
+        localization_key = "GFX_leviathan_victory_CLOSE"
+    }
+		
+    text = { 
+        trigger = {
+            has_global_flag = mercenaries_victory
+        }
+        localization_key = "GFX_mercenaries_victory_CLOSE"
+    }
+	
+	text = { 
+        trigger = {
+            has_global_flag = neovictorians_victory
+        }
+        localization_key = "GFX_neovictorians_victory_CLOSE"
+    }
+		
+	text = { 
+        trigger = {
+            has_global_flag = oranjists_victory
+        }
+        localization_key = "GFX_oranjists_victory_CLOSE"
+    }
+			
+	text = { 
+        trigger = {
+            has_global_flag = progressivists_victory
+        }
+        localization_key = "GFX_progressivists_victory_CLOSE"
+    }
+				
+	text = { 
+        trigger = {
+            has_global_flag = revolutionaries_victory
+        }
+        localization_key = "GFX_revolutionaries_victory_CLOSE"
+    }
+				
+	text = { 
+        trigger = {
+            has_global_flag = romanists_victory
+        }
+        localization_key = "GFX_romanists_victory_CLOSE"
+    }
+					
+	text = { 
+        trigger = {
+            has_global_flag = separatists_victory
+        }
+        localization_key = "GFX_separatists_victory_CLOSE"
+    }
+					
+	text = { 
+        trigger = {
+            has_global_flag = sexists_victory
+        }
+        localization_key = "GFX_sexists_victory_CLOSE"
+    }
+					
+	text = { 
+        trigger = {
+            has_global_flag = unionists_victory
+        }
+        localization_key = "GFX_unionists_victory_CLOSE"
+    }
+						
+	text = { 
+        trigger = {
+            has_global_flag = witches_victory
+        }
+        localization_key = "GFX_witches_victory_CLOSE"
+    }
+						
+	text = { 
+        trigger = {
+            has_global_flag = royalists_victory
+        }
+        localization_key = "GFX_royalists_victory_CLOSE"
+    }
+						
+	text = { 
+        trigger = {
+            has_global_flag = northumbriansystem_victory
+        }
+        localization_key = "GFX_northumbriansystem_victory_CLOSE"
+    }
+							
+	text = { 
+        trigger = {
+            has_global_flag = revisionists_victory
+        }
+        localization_key = "GFX_revisionists_victory_CLOSE"
+    }
+								
+	text = { 
+        trigger = {
+            has_global_flag = occultists_victory
+        }
+        localization_key = "GFX_occultists_victory_CLOSE"
+    }
+}
+}
+
 }
