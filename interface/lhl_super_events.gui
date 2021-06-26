@@ -10,8 +10,8 @@ guiTypes = {
 		moveable = yes
 
 		iconType = {
-			name ="Super_Event_Absolutist_Victory"
-			spriteType = "GFX_Absolutist_Victory"
+			name ="Super_Event_absolutists_victory"
+			spriteType = "GFX_absolutists_victory"
 			position = { x = 35 y = 0 }
 		}
 		

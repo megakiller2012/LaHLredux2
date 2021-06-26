@@ -28,7 +28,7 @@ scripted_gui = {
 		
 		triggers = {
 			Super_Event_absolutists_victory_visible = {
-				has_global_flag  = absolutists_Victory
+				has_global_flag  = absolutists_victory
 			}
 		}
 		
@@ -182,9 +182,9 @@ scripted_gui = {
 
 				if = {
 					limit = {	
-						has_global_flag = absolutists_Victory
+						has_global_flag = absolutists_victory
 					}
-					clr_global_flag  = absolutists_Victory
+					clr_global_flag  = absolutists_victory
 				}
 				if = {
 					limit = {	
