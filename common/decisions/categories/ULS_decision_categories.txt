@@ -1,0 +1,7 @@
+
+ULS_reunify_isles = {
+	icon = GFX_
+	visible_when_empty = yes
+	allowed = { original_tag = ULS }
+}
+

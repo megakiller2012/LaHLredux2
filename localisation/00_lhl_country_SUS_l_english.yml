@@ -14,6 +14,10 @@
  ##COUNTRY NAME##
  SUS_left_authoritarianism:0 "Absolutists"
  SUS_left_authoritarianism_DEF:0 "British Provisional Government"
+ SUS_REUNIFIED1:0 "British Union"
+ SUS_REUNIFIED2:0 "People's Kingdom of Britain"
+ SUS_REUNIFIED3:0 "Great Britain"
+ SUS_REUNIFIED4:0 "United Kingdom"
  ##TRAITS##
  comrade_king:0 "Comrade King"
  ##IDEAS##

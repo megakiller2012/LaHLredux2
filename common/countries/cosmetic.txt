@@ -34,3 +34,23 @@ WES_WLS_PUPPET2 = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
 }
+
+SUS_REUNIFIED1 = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+
+SUS_REUNIFIED2 = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+
+SUS_REUNIFIED3 = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+
+SUS_REUNIFIED4 = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
