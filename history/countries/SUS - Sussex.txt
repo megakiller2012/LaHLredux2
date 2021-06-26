@@ -39,6 +39,26 @@ create_country_leader = {
 	}
 }
 
+
+create_country_leader = {
+	name = "Emma Watson"
+	desc = ""
+	picture = "Portrait_SUS_Emma_Watson.dds"
+	ideology = ultrahegelianism
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Jeremy Corbin"
+	desc = ""
+	picture = "Portrait_SUS_Jeremy_Corbin.dds"
+	ideology = progressivism
+	traits = {
+	}
+}
+
 set_country_flag = {
     flag = ENG_henry_here
 	value = 1
