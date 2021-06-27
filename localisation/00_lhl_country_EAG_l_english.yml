@@ -4,6 +4,9 @@
  ##COUNTRY NAME##
  EAG_hegemonism:0 "Interventionists"
  EAG_hegemonism_DEF:0 "East Anglia Intervention"
+ EAG_REUNIFIED1:0 "Republic Of Britain"
+ EAG_REUNIFIED2:0 "Free State Of Britain"
+ EAG_REUNIFIED3:0 "English Commune"
  ##TRAITS##
  ##IDEAS##
  EAG_reinhard_gunzel:0 "Reinhard Günzel"
