@@ -14,5 +14,5 @@ ESS_prisoners_of_war = {
 ESS_reunify_isles = {
 	icon = GFX_
 	visible_when_empty = yes
-	allowed = { original_tag = WLS }
+	allowed = { original_tag = ESS }
 }
