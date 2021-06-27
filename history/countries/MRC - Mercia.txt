@@ -33,7 +33,7 @@ create_country_leader = {
 	name = "David Tibet"
 	desc = ""
 	picture = "Portrait_MRC_David_Tibet.dds"
-	ideology = ethical_millenialism
+	ideology = ethical_millennialism 
 	traits = {
 	}
 }
