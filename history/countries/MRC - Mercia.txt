@@ -26,7 +26,43 @@ create_country_leader = {
 	picture = "Portrait_MRC_Douglas_Pierce.dds"
 	ideology = charismatic_dictatorship
 	traits = {
-		lastbelovedofeurope
+	}
+}
+
+
+create_country_leader = {
+	name = "Tony Wakeford"
+	desc = ""
+	picture = "Portrait_MRC_Tony_Wakeford.dds"
+	ideology = charismatic_dictatorship
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "David Tibet"
+	desc = ""
+	picture = "Portrait_MRC_David_Tibet.dds"
+	ideology = ethical_millenialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "David Tibet"
+	desc = ""
+	picture = "Portrait_MRC_David_Tibet.dds"
+	ideology = labor_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Michael Moynichan"
+	desc = ""
+	picture = "Portrait_MRC_Michael_Moynichan.dds"
+	ideology = autocracy
+	traits = {
 	}
 }
 create_corps_commander = {

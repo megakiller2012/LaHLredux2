@@ -30,6 +30,15 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Alexandra Paterson"
+	desc = ""
+	picture = "Portrait_KNT_Alexandra_Paterson.dds"
+	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+
 set_country_flag = {
     flag = ENG_mogg_here
 	value = 1

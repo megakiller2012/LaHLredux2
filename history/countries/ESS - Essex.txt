@@ -93,9 +93,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Richard Shirreff"
+	name = "Tim Collins"
 	desc = ""
-	picture = "Portrait_ESS_Richard_Shirreff.dds"
+	picture = "Portrait_ESS_Tim_Collins.dds"
 	ideology = autocracy
 	traits = {
 		mad_max
