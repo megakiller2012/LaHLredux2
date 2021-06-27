@@ -10,3 +10,9 @@ ESS_prisoners_of_war = {
 	allowed = { original_tag = ESS }
 }
 
+
+ESS_reunify_isles = {
+	icon = GFX_
+	visible_when_empty = yes
+	allowed = { original_tag = WLS }
+}

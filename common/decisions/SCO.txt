@@ -1,81 +1,10 @@
-EAG_debug = {
-    EAG_anarchists = {
-		cost = 0
-		days_remove = 30
-        complete_effect = {
-            load_focus_tree = EAG_anarchists
-		}
-	}
-    EAG_hitler = {
-		cost = 0
-		days_remove = 30
-        complete_effect = { 
-		    load_focus_tree = EAG_hitler
-		}
-	}
-    EAG_mercenary = {
-		cost = 0
-		days_remove = 30
-        complete_effect = { 
-		    load_focus_tree = EAG_mercenary
-		}
-	}
-}
 
-EAG_prisoners_of_war = {
-    EAG_deal_galloway = {
-	    visible = {
-            has_country_flag = ENG_galloway_here
-        } 
-	}
-    EAG_deal_mogg = {
-	    visible = {
-            has_country_flag = ENG_mogg_here
-        } 
-	}
-    EAG_deal_pearce = {
-	    visible = {
-            has_country_flag = ENG_pearce_here
-        } 
-	}
-    EAG_deal_mosley = {
-	    visible = {
-            has_country_flag = ENG_mosley_here
-        } 
-	}
-    EAG_deal_land = {
-	    visible = {
-            has_country_flag = ENG_land_here
-        } 
-	}
-    EAG_deal_dawkins = {
-	    visible = {
-            has_country_flag = ENG_dawkins_here
-        } 
-	}
-    EAG_deal_corbyn = {
-	    visible = {
-            has_country_flag = ENG_corbyn_here
-        } 
-	}
-    EAG_deal_george = {
-	    visible = {
-            has_country_flag = ENG_george_here
-        } 
-	}
-    EAG_deal_henry = {
-	    visible = {
-            has_country_flag = ENG_henry_here
-        } 
-	}
-}	
-
-EAG_reunify_isles = {
-    EAG_reunify_country = {
+SCO_reunify_isles = {
+   SCO_reunify_country = {
 		available = {
 		    OR = {
 				custom_trigger_tooltip = { 
-					tooltip = EAG_reunify_country1.tt
+					tooltip = SCO_reunify_country1.tt
 					controls_state = 998
 					owns_state = 998
 					controls_state = 999 
@@ -173,38 +102,27 @@ EAG_reunify_isles = {
 		days_remove = 0
 		fire_only_once = yes
 		complete_effect = {
-            EAG = { 
+            SCO = { 
 				if = {
 					limit = {
-						EAG = {
+						SCO = {
+							has_government = conservatism
+						}
+					}
+					SCO = {
+						set_cosmetic_tag = SCO_REUNIFIED1
+					}
+				}
+				if = {
+					limit = {
+						SCO = {
 							has_government = hegemonism
 						}
 					}
-					EAG = {
-						set_cosmetic_tag = EAG_REUNIFIED1
+					SCO = {
+						set_cosmetic_tag = SCO_REUNIFIED2
 					}
 				}
-				if = {
-					limit = {
-						EAG = {
-							has_government = neocameralism
-						}
-					}
-					EAG = {
-						set_cosmetic_tag = EAG_REUNIFIED2
-					}
-				}
-				if = {
-					limit = {
-						EAG = {
-							has_government = national_bolshevism
-						}
-					}
-					EAG = {
-						set_cosmetic_tag = EAG_REUNIFIED3
-					}
-				}
-
 			set_capital = 1160
 			}
 		}
