@@ -29,16 +29,6 @@ create_country_leader = {
 	}
 }
 
-
-create_country_leader = {
-	name = "Tony Wakeford"
-	desc = ""
-	picture = "Portrait_MRC_Tony_Wakeford.dds"
-	ideology = charismatic_dictatorship
-	traits = {
-	}
-}
-
 create_country_leader = {
 	name = "David Tibet"
 	desc = ""
