@@ -5,6 +5,8 @@
  ##COUNTRY NAME##
  KNT_right_populism:0 "Jacobites"
  KNT_right_populism_DEF:0 "Kingdom of Great Britain"
+ KNT_REUNIFIED1:0 "United Kingdom"
+ KNT_REUNIFIED2:0 "United Kingdom"
  ##TRAITS##
  high_handed_despot:0 "High-handed Despot"
  ##IDEAS##
