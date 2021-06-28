@@ -41,9 +41,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Chris Coleman"
+	name = "Claire Fox"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NTH_Claire_Fox.dds"
 	ideology = soviet_marxism
 	traits = {
 	}

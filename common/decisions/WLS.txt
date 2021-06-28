@@ -115,11 +115,11 @@ WLS_reunify_isles = {
 				}
 				if = {
 					limit = {
-						SUS = {
+						WLS = {
 							has_government = hegemonism
 						}
 					}
-					SUS = {
+					WLS = {
 						set_cosmetic_tag = WLS_REUNIFIED2
 					}
 				}

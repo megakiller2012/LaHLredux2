@@ -30,6 +30,26 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Reinchard Gunzel"
+	desc = ""
+	picture = "Portrait_EAG_Reinchard_Gunzel.dds"
+	ideology = neo_reaction
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "National Comitee"
+	desc = ""
+	picture = "Portrait_EAG_National_Comitee.dds"
+	ideology = national_anarchism
+	traits = {
+		
+	}
+}
+
 set_country_flag = {
     flag = ENG_southgate_here
 	value = 1

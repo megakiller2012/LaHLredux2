@@ -35,11 +35,10 @@ add_ai_strategy = {
 
 create_country_leader = {
 	name = "Leanne Wood"
-	picture = ".dds"
+	picture = "Portrait_WLS_Leanne_Wood.dds"
 	expire = "1953.3.1"
 	ideology = labor_socialism
 	traits = {
-		lion_of_syria
 	}
 }
 
@@ -50,6 +49,5 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = stratocracy
 	traits = {
-		lion_of_syria
 	}
 }

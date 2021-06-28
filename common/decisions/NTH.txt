@@ -168,6 +168,15 @@ NTH_reunify_isles = {
 					}
 					NTH = {
 						set_cosmetic_tag = NTH_REUNIFIED1
+						
+						create_country_leader = {
+							name = "Ken Livingstone"
+							desc = ""
+							picture = "Portrait_NTH_Ken_Livingstone.dds"
+							ideology = nazbol_gang
+							traits = {
+							}
+						}
 					}
 				}
 				if = {

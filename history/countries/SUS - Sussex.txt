@@ -59,6 +59,15 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Richard Dearlove"
+	desc = ""
+	picture = "Portrait_SUS_Richard_Dearlove.dds"
+	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+
 set_country_flag = {
     flag = ENG_henry_here
 	value = 1

@@ -158,6 +158,15 @@ ESS_reunify_isles = {
 					}
 					ESS = {
 						set_cosmetic_tag = ESS_REUNIFIED1
+						
+						create_country_leader = {
+							name = "Nick Land"
+							desc = ""
+							picture = "Portrait_ESS_Nick_Land.dds"
+							ideology = accelerationism
+							traits = {
+							}
+						}
 					}
 				}
 				if = {

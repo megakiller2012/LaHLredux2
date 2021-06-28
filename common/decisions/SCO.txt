@@ -106,7 +106,7 @@ SCO_reunify_isles = {
 				if = {
 					limit = {
 						SCO = {
-							has_government = conservatism
+							has_government = right_populism
 						}
 					}
 					SCO = {
