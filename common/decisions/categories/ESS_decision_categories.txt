@@ -1,7 +1,7 @@
-EAG_debug = {
+ESS_debug = {
 	icon = GFX
 	picture = GFX
-	allowed = { original_tag = EAG }
+	allowed = { original_tag = ESS }
 }
 
 ESS_prisoners_of_war = {
