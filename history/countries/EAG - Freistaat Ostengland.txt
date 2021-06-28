@@ -31,6 +31,42 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Ozzy Osbourne"
+	desc = ""
+	picture = ""
+	ideology = religious_millennialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Robert Griffiths"
+	desc = ""
+	picture = ".dds"
+	ideology = ultrahegelianism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "NOBODY"
+	desc = ""
+	picture = ".dds"
+	ideology = soviet_marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Philipp Gnatzy"
+	desc = ""
+	picture = ""
+	ideology = labor_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Reinchard Gunzel"
 	desc = ""
 	picture = "Portrait_EAG_Reinchard_Gunzel.dds"
@@ -41,12 +77,30 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "National Comitee"
+	name = "National Comittee"
 	desc = ""
 	picture = "Portrait_EAG_National_Comitee.dds"
 	ideology = national_anarchism
 	traits = {
 		
+	}
+}
+
+create_country_leader = {
+	name = "Theresa May"
+	desc = ""
+	picture = ""
+	ideology = national_populism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Samuel Vestey"
+	desc = ""
+	picture = ""
+	ideology = neo_feudalism
+	traits = {
 	}
 }
 

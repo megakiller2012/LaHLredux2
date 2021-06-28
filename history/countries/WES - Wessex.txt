@@ -177,7 +177,7 @@ create_corps_commander = {
 
 ####USELESS PEOPLE####
 create_country_leader = {
-	name = "Davyth Fear"
+	name = "Arthur Uther Pendragon"
 	desc = ""
 	picture = ".dds"
 	ideology = religious_millennialism
@@ -186,7 +186,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Robert Griffiths"
+	name = "Davyth Fear"
 	desc = ""
 	picture = ".dds"
 	ideology = ultrahegelianism
@@ -195,7 +195,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Daniel Radcliffe"
+	name = "Neil Kinnock"
 	desc = ""
 	picture = ".dds"
 	ideology = paternalism
@@ -204,7 +204,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dick Cole"
+	name = "Roy Rickhuss"
 	desc = ""
 	picture = ".dds"
 	ideology = agrarian_socialism
@@ -213,7 +213,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Daisy Cooper"
+	name = "Caroline Voaden"
 	desc = ""
 	picture = ".dds"
 	ideology = atlantic_liberalism
@@ -222,7 +222,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Troy Southgate"
+	name = "Sadiq Khan"
 	desc = ""
 	picture = ".dds"
 	ideology = national_anarchism
@@ -231,7 +231,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Androw Hawke"
+	name = "Mark Spencer"
 	desc = ""
 	picture = ".dds"
 	ideology = national_populism
@@ -240,7 +240,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Redmond Watt"
+	name = "Prince Edward, Duke of Kent"
 	desc = ""
 	picture = ".dds"
 	ideology = stratocracy
@@ -249,7 +249,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Paul Golding"
+	name = "Ya'Acov Darling Khan"
 	desc = ""
 	picture = ".dds"
 	ideology = charismatic_dictatorship

@@ -1,7 +1,26 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- KNT_right_populism_party:0 "Ultra-Tories"
+ KNT_millenarism_party:0 "INS"
+ KNT_millenarism_party_long:0 "Institute of Noetic Sciences"
+ KNT_commendationism_party:0 "NC"
+ KNT_commendationism_party_long:0 "Neo-Chartists"
+ KNT_left_authoritarianism_party:0 "New Labour"
+ KNT_left_authoritarianism_party_long:0 "New Labour"
+ KNT_socialism_party:0 "AF"
+ KNT_socialism_party_long:0 "Anarchist Federation"
+ KNT_national_bolshevism_party:0 "DPB"
+ KNT_national_bolshevism_party_long:0 "Debitalist Party of Britain"
+ KNT_neocameralism_party:0 "HT(V)"
+ KNT_neocameralism_party_long:0 "High-Tories - Visionaries (V)"
+ KNT_right_populism_party:0 "HT(C)"
+ KNT_right_populism_party_long:0 "High-Tories - Conservatives"
+ KNT_hegemonism_party:0 "RA"
+ KNT_hegemonism_party_long:0 "Royal Army"
+ KNT_regressionism_party:0 "Windsor Supporters"
+ KNT_regressionism_party_long:0 "Windsor Supporters"
+ KNT_ur_fascism_party:0 "MISSING"
+ KNT_ur_fascism_party_long:0 "MISSING"
  ##COUNTRY NAME##
  KNT_right_populism:0 "Jacobites"
  KNT_right_populism_DEF:0 "Kingdom of Great Britain"

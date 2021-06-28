@@ -25,6 +25,15 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Andrew Wakefield"
+	desc = ""
+	picture = ""
+	ideology = ethical_millennialism
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Salma Yaqoob"
 	desc = ""
 	picture = "Portrait_NTH_Salma_Yaqoob.dds"
@@ -32,22 +41,25 @@ create_country_leader = {
 	traits = {
 	}
 }
+
 create_country_leader = {
-	name = "Mick Hume"
+	name = "Ash Sarkar"
 	desc = ""
-	picture = "Portrait_NTH_Mick_Hume.dds"
-	ideology = nationalism
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Claire Fox"
-	desc = ""
-	picture = "Portrait_NTH_Claire_Fox.dds"
+	picture = ".dds"
 	ideology = soviet_marxism
 	traits = {
 	}
 }
+
+create_country_leader = {
+	name = "Claire Fox"
+	desc = ""
+	picture = "Portrait_NTH_Claire_Fox.dds"
+	ideology = nationalism
+	traits = {
+	}
+}
+
 create_country_leader = {
 	name = "Ken Livingstone"
 	desc = ""
@@ -57,7 +69,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Gordon Brown"
+	name = "Parmjit Dhanda"
 	desc = ""
 	picture = ""
 	ideology = labor_socialism
@@ -73,7 +85,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Ben Elliot"
+	name = "Boris Johnson"
 	desc = ""
 	picture = ""
 	ideology = social_conservatism
@@ -81,7 +93,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Michael Stevens"
+	name = "John Sentamu"
 	desc = ""
 	picture = ""
 	ideology = neo_feudalism
@@ -89,7 +101,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Brendan Perry"
+	name = "NOBODY"
 	desc = ""
 	picture = ""
 	ideology = charismatic_dictatorship

@@ -1,7 +1,26 @@
 ﻿ l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ MRC_millenarism_party:0 "The Sabbat"
+ MRC_millenarism_party_long:0 "The Sabbat"
+ MRC_commendationism_party:0 "Mercian Nationalists"
+ MRC_commendationism_party_long:0 "Mercian Nationalists"
+ MRC_left_authoritarianism_party:0 "MISSING"
+ MRC_left_authoritarianism_party_long:0 "MISSING"
+ MRC_socialism_party:0 "Gnostic Movement"
+ MRC_socialism_party_long:0 "Gnostic Movement "
+ MRC_national_bolshevism_party:0 "Albion Guard"
+ MRC_national_bolshevism_party_long:0 "Albion Guard"
+ MRC_neocameralism_party:0 "Black Glove Society"
+ MRC_neocameralism_party_long:0 "Black Glove Society "
+ MRC_right_populism_party:0 "MISSING"
+ MRC_right_populism_party_long:0 "MISSING"
+ MRC_hegemonism_party:0 "Pagan Army"
+ MRC_hegemonism_party_long:0 "Pagan Army"
+ MRC_regressionism_party:0 "Jedi"
+ MRC_regressionism_party_long:0 "Church of Jediism "
  MRC_ur_fascism_party:0 "Black Army of Britain"
+ MRC_ur_fascism_party_long:0 "Black Army of Britain"
  ##COUNTRY NAME##
  MRC_ur_fascism:0 "Folcists"
  MRC_ur_fascism_DEF:0 "Black Army of Britain"

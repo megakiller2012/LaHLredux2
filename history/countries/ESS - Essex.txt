@@ -39,9 +39,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "John Molyneux"
+	name = "Nick Srnicek"
 	desc = ""
-	picture = "Portrait_ESS_John_Molyneux.dds"
+	picture = ".dds"
 	ideology = ultrahegelianism
 	traits = {
 		
@@ -75,21 +75,19 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Dave Blackwell"
+	name = "Richard Williamson"
 	desc = ""
-	picture = "Portrait_ESS_Dave_Blackwell.dds"
+	picture = ".dds"
 	ideology = national_anarchism
 	traits = {
-		mad_max
 	}
 }
 create_country_leader = {
-	name = "Amanda Milling"
+	name = "Carl Benjamin"
 	desc = ""
-	picture = "Portrait_ESS_Amanda_Milling.dds"
+	picture = ".dds"
 	ideology = social_conservatism
 	traits = {
-		mad_max
 	}
 }
 create_country_leader = {
@@ -98,7 +96,6 @@ create_country_leader = {
 	picture = "Portrait_ESS_Tim_Collins.dds"
 	ideology = autocracy
 	traits = {
-		mad_max
 	}
 }
 create_country_leader = {
@@ -111,9 +108,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Michael Cashmore"
+	name = "nobody"
 	desc = ""
-	picture = "Portrait_ESS_Michael_Cashmore.dds"
+	picture = ".dds"
 	ideology = charismatic_dictatorship
 	traits = {
 		
