@@ -1,3 +1,69 @@
+ESS_debug = {
+	ESS_max_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = ESS_max_1
+		}
+	}	
+    ESS_land_0 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = ESS_land_0
+		}
+	}
+	ESS_land_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = {
+            load_focus_tree = ESS_land_1
+		}
+	}
+    ESS_dawkins_0 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_dawkins_0
+		}
+	}
+	ESS_dawkins_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_dawkins_1
+		}
+	}
+     ESS_gunzel_0 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_gunzel_0
+		}
+	}
+	ESS_gunzel_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_gunzel_1
+		}
+	}
+	ESS_natan_0 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_natan_0
+		}
+	}
+	ESS_natan_1 = {
+		cost = 0
+		days_remove = 1
+        complete_effect = { 
+		    load_focus_tree = ESS_natan_1
+		}
+	}
+}
+
 ESS_prisoners_of_war = {
     ESS_deal_galloway = {
 	    visible = {
