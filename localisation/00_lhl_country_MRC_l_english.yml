@@ -5,6 +5,10 @@
  ##COUNTRY NAME##
  MRC_ur_fascism:0 "Folcists"
  MRC_ur_fascism_DEF:0 "Black Army of Britain"
+ MRC_REUNIFIED1:0 "Commonwealth"
+ MRC_REUNIFIED2:0 "Archbishopric of England"
+ MRC_REUNIFIED3:0 "Anglia" 
+ MRC_REUNIFIED4:0 "Britannia"
  ##TRAITS##
  lastbelovedofeurope:0 "Last Beloved of Evropa"
  ##IDEAS##

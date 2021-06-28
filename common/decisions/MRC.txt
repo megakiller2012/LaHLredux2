@@ -228,6 +228,15 @@ MRC_reunify_isles = {
 						}
 					}
 					MRC = {
+						retire_ideology_leader = ur_fascism
+						create_country_leader = {
+						name = "Tony Wakeford"
+						desc = ""
+						picture = "Portrait_MRC_Tony_Wakeford.dds"
+						ideology = charismatic_dictatorship
+						traits = {
+						}
+						}
 						set_cosmetic_tag = MRC_REUNIFIED4
 					}
 				}

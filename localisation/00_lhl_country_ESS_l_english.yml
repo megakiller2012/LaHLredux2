@@ -22,6 +22,9 @@
  ##COUNTRY NAME##
  ESS_neocameralism:0 "Nationalists"
  ESS_neocameralism_DEF:0 "State of Great Britain"
+ ESS_REUNIFIED1:0 "British Union"
+ ESS_REUNIFIED2:0 "English Republic"
+ ESS_REUNIFIED3:0 "English National State"
  ##TRAITS##
  mad_max:0 "Mad Max"
  militiaman:0 "Militiaman"

@@ -17,7 +17,8 @@ set_politics = {
 }
 
 set_popularities = {
-	socialism  = 100
+	socialism  = 50
+	hegemonism  = 50
 }
 
 add_ai_strategy = {
@@ -33,10 +34,21 @@ add_ai_strategy = {
 }
 
 create_country_leader = {
-	name = "Welsh Leader"
+	name = "Leanne Wood"
 	picture = ".dds"
 	expire = "1953.3.1"
 	ideology = labor_socialism
+	traits = {
+		lion_of_syria
+	}
+}
+
+
+create_country_leader = {
+	name = "Michael Jackson"
+	picture = "Portrait_WLS_Michael_Jackson.dds"
+	expire = "1953.3.1"
+	ideology = stratocracy
 	traits = {
 		lion_of_syria
 	}

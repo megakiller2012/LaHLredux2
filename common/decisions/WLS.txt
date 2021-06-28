@@ -1,62 +1,10 @@
-SUS_prisoners_of_war = {
-    SUS_deal_galloway = {
-	    visible = {
-            has_country_flag = ENG_galloway_here
-        } 
-	}
-    SUS_deal_mogg = {
-	    visible = {
-            has_country_flag = ENG_mogg_here
-        } 
-	}
-    SUS_deal_pearce = {
-	    visible = {
-            has_country_flag = ENG_pearce_here
-        } 
-	}
-    SUS_deal_gunzel = {
-	    visible = {
-            has_country_flag = ENG_gunzel_here
-        } 
-	}
-    SUS_deal_klumb = {
-	    visible = {
-            has_country_flag = ENG_klumb_here
-        } 
-	}
-    SUS_deal_southgate = {
-	    visible = {
-            has_country_flag = ENG_southgate_here
-        } 
-	}
-    SUS_deal_mosley = {
-	    visible = {
-            has_country_flag = ENG_mosley_here
-        } 
-	}
-    SUS_deal_land = {
-	    visible = {
-            has_country_flag = ENG_land_here
-        } 
-	}
-    SUS_deal_dawkins = {
-	    visible = {
-            has_country_flag = ENG_dawkins_here
-        } 
-	}
-    SUS_deal_george = {
-	    visible = {
-            has_country_flag = ENG_george_here
-        } 
-	}
-}
 
-SUS_reunify_isles = {
-    SUS_reunify_country = {
+WLS_reunify_isles = {
+   WLS_reunify_country = {
 		available = {
 		    OR = {
 				custom_trigger_tooltip = { 
-					tooltip = SUS_reunify_country1.tt
+					tooltip = WLS_reunify_country1.tt
 					controls_state = 998
 					owns_state = 998
 					controls_state = 999 
@@ -154,45 +102,25 @@ SUS_reunify_isles = {
 		days_remove = 0
 		fire_only_once = yes
 		complete_effect = {
-            SUS = { 
+            WLS = { 
 				if = {
 					limit = {
-						SUS = {
-							has_government = left_authoritarianism
-						}
-					}
-					SUS = {
-						set_cosmetic_tag = SUS_REUNIFIED3
-					}
-				}
-				if = {
-					limit = {
-						SUS = {
+						WLS = {
 							has_government = socialism
 						}
 					}
-					SUS = {
-						set_cosmetic_tag = SUS_REUNIFIED1
+					WLS = {
+						set_cosmetic_tag = WLS_REUNIFIED1
 					}
 				}
 				if = {
 					limit = {
 						SUS = {
-							has_government = commendationism
+							has_government = hegemonism
 						}
 					}
 					SUS = {
-						set_cosmetic_tag = SUS_REUNIFIED2
-					}
-				}
-				if = {
-					limit = {
-						SUS = {
-							has_government = neocameralism
-						}
-					}
-					SUS = {
-						set_cosmetic_tag = SUS_REUNIFIED4
+						set_cosmetic_tag = WLS_REUNIFIED2
 					}
 				}
 			set_capital = 1160
