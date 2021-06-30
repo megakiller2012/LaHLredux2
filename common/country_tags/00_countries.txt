@@ -199,8 +199,13 @@ AND = "countries/Andalusia.txt"
 NAV = "countries/Navarra.txt"
 BSQ = "countries/Basque country.txt"
 CAT = "countries/Catalonia.txt"
-###India###
+###South Asia###
 IND = "countries/India.txt"
+BLC = "countries/Balochistan.txt"
+NPA = "countries/Northern Provisional Authority.txt"
+PAK = "countries/Pakistan.txt"
+PNJ = "countries/Punjab.txt"
+SIN = "countries/Sindh.txt"
 ###Malorossia###
 GAL = "countries/Galitzia.txt"
 UCS = "countries/Ukrainian Civic State.txt"

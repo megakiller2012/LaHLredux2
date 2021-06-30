@@ -1,6 +1,10 @@
 state={
 	id=577
 	name="STATE_577"
+		history={
+			owner = NPA
+			add_core_of = NPA
+	    }
 	provinces={
 		3596 4950 7439 12666 
 	}

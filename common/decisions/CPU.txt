@@ -1,0 +1,18 @@
+
+CPU_battle_against_predictor = {
+    CPU_defeat_predictor = {
+	    cost = 0
+		days_remove = 1
+		available = {
+		    check_variable = {
+                GLOBAL_PREDICTOR_WORKING < 0    
+            }
+		}
+		complete_effect = {
+            add_to_variable = {
+                var = WES_ai_condition
+                value = 10
+			}
+		} 
+	}
+}	

@@ -8,4 +8,7 @@
  ##IDEAS##
  ##FOCUS TREES##
  ##DECISIONS##
+ CPU_battle_against_predictor:0 "BATTLE AGAINST PREDICTOR"
+ CPU_battle_against_predictor_desc:0 "PREDICTOR POWER: §R[?GLOBAL_PREDICTOR_WORKING]§!"
+ CPU_defeat_predictor:0 "DEFEAT PREDICTOR"
  ##EVENTS##

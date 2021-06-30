@@ -1,0 +1,7 @@
+
+CPU_battle_against_predictor = {
+	icon = GFX_
+	visible_when_empty = yes
+	allowed = { original_tag = CPU }
+}
+

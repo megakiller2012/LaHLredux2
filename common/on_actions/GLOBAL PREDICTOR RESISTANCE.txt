@@ -1,0 +1,11 @@
+on_actions = {
+        on_daily = { 
+		    effect = { 
+				add_to_variable = { 
+					var = GLOBAL_PREDICTOR_WORKING
+					value = -10
+				}
+			}
+		}
+	}				
+}					  
