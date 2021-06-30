@@ -1,9 +1,32 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ EAG_millenarism_party:0 "Anglicans"
+ EAG_millenarism_party_long:0 "Church of England "
+ EAG_commendationism_party:0 "RAF"
+ EAG_commendationism_party_long:0 "Red Army Faction"
+ EAG_left_authoritarianism_party:0 "MISSING"
+ EAG_left_authoritarianism_party_long:0 "MISSING"
+ EAG_socialism_party:0 "UKVolt"
+ EAG_socialism_party_long:0 "Volt UK"
+ EAG_national_bolshevism_party:0 "NAM"
+ EAG_national_bolshevism_party_long:0 "National Anarchist Movement"
+ EAG_neocameralism_party:0 "GC"
+ EAG_neocameralism_party_long:0 "Günzel's Clique"
+ EAG_right_populism_party:0 "EACG"
+ EAG_right_populism_party_long:0 "East Anglia Collaboration Government"
+ EAG_hegemonism_party:0 "PGB"
+ EAG_hegemonism_party_long:0 "Provisional Government of Britain"
+ EAG_regressionism_party:0 "VG"
+ EAG_regressionism_party_long:0 "Vestey Group"
+ EAG_ur_fascism_party:0 "MISSING"
+ EAG_ur_fascism_party_long:0 "MISSING"
  ##COUNTRY NAME##
  EAG_hegemonism:0 "Interventionists"
  EAG_hegemonism_DEF:0 "East Anglia Intervention"
+ EAG_REUNIFIED1:0 "Republic Of Britain"
+ EAG_REUNIFIED2:0 "Free State Of Britain"
+ EAG_REUNIFIED3:0 "English Commune"
  ##TRAITS##
  ##IDEAS##
  EAG_reinhard_gunzel:0 "Reinhard Günzel"

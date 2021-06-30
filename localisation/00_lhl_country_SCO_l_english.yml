@@ -4,6 +4,12 @@
  ##COUNTRY NAME##
  WES_SCO_PUPPET:"Protectorate Of Scotland"
  WES_SCO_PUPPET2:0 "Protectorate Of Scotland"
+ SCO_REUNIFIED1:0 "Kingdom Of Alba"
+ SCO_REUNIFIED2:0 "Scotland"
+ SCO_right_populism_party:0 "Scotland"
+ SCO_right_populism_party_long:0 "Scotland"
+ SCO_hegemonism_party:0 "Scotland"
+ SCO_hegemonism_party_long:0 "Scotland"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

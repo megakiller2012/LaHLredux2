@@ -163,7 +163,7 @@ KNT_reunify_isles = {
 				if = {
 					limit = {
 						KNT = {
-							has_government = millenarism
+							has_government = right_populism
 						}
 					}
 					KNT = {
@@ -173,7 +173,7 @@ KNT_reunify_isles = {
 				if = {
 					limit = {
 						KNT = {
-							has_government = socialism
+							has_government = neocameralism
 						}
 					}
 					KNT = {

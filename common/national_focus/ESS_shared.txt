@@ -1,5 +1,633 @@
 
-		focus = {
+	default = yes
+	shared_focus = {
+		id = ESS_luciferoverlondon
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 4
+		y = 0
+	}
+	shared_focus = {
+		id = ESS_national_revolutionary_army
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 21
+		y = 0
+	}
+	shared_focus = {
+		id = ESS_decentralized_command
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_national_revolutionary_army
+		}
+		mutually_exclusive = {
+			focus = ESS_sword_of_the_republic
+		}
+		x = 18
+		y = 1
+	}
+	
+	shared_focus = {
+		id = ESS_urban_warfare
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_decentralized_command
+	}
+		x = 17
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_elevate_warlords
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_decentralized_command
+	}
+		x = 19
+		y = 2
+	}
+	
+	shared_focus = {
+		id = ESS_contacts_with_local_rebels
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_decentralized_command
+	}
+		x = 18
+		y = 3
+	}
+	
+	shared_focus = {
+		id = ESS_dare_to_die_corps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_urban_warfare
+	}
+		x = 17
+		y = 4
+
+	}
+	shared_focus = {
+		id = ESS_autonomous_recruiting
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_elevate_warlords
+	}
+		x = 19
+		y = 4
+	}
+	
+	shared_focus = {
+		id = ESS_initiatives_on_the_ground
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_dare_to_die_corps
+	}
+	prerequisite = {
+		focus = ESS_contacts_with_local_rebels
+	}
+		x = 18
+		y = 5
+
+	}
+	shared_focus = {
+		id = ESS_preventive_strike
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_national_revolutionary_army
+	}
+		x = 21
+		y = 3
+
+	}
+	shared_focus = {
+	id = ESS_sword_of_the_republic
+	icon = GFX_goal_unknown
+	cost = 10
+	prerequisite = {
+		focus = ESS_national_revolutionary_army
+	}
+	mutually_exclusive = {
+			focus = ESS_decentralized_command
+		}
+	x = 24
+	y = 1
+	}
+	shared_focus = {
+		id = ESS_revive_military_provost
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_sword_of_the_republic
+	}
+		x = 23
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_suppress_independent_warlords
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_sword_of_the_republic
+	}
+		x = 25
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_amnesty_for_royal_officers
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_sword_of_the_republic
+	}
+		x = 24
+		y = 3
+
+	}
+	shared_focus = {
+		id = ESS_auxiliary_Forces
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_revive_military_provost
+	}
+		x = 23
+		y = 4
+
+	}
+	shared_focus = {
+		id = ESS_introduce_military_ranks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_suppress_independent_warlords
+	}
+		x = 25
+		y = 4
+
+	}
+	shared_focus = {
+		id = ESS_return_honor_to_the_army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+		focus = ESS_amnesty_for_royal_officers
+	}
+	prerequisite = {
+		focus = ESS_auxiliary_Forces
+	}
+	prerequisite = {
+		focus = ESS_introduce_military_ranks
+	}
+		x = 24
+		y = 5
+
+	}	
+
+	shared_focus = {
+		id = ESS_revolutionary_ethic 
+		icon = GFX_goal_ESS_revolutionary_ethic
+		cost = 10
+		prerequisite = {
+			focus = ESS_luciferoverlondon
+		}
+		x = 1
+		y = 1
+
+	}
+		shared_focus = {
+		id = ESS_peoples_militia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_revolutionary_ethic
+		}
+		x = -1
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_expropriating_the_expropriators
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_revolutionary_ethic
+		}
+		x = 3
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_civil_vigilantes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_peoples_militia
+		}
+		x = -1
+		y = 3
+
+	}
+	shared_focus = {
+		id = ESS_correction_through_labour
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_expropriating_the_expropriators
+		}
+		prerequisite = {
+			focus = ESS_peoples_militia
+		}
+		x = 1
+		y = 3
+
+	}
+	shared_focus = {
+		id = ESS_bread_and_circuses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_expropriating_the_expropriators
+		}
+		x = 3
+		y = 3
+
+	}
+	shared_focus = {
+		id = ESS_happiness_is_a_warm_gun
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_civil_vigilantes
+		}
+		x = -1
+		y = 4
+
+	}
+	shared_focus = {
+		id = ESS_revival_of_formula_one
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_correction_through_labour
+		}
+
+		x = 1
+		y = 4
+
+	}
+		shared_focus = {
+		id = ESS_lawless_welfare
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_bread_and_circuses
+		}
+		x = 3
+		y = 4
+
+	}
+	shared_focus = {
+		id = ESS_catechism_of_a_nationalist
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_happiness_is_a_warm_gun
+		}
+		prerequisite = {
+			focus = ESS_lawless_welfare
+		}
+		x = 1
+		y = 5
+
+	}
+	shared_focus = {
+		id = ESS_milias_indoctrination
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_catechism_of_a_nationalist
+
+		}
+		x = 0
+		y = 6
+
+	}
+	shared_focus = {
+		id = ESS_praise_the_fathers_legacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_catechism_of_a_nationalist
+		}
+		x = 2
+		y = 6
+
+	}
+
+	shared_focus = {
+		id = ESS_greater_gangs_of_london
+		icon = GFX_goal_ESS_greater_gangs_of_london
+		cost = 10
+		prerequisite = {
+			focus = ESS_luciferoverlondon 
+		}
+		x = 7
+		y = 1
+
+	}
+	shared_focus = {
+		id = ESS_secularization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_greater_gangs_of_london
+		}
+		
+		x = 5
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_city_government
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_greater_gangs_of_london
+		}
+		x = 7
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_secure_the_tower
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_greater_gangs_of_london
+		}
+		x = 9
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_meet_the_anarchists
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_city_government 
+		}
+		x = 7
+		y = 3
+
+	}
+	shared_focus = {
+		id = ESS_awakening_of_atlas
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_meet_the_anarchists
+		}
+		prerequisite = {
+			focus = ESS_secure_the_tower
+		}
+		prerequisite = {
+			focus = ESS_secularization
+		}
+		x = 7
+		y = 4
+
+	}
+	shared_focus = {
+		id = ESS_national_proclamation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_german_invaders
+		}
+		x = 13
+		y = 1
+
+	}
+	shared_focus = {
+		id = ESS_punish_the_huns
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_national_proclamation
+		}
+		x = 11
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_deal_with_royalysts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_national_proclamation
+		}
+		x = 13
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_to_the_north
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_national_proclamation
+		}
+		x = 15
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_england_and_the_world
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_deal_with_royalysts
+		}
+		x = 13
+		y = 3
+
+	}
+	shared_focus = {
+		id = ESS_albion_cooperation
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_england_and_the_world
+		}
+		mutually_exclusive = {
+			focus = ESS_make_them_obey
+		}
+		x = 12
+		y = 4
+
+	}
+	shared_focus = {
+		id = ESS_make_them_obey
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_england_and_the_world
+		}
+		mutually_exclusive = {
+			focus = ESS_albion_cooperation
+		}
+		x = 14
+		y = 4
+}
+	shared_focus = {
+		id = ESS_interregnum
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 13
+		y = 6
+
+	} 
+	shared_focus = {
+		id = ESS_great_concils_choice
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_interregnum
+		}
+		x = 11
+		y = 7
+
+	} 
+		shared_focus = {
+		id = ESS_warlords_action
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_interregnum
+		}
+		x = 13
+		y = 7
+
+	} 
+		shared_focus = {
+		id = ESS_unrest_on_the_streets
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_interregnum
+		}
+		x = 15
+		y = 7
+
+	}
+		shared_focus = {
+		id = ESS_emergency_dictatorship
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_unrest_on_the_streets
+		}
+		prerequisite = {
+			focus = ESS_warlords_action
+		}
+		prerequisite = {
+			focus = ESS_great_concils_choice
+		}
+		x = 13
+		y = 8
+
+	} 
+	
+
+	shared_focus = {
+		id = ESS_autonomous_recruiting
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_asymmetric_warfare
+		}
+		x = 17
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_unleash_the_local_warlords
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_autonomous_recruiting
+		}
+		x = 17
+		y = 3
+
+	}
+
+
+
+	
+	shared_focus = {
+		id = ESS_suppress_independent_warlords
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_centralized_command
+		}
+		x = 25
+		y = 2
+
+	}
+	shared_focus = {
+		id = ESS_provost
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_suppress_independent_warlords
+		}
+		x = 25
+		y = 3
+
+	}
+	shared_focus = {
+		id = ESS_integration_of_paramilitar_corps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_provost
+		}
+		x = 25
+		y = 4
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		shared_focus = {
 		id = ESS_essexs_turmoil
 		icon = GFX_goal_unknown
 		cost = 10
@@ -10,7 +638,7 @@
 		y = 9
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_the_torturemaster-general
 		icon = GFX_goal_unknown
 		cost = 10
@@ -21,7 +649,7 @@
 		y = 9
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_the_moon_devours_the_sun
 		icon = GFX_goal_unknown
 		cost = 10
@@ -32,7 +660,7 @@
 		y = 9
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_a_devils_chaplain
 		icon = GFX_goal_unknown
 		cost = 10
@@ -59,7 +687,7 @@
 	
 	
 	
-		focus = {
+		shared_focus = {
 		id = ESS_tame_the_leviathan
 		icon = GFX_goal_unknown
 		cost = 10
@@ -67,7 +695,7 @@
 		y = 11
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_protective_economy
 		icon = GFX_goal_unknown
 		cost = 10
@@ -78,7 +706,7 @@
 		y = 12
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_trade_unionism
 		icon = GFX_goal_unknown
 		cost = 10
@@ -89,7 +717,7 @@
 		y = 13
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_universal_basic_income
 		icon = GFX_goal_unknown
 		cost = 10
@@ -100,7 +728,7 @@
 		y = 15
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_work_projects_administration
 		icon = GFX_goal_unknown
 		cost = 10
@@ -111,7 +739,7 @@
 		y = 14
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_recovery_growth
 		icon = GFX_goal_unknown
 		cost = 10
@@ -122,7 +750,7 @@
 		y = 15
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_dirigisme
 		icon = GFX_goal_unknown
 		cost = 10
@@ -137,7 +765,7 @@
 		y = 16
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_state_and_party
 		icon = GFX_goal_unknown
 		cost = 10
@@ -148,7 +776,7 @@
 		y = 12
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_new_academic_policy
 		icon = GFX_goal_unknown
 		cost = 10
@@ -159,7 +787,7 @@
 		y = 13
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_peoples_guards
 		icon = GFX_goal_unknown
 		cost = 10
@@ -170,7 +798,7 @@
 		y = 14
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_political_education
 		icon = GFX_goal_unknown
 		cost = 10
@@ -182,7 +810,7 @@
 		y = 15
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_Partocracy
 		icon = GFX_goal_unknown
 		cost = 10
@@ -194,7 +822,7 @@
 		y = 16
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_utopia_under_protection
 		icon = GFX_goal_unknown
 		cost = 10
@@ -211,7 +839,7 @@
 		y = 17
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_information_revolution
 		icon = GFX_goal_unknown
 		cost = 10
@@ -219,7 +847,7 @@
 		y = 8
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_deadly_race
 		icon = GFX_goal_unknown
 		cost = 10
@@ -227,7 +855,7 @@
 		y = 6
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_cultural_revolution
 		icon = GFX_goal_unknown
 		cost = 10
@@ -239,7 +867,7 @@
 		y = 12
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_encourage_wastefullness
 		icon = GFX_goal_unknown
 		cost = 10
@@ -251,7 +879,7 @@
 		y = 13
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_secularization2-booba_obosralsya
 		icon = GFX_goal_unknown
 		cost = 10
@@ -263,7 +891,7 @@
 		y = 13
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_propaganda_of_hedonism
 		icon = GFX_goal_unknown
 		cost = 10
@@ -275,7 +903,7 @@
 		y = 14
 
 	}
-		focus = {
+		shared_focus = {
 		id = ESS_psychical_nomadism
 		icon = GFX_goal_unknown
 		cost = 10
@@ -287,7 +915,7 @@
 		y = 15
 
 	}
-	focus = {
+	shared_focus = {
 		id = ESS_consumer_society
 		icon = GFX_goal_unknown
 		cost = 10
@@ -297,5 +925,318 @@
 		}
 		x = 10
 		y = 16
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	shared_focus = {
+		id = ESS_think_tanks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_information_revolution
+		}
+		x = 22
+		y = 12
+
+	}
+		shared_focus = {
+		id = ESS_national_network_fund
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_information_revolution
+		}
+		x = 24
+		y = 12
+
+	}
+	shared_focus = {
+		id = ESS_xenocognitive_science
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_national_network_fund
+		}
+		prerequisite = {
+			focus = ESS_think_tanks
+		}
+		x = 23
+		y = 13
+
+	}
+	shared_focus = {
+		id = ESS_surveillance_capitalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_xenocognitive_science
+		}
+		x = 22
+		y = 14
+
+	}
+	shared_focus = {
+		id = ESS_epimetheus_project
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_xenocognitive_science
+		}
+		x = 23
+		y = 15
+
+	}
+
+
+	shared_focus = {
+		id = ESS_cyberwarfare
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_xenocognitive_science
+		}
+		x = 24
+		y = 14
+
+	}
+
+
+
+
+
+
+
+
+
+
+	shared_focus = {
+		id = ESS_deadly_race
+		icon = GFX_goal_unknown
+		cost = 10
+	
+		x = 13
+		y = 11
+	}
+	shared_focus = {
+		id = ESS_Noocracy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_deadly_race
+		}
+		x = 10
+		y = 12
+
+	}
+	shared_focus = {
+		id = ESS_programing_cult
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_Noocracy
+		}
+		x = 9
+		y = 13
+
+	}
+	shared_focus = {
+		id = ESS_specialized_education
+		icon = GFX_goal_unknown
+		cost = 10
+		
+		prerequisite = {
+			focus = ESS_programing_cult
+		}
+		x = 9
+		y = 15
+
+	}
+	shared_focus = {
+		id = ESS_aristocracy_of_the_mind
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_Noocracy
+		}
+		x = 10
+		y = 14
+
+	}
+	shared_focus = {
+		id = ESS_technofetishism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_aristocracy_of_the_mind
+			focus = ESS_specialized_education
+		}
+		x = 10
+		y = 16
+
+	}
+	shared_focus = {
+		id = ESS_exaltation_of_capitalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_deadly_race
+		}
+		x = 13
+		y = 12
+
+	}
+	shared_focus = {
+		id = ESS_total_privatization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_exaltation_of_capitalism
+		}
+		x = 12
+		y = 13
+
+	}
+	shared_focus = {
+		id = ESS_take_the_crown_lands
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_total_privatization
+		}
+		x = 12
+		y = 15
+
+	}
+	shared_focus = {
+		id = ESS_special_entrepreneurial_privileges
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_exaltation_of_capitalism
+		}
+		x = 13
+		y = 14
+
+	}
+	shared_focus = {
+		id = ESS_lobbying_committee
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_special_entrepreneurial_privileges
+		}
+		x = 14
+		y = 15
+
+	}
+	shared_focus = {
+		id = ESS_corporatocracy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_lobbying_committee
+			focus = ESS_take_the_crown_lands
+		}
+		prerequisite  = {
+			focus = ESS_special_entrepreneurial_privileges
+		}
+		x = 13
+		y = 16
+
+	}
+	shared_focus = {
+		id = ESS_twilight_of_the_idols
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_deadly_race
+		}
+		x = 16
+		y = 12
+
+	}
+	shared_focus = {
+		id = ESS_dehumanization_of_science
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_twilight_of_the_idols
+		}
+		x = 15
+		y = 13
+
+	}
+	shared_focus = {
+		id = ESS_militarysciencecomplex
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_dehumanization_of_science
+		}
+		x = 16
+		y = 14
+
+	}
+
+	shared_focus = {
+		id = ESS_social_darwinism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_militarysciencecomplex
+			focus = ESS_encourage_rivalry
+		}
+		x = 16
+		y = 16
+
+	}
+	shared_focus = {
+		id = ESS_thelema
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_twilight_of_the_idols
+		}
+		x = 17
+		y = 13
+
+	}
+	shared_focus = {
+		id = ESS_encourage_rivalry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_thelema
+		}
+		x = 17
+		y = 15
+
+	}
+	shared_focus = {
+		id = ESS_eternal_acceleration
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = ESS_technofetishism
+		}
+		prerequisite = {
+			focus = ESS_corporatocracy
+		}
+		prerequisite = {
+			focus = ESS_social_darwinism
+		}
+		x = 13
+		y = 17
 
 	}

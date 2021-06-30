@@ -28,13 +28,11 @@ create_country_leader = {
 	traits = {
 	}
 }
-
-
 create_country_leader = {
-	name = "Tony Wakeford"
+	name = "Vivianne Crowley"
 	desc = ""
-	picture = "Portrait_MRC_Tony_Wakeford.dds"
-	ideology = charismatic_dictatorship
+	picture = ".dds"
+	ideology = ethical_millennialism 
 	traits = {
 	}
 }
@@ -43,7 +41,25 @@ create_country_leader = {
 	name = "David Tibet"
 	desc = ""
 	picture = "Portrait_MRC_David_Tibet.dds"
-	ideology = ethical_millenialism
+	ideology = ethical_millennialism 
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jeff Kent"
+	desc = ""
+	picture = ".dds"
+	ideology = leftwing_chauvinism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "NOBODY"
+	desc = ""
+	picture = ".dds"
+	ideology = soviet_marxism
 	traits = {
 	}
 }
@@ -53,6 +69,51 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_MRC_David_Tibet.dds"
 	ideology = labor_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "NOBODY"
+	desc = ""
+	picture = ".dds"
+	ideology = soviet_marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Marina Ann Hantzis"
+	desc = ""
+	picture = ".dds"
+	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nerina Pallot"
+	desc = ""
+	picture = ".dds"
+	ideology = nazbol_gang
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daniel Jones Jedi"
+	desc = ""
+	picture = ".dds"
+	ideology = neoluddism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "nobody"
+	desc = ""
+	picture = ".dds"
+	ideology = social_conservatism
 	traits = {
 	}
 }

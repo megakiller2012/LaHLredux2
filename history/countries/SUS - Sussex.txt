@@ -29,6 +29,16 @@ set_popularities = {
 	millenarism = 2
 }
 
+
+create_country_leader = {
+	name = "Aubrey David Nicholas Jasper de Grey"
+	desc = ""
+	picture = ".dds"
+	ideology = ethical_millennialism
+	traits = {
+	}
+}
+
 create_country_leader = {
 	name = "Henry IX"
 	desc = ""
@@ -39,6 +49,14 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Sean Matgamna"
+	desc = ""
+	picture = ""
+	ideology = leftwing_chauvinism
+	traits = {
+	}
+}
 
 create_country_leader = {
 	name = "Emma Watson"
@@ -58,6 +76,61 @@ create_country_leader = {
 	traits = {
 	}
 }
+
+create_country_leader = {
+	name = "Richard Dearlove"
+	desc = ""
+	picture = "Portrait_SUS_Richard_Dearlove.dds"
+	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Paul Joseph Watson"
+	desc = ""
+	picture = ".dds"
+	ideology = nazbol_gang
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Meghan, Duchess of Sussex"
+	desc = ""
+	picture = ".dds"
+	ideology = social_conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Amelia Womack"
+	desc = ""
+	picture = ".dds"
+	ideology = stratocracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Michael George R. Tolkien"
+	desc = ""
+	picture = ".dds"
+	ideology = ecofascism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Paul Weston"
+	desc = ""
+	picture = ".dds"
+	ideology = charismatic_dictatorship
+	traits = {
+	}
+}
+
 
 set_country_flag = {
     flag = ENG_henry_here

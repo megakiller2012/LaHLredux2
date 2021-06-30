@@ -12,20 +12,28 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = hegemonism
 	elections_allowed = no
 }
 
 set_popularities = {
-	right_populism  = 100
+	hegemonism  = 100
 }
 
 create_country_leader = {
-	name = "Nurmugamedofff"
-	picture = ".dds"
+	name = "Sean Clerkin"
+	picture = "Portrait_SCO_Sean_Clerkin.dds"
+	expire = "1953.3.1"
+	ideology = nationalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sophie I"
+	picture = "Portrait_SCO_Sophie.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = {
-		lion_of_syria
 	}
 }

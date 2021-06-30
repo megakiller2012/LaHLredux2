@@ -1,0 +1,120 @@
+
+ULS_reunify_isles = {
+   ULS_reunify_country = {
+		available = {
+		    OR = {
+				custom_trigger_tooltip = { 
+					tooltip = ULS_reunify_country1.tt
+					controls_state = 998
+					owns_state = 998
+					controls_state = 999 
+					owns_state = 999
+					controls_state = 1007
+					owns_state = 1007
+					controls_state = 1006
+					owns_state = 1006
+					controls_state = 1000
+					owns_state = 1000
+					controls_state = 1161
+					owns_state = 1161
+					controls_state = 1153
+					owns_state = 1153
+					controls_state = 1001
+					owns_state = 1001
+					controls_state = 1156
+					owns_state = 1156
+					controls_state = 1159
+					owns_state = 1159
+					controls_state = 1158
+					owns_state = 1158
+					controls_state = 1160
+					owns_state = 1160
+					controls_state = 1157
+					owns_state = 1157
+					controls_state = 1003
+					owns_state = 1003
+					controls_state = 1002
+					owns_state = 1002
+					controls_state = 1165
+					owns_state = 1165
+					controls_state = 1143
+					owns_state = 1143
+					controls_state = 1004
+					owns_state = 1004
+					controls_state = 1152
+					owns_state = 1152
+					controls_state = 1154
+					owns_state = 1154
+					controls_state = 1151
+					owns_state = 1151
+					controls_state = 1146
+					owns_state = 1146
+					controls_state = 1155
+					owns_state = 1155
+					controls_state = 1008
+					owns_state = 1008
+					controls_state = 1144
+					owns_state = 1144
+					controls_state = 1005
+					owns_state = 1005
+					controls_state = 1009
+					owns_state = 1009
+					controls_state = 1145
+					owns_state = 1145
+					controls_state = 1011
+					owns_state = 1011
+					controls_state = 1012
+					owns_state = 1012
+					controls_state = 1010
+					owns_state = 1010
+					controls_state = 1018
+					owns_state = 1018
+					#Wales#
+					controls_state = 1148
+					owns_state = 1148
+					controls_state = 1149
+					owns_state = 1149
+					controls_state = 1150
+					owns_state = 1150
+					controls_state = 1147
+					owns_state = 1147
+					#ULStland#
+					controls_state = 1013
+					owns_state = 1013
+					controls_state = 1014
+					owns_state = 1014
+					controls_state = 1162
+					owns_state = 1162
+					controls_state = 1015
+					owns_state = 1015
+					controls_state = 1164
+					owns_state = 1164
+					controls_state = 1163
+					owns_state = 1163
+					controls_state = 1016
+					owns_state = 1016
+					controls_state = 1120
+					owns_state = 1120
+				}
+            }				
+		}
+	    cost = 0
+		days_remove = 0
+		fire_only_once = yes
+		complete_effect = {
+            ULS = { 
+				if = {
+					limit = {
+						ULS = {
+							has_government = hegemonism
+						}
+					}
+					ULS = {
+						set_cosmetic_tag = ULS_REUNIFIED1
+					}
+				}
+			set_capital = 1160
+			}
+		}
+	}
+} 	

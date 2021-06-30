@@ -21,6 +21,42 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Rupert Sheldrake"
+	desc = ""
+	picture = ""
+	ideology = ethical_millennialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "China Mieville"
+	desc = ""
+	picture = ".dds"
+	ideology = ultrahegelianism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mike Katz"
+	desc = ""
+	picture = ".dds"
+	ideology = soviet_marxism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alan Moore"
+	desc = ""
+	picture = ""
+	ideology = labor_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Jacob Rees-Mogg"
 	desc = ""
 	picture = "Portrait_KNT_Rees_Mogg.dds"
@@ -31,10 +67,46 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Anthony Giddens"
+	desc = ""
+	picture = ".dds"
+	ideology = nazbol_gang
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Alexandra Paterson"
 	desc = ""
 	picture = "Portrait_KNT_Alexandra_Paterson.dds"
 	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Thomas Copinger-Symes"
+	desc = ""
+	picture = ".dds"
+	ideology = nationalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Tony Johnstone-Burt"
+	desc = ""
+	picture = ""
+	ideology = neo_feudalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "NOBODY"
+	desc = ""
+	picture = ""
+	ideology = charismatic_dictatorship
 	traits = {
 	}
 }

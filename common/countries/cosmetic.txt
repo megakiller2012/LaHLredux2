@@ -36,21 +36,121 @@ WES_WLS_PUPPET2 = {
 }
 
 SUS_REUNIFIED1 = {
-	color = rgb { 150 0 0 }
-	color_ui = rgb { 150 0 0 }
+	color = rgb { 248 69 78 }
+	color_ui = rgb { 248 69 78 }
 }
 
 SUS_REUNIFIED2 = {
-	color = rgb { 150 0 0 }
-	color_ui = rgb { 150 0 0 }
+	color = rgb { 255 0 40 }
+	color_ui = rgb { 255 0 40 }
 }
 
 SUS_REUNIFIED3 = {
-	color = rgb { 150 0 0 }
-	color_ui = rgb { 150 0 0 }
+	color = rgb { 239 0 12 }
+	color_ui = rgb { 239 0 12 }
 }
 
 SUS_REUNIFIED4 = {
-	color = rgb { 150 0 0 }
-	color_ui = rgb { 150 0 0 }
+	color = rgb { 202 42 46 }
+	color_ui = rgb { 202 42 46 }
+}
+
+KNT_REUNIFIED1 = {
+	color = rgb { 184 0 0 }
+	color_ui = rgb { 184 0 0 }
+}
+
+KNT_REUNIFIED2 = {
+	color = rgb { 227 41 46 }
+	color_ui = rgb { 227 41 46 }
+}
+
+EAG_REUNIFIED1 = {
+	color = rgb { 229 81 50 }
+	color_ui = rgb { 229 81 50 }
+}
+
+EAG_REUNIFIED2 = {
+	color = rgb { 94 94 44 }
+	color_ui = rgb { 94 94 44 }
+}
+
+EAG_REUNIFIED3 = {
+	color = rgb { 176 174 0 }
+	color_ui = rgb { 176 174 0 }
+}
+
+ESS_REUNIFIED1 = {
+	color = rgb { 67 38 68 }
+	color_ui = rgb { 67 38 68 }
+}
+
+ESS_REUNIFIED2 = {
+	color = rgb { 221 124 114 }
+	color_ui = rgb { 221 124 114 }
+}
+
+ESS_REUNIFIED3 = {
+	color = rgb { 176 20 0 }
+	color_ui = rgb { 176 20 0 }
+}
+
+MRC_REUNIFIED1 = {
+	color = rgb { 20 72 49 }
+	color_ui = rgb { 20 72 49 }
+}
+
+MRC_REUNIFIED2 = {
+	color = rgb { 169 0 51 }
+	color_ui = rgb { 169 0 51 }
+}
+
+MRC_REUNIFIED3 = {
+	color = rgb { 26 24 114 }
+	color_ui = rgb { 26 24 114 }
+}
+
+MRC_REUNIFIED4 = {
+	color = rgb { 158 0 106 }
+	color_ui = rgb { 158 0 106 }
+}
+
+NTH_REUNIFIED1 = {
+	color = rgb { 27 67 45 }
+	color_ui = rgb { 27 67 45 }
+}
+
+NTH_REUNIFIED2 = {
+	color = rgb { 0 156 81 }
+	color_ui = rgb { 0 156 81 }
+}
+
+NTH_REUNIFIED3 = {
+	color = rgb { 24 59 54 }
+	color_ui = rgb { 24 59 54 }
+}
+
+WLS_REUNIFIED1 = {
+	color = rgb { 0 116 255 }
+	color_ui = rgb { 0 116 255 }
+}
+
+WLS_REUNIFIED2 = {
+	color = rgb { 191 61 48 }
+	color_ui = rgb { 191 61 48 }
+}
+
+SCO_REUNIFIED1 = {
+	color = rgb { 207 223 0 }
+	color_ui = rgb { 207 223 0 }
+}
+
+SCO_REUNIFIED2 = {
+	color = rgb { 255 170 0 }
+	color_ui = rgb { 255 170 0 }
+}
+
+ULS_REUNIFIED1 = {
+	color = rgb { 255 98 0 }
+	color_ui = rgb { 255 98 0 }
 }
