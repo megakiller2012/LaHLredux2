@@ -1,6 +1,10 @@
 state={
 	id=638
 	name="STATE_638"
+	history={
+		owner = BNG
+		add_core_of = BNG
+	}
 	provinces={
 		3879 7287 13982 13983 13991 
 	}

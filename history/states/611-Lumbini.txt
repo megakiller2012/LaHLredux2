@@ -2,6 +2,10 @@
 state={
 	id=611
 	name="STATE_611"
+	history={
+		owner = NPL
+		add_core_of = NPL
+	}
 	provinces={
 		1977 2323 2576 3518 3694 4507 8129 8788 13254 13282 13283 13318 13329 13352 13387 
 	}

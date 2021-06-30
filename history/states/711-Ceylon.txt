@@ -1,6 +1,10 @@
 state={
 	id=711
 	name="STATE_711"
+	history={
+		owner = SRI
+		add_core_of = SRI
+	}
 	provinces={
 		2439 2648 4657 5645 5662 6424 9001 9342 9528 14821 14841 14862 14870 14872 14879 
 	}
