@@ -268,3 +268,5 @@ DRU = "countries/Druze.txt"
 PAL = "countries/Palestine.txt"
 ###North Africa###
 EGY = "countries/Egypt.txt" 
+##SECRET##
+CUM = "countries/Kamchatka.txt" 

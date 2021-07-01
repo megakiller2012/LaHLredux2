@@ -1,0 +1,49 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL_PARTIES##
+ CUM_millenarism_party:0 "Gadget Cult"
+ CUM_millenarism_party_long:0 "Gadget Cult"
+ CUM_commendationism_party:0 ""
+ CUM_commendationism_party_long:0 ""
+ CUM_left_authoritarianism_party:0 "Patriotic Soviet Party"
+ CUM_left_authoritarianism_party_long:0 "Patriotic Soviet Party"
+ CUM_socialism_party:0 ""
+ CUM_socialism_party_long:0 ""
+ CUM_national_bolshevism_party:0 ""
+ CUM_national_bolshevism_party_long:0 ""
+ CUM_neocameralism_party:0 "Russian Party"
+ CUM_neocameralism_party_long:0 "Russian Party"
+ CUM_right_populism_party:0 ""
+ CUM_right_populism_party_long:0 ""
+ CUM_hegemonism_party:0 "The New Order"
+ CUM_hegemonism_party_long:0 "The New Order"
+ CUM_regressionism_party:0 ""
+ CUM_regressionism_party_long:0 ""
+ CUM_ur_fascism_party:0 ""
+ CUM_ur_fascism_party_long:0 ""
+ ##COUNTRY_NAME##
+ CUM_neocameralism:0 "New Zion"
+ CUM_neocameralism_DEF:0 "New Zion"
+ CUM_millenarism:0 "Gadgetia"
+ CUM_millenarism_DEF:0 "Gadgetia"
+ CUM_commendationism:0 ""
+ CUM_commendationism_DEF:0 ""
+ CUM_left_authoritarianism:0 "Soviet Union"
+ CUM_left_authoritarianism_DEF:0 "Soviet Union"
+ CUM_socialism:0 ""
+ CUM_socialism_DEF:0 ""
+ CUM_national_bolshevism:0 ""
+ CUM_national_bolshevism_DEF:0 ""
+ CUM_right_populism:0 ""
+ CUM_right_populism_DEF:0 ""
+ CUM_hegemonism:0 "United States of America"
+ CUM_hegemonism_DEF:0 "United States of America"
+ CUM_regressionism:0 ""
+ CUM_regressionism_DEF:0 ""
+ CUM_ur_fascism:0 ""
+ CUM_ur_fascism_DEF:0 ""
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##

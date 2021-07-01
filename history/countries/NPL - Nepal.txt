@@ -21,9 +21,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
+	name = "Pushpa Kamal Dahal"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_NPL_Pushpa_Kamal_Dahal.dds"
 	ideology = ultrahegelianism
 	traits = {
 		
