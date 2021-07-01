@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Faure Essozimna Gnassingbé"
-	picture = ".dds"
+	picture = "Portrait_TOG_Faure_Essozimna_Gnassingbé.dds"
 	ideology = autocracy
 	traits = {
 	}

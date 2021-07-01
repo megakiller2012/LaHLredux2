@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Spartanist Diarchy"
-	picture = ".dds"
+	picture = "Portrait_AMB_Spartanist_Diarchy.dds"
 	ideology = stratocracy
 	traits = {
 	}

@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Sharif Sheikh Ahmed"
-	picture = ".dds"
+	picture = "Portrait_SOM_Sharif_Sheikh_Ahmed.dds"
 	ideology = social_conservatism
 	traits = { 
 	}

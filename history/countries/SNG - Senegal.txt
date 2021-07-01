@@ -27,7 +27,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Aliaune Damala Thiam"
-	picture = ".dds"
+	picture = "Portrait_SNG_Aliaune_Damala_Thiam.dds"
 	ideology = atlantic_liberalism  
 	traits = { 
 	}

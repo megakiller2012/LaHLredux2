@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Samsindeen Saka"
-	picture = ".dds"
+	picture = "Portrait_ODU_Samsindeen_Saka.dds"
 	ideology = charismatic_dictatorship
 	traits = {
 	}

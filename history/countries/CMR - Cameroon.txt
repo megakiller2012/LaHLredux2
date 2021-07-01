@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Fon Angwafo III of Mankon"
-	picture = ".dds"
+	picture = "Portrait_CMR_Fon_Angwafo_III_of_Mankon.dds"
 	ideology = neo_feudalism
 	traits = { 
 	}

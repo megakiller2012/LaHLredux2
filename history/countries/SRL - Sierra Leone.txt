@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Alimamy Pallo Bangura"
-	picture = ".dds"
+	picture = "Portrait_SRL_Alimamy_Pallo_Bangura.dds"
 	ideology = autocracy
 	traits = {
 	}

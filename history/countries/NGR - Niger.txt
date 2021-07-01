@@ -22,7 +22,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Saif al-Islam Muammar Gaddafi"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_NGR_Saif_Gaddafi.dds"
 	ideology = nazbol_gang
 	traits = {
 		#

@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Charles Taylor"
-	picture = ".dds"
+	picture = "Portrait_LIB_Charles_Taylor.dds"
 	expire = "1953.3.1"
 	ideology = neo_feudalism
 	traits = {

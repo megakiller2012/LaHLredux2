@@ -19,6 +19,6 @@ set_popularities = {
 create_country_leader = {
 	name = "Marie-Noëlle Koyara"
 	desc = "POLITICS_ABILOV_DESC"
-	picture = ".dds"
+	picture = "Portrait_CAR_Marie-Noëlle_Koyara.dds"
 	ideology = neo_reaction
 }

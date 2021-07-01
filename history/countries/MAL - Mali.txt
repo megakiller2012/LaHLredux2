@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Oumar Mariko"
-	picture = ".dds"
+	picture = "Portrait_MAL_Oumar_Mariko.dds"
 	expire = "1960.1.1"
 	ideology = paternalism
 	traits = {

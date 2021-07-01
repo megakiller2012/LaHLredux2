@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Ibrahim Badamasi Babangida"
-	picture = ".dds"
+	picture = "Portrait_NIG_Ibrahim_Badamasi_Babangida.dds"
 	ideology = social_conservatism
 	traits = { 
 	}

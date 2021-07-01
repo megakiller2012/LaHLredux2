@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Ermias Sahle Selassie"
-	picture = ".dds"
+	picture = "Portrait_ETH_Ermias_Sahle_Selassie.dds"
 	ideology = social_conservatism
 	traits = { 
 	}

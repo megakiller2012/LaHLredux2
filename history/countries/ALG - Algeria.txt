@@ -21,8 +21,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Ali Benhadj"
-	desc = ""
-	picture = ".dds"
+	desc = "Portrait_ALG_Ali_Benhadj.dds"
+	picture = "Portrait_ALG_Ali_Benhadj.dds"
 	ideology = nazbol_gang
 	traits = {
 		#

@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Christian Piquemal"
-	picture = "Portrait_DRU_Issam_Zahreddine.dds"
+	picture = "Portrait_IVC_Christian_Piquemal.dds"
 	ideology = autocracy
 	traits = {
 	}
