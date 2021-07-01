@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Francis Arinze"
-	picture = ".dds"
+	picture = "Portrait_BIA_Francis_Arinze.dds"
 	ideology = stratocracy
 	traits = {
 	}

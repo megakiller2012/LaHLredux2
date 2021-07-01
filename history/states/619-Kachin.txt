@@ -1,6 +1,10 @@
 state={
 	id=619
 	name="STATE_619"
+	history={
+		owner = ALF
+		add_core_of = ALF
+	}
 	provinces={
 		545 702 1583 2290 4084 4324 4758 5594 6246 8237 9692 13388 13616 13676 13681 
 	}

@@ -27,7 +27,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Adama Barrow"
-	picture = ".dds"
+	picture = "Portrait_GMB_Adama_Barrow.dds"
 	ideology = atlantic_liberalism  
 	traits = { 
 	}

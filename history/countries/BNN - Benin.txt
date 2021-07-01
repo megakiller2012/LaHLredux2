@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Kémi Séba"
-	picture = ".dds"
+	picture = "Portrait_BNN_Kemi_Seba.dds"
 	ideology = nazbol_gang
 	traits = {
 	}

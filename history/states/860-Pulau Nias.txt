@@ -1,6 +1,10 @@
 state={
 	id=860
 	name="STATE_860"
+	history={
+		owner = MLS
+		add_core_of = MLS
+	}
 	provinces={
 		 14989 14996
 	}

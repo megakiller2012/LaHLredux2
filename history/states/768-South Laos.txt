@@ -1,6 +1,10 @@
 state={
 	id=768
 	name="STATE_768"
+	history={
+		owner = LAO
+		add_core_of = LAO
+	}
 	provinces={
 		1800 2195 4906 4979 5877 6056 6472 7425 8324 14296 14360 14376 14400 14421 14422 14432 
 	}

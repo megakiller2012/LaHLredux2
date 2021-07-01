@@ -2,6 +2,10 @@
 state={
 	id=760
 	name="STATE_760"
+	history={
+		owner = VIE
+		add_core_of = VIE
+	}
 	provinces={
 		461 3920 5305 8510 8786 8909 14701 14704 14708 14721 14744 14745 14746 14753 14768 14778 
 	}
