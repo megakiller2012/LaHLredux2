@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Sharif Sheikh Ahmed"
-	picture = ".dds"
+	name = "Al-Sultan Abdullah Ri'ayatuddin Al-Mustafa Billah Shah ibni Almarhum Sultan Haji Ahmad Shah Al-Musta'in Billah"
+	picture = "Portrait_MLS_Long_Name.dds"
 	ideology = social_conservatism
 	traits = { 
 	}

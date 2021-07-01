@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Rodrigo Duterte"
-	picture = ".dds"
+	picture = "Portrait_PHI_Rodrigo_Duterte.dds"
 	ideology = social_conservatism
 	traits = { 
 	}

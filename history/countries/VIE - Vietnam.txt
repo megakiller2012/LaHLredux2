@@ -25,6 +25,6 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Phùng Quang Thanh"
-	picture = ".dds"
+	picture = "Portrait_VIE_Phùng_Quang_Thanh.dds"
 	ideology = soviet_marxism
 }

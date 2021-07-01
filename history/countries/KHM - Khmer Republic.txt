@@ -23,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Sourn Serey Ratha"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_KHM_Sourn_Serey_Ratha.dds"
 	ideology = stratocracy
 	traits = { }
 }

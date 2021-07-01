@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	picture = ".dds"
+	name = "Sheikh Hasina"
+	picture = "Portrait_BNG_Sheikh_Hasina.dds"
 	ideology = progressivism
 	traits = {
 		

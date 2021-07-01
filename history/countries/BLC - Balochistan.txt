@@ -19,7 +19,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Balach Marri"
-	picture = ".dds"
+	picture = "Portrait_BLC_Balach_Marri.dds"
 	expire = "1953.3.1"
 	ideology = autocracy
 	traits = {

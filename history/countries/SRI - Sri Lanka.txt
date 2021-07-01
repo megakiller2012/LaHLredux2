@@ -17,9 +17,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
+	name = "Mahinda Rajapaksa"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_SRI_Mahinda_Rajapaksa.dds"
 	ideology = social_conservatism
 	traits = {
 		

@@ -25,6 +25,6 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Bao Youxiang"
-	picture = ".dds"
+	picture = "Portrait_ALF_Bao_Youxiang.dds"
 	ideology = soviet_marxism
 }

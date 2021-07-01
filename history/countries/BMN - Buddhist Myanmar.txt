@@ -23,9 +23,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ashin Wirathu"
+	name = "Wirathu"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_BMN_Wirathu.dds"
 	ideology = ethical_millennialism
 	traits = {
 		

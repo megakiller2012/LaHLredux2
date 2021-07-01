@@ -22,7 +22,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Jigme Khesar Namgyel Wangchuck"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_BHU_Jigme_Khesar_Namgyel_Wangchuck.dds"
 	ideology = nazbol_gang
 	traits = {
 	}

@@ -11,20 +11,21 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = left_authoritarianism
+	ruling_party = right_populism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	left_authoritarianism = 100
+	left_authoritarianism = 50
+	right_populism = 50
 }
 
 create_country_leader = {
-	name = "Rahul Gandhi"
-	picture = "Portrait_IND_Rahul_Gandhi.dds"
+	name = "Narendra Modi"
+	picture = "Portrait_IND_Narendra_Modi.dds"
 	expire = "1960.1.1"
-	ideology = paternalism
+	ideology = social_conservatism
 	traits = {
 		
 	}
