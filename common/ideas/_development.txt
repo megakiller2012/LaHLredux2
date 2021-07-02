@@ -1,0 +1,87 @@
+ideas = {
+
+	development_laws = { 
+		law = yes
+
+		development_0 = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = -0,30
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		development_1 = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = -0,20
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		development_2 = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = -0,10
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		development_3 = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+			}
+
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		development_4 = {
+						
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = 0,10
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+	}
+}
+		
