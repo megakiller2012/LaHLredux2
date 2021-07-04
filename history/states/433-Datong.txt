@@ -1,0 +1,17 @@
+state={
+	id=433
+	name="STATE_433"
+	provinces={
+		1473 2270 2943 3394 4650 4935 5355 5738 6080 9432 11935 12049 12060 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = WRC
+		add_core_of = WRC
+		victory_points = {
+
+		}
+
+	}
+}

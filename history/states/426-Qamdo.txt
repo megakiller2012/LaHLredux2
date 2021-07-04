@@ -1,0 +1,17 @@
+
+state={
+	id=426
+	name="STATE_426"
+	provinces={
+		479 480 626 685 874 1268 1408 1622 1760 1948 2274 2398 2415 3530 4788 6336 8057 8143 8256 8942 12907 12948 13095 13127 13140 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TIB
+		add_core_of = TIB
+		victory_points = {
+
+		}
+   }
+}

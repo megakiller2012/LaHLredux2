@@ -1,15 +1,14 @@
-
 state={
-	id=419
-	name="STATE_419"
+	id=471
+	name="STATE_471"
 	provinces={
-		4616 12996 13012 13037 
+		2201 3401 9459 11978 12005 12016 12050 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 		history={
-		owner = SHA
-		add_core_of = SHA
+		owner = WRC
+		add_core_of = WRC
 		victory_points = {
 
 		}
