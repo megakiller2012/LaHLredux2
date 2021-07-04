@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Han Guoyu"
-	picture = "Portrait_Han_Guoyu.dds"
+	picture = "Portrait_TAI_Han_Guoyu.dds"
 	expire = "1960.1.1"
 	ideology = social_conservatism
 	traits = {
@@ -33,7 +33,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Zhang Anle"
-	picture = "Portrait_Zhang_Anle.dds"
+	picture = "Portrait_TAI_Zhang_Anle.dds"
 	expire = "1960.1.1"
 	ideology = nationalism
 	traits = {
