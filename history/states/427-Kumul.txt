@@ -1,0 +1,15 @@
+state={
+	id=427
+	name="STATE_427"
+	provinces={
+		242 788 1236 1261 2047 2888 3075 3479 5473 6068 8150 8226 11534 11571 11696 11729 11775
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = XIJ
+		add_core_of = XIJ
+		victory_points = {
+
+		}
+}

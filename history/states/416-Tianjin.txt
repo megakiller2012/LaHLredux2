@@ -1,12 +1,9 @@
+
 state={
 	id=416
 	name="STATE_416"
-	provinces={
-		2714 3178 6036 6414 12009 12057 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-		history={
+
+	history={
 		owner = WRC
 		add_core_of = WRC
 		victory_points = {
@@ -14,4 +11,10 @@ state={
 		}
 
 	}
+
+	provinces={
+		2714 3178 6036 6414 11950 12009 12057 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,13 @@
+state={
+	id=1267
+	name="STATE_1267"
+	history={
+		owner = SGP
+		add_core_of = SGP
+    }
+	provinces={
+		5835 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

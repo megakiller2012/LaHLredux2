@@ -1,0 +1,17 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ TAI_right_populism_party:0 "KMT - Moderate Unificationists"
+ TAI_right_populism_party_long:0 "Kuomintang - Moderate Unificationists"
+ TAI_hegemonism_party:0 "KMT - Radical Unificationists"
+ TAI_hegemonism_party_long:0 "Kuomintang - Radical Unificationists"
+ ##COUNTRY NAME##
+ TAI_right_populism:0 "Republic of China"
+ TAI_right_populism_DEF:0 "the Republic of China"
+ TAI_hegemonism:0 "Republic of China"
+ TAI_hegemonism_DEF:0 "the Republic of China"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
