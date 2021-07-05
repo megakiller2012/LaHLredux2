@@ -1,12 +1,16 @@
+
 state={
 	id=928
 	name="STATE_928"
+
 	history={
 		owner = MOR
 		add_core_of = MOR
+
 	}
+
 	provinces={
-		1134 4265 6250 7232 8093 8828 9789 13068 13137
+		1134 4054 4265 5813 6250 7232 8093 8828 9789 13061 13068 13075 13137 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
