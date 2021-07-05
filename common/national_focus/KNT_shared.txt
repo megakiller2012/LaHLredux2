@@ -2,17 +2,174 @@
 		id = KNT_shaky_ground
 		icon = GFX_goal_KNT_shaky_ground
 		cost = 10
-		x = 4
+		x = 10
 		y = 0
 	}
 	shared_focus = {
 		id = KNT_art_of_war
-		icon = GFX_goal_unknown
+		icon = GFX_goal_KNT_art_of_war
 		cost = 10
 		prerequisite = {
 			focus = KNT_shaky_ground
 		}
-		x = 4
+		x = 10
 		y = 1
 	}
-	
+	shared_focus = {
+		id = KNT_operation_clockwork_orange
+		icon = GFX_goal_KNT_operation_clockwork_orange
+		cost = 10
+		prerequisite = {
+			focus = KNT_art_of_war
+		}
+		x = 8
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_escaped_from_the_madmen
+		icon = GFX_goal_KNT_escaped_from_the_madmen
+		cost = 10
+		prerequisite = {
+			focus = KNT_art_of_war
+		}
+		x = 10
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_prevent_the_export_of_revolution
+		icon = GFX_goal_KNT_prevent_the_export_of_revolution
+		cost = 10
+		prerequisite = {
+			focus = KNT_art_of_war
+		}
+		x = 12
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_the_first_design_contest 
+		icon = GFX_goal_KNT_the_first_design_contest 
+		cost = 10
+		prerequisite = {
+			focus = KNT_prevent_the_export_of_revolution
+		}
+		prerequisite = {
+			focus = KNT_operation_clockwork_orange
+		}
+		prerequisite = {
+			focus = KNT_escaped_from_the_madmen
+		}
+		x = 10
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_inspect_warehouses
+		icon = GFX_goal_KNT_inspect_warehouses
+		cost = 10
+		prerequisite = {
+			focus = KNT_shaky_ground
+		}
+		x = 3
+		y = 1
+	}
+	shared_focus = {
+		id = KNT_caravans_of_the_channel_tunnel
+		icon = GFX_goal_KNT_caravans_of_the_channel_tunnel
+		cost = 10
+		prerequisite = {
+			focus = KNT_inspect_warehouses
+		}
+		x = 3
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_national_service
+		icon = GFX_goal_KNT_national_service
+		cost = 10
+		prerequisite = {
+			focus = KNT_caravans_of_the_channel_tunnel
+		}
+		x = 3
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_home_office
+		icon = GFX_goal_KNT_home_office
+		cost = 10
+		prerequisite = {
+			focus = KNT_inspect_warehouses
+		}
+		x = 5
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_lessons_of_marne
+		icon = GFX_goal_KNT_lessons_of_marne
+		cost = 10
+		prerequisite = {
+			focus = KNT_home_office
+		}
+		x = 5
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_imperial_preference
+		icon = GFX_goal_KNT_imperial_preference
+		cost = 10
+		prerequisite = {
+			focus = KNT_shaky_ground
+		}
+		x = 16
+		y = 1
+	}
+	shared_focus = {
+		id = KNT_autodidacts_and_masters
+		icon = GFX_goal_KNT_autodidacts_and_masters
+		cost = 10
+		prerequisite = {
+			focus = KNT_imperial_preference
+		}
+		x = 15
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_exploit_the_brain_drain
+		icon = GFX_goal_KNT_exploit_the_brain_drain
+		cost = 10
+		prerequisite = {
+			focus = KNT_imperial_preference
+		}
+		x = 17
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_walled_cities
+		icon = GFX_goal_KNT_walled_cities
+		cost = 10
+		prerequisite = {
+			focus = KNT_autodidacts_and_masters
+		}
+		prerequisite = {
+			focus = KNT_exploit_the_brain_drain
+		}
+		x = 16
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_we_shall_never_surrender
+		icon = GFX_goal_KNT_we_shall_never_surrender
+		cost = 10
+		prerequisite = {
+			focus = KNT_lessons_of_marne
+		}
+		prerequisite = {
+			focus = KNT_national_service
+		}
+		prerequisite = {
+			focus = KNT_the_first_design_contest
+		}
+		prerequisite = {
+			focus = KNT_walled_cities
+		}
+		x = 10
+		y = 4
+	}
