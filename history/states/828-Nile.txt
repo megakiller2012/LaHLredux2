@@ -1,12 +1,16 @@
+
 state={
 	id=828
 	name="STATE_828"
+
 	history={
 		owner = SUD
 		add_core_of = SUD
+
 	}
+
 	provinces={
-		 35 8368 2935 9492 2716 14366 4051 14293 14342 5583 
+		2716 2935 4051 5583 8368 9492 14293 14342 14366 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
