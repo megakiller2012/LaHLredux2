@@ -1,0 +1,18 @@
+	shared_focus = {
+		id = KNT_shaky_ground
+		icon = GFX_goal_KNT_shaky_ground
+		cost = 10
+		x = 4
+		y = 0
+	}
+	shared_focus = {
+		id = KNT_art_of_war
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = KNT_shaky_ground
+		}
+		x = 4
+		y = 1
+	}
+	

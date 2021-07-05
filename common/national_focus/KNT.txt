@@ -1,0 +1,14 @@
+focus_tree = {
+	id = KNT_focus
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = KNT_shaky_ground
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = KNT
+			
+		}
+	}
+}
