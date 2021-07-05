@@ -4,7 +4,7 @@ state={
 	provinces={
 		3260 4008 4114 4529 4815 5075 5526 7584 7623 7990 8191 8678 8691 8943 12971 13032 13057 13081 13092 13096 13101 13147 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = HUB
