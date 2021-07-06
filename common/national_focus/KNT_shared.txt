@@ -1329,14 +1329,32 @@ shared_focus = {
 		id = KNT_there_always_be_an_england
 		icon = GFX_goal_KNT_there_always_be_an_england
 		cost = 10
-		prerequisite = {
-             focus = KNT_the_coronation
-		}
 		available = {
             KNT = {
                 has_completed_focus = KNT_the_coronation
-				has_completed_focus = KNT_colt's_legacy
+				has_completed_focus = KNT_the_modern_prometheus
+				has_completed_focus = KNT_titanic_ii
+				has_completed_focus = KNT_not_only_just_the_bullets
+				has_completed_focus = KNT_it's_treason_then
             }
+			OR = {
+				KNT = {
+				    has_completed_focus = KNT_made_in_britain
+					has_completed_focus = KNT_royal_ordnance_factories
+				}
+			    KNT = {
+					has_completed_focus = KNT_colt's_legacy
+					has_completed_focus = KNT_it_just_works
+				}
+		    }
+			OR = {
+			    KNT = {
+					has_completed_focus = KNT_top_gear
+				}
+				KNT = {
+				    has_completed_focus = KNT_the_old_guards_in_action
+				}
+			}
 		}	
 		x = 27
 		y = 16
