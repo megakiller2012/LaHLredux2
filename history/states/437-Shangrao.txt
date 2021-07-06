@@ -1,0 +1,18 @@
+state={
+	id=437
+	name="STATE_437"
+	provinces={
+                  2086 2616 3761 5704 5876 7681 8239 9489 9808 13193 13205 13238 13260 13276 13295 13327 
+
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+        history={
+	owner = JXI
+		add_core_of = JXI
+		victory_points = {
+
+		}
+
+	}
+}

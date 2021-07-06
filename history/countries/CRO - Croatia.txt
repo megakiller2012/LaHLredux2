@@ -1,4 +1,4 @@
-﻿capital = 1879
+﻿capital = 242
 oob = ""
 
 set_research_slots = 3

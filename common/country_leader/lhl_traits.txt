@@ -1509,4 +1509,3 @@ Black_bird = { #Roger Scruton#
 ###GENERIC_IDEAS###
 
 }
-

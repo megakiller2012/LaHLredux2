@@ -1,0 +1,41 @@
+﻿capital = 858
+
+oob = "TAI_2020"
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = right_populism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	right_populism = 60
+	hegemonism = 40
+}
+
+create_country_leader = {
+	name = "Han Guoyu"
+	picture = "Portrait_TAI_Han_Guoyu.dds"
+	expire = "1960.1.1"
+	ideology = social_conservatism
+	traits = {
+    }
+}
+
+
+create_country_leader = {
+	name = "Zhang Anle"
+	picture = "Portrait_TAI_Zhang_Anle.dds"
+	expire = "1960.1.1"
+	ideology = nationalism
+	traits = {
+     }
+}

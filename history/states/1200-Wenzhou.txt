@@ -4,7 +4,7 @@ state={
 	provinces={
 		6978 7677 7775 13258 13278 13286 13353 13390 13392 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 		history={
 		owner = PGJ
