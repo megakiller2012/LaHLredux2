@@ -63,7 +63,7 @@ create_country_leader = {
 	create_country_leader = {
 	name = "Viktor Vaganyan"
 	desc = "POLITICS_Viktor_Vaganyan_DESC"
-	picture = "Portrait_ARM_Viktor_Vaganyan	.dds"
+	picture = "Portrait_ARM_Viktor_Vaganyan.dds"
 	ideology = ur_fascism
 	traits = {
 		#
