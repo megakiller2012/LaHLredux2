@@ -1,0 +1,1470 @@
+	shared_focus = {
+		id = KNT_shaky_ground
+		icon = GFX_goal_KNT_shaky_ground
+		cost = 10
+		x = 27
+		y = 0
+	}
+	shared_focus = {
+		id = KNT_art_of_war
+		icon = GFX_goal_KNT_art_of_war
+		cost = 10
+		prerequisite = {
+			focus = KNT_shaky_ground
+		}
+		x = 27
+		y = 1
+	}
+	shared_focus = {
+		id = KNT_operation_clockwork_orange
+		icon = GFX_goal_KNT_operation_clockwork_orange
+		cost = 10
+		prerequisite = {
+			focus = KNT_art_of_war
+		}
+		x = 25
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_escaped_from_the_madmen
+		icon = GFX_goal_KNT_escaped_from_the_madmen
+		cost = 10
+		prerequisite = {
+			focus = KNT_art_of_war
+		}
+		x = 27
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_prevent_the_export_of_revolution
+		icon = GFX_goal_KNT_prevent_the_export_of_revolution
+		cost = 10
+		prerequisite = {
+			focus = KNT_art_of_war
+		}
+		x = 29
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_the_first_design_contest 
+		icon = GFX_goal_KNT_the_first_design_contest 
+		cost = 10
+		prerequisite = {
+			focus = KNT_prevent_the_export_of_revolution
+		}
+		prerequisite = {
+			focus = KNT_operation_clockwork_orange
+		}
+		prerequisite = {
+			focus = KNT_escaped_from_the_madmen
+		}
+		x = 27
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_inspect_warehouses
+		icon = GFX_goal_KNT_inspect_warehouses
+		cost = 10
+		prerequisite = {
+			focus = KNT_shaky_ground
+		}
+		x = 20
+		y = 1
+	}
+	shared_focus = {
+		id = KNT_caravans_of_the_channel_tunnel
+		icon = GFX_goal_KNT_caravans_of_the_channel_tunnel
+		cost = 10
+		prerequisite = {
+			focus = KNT_inspect_warehouses
+		}
+		x = 20
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_national_service
+		icon = GFX_goal_KNT_national_service
+		cost = 10
+		prerequisite = {
+			focus = KNT_caravans_of_the_channel_tunnel
+		}
+		x = 20
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_home_office
+		icon = GFX_goal_KNT_home_office
+		cost = 10
+		prerequisite = {
+			focus = KNT_inspect_warehouses
+		}
+		x = 22
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_lessons_of_marne
+		icon = GFX_goal_KNT_lessons_of_marne
+		cost = 10
+		prerequisite = {
+			focus = KNT_home_office
+		}
+		x = 22
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_imperial_preference
+		icon = GFX_goal_KNT_imperial_preference
+		cost = 10
+		prerequisite = {
+			focus = KNT_shaky_ground
+		}
+		x = 34
+		y = 1
+	}
+	shared_focus = {
+		id = KNT_autodidacts_and_masters
+		icon = GFX_goal_KNT_autodidacts_and_masters
+		cost = 10
+		prerequisite = {
+			focus = KNT_imperial_preference
+		}
+		x = 33
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_exploit_the_brain_drain
+		icon = GFX_goal_KNT_exploit_the_brain_drain
+		cost = 10
+		prerequisite = {
+			focus = KNT_imperial_preference
+		}
+		x = 35
+		y = 2
+	}
+	shared_focus = {
+		id = KNT_walled_cities
+		icon = GFX_goal_KNT_walled_cities
+		cost = 10
+		prerequisite = {
+			focus = KNT_autodidacts_and_masters
+		}
+		prerequisite = {
+			focus = KNT_exploit_the_brain_drain
+		}
+		x = 34
+		y = 3
+	}
+	shared_focus = {
+		id = KNT_we_shall_never_surrender
+		icon = GFX_goal_KNT_we_shall_never_surrender
+		cost = 10
+		prerequisite = {
+			focus = KNT_lessons_of_marne
+		}
+		prerequisite = {
+			focus = KNT_national_service
+		}
+		prerequisite = {
+			focus = KNT_the_first_design_contest
+		}
+		prerequisite = {
+			focus = KNT_walled_cities
+		}
+		x = 27
+		y = 4
+	}
+	shared_focus = {
+		id = KNT_george's_knights
+		icon = GFX_goal_KNT_george's_knights
+		cost = 10
+		prerequisite = {
+			focus = KNT_we_shall_never_surrender
+		}
+		x = 24
+		y = 5
+	}
+	shared_focus = {
+		id = KNT_status_of_guilds
+		icon = GFX_goal_KNT_status_of_guilds
+		cost = 10
+		prerequisite = {
+			focus = KNT_we_shall_never_surrender
+		}
+		x = 26
+		y = 5
+	}
+	shared_focus = {
+		id = KNT_new_management
+		icon = GFX_goal_KNT_new_management
+		cost = 10
+		prerequisite = {
+			focus = KNT_we_shall_never_surrender
+		}
+		x = 28
+		y = 5
+	}
+	shared_focus = {
+		id = KNT_no_sympathy_for_the_left
+		icon = GFX_goal_KNT_no_sympathy_for_the_left
+		cost = 10
+		prerequisite = {
+			focus = KNT_we_shall_never_surrender
+		}
+		x = 30
+		y = 5
+	}
+	shared_focus = {
+		id = KNT_commons_of_house
+		icon = GFX_goal_KNT_commons_of_house
+		cost = 10
+		prerequisite = {
+			focus = KNT_george's_knights
+		}
+		prerequisite = {
+			focus = KNT_status_of_guilds
+		}
+		prerequisite = {
+			focus = KNT_new_management
+		}
+		prerequisite = {
+			focus = KNT_no_sympathy_for_the_left
+		}
+		x = 27
+		y = 6
+	}
+	shared_focus = {
+		id = KNT_the_workshop_of_the_world
+		icon = GFX_goal_KNT_the_workshop_of_the_world
+		cost = 10
+		prerequisite = {
+			focus = KNT_commons_of_house
+		}
+		x = 17
+		y = 7
+	}
+	shared_focus = {
+		id = KNT_new_era_of_railways
+		icon = GFX_goal_KNT_new_era_of_railways
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_workshop_of_the_world
+		}
+		x = 17
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_greener_energy
+		icon = GFX_goal_KNT_greener_energy
+		cost = 10
+		prerequisite = {
+			focus = KNT_new_era_of_railways
+		}
+		x = 16
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_no_more_wires
+		icon = GFX_goal_KNT_no_more_wires
+		cost = 10
+		prerequisite = {
+			focus = KNT_new_era_of_railways
+		}
+		x = 18
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_the_iter_project
+		icon = GFX_goal_KNT_the_iter_project
+		cost = 10
+		prerequisite = {
+			focus = KNT_no_more_wires
+		}
+		prerequisite = {
+			focus = KNT_greener_energy
+		}
+		x = 17
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_the_modern_prometheus
+		icon = GFX_goal_KNT_the_modern_prometheus
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_iter_project
+		}
+		x = 16
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_titanic_ii
+		icon = GFX_goal_KNT_titanic_ii
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_iter_project
+		}
+		x = 18
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_manchester_model
+		icon = GFX_goal_KNT_manchester_model
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_workshop_of_the_world
+		}
+		x = 13
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_protect_the_inventors
+		icon = GFX_goal_KNT_protect_the_inventors
+		cost = 10
+		prerequisite = {
+			focus = KNT_manchester_model
+		}
+		x = 13
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_russel_group_competition
+		icon = GFX_goal_KNT_protect_the_inventors
+		cost = 10
+		prerequisite = {
+			focus = KNT_manchester_model
+		}
+		x = 11
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_role_of_the_unions
+		icon = GFX_goal_KNT_role_of_the_unions
+		cost = 10
+		prerequisite = {
+			focus = KNT_protect_the_inventors
+		}
+		prerequisite = {
+			focus = KNT_russel_group_competition
+		}
+		x = 13
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_the_limit
+		icon = GFX_goal_KNT_the_limit
+		cost = 10
+		prerequisite = {
+			focus = KNT_role_of_the_unions
+		}
+		mutually_exclusive = {
+	    focus = KNT_the_law
+	}
+		x = 12
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_the_law
+		icon = GFX_goal_KNT_the_law
+		cost = 10
+		prerequisite = {
+			focus = KNT_role_of_the_unions
+		}
+		mutually_exclusive = {
+	    focus = KNT_the_limit
+	}
+		x = 14
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_rational_egoism
+		icon = GFX_goal_KNT_rational_egoism
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_limit
+			focus = KNT_the_law
+		}
+		x = 13
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_friendly_society
+		icon = GFX_goal_KNT_friendly_society
+		cost = 10
+		prerequisite = {
+			focus = KNT_rational_egoism
+		}
+		x = 13
+		y = 13
+	}
+	shared_focus = {
+		id = KNT_colt's_legacy
+		icon = GFX_goal_KNT_colt's_legacy
+		cost = 10
+		prerequisite = {
+			focus = KNT_friendly_society
+		}
+		x = 12
+		y = 14
+	}
+	shared_focus = {
+		id = KNT_it_just_works
+		icon = GFX_goal_KNT_it_just_works
+		cost = 10
+		prerequisite = {
+			focus = KNT_friendly_society
+		}
+		x = 14
+		y = 14
+	}
+	shared_focus = {
+		id = KNT_the_gospel_of_wealth
+		icon = GFX_goal_KNT_the_gospel_of_wealth
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_workshop_of_the_world
+		}
+		mutually_exclusive = {
+	    focus = KNT_manchester_model
+	}
+		x = 21
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_reward_the_geniuses
+		icon = GFX_goal_KNT_reward_the_geniuses
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_gospel_of_wealth
+		}
+		x = 21
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_new_place_new_opportunity
+		icon = GFX_goal_KNT_new_place_new_opportunity
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_gospel_of_wealth
+		}
+		x = 23
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_rebirth_of_gentries
+		icon = GFX_goal_KNT_rebirth_of_gentries
+		cost = 10
+		prerequisite = {
+			focus = KNT_reward_the_geniuses
+		}
+		prerequisite = {
+			focus = KNT_new_place_new_opportunity
+		}
+		x = 21
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_mercantilism_of_our_century
+		icon = GFX_goal_KNT_mercantilism_of_our_century
+		cost = 10
+		prerequisite = {
+			focus = KNT_rebirth_of_gentries
+		}
+		mutually_exclusive = {
+	    focus = KNT_everything_within_britain
+		}
+		x = 22
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_everything_within_britain
+		icon = GFX_goal_KNT_everything_within_britain
+		cost = 10
+		prerequisite = {
+			focus = KNT_rebirth_of_gentries
+		}
+		mutually_exclusive = {
+	    focus = KNT_mercantilism_of_our_century
+		}
+		x = 20
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_support_of_local_communities
+		icon = GFX_goal_KNT_support_of_local_communities
+		cost = 10
+		prerequisite = {
+			focus = KNT_everything_within_britain
+			focus = KNT_mercantilism_of_our_century
+		}
+		x = 21
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_noblesse_oblige
+		icon = GFX_goal_KNT_noblesse_oblige
+		cost = 10
+		prerequisite = {
+			focus = KNT_support_of_local_communities
+		}
+		x = 21
+		y = 13
+	}
+	shared_focus = {
+		id = KNT_made_in_britain
+		icon = GFX_goal_KNT_made_in_britain
+		cost = 10
+		prerequisite = {
+			focus = KNT_noblesse_oblige
+		}
+		x = 20
+		y = 14
+	}
+	shared_focus = {
+		id = KNT_royal_ordnance_factories 
+		icon = GFX_goal_KNT_royal_ordnance_factories 
+		cost = 10
+		prerequisite = {
+			focus = KNT_noblesse_oblige
+		}
+		x = 22
+		y = 14
+	}
+	shared_focus = {
+		id = KNT_stop_cultural_decadence
+		icon = GFX_goal_KNT_stop_cultural_decadence
+		cost = 10
+		prerequisite = {
+			focus = KNT_commons_of_house
+		}
+		x = 5
+		y = 7
+	}
+	shared_focus = {
+		id = KNT_victorian_ensemble
+		icon = GFX_goal_KNT_victorian_ensemble
+		cost = 10
+		prerequisite = {
+			focus = KNT_stop_cultural_decadence
+		}
+		mutually_exclusive = {
+	    focus = KNT_our_new_burden
+		}
+		x = 4
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_rational_education
+		icon = GFX_goal_KNT_rational_education
+		cost = 10
+		prerequisite = {
+			focus = KNT_victorian_ensemble
+		}
+		x = 4
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_old_waves
+		icon = GFX_goal_KNT_old_waves
+		cost = 10
+		prerequisite = {
+			focus = KNT_victorian_ensemble
+		}
+		x = 2
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_all_the_world's_a_stage
+		icon = GFX_goal_KNT_all_the_world's_a_stage
+		cost = 10
+		prerequisite = {
+			focus = KNT_old_waves
+		}
+		prerequisite = {
+			focus = KNT_rational_education
+		}
+		x = 3
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_belongs_in_the_trash
+		icon = GFX_goal_KNT_belongs_in_the_trash
+		cost = 10
+		prerequisite = {
+			focus = KNT_all_the_world's_a_stage
+		}
+		x = 3
+		y = 11
+	}
+		shared_focus = {
+		id = KNT_adapt_the_modern_tech
+		icon = GFX_goal_KNT_adapt_the_modern_tech
+		cost = 10
+		prerequisite = {
+			focus = KNT_belongs_in_the_trash
+		}
+		x = 2
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_the_gentlemen's_codex
+		icon = GFX_goal_KNT_the_gentlemen's_codex
+		cost = 10
+		prerequisite = {
+			focus = KNT_belongs_in_the_trash
+		}
+		x = 4
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_i'm_not_a_number_i'm_a_free_man
+		icon = GFX_goal_KNT_i'm_not_a_number_i'm_a_free_man
+		cost = 10
+		prerequisite = {
+			focus = KNT_adapt_the_modern_tech
+		}
+		prerequisite = {
+			focus = KNT_the_gentlemen's_codex
+		}
+		x = 3
+		y = 13
+	}
+	shared_focus = {
+		id = KNT_the_merrie_monarch
+		icon = GFX_goal_KNT_the_merrie_monarch
+		cost = 10
+		prerequisite = {
+			focus = KNT_i'm_not_a_number_i'm_a_free_man
+		}
+		x = 3
+		y = 14
+	}
+	shared_focus = {
+		id = KNT_our_new_burden
+		icon = GFX_goal_KNT_victorian_ensemble
+		cost = 10
+		prerequisite = {
+			focus = KNT_stop_cultural_decadence
+		}
+		mutually_exclusive = {
+	    focus = KNT_victorian_ensemble
+		}
+		x = 6
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_modern_don_quijote
+		icon = GFX_goal_KNT_modern_don_quijote
+		cost = 10
+		prerequisite = {
+			focus = KNT_our_new_burden
+		}
+		x = 6
+		y = 9
+	}
+		shared_focus = {
+		id = KNT_church_order
+		icon = GFX_goal_KNT_church_order
+		cost = 10
+		prerequisite = {
+			focus = KNT_our_new_burden
+		}
+		x = 8
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_self_sufficient_families
+		icon = GFX_goal_self_sufficient_families
+		cost = 10
+		prerequisite = {
+			focus = KNT_church_order
+		}
+		prerequisite = {
+			focus = KNT_modern_don_quijote
+		}
+		x = 7
+		y = 10
+	}
+shared_focus = {
+		id = KNT_proper_care_for_veterans
+		icon = GFX_goal_KNT_proper_care_for_veterans
+		cost = 10
+		prerequisite = {
+			focus = KNT_self_sufficient_families
+		}
+		x = 7
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_heroism_over_hedonism
+		icon = GFX_goal_KNT_heroism_over_hedonism
+		cost = 10
+		prerequisite = {
+			focus = KNT_proper_care_for_veterans
+		}
+		x = 6
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_our_victories
+		icon = GFX_goal_KNT_our_victories
+		cost = 10
+		prerequisite = {
+			focus = KNT_proper_care_for_veterans
+		}
+		x = 8
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_lessons_of_dickens
+		icon = GFX_goal_KNT_lessons_of_dickens
+		cost = 10
+		prerequisite = {
+			focus = KNT_heroism_over_hedonism
+		}
+		prerequisite = {
+			focus = KNT_our_victories
+		}
+		x = 7
+		y = 13
+	}
+	shared_focus = {
+		id = KNT_le_roi_soleil
+		icon = GFX_goal_KNT_le_roi_soleil
+		cost = 10
+		prerequisite = {
+			focus = KNT_lessons_of_dickens
+		}
+		x = 7
+		y = 14
+	}
+	shared_focus = {
+		id = KNT_the_coronation
+		icon = GFX_goal_KNT_the_coronation
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_merrie_monarch
+			focus = KNT_le_roi_soleil
+		}
+		x = 5
+		y = 15
+	}
+	shared_focus = {
+		id = KNT_we_shall_go_on_to_the_end
+		icon = GFX_goal_KNT_we_shall_go_on_to_the_end
+		cost = 10
+		prerequisite = {
+			focus = KNT_commons_of_house
+		}
+		x = 30
+		y = 7
+	}
+	shared_focus = {
+		id = KNT_henry's_toys
+		icon = GFX_goal_KNT_henry's_toys
+		cost = 10
+		prerequisite = {
+			focus = KNT_we_shall_go_on_to_the_end
+		}
+		x = 30
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_future_of_the_pneumatic_weaponry
+		icon = GFX_goal_KNT_future_of_the_pneumatic_weaponry
+		cost = 10
+		prerequisite = {
+			focus = KNT_henry's_toys
+		}
+		x = 30
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_the_beast_on_rails
+		icon = GFX_goal_KNT_the_beast_on_rails
+		cost = 10
+		prerequisite = {
+			focus = KNT_future_of_the_pneumatic_weaponry
+		}
+		x = 30
+		y = 10
+		
+	}
+	shared_focus = {
+		id = KNT_the_gulliver
+		icon = GFX_goal_KNT_the_gulliver
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_beast_on_rails
+		}
+		x = 29
+		y = 11
+		
+	}
+	shared_focus = {
+		id = KNT_airships'_renaissance
+		icon = GFX_goal_KNT_airships'_renaissance
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_beast_on_rails
+		}
+		x = 31
+		y = 11
+		
+	}
+	shared_focus = {
+		id = KNT_not_only_just_the_bullets
+		icon = GFX_goal_KNT_not_only_just_the_bullets
+		cost = 10
+		prerequisite = {
+			focus = KNT_airships'_renaissance
+		}
+		prerequisite = {
+			focus = KNT_the_gulliver
+		}
+		x = 30
+		y = 12
+		
+	}
+	shared_focus = {
+		id = KNT_professionals_have_standards
+		icon = GFX_goal_KNT_professionals_have_standards
+		cost = 10
+		prerequisite = {
+			focus = KNT_we_shall_go_on_to_the_end
+		}
+		x = 27
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_experimental_forces
+		icon = GFX_goal_KNT_experimental_forces
+		cost = 10
+		prerequisite = {
+			focus = KNT_professionals_have_standards
+		}
+		x = 26
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_the_question_of_armor
+		icon = GFX_goal_KNT_the_question_of_armor
+		cost = 10
+		prerequisite = {
+			focus = KNT_professionals_have_standards
+		}
+		x = 28
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_engineering_solutions 
+		icon = GFX_goal_KNT_engineering_solutions
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_question_of_armor
+		}
+		prerequisite = {
+			focus = KNT_experimental_forces
+		}
+		x = 27
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_sabotage_experience 
+		icon = GFX_goal_KNT_sabotage_experience 
+		cost = 10
+		prerequisite = {
+			focus = KNT_engineering_solutions 
+		}
+		x = 27
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_top_gear
+		icon = GFX_goal_KNT_top_gear
+		cost = 10
+		prerequisite = {
+			focus = KNT_sabotage_experience
+		}
+		x = 27
+		y = 12
+	}
+		shared_focus = {
+		id = KNT_like_in_the_rorke's_drift
+		icon = GFX_goal_KNT_like_in_the_rorke's_drift
+		cost = 10
+		prerequisite = {
+			focus = KNT_we_shall_go_on_to_the_end
+		}
+		x = 33
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_the_gun_that_won_the_uk
+		icon = GFX_goal_KNT_the_gun_that_won_the_uk
+		cost = 10
+		prerequisite = {
+			focus = KNT_like_in_the_rorke's_drift
+		}
+		x = 32
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_lessons_from_boers
+		icon = GFX_goal_KNT_lessons_from_boers
+		cost = 10
+		prerequisite = {
+			focus = KNT_like_in_the_rorke's_drift
+		}
+		x = 34
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_for_god_and_britain
+		icon = GFX_goal_KNT_for_god_and_britain
+		cost = 10
+		prerequisite = {
+			focus = KNT_lessons_from_boers
+		}
+		prerequisite = {
+			focus = KNT_the_gun_that_won_the_uk
+		}
+		x = 33
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_strike_from_above
+		icon = GFX_goal_KNT_strike_from_above
+		cost = 10
+		prerequisite = {
+			focus = KNT_for_god_and_britain
+		}
+		x = 33
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_the_old_guards_in_action
+		icon = GFX_goal_KNT_the_old_guards_in_action
+		cost = 10
+		prerequisite = {
+			focus = KNT_strike_from_above
+		}
+		x = 33
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_big_brother's_help
+		icon = GFX_goal_KNT_big_brother's_help
+		cost = 10
+		prerequisite = {
+			focus = KNT_commons_of_house
+		}
+		x = 39
+		y = 7
+	}
+	shared_focus = {
+		id = KNT_tea_party_movement
+		icon = GFX_goal_KNT_tea_party_movement
+		cost = 10
+		prerequisite = {
+			focus = KNT_big_brother's_help
+		}
+		x = 39
+		y = 8
+	}
+		shared_focus = {
+		id = KNT_djibouti_company
+		icon = GFX_goal_KNT_djibouti_company
+		cost = 10
+		prerequisite = {
+			focus = KNT_big_brother's_help
+		}
+		x = 37
+		y = 8
+	}
+		shared_focus = {
+		id = KNT_the_american_charity_campaign
+		icon = GFX_goal_KNT_the_american_charity_campaign
+		cost = 10
+		prerequisite = {
+			focus = KNT_big_brother's_help
+		}
+		x = 41
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_no_other_choice
+		icon = GFX_goal_KNT_no_other_choice
+		cost = 10
+		prerequisite = {
+			focus = KNT_tea_party_movement
+		}
+		prerequisite = {
+			focus = KNT_djibouti_company
+		}
+		prerequisite = {
+			focus = KNT_the_american_charity_campaign
+		}
+		x = 38
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_loyalists_from_hong_kong
+		icon = GFX_goal_KNT_loyalists_from_hong_kong
+		cost = 10
+		prerequisite = {
+			focus = KNT_tea_party_movement
+		}
+		prerequisite = {
+			focus = KNT_djibouti_company
+		}
+		prerequisite = {
+			focus = KNT_the_american_charity_campaign
+		}
+		x = 40
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_issue_price
+		icon = GFX_goal_KNT_issue_price
+		cost = 10
+		prerequisite = {
+			focus = KNT_loyalists_from_hong_kong
+		}
+		prerequisite = {
+			focus = KNT_no_other_choice
+		}
+		x = 39
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_para_bellum
+		icon = GFX_goal_KNT_para_bellum
+		cost = 10
+		prerequisite = {
+			focus = KNT_commons_of_house
+		}
+		x = 46
+		y = 7
+	}
+	shared_focus = {
+		id = KNT_orange_resistance
+		icon = GFX_goal_KNT_orange_resistance
+		cost = 10
+		prerequisite = {
+			focus = KNT_para_bellum
+		}
+		x = 44
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_loyalist_agency
+		icon = GFX_goal_KNT_loyalist_agency
+		cost = 10
+		prerequisite = {
+			focus = KNT_orange_resistance
+		}
+		x = 44
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_the_status_of_the_order
+		icon = GFX_goal_KNT_the_status_of_the_order
+		cost = 10
+		prerequisite = {
+			focus = KNT_loyalist_agency
+		}
+		mutually_exclusive = {
+	    focus = KNT_ulster_the_way_home
+		}
+		x = 43
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_ulster_the_way_home
+		icon = GFX_goal_KNT_ulster_the_way_home
+		cost = 10
+		prerequisite = {
+			focus = KNT_loyalist_agency
+		}
+		mutually_exclusive = {
+	    focus = KNT_the_status_of_the_order
+		}
+		x = 45
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_lilliburlero
+		icon = GFX_goal_KNT_lilliburlero
+		cost = 10
+		prerequisite = {
+			focus = KNT_ulster_the_way_home
+			focus = KNT_the_status_of_the_order
+		}
+		x = 44
+		y = 11
+	}
+shared_focus = {
+		id = KNT_an_unwilling_alliance
+		icon = GFX_goal_KNT_an_unwilling_alliance
+		cost = 10
+		prerequisite = {
+			focus = KNT_para_bellum
+		}
+		x = 52
+		y = 8
+	}
+	shared_focus = {
+		id = KNT_our_germanic_brothers
+		icon = GFX_goal_KNT_our_germanic_brothers
+		cost = 10
+		prerequisite = {
+			focus = KNT_an_unwilling_alliance
+		}
+		mutually_exclusive = {
+	    focus = KNT_the_patriot
+		focus = KNT_the_chimes_of_big_ben
+		}
+		x = 52
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_our_legitimacy
+		icon = GFX_goal_KNT_our_legitimacy
+		cost = 10
+		prerequisite = {
+			focus = KNT_our_germanic_brothers
+		}
+		x = 52
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_money_fixes_all
+		icon = GFX_goal_KNT_money_fixes_all
+		cost = 10
+		prerequisite = {
+			focus = KNT_our_legitimacy
+		}
+		x = 52
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_coordinated_strikes
+		icon = GFX_goal_KNT_coordinated_strikes
+		cost = 10
+		prerequisite = {
+			focus = KNT_money_fixes_all
+		}
+		x = 51
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_the_angry_brigade
+		icon = GFX_goal_KNT_the_angry_brigade
+		cost = 10
+		prerequisite = {
+			focus = KNT_money_fixes_all
+		}
+		x = 53
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_buy_them
+		icon = GFX_goal_KNT_buy_them
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_angry_brigade
+		}
+		prerequisite = {
+			focus = KNT_coordinated_strikes
+		}
+		x = 52
+		y = 13
+	}
+	shared_focus = {
+		id = KNT_the_chimes_of_big_ben
+		icon = GFX_goal_KNT_the_chimes_of_big_ben
+		cost = 10
+		prerequisite = {
+			focus = KNT_an_unwilling_alliance
+		}
+		mutually_exclusive = {
+	    focus = KNT_the_patriot
+		focus = KNT_our_germanic_brothers
+		}
+		x = 48
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_quid_pro_quo
+		icon = GFX_goal_KNT_quid_pro_quo
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_chimes_of_big_ben
+		}
+		x = 48
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_exchange_of_technologies
+		icon = GFX_goal_KNT_exchange_of_technologies
+		cost = 10
+		prerequisite = {
+			focus = KNT_quid_pro_quo
+		}
+		x = 48
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_cambridge_boys
+		icon = GFX_goal_KNT_cambridge_boys
+		cost = 10
+		prerequisite = {
+			focus = KNT_exchange_of_technologies
+		}
+		x = 47
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_policing_the_unpoliceable
+		icon = GFX_goal_KNT_policing_the_unpoliceable
+		cost = 10
+		prerequisite = {
+			focus = KNT_exchange_of_technologies
+		}
+		x = 49
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_expose_the_gangs
+		icon = GFX_goal_KNT_expose_the_gangs
+		cost = 10
+		prerequisite = {
+			focus = KNT_cambridge_boys
+		}
+		prerequisite = {
+			focus = KNT_policing_the_unpoliceable
+		}
+		x = 48
+		y = 13
+	}
+	shared_focus = {
+		id = KNT_the_patriot
+		icon = GFX_goal_KNT_the_patriot
+		cost = 10
+		prerequisite = {
+			focus = KNT_an_unwilling_alliance
+		}
+		mutually_exclusive = {
+	    focus = KNT_our_germanic_brothers
+		focus = KNT_the_chimes_of_big_ben
+		}
+		x = 56
+		y = 9
+	}
+	shared_focus = {
+		id = KNT_the_mercian_hidalgo
+		icon = GFX_goal_KNT_the_mercian_hidalgo
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_patriot
+		}
+		x = 56
+		y = 10
+	}
+	shared_focus = {
+		id = KNT_shut_the_devil_servants_up
+		icon = GFX_goal_KNT_shut_the_devil_servants_up
+		cost = 10
+		prerequisite = {
+			focus = KNT_the_mercian_hidalgo
+		}
+		x = 56
+		y = 11
+	}
+	shared_focus = {
+		id = KNT_barbarism_vs_civilization
+		icon = GFX_goal_KNT_barbarism_vs_civilization
+		cost = 10
+		prerequisite = {
+			focus = KNT_shut_the_devil_servants_up
+		}
+		x = 55
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_heroes_of_albion
+		icon = GFX_goal_KNT_heroes_of_albion
+		cost = 10
+		prerequisite = {
+			focus = KNT_shut_the_devil_servants_up
+		}
+		x = 57
+		y = 12
+	}
+	shared_focus = {
+		id = KNT_engineers_of_blood_faith_and_race
+		icon = GFX_goal_KNT_engineers_of_blood_faith_and_race
+		cost = 10
+		prerequisite = {
+			focus = KNT_heroes_of_albion
+		}
+		prerequisite = {
+			focus = KNT_barbarism_vs_civilization
+		}
+		x = 56
+		y = 13
+	}
+	shared_focus = {
+		id = KNT_it's_treason_then
+		icon = GFX_goal_KNT_it's_treason_then
+		cost = 10
+		prerequisite = {
+			focus = KNT_engineers_of_blood_faith_and_race
+			focus = KNT_buy_them
+			focus = KNT_expose_the_gangs
+		}
+		x = 52
+		y = 14
+	}
+	shared_focus = {
+		id = KNT_there_always_be_an_england
+		icon = GFX_goal_KNT_there_always_be_an_england
+		cost = 10
+		available = {
+            KNT = {
+                has_completed_focus = KNT_the_coronation
+				has_completed_focus = KNT_the_modern_prometheus
+				has_completed_focus = KNT_titanic_ii
+				has_completed_focus = KNT_not_only_just_the_bullets
+				has_completed_focus = KNT_it's_treason_then
+            }
+			OR = {
+				KNT = {
+				    has_completed_focus = KNT_made_in_britain
+					has_completed_focus = KNT_royal_ordnance_factories
+				}
+			    KNT = {
+					has_completed_focus = KNT_colt's_legacy
+					has_completed_focus = KNT_it_just_works
+				}
+		    }
+			OR = {
+			    KNT = {
+					has_completed_focus = KNT_top_gear
+				}
+				KNT = {
+				    has_completed_focus = KNT_the_old_guards_in_action
+				}
+			}
+		}	
+		x = 27
+		y = 16
+	}
+	shared_focus = {
+		id = KNT_london_recovery
+		icon = GFX_goal_KNT_london_recovery
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 26
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_dumping_strategy
+		icon = GFX_goal_KNT_dumping_strategy
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 24
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_fixing_thatcher's_mess
+		icon = GFX_goal_KNT_fixing_thatcher's_mess
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 28
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_peace_through_the_faith
+		icon = GFX_goal_KNT_peace_through_the_faith
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 30
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_praise_the_victory
+		icon = GFX_goal_KNT_praise_the_victory
+		cost = 10
+		prerequisite = {
+			focus = KNT_london_recovery
+		}
+		prerequisite = {
+			focus = KNT_dumping_strategy
+		}
+		prerequisite = {
+			focus = KNT_fixing_thatcher's_mess
+		}
+		prerequisite = {
+			focus = KNT_peace_through_the_faith
+		}
+		x = 26
+		y = 18
+	}
+	shared_focus = {
+		id = KNT_there's_none_that_can_compare
+		icon = GFX_goal_KNT_there's_none_that_can_compare
+		cost = 10
+		prerequisite = {
+			focus = KNT_london_recovery
+		}
+		prerequisite = {
+			focus = KNT_dumping_strategy
+		}
+		prerequisite = {
+			focus = KNT_fixing_thatcher's_mess
+		}
+		prerequisite = {
+			focus = KNT_peace_through_the_faith
+		}
+		x = 28
+		y = 18
+	}
+	shared_focus = {
+		id = KNT_all_hail_britania
+		icon = GFX_goal_KNT_all_hail_britania
+		cost = 10
+		prerequisite = {
+			focus = KNT_praise_the_victory
+		}
+		prerequisite = {
+			focus = KNT_there's_none_that_can_compare
+		}
+		x = 27
+		y = 19
+	}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -4,7 +4,7 @@ state={
 	provinces={
 		293 848 2176 3469 5234 5652 5990 6436 9371 12877 12885 12918 12936 12964 12965 12974 13020 17446 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 		history={
 		owner = WEI

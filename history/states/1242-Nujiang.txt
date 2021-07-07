@@ -4,7 +4,7 @@ state={
 	provinces={
 		152 984 3114 4555 6015 7493 13571 13620 13702 13721 13753 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 	history={
 		owner = YUN

@@ -4,7 +4,7 @@ state={
 	provinces={
 		105 703 850 2027 5078 5478 7840 8590 8607 14188 14195 14204 14212 14225 14249 14256 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 		history={
 		owner = GUD

@@ -4,7 +4,7 @@ state={
 	provinces={
 		804 1173 2456 3916 4355 5383 6718 8184 8646 9401 9520 12378 12410 12416 12434 12497 12504 12525 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 		history={
 		owner = WRC
