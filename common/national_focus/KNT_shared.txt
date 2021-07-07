@@ -1359,6 +1359,97 @@ shared_focus = {
 		x = 27
 		y = 16
 	}
+	shared_focus = {
+		id = KNT_london_recovery
+		icon = GFX_goal_KNT_london_recovery
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 26
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_dumping_strategy
+		icon = GFX_goal_KNT_dumping_strategy
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 24
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_fixing_thatcher's_mess
+		icon = GFX_goal_KNT_fixing_thatcher's_mess
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 28
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_peace_through_the_faith
+		icon = GFX_goal_KNT_peace_through_the_faith
+		cost = 10
+		prerequisite = {
+			focus = KNT_there_always_be_an_england
+		}
+		x = 30
+		y = 17
+	}
+	shared_focus = {
+		id = KNT_praise_the_victory
+		icon = GFX_goal_KNT_praise_the_victory
+		cost = 10
+		prerequisite = {
+			focus = KNT_london_recovery
+		}
+		prerequisite = {
+			focus = KNT_dumping_strategy
+		}
+		prerequisite = {
+			focus = KNT_fixing_thatcher's_mess
+		}
+		prerequisite = {
+			focus = KNT_peace_through_the_faith
+		}
+		x = 26
+		y = 18
+	}
+	shared_focus = {
+		id = KNT_there's_none_that_can_compare
+		icon = GFX_goal_KNT_there's_none_that_can_compare
+		cost = 10
+		prerequisite = {
+			focus = KNT_london_recovery
+		}
+		prerequisite = {
+			focus = KNT_dumping_strategy
+		}
+		prerequisite = {
+			focus = KNT_fixing_thatcher's_mess
+		}
+		prerequisite = {
+			focus = KNT_peace_through_the_faith
+		}
+		x = 28
+		y = 18
+	}
+	shared_focus = {
+		id = KNT_all_hail_britania
+		icon = GFX_goal_KNT_all_hail_britania
+		cost = 10
+		prerequisite = {
+			focus = KNT_praise_the_victory
+		}
+		prerequisite = {
+			focus = KNT_there's_none_that_can_compare
+		}
+		x = 27
+		y = 19
+	}
 	
 	
 	
