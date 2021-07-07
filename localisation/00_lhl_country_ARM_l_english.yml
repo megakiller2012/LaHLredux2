@@ -4,6 +4,12 @@
  ##COUNTRY NAME##
  ARM_national_bolshevism:0 "Republic of Armenia"
  ARM_national_bolshevismm_DEF:0 "Republic of Armenia"
+ ARM_millenarism:0 "Greater Armenia"
+ ARM_millenarism_DEF:0 "Greater Armenia"
+ ARM_ur_fascism:0 "Armenian Empire"
+ ARM_ur_fascism_DEF:0 "Armenian Empire"
+ ARM_commendationism:0 "Armenian Soviet Republic"
+ ARM_commendationism_DEF:0 "Armenian Soviet Republic"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##
