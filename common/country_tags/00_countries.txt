@@ -254,7 +254,6 @@ PAD = "countries/Padania.txt"
 MLT = "countries/Malta.txt"
 MNC = "countries/Monaco.txt"
 SIC = "countries/Sicily.txt"
-SIC = "countries/Sicily.txt"
 VNZ = "countries/Republic of Venezia.txt"
 TYR = "countries/Tyrol.txt"
 ###Sham###

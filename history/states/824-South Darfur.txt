@@ -6,7 +6,7 @@ state={
 		add_core_of = SUD
 	}
 	provinces={
-		   1224 7492 5437 5658 7865 450 5437 475 3377 14799 9574 
+		   1224 7492 5658 7865 450 5437 475 3377 14799 9574 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
