@@ -17,24 +17,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism = 70
-	neocameralism = 30
+	hegemonism = 100
 }
 
 create_country_leader = {
-	name = "Jin Canrong"
-	picture = "Portrait_HUB_Jin_Canrong.dds"
+	name = "Wen Tiejun"
+	picture = "Portrait_HUB_Wen_Tiejun.dds"
 	expire = "1960.1.1"
 	ideology = nationalism
 	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Chen Ping"
-	picture = "Portrait_HUB_Chen_Ping.dds"
-	expire = "1960.1.1"
-	ideology = accelerationism
-	traits = {
-	}
 }
