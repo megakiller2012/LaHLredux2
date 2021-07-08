@@ -16,7 +16,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	national_bolshevism = 100
+	millenarism = 30
+	commendationism = 10
+	socialism = 5
+	neocameralism  = 15
+	national_bolshevism = 30
+	ur_fascism = 10
 }
 
 create_country_leader = {
@@ -27,4 +32,50 @@ create_country_leader = {
 	traits = {
 		#
 	}
+	
+	create_country_leader = {
+	name = "Andranik Margaryan"
+	desc = "POLITICS_Andranik_Margaryan_DESC"
+	picture = "Portrait_ARM_Andranik_Margaryan.dds"
+	ideology = religious_millenarianism
+	traits = {
+		#
+	}
+	
+	create_country_leader = {
+	name = "Aleksandr Majsuryan"
+	desc = "POLITICS_Aleksandr_Majsuryan_DESC"
+	picture = "Portrait_ARM_Aleksandr_Majsuryan.dds"
+	ideology = ultrahegelianism
+	traits = {
+		#
+	}
+		
+	create_country_leader = {
+	name = "Akop Ter-Hachaturyan"
+	desc = "POLITICS_Akop_Ter-Hachaturyan_DESC"
+	picture = "Portrait_ARM_Akop_Ter-Hacharuryan.dds"
+	ideology = nazbol_gang
+	traits = {
+		#
+	}
+	
+	create_country_leader = {
+	name = "Viktor Vaganyan"
+	desc = "POLITICS_Viktor_Vaganyan_DESC"
+	picture = "Portrait_ARM_Viktor_Vaganyan.dds"
+	ideology = ur_fascism
+	traits = {
+		#
+	}
+		
+	create_country_leader = {
+	name = "Armen Avatisyan"
+	desc = "POLITICS_Armen_Avatisyan_DESC"
+	picture = "Portrait_ARM_Armen_Avatisyan.dds"
+	ideology = ethical_millenarianism
+	traits = {
+		#
+	}
+	
 }

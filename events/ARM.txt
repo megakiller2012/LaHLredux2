@@ -1,0 +1,87 @@
+add_namespace = ARM_event
+
+country_event = {
+	id = ARM_event.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ARM_event.1"}
+	title = ARM_event.1.t
+	desc = ARM_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = ARM_event.1.a
+		ARM = {
+            set_politics = {
+	            ruling_party = millenarism
+            }
+		}
+	}
+	option = {	
+		name = ARM_event.1.b
+		ARM = {
+            set_politics = {
+	            ruling_party = neocameralism
+            }
+		}
+	}
+	option = {
+		name = ARM_event.1.c
+		ARM = {
+			retire_ideology_leader = national_bolshevism
+			
+			create_country_leader = {
+				name = "Akop Ter-Hachaturyan"
+				desc = "POLITICS_Akop_Ter-Hachaturyan_DESC"
+				picture = "Portrait_ARM_Akop_Ter-Hachaturyan.dds"
+				ideology = nazbol_gang
+				traits = {
+						#
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = ARM_event.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ARM_event.2"}
+	title = ARM_event.2.t
+	desc = ARM_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = ARM_event.2.a
+		ARM = {
+			retire_ideology_leader = millenarism
+			
+			create_country_leader = {
+				name = "Armen Avatisyan"
+				desc = "POLITICS_Armen_Avatisyan_DESC"
+				picture = "Portrait_ARM_Armen_Avatisyan.dds"
+				ideology = ethical_millenarianism
+				traits = {
+					#
+				}
+			}			
+		}
+	}
+	option = {
+		name = ARM_event.2.b
+		ARM = {
+            set_politics = {
+	            ruling_party = ur_fascism
+            }
+		}
+	}
+    option = {
+		name = ARM_event.2.c
+		ARM = {
+            set_politics = {
+	            ruling_party = millenarism
+            }
+		}
+    } 
+}
