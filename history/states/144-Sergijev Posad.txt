@@ -1,9 +1,9 @@
 
 state={
 	id=144
-	name="SERGIJEV POSAD"
+	name="Sergijev Posad"
 	provinces={
-		2765 5657 7456 10278 10300 10301 
+		 5657 10278 10300 10301 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

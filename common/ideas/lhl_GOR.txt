@@ -353,7 +353,7 @@ ideas = {
 				factor = 1
 			}
 		}
-		GOR_Vjacheslav_Maltsev  = {
+		GOR_Vjacheslav_Maltsev_II = {
 
 			picture = GOR_Vjacheslav_Maltsev
 			allowed = {
