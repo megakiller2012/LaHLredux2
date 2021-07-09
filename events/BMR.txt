@@ -1,0 +1,15 @@
+﻿add_namespace = BMR_event
+
+country_event = {
+	id = BMR_event.1    
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WRC_event.1 FROM = [From.GetName]" }
+	title = BMR_event.1.t
+	desc = BMR_event.1.d
+    is_triggered_only = yes
+	picture = no
+	option = {
+	    name = BMR_event.1.a
+	    declare_war_on = { target = CHC type = annex_everything }
+	    declare_war_on = { target = DAL type = annex_everything }
+}
+

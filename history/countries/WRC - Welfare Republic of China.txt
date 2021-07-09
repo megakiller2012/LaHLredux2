@@ -22,7 +22,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Kong Qingdong"
-	picture = "Portrait_Kong_Qingdong.dds"
+	picture = "Portrait_WRC_Kong_Qingdong.dds"
 	expire = "1960.1.1"
 	ideology = nazbol_gang
 	traits = {

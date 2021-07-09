@@ -1,0 +1,275 @@
+﻿add_namespace = WRC_event
+
+country_event = {
+	id = WRC_event.1       #Beijing & Dalian
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WRC_event.1 FROM = [From.GetName]" }
+	title = WRC_event.1.t
+	desc = WRC_event.1.d
+    is_triggered_only = yes
+	picture = no
+
+    immediate = {
+       WRC_release_CHC = yes
+       WRC_release_DAL = yes
+       WRC_release_BMR = yes
+       hidden_effect = {
+           WRC = {
+                 set_capital = 1182
+           }
+           CHC = {
+                add_state_core = 415
+				transfer_state = 415
+				set_capital = 415
+
+				set_state_owner = 415
+				set_state_owner = 416
+				set_state_owner = 1175
+				add_state_core = 416
+				transfer_state = 416				
+				add_state_core = 1175
+				transfer_state = 1175
+           }
+
+           DAL = {
+                add_state_core = 471
+				transfer_state = 471
+				set_capital = 471
+				set_state_owner = 471
+           }
+
+           BMR = {
+                add_state_core = 477
+				transfer_state = 477
+				set_capital = 477
+				set_state_owner = 477
+
+				set_state_owner = 414
+				add_state_core = 414
+				transfer_state = 414				
+				set_state_owner = 433
+				add_state_core = 433
+				transfer_state = 433
+           }
+        }
+    }
+
+	option = {
+	    name = WRC_event.1.a
+        CHC = {
+            set_country_flag = choice_made
+			}
+		DAL = {
+            set_country_flag = choice_made
+			}
+		BMR = {
+            set_country_flag = choice_made
+			}
+        }
+	
+	option = {
+	    name = WRC_event.1.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        CHC = {
+	            change_tag_from = WRC
+	            set_country_flag = choice_made
+	        }
+	    }
+	}
+
+	option = {
+	    name = WRC_event.1.c
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        DAL = {
+	            change_tag_from = WRC
+	            set_country_flag = choice_made
+	        }
+	    }
+	}
+
+	option = {
+	    name = WRC_event.1.e
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        BMR = {
+	            change_tag_from = WRC
+	            set_country_flag = choice_made
+	        }
+	    }
+	}
+}
+
+country_event = {
+	id = WRC_event.2           #West
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WRC_event.2 FROM = [From.GetName]" }
+	title = WRC_event.2.t
+	desc = WRC_event.2.d
+    is_triggered_only = yes
+	picture = no
+
+	immediate = {
+       WRC_release_FHT = yes
+       hidden_effect = {
+              FHT = {
+                add_state_core = 1213
+				transfer_state = 1213
+				set_capital = 1213
+				set_state_owner = 1213
+
+				set_state_owner = 432
+				add_state_core = 432
+				transfer_state = 432			
+				set_state_owner = 1214
+				add_state_core = 1214
+				transfer_state = 1214
+				set_state_owner = 1215
+				add_state_core = 1215
+				transfer_state = 1215				
+				set_state_owner = 1211
+				add_state_core = 1211
+				transfer_state = 1211
+                set_state_owner = 1212
+				add_state_core = 1212
+				transfer_state = 1212
+           }
+              IDJ = {
+                set_state_owner = 1017
+				add_state_core = 1017
+				transfer_state = 1017
+                set_state_owner = 428
+				add_state_core = 428
+				transfer_state = 428
+
+           }
+        }
+    }
+    option = {
+	    name = WRC_event.2.a
+        FHT = {
+            set_country_flag = choice_made
+			}
+        }
+	
+	option = {
+	    name = WRC_event.2.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        FHT = {
+	            change_tag_from = WRC
+	            set_country_flag = choice_made
+	        }
+	    }
+	}
+}
+
+country_event = {
+	id = WRC_event.3            #Shandong
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WRC_event.3 FROM = [From.GetName]" }
+	title = WRC_event.3.t
+	desc = WRC_event.3.d
+    is_triggered_only = yes
+	picture = no
+
+	immediate = {
+       WRC_release_NFM = yes
+       WRC_release_SOL = yes
+       hidden_effect = {
+              SOL = {
+                add_state_core = 1179
+				transfer_state = 1179
+				set_capital = 1179
+				set_state_owner = 1179
+
+				set_state_owner = 1264
+				add_state_core = 1264
+				transfer_state = 1264		
+				set_state_owner = 1176
+				add_state_core = 1176
+				transfer_state = 1176
+				set_state_owner = 1180
+				add_state_core = 1180
+				transfer_state = 1180			
+           }
+              NFM = {
+                add_state_core = 1177
+				transfer_state = 1177
+				set_capital = 1177
+				set_state_owner = 1177
+
+                set_state_owner = 1178
+				add_state_core = 1178
+				transfer_state = 1178
+                set_state_owner = 417
+				add_state_core = 417
+				transfer_state = 417
+
+           }
+        }
+    }
+    option = {
+	    name = WRC_event.3.a
+        NFM = {
+            set_country_flag = choice_made
+			}
+		SOL = {
+            set_country_flag = choice_made
+			}
+        }
+	
+	option = {
+	    name = WRC_event.3.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        NFM = {
+	            change_tag_from = WRC
+	            set_country_flag = choice_made
+	        }
+	    }
+	}
+
+	option = {
+	    name = WRC_event.3.d
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        SOL = {
+	            change_tag_from = WRC
+	            set_country_flag = choice_made
+	        }
+	    }
+	}
+}
+
+country_event = {
+	id = WRC_event.4    
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WRC_event.4 FROM = [From.GetName]" }
+	title = WRC_event.4.t
+	desc = WRC_event.4.d
+    is_triggered_only = yes
+	picture = no
+	option = {
+	    name = WRC_event.4.a
+	    kill_country_leader = yes
+	    create_country_leader = {
+	        name = "Hu Xijin"
+	        picture = "Portrait_WRC_Hu_Xijin.dds"
+	        expire = "9999.1.1"
+	        ideology = national_conservatism
+	        traits = {
+	        }
+	    }
+	}
+}
+
