@@ -7,8 +7,8 @@ state={
 	manpower=1
 	buildings_max_level_factor=1.000
         history={
-	owner = JXI
-		add_core_of = JXI
+	owner = CST
+		add_core_of = CST
 		victory_points = {
 
 		}
