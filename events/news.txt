@@ -101,3 +101,26 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = lhl_news.5
+	title = lhl_news.5.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.5"}
+	desc = lhl_news.5.d
+	picture = GFX_collapse_of_wrc
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.5.a
+		trigger = { TAG = WRC }
+	}
+	option = {
+		name = lhl_news.5.b
+		trigger = { 
+			NOT = { 
+				TAG = WRC
+			}
+		}
+	}
+}
