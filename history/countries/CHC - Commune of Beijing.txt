@@ -1,8 +1,6 @@
 capital = 415
 
-oob = "CST_2020"
-
-﻿capital = 1189
+oob = "CHC_2020"
 
 set_technology = {
 	infantry_weapons = 1
@@ -13,19 +11,19 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = regressionism
+	ruling_party = left_authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	regressionism = 100
+	left_authoritarianism = 100
 }
 
 create_country_leader = {
-	name = "Zhang Jintao"
-	picture = "Portrait_CST_Zhang_Jintao.dds"
+	name = "Cui Jian"
+	picture = "Portrait_CHC_Cui_Jian.dds"
 	expire = "1960.1.1"
-	ideology = neo_feudalism
+	ideology = soviet_marxism
 	traits = {
 }
