@@ -19,7 +19,11 @@ set_politics = {
 set_popularities = {
 	national_bolshevism = 100
 }
+country_event = {
+	id = WRC_event.1  
+	days = 156
 
+}
 create_country_leader = {
 	name = "Kong Qingdong"
 	picture = "Portrait_WRC_Kong_Qingdong.dds"
