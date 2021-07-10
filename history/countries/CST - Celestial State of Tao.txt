@@ -1,6 +1,8 @@
-﻿capital = 1189
+capital = 415
 
 oob = "CST_2020"
+
+﻿capital = 1189
 
 set_technology = {
 	infantry_weapons = 1

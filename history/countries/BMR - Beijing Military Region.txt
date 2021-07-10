@@ -1,5 +1,6 @@
 ﻿capital = 415
 
+
 oob = "BMR_2020"
 
 set_technology = {
@@ -11,19 +12,19 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = regressionism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism = 100
+	regressionism = 100
 }
 
 create_country_leader = {
 	name = "Bai Jianjun"
 	picture = "Portrait_BMR_Bai_Jianjun.dds"
 	expire = "1960.1.1"
-	ideology = stratocracy
+	ideology = neo_feudalism
 	traits = {
 }
