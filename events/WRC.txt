@@ -52,7 +52,7 @@ country_event = {
            }
 		   country_event = {
 			   id = WRC_event.2  
-			   days = 1
+			   days = 5
 		   }
         }
     }
@@ -123,7 +123,7 @@ country_event = {
        hidden_effect = {
 		   country_event = {
 			   id = WRC_event.3  
-			   days = 1
+			   days = 5
 		   }
               FHT = {
                 add_state_core = 1213
@@ -193,7 +193,7 @@ country_event = {
        hidden_effect = {
 		   country_event = {
 			   id = WRC_event.4
-			   days = 1
+			   days = 5
 		   }
               SOL = {
                 add_state_core = 1179
