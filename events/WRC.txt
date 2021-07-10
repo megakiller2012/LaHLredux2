@@ -50,6 +50,10 @@ country_event = {
 				add_state_core = 433
 				transfer_state = 433
            }
+		   country_event = {
+			   id = WRC_event.2  
+			   days = 1
+		   }
         }
     }
 
@@ -148,6 +152,10 @@ country_event = {
 				transfer_state = 428
 
            }
+		   country_event = {
+			   id = WRC_event.3 
+			   days = 1
+		   }
         }
     }
     option = {
@@ -213,6 +221,10 @@ country_event = {
 				transfer_state = 417
 
            }
+		   country_event = {
+			   id = WRC_event.4 
+			   days = 1
+		   }
         }
     }
     option = {
