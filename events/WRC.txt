@@ -50,6 +50,10 @@ country_event = {
 				add_state_core = 433
 				transfer_state = 433
            }
+		   country_event = {
+			   id = WRC_event.2  
+			   days = 1
+		   }
         }
     }
 
@@ -117,6 +121,10 @@ country_event = {
 	immediate = {
        WRC_release_FHT = yes
        hidden_effect = {
+		   country_event = {
+			   id = WRC_event.3  
+			   days = 1
+		   }
               FHT = {
                 add_state_core = 1213
 				transfer_state = 1213
@@ -183,6 +191,10 @@ country_event = {
        WRC_release_NFM = yes
        WRC_release_SOL = yes
        hidden_effect = {
+		   country_event = {
+			   id = WRC_event.4
+			   days = 1
+		   }
               SOL = {
                 add_state_core = 1179
 				transfer_state = 1179
