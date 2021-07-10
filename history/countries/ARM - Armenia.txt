@@ -50,30 +50,12 @@ create_country_leader = {
 	traits = {
 		#
 	}
-		
-	create_country_leader = {
-	name = "Akop Ter-Hachaturyan"
-	desc = "POLITICS_Akop_Ter-Hachaturyan_DESC"
-	picture = "Portrait_ARM_Akop_Ter-Hacharuryan.dds"
-	ideology = nazbol_gang
-	traits = {
-		#
-	}
 	
 	create_country_leader = {
 	name = "Viktor Vaganyan"
 	desc = "POLITICS_Viktor_Vaganyan_DESC"
 	picture = "Portrait_ARM_Viktor_Vaganyan.dds"
 	ideology = ur_fascism
-	traits = {
-		#
-	}
-		
-	create_country_leader = {
-	name = "Armen Avatisyan"
-	desc = "POLITICS_Armen_Avatisyan_DESC"
-	picture = "Portrait_ARM_Armen_Avatisyan.dds"
-	ideology = ethical_millenarianism
 	traits = {
 		#
 	}
