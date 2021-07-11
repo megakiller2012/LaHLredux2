@@ -32,15 +32,17 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
 	
 	create_country_leader = {
 	name = "Andranik Margaryan"
 	desc = "POLITICS_Andranik_Margaryan_DESC"
 	picture = "Portrait_ARM_Andranik_Margaryan.dds"
-	ideology = religious_millenarianism
+	ideology = religious_millennialism
 	traits = {
 		#
 	}
+}
 	
 	create_country_leader = {
 	name = "Aleksandr Majsuryan"
@@ -50,14 +52,24 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+	create_country_leader = {
+	name = "Jirair Sefilyan"
+	desc = "POLITICS_Jirair_Sefilyan_DESC"
+	picture = "Portrait_ARM_Jirair_Sefilyan.dds"
+	ideology = atlantic_liberalism
+	traits = {
+		#
+	}
+}
 	
 	create_country_leader = {
 	name = "Viktor Vaganyan"
 	desc = "POLITICS_Viktor_Vaganyan_DESC"
 	picture = "Portrait_ARM_Viktor_Vaganyan.dds"
-	ideology = ur_fascism
+	ideology = charismatic_dictatorship
 	traits = {
 		#
-	}
-	
+	}	
 }

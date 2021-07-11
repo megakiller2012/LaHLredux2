@@ -1,6 +1,20 @@
 add_namespace = ARM_event
 
 country_event = {
+	id = ARM_event.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ARM_event.1"}
+	title = ARM_event.0.t
+	desc = ARM_event.0.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = ARM_event.0.a
+	}
+}
+
+country_event = {
 	id = ARM_event.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ARM_event.1"}
 	title = ARM_event.1.t
@@ -61,7 +75,7 @@ country_event = {
 				name = "Armen Avatisyan"
 				desc = "POLITICS_Armen_Avatisyan_DESC"
 				picture = "Portrait_ARM_Armen_Avatisyan.dds"
-				ideology = ethical_millenarianism
+				ideology = ethical_millennialism
 				traits = {
 					#
 				}
@@ -85,3 +99,19 @@ country_event = {
 		}
     } 
 }
+
+country_event = {
+	id = ARM_event.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ARM_event.1"}
+	title = ARM_event.3.t
+	desc = ARM_event.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = ARM_event.3.a
+	}
+}
+
+
