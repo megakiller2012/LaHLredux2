@@ -1,0 +1,66 @@
+add_namespace = SCA_event
+
+country_event = {
+	id = SCA_event.1
+	title = SCA_event.1.t
+	desc = SCA_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = SCA_event.1.a
+		hidden_effect = {
+		    DEN = {
+		        add_state_core = 311
+		        transfer_state = 311
+		        add_state_core = 310
+		        transfer_state = 310
+		        add_state_core = 309
+		        transfer_state = 309	
+		        add_state_core = 308
+		        transfer_state = 308
+		        add_state_core = 307
+		        transfer_state = 307				
+			}
+		    SWE = {
+		        add_state_core = 314
+		        transfer_state = 314
+		        add_state_core = 319
+		        transfer_state = 319
+		        add_state_core = 322
+		        transfer_state = 322	
+				add_state_core = 318
+		        transfer_state = 318
+				add_state_core = 330
+		        transfer_state = 330
+				add_state_core = 316
+		        transfer_state = 316
+				add_state_core = 312
+		        transfer_state = 312
+				add_state_core = 320
+		        transfer_state = 320
+				add_state_core = 332
+		        transfer_state = 332
+			}
+		    NOR = {
+		        add_state_core = 333
+		        transfer_state = 333
+				add_state_core = 334
+		        transfer_state = 334
+				add_state_core = 335
+		        transfer_state = 335
+				add_state_core = 339
+		        transfer_state = 339
+				add_state_core = 340
+		        transfer_state = 340
+				add_state_core = 336
+		        transfer_state = 336
+				add_state_core = 337
+		        transfer_state = 337
+				add_state_core = 338
+		        transfer_state = 338
+			}			
+		}
+    }	
+}
