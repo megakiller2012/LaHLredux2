@@ -22,7 +22,6 @@ set_popularities = {
 country_event = {
 	id = WRC_event.1  
 	days = 154
-
 }
 create_country_leader = {
 	name = "Kong Qingdong"
