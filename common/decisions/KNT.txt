@@ -1,3 +1,13 @@
+KNT_debug = {
+    KNT_tories = {
+		cost = 0
+		days_remove = 30
+        complete_effect = {
+            load_focus_tree = KNT_tories
+		}
+	}
+}
+
 KNT_prisoners_of_war = {
     KNT_deal_galloway = {
 	    visible = {

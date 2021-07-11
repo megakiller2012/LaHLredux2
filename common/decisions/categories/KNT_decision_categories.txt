@@ -1,3 +1,8 @@
+KNT_debug = {
+	icon = GFX
+	picture = GFX
+	allowed = { original_tag = KNT }
+}
 
 KNT_prisoners_of_war = {
 	icon = GFX_

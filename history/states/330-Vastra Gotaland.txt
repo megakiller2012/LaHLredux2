@@ -8,7 +8,8 @@ state={
 	manpower=1
 	buildings_max_level_factor=1.000
 	history={
-		owner = SWE
+	    owner = SCA
+		add_core_of = SCA
 		add_core_of = SWE
 	}
 }
