@@ -6,7 +6,7 @@ country_event = {
 	title = WRC_event.1.t
 	desc = WRC_event.1.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_fall_of_northern_china
 
     immediate = {
        WRC_release_CHC = yes
@@ -116,7 +116,7 @@ country_event = {
 	title = WRC_event.2.t
 	desc = WRC_event.2.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_fall_of_west
 
 	immediate = {
        WRC_release_FHT = yes
@@ -186,7 +186,7 @@ country_event = {
 	title = WRC_event.3.t
 	desc = WRC_event.3.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_fall_of_shandong
 
 	immediate = {
        WRC_release_NFM = yes
@@ -253,7 +253,7 @@ country_event = {
 	}
 
 	option = {
-	    name = WRC_event.3.d
+	    name = WRC_event.3.c
 	    trigger = {
 	        is_ai = no
 	    }
@@ -272,7 +272,7 @@ country_event = {
 	title = WRC_event.4.t
 	desc = WRC_event.4.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_death_of_chairman
 	option = {
 	    name = WRC_event.4.a
 	    kill_country_leader = yes

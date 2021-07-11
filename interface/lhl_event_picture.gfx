@@ -14,5 +14,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_WES_reunification_event"
 		texturefile = "gfx/event_pictures/WES_reunification_event.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_WRC_fall_of_northern_china"
+		texturefile = "gfx/event_pictures/WRC_fall_of_northern_china.dds"
+	}
+	spriteType = {
+		name = "GFX_WRC_fall_of_west"
+		texturefile = "gfx/event_pictures/WRC_fall_of_west.dds"
+	}
+	spriteType = {
+		name = "GFX_WRC_fall_of_shandong"
+		texturefile = "gfx/event_pictures/WRC_fall_of_shandong.dds"
+	}
+	spriteType = {
+		name = "GFX_WRC_death_of_chairman"
+		texturefile = "gfx/event_pictures/WRC_death_of_chairman.dds"
+	}
+	spriteType = {
+		name = "GFX_collapse_of_wrc"
+		texturefile = "gfx/event_pictures/collapse_of_wrc.dds"
+	}		
 }
