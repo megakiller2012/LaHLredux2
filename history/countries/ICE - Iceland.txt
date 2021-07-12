@@ -17,7 +17,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	atlantic_liberalism  = 55
+	neocameralism  = 55
 	socialism = 45
 }
 
