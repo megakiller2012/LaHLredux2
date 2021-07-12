@@ -78,12 +78,12 @@ create_country_leader = {
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Jens Stoltenberg"
 	picture = "Portrait_SCA_Jens_Stoltenberg.dds"
 	ideology = stratocracy
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Håkan Ljunggren"

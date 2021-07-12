@@ -71,12 +71,12 @@ create_country_leader = {
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "William Petzäll"
 	picture = "Portrait_SWE_William_Petzäll.dds"
 	ideology = social_conservatism
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Prince Carl Philip"
