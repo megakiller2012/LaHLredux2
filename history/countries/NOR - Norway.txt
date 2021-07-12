@@ -36,12 +36,12 @@ create_country_leader = {
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Henning Mankell"
 	picture = "Portrait_NOR_Henning_Mankell.dds"
 	ideology = ultrahegelianism
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Zafer Gözet"

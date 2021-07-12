@@ -78,12 +78,12 @@ create_country_leader = {
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Susanna Dyre-Greensite"
 	picture = "Portrait_DEN_Susanna_Dyre-Greensite.dds"
 	ideology = autocracy
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Eskild Tjalve"
