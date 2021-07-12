@@ -9,10 +9,10 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = hegemonism
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 
 set_popularities = {
-	hegemonism = 100
+	left_authoritarianism = 100
 }

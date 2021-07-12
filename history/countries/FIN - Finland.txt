@@ -16,7 +16,7 @@ set_technology = {
 
 set_convoys = 5
 
-set_FINitics = {
+set_politics = {
 	ruling_party = regressionism
 	elections_allowed = no
 }
@@ -28,7 +28,7 @@ create_country_leader = {
 	name = "Pentti Linkola"
 	desc = "FINITICS_Pentti_Linkola_DESC"
 	picture = "Portrait_FIN_Pentti_Linkola.dds"
-	ideology = ecofascism
+	ideology = neoluddism
 	traits = {
 		
 	}
@@ -92,12 +92,12 @@ create_country_leader = {
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Karol Weiher"
 	picture = "Portrait_FIN_Karol_Weiher.dds"
 	ideology = paleo_revolutionism
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Lasse Naukkarinen"
