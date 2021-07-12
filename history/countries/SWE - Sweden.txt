@@ -68,9 +68,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Anders Klarström"
-	picture = "Portrait_SWE_Anders_Klarström.dds"
-	ideology = national_conservatism
+	name = "Ulf Sandmark"
+	picture = "Portrait_SWE_Ulf_Sandmark.dds"
+	ideology = larouche_movement
 	traits = {  }
 }
 
