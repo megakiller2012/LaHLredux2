@@ -21,7 +21,9 @@ country_event = {
 		        add_state_core = 308
 		        transfer_state = 308
 		        add_state_core = 307
-		        transfer_state = 307				
+		        transfer_state = 307
+				add_state_core = 1121
+		        transfer_state = 1121					
 			}
 		    SWE = {
 		        add_state_core = 314
