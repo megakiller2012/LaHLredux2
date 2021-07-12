@@ -1,11 +1,16 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- SWE_socialism:0 "Sveriges Socialdemokratiska arbetarparti"
- SWE_national_bolshevism:0 "Europeiska arbetarpartiet"
+ SWE_socialism_party:0 "Sveriges Socialdemokratiska arbetarparti"
+ SWE_national_bolshevism_party:0 "Europeiska arbetarpartiet"
  SWE_right_populism_party:0 "Sverigedemokraterna"
  SWE_hegemonism_party:0 "Alternativ för Sverige"
  SWE_ur_fascism_party:0 "Hovpartiet"
+ SWE_millenarism_party:0 "Humanity Plus"
+ SWE_commendationism_party:0 "Rättvisepartiet Socialisterna"
+ SWE_left_authoritarianism_party:0 "Vänsterpartiet"
+ SWE_neocameralism_party:0 "Liberalerna"
+ SWE_regressionism_party:0 "Enhet"
  ##COUNTRY NAME##
  SWE_millenarism:0 "Sweden"
  SWE_millenarism_DEF:0 "Kingdom of Sweden"
@@ -22,7 +27,7 @@
  SWE_ur_fascism:0 "Sweden"
  SWE_ur_fascism_DEF:0 "Kingdom of Sweden"
  SWE_hegemonism:0 "Sweden"
- SWE_hegemonism_DEF:0 "Swedish Empire "
+ SWE_hegemonism_DEF:0 "Swedish Empire"
  SWE_right_populism:0 "Sweden"
  SWE_right_populism_DEF:0 "Government of National Salvation of Sweden"
  SWE_regressionism:0 "Sweden"
