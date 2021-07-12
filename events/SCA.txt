@@ -8,43 +8,9 @@ country_event = {
 	picture = 
 	major = no
     fire_only_once = true	
-	option = {
-		name = SCA_event.1.a
-		hidden_effect = {
-		    DEN = {
-		        add_state_core = 311
-		        transfer_state = 311
-		        add_state_core = 310
-		        transfer_state = 310
-		        add_state_core = 309
-		        transfer_state = 309	
-		        add_state_core = 308
-		        transfer_state = 308
-		        add_state_core = 307
-		        transfer_state = 307
-				add_state_core = 1121
-		        transfer_state = 1121					
-			}
-		    SWE = {
-		        add_state_core = 314
-		        transfer_state = 314
-		        add_state_core = 319
-		        transfer_state = 319
-		        add_state_core = 322
-		        transfer_state = 322	
-				add_state_core = 318
-		        transfer_state = 318
-				add_state_core = 330
-		        transfer_state = 330
-				add_state_core = 316
-		        transfer_state = 316
-				add_state_core = 312
-		        transfer_state = 312
-				add_state_core = 320
-		        transfer_state = 320
-				add_state_core = 332
-		        transfer_state = 332
-			}
+	immediate = {
+	SCA_release_NOR = yes
+	hidden_effect = {
 		    NOR = {
 		        add_state_core = 333
 		        transfer_state = 333
@@ -64,5 +30,114 @@ country_event = {
 		        transfer_state = 338
 			}			
 		}
+           }
+	option = {
+		name = SCA_event.1.a
+		add_stability = -0.05
     }	
+	option = {
+	    name = SCA_event.1.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        NOR = {
+	            change_tag_from = SCA
+	        }
+	    }
+	}
+}
+
+country_event = {
+	id = SCA_event.2
+	title = SCA_event.2.t
+	desc = SCA_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	SCA_release_DEN = yes
+	hidden_effect = {
+		    DEN = {
+		        add_state_core = 311
+		        transfer_state = 311
+		        add_state_core = 310
+		        transfer_state = 310
+		        add_state_core = 309
+		        transfer_state = 309	
+		        add_state_core = 308
+		        transfer_state = 308
+		        add_state_core = 307
+		        transfer_state = 307
+				add_state_core = 1121
+		        transfer_state = 1121					
+			}			
+		}
+           }
+	option = {
+		name = SCA_event.2.a
+		add_stability = -0.05
+    }	
+	option = {
+	    name = SCA_event.2.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        DEN = {
+	            change_tag_from = SCA
+	        }
+	    }
+	}
+}
+
+country_event = {
+	id = SCA_event.3
+	title = SCA_event.3.t
+	desc = SCA_event.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	SCA_release_SWE = yes
+	hidden_effect = {
+		    SWE = {
+		        add_state_core = 322
+		        transfer_state = 322
+		        add_state_core = 312
+				transfer_state = 312
+		        transfer_state = 320
+		        add_state_core = 320
+		        transfer_state = 316	
+		        add_state_core = 316
+		        transfer_state = 318
+		        add_state_core = 318
+				add_state_core = 330
+		        transfer_state = 330	
+				add_state_core = 332
+		        transfer_state = 332
+				add_state_core = 314
+		        transfer_state = 314
+				add_state_core = 319
+		        transfer_state = 319
+			}			
+		}
+           }
+	option = {
+		name = SCA_event.3.a
+		add_stability = -0.05
+    }	
+	option = {
+	    name = SCA_event.3.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        SWE = {
+	            change_tag_from = SCA
+	        }
+	    }
+	}
 }

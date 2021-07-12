@@ -11,6 +11,8 @@ ideologies = {
 			}
 			national_conservatism = {
 			}
+			larouche_movement = {
+			}
 		}
 		
 		dynamic_faction_names = {
