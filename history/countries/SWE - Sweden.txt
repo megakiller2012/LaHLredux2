@@ -1,4 +1,4 @@
-capital = 323
+capital = 322
 
 oob = "SWE_2020"
 
@@ -17,7 +17,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism  = 100
+	right_populism  = 60
+	hegemonism = 15
+	socialism = 3
+	national_bolshevism = 22
 }
 
 create_country_leader = {
@@ -65,18 +68,18 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Anders Klarström"
-	picture = "Portrait_SWE_Anders_Klarström.dds"
-	ideology = national_conservatism
+	name = "Ulf Sandmark"
+	picture = "Portrait_SWE_Ulf_Sandmark.dds"
+	ideology = larouche_movement
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "William Petzäll"
 	picture = "Portrait_SWE_William_Petzäll.dds"
 	ideology = social_conservatism
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Prince Carl Philip"

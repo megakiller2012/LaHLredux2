@@ -1,4 +1,4 @@
-capital = 141
+capital = 338
 
 oob = "NOR_2020"
 
@@ -17,7 +17,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	commendationism  = 100
+	commendationism  = 86
+	socialism = 4
+	left_authoritarianism = 6
+	ur_fascism = 4
 }
 
 create_country_leader = {
@@ -36,12 +39,12 @@ create_country_leader = {
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Henning Mankell"
 	picture = "Portrait_NOR_Henning_Mankell.dds"
 	ideology = ultrahegelianism
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Zafer Gözet"

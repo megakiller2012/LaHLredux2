@@ -17,7 +17,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism  = 100
+	hegemonism  = 40
+	socialism = 20
+	right_populism = 25
+	national_bolshevism  = 15
 }
 
 create_country_leader = {
@@ -78,12 +81,12 @@ create_country_leader = {
 	traits = {  }
 }
 
-create_country_leader = {
+#create_country_leader = {
 	name = "Jens Stoltenberg"
 	picture = "Portrait_SCA_Jens_Stoltenberg.dds"
 	ideology = stratocracy
 	traits = {  }
-}
+#}
 
 create_country_leader = {
 	name = "Håkan Ljunggren"
