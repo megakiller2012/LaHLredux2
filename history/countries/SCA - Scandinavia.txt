@@ -17,7 +17,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism  = 100
+	hegemonism  = 40
+	socialism = 20
+	right_populism = 25
+	national_bolshevism  = 15
 }
 
 create_country_leader = {
