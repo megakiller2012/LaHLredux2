@@ -1,6 +1,10 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ SWE_socialism:0 "Sveriges Socialdemokratiska arbetarparti"
+ SWE_national_bolshevism:0 "Europeiska arbetarpartiet"
+ SWE_right_populism_party:0 "Sverigedemokraterna"
+ SWE_hegemonism_party:0 "Alternativ för Sverige"
  SWE_ur_fascism_party:0 "Hovpartiet"
  ##COUNTRY NAME##
  SWE_millenarism:0 "Sweden"
