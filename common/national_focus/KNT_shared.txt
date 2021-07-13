@@ -831,8 +831,12 @@ shared_focus = {
 		prerequisite = {
 			focus = KNT_we_shall_go_on_to_the_end
 		}
-		mutually_exclusive = {
-			focus = KNT_like_in_the_rorke's_drift
+		available = {
+            KNT = {
+			    NOT = {
+                    has_completed_focus = KNT_like_in_the_rorke's_drift
+				}
+            }
 		}
 		x = 27
 		y = 8
@@ -896,6 +900,13 @@ shared_focus = {
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_we_shall_go_on_to_the_end
+		}
+		available = {
+            KNT = {
+			    NOT = {
+                    has_completed_focus = KNT_professionals_have_standards
+				}
+            }
 		}
 		x = 33
 		y = 8
@@ -1076,7 +1087,7 @@ shared_focus = {
 			focus = KNT_loyalist_agency
 		}
 		mutually_exclusive = {
-	    focus = KNT_ulster_the_way_home
+	            focus = KNT_ulster_the_way_home
 		}
 		x = 43
 		y = 10
