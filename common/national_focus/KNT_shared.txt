@@ -2,6 +2,14 @@
 		id = KNT_shaky_ground
 		icon = GFX_goal_KNT_shaky_ground
 		cost = 4.3
+		completion_reward = {
+			KNT = {
+				country_event = {
+				days = 1
+				id = KNT_event.1
+				}
+			}
+		}
 		x = 27
 		y = 0
 	}
