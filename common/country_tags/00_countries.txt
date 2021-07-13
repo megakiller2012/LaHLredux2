@@ -59,6 +59,7 @@ FIN = "countries/Finland.txt"
 SWE = "countries/Sweden.txt"
 NOR = "countries/Norway.txt"
 DEN = "countries/Denmark.txt"
+ICE = "countries/Iceland.txt"
 ###Wenedia###
 POL = "countries/Poland.txt"
 LIT = "countries/Lithuania.txt"

@@ -23,12 +23,4 @@ set_popularities = {
 	neocameralism = 100
 }
 
-create_country_leader = {
-	name = "Radij Khabirov"
-	desc = "POLITICS_KHABIROV_DESC"
-	picture = "Portrait_BSK_Radij_Khabirov.dds"
-	ideology = atlantic_liberalism 
-	traits = {
-		moderate_technocrat
-	}
-}
+ ##кто вернет хабирова - выебу##

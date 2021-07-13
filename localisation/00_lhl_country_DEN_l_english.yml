@@ -1,6 +1,16 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ DEN_millenarism_party:0 "Manheim"
+ DEN_commendationism_party:0 "Enhedslisten"
+ DEN_left_authoritarianism_party:0 "Danmarks Kommunistiske Parti"
+ DEN_socialism_party:0 "Socialdemokratiet"
+ DEN_neocameralism_party:0 "Fremskridtspartiet"
+ DEN_national_bolshevism_party:0 "Dansk Samling"
+ DEN_right_populism_party:0 "Stram Kurs"
+ DEN_hegemonism_party:0 "Folkebevægelsen"
+ DEN_regressionism_party:0 "Visions-Partiet"
+ DEN_ur_fascism_party:0 "Danskernes Parti"
  ##COUNTRY NAME##
  DEN_millenarism:0 "Denmark"
  DEN_millenarism_DEF:0 "Kingdom of Denmark"

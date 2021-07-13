@@ -13,18 +13,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = neocameralism
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_conservatism = 100
+	neocameralism = 100
 }
 
 create_country_leader = {
 	name = "Kirill Teiter"
 	picture = "Portrait_TRG_Kirill_Teiter.dds"
-	ideology = social_conservatism 
+	ideology = neo_reaction 
 	traits = { 
 	}
 }

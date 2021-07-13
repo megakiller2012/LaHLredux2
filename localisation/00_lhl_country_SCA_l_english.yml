@@ -1,7 +1,17 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
- SWE_ur_fascism_party:0 "Hovpartiet"
+ SCA_millenarism_party:0 "Humanity Plus"
+ SCA_commendationism_party:0 "Kommunistiska Förbundet Marxist-Leninisterna (revolutionärerna)"
+ SCA_ur_fascism_party:0 "Hovpartiet"
+ SCA_left_authoritarianism_party:0 "Kommunistiska Förbundet Marxist-Leninisterna"
+ SCA_socialism_party:0 "Socialdemokraterna"
+ SCA_neocameralism_party:0 "Venstre"
+ SCA_national_bolshevism_party:0 "Legion Wasa"
+ SCA_right_populism_party:0 "Alternativ för Skandinavien"
+ SCA_hegemonism_party:0 "Nordic Council Party"
+ SCA_regressionism_party:0 "Sveriges Asatrosamfund"
+ SCA_ur_fascism_party:0 "Hovpartiet"
  ##COUNTRY NAME##
  SCA_millenarism:0 "Scandinavia"
  SCA_millenarism_DEF:0 "Scandinavian Unitary State"
