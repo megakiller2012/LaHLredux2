@@ -117,6 +117,7 @@ SWI = "countries/Switzerland.txt"
 BEL = "countries/Belgium.txt"
 WAL = "countries/Wallonie.txt"
 AUS = "countries/Austria.txt"
+LIE = "countries/Liechtenstein.txt"
 ###North Russia###
 NSU = "countries/Neo Soviet.txt"
 NRU = "countries/Nordic Russia.txt"
@@ -206,6 +207,7 @@ AND = "countries/Andalusia.txt"
 NAV = "countries/Navarra.txt"
 BSQ = "countries/Basque country.txt"
 CAT = "countries/Catalonia.txt"
+ADR = "countries/Andorra.txt"
 ###South Asia###
 IND = "countries/India.txt"
 BLC = "countries/Balochistan.txt"
@@ -263,6 +265,7 @@ MNC = "countries/Monaco.txt"
 SIC = "countries/Sicily.txt"
 VNZ = "countries/Republic of Venezia.txt"
 TYR = "countries/Tyrol.txt"
+SAN = "countries/San Marino.txt"
 ###Sham###
 ASS = "countries/Assad Syria.txt" ###Assad
 LEB = "countries/Phoenicia.txt"
