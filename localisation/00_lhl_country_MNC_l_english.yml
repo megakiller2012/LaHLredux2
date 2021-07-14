@@ -1,7 +1,15 @@
 ﻿l_english:
  ##LEADERS##
  ##POLITICAL PARTIES##
+ MNC_right_populism_party:0 "Royalists"
+ MNC_right_populism_party_long:0 "Royalists"
+ MNC_neocameralism_party:0 "ZPBP"
+ MNC_neocameralism_party_long:0 "The "Zloy Burzhuy Pirat" Party"
  ##COUNTRY NAME##
+ MNC_right_populism:0 "Monaco"
+ MNC_right_populism_DEF:0 "Monaco"
+ MNC_neocameralism:0 "Monaco"
+ MNC_neocameralism_DEF:0 "Monaco"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

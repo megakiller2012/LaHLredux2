@@ -1,0 +1,96 @@
+﻿add_namespace = ESS_event
+
+country_event = {
+	id = ESS_event.1
+	title = ESS_event.1.t
+	desc = ESS_event.1.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+	custom_effect_tooltip = ESS_event1.tt
+		name = ESS_event.1.a
+		hidden_effect = {
+		    load_focus_tree = ESS_max_1
+		}
+		kill_country_leader = yes
+		
+		create_country_leader = {
+	        name = "Interregnum"
+            desc = "POLITICS_INTERREGNUM_DESC"
+	        picture = "Portrait_ESS_Interregnum.dds"
+	        expire = "9999.1.1"
+			ideology = neocameralism
+			set_variable = {
+			var = ESS_control
+			value = 0
+	        }
+		}
+    }   	
+}
+country_event = {
+	id = ESS_event.2
+	title = ESS_event.2.t
+	desc = ESS_event.2.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.2.a
+		hidden_effect = {
+		    ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				add_to_value = 20
+				}
+		    }
+		}
+    }   
+	option = {
+		name = ESS_event.2.b
+		hidden_effect = {
+		    ESS = {
+			    add_stability = 0.05
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.2.c
+		hidden_effect = {
+		    ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				subtract_from_variable = 20
+				}
+		    }
+		}
+    }	
+}
+
+
+
+country_event = {
+	id = ESS_event.3
+	title = ESS_event.3.t
+	desc = ESS_event.3.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.3.a
+		FROM = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_free
+			}
+		}
+		hidden_effect = {
+		    GER = {
+			    country_event = { id = GER_event.5 days = 2 }
+		    }
+		}
+    }   	
+}

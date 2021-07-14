@@ -1,0 +1,15 @@
+state={
+	id=1268
+	name="STATE_1268"
+	provinces={
+		17737 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SAN
+		add_core_of = SAN
+		victory_points = {
+        }
+    }
+}
