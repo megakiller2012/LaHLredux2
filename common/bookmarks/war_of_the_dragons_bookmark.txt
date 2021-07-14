@@ -2,8 +2,8 @@ bookmarks={
 	bookmark = {
 		name = "WODBOOKMARK_NAME"
 		desc = "WODBOOKMARK_DESC"
-		date = 2020.1.1.1
-		picture = "GFX_select_date_1936"
+		date = 2020.1.1.14
+		picture = "GFX_select_date_1939"
 		default_country = "ESS"
 
 		ESS = {
