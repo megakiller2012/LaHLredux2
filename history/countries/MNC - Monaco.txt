@@ -1,4 +1,4 @@
-﻿capital = 354
+﻿capital = 1269
 
 oob = "MON_2020"
 
@@ -13,12 +13,12 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservatism 
+	ruling_party = right_populism
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_conservatism = 100
+	right_populism = 100
 }
 
 create_country_leader = {
@@ -26,5 +26,13 @@ create_country_leader = {
 	desc = "POLITICS_ALBERT_OF_MONACO_DESC"
 	picture = ".dds"
 	ideology = social_conservatism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Zloy Burzhuy Pirat"
+	desc = "POLITICS_ALBERT_OF_MONACO_DESC"
+	picture = ".dds"
+	ideology = neoreaction
 	traits = {  }
 }
