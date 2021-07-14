@@ -34,20 +34,6 @@ ESS_debug = {
 		    load_focus_tree = ESS_dawkins_1
 		}
 	}
-     ESS_gunzel_0 = {
-		cost = 0
-		days_remove = 1
-        complete_effect = { 
-		    load_focus_tree = ESS_gunzel_0
-		}
-	}
-	ESS_gunzel_1 = {
-		cost = 0
-		days_remove = 1
-        complete_effect = { 
-		    load_focus_tree = ESS_gunzel_1
-		}
-	}
 	ESS_natan_0 = {
 		cost = 0
 		days_remove = 1

@@ -90,8 +90,11 @@
 		prerequisite = {
 		focus = ESS_dare_to_die_corps
 	}
-	prerequisite = {
+		prerequisite = {
 		focus = ESS_contacts_with_local_rebels
+	}
+		prerequisite = {
+		focus = ESS_autonomous_recruiting
 	}
 		x = 18
 		y = 5
@@ -551,32 +554,6 @@
 	
 
 	shared_focus = {
-		id = ESS_autonomous_recruiting
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_asymmetric_warfare
-		}
-		x = 17
-		y = 2
-
-	}
-	shared_focus = {
-		id = ESS_unleash_the_local_warlords
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_autonomous_recruiting
-		}
-		x = 17
-		y = 3
-
-	}
-
-
-
-	
-	shared_focus = {
 		id = ESS_suppress_independent_warlords
 		icon = GFX_goal_unknown
 		cost = 10
@@ -587,28 +564,19 @@
 		y = 2
 
 	}
+
 	shared_focus = {
-		id = ESS_provost
+		id = ESS_integration_of_paramilitar_corps
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = ESS_suppress_independent_warlords
 		}
 		x = 25
-		y = 3
-
-	}
-	shared_focus = {
-		id = ESS_integration_of_paramilitar_corps
-		icon = GFX_goal_unknown
-		cost = 10
-		prerequisite = {
-			focus = ESS_provost
-		}
-		x = 25
 		y = 4
 
-	}
+	
+		}
 
 
 
@@ -847,14 +815,7 @@
 		y = 8
 
 	}
-	shared_focus = {
-		id = ESS_deadly_race
-		icon = GFX_goal_unknown
-		cost = 10
-		x = 33
-		y = 6
-
-	}
+	
 	shared_focus = {
 		id = ESS_cultural_revolution
 		icon = GFX_goal_unknown

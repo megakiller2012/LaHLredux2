@@ -1,5 +1,7 @@
 ﻿l_english:
  ##LEADERS##
+ POLITICS_INTERREGNUM_DESC:0 "Max Mosley is now Low Mosley.\nnMore anarchy in anaychy state, huh.\nn§RLondon is a capital of Great Britain§!"
+
  ##POLITICAL PARTIES##
 
  ESS_millenarism_party:0 "H+"
@@ -501,3 +503,14 @@
  ESS_deal_southgate:0 "Deal with Troy Southgate"
  ESS_deal_corbyn:0 "Deal with Jeremy Corbyn"
  ##EVENTS##
+ ESS_event.1.t:0 "Death of Max Mosley!"
+ ESS_event.1.d:0 "He died pissed and shitted"
+ ESS_event.1.a:0 "Nobody lives forever"
+ ESS_event1.tt:0 "§RFUCK§!"
+#
+ ESS_event.2.t:0 "Great Council Choice"
+ ESS_event.2.d:0 "Mosley's bootlickers and other suckers had a consilium to choose a new leader"
+ ESS_event.2.a:0 "Nick Land is a true succesor!"
+ ESS_event.2.b:0 "Dawkins wins this round!"
+ ESS_event.2.c:0 "I am the true succesor! No, it's me! Fuck you!"
+ 
