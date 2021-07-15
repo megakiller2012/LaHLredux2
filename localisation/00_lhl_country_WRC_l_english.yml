@@ -19,3 +19,21 @@
  ##FOCUS TREES##
  ##DECISIONS##
  ##EVENTS##
+ WRC_event.1.t:0 "The Fall of Northern China"
+ WRC_event.1.d:0 "The political situation of the Welfare Republic faces its turning point. The regime quits from Beijing from June 3rd to 4th immediately because of the harsh disturbance. The central government shifts to Zhengzhou quickly and Kong Qingdong claims the rest of the armies in Beijing will exterminate the turncoats. The authority of the Welfare Republic seems to have vanished in the area surrounding Beijing and Tianjin, Cui Jian leads the establishment of "Beijing Commune" as a new authority after the riot; at the same time, an uprising is also happening in Dalian and the crowds elect Bi Fujian as a local leader of the "Dalian Revolutionary Front", he declares that they will fight side by side with Beijing against the Kong. Since the rioters obtained a great number of weapons, numerous former troops betrayed our government, the power of Beijing and Dalian was enhanced unprecedentedly. Moving to the other provinces, the insurgents and opposition are preparing a new coup against us, the successive protests are happening in Shandong and Shaanxi. This is the most tremendous crisis we have faced since the founding of the regime."
+ WRC_event.1.a:0 "Move towards the south."
+ WRC_event.1.b:0 "We will liberate Northern China at last!"
+ WRC_event.1.c:0 "We will stand with Bi."
+ WRC_event.1.e:0 "We will defend Beijing to the death!"
+ WRC_event.2.t:0 "The Fall of West"
+ WRC_event.2.d:0 "The western area is the next one that separates from the black flag, the local cliques and bureaus pick up the weapons for fighting against us, they choose to betray our trust, and the major cities fall under the control of the rioters. The new regime and leadership are re-organized, the local intellectual Jia Pingwa who with the most influence becomes their leader. Jia utilizes the rebellion and popular will as the propellant, he asserts the goal of defending the traditional culture as propaganda means, agitating the people to oppose our central regime. "
+ WRC_event.2.a:0 "This is totally a farce."
+ WRC_event.2.b:0 "Folks, unite!"
+ WRC_event.3.t:0 "The Fall of Shandong"
+ WRC_event.3.d:0 "Shandong is the last piece of land that vanishes from our territory; two local regimes are found in Linyi and Tsingtao. The Linyi government is named the State of Lu which is lead by Confucianist Yao Zhongqiu, his clique tries to use reactionary theories for defaming us and reviving a feudal state. The New Federal Movement in Tsingtao is mostly supported by students, the leader of this movement is the dissident Wang Dan who was the student leader during Tiananmen Protest. The New Federal movement preaches Atlantic Liberalism, the ideology which has already been proved as a failure."
+ WRC_event.3.a:0 "Screw you, traitors!"
+ WRC_event.3.b:0 "Liberty and democracy!"
+ WRC_event.3.c:0 "Confucius will lead us forward."
+ WRC_event.4.t:0 "The Death of Chairman"
+ WRC_event.4.d:0 "Today is a tragic day, Chairman Kong was dead. Kong’s body was found in his bedroom without traces of the suspect, the policemen deemed it as a sudden death while sleeping initially. Although we have no idea of the Chairman’s death, the misfortune we face now is the lack of one leader. Through an urgent meeting with the central government, Hu Xijin, the Head of Propaganda Department is selected as the new person replacing Kong’s position, and he will guide a bright future for our homeland."
+ WRC_event.4.a:0 "Hail to Chairman Hu!"
