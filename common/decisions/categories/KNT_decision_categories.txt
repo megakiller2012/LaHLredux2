@@ -16,3 +16,11 @@ KNT_reunify_isles = {
 	visible_when_empty = yes
 	allowed = { original_tag = KNT }
 }
+
+KNT_channel_tunnel = {
+	icon = GFX_
+	visible = {
+	    has_completed_focus = KNT_caravans_of_the_channel_tunnel
+	}
+	allowed = { original_tag = KNT }
+}
