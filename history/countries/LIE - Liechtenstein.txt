@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	picture = ".dds"
+	name = "Hans-Adam II"
+	picture = "Portrait_LIE_Prince_Hans-Adam_II_of_Liechtenstein.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = {
