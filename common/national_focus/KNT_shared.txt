@@ -4,7 +4,7 @@
 		cost = 4.3
 		completion_reward = {
 			KNT = {
-				country_event = {
+				country_event` = {
 				days = 1
 				id = KNT_event.1
 				}
@@ -29,6 +29,14 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_art_of_war
+		}
+		completion_reward = {
+			KNT = {
+				country_event` = {
+				days = 1
+				id = KNT_event.2
+				}
+			}
 		}
 		x = 25
 		y = 2
