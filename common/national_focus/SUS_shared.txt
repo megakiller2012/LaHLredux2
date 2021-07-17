@@ -1,0 +1,395 @@
+shared_focus = {
+		id = SUS_court_of_crimson_king
+		icon = GFX_goal_SUS_court_of_crimson_king
+		cost = 4.3
+		x = 25
+		y = 0
+	}
+	shared_focus = {
+		id = SUS_tinker
+		icon = GFX_goal_SUS_tinker
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_court_of_crimson_king
+		}
+		x = 24
+		y = 1
+	}
+	shared_focus = {
+		id = SUS_soldier
+		icon = GFX_goal_SUS_soldier
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_tinker
+		}
+		x = 24
+		y = 2
+	}
+	shared_focus = {
+		id = SUS_rich_man
+		icon = GFX_goal_SUS_rich_man
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_soldier
+		}
+		x = 24
+		y = 3
+	}
+	shared_focus = {
+		id = SUS_tailor
+		icon = GFX_goal_SUS_tailor
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_court_of_crimson_king
+		}
+		x = 26
+		y = 1
+	}
+	shared_focus = {
+		id = SUS_sailor
+		icon = GFX_goal_SUS_sailor
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_tailor
+		}
+		x = 26
+		y = 2
+	}
+	shared_focus = {
+		id = SUS_poor_man
+		icon = GFX_goal_SUS_poor_man
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_sailor
+		}
+		x = 26
+		y = 3
+	}
+	shared_focus = {
+		id = SUS_beggar_man
+		icon = GFX_goal_SUS_beggar_man
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_rich_man
+		}
+		prerequisite = {
+			focus = SUS_poor_man
+		}
+		x = 25
+		y = 4
+	}
+	shared_focus = {
+		id = SUS_theif
+		icon = GFX_goal_SUS_theif
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_beggar_man
+		}
+		x = 25
+		y = 5
+	}
+	shared_focus = {
+		id = SUS_interludium
+		icon = GFX_goal_SUS_interludium
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_theif
+		}
+		x = 25
+		y = 6
+	}
+	shared_focus = {
+		id = SUS_the_united_white_front
+		icon = GFX_goal_SUS_the_united_white_front
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_interludium
+		}
+		x = 22
+		y = 7
+	}
+	shared_focus = {
+		id = SUS_shadow_scheme
+		icon = GFX_goal_SUS_shadow_scheme
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_the_united_white_front
+		}
+		x = 22
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_professionals_for_hooligans
+		icon = GFX_goal_SUS_professionals_for_hooligans
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_the_united_white_front
+		}
+		x = 20
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_infiltrate_the_gangs
+		icon = GFX_goal_SUS_infiltrate_the_gangs
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_the_united_white_front
+		}
+		x = 24
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_left_way_left_hand
+		icon = GFX_goal_SUS_left_way_left_hand
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_infiltrate_the_gangs
+		}
+		prerequisite = {
+			focus = SUS_professionals_for_hooligans
+		}
+		prerequisite = {
+			focus = SUS_shadow_scheme
+		}
+		mutually_exclusive = {
+	    focus = SUS_end_of_rebelion
+		}
+		x = 21
+		y = 9
+	}
+	shared_focus = {
+		id = SUS_end_of_rebelion
+		icon = GFX_goal_SUS_end_of_rebelion
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_infiltrate_the_gangs
+		}
+		prerequisite = {
+			focus = SUS_professionals_for_hooligans
+		}
+		prerequisite = {
+			focus = SUS_shadow_scheme
+		}
+		mutually_exclusive = {
+	    focus = SUS_left_way_left_hand
+		}
+		x = 23
+		y = 9
+	}
+	shared_focus = {
+		id = SUS_ah_ca_ira
+		icon = GFX_goal_SUS_ah_ca_ira
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_interludium
+		}
+		x = 28
+		y = 7
+	}
+	shared_focus = {
+		id = SUS_the_left_sector
+		icon = GFX_goal_SUS_the_left_sector
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_ah_ca_ira
+		}
+		x = 28
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_celtic_labourism
+		icon = GFX_goal_SUS_celtic_labourism
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_ah_ca_ira
+		}
+		x = 26
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_partisans_of_albion
+		icon = GFX_goal_SUS_partisans_of_albion
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_ah_ca_ira
+		}
+		x = 30
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_new_socintern
+		icon = GFX_goal_SUS_new_socintern
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_partisans_of_albion
+		}
+		prerequisite = {
+			focus = SUS_celtic_labourism
+		}
+		prerequisite = {
+			focus = SUS_the_left_sector
+		}
+		x = 28
+		y = 9
+	}
+	shared_focus = {
+		id = SUS_people's_redcoats
+		icon = GFX_goal_SUS_people's_redcoats
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_theif
+		}
+		x = 11
+		y = 6
+	}
+	shared_focus = {
+		id = SUS_sword_of_might
+		icon = GFX_goal_SUS_sword_of_might
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_people's_redcoats
+		}
+		x = 5
+		y = 7
+	}
+	shared_focus = {
+		id = SUS_collective_offensive_kommando
+		icon = GFX_goal_SUS_collective_offensive_kommando
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_sword_of_might
+		}
+		x = 2
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_cadet_corps
+		icon = GFX_goal_SUS_cadet_corps
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_collective_offensive_kommando
+		}
+		x = 1
+		y = 9
+	}
+	shared_focus = {
+		id = SUS_military_graduates
+		icon = GFX_goal_SUS_military_graduates
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_cadet_corps
+		}
+		x = 1
+		y = 10
+	}
+	shared_focus = {
+		id = SUS_debates_of_generals
+		icon = GFX_goal_SUS_debates_of_generals
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_military_graduates
+		}
+		x = 1
+		y = 11
+	}
+	shared_focus = {
+		id = SUS_the_boat_squadron
+		icon = GFX_goal_SUS_the_boat_squadron
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_collective_offensive_kommando
+		}
+		x = 3
+		y = 9
+	}
+	shared_focus = {
+		id = SUS_raining_men
+		icon = GFX_goal_SUS_raining_men
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_the_boat_squadron
+		}
+		x = 3
+		y = 10
+	}
+	shared_focus = {
+		id = SUS_backstab_the_bourgeoisie
+		icon = GFX_goal_SUS_backstab_the_bourgeoisie
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_raining_men
+		}
+		x = 3
+		y = 11
+	}
+	shared_focus = {
+		id = SUS_investments_in_the_future
+		icon = GFX_goal_SUS_investments_in_the_future
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_sword_of_might
+		}
+		x = 8
+		y = 8
+	}
+	shared_focus = {
+		id = SUS_turing's_legacy
+		icon = GFX_goal_SUS_turing's_legacy
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_investments_in_the_future
+		}
+		x = 7
+		y = 9
+	}
+	shared_focus = {
+		id = SUS_automatic_death
+		icon = GFX_goal_SUS_automatic_death
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_turing's_legacy
+		}
+		x = 7
+		y = 10
+	}
+	shared_focus = {
+		id = SUS_eye_of_providence
+		icon = GFX_goal_SUS_eye_of_providence
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_automatic_death
+		}
+		x = 7
+		y = 11
+	}
+	shared_focus = {
+		id = SUS_battle_medicine
+		icon = GFX_goal_SUS_battle_medicine
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_investments_in_the_future
+		}
+		x = 9
+		y = 9
+	}
+	shared_focus = {
+		id = SUS_chemical_warfare
+		icon = GFX_goal_SUS_chemical_warfare
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_battle_medicine
+		}
+		x = 9
+		y = 10
+	}
+	shared_focus = {
+		id = SUS_wonders_of_doctors
+		icon = GFX_goal_SUS_wonders_of_doctors
+		cost = 4.3
+		prerequisite = {
+			focus = SUS_chemical_warfare
+		}
+		x = 9
+		y = 11
+	}
+	
