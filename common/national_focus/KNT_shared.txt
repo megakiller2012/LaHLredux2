@@ -20,6 +20,13 @@
 		prerequisite = {
 			focus = KNT_shaky_ground
 		}
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+			}
+		}
 		x = 27
 		y = 1
 	}
@@ -29,6 +36,14 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_art_of_war
+		}
+		completion_reward = {
+			KNT = {
+				country_event = {
+				days = 1
+				id = KNT_event.2
+				}
+			}
 		}
 		x = 25
 		y = 2
@@ -93,11 +108,16 @@
 		id = KNT_national_service
 		icon = GFX_goal_KNT_national_service
 		cost = 4.3
+		x = 20
+		y = 3
 		prerequisite = {
 			focus = KNT_caravans_of_the_channel_tunnel
 		}
-		x = 20
-		y = 3
+			completion_reward = {
+			modifier = {
+			conscription_factor	= 0.4
+			}
+		}
 	}
 	shared_focus = {
 		id = KNT_home_office
