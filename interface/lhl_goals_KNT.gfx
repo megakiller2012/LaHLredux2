@@ -1,0 +1,62 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_KNT_shaky_ground"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_shaky_ground.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_art_of_war"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_art_of_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_operation_clockwork_orange"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_operation_clockwork_orange.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_escaped_from_the_madmen"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_escaped_from_the_madmen.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_prevent_the_export_of_revolution"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_prevent_the_export_of_revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_first_design_contest"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_first_design_contest.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_inspect_warehouses"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_inspect_warehouses.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_caravans_of_the_channel_tunnel"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_caravans_of_the_channel_tunnel.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_national_service"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_national_service.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_home_office"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_home_office.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_lessons_of_marne"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_lessons_of_marne.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_imperial_preference"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_imperial_preference.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_autodidacts_and_masters"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_autodidacts_and_masters.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_exploit_the_brain_drain"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_exploit_the_brain_drain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_walled_cities"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_walled_citiess.dds"
+	}
+}
