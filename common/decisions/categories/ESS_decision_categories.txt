@@ -3,6 +3,11 @@ ESS_debug = {
 	picture = GFX
 	allowed = { original_tag = ESS }
 }
+ESS_control_over_london = {
+	icon = GFX_
+	visible_when_empty = yes
+	allowed = { original_tag = ESS }
+}
 
 ESS_prisoners_of_war = {
 	icon = GFX_

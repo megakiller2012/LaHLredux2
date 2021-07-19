@@ -491,6 +491,9 @@
  ESS_revival_of_formula_one:0 "Revival of Formula One"
  ESS_revival_of_formula_one_desc:0 "Revival of Formula One" 
  ##DECISIONS##
+ 
+ ESS_control_over_london:0 "Our Control Over Great City Of London"
+ ESS_control_over_london_desc:0 "Our control level - §R[?ESS_control]§!"
  ESS_prisoners_of_war:0 "Prisoners Of War"
  ESS_prisoners_of_war_desc:0 "Throughout our liberation campaign of the British Isles we have captured several prominent enemy leaders. It is now up to us, whether to give them a fair trial or exile them out of the country"
  ESS_deal_galloway:0 "Deal with George Galloway"
@@ -504,13 +507,35 @@
  ESS_deal_corbyn:0 "Deal with Jeremy Corbyn"
  ##EVENTS##
  ESS_event.1.t:0 "Death of Max Mosley!"
- ESS_event.1.d:0 "He died pissed and shitted"
- ESS_event.1.a:0 "Nobody lives forever"
- ESS_event1.tt:0 "§RFUCK§!"
+ ESS_event.1.d:0 ""
+ ESS_event.1.a:0 "Memento mori"
+ ESS_event1.tt:0 "§RAfter your death, let the worms consume your flesh, let the demons consume your soul, and let your sycophants destroy your legacy§!"
 #
  ESS_event.2.t:0 "Great Council Choice"
- ESS_event.2.d:0 "Mosley's bootlickers and other suckers had a consilium to choose a new leader"
- ESS_event.2.a:0 "Nick Land is a true succesor!"
- ESS_event.2.b:0 "Dawkins wins this round!"
- ESS_event.2.c:0 "I am the true succesor! No, it's me! Fuck you!"
+ ESS_event.2.d:0 "Mosley's servants had a consilium to choose a new leader"
+ ESS_event.2.a:0 "Land"
+ ESS_event2.a.tt:0 "§RLet the madman a chance to realise his darkest dreams§!"
+ ESS_event.2.b:0 "Dawkins"
+ ESS_event2.b.tt:0 "§RLet the demon unite the Sodom of progress and Gomorrah of wealth§!"
+ ESS_event.2.c:0 "Noone"
+ ESS_event2.c.tt:0 "§RLet hyenas feast over the lion's dead body§!"
+ #
+ ESS_event.3.t:0 "Warlords Action"
+ ESS_event.3.d:0 "Warlords had their own consilium to choose a new leader"
+ ESS_event.3.a:0 "Land"
+ ESS_event3.a.tt:0 "§RLet the madman a chance to realise his darkest dreams§!"
+ ESS_event.3.b:0 "Noone"
+ ESS_event3.b.tt:0 "§RLet the demon unite the Sodom of progress and Gomorrah of wealth§!"
+ ESS_event.3.c:0 "Master-general"
+ ESS_event3.c.tt:0 "§RLet hyenas feast over the lion's dead body§!"
+ #
+ ESS_event.4.t:0 "Warlords Action"
+ ESS_event.4.d:0 "Warlords had their own consilium to choose a new leader"
+ ESS_event.4.a:0 "Land"
+ ESS_event4.a.tt:0 "§RLet the madman a chance to realise his darkest dreams§!"
+ ESS_event.4.b:0 "Noone"
+ ESS_event4.b.tt:0 "§RLet the demon unite the Sodom of progress and Gomorrah of wealth§!"
+ ESS_event.4.c:0 "Master-general"
+ ESS_event4.c.tt:0 "§RLet hyenas feast over the lion's dead body§!"
+ #
  
