@@ -1,12 +1,16 @@
+
 state={
 	id=837
 	name="STATE_837"
+
 	history={
 		owner = CHD
 		add_core_of = CHD
+
 	}
+
 	provinces={
-		 7182 14012 5162 14021 3116 4085 7635 3370 285
+		285 3116 3370 4085 7182 7635 14012 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

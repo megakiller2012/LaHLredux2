@@ -1,0 +1,16 @@
+state={
+	id=1272
+	name="STATE_1272"
+	provinces={
+		4934 5162 5483 14021 14104 14181 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = UAS
+		add_core_of = UAS
+		add_core_of = CHD
+		victory_points = {
+        }
+    }
+}
