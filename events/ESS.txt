@@ -39,6 +39,7 @@ country_event = {
 	is_triggered_only = yes
     option = {
 		name = ESS_event.2.a
+		custom_effect_tooltip = ESS_event2.a.tt
 		hidden_effect = {
 		    ESS = {
 			    add_to_variable = { 
@@ -50,6 +51,7 @@ country_event = {
     }   
 	option = {
 		name = ESS_event.2.b
+		custom_effect_tooltip = ESS_event2.b.tt
 		hidden_effect = {
 		    ESS = {
 			    add_stability = 0.05
@@ -58,6 +60,7 @@ country_event = {
     }
 	option = {
 		name = ESS_event.2.c
+		custom_effect_tooltip = ESS_event2.c.tt
 		hidden_effect = {
 		    ESS = {
 			    subtract_from_variable = { 
@@ -81,16 +84,77 @@ country_event = {
 	is_triggered_only = yes
     option = {
 		name = ESS_event.3.a
-		FROM = {
-			set_autonomy = {
-				target = ROOT
-				autonomy_state = autonomy_free
-			}
-		}
+		custom_effect_tooltip = ESS_event3.a.tt
 		hidden_effect = {
-		    GER = {
-			    country_event = { id = GER_event.5 days = 2 }
+		    ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				value = 20
+				}
 		    }
 		}
-    }   	
+    }   
+	option = {
+		name = ESS_event.3.b
+		custom_effect_tooltip = ESS_event3.b.tt
+		hidden_effect = {
+		    ESS = {
+			    add_stability = 0.05
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.3.c
+		custom_effect_tooltip = ESS_event3.c.tt
+		hidden_effect = {
+		    ESS = {
+			    subtract_from_variable = { 
+				var = ESS_control
+				value = 20
+				}
+		    }
+		}
+    }	
+}
+country_event = {
+	id = ESS_event.4
+	title = ESS_event.4.t
+	desc = ESS_event.4.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.4.a
+		custom_effect_tooltip = ESS_event4.a.tt
+		hidden_effect = {
+		    ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				value = 20
+				}
+		    }
+		}
+    }   
+	option = {
+		name = ESS_event.4.b
+		custom_effect_tooltip = ESS_event4.b.tt
+		hidden_effect = {
+		    ESS = {
+			    add_stability = 0.05
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.4.c
+		custom_effect_tooltip = ESS_event4.c.tt
+		hidden_effect = {
+		    ESS = {
+			    subtract_from_variable = { 
+				var = ESS_control
+				value = 20
+				}
+		    }
+		}
+    }	
 }

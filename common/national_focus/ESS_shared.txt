@@ -508,6 +508,14 @@
 		prerequisite = {
 			focus = ESS_interregnum
 		}
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.2
+				}
+			}
+		}
 		x = 11
 		y = 7
 
@@ -519,6 +527,14 @@
 		prerequisite = {
 			focus = ESS_interregnum
 		}
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.3
+				}
+			}
+		}
 		x = 13
 		y = 7
 
@@ -529,6 +545,14 @@
 		cost = 10
 		prerequisite = {
 			focus = ESS_interregnum
+		}
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.4
+				}
+			}
 		}
 		x = 15
 		y = 7
