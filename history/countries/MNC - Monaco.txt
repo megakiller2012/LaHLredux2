@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Albert II"
 	desc = "POLITICS_ALBERT_OF_MONACO_DESC"
-	picture = ".dds"
+	picture = "Portrait_MNC_Albert_II.dds"
 	ideology = social_conservatism
 	traits = {  }
 }

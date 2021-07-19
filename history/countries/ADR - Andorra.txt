@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	picture = ".dds"
+	name = "General Council Of Andorra"
+	picture = "Portrait_ADR_General_Council.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = {

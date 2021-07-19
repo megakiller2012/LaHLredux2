@@ -194,3 +194,17 @@ KNT_reunify_isles = {
 		}
 	}
 }  		    
+
+KNT_channel_tunnel = {
+	KNT_import_french_guns = {
+	cost = 35
+	days_remove = 30
+			complete_effect = {
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 250
+			producer = FRA
+			}
+		}
+	}
+}

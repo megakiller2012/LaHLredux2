@@ -6,7 +6,7 @@ country_event = {
 	title = WRC_event.1.t
 	desc = WRC_event.1.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_fall_of_northern_china
 
     immediate = {
        WRC_release_CHC = yes
@@ -50,6 +50,10 @@ country_event = {
 				add_state_core = 433
 				transfer_state = 433
            }
+		   country_event = {
+			   id = WRC_event.2  
+			   days = 5
+		   }
         }
     }
 
@@ -112,11 +116,16 @@ country_event = {
 	title = WRC_event.2.t
 	desc = WRC_event.2.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_fall_of_west
 
 	immediate = {
        WRC_release_FHT = yes
        hidden_effect = {
+       
+		   country_event = {
+			   id = WRC_event.3  
+			   days = 5
+		   }
               FHT = {
                 add_state_core = 1213
 				transfer_state = 1213
@@ -148,6 +157,10 @@ country_event = {
 				transfer_state = 428
 
            }
+		   country_event = {
+			   id = WRC_event.3 
+			   days = 5
+		   }
         }
     }
     option = {
@@ -177,12 +190,17 @@ country_event = {
 	title = WRC_event.3.t
 	desc = WRC_event.3.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_fall_of_shandong
 
 	immediate = {
        WRC_release_NFM = yes
        WRC_release_SOL = yes
        hidden_effect = {
+		   country_event = {
+			   id = WRC_event.4
+			   days = 5
+		   }
+
               SOL = {
                 add_state_core = 1179
 				transfer_state = 1179
@@ -213,6 +231,10 @@ country_event = {
 				transfer_state = 417
 
            }
+		   country_event = {
+			   id = WRC_event.4 
+			   days = 5
+		   }
         }
     }
     option = {
@@ -239,7 +261,7 @@ country_event = {
 	}
 
 	option = {
-	    name = WRC_event.3.d
+	    name = WRC_event.3.c
 	    trigger = {
 	        is_ai = no
 	    }
@@ -258,7 +280,7 @@ country_event = {
 	title = WRC_event.4.t
 	desc = WRC_event.4.d
     is_triggered_only = yes
-	picture = no
+	picture = GFX_WRC_death_of_chairman
 	option = {
 	    name = WRC_event.4.a
 	    kill_country_leader = yes
@@ -270,6 +292,10 @@ country_event = {
 	        traits = {
 	        }
 	    }
+		hidden_effect = {
+			news_event = { id = lhl_news.5 }
+
+		}
 	}
 }
 
