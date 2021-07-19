@@ -491,6 +491,9 @@
  ESS_revival_of_formula_one:0 "Revival of Formula One"
  ESS_revival_of_formula_one_desc:0 "Revival of Formula One" 
  ##DECISIONS##
+ 
+ ESS_control_over_london:0 "Our Control Over Great City Of London"
+ ESS_control_over_london_desc:0 "Our control level - §R[?ESS_control]§!"
  ESS_prisoners_of_war:0 "Prisoners Of War"
  ESS_prisoners_of_war_desc:0 "Throughout our liberation campaign of the British Isles we have captured several prominent enemy leaders. It is now up to us, whether to give them a fair trial or exile them out of the country"
  ESS_deal_galloway:0 "Deal with George Galloway"
