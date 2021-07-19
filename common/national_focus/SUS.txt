@@ -3,6 +3,22 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
         shared_focus = SUS_court_of_crimson_king
+		shared_focus = SUS_crisis_in_the_westminster
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SUS
+			
+		}
+	}
+}
+
+focus_tree = {
+	id = SUS_focus
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+        shared_focus = SUS_crisis_in_the_westminster
 	country = {
 		factor = 0
 		modifier = {
