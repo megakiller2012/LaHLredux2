@@ -233,8 +233,8 @@ shared_focus = {
 		y = 9
 	}
 	shared_focus = {
-		id = SUS_people's_redcoats
-		icon = GFX_goal_SUS_people's_redcoats
+		id = SUS_peoples_redcoats
+		icon = GFX_goal_SUS_peoples_redcoats
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_theif
@@ -247,7 +247,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_sword_of_might
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_people's_redcoats
+			focus = SUS_peoples_redcoats
 		}
 		mutually_exclusive = {
 	    focus = SUS_shield_of_right
@@ -336,8 +336,8 @@ shared_focus = {
 		y = 8
 	}
 	shared_focus = {
-		id = SUS_turing's_legacy
-		icon = GFX_goal_SUS_turing's_legacy
+		id = SUS_turings_legacy
+		icon = GFX_goal_SUS_turings_legacy
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_investments_in_the_future
@@ -350,7 +350,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_automatic_death
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_turing's_legacy
+			focus = SUS_turings_legacy
 		}
 		x = 6
 		y = 10
@@ -419,7 +419,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_shield_of_right
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_people's_redcoats
+			focus = SUS_peoples_redcoats
 		}
 		mutually_exclusive = {
 	    focus = SUS_sword_of_might
@@ -478,8 +478,8 @@ shared_focus = {
 		y = 9
 	}
 	shared_focus = {
-		id = SUS_trough_the_skies
-		icon = GFX_goal_SUS_trough_the_skies
+		id = SUS_through_the_skies
+		icon = GFX_goal_SUS_through_the_skies
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_free_aviators
@@ -492,14 +492,14 @@ shared_focus = {
 		icon = GFX_goal_SUS_imperial_sky_strategy
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_trough_the_skies
+			focus = SUS_through_the_skies
 		}
 		x = 14
 		y = 11
 	}
 	shared_focus = {
-		id = SUS_people's_legion
-		icon = GFX_goal_SUS_people's_legion
+		id = SUS_peoples_legion
+		icon = GFX_goal_SUS_peoples_legion
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_shield_of_right
@@ -512,7 +512,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_sussex_witches
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_people's_legion
+			focus = SUS_peoples_legion
 		}
 		x = 16
 		y = 9
@@ -542,7 +542,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_they_shall_no_pass
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_people's_legion
+			focus = SUS_peoples_legion
 		}
 		x = 18
 		y = 9
@@ -772,13 +772,13 @@ shared_focus = {
 			focus = SUS_exile_the_eaters
 		}
 		mutually_exclusive = {
-			focus = SUS_henry's_sale
+			focus = SUS_henrys_sale
 		}
 		x = 41
 		y = 9
 	}
 	shared_focus = {
-		id = SUS_henry's_sale
+		id = SUS_henrys_sale
 		icon = GFX_goal_SUS_in_a_single_country
 		cost = 4.3
 		prerequisite = {
@@ -798,7 +798,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_a_piece_for_the_silence
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_henry's_sale
+			focus = SUS_henrys_sale
 			focus = SUS_in_a_single_country
 		}
 		x = 42
@@ -1029,14 +1029,14 @@ shared_focus = {
 			focus = SUS_robin_hood_laws
 		}
 		mutually_exclusive = {
-			focus = SUS_worker's_freedom
+			focus = SUS_workers_freedom
 		}
 		x = 16
 		y = 21
 	}
 	shared_focus = {
-		id = SUS_worker's_freedom
-		icon = GFX_goal_SUS_worker's_freedom
+		id = SUS_workers_freedom
+		icon = GFX_goal_SUS_workers_freedom
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_encourage_the_corporations
@@ -1053,7 +1053,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_a_poverty_free_state
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_worker's_freedom
+			focus = SUS_workers_freedom
 			focus = SUS_direct_rule_from_london
 		}
 		x = 17
@@ -1104,14 +1104,14 @@ shared_focus = {
 			focus = SUS_reconstruction_of_the_north
 		}
 		mutually_exclusive = {
-			focus = SUS_on_his_majesty's_secret_service
+			focus = SUS_on_his_majestys_secret_service
 		}
 		x = 24
 		y = 20
 	}
 	shared_focus = {
-		id = SUS_on_his_majesty's_secret_service
-		icon = GFX_goal_SUS_on_his_majesty's_secret_service
+		id = SUS_on_his_majestys_secret_service
+		icon = GFX_goal_SUS_on_his_majestys_secret_service
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_the_seven_kingdoms
@@ -1128,7 +1128,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_crusade_against_ideology
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_on_his_majesty's_secret_service
+			focus = SUS_on_his_majestys_secret_service
 			focus = SUS_death_to_spies
 		}
 		mutually_exclusive = {
@@ -1142,7 +1142,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_crusade_against_ideology
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_on_his_majesty's_secret_service
+			focus = SUS_on_his_majestys_secret_service
 			focus = SUS_death_to_spies
 		}
 		mutually_exclusive = {
@@ -1361,8 +1361,8 @@ shared_focus = {
 		y = 20
 	}
 	shared_focus = {
-		id = SUS_сommonwealth_кevival
-		icon = GFX_goal_SUS_сommonwealth_кevival
+		id = SUS_сommonwealth_revival
+		icon = GFX_goal_SUS_сommonwealth_revival
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_british_invasion
@@ -1375,7 +1375,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_shards_of_the_crown_jewel
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_сommonwealth_кevival
+			focus = SUS_сommonwealth_revival
 		}
 		x = 12
 		y = 22
@@ -1523,8 +1523,8 @@ shared_focus = {
 		y = 19
 	}
 	shared_focus = {
-		id = SUS_people's_parliament
-		icon = GFX_goal_SUS_people's_parliament
+		id = SUS_peoples_parliament
+		icon = GFX_goal_SUS_peoples_parliament
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_soul_of_the_folk
@@ -1537,7 +1537,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_equal_rights
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_people's_parliament
+			focus = SUS_peoples_parliament
 		}
 		x = 33
 		y = 21
@@ -1780,8 +1780,8 @@ shared_focus = {
 		y = 21
 	}
 	shared_focus = {
-		id = SUS_now_you_don't
-		icon = GFX_goal_SUS_now_you_don't
+		id = SUS_now_you_dont
+		icon = GFX_goal_SUS_now_you_dont
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_freedom_from_liberty

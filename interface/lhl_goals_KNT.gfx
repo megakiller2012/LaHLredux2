@@ -57,6 +57,6 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_goal_KNT_walled_cities"
-		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_walled_citiess.dds"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_walled_cities.dds"
 	}
 }
