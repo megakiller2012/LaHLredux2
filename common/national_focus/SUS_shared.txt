@@ -1361,8 +1361,8 @@ shared_focus = {
 		y = 20
 	}
 	shared_focus = {
-		id = SUS_сommonwealth_revival
-		icon = GFX_goal_SUS_сommonwealth_revival
+		id = SUS_commonwealth_revival
+		icon = GFX_goal_SUS_commonwealth_revival
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_british_invasion
@@ -1375,7 +1375,7 @@ shared_focus = {
 		icon = GFX_goal_SUS_shards_of_the_crown_jewel
 		cost = 4.3
 		prerequisite = {
-			focus = SUS_сommonwealth_revival
+			focus = SUS_commonwealth_revival
 		}
 		x = 12
 		y = 22
@@ -1394,8 +1394,8 @@ shared_focus = {
 		y = 23
 	}
 	shared_focus = {
-		id = SUS_fully_automated_luxury_gay_space_labourism 
-		icon = GFX_goal_SUS_fully_automated_luxury_gay_space_labourism 
+		id = SUS_british_juche
+		icon = GFX_goal_SUS_british_juche
 		cost = 4.3
 		prerequisite = {
 			focus = SUS_every_woman_a_queen
