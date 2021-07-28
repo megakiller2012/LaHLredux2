@@ -158,3 +158,200 @@ country_event = {
 		}
     }	
 }
+country_event = {
+	id = ESS_event.5
+	title = ESS_event.5.t
+	desc = ESS_event.5.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.5.a
+		custom_effect_tooltip = ESS_event4.a.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_land
+				}
+		    }
+		}
+    }   
+	option = {
+		name = ESS_event.5.b
+		custom_effect_tooltip = ESS_event5.b.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_collins
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.5.c
+		custom_effect_tooltip = ESS_event5.c.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_dawkins
+				}
+		    }
+		}
+    }	
+}
+country_event = {
+	id = ESS_event.6
+	title = ESS_event.6.t
+	desc = ESS_event.6.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.6.a
+		custom_effect_tooltip = ESS_event6.a.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_land
+				}
+		    }
+		}
+    }   
+	option = {
+		name = ESS_event.6.b
+		custom_effect_tooltip = ESS_event6.b.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_collins
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.6.c
+		custom_effect_tooltip = ESS_event6.c.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_dawkins
+				}
+		    }
+		}
+    }	
+}
+country_event = {
+	id = ESS_event.7
+	title = ESS_event.7.t
+	desc = ESS_event.7.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.7.a 
+		
+		1158 = {
+				
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 10574
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17573
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 2559
+						instant_build = yes
+					}
+				}
+		1157 = {		
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 13587
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17553
+						instant_build = yes
+					}	
+				}
+		1003 = {		
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17571
+						instant_build = yes
+					}
+				}
+		}
+							
+				
+	option = {
+		name = ESS_event.7.b 
+		1156 = {
+				
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 4631
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17531
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17534
+						instant_build = yes
+					}
+				}
+		1159 = {		
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17538
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17537
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17544
+						instant_build = yes
+					}		
+		
+    }
+   }
+      }
+	  
+   	country_event = {
+	id = ESS_event.8
+	title = ESS_event.8.t
+	desc = ESS_event.8.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.8.a 
+		
+		
+		}
+	}
+}

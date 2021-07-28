@@ -39,7 +39,7 @@
  ESS_nick_land:0 "Nick Land"
  ##FOCUS TREES##
  ESS_luciferoverlondon:0 "Lucifer over London"
- ESS_luciferoverlondon_desc:0 "Police Coup"
+ ESS_luciferoverlondon_desc:0 "There are two main enemies in England - cockney and railroads (Small talkie about the potential enemies of the London)"
  ESS_revolutionary_ethic:0 "Revolutionary Ethic"
  ESS_revolutionary_ethic_desc:0 "Revolutionary Ethic"
  ESS_peoples_militia:0 "People's Militia"
@@ -511,7 +511,7 @@
  ESS_event.1.a:0 "Memento mori"
  ESS_event1.tt:0 "§RAfter your death, let the worms consume your flesh, let the demons consume your soul, and let your sycophants destroy your legacy§!"
 #
- ESS_event.2.t:0 "Great Council Choice"
+ ESS_event.2.t:0 "Act 1 - Progeny"
  ESS_event.2.d:0 "Mosley's servants had a consilium to choose a new leader"
  ESS_event.2.a:0 "Land"
  ESS_event2.a.tt:0 "§RLet the madman a chance to realise his darkest dreams§!"
@@ -520,7 +520,7 @@
  ESS_event.2.c:0 "Noone"
  ESS_event2.c.tt:0 "§RLet hyenas feast over the lion's dead body§!"
  #
- ESS_event.3.t:0 "Warlords Action"
+ ESS_event.3.t:0 "Act 2 - Chieftains"
  ESS_event.3.d:0 "Warlords had their own consilium to choose a new leader"
  ESS_event.3.a:0 "Land"
  ESS_event3.a.tt:0 "§RLet the madman a chance to realise his darkest dreams§!"
@@ -529,13 +529,39 @@
  ESS_event.3.c:0 "Master-general"
  ESS_event3.c.tt:0 "§RLet hyenas feast over the lion's dead body§!"
  #
- ESS_event.4.t:0 "Warlords Action"
- ESS_event.4.d:0 "Warlords had their own consilium to choose a new leader"
+ ESS_event.4.t:0 "Act 3 - Commoners"
+ ESS_event.4.d:0 "Londoneers founds out about the Mosley's death! "
  ESS_event.4.a:0 "Land"
  ESS_event4.a.tt:0 "§RLet the madman a chance to realise his darkest dreams§!"
- ESS_event.4.b:0 "Noone"
+ ESS_event.4.b:0 "Dawkins"
  ESS_event4.b.tt:0 "§RLet the demon unite the Sodom of progress and Gomorrah of wealth§!"
- ESS_event.4.c:0 "Master-general"
+ ESS_event.4.c:0 "Enraged londoneers sacks the city"
  ESS_event4.c.tt:0 "§RLet hyenas feast over the lion's dead body§!"
  #
- 
+ ESS_event.5.t:0 "Act 4 - Leader"
+ ESS_event.5.d:0 ""
+ ESS_event.5.a:0 "Land"
+ ESS_event5.a.tt:0 "§RLet the madman a chance to realise his darkest dreams§!"
+ ESS_event.5.b:0 "Noone"
+ ESS_event5.b.tt:0 "§RLet the demon unite the Sodom of progress and Gomorrah of wealth§!"
+ ESS_event.5.c:0 "Master-general"
+ ESS_event5.c.tt:0 "§RLet hyenas feast over the lion's dead body§!"
+ # 
+ ESS_event.6.t:0 "test"
+ ESS_event.6.d:0 ""
+ ESS_event.6.a:0 "test"
+ ESS_event5.a.tt:0 ""
+ ESS_event.6.b:0 "test"
+ ESS_event6.b.tt:0 ""
+ ESS_event.6.c:0 "test"
+ ESS_event6.c.tt:0 ""
+ # 
+ ESS_event.7.t:0 "Our Main Treat"
+ ESS_event.7.d:0 "Quick guide about the London`s dangerous neighbours (Douglas and Henry are main one`s)"
+ ESS_event.7.a:0 "Mindless Cultists On the North"
+ ESS_event.7.b:0 "Sus Imposters On the South"
+ #  
+ ESS_event.8.t:0 "Booba grafoman"
+ ESS_event.8.d:0 "In its essence, the English Union differs from other bandit groups not only by excellent training and fanatical loyalty to its leader, but also by a special worldview and morality. The nationalist knows that he is the most worthy son of his country, a man worthy of more and better. He does not know denial and refusal — for the sake of satisfying his ambitions, he will do anything and go anywhere, unless, of course, it does not harm his colleagues. We can say that Max's gang is a pack of wolves, ready to tear and tear apart the tender world of ordinary people and weaklings. Due to the recent expansion of the ranks of nationalists, such a mood is gradually disappearing under the influence of immature neophytes, which undermines our morale. This disintegration must be stopped in order to preserve the gains of the national revolution."
+ ESS_event.8.a:0 "Cool story bro"
+ #  
