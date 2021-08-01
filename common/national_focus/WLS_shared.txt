@@ -86,8 +86,8 @@
 		y = 3
 	}
 	shared_focus = {
-		id = WLS_minin'_away
-		icon = GFX_goal_WLS_minin'_away
+		id = WLS_minin_away
+		icon = GFX_goal_WLS_minin_away
 		cost = 4.3
 		prerequisite = {
 			focus = WLS_welsh_pastures
@@ -100,7 +100,7 @@
 		icon = GFX_goal_WLS_fill_storages
 		cost = 4.3
 		prerequisite = {
-			focus = WLS_minin'_away
+			focus = WLS_minin_away
 		}
 		x = 31
 		y = 5
@@ -915,8 +915,8 @@
 		y = 28
 	}
 	shared_focus = {
-		id = WLS_hold_'em
-		icon = GFX_goal_WLS_hold_'em
+		id = WLS_hold_em
+		icon = GFX_goal_WLS_hold_em
 		cost = 4.3
 		prerequisite = {
 			focus = WLS_english_turn
@@ -965,8 +965,8 @@
 		y = 29
 	}
 	shared_focus = {
-		id = WLS_glad_it's_all_over
-		icon = GFX_goal_WLS_glad_it's_all_over
+		id = WLS_glad_its_all_over
+		icon = GFX_goal_WLS_glad_its_all_over
 		cost = 4.3
 		prerequisite = {
 			focus = WLS_saboteurs
@@ -981,7 +981,7 @@
 			focus = WLS_no_step_back
 		}
 		prerequisite = {
-			focus = WLS_hold_'em
+			focus = WLS_hold_em
 		}
 		x = 30
 		y = 30
@@ -991,7 +991,7 @@
 		icon = GFX_goal_WLS_brining_the_harmony
 		cost = 4.3
 		prerequisite = {
-			focus = WLS_glad_it's_all_over
+			focus = WLS_glad_its_all_over
 		}
 		mutually_exclusive = {
 	    focus = WLS_rising_of_the_lark
@@ -1632,8 +1632,8 @@
 		y = 36
 	}
 	shared_focus = {
-		id = WLS_send_'em_in
-		icon = GFX_goal_WLS_send_'em_in
+		id = WLS_send_em_in
+		icon = GFX_goal_WLS_send_em_in
 		cost = 4.3
 		prerequisite = {
 			focus = WLS_invite_the_exiles
