@@ -1385,7 +1385,7 @@
 		icon = GFX_goal_WLS_rising_of_the_lark
 		cost = 4.3
 		prerequisite = {
-			focus = WLS_glad_it's_all_over
+			focus = WLS_glad_its_all_over
 		}
 		mutually_exclusive = {
 	    focus = WLS_brining_the_harmony
