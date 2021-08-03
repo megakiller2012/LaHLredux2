@@ -9,6 +9,8 @@ ideologies = {
 			}		
 			agrarian_socialism = {
 			}
+			left_greens = {
+			}
 		}
 		
 		dynamic_faction_names = {

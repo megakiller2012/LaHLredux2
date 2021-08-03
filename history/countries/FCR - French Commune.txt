@@ -1,0 +1,48 @@
+capital = 648
+oob = "FCR_2020"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+set_convoys = 50
+
+set_politics = {
+	ruling_party = socialism
+	elections_allowed = no
+}
+set_popularities = {
+	socialism  = 50
+	commendationism = 20
+	ur_fascism = 15
+	regressionism = 15
+}
+
+create_country_leader = {
+	name = "French Committee"
+	picture = "Portrait_FCR_Cock.dds"
+	ideology = agrarian_socialism
+	traits = {  }
+}
+create_country_leader = {
+	name = "The Invisible Committee"
+	picture = "Portrait_FCR_Invisible_Committee.dds"
+	ideology = ultrahegelianism
+	traits = {  }
+}
+create_country_leader = {
+	name = "Regency Council"
+	picture = "Portrait_FCR_Lys_Noir.dds"
+	ideology = neoluddism
+	traits = {  }
+}
+create_country_leader = {
+	name = "Terre et Peuple"
+	picture = "Portrait_FCR_Terre_et_Peuple.dds"
+	ideology = theodemocracy
+	traits = {  }
+}
