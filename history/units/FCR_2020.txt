@@ -214,7 +214,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 11035
+		location = 11305
 		division_template = "Gardiens de la Révolution"
 		start_experience_factor = 1.0
 		start_equipment_factor = 0.8
@@ -237,6 +237,28 @@ units = {
 			name_order = 21
 		}
 		location = 11487
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11076
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 2946
 		division_template = "Bataillon d'Insurgés"
 		start_experience_factor = 1.0
 		start_equipment_factor = 0.8

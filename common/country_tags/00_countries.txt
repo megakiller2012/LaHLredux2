@@ -75,6 +75,7 @@ PER = "countries/Persia.txt"
 AFG = "countries/Afghanistan.txt"
 ###Germany###
 GER = "countries/Germany.txt"
+GNR = "countries/German Nationalists.txt"
 ###France###
 FRA = "countries/France.txt"
 FCR = "countries/French Commune.txt"
