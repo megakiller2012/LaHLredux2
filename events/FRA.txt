@@ -1,0 +1,61 @@
+add_namespace = FRA_event
+country_event = {
+	id = FRA_event.1
+	title = FRA_event.1.t
+	desc = FRA_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	hidden_effect = {
+		    FCR = {
+		        add_state_core = 665
+		        add_state_core = 654
+				add_state_core = 655
+				add_state_core = 656
+				add_state_core = 651
+				add_state_core = 652
+				add_state_core = 951
+				add_state_core = 653
+				add_state_core = 650
+				add_state_core = 664
+				add_state_core = 649
+				add_state_core = 959
+				add_state_core = 645
+				add_state_core = 802
+				add_state_core = 645
+				add_state_core = 957
+				add_state_core = 648
+				add_state_core = 952
+				add_state_core = 647
+				transfer_state = 954
+				add_state_core = 954
+				add_state_core = 646
+				add_state_core = 130
+				add_state_core = 668
+				add_state_core = 801
+				add_state_core = 689
+			}
+			declare_war_on = {
+				target = FCR
+				type = annex_everything
+			}
+		}
+    }
+		
+	option = {
+		name = FRA_event.1.a
+    }	
+	option = {
+	    name = FRA_event.1.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        FCR = {
+	            change_tag_from = FRA
+	        }
+	    }
+	}
+}

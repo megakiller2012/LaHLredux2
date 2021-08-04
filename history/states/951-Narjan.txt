@@ -10,6 +10,5 @@ state={
 	history={
 		owner = FRA
 		add_core_of = FRA
-		add_core_of = FCR
 	}	
 }

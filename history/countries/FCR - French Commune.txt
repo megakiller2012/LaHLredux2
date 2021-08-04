@@ -1,4 +1,4 @@
-capital = 648
+capital = 954
 oob = "FCR_2020"
 
 set_research_slots = 3
