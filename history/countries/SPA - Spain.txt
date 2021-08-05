@@ -1,4 +1,4 @@
-capital = 41
+capital = 660
 
 oob = "SPA_2020"
 
@@ -18,12 +18,31 @@ set_politics = {
 }
 
 set_popularities = {
-	right_populism  = 100
+	right_populism  = 30
+	left_authoritarianism = 15
+	millenarism = 20
+	regressionism = 15
+	socialism = 20
 }
 
+create_country_leader = {
+	name = "Sixto Enrique de Borbon-Parma"
+	picture = "Portrait_SPA_Sixto_Enrique_de_Borbon-Parma.dds"
+	ideology = neo_feudalism
+	traits = { 
+	}
+}
 create_country_leader = {
 	name = "Felipe VI"
 	picture = "Portrait_SPA_Felipe_VI.dds"
 	ideology = social_conservatism
-	traits = { }
+	traits = { 
+	}
+}
+create_country_leader = {
+	name = "Felipe VI"
+	picture = "Portrait_SPA_Felipe_VI.dds"
+	ideology = religious_millennialism
+	traits = { 
+	}
 }

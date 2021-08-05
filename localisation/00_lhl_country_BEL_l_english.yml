@@ -2,8 +2,12 @@
  ##LEADERS##
  ##POLITICAL PARTIES##
  ##COUNTRY NAME##
- BEL_socialism:0 "Kingdom of Flanders"
- BEL_socialism_DEF:0 "Kingdom of Flanders"
+ BEL_socialism:0 "Belgium"
+ BEL_socialism_DEF:0 "Kingdom of Belgium"
+ BEL_national_bolshevism:0 "European Community"
+ BEL_national_bolshevism_DEF:0 "European Community"
+ BEL_ur_fascism:0 "European Republic"
+ BEL_ur_fascism_DEF:0 "European Republic"
  ##TRAITS##
  ##IDEAS##
  ##FOCUS TREES##

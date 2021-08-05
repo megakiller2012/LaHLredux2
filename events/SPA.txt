@@ -1,0 +1,119 @@
+add_namespace = SPA_event
+
+country_event = {
+	id = SPA_event.1
+	title = SPA_event.1.t
+	desc = SPA_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	SPA_release_CAT = yes
+	hidden_effect = {
+		    CAT = {
+		        add_state_core = 662
+		        transfer_state = 662
+			}			
+		}
+           }
+	option = {
+		name = SPA_event.1.a
+		add_stability = -0.25
+    }	
+	option = {
+	    name = SPA_event.1.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        CAT = {
+	            change_tag_from = SPA
+	        }
+	    }
+	}
+}
+
+country_event = {
+	id = SPA_event.2
+	title = SPA_event.2.t
+	desc = SPA_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	SPA_release_AND = yes
+	hidden_effect = {
+		    AND = {
+		        add_state_core = 675
+		        transfer_state = 675
+				add_state_core = 687
+		        transfer_state = 687
+			}
+			UAS = {
+				transfer_state = 688
+			}
+    }
+	option = {
+		name = SPA_event.2.a
+		add_stability = -0.20
+    }	
+		option = {
+			name = SPA_event.2.b
+			trigger = {
+	        is_ai = no
+			}
+			hidden_effect = {
+				AND = {
+	            change_tag_from = SPA
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = SPA_event.3
+	title = SPA_event.3.t
+	desc = SPA_event.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	SPA_release_AND = yes
+	hidden_effect = {
+		    POR = {
+		        add_state_core = 679
+		        transfer_state = 679
+				add_state_core = 680
+		        transfer_state = 680
+				add_state_core = 680
+		        transfer_state = 677
+				add_state_core = 677
+		        transfer_state = 678
+				add_state_core = 678
+		        transfer_state = 676
+				add_state_core = 676
+		        transfer_state = 672
+				add_state_core = 672
+			}
+		}
+		option = {
+		name = SPA_event.3.a
+		add_stability = -0.20
+		}	
+		option = {
+			name = SPA_event.3.b
+			trigger = {
+				is_ai = no
+			}
+			hidden_effect = {
+				POR = {
+	            change_tag_from = SPA
+				}
+			}
+		}
+	}
+}

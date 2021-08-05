@@ -28,3 +28,11 @@ create_country_leader = {
 		
 	}
 }
+create_country_leader = {
+	name = "Randal Koene"
+	picture = "Portrait_HOL_Randal_Koene.dds"
+	ideology = ethical_millennialism
+	traits = {
+		
+	}
+}

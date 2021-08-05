@@ -20,13 +20,29 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism = 100
+	socialism = 33
+	national_bolshevism = 33
+	ur_fascism = 34
 }
 
 create_country_leader = {
 	name = "Elisabeth I"
 	picture = "Portrait_BEL_Elisabeth_I.dds"
 	ideology = progressivism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Luc Michel"
+	picture = "Portrait_BEL_Luc_Michel.dds"
+	ideology = nazbol_gang
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Alain de Benoist"
+	picture = "Portrait_BEL_Alain_de_Benoist.dds"
+	ideology = charismatic_dictatorship
 	traits = {
 	}
 }
