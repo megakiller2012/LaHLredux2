@@ -29,3 +29,10 @@ create_country_leader = {
 	ideology = left_greens
 	traits = {  }
 }
+
+create_country_leader = {
+	name = "Marion Le-Pen"
+	picture = "Portrait_FRA_Marion-Le_Pen.dds"
+	ideology = national_populism
+	traits = {  }
+}

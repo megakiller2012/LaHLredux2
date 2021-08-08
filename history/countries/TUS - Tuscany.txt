@@ -1,6 +1,6 @@
-﻿capital = 699
+capital = 702
 
-oob = "ITA_2020"
+oob = "TUS_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -13,20 +13,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism  = 100
+	left_authoritarianism = 100
 	
 }
 create_country_leader = {
-	name = "Silvio Berlusconi"
+	name = "Sigismund Von Habsburg-Lothringen"
 	desc = ""
-	picture = "Portrait_ITA_Silvio_Berlusconi.dds"
-	ideology = christian_democracy
+	picture = "Portrait_TUS_Sigismund_Von_Habsburg-Lothringen.dds"
+	ideology = paternalism
 	traits = {
-		
 	}
 }
-

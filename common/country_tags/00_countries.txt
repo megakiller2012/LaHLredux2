@@ -268,6 +268,7 @@ SIC = "countries/Sicily.txt"
 VNZ = "countries/Republic of Venezia.txt"
 TYR = "countries/Tyrol.txt"
 SAN = "countries/San Marino.txt"
+TUS = "countries/Tuscany.txt"
 ###Sham###
 ASS = "countries/Assad Syria.txt" ###Assad
 LEB = "countries/Phoenicia.txt"
