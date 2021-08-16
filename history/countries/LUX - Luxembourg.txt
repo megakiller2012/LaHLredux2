@@ -25,4 +25,9 @@ create_country_leader = {
 	picture = "Portrait_LUX_Jup_Weber.dds"
 	ideology = green_autocracy
 	}
-}
+
+create_country_leader = {
+	name = "Zvonimir von Habsburg-Lothringen"
+	picture = "Portrait_LUX_Ferdinand_Zvonimir.dds"
+	ideology = charismatic_dictatorship
+	}
