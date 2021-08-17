@@ -1,12 +1,16 @@
+
 state={
 	id=914
 	name="STATE_914"
+
 	history={
-		owner = UAS
-		add_core_of = UAS
+		owner = ALG
+		add_core_of = ALG
+
 	}
+
 	provinces={
-		3972 4132 9106 9183 12380 12400 12477
+		4132 9183 12380 12477 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

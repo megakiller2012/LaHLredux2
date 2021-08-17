@@ -39,17 +39,19 @@ country_event = {
 	is_triggered_only = yes
     option = {
 		name = ESS_event.2.a
+		custom_effect_tooltip = ESS_event2.a.tt
 		hidden_effect = {
 		    ESS = {
 			    add_to_variable = { 
 				var = ESS_control
-				add_to_value = 20
+				value = 20
 				}
 		    }
 		}
     }   
 	option = {
 		name = ESS_event.2.b
+		custom_effect_tooltip = ESS_event2.b.tt
 		hidden_effect = {
 		    ESS = {
 			    add_stability = 0.05
@@ -58,11 +60,12 @@ country_event = {
     }
 	option = {
 		name = ESS_event.2.c
+		custom_effect_tooltip = ESS_event2.c.tt
 		hidden_effect = {
 		    ESS = {
-			    add_to_variable = { 
+			    subtract_from_variable = { 
 				var = ESS_control
-				subtract_from_variable = 20
+				value = 20
 				}
 		    }
 		}
@@ -81,16 +84,274 @@ country_event = {
 	is_triggered_only = yes
     option = {
 		name = ESS_event.3.a
-		FROM = {
-			set_autonomy = {
-				target = ROOT
-				autonomy_state = autonomy_free
-			}
-		}
+		custom_effect_tooltip = ESS_event3.a.tt
 		hidden_effect = {
-		    GER = {
-			    country_event = { id = GER_event.5 days = 2 }
+		    ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				value = 20
+				}
 		    }
 		}
-    }   	
+    }   
+	option = {
+		name = ESS_event.3.b
+		custom_effect_tooltip = ESS_event3.b.tt
+		hidden_effect = {
+		    ESS = {
+			    add_stability = 0.05
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.3.c
+		custom_effect_tooltip = ESS_event3.c.tt
+		hidden_effect = {
+		    ESS = {
+			    subtract_from_variable = { 
+				var = ESS_control
+				value = 20
+				}
+		    }
+		}
+    }	
+}
+country_event = {
+	id = ESS_event.4
+	title = ESS_event.4.t
+	desc = ESS_event.4.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.4.a
+		custom_effect_tooltip = ESS_event4.a.tt
+		hidden_effect = {
+		    ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				value = 20
+				}
+		    }
+		}
+    }   
+	option = {
+		name = ESS_event.4.b
+		custom_effect_tooltip = ESS_event4.b.tt
+		hidden_effect = {
+		    ESS = {
+			    add_stability = 0.05
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.4.c
+		custom_effect_tooltip = ESS_event4.c.tt
+		hidden_effect = {
+		    ESS = {
+			    subtract_from_variable = { 
+				var = ESS_control
+				value = 20
+				}
+		    }
+		}
+    }	
+}
+country_event = {
+	id = ESS_event.5
+	title = ESS_event.5.t
+	desc = ESS_event.5.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.5.a
+		custom_effect_tooltip = ESS_event4.a.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_land
+				}
+		    }
+		}
+    }   
+	option = {
+		name = ESS_event.5.b
+		custom_effect_tooltip = ESS_event5.b.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_collins
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.5.c
+		custom_effect_tooltip = ESS_event5.c.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_dawkins
+				}
+		    }
+		}
+    }	
+}
+country_event = {
+	id = ESS_event.6
+	title = ESS_event.6.t
+	desc = ESS_event.6.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.6.a
+		custom_effect_tooltip = ESS_event6.a.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_land
+				}
+		    }
+		}
+    }   
+	option = {
+		name = ESS_event.6.b
+		custom_effect_tooltip = ESS_event6.b.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_collins
+		    }
+		}
+    }
+	option = {
+		name = ESS_event.6.c
+		custom_effect_tooltip = ESS_event6.c.tt
+		hidden_effect = {
+		    ESS = {
+			    set_country_flag = ESS_dawkins
+				}
+		    }
+		}
+    }	
+}
+country_event = {
+	id = ESS_event.7
+	title = ESS_event.7.t
+	desc = ESS_event.7.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.7.a 
+		
+		1158 = {
+				
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 10574
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17573
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 2559
+						instant_build = yes
+					}
+				}
+		1157 = {		
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 13587
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17553
+						instant_build = yes
+					}	
+				}
+		1003 = {		
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17571
+						instant_build = yes
+					}
+				}
+		}
+							
+				
+	option = {
+		name = ESS_event.7.b 
+		1156 = {
+				
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 4631
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17531
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17534
+						instant_build = yes
+					}
+				}
+		1159 = {		
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17538
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17537
+						instant_build = yes
+					}
+			add_building_construction = {
+						type = bunker
+						level = 2
+						province = 17544
+						instant_build = yes
+					}		
+		
+    }
+   }
+      }
+	  
+   	country_event = {
+	id = ESS_event.8
+	title = ESS_event.8.t
+	desc = ESS_event.8.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.8.a 
+		
+		
+		}
+	}
 }

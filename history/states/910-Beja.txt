@@ -1,12 +1,16 @@
+
 state={
 	id=910
 	name="STATE_910"
+
 	history={
 		owner = UAS
 		add_core_of = UAS
+
 	}
+
 	provinces={
-		6304 9426 12417 
+		3972 6304 9106 9426 12400 12417 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

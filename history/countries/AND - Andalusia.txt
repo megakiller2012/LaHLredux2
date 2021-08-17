@@ -18,13 +18,21 @@ set_politics = {
 }
 
 set_popularities = {
-	left_authoritarianism  = 100
+	left_authoritarianism  = 55
+	socialism = 45
 }
 
 create_country_leader = {
 	name = "Susanna Diaz"
 	desc = "POLITICS_DIAZ_DESC"
-	picture = "Portrait_AND_Diaz.dds"
+	picture = "Portrait_AND_Susanna_Diaz.dds"
 	ideology = soviet_marxism
 	traits = { iron_fisted_woman }
+}
+create_country_leader = {
+	name = "Juan Manuel Sánchez Gordillo"
+	picture = "Portrait_AND_Juan_Manuel_Sánchez_Gordillo.dds"
+	ideology = agrarian_socialism
+	traits = {
+	}
 }

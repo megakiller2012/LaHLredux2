@@ -15,13 +15,16 @@ set_technology = {
 set_convoys = 400
 
 set_politics = {
-	ruling_party = right_populism
+	ruling_party = national_bolshevism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism = 100
+	national_bolshevism = 55
+	right_populism = 30
+	socialism = 10
+	commendationism = 5
 }
 
 create_country_leader = {
@@ -37,6 +40,15 @@ create_country_leader = {
 	name = "Shinzō Abe"
 	picture = "Portrait_JAP_Shinzo_Abe.dds"
 	ideology = national_populism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Masaru Sato"
+	desc = "POLITICS_Masaru_Sato_DESC"
+	picture = "Portrait_JAP_Masaru_Sato.dds"
+	ideology = nazbol_gang
 	traits = {
 	}
 }

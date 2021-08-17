@@ -1,0 +1,300 @@
+division_template = {
+	name = "Bataillon d'Insurgés"
+	division_names_group = FRC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 		
+	}
+}
+
+division_template = {
+	name = "Gardiens de la Révolution"
+	division_names_group = FRC_INF_02
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }	
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 
+		engineer = { x = 0 y = 0 } 		
+	}
+}
+
+units = {
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9663
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 8720
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 2174
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 9663
+		division_template = "Gardiens de la Révolution"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 8650
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 10796
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 3978
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11074
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 5713
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11422
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11321
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 8355
+		division_template = "Gardiens de la Révolution"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 5904
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 8719
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11011
+		division_template = "Gardiens de la Révolution"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 8230
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11305
+		division_template = "Gardiens de la Révolution"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11011
+		division_template = "Gardiens de la Révolution"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11487
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11076
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 2946
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 3554
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 3554
+		division_template = "Gardiens de la Révolution"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 3228
+		division_template = "Bataillon d'Insurgés"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+}

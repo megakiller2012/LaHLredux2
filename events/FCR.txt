@@ -1,0 +1,17 @@
+add_namespace = FCR_event
+country_event = {
+	id = FCR_event.1
+	title = FCR_event.1.t
+	desc = FCR_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	hidden_effect = {
+	load_oob = "FCR_2020"
+    }
+		
+	option = {
+		name = FCR_event.1.a
+    }

@@ -1,4 +1,4 @@
-capital = 16
+capital = 653
 oob = "FRA_2020"
 
 set_research_slots = 3
@@ -16,12 +16,23 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialism  = 100
+	socialism  = 40
+	commendationism = 15
+	ur_fascism = 15
+	regressionism = 15
+	right_populism = 15
 }
 
 create_country_leader = {
-	name = "French Committee"
-	picture = "Portrait_FRA_Cock.dds"
-	ideology = labor_socialism
+	name = "Jose Bove"
+	picture = "Portrait_FRA_Jose_Bove.dds"
+	ideology = left_greens
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "Marion Le-Pen"
+	picture = "Portrait_FRA_Marion-Le_Pen.dds"
+	ideology = national_populism
 	traits = {  }
 }

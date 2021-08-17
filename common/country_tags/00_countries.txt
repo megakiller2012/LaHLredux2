@@ -75,8 +75,10 @@ PER = "countries/Persia.txt"
 AFG = "countries/Afghanistan.txt"
 ###Germany###
 GER = "countries/Germany.txt"
+GNR = "countries/German Nationalists.txt"
 ###France###
 FRA = "countries/France.txt"
+FCR = "countries/French Commune.txt"
 ###Africa###
 DJI = "countries/Djibouti.txt"
 CHD = "countries/Chad.txt"
@@ -266,6 +268,7 @@ SIC = "countries/Sicily.txt"
 VNZ = "countries/Republic of Venezia.txt"
 TYR = "countries/Tyrol.txt"
 SAN = "countries/San Marino.txt"
+TUS = "countries/Tuscany.txt"
 ###Sham###
 ASS = "countries/Assad Syria.txt" ###Assad
 LEB = "countries/Phoenicia.txt"

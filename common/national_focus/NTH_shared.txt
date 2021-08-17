@@ -3,7 +3,7 @@ shared_focus = {
 	id = NTH_according_to_plan
 	icon = GFX_goal_NTH_According_To_Plan
 	cost = 10
-	x = 8
+	x = 18
 	y = 0
 }
 
@@ -14,7 +14,7 @@ shared_focus = {
 		focus = NTH_according_to_plan
 	}	
 	cost = 10
-	x = 5
+	x = 15
 	y = 1
 }
 
@@ -25,7 +25,7 @@ shared_focus = {
 		focus = NTH_peoples_promise
 	}	
 	cost = 10
-	x = 3
+	x = 13
 	y = 2
 }
 
@@ -36,7 +36,7 @@ shared_focus = {
 		focus = NTH_peoples_promise
 	}	
 	cost = 10
-	x = 5
+	x = 15
 	y = 2
 }
 
@@ -47,7 +47,7 @@ shared_focus = {
 		focus = NTH_peoples_promise
 	}	
 	cost = 10
-	x = 7
+	x = 17
 	y = 2
 }
 
@@ -64,7 +64,7 @@ shared_focus = {
 		focus = NTH_the_most_democratic_constitution
 	}
 	cost = 10
-	x = 5
+	x = 15
 	y = 3
 }
 
@@ -75,7 +75,7 @@ shared_focus = {
 		focus = NTH_according_to_plan
 	}	
 	cost = 10
-	x = 11
+	x = 21
 	y = 1
 }
 
@@ -86,7 +86,7 @@ shared_focus = {
 		focus = NTH_the_reconstruction
 	}	
 	cost = 10
-	x = 9
+	x = 19
 	y = 2
 }
 
@@ -97,7 +97,7 @@ shared_focus = {
 		focus = NTH_the_reconstruction
 	}	
 	cost = 10
-	x = 11
+	x = 21
 	y = 2
 }
 
@@ -108,7 +108,7 @@ shared_focus = {
 		focus = NTH_the_reconstruction
 	}	
 	cost = 10
-	x = 13
+	x = 23
 	y = 2
 }
 
@@ -125,7 +125,7 @@ shared_focus = {
 		focus = NTH_reindustrialization
 	}
 	cost = 10
-	x = 11
+	x = 21
 	y = 3
 }
 
@@ -139,6 +139,241 @@ shared_focus = {
 		focus = NTH_heroes_of_the_state
 	}
 	cost = 10
-	x = 8
+	x = 18
 	y = 4
+}
+
+shared_focus = {
+	id = NTH_forging_the_isles
+	icon = GFX_goal_NTH_Forging_The_Isles
+	prerequisite = {
+		focus = NTH_now_we_move_forward
+	}	
+	cost = 10
+	x = 18
+	y = 5
+}
+
+shared_focus = {
+	id = NTH_the_issue_of_culture
+	icon = GFX_goal_NTH_The_Issue_Of_Culture
+	prerequisite = {
+		focus = NTH_forging_the_isles
+	}	
+	cost = 10
+	x = 18
+	y = 6
+}
+
+shared_focus = {
+	id = NTH_national_symbols
+	icon = GFX_goal_NTH_National_Symbols
+	prerequisite = {
+		focus = NTH_the_issue_of_culture
+	}	
+	cost = 10
+	x = 17
+	y = 7
+}
+
+shared_focus = {
+	id = NTH_morality_matters
+	icon = GFX_goal_NTH_Morality_Matters
+	prerequisite = {
+		focus = NTH_the_issue_of_culture
+	}	
+	cost = 10
+	x = 19
+	y = 7
+}
+
+shared_focus = {
+	id = NTH_revolutionary_art
+	icon = GFX_goal_NTH_Revolutionary_Art
+	prerequisite = {
+		focus = NTH_national_symbols
+	}	
+	cost = 10
+	x = 17
+	y = 8
+}
+
+shared_focus = {
+	id = NTH_positive_securalism
+	icon = GFX_goal_NTH_Positive_Securalism
+	prerequisite = {
+		focus = NTH_morality_matters
+	}	
+	cost = 10
+	x = 19
+	y = 8
+}
+
+shared_focus = {
+	id = NTH_the_superculture
+	icon = GFX_goal_NTH_The_Superculture
+	prerequisite = {
+		focus = NTH_revolutionary_art
+	}
+	prerequisite = {
+		focus = NTH_positive_securalism
+	}		
+	cost = 10
+	x = 18
+	y = 9
+}
+
+shared_focus = {
+	id = NTH_the_issue_of_state
+	icon = GFX_goal_NTH_The_Issue_Of_State
+	prerequisite = {
+		focus = NTH_forging_the_isles
+	}	
+	cost = 10
+	x = 14
+	y = 6
+}
+
+shared_focus = {
+	id = NTH_druzhina
+	icon = GFX_goal_NTH_Druzhina
+	prerequisite = {
+		focus = NTH_the_issue_of_state
+	}	
+	cost = 10
+	x = 13
+	y = 7
+}
+
+shared_focus = {
+	id = NTH_liqiliteration
+	icon = GFX_goal_NTH_Liqiliteration
+	prerequisite = {
+		focus = NTH_the_issue_of_state
+	}	
+	cost = 10
+	x = 15
+	y = 7
+}
+
+shared_focus = {
+	id = NTH_open_the_gates
+	icon = GFX_goal_NTH_Open_The_Gates
+	prerequisite = {
+		focus = NTH_druzhina
+	}	
+	cost = 10
+	x = 13
+	y = 8
+}
+
+shared_focus = {
+	id = NTH_political_reforms
+	icon = GFX_goal_NTH_Political_Reforms
+	prerequisite = {
+		focus = NTH_liqiliteration
+	}	
+	cost = 10
+	x = 15
+	y = 8
+}
+
+shared_focus = {
+	id = NTH_the_grand_project
+	icon = GFX_goal_NTH_The_Grand_Project
+	prerequisite = {
+		focus = NTH_open_the_gates
+	}
+	prerequisite = {
+		focus = NTH_political_reforms
+	}		
+	cost = 10
+	x = 14
+	y = 9
+}
+
+shared_focus = {
+	id = NTH_the_issue_of_language
+	icon = GFX_goal_NTH_The_Issue_Of_Language
+	prerequisite = {
+		focus = NTH_forging_the_isles
+	}	
+	cost = 10
+	x = 22
+	y = 6
+}
+
+shared_focus = {
+	id = NTH_play_on_words
+	icon = GFX_goal_NTH_Play_On_Words
+	prerequisite = {
+		focus = NTH_the_issue_of_language
+	}	
+	cost = 10
+	x = 21
+	y = 7
+}
+
+shared_focus = {
+	id = NTH_forge_the_slang
+	icon = GFX_goal_NTH_Forge_The_Slang
+	prerequisite = {
+		focus = NTH_the_issue_of_language
+	}	
+	cost = 10
+	x = 23
+	y = 7
+}
+
+shared_focus = {
+	id = NTH_propaganda_machine
+	icon = GFX_goal_NTH_Propaganda_Machine
+	prerequisite = {
+		focus = NTH_play_on_words
+	}	
+	cost = 10
+	x = 21
+	y = 8
+}
+
+shared_focus = {
+	id = NTH_command_tongue
+	icon = GFX_goal_NTH_Command_Tongue
+	prerequisite = {
+		focus = NTH_forge_the_slang
+	}	
+	cost = 10
+	x = 23
+	y = 8
+}
+
+shared_focus = {
+	id = NTH_solidify_the_reforms
+	icon = GFX_goal_NTH_Solidify_The_Reforms
+	prerequisite = {
+		focus = NTH_propaganda_machine
+	}
+	prerequisite = {
+		focus = NTH_command_tongue
+	}		
+	cost = 10
+	x = 22
+	y = 9
+}
+
+shared_focus = {
+	id = NTH_the_new_eurasian_man
+	icon = GFX_goal_NTH_The_New_Eurasian_Man
+	prerequisite = {
+		focus = NTH_the_grand_project
+	}
+	prerequisite = {
+		focus = NTH_the_superculture
+	}
+	prerequisite = {
+		focus = NTH_solidify_the_reforms
+	}		
+	cost = 10
+	x = 18
+	y = 10
 }

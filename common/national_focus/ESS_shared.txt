@@ -3,14 +3,47 @@
 	shared_focus = {
 		id = ESS_luciferoverlondon
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 3
+		available = {
+			1159 = {
+				is_controlled_by = ROOT
+				}
+			1160 = {
+				is_controlled_by = ROOT
+				}
+			1158 = {
+				is_controlled_by = ROOT
+				}
+			1157 = {
+				is_controlled_by = ROOT
+				}
+			1003 = {
+				is_controlled_by = ROOT
+				}		
+				}
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.7
+				}
+			}
+		}
 		x = 4
 		y = 0
 	}
 	shared_focus = {
 		id = ESS_national_revolutionary_army
 		icon = GFX_goal_unknown
-		cost = 10
+		cost = 3
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.8
+				}
+				}
+				}
 		x = 21
 		y = 0
 	}
@@ -508,6 +541,14 @@
 		prerequisite = {
 			focus = ESS_interregnum
 		}
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.2
+				}
+			}
+		}
 		x = 11
 		y = 7
 
@@ -519,6 +560,14 @@
 		prerequisite = {
 			focus = ESS_interregnum
 		}
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.3
+				}
+			}
+		}
 		x = 13
 		y = 7
 
@@ -529,6 +578,14 @@
 		cost = 10
 		prerequisite = {
 			focus = ESS_interregnum
+		}
+		completion_reward = {
+		    ESS = {
+			    country_event = {
+				    days = 1
+					id = ESS_event.4
+				}
+			}
 		}
 		x = 15
 		y = 7
@@ -599,6 +656,9 @@
 		id = ESS_essexs_turmoil
 		icon = GFX_goal_unknown
 		cost = 10
+		allow_branch = {
+			has_country_flag = ESS_anarchy
+		}
 		prerequisite = {
 			focus = ESS_emergency_dictatorship
 		}
@@ -613,6 +673,9 @@
 		prerequisite = {
 			focus = ESS_emergency_dictatorship
 		}
+		allow_branch = {
+			has_country_flag = ESS_collins
+		}
 		x = 13
 		y = 9
 
@@ -624,6 +687,9 @@
 		prerequisite = {
 			focus = ESS_emergency_dictatorship
 		}
+		allow_branch = {
+			has_country_flag = ESS_land
+		}
 		x = 13
 		y = 9
 
@@ -634,6 +700,9 @@
 		cost = 10
 		prerequisite = {
 			focus = ESS_emergency_dictatorship
+		}
+		allow_branch = {
+			has_country_flag = ESS_dawkins
 		}
 		x = 13
 		y = 9

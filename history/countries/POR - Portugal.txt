@@ -13,27 +13,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = ur_fascism
+	ruling_party = millenarism
 	elections_allowed = no
 }
 
 set_popularities = {
-	ur_fascism  = 100
+	millenarism  = 100
 }
 
 create_country_leader = {
-	name = "Marianno Rajoy"
-	desc = "POLITICS_RAJOY_DESC"
-	picture = "Portrait_POR_Mariano_Rajoy.dds"
-	ideology = charismatic_dictatorship
-	traits = { sucellus_chosen }
-}
-
-
-create_country_leader = {
-	name = "Sebastian of Portugal"
-	desc = "POLITICS_Sebastian_DESC"
-	picture = "Portrait_POR_Sebastian.dds"
-	ideology = autocracy
-	traits = {  }
+	name = "Francisco Bragança van Uden"
+	picture = "Portrait_POR_Francisco_Bragança_van_Uden.dds"
+	ideology = religious_millennialism
+	traits = {
+	}
 }

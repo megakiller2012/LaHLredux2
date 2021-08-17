@@ -20,6 +20,14 @@
 		prerequisite = {
 			focus = KNT_shaky_ground
 		}
+		completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+			}
+			army_experience = 25
+		}
 		x = 27
 		y = 1
 	}
@@ -29,6 +37,14 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_art_of_war
+		}
+		completion_reward = {
+			KNT = {
+				country_event = {
+				days = 1
+				id = KNT_event.2
+				}
+			}
 		}
 		x = 25
 		y = 2
@@ -76,6 +92,23 @@
 		prerequisite = {
 			focus = KNT_shaky_ground
 		}
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+					producer = KNT
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 125
+					producer = KNT
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 225
+					producer = KNT
+				}
+			}
 		x = 20
 		y = 1
 	}
@@ -85,6 +118,7 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_inspect_warehouses
+			
 		}
 		x = 20
 		y = 2
@@ -93,11 +127,14 @@
 		id = KNT_national_service
 		icon = GFX_goal_KNT_national_service
 		cost = 4.3
+		x = 20
+		y = 3
 		prerequisite = {
 			focus = KNT_caravans_of_the_channel_tunnel
 		}
-		x = 20
-		y = 3
+		completion_reward = {
+			add_manpower = 150000
+		}
 	}
 	shared_focus = {
 		id = KNT_home_office
@@ -125,6 +162,9 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_shaky_ground
+		}
+		completion_reward = {
+			add_manpower = 150000
 		}
 		x = 34
 		y = 1
@@ -158,6 +198,14 @@
 		}
 		prerequisite = {
 			focus = KNT_exploit_the_brain_drain
+		}
+		completion_reward = {
+			add_building_construction = {
+			type = bunker
+			level = 3
+			instant_build = yes
+			province = 17509
+			}
 		}
 		x = 34
 		y = 3

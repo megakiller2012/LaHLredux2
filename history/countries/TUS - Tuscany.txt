@@ -1,0 +1,30 @@
+capital = 702
+
+oob = "TUS_2020"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+set_convoys = 50
+
+set_politics = {
+	ruling_party = left_authoritarianism
+	elections_allowed = no
+}
+set_popularities = {
+	left_authoritarianism = 100
+	
+}
+create_country_leader = {
+	name = "Sigismund Von Habsburg-Lothringen"
+	desc = ""
+	picture = "Portrait_TUS_Sigismund_Von_Habsburg-Lothringen.dds"
+	ideology = paternalism
+	traits = {
+	}
+}

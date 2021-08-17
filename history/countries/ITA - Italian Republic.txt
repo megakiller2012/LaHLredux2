@@ -1,4 +1,4 @@
-﻿capital = 702
+﻿capital = 699
 
 oob = "ITA_2020"
 
@@ -13,18 +13,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism  = 100
+	right_populism  = 100
 	
 }
 create_country_leader = {
-	name = "Matteo Renzi"
+	name = "Silvio Berlusconi"
 	desc = ""
-	picture = "Portrait_ITA_Matteo_Renzi.dds"
-	ideology = accelerationism
+	picture = "Portrait_ITA_Silvio_Berlusconi.dds"
+	ideology = christian_democracy
 	traits = {
 		
 	}

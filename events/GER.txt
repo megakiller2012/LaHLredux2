@@ -107,3 +107,82 @@ country_event = {
 		name = GER_event.6.e
     } 	
 }
+
+add_namespace = GER_event
+
+country_event = {
+	id = GER_event.7
+	title = GER_event.7.t
+	desc = GER_event.7.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	immediate = {
+	GER_release_GNR = yes
+	hidden_effect = {
+		    GNR = {
+		        add_state_core = 191
+		        transfer_state = 191
+				add_state_core = 190
+				add_state_core = 189
+				add_state_core = 188
+				add_state_core = 195
+				add_state_core = 194
+				add_state_core = 196
+				add_state_core = 192
+				add_state_core = 193
+				add_state_core = 681
+				add_state_core = 199
+				add_state_core = 198
+				add_state_core = 684
+				add_state_core = 197
+				add_state_core = 200
+				add_state_core = 199
+				add_state_core = 201
+				add_state_core = 202
+				add_state_core = 682
+				add_state_core = 203
+				transfer_state = 682
+				transfer_state = 202
+			}			
+		}
+           }
+	option = {
+		name = GER_event.7.a
+		add_stability = -0.05
+    }	
+	option = {
+	    name = GER_event.7.b
+	    trigger = {
+	        is_ai = no
+	    }
+	    hidden_effect = {
+	        GNR = {
+	            change_tag_from = GER
+	        }
+	    }
+	}
+}
+
+country_event = {
+	id = GER_event.8
+	title = GER_event.8.t
+	desc = GER_event.8.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+	    name = GER_event.8.a
+	    kill_country_leader = yes
+	    create_country_leader = {
+	        name = "Thomas Wüppesahl"
+	        picture = "Portrait_GER_Thomas_Wüppesahl.dds"
+	        expire = "9999.1.1"
+	        ideology = green_autocracy
+	        traits = {
+	        }
+	    }
+	}
+}

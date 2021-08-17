@@ -30,6 +30,18 @@ create_country_leader = {
 	ideology = green_autocracy
 	traits = { }
 }
+create_country_leader = {
+	name = "Norbert Röttgen"
+	picture = "Portrait_GER_Norbert_Röttgen.dds"
+	ideology = christian_democracy
+	traits = { }
+}
+create_country_leader = {
+	name = "Árpád von Nahodyl"
+	picture = "Portrait_GER_Árpád_von_Nahodyl.dds"
+	ideology = charismatic_dictatorship
+	traits = { }
+}
 
 # DIPLOMACY
 if = {
@@ -46,4 +58,42 @@ if = {
 	else = {
 		puppet = EAG
 	}
+
+	set_autonomy = {
+		target = FRA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = FRA
+	}
+
+	set_autonomy = {
+		target = LUX
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = LUX
+	}
+
+	set_autonomy = {
+		target = BEL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = BEL
+	}
+
+	set_autonomy = {
+		target = HOL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = HOL
+	}
 }
+create_faction = european_commonwealth
+add_to_faction = FRA
+add_to_faction = LUX
+add_to_faction = BEL
+add_to_faction = HOL
+add_to_faction = EAG

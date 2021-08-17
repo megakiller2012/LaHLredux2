@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	picture = ".dds"
+	name = "Grand And General Council of San Marino"
+	picture = "Portrait_SAN_Grand_and_General_Council.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism
 	traits = {
