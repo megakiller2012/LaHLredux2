@@ -32,9 +32,9 @@ add_ai_strategy = {
 }
 
 create_country_leader = {
-	name = ""
+	name = "Micheál Martin"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_IRE_Micheál_Martin.dds"
 	ideology = social_conservatism
 	traits = {
 		#

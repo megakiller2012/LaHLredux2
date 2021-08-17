@@ -7,8 +7,9 @@ state={
 	}
 
 	history={
-		owner = IRE
+		owner = ULS
 		add_core_of = IRE
+		add_core_of = ULS
 		victory_points = {
 			5717 2 
 		}
