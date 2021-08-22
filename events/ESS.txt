@@ -430,7 +430,6 @@ country_event = {
 	        name = "K.N.Y.A.Z.H.N.A."
             desc = "POLITICS_KNYAZHNA_DESC"
 	        picture = "GFX_portrait_knyazhna"
-			set_ruling_party = millennialism
 	        expire = "9999.1.1"
 			ideology = ethical_millennialism
 			set_variable = {
