@@ -1,5 +1,76 @@
 ideas = {
 
+	country = {
+
+		ESS_accelerated_army = {
+			
+			picture = GFX_idea_ESS_accelerated_army
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			army_attack_factor = 0.10
+			army_org_factor = -0.10
+			army_morale_factor = 0.10
+			}
+		}
+		
+		ESS_granddad_of_nation = {
+			
+			picture = GFX_idea_ESS_granddad_of_nation
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			air_ace_generation_chance_factor = 0.30
+			training_time_army_factor = -0.20
+			conscription_factor = 0.05
+			}
+		}
+		
+		ESS_militants_supremacy = {
+			
+			picture = GFX_idea_ESS_militants_supremacy
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			COMPLIANCE_GROWTH = 0.20
+			political_power_gain = 0.25
+			}
+		}
+		
+		ESS_social_responsibility = {
+			
+			picture = 
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.10
+			consumer_goods_factor = 0.20
+			}
+		}
+	}
+	
+	
+	
 	head_of_government = {
 		
 		ESS_nick_land = {

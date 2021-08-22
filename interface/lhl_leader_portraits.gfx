@@ -16,4 +16,5 @@ spriteTypes = {
 		name = "GFX_portrait_anna_chapman"
 		texturefile = "gfx/leaders/MSC/portrait_mcs_anna_chapman.dds"
 	}	
+	
 }	

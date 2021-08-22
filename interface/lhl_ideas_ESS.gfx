@@ -35,6 +35,20 @@ spriteTypes = {
 		name = "GFX_trait_military_specialist"
 		texturefile = "gfx/interface/traits/trait_military_specialist.dds"
 	}
+	#Ideas#	
+	spriteType = {
+		name = "GFX_idea_ESS_accelerated_army"
+		texturefile = "gfx/interface/ideas/ESS/idea_ESS_accelerated_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ESS_granddad_of_nation"
+		texturefile = "gfx/interface/ideas/ESS/idea_ESS_granddad_of_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ESS_militants_supremacy"
+		texturefile = "gfx/interface/ideas/ESS/idea_ESS_militants_supremacy.dds"
+	}
+	
 }
 
 
