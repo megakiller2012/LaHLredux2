@@ -437,9 +437,7 @@ country_event = {
 			value = 0
 	        }
 		}
-		ESS = {
-		set_politics={ ruling_party= ethical_millennialism elections_allowed= no}
-		}
+
 		}
 	
 	
