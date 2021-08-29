@@ -125,7 +125,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_daedalus_rising
-	icon = GFX_goal_MRC_daedalus_rising
+	icon = GFX_goal_MRC_Daedalus_Rising
 	prerequisite = {
 		focus = MRC_the_perfume_of_traitors
 	}
@@ -136,7 +136,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_reorganize_the_cadres
-	icon = GFX_goal_MRC_reorganize_the_cadres
+	icon = GFX_goal_MRC_Reorganizing_The_Cadres
 	prerequisite = {
 		focus = MRC_daedalus_rising
 	}
@@ -147,7 +147,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_finish_off_the_republicans
-	icon = GFX_goal_finish_off_the_republicans
+	icon = GFX_goal_MRC_Finish_Off_The_Republicans
 	prerequisite = {
 		focus = MRC_reorganize_the_cadres
 	}
@@ -158,7 +158,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_ministers_and_advisors 
-	icon = GFX_goal_MRC_ministers_and_advisors 
+	icon = GFX_goal_MRC_Ministers_And_Advisers
 	prerequisite = {
 		focus = MRC_reorganize_the_cadres
 	}
@@ -169,7 +169,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_the_secret_service
-	icon = GFX_goal_MRC_the_secret_service
+	icon = GFX_goal_MRC_The_Secret_Service
 	prerequisite = {
 		focus = MRC_ministers_and_advisors
 	}
@@ -183,7 +183,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_all_pigs_must_die
-	icon = GFX_goal_MRC_all_pigs_must_die
+	icon = GFX_goal_MRC_All_Pigs_Must_Die
 	prerequisite = {
 		focus = MRC_the_secret_service
 	}
@@ -200,7 +200,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_governing_apparatus
-	icon = GFX_goal_MRC_governing_apparatus
+	icon = GFX_goal_MRC_A_Governing_Apparatus
 	prerequisite = {
 		focus = MRC_daedalus_rising
 	}
@@ -211,7 +211,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_constitutional_assembly
-	icon = GFX_goal_MRC_constitutional_assembly
+	icon = GFX_goal_MRC_A_Constitutional_Assembly
 	prerequisite = {
 		focus = MRC_governing_apparatus
 	}
@@ -222,7 +222,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_chain_of_command  
-	icon = GFX_goal_MRC_chain_of_command   
+	icon = GFX_goal_MRC_Chain_Of_Command   
 	prerequisite = {
 		focus = MRC_governing_apparatus
 	}
@@ -233,7 +233,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_polictical_activism
-	icon = GFX_goal_MRC_polictical_activism
+	icon = GFX_goal_MRC_Political_Activism
 	prerequisite = {
 		focus = MRC_chain_of_command 
 	}
@@ -247,7 +247,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_the_peoples_leader
-	icon = GFX_goal_MRC_the_peoples_leader
+	icon = GFX_goal_MRC_The_Peoples_Leader
 	prerequisite = {
 		focus = MRC_daedalus_rising
 	}
@@ -258,7 +258,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_freedom_of_expression 
-	icon = GFX_goal_MRC_freedom_of_expression
+	icon = GFX_goal_MRC_Freedom_Of_Expression
 	prerequisite = {
 		focus = MRC_the_peoples_leader
 	}
@@ -269,7 +269,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_workers_state 
-	icon = GFX_goal_MRC_workers_state 
+	icon = GFX_goal_MRC_Workers_State 
 	prerequisite = {
 		focus = MRC_the_peoples_leader
 	}
@@ -280,7 +280,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_the_concert
-	icon = GFX_goal_MRC_the_concert
+	icon = GFX_goal_MRC_The_Concert
 	prerequisite = {
 		focus = MRC_freedom_of_expression
 	}
@@ -294,7 +294,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_luthers_army
-	icon = GFX_goal_MRC_luthers_army 
+	icon = GFX_goal_MRC_Luthers_Army 
 	prerequisite = {
 		focus = MRC_the_perfume_of_traitors
 	}
@@ -305,7 +305,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_strength_in_diversity
-	icon = GFX_goal_MRC_Strength_in_Diversity
+	icon = GFX_goal_MRC_Strength_In_Diversity
 	prerequisite = {
 		focus = MRC_luthers_army
 	}
@@ -1080,7 +1080,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_a_systemic_approach
-	icon = GFX_goal_MRC_A_Systemic_Approach
+	icon = GFX_goal_MRC_A_Systematic_Approach
 	prerequisite = {
 		focus = MRC_the_pagan_revolution
 	}
@@ -1091,7 +1091,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_unleash_the_mass_media
-	icon = GFX_goal_MRC_Unleash_The_Mass_Media
+	icon = GFX_goal_MRC_The_Mass_Media
 	prerequisite = {
 		focus = MRC_the_pagan_revolution
 	}
@@ -1116,7 +1116,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_full_scale_militarization
-	icon = GFX_goal_MRC_Full_Scale_Militarization
+	icon = GFX_goal_MRC_Full_Scale_Mobilization
 	prerequisite = {
 		focus = MRC_runes_and_men
 	}
