@@ -59,4 +59,12 @@ spriteTypes = {
 		name = "GFX_goal_KNT_walled_cities"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_walled_cities.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_we_shall_never_surrender"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_we_shall_never_surrender.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_status_of_guilds"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_status_of_guilds.dds"
+	}
 }
