@@ -67,4 +67,44 @@ spriteTypes = {
 		name = "GFX_goal_KNT_status_of_guilds"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_status_of_guilds.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_rational_egoism"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_rational_egoism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_titanic_ii"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_titanic_ii.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_no_more_wires"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_no_more_wires.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_iter_project"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_iter_project.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_greener_energy"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_greener_energy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_modern_prometheus"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_modern_prometheus.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_limit"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_limit.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_new_era_of_railways"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_new_era_of_railways.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_law"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_law.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_workshop_of_the_world"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_workshop_of_the_world.dds"
+	}
 }
