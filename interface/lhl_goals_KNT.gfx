@@ -107,4 +107,20 @@ spriteTypes = {
 		name = "GFX_goal_KNT_the_workshop_of_the_world"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_workshop_of_the_world.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_friendly_society"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_friendly_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_colt's_legacy"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_colt's_legacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_it_just_works"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_it_just_works.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_reward_the_geniuses"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_reward_the_geniuses.dds"
+	}
 }
