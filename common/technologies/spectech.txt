@@ -1,6 +1,6 @@
 technologies = {
 
-	spectech = {
+	spectech_1 = {
 	
 		start_year = 2025
 
