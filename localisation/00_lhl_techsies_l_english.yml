@@ -249,3 +249,7 @@
  elastic_defence:0 "Air Defence Integration"
  mobile_infantry:0 "Airborne Operation"
  mass_motorization:0 "Field Adaptation"
+ 
+ ##Spectech##
+ airgun_equipment:0 "Airgun Howitzer"
+ airgun_equipment_desc:0 "Airgun Howitzers are artillery pieces that use compressed air to launch explosives. Using of the compressed air makes production of such howitzers way more cheaper because of not requiring refractory materials such as tungsten" 
