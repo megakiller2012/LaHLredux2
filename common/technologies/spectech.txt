@@ -1,53 +1,26 @@
 technologies = {
-	
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
 
-	tech_uav = {
-		land_reinforce_rate = 0.05
-		
+	spectech = {
+	
+		start_year = 2025
+
 		path = {
 			research_cost_coeff = 1
 		}
 		
-		enable_equipments = {
-			uav_equipment_1
-		}		
-		research_cost = 1.75
+		research_cost = 1.5
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 15 y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 3
-			
-			modifier = {
-				factor = 6
-				has_war = yes
-			}
-			modifier = {
-				is_major = yes
-				factor = 2
-			}
-			modifier = {
-				factor = 5
-				date > "1939.8.1"
-			}
+			position = { x = 1 y = 1 }
 		}
 		
 		categories = {
-			electronics
+			artillery
 		}
-	}	
+		
+		ai_will_do = {
+			factor = 2
+		}	
+    }
 }

@@ -136,7 +136,7 @@ technology_folders = {
 	}
 	spectech_folder = {
 		ledger = army
-	}
+	}	
 	#secret_weapons_folder
 }
 

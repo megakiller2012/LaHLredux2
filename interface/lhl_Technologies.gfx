@@ -426,9 +426,17 @@ spriteTypes = {
 		name = "GFX_NTH_advanced_infantry_fighting_vehicle_medium"
 		texturefile = "gfx/interface/technologies/ESS_advanced_infantry_fighting_vehicle.dds"
 	}	
-	
 	spriteType = {
         name = "GFX_outdated_tank_upgrade_small"
         textureFile = "gfx/interface/technologies/tank_upgrade.dds"
-    }  
+    } 
+	spriteType = {
+        name = "GFX_outdated_tank_upgrade_small"
+        textureFile = "gfx/interface/technologies/tank_upgrade.dds"
+    } 
+	spriteType = {
+		name = "GFX_spectech_small"
+		texturefile = "gfx/interface/technologies/rocket_artillery3.dds"
+		alwaystransparent = yes
+	}
 }
