@@ -49,5 +49,30 @@ technologies = {
 		categories = {
 			electronics
 		}
+	}
+		airgun = {
+			start_year = 1980
+		
+			enable_equipments = {
+			airgun
+			}
+		
+			research_cost = 0.5
+		
+			folder = {
+			name = spectech_folder	
+			position = { x = 0 y = 0 }
+			}
+		
+			categories = {
+			artillery
+			}
+		
+			ai_will_do = {
+			factor = 2
+		}
 	}	
 }
+
+		
+
