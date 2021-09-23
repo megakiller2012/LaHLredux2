@@ -28,7 +28,7 @@ technologies = {
 		enable_equipments = {
 			airgun_equipment
 		}
-		start_year = 2025
+		start_year = 2020
 
 		path = {
 			research_cost_coeff = 1
@@ -39,6 +39,32 @@ technologies = {
 		folder = {
 			name = spectech_folder
 			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
+	railgun = {
+
+		enable_equipments = {
+			railgun_equipment
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 2 }
 		}
 		
 		categories = {
