@@ -3,7 +3,7 @@ shared_focus = {
 	id = NTH_according_to_plan
 	icon = GFX_goal_NTH_According_To_Plan
 	cost = 10
-	x = 18
+	x = 26
 	y = 0
 }
 
@@ -14,7 +14,7 @@ shared_focus = {
 		focus = NTH_according_to_plan
 	}	
 	cost = 10
-	x = 15
+	x = 23
 	y = 1
 }
 
@@ -25,7 +25,7 @@ shared_focus = {
 		focus = NTH_peoples_promise
 	}	
 	cost = 10
-	x = 13
+	x = 21
 	y = 2
 }
 
@@ -36,7 +36,7 @@ shared_focus = {
 		focus = NTH_peoples_promise
 	}	
 	cost = 10
-	x = 15
+	x = 23
 	y = 2
 }
 
@@ -47,7 +47,7 @@ shared_focus = {
 		focus = NTH_peoples_promise
 	}	
 	cost = 10
-	x = 17
+	x = 25
 	y = 2
 }
 
@@ -64,7 +64,7 @@ shared_focus = {
 		focus = NTH_the_most_democratic_constitution
 	}
 	cost = 10
-	x = 15
+	x = 23
 	y = 3
 }
 
@@ -75,7 +75,7 @@ shared_focus = {
 		focus = NTH_according_to_plan
 	}	
 	cost = 10
-	x = 21
+	x = 29
 	y = 1
 }
 
@@ -86,7 +86,7 @@ shared_focus = {
 		focus = NTH_the_reconstruction
 	}	
 	cost = 10
-	x = 19
+	x = 27
 	y = 2
 }
 
@@ -97,7 +97,7 @@ shared_focus = {
 		focus = NTH_the_reconstruction
 	}	
 	cost = 10
-	x = 21
+	x = 29
 	y = 2
 }
 
@@ -108,7 +108,7 @@ shared_focus = {
 		focus = NTH_the_reconstruction
 	}	
 	cost = 10
-	x = 23
+	x = 31
 	y = 2
 }
 
@@ -125,7 +125,7 @@ shared_focus = {
 		focus = NTH_reindustrialization
 	}
 	cost = 10
-	x = 21
+	x = 29
 	y = 3
 }
 
@@ -139,7 +139,7 @@ shared_focus = {
 		focus = NTH_heroes_of_the_state
 	}
 	cost = 10
-	x = 18
+	x = 26
 	y = 4
 }
 
@@ -150,7 +150,7 @@ shared_focus = {
 		focus = NTH_now_we_move_forward
 	}	
 	cost = 10
-	x = 18
+	x = 26
 	y = 5
 }
 
@@ -161,7 +161,7 @@ shared_focus = {
 		focus = NTH_forging_the_isles
 	}	
 	cost = 10
-	x = 18
+	x = 26
 	y = 6
 }
 
@@ -172,7 +172,7 @@ shared_focus = {
 		focus = NTH_the_issue_of_culture
 	}	
 	cost = 10
-	x = 17
+	x = 25
 	y = 7
 }
 
@@ -183,7 +183,7 @@ shared_focus = {
 		focus = NTH_the_issue_of_culture
 	}	
 	cost = 10
-	x = 19
+	x = 27
 	y = 7
 }
 
@@ -194,7 +194,7 @@ shared_focus = {
 		focus = NTH_national_symbols
 	}	
 	cost = 10
-	x = 17
+	x = 25
 	y = 8
 }
 
@@ -205,7 +205,7 @@ shared_focus = {
 		focus = NTH_morality_matters
 	}	
 	cost = 10
-	x = 19
+	x = 27
 	y = 8
 }
 
@@ -219,7 +219,7 @@ shared_focus = {
 		focus = NTH_positive_securalism
 	}		
 	cost = 10
-	x = 18
+	x = 26
 	y = 9
 }
 
@@ -230,7 +230,7 @@ shared_focus = {
 		focus = NTH_forging_the_isles
 	}	
 	cost = 10
-	x = 14
+	x = 22
 	y = 6
 }
 
@@ -241,7 +241,7 @@ shared_focus = {
 		focus = NTH_the_issue_of_state
 	}	
 	cost = 10
-	x = 13
+	x = 21
 	y = 7
 }
 
@@ -252,7 +252,7 @@ shared_focus = {
 		focus = NTH_the_issue_of_state
 	}	
 	cost = 10
-	x = 15
+	x = 23
 	y = 7
 }
 
@@ -263,7 +263,7 @@ shared_focus = {
 		focus = NTH_druzhina
 	}	
 	cost = 10
-	x = 13
+	x = 21
 	y = 8
 }
 
@@ -274,7 +274,7 @@ shared_focus = {
 		focus = NTH_liqiliteration
 	}	
 	cost = 10
-	x = 15
+	x = 23
 	y = 8
 }
 
@@ -288,7 +288,7 @@ shared_focus = {
 		focus = NTH_political_reforms
 	}		
 	cost = 10
-	x = 14
+	x = 22
 	y = 9
 }
 
@@ -299,7 +299,7 @@ shared_focus = {
 		focus = NTH_forging_the_isles
 	}	
 	cost = 10
-	x = 22
+	x = 30
 	y = 6
 }
 
@@ -310,7 +310,7 @@ shared_focus = {
 		focus = NTH_the_issue_of_language
 	}	
 	cost = 10
-	x = 21
+	x = 29
 	y = 7
 }
 
@@ -321,7 +321,7 @@ shared_focus = {
 		focus = NTH_the_issue_of_language
 	}	
 	cost = 10
-	x = 23
+	x = 31
 	y = 7
 }
 
@@ -332,7 +332,7 @@ shared_focus = {
 		focus = NTH_play_on_words
 	}	
 	cost = 10
-	x = 21
+	x = 29
 	y = 8
 }
 
@@ -343,7 +343,7 @@ shared_focus = {
 		focus = NTH_forge_the_slang
 	}	
 	cost = 10
-	x = 23
+	x = 31
 	y = 8
 }
 
@@ -357,7 +357,7 @@ shared_focus = {
 		focus = NTH_command_tongue
 	}		
 	cost = 10
-	x = 22
+	x = 30
 	y = 9
 }
 
@@ -374,6 +374,48 @@ shared_focus = {
 		focus = NTH_solidify_the_reforms
 	}		
 	cost = 10
-	x = 18
+	x = 26
 	y = 10
 }
+
+shared_focus = {
+	id = NTH_the_glorious_republican_army
+	icon = GFX_goal_NTH_The_Glorious_Republican_Army
+	cost = 10
+	x = 11
+	y = 0
+}
+
+shared_focus = {
+	id = NTH_doctrine_of_the_new_millennium
+	icon = GFX_goal_NTH_Doctrine_Of_The_New_Millennium
+	prerequisite = {
+		focus = NTH_the_glorious_republican_army
+	}
+	cost = 10
+	x = 11
+	y = 1
+}
+
+shared_focus = {
+	id = NTH_airland_battle
+	icon = GFX_goal_NTH_Airland_Battle
+	prerequisite = {
+		focus = NTH_doctrine_of_the_new_millennium
+	}
+	cost = 10
+	x = 10
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_combined_doctrine
+	icon = GFX_goal_NTH_Combined_Doctrine
+	prerequisite = {
+		focus = NTH_doctrine_of_the_new_millennium
+	}
+	cost = 10
+	x = 12
+	y = 2
+}
+
