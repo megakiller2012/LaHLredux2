@@ -1,0 +1,35 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_NTH_All_Hands_On_Deck"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_All_Hands_On_Deck.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_NTH_Civilian_Acquisition"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_Civilian_Acquisition.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_NTH_War_Of_The_Technicals"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_War_Of_The_Technicals.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_NTH_Volunteer_Brigades"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_Volunteer_Brigades.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_NTH_Tactical_Shift"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_Tactical_Shift.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_NTH_Mass_Conscription"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_Mass_Conscription.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_NTH_The_Golden_Guard"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_The_Golden_Guard.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_NTH_Revolutionary_Frevour"
+		texturefile = "gfx/interface/goals/NTH/goal_NTH_Revolutionary_Frevour.dds"
+	}
+
+}

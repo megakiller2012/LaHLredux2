@@ -419,3 +419,192 @@ shared_focus = {
 	y = 2
 }
 
+shared_focus = {
+	id = NTH_helicopter_support
+	icon = GFX_goal_NTH_Helicopter_Support
+	prerequisite = {
+		focus = NTH_airland_battle
+	}
+	cost = 10
+	x = 9
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_special_forces_operations
+	icon = GFX_goal_NTH_Special_Forces_Operations
+	prerequisite = {
+		focus = NTH_airland_battle
+	}
+	prerequisite = {
+		focus = NTH_combined_doctrine
+	}
+	cost = 10
+	x = 11
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_recon_troops
+	icon = GFX_goal_NTH_Recon_Troops
+	prerequisite = {
+		focus = NTH_combined_doctrine
+	}
+	cost = 10
+	x = 13
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_prototype_effort
+	icon = GFX_goal_NTH_Prototype_Effort
+	prerequisite = {
+		focus = NTH_helicopter_support
+	}
+	prerequisite = {
+		focus = NTH_special_forces_operations
+	}
+	cost = 10
+	x = 10
+	y = 4
+}
+
+shared_focus = {
+	id = NTH_the_abundant_arsenal
+	icon = GFX_goal_NTH_The_Abundant_Arsenal
+	prerequisite = {
+		focus = NTH_special_forces_operations
+	}
+	prerequisite = {
+		focus = NTH_recon_troops
+	}
+	cost = 10
+	x = 12
+	y = 4
+}
+
+shared_focus = {
+	id = NTH_eurasian_hackers
+	icon = GFX_goal_NTH_Eurasian_Hackers
+	prerequisite = {
+		focus = NTH_prototype_effort
+	}
+	prerequisite = {
+		focus = NTH_the_abundant_arsenal
+	}
+	cost = 10
+	x = 11
+	y = 5
+}
+
+shared_focus = {
+	id = NTH_all_hands_on_deck
+	icon = GFX_goal_NTH_All_Hands_On_Deck
+	prerequisite = {
+		focus = NTH_the_glorious_republican_army
+	}
+	cost = 10
+	x = 17
+	y = 1
+}
+
+shared_focus = {
+	id = NTH_civilian_acquisition
+	icon = GFX_goal_NTH_Civilian_Acquisition
+	prerequisite = {
+		focus = NTH_all_hands_on_deck
+	}
+	cost = 10
+	x = 16
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_the_ura_charge
+	icon = GFX_goal_NTH_The_Ura_Charge
+	prerequisite = {
+		focus = NTH_all_hands_on_deck
+	}
+	cost = 10
+	x = 18
+	y = 2
+}
+
+shared_focus = {
+	id = NTH_war_of_the_technicals
+	icon = GFX_goal_NTH_War_Of_The_Technicals
+	prerequisite = {
+		focus = NTH_civilian_acquisition
+	}
+	cost = 10
+	x = 15
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_volunteer_brigades
+	icon = GFX_goal_NTH_Volunteer_Brigades
+	prerequisite = {
+		focus = NTH_civilian_acquisition
+	}
+	prerequisite = {
+		focus = NTH_the_ura_charge
+	}
+	cost = 10
+	x = 17
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_tactical_shift
+	icon = GFX_goal_NTH_Tactical_Shift
+	prerequisite = {
+		focus = NTH_the_ura_charge
+	}
+	cost = 10
+	x = 19
+	y = 3
+}
+
+shared_focus = {
+	id = NTH_mass_conscription
+	icon = GFX_goal_NTH_Mass_Conscription
+	prerequisite = {
+		focus = NTH_war_of_the_technicals
+	}
+	prerequisite = {
+		focus = NTH_volunteer_brigades
+	}
+	cost = 10
+	x = 16
+	y = 4
+}
+
+shared_focus = {
+	id = NTH_the_golden_guard
+	icon = GFX_goal_NTH_The_Golden_Guard
+	prerequisite = {
+		focus = NTH_volunteer_brigades
+	}
+	prerequisite = {
+		focus = NTH_tactical_shift
+	}
+	cost = 10
+	x = 18
+	y = 4
+}
+
+shared_focus = {
+	id = NTH_revolutionary_frevour
+	icon = GFX_goal_NTH_Revolutionary_Frevour
+	prerequisite = {
+		focus = NTH_mass_conscription
+	}
+	prerequisite = {
+		focus = NTH_the_golden_guard
+	}
+	cost = 10
+	x = 17
+	y = 5
+}
+
