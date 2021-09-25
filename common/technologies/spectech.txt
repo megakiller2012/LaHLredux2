@@ -101,4 +101,30 @@ technologies = {
 			factor = 2
 		}
     }
+	transport_airship = {
+
+		enable_equipments = {
+			transport_airship_equipment
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			air_transport
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
 }

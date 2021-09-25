@@ -73,7 +73,7 @@ equipments = {
 		}
 	}
 	landing_tank_equipment = {
-		year = 1934
+		year = 2020
 	
 		is_archetype = yes
 		is_buildable = no
@@ -118,4 +118,37 @@ equipments = {
 
 		fuel_consumption = 3
 	}
+	transport_airship_equipment = {
+        year = 2020
+
+        is_archetype = yes
+        is_convertable = yes
+        picture = archetype_strat_bomber_equipment
+        type = air_transport
+        group_by = archetype
+        sprite = medium_plane
+        air_map_icon_frame = 12
+
+
+        interface_category = interface_category_air
+
+        # Transport
+        interface_overview_category_index = 6
+
+        air_superiority = 2
+        reliability = 0.7
+
+        # Air vs Navy - high damage / low hit chance / hard to hurt
+        naval_strike_attack = 0.1
+        naval_strike_targetting = 0.1
+
+        build_cost_ic = 150
+        resources = {
+            aluminium = 1
+            rubber = 2
+        }
+
+        manpower = 80
+        fuel_consumption = 0
+    }
 }
