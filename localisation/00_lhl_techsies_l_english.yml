@@ -255,3 +255,5 @@
  airgun_equipment_desc:0 "Airgun Howitzers are artillery pieces that use compressed air to launch explosives. Using of the compressed air makes production of such howitzers way more cheaper because of not requiring refractory materials such as tungsten" 
  railgun_equipment:0 "Railgun"
  railgun_equipment_desc:0 "Railguns are artillery pieces that use the Lorentz force for acceleration of projectiles. Most of the damage that this weapon impacts comes not from the explosiveness of projectiles but their high velocity"
+ landing_tank_equipment:0 "AMAV-Powell"
+ landing_tank_equipment_desc:0 "AMAV-Powell is a high speed light tank that can be used in airborne operations. It is desinged to be landed by parachute with a crew and manoouver behind enemy's backs" 

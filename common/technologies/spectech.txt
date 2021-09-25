@@ -75,4 +75,30 @@ technologies = {
 			factor = 2
 		}
     }
+	landing_tank = {
+
+		enable_equipments = {
+			landing_tank_equipment
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
 }
