@@ -131,4 +131,108 @@ spriteTypes = {
 		name = "GFX_goal_EAG_mutualism"
 		texturefile = "gfx/interface/goals/EAG/goal_EAG_mutualism.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_EAG_alliance_ireland"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_alliance_ireland.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_Anarchist_Diplomacy"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_Anarchist_Diplomacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_crack_vaults"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_crack_vaults.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_cultural_colonialism"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_cultural_colonialism.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_draft_constitution"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_draft_constitution.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_establish_government"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_establish_government.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_except_invaders"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_except_invaders.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_fate_monarchy"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_fate_monarchy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_free_people"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_free_people.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_freedom_all"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_freedom_all.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_invite_advisers"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_invite_advisers.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_let_go"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_let_go.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_local_militias"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_local_militias.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_many_faces"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_many_faces.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_matters_economics"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_matters_economics.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_no_exceptions"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_no_exceptions.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_only_one"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_only_one.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_pacify_english"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_pacify_english.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_pillage_lowlands"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_pillage_lowlands.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_reach_world"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_reach_world.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_reject_past"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_reject_past.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_republican_intrests"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_republican_intrests.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_sense_legitemacy"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_sense_legitemacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_total_liberation"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_total_liberation.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_united_army"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_united_army.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EAG_workshops_england"
+		texturefile = "gfx/interface/goals/EAG/goal_EAG_workshops_england.tga"
+	}
 }

@@ -383,4 +383,36 @@ spriteTypes = {
 		name = "GFX_goal_MRC_Theocratic_Preparations"
 		texturefile = "gfx/interface/goals/MRC/goal_MRC_Theocratic_Preparations.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Code_Of_Conduct"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Code_Of_Conduct.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Eliminate_Opposition"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Eliminate_Opposition.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Falling_Into_Darkness"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Falling_Into_Darkness.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Magick_Research_Division"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Magick_Research_Division.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_New_Pantheon"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_New_Pantheon.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_New_Scripture"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_New_Scripture.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Thrash_The_Pretenders"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Thrash_The_Pretenders.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_New_Church"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_New_Church.dds"
+	}
 }

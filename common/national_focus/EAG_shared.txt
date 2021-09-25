@@ -194,7 +194,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_workshops_england
-	icon = GFX
+	icon = GFX_goal_EAG_workshops_england
 	prerequisite = {
 		focus = EAG_the_anarchists
 	}
@@ -205,7 +205,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_establish_government
-	icon = GFX
+	icon = GFX_goal_EAG_establish_government
 	prerequisite = {
 		focus = EAG_the_governor
 		focus = EAG_the_anarchists
@@ -217,7 +217,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_sense_legitemacy
-	icon = GFX
+	icon = GFX_goal_EAG_sense_legitemacy
 	prerequisite = {
 		focus = EAG_the_governor
 		focus = EAG_the_mercenary
@@ -229,7 +229,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_invite_advisers
-	icon = GFX
+	icon = GFX_goal_EAG_invite_advisers
 	prerequisite = {
 		focus = EAG_the_mercenary
 	}
@@ -240,7 +240,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_matters_economics
-	icon = GFX
+	icon = GFX_goal_EAG_matters_economics
 	prerequisite = {
 		focus = EAG_workshops_england
 		focus = EAG_establish_government
@@ -252,7 +252,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_pacify_english
-	icon = GFX
+	icon = GFX_goal_EAG_pacify_english
 	prerequisite = {
 		focus = EAG_establish_government
 		focus = EAG_sense_legitemacy
@@ -264,7 +264,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_draft_constitution
-	icon = GFX
+	icon = GFX_goal_EAG_draft_constitution
 	prerequisite = {
 		focus = EAG_invite_advisers
 		focus = EAG_sense_legitemacy
@@ -287,7 +287,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_pillage_lowlands
-	icon = GFX
+	icon = GFX_goal_EAG_pillage_lowlands
 	prerequisite = {
 		focus = EAG_matters_economics
 	}
@@ -301,7 +301,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_fate_monarchy
-	icon = GFX
+	icon = GFX_goal_EAG_fate_monarchy
 	prerequisite = {
 		focus = EAG_pacify_english
 	}
@@ -315,7 +315,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_crack_vaults
-	icon = GFX
+	icon = GFX_goal_EAG_crack_vaults
 	prerequisite = {
 		focus = EAG_draft_constitution
 	}
@@ -340,7 +340,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_republican_intrests
-	icon = GFX
+	icon = GFX_goal_EAG_republican_intrests
 	prerequisite = {
 		focus = EAG_pillage_lowlands
 	}
@@ -385,7 +385,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_only_one
-	icon = GFX
+	icon = GFX_goal_EAG_only_one
 	prerequisite = {
 		focus = EAG_technical_difficulties
 	}
@@ -417,7 +417,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_local_militias
-	icon = GFX
+	icon = GFX_goal_EAG_local_militias
 	prerequisite = {
 		focus = EAG_merry_men_britian
 	}
@@ -1254,7 +1254,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_freedom_all
-	icon = GFX
+	icon = GFX_goal_EAG_freedom_all
 	prerequisite = {
 		focus = EAG_anarchists_prevail
 	}
@@ -1265,7 +1265,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_except_invaders
-	icon = GFX
+	icon = GFX_goal_EAG_except_invaders
 	prerequisite = {
 		focus = EAG_freedom_all
 	}
@@ -1279,7 +1279,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_no_exceptions
-	icon = GFX
+	icon = GFX_goal_EAG_no_exceptions
 	prerequisite = {
 		focus = EAG_freedom_all
 	}
@@ -1293,7 +1293,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_cultural_colonialism
-	icon = GFX
+	icon = GFX_goal_EAG_cultural_colonialism
 	prerequisite = {
 		focus = EAG_except_invaders
 		focus = EAG_no_exceptions
@@ -1305,7 +1305,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_let_go
-	icon = GFX
+	icon = GFX_goal_EAG_let_go
 	prerequisite = {
 		focus = EAG_anarchists_prevail
 	}
@@ -1316,7 +1316,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_united_army
-	icon = GFX
+	icon = GFX_goal_EAG_united_army
 	prerequisite = {
 		focus = EAG_let_go
 	}
@@ -1344,7 +1344,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_alliance_ireland
-	icon = GFX
+	icon = GFX_goal_EAG_alliance_ireland
 	prerequisite = {
 		focus = EAG_united_army
 		focus = EAG_local_force
@@ -1356,7 +1356,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_many_faces
-	icon = GFX
+	icon = GFX_goal_EAG_many_faces
 	prerequisite = {
 		focus = EAG_cultural_colonialism
 	}
@@ -1485,7 +1485,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_reach_world
-	icon = GFX
+	icon = GFX_goal_EAG_reach_world
 	prerequisite = {
 		focus = EAG_neofolk_revolution
 	}
@@ -1499,7 +1499,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_anarchist_diplomacy
-	icon = GFX
+	icon = GFX_goal_EAG_Anarchist_Diplomacy
 	prerequisite = {
 		focus = EAG_reach_world
 	}
@@ -1510,7 +1510,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_reject_past
-	icon = GFX
+	icon = GFX_goal_EAG_reject_past
 	prerequisite = {
 		focus = EAG_meritocratic_system
 	}
@@ -1524,7 +1524,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_total_liberation
-	icon = GFX
+	icon = GFX_goal_EAG_total_liberation
 	prerequisite = {
 		focus = EAG_reject_past
 	}
@@ -1535,7 +1535,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EAG_free_people
-	icon = GFX
+	icon = GFX_goal_EAG_free_people
 	prerequisite = {
 		focus = EAG_anarchist_diplomacy
 	}
