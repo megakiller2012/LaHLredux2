@@ -335,4 +335,92 @@ spriteTypes = {
 		name = "GFX_goal_WES_Perish_The_Thought"
 		texturefile = "gfx/interface/goals/WES/goal_WES_Perish_The_Thought.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_WES_anglican_tradition"
+		texturefile = "gfx/interface/goals/WES/goal_WES_anglican_tradition.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_anglo_russian_state"
+		texturefile = "gfx/interface/goals/WES/goal_WES_anglo_russian_state.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_convert_populace"
+		texturefile = "gfx/interface/goals/WES/goal_WES_convert_populace.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_curious_proposal"
+		texturefile = "gfx/interface/goals/WES/goal_WES_curious_proposal.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_define_dogmas"
+		texturefile = "gfx/interface/goals/WES/goal_WES_define_dogmas.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_down_old"
+		texturefile = "gfx/interface/goals/WES/goal_WES_down_old.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_easy_path"
+		texturefile = "gfx/interface/goals/WES/goal_WES_easy_path.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_education_programmes"
+		texturefile = "gfx/interface/goals/WES/goal_WES_education_programmes.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_establish_supplies"
+		texturefile = "gfx/interface/goals/WES/goal_WES_establish_supplies.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_eurasian_connections"
+		texturefile = "gfx/interface/goals/WES/goal_WES_eurasian_connections.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_hard_way"
+		texturefile = "gfx/interface/goals/WES/goal_WES_hard_way.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_head_church"
+		texturefile = "gfx/interface/goals/WES/goal_WES_head_church.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_keepers_athos"
+		texturefile = "gfx/interface/goals/WES/goal_WES_keepers_athos.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_military_expertise"
+		texturefile = "gfx/interface/goals/WES/goal_WES_military_expertise.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_orders_chilvarly"
+		texturefile = "gfx/interface/goals/WES/goal_WES_orders_chilvarly.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_orthodox_diplomacy"
+		texturefile = "gfx/interface/goals/WES/goal_WES_orthodox_diplomacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_orthodox_spectre"
+		texturefile = "gfx/interface/goals/WES/goal_WES_orthodox_spectre.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_patriarch_england"
+		texturefile = "gfx/interface/goals/WES/goal_WES_patriarch_england.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_plead_help"
+		texturefile = "gfx/interface/goals/WES/goal_WES_plead_help.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_secret_orthodox"
+		texturefile = "gfx/interface/goals/WES/goal_WES_secret_orthodox.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_under_unity"
+		texturefile = "gfx/interface/goals/WES/goal_WES_under_unity.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_WES_world_knows"
+		texturefile = "gfx/interface/goals/WES/goal_WES_world_knows.dds"
+	}
 }

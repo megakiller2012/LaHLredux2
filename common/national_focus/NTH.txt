@@ -3,6 +3,7 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
     shared_focus = NTH_according_to_plan
+    shared_focus = NTH_the_glorious_republican_army
 	country = {
 		factor = 0
 		modifier = {
@@ -11,4 +12,6 @@ focus_tree = {
 		}
 	}
 }
+
+
 
