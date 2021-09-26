@@ -1,0 +1,70 @@
+sub_units = {
+
+	nbcb_brigade = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 301
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			armor
+			anti_air
+		}
+		
+		group = armor
+		
+		categories = {
+			category_all_armor
+			category_army
+		}
+
+		combat_width = 1
+
+		need = {
+			support_equipment = 12
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.2
+		max_strength = 0.7
+		training_time = 200
+		weight = 0.5
+		supply_consumption = 0.1
+
+		#Tanks are awesome
+		soft_attack = 0.8
+
+		suppression = 4
+
+		forest = {
+		    attack = -0.2
+			movement = -0.3
+		}
+		hills = 	{
+		    attack = -0.4
+		}
+		mountain = 	{
+		    attack = -0.2
+		}
+		jungle = {
+		    attack = -0.2
+			movement = -0.3
+		}
+		marsh = {
+		    attack = -0.5
+			movement = -0.5
+		}
+		urban = {
+			attack = -0.6
+			defence = -0.2
+		}
+		river = { 
+			attack = -0.6
+			movement = -0.3
+		}
+		amphibious = { 
+			attack = -0.8
+		}
+	}
+}
