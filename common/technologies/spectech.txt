@@ -127,4 +127,30 @@ technologies = {
 			factor = 2
 		}
     }
+	evangelion = {
+
+		enable_equipments = {
+			evangelion_equipment
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 5 }
+		}
+		
+		categories = {
+			air_transport
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
 }

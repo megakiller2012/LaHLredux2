@@ -259,3 +259,6 @@
  landing_tank_equipment_desc:0 "AMAV-Powell is a high speed light tank that can be used in airborne operations. It is desinged to be landed by parachute with a crew and manoouver behind enemy's backs" 
  transport_airship_equipment:0 "Armored Transport Airship"
  transport_airship_equipment_desc:0 "Armored Airships are used for transport of large ammount of troops during airborne operations. They have higher capacity than regular transport aircraft"
+ evangelion_equipment:0 "Gullivers"
+ evangelion_equipment_desc:0 "Gullivers are robotic war machines developed by the engineers afiliated with tories construction bureaus. Gullivers are almost exclusively used in place, and sometimes alongside of, the practically obsolete main battle tanks"
+ 
