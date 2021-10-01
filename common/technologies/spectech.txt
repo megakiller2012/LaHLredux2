@@ -26,7 +26,7 @@ technologies = {
 	airgun = {
 
 		enable_equipments = {
-			airgun_equipment
+			airgun_equipment_1
 		}
 		start_year = 2020
 
