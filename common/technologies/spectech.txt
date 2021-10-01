@@ -146,7 +146,7 @@ technologies = {
 		}
 		
 		categories = {
-			air_transport
+			armor
 		}
 		
 		ai_will_do = {
@@ -173,6 +173,32 @@ technologies = {
 		
 		categories = {
 			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
+	unmanned_tank = {
+
+		enable_equipments = {
+			unmanned_tank_equipment_1
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 2 y = 9 }
+		}
+		
+		categories = {
+			armor
 		}
 		
 		ai_will_do = {
