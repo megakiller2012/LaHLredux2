@@ -40,7 +40,6 @@ equipments = {
 		year = 2021
 		archetype = airgun_equipment
 		is_buildable = yes
-		active = yes
 		priority = 40
 		visual_level = 0
 	}
@@ -82,6 +81,13 @@ equipments = {
 			steel = 2
 			tungsten = 1
 		}
+	}
+	railgun_equipment_1 = {
+		year = 2021
+		archetype = railgun_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
 	}
 	
 	
@@ -131,6 +137,14 @@ equipments = {
 
 		fuel_consumption = 3
 	}
+	landing_tank_equipment_1 = {
+		year = 2021
+		archetype = landing_tank_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
+	}
+	
 	transport_airship_equipment = {
         year = 2020
 
@@ -164,6 +178,13 @@ equipments = {
         manpower = 80
         fuel_consumption = 0
     }
+	transport_airship_equipment_1 = {
+		year = 2021
+		archetype = transport_airship_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
+	}
 	evangelion_equipment = {
 		year = 2020
 
@@ -209,5 +230,12 @@ equipments = {
 		}
 		
 		fuel_consumption = 10
+	}
+	evangelion_equipment_1 = {
+		year = 2021
+		archetype = evangelion_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
 	}
 }

@@ -52,7 +52,7 @@ technologies = {
 	railgun = {
 
 		enable_equipments = {
-			railgun_equipment
+			railgun_equipment_1
 		}
 		start_year = 2020
 
@@ -78,7 +78,7 @@ technologies = {
 	landing_tank = {
 
 		enable_equipments = {
-			landing_tank_equipment
+			landing_tank_equipment_1
 		}
 		start_year = 2020
 
@@ -104,7 +104,7 @@ technologies = {
 	transport_airship = {
 
 		enable_equipments = {
-			transport_airship_equipment
+			transport_airship_equipment_1
 		}
 		start_year = 2020
 
@@ -130,7 +130,7 @@ technologies = {
 	evangelion = {
 
 		enable_equipments = {
-			evangelion_equipment
+			evangelion_equipment_1
 		}
 		start_year = 2020
 
