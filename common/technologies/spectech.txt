@@ -194,11 +194,63 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 2 y = 9 }
+			position = { x = 4 y = 6 }
 		}
 		
 		categories = {
 			armor
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
+	power_armor_weapon = {
+
+		enable_equipments = {
+			power_armor_weapon_equipment_1
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
+	exosuit_brigade = {
+
+		enable_subunits = {
+			exosuit_brigade
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		categories = {
+			engineers_tech
 		}
 		
 		ai_will_do = {

@@ -250,7 +250,19 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "unmanned_tank_tree"
-				position = { x = 120 y = 345 }
+				position = { x = 100 y = 365 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "power_armor_weapon_tree"
+				position = { x = 80 y = 365 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "exosuit_brigade_tree"
+				position = { x = 140 y = 395 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
