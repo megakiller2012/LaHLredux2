@@ -123,4 +123,28 @@ spriteTypes = {
 		name = "GFX_goal_KNT_reward_the_geniuses"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_reward_the_geniuses.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_rebirth_of_gentries"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_rebirth_of_gentries.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_mercantilism_of_our_century"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_mercantilism_of_our_century.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_new_place_new_opportunity"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_new_place_new_opportunity.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_everything_within_britain"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_everything_within_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_manchester_model"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_manchester_model.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_gospel_of_wealth"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_gospel_of_wealth.dds"
+	}
 }

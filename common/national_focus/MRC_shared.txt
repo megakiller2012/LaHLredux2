@@ -1482,7 +1482,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_morphogenetic_resonance 
-	icon = GFX_goal_MRC_The_Scientific_Method
+	icon = GFX_goal_MRC_Morphogenetic_Resonance 
 	prerequisite = {
 		focus = MRC_the_scientific_method 
 	}
@@ -1555,7 +1555,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_project_castaneda
-	icon = GFX_goal_MRC_Project_Castaneda
+	icon = GFX_goal_MRC_Project_CASTANEDA
 	prerequisite = {
 		focus = MRC_conventional_research
 	}

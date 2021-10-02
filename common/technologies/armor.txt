@@ -132,7 +132,7 @@ technologies = {
 		}
 		
 		categories = {
-			support_tech
+			armor
 		}
 		
 		ai_will_do = {
