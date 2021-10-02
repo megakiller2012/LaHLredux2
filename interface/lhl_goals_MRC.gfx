@@ -415,4 +415,36 @@ spriteTypes = {
 		name = "GFX_goal_MRC_The_New_Church"
 		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_New_Church.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Alternative_Medicine"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Alternative_Medicine.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Conventional_Research"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Conventional_Research.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Torsion_Field_Theory"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Torsion_Field_Theory.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Project_CASTANEDA"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Project_CASTANEDA.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Lucid_Dream_Experimentation"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Lucid_Dream_Experimentation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Scientific_Method"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Scientific_Method.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Morphogenetic_Resonance"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Morphogenetic_Resonance.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Telepathy_Research"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Telepathy_Research.dds"
+	}
 }
