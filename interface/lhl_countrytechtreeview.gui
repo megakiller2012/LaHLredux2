@@ -129,6 +129,19 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			gridboxtype = {
+				name = "rubber_bomb_tree"
+				position = { x = 750 y = 535 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "DU_ammo_tree"
+				position = { x = 1050 y = 535 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			
 		}
 		containerWindowType = {
 			name = "infantry_folder"

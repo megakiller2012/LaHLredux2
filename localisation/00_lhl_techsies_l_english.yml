@@ -267,5 +267,10 @@
  unmanned_tank_equipment_1_desc:0 "Unmanned tank are tanks that don't require a crew to operate. Each tank can be maintained by only one technitian and can pilot itself without help of any operator"
  power_armor_weapon_equipment_1:0 "Powered Exoskeleton"
  power_armor_weapon_equipment_1_desc:0 "A powered exoskeleton is a wearable mobile machine that increases productivity and protection of user by a system of electric motors, pneumatics, levers, hydraulics, etc"
- 
+ exosuit_brigade:0 "Exosuit Company"
+ exosuit_brigade_desc:0 "Exosuit Companies are special forces equipped with lightweight exoskeletons that increase their endurance in combat, increasing their damage and defence"
+ rubber_bomb:0 "Bouncing Bomb"
+ rubber_bomb_desc:0 "A Bouncing Bomb is a bomb designed to bounce on enemy positions resulting in high infrastracture damage and disorientation of enemy troops due to the fact that such air bomb explodes only at least 2 bounces on the enemy's land"
+ DU_ammo:0 "Depleted Uranium Ammunition"
+ DU_ammo_desc:0 "Depleted Uranium can be used anti-armor rounds as a penetrator because of its flammability, self-sharpening and high damage towards enemy soldiers because of radiation. On the other hand, such ammunition can cause colossal not only to eco systems but also our own personel"
  
