@@ -207,12 +207,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			gridboxtype = {
-				name = "spectech_tree"
-				position = { x = 140 y = 325 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
 				name = "airgun_tree"
 				position = { x = 150 y = 335 }
 				slotsize = { width = 70 height = 70 }
@@ -220,37 +214,37 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "railgun_tree"
-				position = { x = 140 y = 335 }
+				position = { x = 450 y = 335 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "landing_tank_tree"
-				position = { x = 130 y = 335 }
+				position = { x = 750 y = 335 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "transport_airship_tree"
-				position = { x = 120 y = 335 }
+				position = { x = 1050 y = 335 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "evangelion_tree"
-				position = { x = 140 y = 365 }
+				position = { x = 1350 y = 335 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "jetpack_brigade_tree"
-				position = { x = 120 y = 365 }
+				position = { x = 150 y = 535 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "unmanned_tank_tree"
-				position = { x = 120 y = 345 }
+				position = { x = 1650 y = 335 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

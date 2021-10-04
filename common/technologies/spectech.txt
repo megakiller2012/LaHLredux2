@@ -1,28 +1,5 @@
 technologies = {
 
-	spectech = {
-	
-		start_year = 2025
-
-		path = {
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = spectech_folder
-			position = { x = 1 y = 1 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}	
-    }
 	airgun = {
 
 		enable_equipments = {
@@ -38,7 +15,7 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 2 y = 2 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -64,7 +41,7 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -90,7 +67,7 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 4 y = 2 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -116,7 +93,7 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 6 y = 2 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -142,7 +119,7 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 0 y = 5 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -168,7 +145,7 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 2 y = 7 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -194,7 +171,7 @@ technologies = {
 		
 		folder = {
 			name = spectech_folder
-			position = { x = 2 y = 9 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
