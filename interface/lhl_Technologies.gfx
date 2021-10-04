@@ -288,6 +288,52 @@ spriteTypes = {
 		name = "GFX_tech_uav_company4_medium"
 		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_4.dds"
 	}	
+	
+	spriteType = {
+        name = "GFX_outdated_tank_track_medium"
+        textureFile = "gfx/interface/technologies/tracks_upgrade.dds"
+    }
+
+	spriteType = {
+        name = "GFX_outdated_apc_track_medium"
+        textureFile = "gfx/interface/technologies/tracks_upgrade.dds"
+    } 
+
+	spriteType = {
+        name = "GFX_outdated_ifv_track_medium"
+        textureFile = "gfx/interface/technologies/tracks_upgrade.dds"
+    }
+
+	spriteType = {
+        name = "GFX_outdated_tank_armour_medium"
+        textureFile = "gfx/interface/technologies/armour_upgrade.dds"
+    } 
+
+	spriteType = {
+        name = "GFX_outdated_apc_armour_medium"
+        textureFile = "gfx/interface/technologies/armour_upgrade.dds"
+    } 
+
+	spriteType = {
+        name = "GFX_outdated_ifv_armour_medium"
+        textureFile = "gfx/interface/technologies/armour_upgrade.dds"
+    }
+
+	spriteType = {
+        name = "GFX_outdated_tank_cannon_medium"
+        textureFile = "gfx/interface/technologies/cannon_upgrade.dds"
+    } 
+
+	spriteType = {
+        name = "GFX_outdated_apc_cannon_medium"
+        textureFile = "gfx/interface/technologies/cannon_upgrade.dds"
+    } 
+
+	spriteType = {
+        name = "GFX_outdated_ifv_cannon_medium"
+        textureFile = "gfx/interface/technologies/cannon_upgrade.dds"
+    }  	
+	
 	### Angeln gfx###
 	SpriteType = {
 		name = "GFX_ESS_spg_medium"
@@ -426,14 +472,6 @@ spriteTypes = {
 		name = "GFX_NTH_advanced_infantry_fighting_vehicle_medium"
 		texturefile = "gfx/interface/technologies/ESS_advanced_infantry_fighting_vehicle.dds"
 	}	
-	spriteType = {
-        name = "GFX_outdated_tank_upgrade_small"
-        textureFile = "gfx/interface/technologies/tank_upgrade.dds"
-    } 
-	spriteType = {
-        name = "GFX_outdated_tank_upgrade_small"
-        textureFile = "gfx/interface/technologies/tank_upgrade.dds"
-    } 
 	spriteType = {
 		name = "GFX_spectech_small"
 		texturefile = "gfx/interface/technologies/rocket_artillery3.dds"

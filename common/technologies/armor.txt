@@ -23,17 +23,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = basic_armoured_personnel_carrier
+			leads_to_tech = outdated_armoured_personnel_carrier
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = basic_infantry_fighting_vehicle
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = basic_armored_car
+			leads_to_tech = outdated_infantry_fighting_vehicle
 			research_cost_coeff = 1
 		}
 
@@ -57,6 +52,60 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			}
+	}
+
+    obsolete_main_battle_tank = { 
+
+		enable_equipments = {
+			outdated_main_battle_tank_equipment
+		}
+		enable_subunits = {
+			medium_armor
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {	has_template_containing_unit = light_armor }
+				NOT = {	has_template_containing_unit = heavy_armor }
+				NOT = {	has_template_containing_unit = medium_armor }
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = outdated_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 0 }
+		}		
+	
+		categories = {
+			armor
+			cat_light_armor
+		}
 	}
 
 	outdated_main_battle_tank = { 
@@ -95,12 +144,17 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = basic_main_battle_tank
+			leads_to_tech = outdated_tank_track
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = outdated_tank_upgrade
+			leads_to_tech = outdated_tank_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_tank_cannon
 			research_cost_coeff = 1
 		}
 		
@@ -109,7 +163,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = -8 y = 0 }
+			position = { x = -8 y = 2 }
 		}		
 		
 		folder = {
@@ -122,13 +176,18 @@ technologies = {
 		}
 	}
 
-	outdated_tank_upgrade = {
+	outdated_tank_track = {
 
 		research_cost = 2
 		start_year = 1936
 		folder = {
 			name = armour_folder
-			position = { x = -6 y = 0 }
+			position = { x = -10 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_tank_track_1
+			research_cost_coeff = 1
 		}
 		
 		categories = {
@@ -162,7 +221,383 @@ technologies = {
 				date > "1940.1.1"
 			}
 		}
-	}	
+	}
+
+	outdated_tank_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_tank_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_tank_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	outdated_tank_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_tank_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_tank_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_tank_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_tank_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	outdated_tank_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_tank_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_tank_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_tank_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_tank_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
 	
 	basic_main_battle_tank = {
 		enable_equipments = {
@@ -171,8 +606,19 @@ technologies = {
 		enable_subunits = {
 			light_armor
 		}	
+		
 		path = {
-			leads_to_tech = improved_main_battle_tank
+			leads_to_tech = basic_tank_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_cannon
 			research_cost_coeff = 1
 		}
 		
@@ -180,7 +626,7 @@ technologies = {
 		start_year = 1934
 		folder = {
 			name = armour_folder
-			position = { x = -8 y = 2 }
+			position = { x = -8 y = 10 }
 		}
 				
 		ai_will_do = {
@@ -192,6 +638,429 @@ technologies = {
 			cat_light_armor
 		}
 	}
+	
+	basic_tank_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_tank_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_tank_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_tank_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_tank_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_tank_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_tank_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_tank_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_tank_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_tank_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
 
 	improved_main_battle_tank = { 
 	
@@ -200,16 +1069,26 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = advanced_main_battle_tank
+			leads_to_tech = improved_tank_track
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = improved_tank_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_tank_cannon
+			research_cost_coeff = 1
+		}
+				
 		research_cost = 2
 		start_year = 1936
 		
 		folder = {
 			name = armour_folder
-			position = { x = -8 y = 4 }
+			position = { x = -8 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -227,6 +1106,429 @@ technologies = {
 		}
 	}
 	
+	improved_tank_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_tank_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_tank_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_tank_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_tank_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	improved_tank_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_tank_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_tank_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_tank_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_tank_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	improved_tank_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_tank_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_tank_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_tank_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_tank_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
 	
 	advanced_main_battle_tank = { 
 
@@ -234,16 +1536,27 @@ technologies = {
 			main_battle_tank_equipment_3 
 		}	
 		
+		path = {
+			leads_to_tech = advanced_tank_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_cannon
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2
 		start_year = 1941
 		
-		path = {
-			leads_to_tech = futuristic_main_battle_tank
-			research_cost_coeff = 1
-		}		
 		folder = {
 			name = armour_folder
-			position = { x = -8 y = 6 }
+			position = { x = -8 y = 26 }
 		}
 		
 		ai_will_do = {
@@ -253,6 +1566,429 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+		}
+	}
+	
+	advanced_tank_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_tank_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_tank_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	advanced_tank_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_tank_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_tank_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	advanced_tank_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_tank_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_tank_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_tank_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
 		}
 	}
 
@@ -260,14 +1996,29 @@ technologies = {
 
 		enable_equipments = {
 			main_battle_tank_equipment_4 
-		}	
+		}
+
+		path = {
+			leads_to_tech = futuristic_tank_track
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = futuristic_tank_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tank_cannon
+			research_cost_coeff = 1
+		}		
 		
 		research_cost = 2
 		start_year = 1941
 				
 		folder = {
 			name = armour_folder
-			position = { x = -8 y = 8 }
+			position = { x = -8 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -279,15 +2030,433 @@ technologies = {
 			cat_light_armor
 		}
 	}
-	basic_armoured_personnel_carrier = {
+	
+	futuristic_tank_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tank_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_tank_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tank_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_tank_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -10 y = 40 }
+		}
+				
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	futuristic_tank_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tank_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_tank_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tank_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_tank_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 40 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	futuristic_tank_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tank_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_tank_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tank_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_tank_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 40 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	
+	outdated_armoured_personnel_carrier = {
 		enable_equipments = {
-			armoured_personnel_carrier_equipment_1 
+			armoured_personnel_carrier_equipment
 		}
 		enable_subunits = {
 			light_armor
 		}	
 		path = {
-			leads_to_tech = improved_armoured_personnel_carrier
+			leads_to_tech = outdated_apc_track
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = outdated_apc_armour
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = outdated_apc_cannon
 			research_cost_coeff = 1
 		}
 		
@@ -307,6 +2476,892 @@ technologies = {
 			cat_light_armor
 		}
 	}
+	
+	outdated_apc_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_apc_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_apc_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_apc_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_apc_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	outdated_apc_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_apc_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_apc_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_apc_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_apc_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	outdated_apc_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_apc_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_apc_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_apc_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_apc_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_armoured_personnel_carrier = {
+		enable_equipments = {
+			armoured_personnel_carrier_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		
+		path = {
+			leads_to_tech = basic_apc_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_cannon
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 10 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	basic_apc_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_apc_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_apc_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_apc_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_apc_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_apc_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_apc_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_apc_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_apc_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_apc_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
 
 	improved_armoured_personnel_carrier = { 
 	
@@ -315,7 +3370,17 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = advanced_armoured_personnel_carrier
+			leads_to_tech = improved_apc_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_cannon
 			research_cost_coeff = 1
 		}
 		
@@ -324,7 +3389,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = -4 y = 4 }
+			position = { x = -4 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -339,6 +3404,429 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+		}
+	}
+	
+	improved_apc_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_apc_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_apc_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	improved_apc_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_apc_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_apc_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	improved_apc_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_apc_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_apc_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_apc_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
 		}
 	}
 	
@@ -353,68 +3841,27 @@ technologies = {
 		start_year = 1941
 		
 		path = {
-			leads_to_tech = futuristic_armoured_personnel_carrier
+			leads_to_tech = advanced_apc_track
 			research_cost_coeff = 1
-		}		
-		folder = {
-			name = armour_folder
-			position = { x = -4 y = 6 }
 		}
-		
-		ai_will_do = {
-			factor = 0.5
-		}
-		
-		categories = {
-			armor
-			cat_light_armor
-		}
-	}
 
-	futuristic_armoured_personnel_carrier = { 
-
-		enable_equipments = {
-			armoured_personnel_carrier_equipment_4 
-		}	
-		
-		research_cost = 2
-		start_year = 1941
-				
-		folder = {
-			name = armour_folder
-			position = { x = -4 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-		}
-		
-		categories = {
-			armor
-			cat_light_armor
-		}
-	}
-	basic_infantry_fighting_vehicle = {
-		enable_equipments = {
-			infantry_fighting_vehicle_equipment_1 
-		}
-		enable_subunits = {
-			light_armor
-		}	
 		path = {
-			leads_to_tech = improved_infantry_fighting_vehicle
+			leads_to_tech = advanced_apc_armour
 			research_cost_coeff = 1
-		}
+		}	
+
+		path = {
+			leads_to_tech = advanced_apc_cannon
+			research_cost_coeff = 1
+		}	
 		
-		research_cost = 2
-		start_year = 1934
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 2 }
+			position = { x = -4 y = 26 }
 		}
-				
+		
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
 		}
 		
 		categories = {
@@ -422,24 +3869,23 @@ technologies = {
 			cat_light_armor
 		}
 	}
-
-	improved_infantry_fighting_vehicle = { 
 	
-		enable_equipments = {
-			infantry_fighting_vehicle_equipment_2 
-		}
-		
-		path = {
-			leads_to_tech = advanced_infantry_fighting_vehicle
-			research_cost_coeff = 1
-		}
-		
+	advanced_apc_track = {
+
 		research_cost = 2
 		start_year = 1936
-		
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 4 }
+			position = { x = -6 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_apc_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
 		}
 		
 		ai_will_do = {
@@ -449,55 +3895,431 @@ technologies = {
 				factor = 2
 				is_major = yes
 			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_apc_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_apc_track_2
+			research_cost_coeff = 1
 		}
 		
 		categories = {
 			armor
-			cat_light_armor
-		}
-	}
-	
-	
-	advanced_infantry_fighting_vehicle = { 
-
-		enable_equipments = {
-			infantry_fighting_vehicle_equipment_3 
-		}	
-		
-		research_cost = 2
-		start_year = 1941
-		
-		path = {
-			leads_to_tech = futuristic_infantry_fighting_vehicle
-			research_cost_coeff = 1
-		}		
-		folder = {
-			name = armour_folder
-			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {
-			factor = 0.5
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_apc_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_armoured_personnel_carrier
+			research_cost_coeff = 1
 		}
 		
 		categories = {
 			armor
-			cat_light_armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	advanced_apc_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_apc_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
 		}
 	}
 
-	futuristic_infantry_fighting_vehicle = { 
+	advanced_apc_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_apc_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_apc_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	advanced_apc_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_apc_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_apc_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_apc_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_apc_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_armoured_personnel_carrier = { 
 
 		enable_equipments = {
-			infantry_fighting_vehicle_equipment_4 
-		}	
+			armoured_personnel_carrier_equipment_4 
+		}
+
+		path = {
+			leads_to_tech = futuristic_apc_track
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = futuristic_apc_armour
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = futuristic_apc_cannon
+			research_cost_coeff = 1
+		}		
 		
 		research_cost = 2
 		start_year = 1941
 				
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 8 }
+			position = { x = -4 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -508,17 +4330,436 @@ technologies = {
 			armor
 			cat_light_armor
 		}
-	}	
+	}
 	
-	basic_armored_car = {
+	futuristic_apc_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_apc_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_apc_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_apc_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_apc_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -6 y = 40 }
+		}
+		
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	futuristic_apc_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_apc_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_apc_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_apc_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_apc_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 40 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	futuristic_apc_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_apc_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_apc_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_apc_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_apc_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = -2 y = 40 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	outdated_infantry_fighting_vehicle = {
 		enable_equipments = {
-			armored_car_equipment_1 
+			infantry_fighting_vehicle_equipment 
 		}
 		enable_subunits = {
 			light_armor
 		}	
 		path = {
-			leads_to_tech = improved_armored_car
+			leads_to_tech = outdated_ifv_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_ifv_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_ifv_cannon
 			research_cost_coeff = 1
 		}
 		
@@ -538,15 +4779,910 @@ technologies = {
 			cat_light_armor
 		}
 	}
-
-	improved_armored_car = { 
 	
-		enable_equipments = {
-			armored_car_equipment_2 
+	outdated_ifv_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 4 }
 		}
 		
 		path = {
-			leads_to_tech = advanced_armored_car
+			leads_to_tech = outdated_ifv_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_ifv_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_ifv_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_ifv_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	outdated_ifv_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_ifv_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_ifv_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_ifv_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_ifv_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	outdated_ifv_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_ifv_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_ifv_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_ifv_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	outdated_ifv_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = basic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_infantry_fighting_vehicle = {
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		path = {
+			leads_to_tech = basic_ifv_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_cannon
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 10 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	basic_ifv_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_ifv_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_ifv_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_ifv_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_ifv_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_ifv_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	basic_ifv_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_ifv_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = basic_ifv_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	basic_ifv_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = improved_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_infantry_fighting_vehicle = { 
+	
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_2 
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_cannon
 			research_cost_coeff = 1
 		}
 		
@@ -555,7 +5691,1444 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = 4 }
+			position = { x = 4 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	improved_ifv_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_ifv_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_ifv_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	improved_ifv_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_ifv_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_ifv_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	improved_ifv_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 20 }
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_ifv_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = improved_ifv_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	improved_ifv_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 24 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	
+	advanced_infantry_fighting_vehicle = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_3 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+		
+		path = {
+			leads_to_tech = advanced_ifv_track
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = advanced_ifv_armour
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = advanced_ifv_cannon
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	advanced_ifv_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_ifv_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_ifv_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_ifv_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_ifv_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	advanced_ifv_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_ifv_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_ifv_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_ifv_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_ifv_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	advanced_ifv_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 28 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_ifv_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_ifv_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 30 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_ifv_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	advanced_ifv_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 32 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_infantry_fighting_vehicle = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_4 
+		}	
+		
+		path = {
+			leads_to_tech = futuristic_ifv_track
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_armour
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_cannon
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1941
+				
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 34 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+	futuristic_ifv_track = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_track_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_ifv_track_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_track_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_ifv_track_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = 40 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	futuristic_ifv_armour = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_armour_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_ifv_armour_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_armour_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_ifv_armour_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 40 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+	
+	futuristic_ifv_cannon = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 36 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_cannon_1
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_ifv_cannon_1 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 38 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_ifv_cannon_2
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	futuristic_ifv_cannon_2 = {
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 40 }
+		}
+
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				date > "1940.1.1"
+			}
+		}
+	}
+
+	obsolete_armored_car = {
+		enable_equipments = {
+			armored_car_equipment
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		path = {
+			leads_to_tech = basic_armored_car
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = 15 y = 0 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	basic_armored_car = {
+		enable_equipments = {
+			armored_car_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		path = {
+			leads_to_tech = improved_armored_car
+			research_cost_coeff = 1
+		}
+		
+		sub_technologies = {
+			basic_antitank_car
+			basic_antiair_car
+			basic_command_car
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = 15 y = 2 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	improved_armored_car = { 
+	
+		enable_equipments = {
+			armored_car_equipment_2 `
+		}
+		
+		path = {
+			leads_to_tech = advanced_armored_car
+			research_cost_coeff = 1
+		}
+		
+		sub_technologies = {
+			improved_antitank_car
+			improved_antiair_car
+			improved_command_car
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = armour_folder
+			position = { x = 15 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -586,10 +7159,17 @@ technologies = {
 		path = {
 			leads_to_tech = futuristic_armored_car
 			research_cost_coeff = 1
-		}		
+		}
+
+		sub_technologies = {
+			advanced_antitank_car
+			advanced_antiair_car
+			advanced_command_car
+		}
+		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = 6 }
+			position = { x = 15 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -610,10 +7190,16 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1941
+		
+		sub_technologies = {
+			futuristic_antitank_car
+			futuristic_antiair_car
+			futuristic_command_car
+		}
 				
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = 8 }
+			position = { x = 15 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -623,6 +7209,210 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+		}
+	}
+	
+	basic_antitank_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	basic_antiair_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	basic_command_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	improved_antitank_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	improved_antiair_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	improved_command_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	advanced_antitank_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	advanced_antiair_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	advanced_command_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	futuristic_antitank_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	futuristic_antiair_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
+		}
+	}
+	
+	futuristic_command_car = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		categories = {
+			armor
 		}
 	}
 }
