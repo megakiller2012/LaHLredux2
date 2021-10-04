@@ -292,4 +292,37 @@ equipments = {
 		priority = 40
 		visual_level = 0
 	}
+	
+	power_armor_weapon_equipment = {
+		year = 2020
+
+		is_archetype = yes
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			steel = 2
+			rubber = 1
+			chromium = 1
+		}
+	}
+	power_armor_weapon_equipment_1 = {
+		year = 2021
+		archetype = power_armor_weapon_equipment
+		is_buildable = yes
+		priority = 40
+		visual_level = 0
+	}
 }

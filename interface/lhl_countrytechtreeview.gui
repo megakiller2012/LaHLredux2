@@ -248,6 +248,18 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			gridboxtype = {
+				name = "power_armor_weapon_tree"
+				position = { x = 1950 y = 335 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "exosuit_brigade_tree"
+				position = { x = 450 y = 535 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 		containerWindowType = {
 			name = "infantry_folder"

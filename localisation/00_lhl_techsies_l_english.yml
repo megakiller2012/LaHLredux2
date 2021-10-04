@@ -261,4 +261,11 @@
  transport_airship_equipment_1_desc:0 "Armored Airships are used for transport of large ammount of troops during airborne operations. They have higher capacity than regular transport aircraft"
  evangelion_equipment_1:0 "Gullivers"
  evangelion_equipment_1_desc:0 "Gullivers are robotic war machines developed by the engineers afiliated with tories construction bureaus. Gullivers are almost exclusively used in place, and sometimes alongside of, the practically obsolete main battle tanks"
+ jetpack_brigade:0 "Jetpack Company"
+ jetpack_brigade_desc:0 "Jetpack raids allow our troops to get more intelligence and perform sabotage activities in enemy's back row and succsessfully evacuate to home positions"
+ unmanned_tank_equipment_1:0 "UMBT-Burgess"
+ unmanned_tank_equipment_1_desc:0 "Unmanned tank are tanks that don't require a crew to operate. Each tank can be maintained by only one technitian and can pilot itself without help of any operator"
+ power_armor_weapon_equipment_1:0 "Powered Exoskeleton"
+ power_armor_weapon_equipment_1_desc:0 "A powered exoskeleton is a wearable mobile machine that increases productivity and protection of user by a system of electric motors, pneumatics, levers, hydraulics, etc"
+ 
  
