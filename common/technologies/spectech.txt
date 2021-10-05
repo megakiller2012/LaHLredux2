@@ -292,4 +292,115 @@ technologies = {
 			factor = 2
 		}
     }
+	biofuel = {
+		start_year = 2020
+		
+		production_speed_buildings_factor = 0.4
+		production_factory_max_efficiency_factor = 0.25
+		production_factory_efficiency_gain_factor = 0.25
+		base_fuel_gain = 1
+		army_fuel_consumption_factor = -0.2
+		navy_fuel_consumption_factor = -0.2
+		air_fuel_consumption_factor = -0.2
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
+	threeD_printers = {
+		start_year = 2020
+		
+		production_speed_buildings_factor = 0.45
+		production_factory_max_efficiency_factor = 0.15
+		production_factory_efficiency_gain_factor = 0.2
+		industry_free_repair_factor = 1
+		industrial_capacity_factory = 1
+		
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
+	suicide_drones = {
+
+		enable_equipments = {
+			suicide_drones_equipment_1
+		}
+		start_year = 2020
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			rocketry
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
+	stem_cell = {
+	
+		start_year = 2020
+		
+		experience_loss_factor = -0.25
+		monthly_population = 0.05
+		casualty_trickleback = 0.20
+
+		path = {
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			hospital_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+    }
 }

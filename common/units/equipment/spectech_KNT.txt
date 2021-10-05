@@ -229,7 +229,7 @@ equipments = {
 			chromium = 4
 		}
 		
-		fuel_consumption = 10
+		fuel_consumption = 0
 	}
 	evangelion_equipment_1 = {
 		year = 2021
@@ -324,5 +324,53 @@ equipments = {
 		is_buildable = yes
 		priority = 40
 		visual_level = 0
+	}
+	
+	suicide_drones_equipment = {
+		year = 2020
+
+		is_archetype = yes
+		is_convertable = no
+		can_license = no
+		is_buildable = no
+		type = suicide
+		group_by = archetype
+		air_map_icon_frame = 5
+		manpower = 1
+		
+		interface_category = interface_category_air
+
+		upgrades = {
+		}
+
+		build_cost_ic = 14
+		resources = {
+			aluminium = 1
+			rubber = 1
+		}
+
+		air_superiority = 1
+
+	}
+	suicide_drones_equipment_1 = {
+		year = 2021
+		
+		archetype = suicide_drones_equipment
+		is_buildable = yes
+		priority = 90
+
+		air_range = 1000
+		maximum_speed = 1150
+		air_agility = 50
+		air_attack = 0
+		air_defence = 12	
+		reliability = 0.8
+		
+		naval_strike_attack = 10
+		naval_strike_targetting = 15
+		air_bombing	= 30
+		air_cas_present_factor = 20
+		air_bombing_targetting = 30
+		air_superiority = 5
 	}
 }
