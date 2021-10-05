@@ -1334,7 +1334,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_uncover_the_secret_societies
-	icon = GFX_goal_MRC_Uncover_The_Secret_Socities
+	icon = GFX_goal_MRC_Uncover_The_Secret_Societies
 	prerequisite = {
 		focus = MRC_the_truths_of_thelema
 	}
@@ -1566,7 +1566,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MRC_the_spiritual_enlightenment
-	icon = GFX_goal_MRC_The_Spiritual_enlightenment
+	icon = GFX_goal_MRC_Spiritual_Enlightenment
 	prerequisite = {
 		focus = MRC_magick_research_division
 	}
