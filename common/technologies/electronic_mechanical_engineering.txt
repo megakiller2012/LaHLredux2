@@ -1155,11 +1155,6 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 2 }
 		}
-
-		path = {
-			leads_to_tech = nukes 
-			research_cost_coeff = 1
-		}
 		
 		ai_will_do = {
 			factor = 3
@@ -1176,35 +1171,6 @@ technologies = {
 		enable_building = {
 			building = nuclear_reactor
 			level = 1
-		}
-	}
-
-	nukes = {
-	
-		start_year = 1945
-		research_cost = 5
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		nuclear_production = 1
-		on_research_complete = {
-			if = {
-				limit = {
-					tag = USA
-					has_war_with = JAP
-				}
-				play_warning_to_japan_effect = yes
-			}
-		}
-		categories = {
-			nuclear
 		}
 	}
 
