@@ -147,4 +147,12 @@ spriteTypes = {
 		name = "GFX_goal_KNT_the_gospel_of_wealth"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_gospel_of_wealth.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_support_of_local_communities"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_support_of_local_communities.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_noblesse_oblige"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_noblesse_oblige.dds"
+	}
 }

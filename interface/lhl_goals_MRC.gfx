@@ -447,4 +447,44 @@ spriteTypes = {
 		name = "GFX_goal_MRC_Telepathy_Research"
 		texturefile = "gfx/interface/goals/MRC/goal_MRC_Telepathy_Research.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Spiritual_Enlightenment"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Spiritual_Enlightenment.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Legalize_The_True_Will"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Legalize_The_True_Will.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Chamber_Of_Guf"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Chamber_Of_Guf.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Thaumaturgy"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Thaumaturgy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Test_Our_Findings"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Test_Our_Findings.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Interworkings_Of_The_Universe"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Interworkings_Of_The_Universe.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Understanding_The_Soul"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Understanding_The_Soul.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Expand_The_Field"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Expand_The_Field.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Uncover_The_Secret_Societies"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Uncover_The_Secret_Societies.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Crowley_Foundation"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Crowley_Foundation.dds"
+	}
 }
