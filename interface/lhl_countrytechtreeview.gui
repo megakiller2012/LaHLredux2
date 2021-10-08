@@ -183,6 +183,12 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			gridboxtype = {
+				name = "supercannons_tree"
+				position = { x = 1350 y = 735 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 		containerWindowType = {
 			name = "infantry_folder"
