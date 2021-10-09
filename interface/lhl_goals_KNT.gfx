@@ -155,4 +155,24 @@ spriteTypes = {
 		name = "GFX_goal_KNT_noblesse_oblige"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_noblesse_oblige.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_made_in_britain"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_made_in_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_protect_the_inventors"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_protect_the_inventors.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_royal_ordnance_factories"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_royal_ordnance_factories.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_russel_group_competition"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_russel_group_competition.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_role_of_the_unions"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_role_of_the_unions.dds"
+	}
 }

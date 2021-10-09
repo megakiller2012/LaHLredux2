@@ -1364,21 +1364,7 @@ guiTypes = {
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
-			}
-			gridboxtype = {
-				name = "outdated_main_battle_tank_tree"
-				position = { x = 80 y = 170 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}		
-			gridboxtype = {
-				name = "rocket_artillery_tree"
-				position = { x = 100 y = 175 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+			}	
 			gridboxtype = {
 				name = "howitzer_tree"
 				position = { x = 220 y = 175 }
@@ -1387,22 +1373,8 @@ guiTypes = {
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "spg_tree"
-				position = { x = 300 y = 175 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-			gridboxtype = {
 				name = "anti_air_tree"
 				position = { x = 400 y = 175 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}	
-			gridboxtype = {
-				name = "tactical_ballistic_missile_tree"
-				position = { x = 200 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"

@@ -383,7 +383,7 @@
 	}
 	shared_focus = {
 		id = KNT_russel_group_competition
-		icon = GFX_goal_KNT_protect_the_inventors
+		icon = GFX_goal_KNT_russel_group_competition
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_manchester_model
