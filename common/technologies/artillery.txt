@@ -1,70 +1,227 @@
 technologies = {
 
-	motorised_infantry = {
-
-		enable_subunits = {
-			motorized
-		}
-
-		enable_equipments = {
-			motorized_equipment_1
-		}
-
-		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = motorized
-				}
-			}
-			hidden_effect = {
-				load_oob = "unlock_motorized"
-			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-		
-		path = {
-			leads_to_tech = rocket_artillery
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = tactical_ballistic_missile
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1936
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -6 y = 0 }
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-			}
-	}
-	
-	rocket_artillery = {
+	obsolete_anti_air = {
 	
 		start_year = 1980
 		
 		enable_equipments = {
-			rocket_artillery_equipment_1
+			anti_air_equipment_1
 		}
 		
 		path = {
-			leads_to_tech = rocket_artillery2
+			leads_to_tech = outdated_anti_air
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_spaag
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_sam
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -12 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_anti_air = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = outdated_anti_air_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_anti_air_radar
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -12 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_anti_air_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = basic_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -13 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_anti_air_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = basic_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -11 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_spaag = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = outdated_spaag_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_spaag_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -16 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_spaag_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = basic_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -17 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_spaag_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = basic_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -15 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_sam = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+				
+		path = {
+			leads_to_tech = outdated_sam_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_sam_radar
 			research_cost_coeff = 1
 		}
 		
@@ -84,20 +241,20 @@ technologies = {
 		}
 	}
 	
-	rocket_artillery2 = {
+	outdated_sam_gun = {
 	
-		start_year = 2012
+		start_year = 1980
 		
 		path = {
-			leads_to_tech = rocket_artillery3
+			leads_to_tech = basic_sam
 			research_cost_coeff = 1
 		}
-		
+				
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -8 y = 4 }
+			position = { x = -9 y = 4 }
 		}
 		
 		categories = {
@@ -109,12 +266,214 @@ technologies = {
 		}
 	}
 	
-		rocket_artillery3 = {
+	outdated_sam_radar = {
 	
-		start_year = 2015
+		start_year = 1980
 		
 		path = {
-			leads_to_tech = rocket_artillery4
+			leads_to_tech = basic_sam
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_anti_air = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = basic_anti_air_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_anti_air_radar
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -12 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_anti_air_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = improved_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -13 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_anti_air_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = improved_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -11 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_spaag = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = basic_spaag_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_spaag_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -16 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_spaag_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = improved_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -17 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_spaag_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = improved_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -15 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_sam = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+				
+		path = {
+			leads_to_tech = basic_sam_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_sam_radar
 			research_cost_coeff = 1
 		}
 		
@@ -134,24 +493,20 @@ technologies = {
 		}
 	}
 	
-		rocket_artillery4 = {
+	basic_sam_gun = {
 	
-		start_year = 2020
-		
-		enable_equipments = {
-			rocket_artillery_equipment_2
-		}
+		start_year = 1980
 		
 		path = {
-			leads_to_tech = rocket_artillery5
+			leads_to_tech = improved_sam
 			research_cost_coeff = 1
 		}
-		
+				
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -8 y = 8 }
+			position = { x = -9 y = 8 }
 		}
 		
 		categories = {
@@ -163,14 +518,216 @@ technologies = {
 		}
 	}
 	
-		rocket_artillery5 = {
-
+	basic_sam_radar = {
+	
+		start_year = 1980
+		
 		path = {
-			leads_to_tech = rocket_artillery6
+			leads_to_tech = improved_sam
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_anti_air = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_anti_air_gun
 			research_cost_coeff = 1
 		}
 		
-		start_year = 2025
+		path = {
+			leads_to_tech = improved_anti_air_radar
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -12 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_anti_air_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = advanced_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -13 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_anti_air_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = advanced_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -11 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_spaag = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_spaag_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_spaag_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -16 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_spaag_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = advanced_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -17 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_spaag_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = advanced_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -15 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_sam = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+				
+		path = {
+			leads_to_tech = improved_sam_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_sam_radar
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.5
 		
@@ -188,20 +745,20 @@ technologies = {
 		}
 	}
 	
-		rocket_artillery6 = {
+	improved_sam_gun = {
 	
-		start_year = 2025
-		
-		research_cost = 1.5
+		start_year = 1980
 		
 		path = {
-			leads_to_tech = rocket_artillery7
+			leads_to_tech = advanced_sam
 			research_cost_coeff = 1
-		}	
+		}
+				
+		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -8 y = 12 }
+			position = { x = -9 y = 12 }
 		}
 		
 		categories = {
@@ -212,16 +769,219 @@ technologies = {
 			factor = 2
 		}
 	}
-
-		rocket_artillery7 = {
 	
-		start_year = 2025
+	improved_sam_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = advanced_sam
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_anti_air = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = advanced_anti_air_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_anti_air_radar
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -12 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_anti_air_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = futuristic_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -13 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_anti_air_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = futuristic_anti_air
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -11 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_spaag = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = advanced_spaag_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_spaag_radar
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.5
-
-		enable_equipments = {
-			rocket_artillery_equipment_3
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -16 y = 14 }
 		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_spaag_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = futuristic_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -17 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_spaag_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = futuristic_spaag
+			research_cost_coeff = 1
+		}
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -15 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_sam = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+				
+		path = {
+			leads_to_tech = advanced_sam_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_sam_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
@@ -235,361 +995,22 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 		}
-	}	
-
-	tactical_ballistic_missile = {
+	}
+	
+	advanced_sam_gun = {
 	
 		start_year = 1980
 		
-		enable_equipments = {
-			tactical_ballistic_missile_equipment_1
-		}
-		
 		path = {
-			leads_to_tech = tactical_ballistic_missile2
+			leads_to_tech = futuristic_sam
 			research_cost_coeff = 1
 		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 2 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-		tactical_ballistic_missile2 = {
-	
-		start_year = 2012
-		
-		
-		path = {
-			leads_to_tech = tactical_ballistic_missile3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 4 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		tactical_ballistic_missile3 = {
-	
-		start_year = 2015
-		
-		path = {
-			leads_to_tech = tactical_ballistic_missile4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 6 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		tactical_ballistic_missile4 = {
-	
-		start_year = 2020
-
-		enable_equipments = {
-			tactical_ballistic_missile_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = tactical_ballistic_missile5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 8 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		tactical_ballistic_missile5 = {
-	
-		start_year = 2025
-
-		path = {
-			leads_to_tech = tactical_ballistic_missile6
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 10 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		tactical_ballistic_missile6 = {
-	
-		start_year = 2025
-
-		path = {
-			leads_to_tech = tactical_ballistic_missile7
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 12 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}	
-	
-		tactical_ballistic_missile7 = {
-	
-		start_year = 2025
-		
-		enable_equipments = {
-			tactical_ballistic_missile_equipment_3
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -4 y = 14 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}	
-	
-	spg = {
-	
-		start_year = 1980
-		
-		enable_equipments = {
-			spg_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = spg2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 2 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		spg2 = {
-	
-		start_year = 2012
-		
-		path = {
-			leads_to_tech = spg3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 4 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		spg3 = {
-	
-		start_year = 2012
-		
-		path = {
-			leads_to_tech = spg4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 6 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		spg4 = {
-	
-		start_year = 2015
-		
-		path = {
-			leads_to_tech = spg5
-			research_cost_coeff = 1
-		}
-		
-		enable_equipments = {
-			spg_equipment_2
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 8 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		spg5 = {
-	
-		start_year = 2020
-		
-		
-		research_cost = 1.5
-		
-		path = {
-			leads_to_tech = spg6
-			research_cost_coeff = 1
-		}		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 10 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
-		spg6 = {
-	
-		start_year = 2012
-		
-		path = {
-			leads_to_tech = spg7
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
-		spg7 = {
-	
-		start_year = 2012
 				
 		research_cost = 1.5
-
-		enable_equipments = {
-			spg_equipment_3
-		}
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 14 }
+			position = { x = -9 y = 16 }
 		}
 		
 		categories = {
@@ -601,24 +1022,54 @@ technologies = {
 		}
 	}
 	
-		anti_air = {
+	advanced_sam_radar = {
 	
 		start_year = 1980
 		
 		path = {
-			leads_to_tech = anti_air2
+			leads_to_tech = futuristic_sam
 			research_cost_coeff = 1
 		}
-
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_anti_air = {
+	
+		start_year = 1980
+		
 		enable_equipments = {
 			anti_air_equipment_1
 		}
 		
+		path = {
+			leads_to_tech = futuristic_anti_air_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_anti_air_radar
+			research_cost_coeff = 1
+		}
+				
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 4 y = 2 }
+			position = { x = -12 y = 18 }
 		}
 		
 		categories = {
@@ -630,20 +1081,15 @@ technologies = {
 		}
 	}
 	
-		anti_air2 = {
+	futuristic_anti_air_gun = {
 	
-		start_year = 2012
-		
-		path = {
-			leads_to_tech = anti_air3
-			research_cost_coeff = 1
-		}
-		
+		start_year = 1980
+				
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 4 y = 4 }
+			position = { x = -13 y = 20 }
 		}
 		
 		categories = {
@@ -655,137 +1101,176 @@ technologies = {
 		}
 	}
 	
-		anti_air3 = {
+	futuristic_anti_air_radar = {
 	
-		start_year = 2012
+		start_year = 1980
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -11 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_spaag = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
 		
 		path = {
-			leads_to_tech = anti_air4
+			leads_to_tech = futuristic_spaag_gun
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = futuristic_spaag_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -16 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_spaag_gun = {
+	
+		start_year = 1980
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -17 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_spaag_radar = {
+	
+		start_year = 1980
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -15 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_sam = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+				
+		path = {
+			leads_to_tech = futuristic_sam_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_sam_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_sam_gun = {
+	
+		start_year = 1980
+		
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -9 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_sam_radar = {
+	
+		start_year = 1980
+				
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
 
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 6 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		anti_air4 = {
-	
-		start_year = 2015
-		
-		path = {
-			leads_to_tech = anti_air5
-			research_cost_coeff = 1
-		}
-		enable_equipments = {
-			anti_air_equipment_2
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 8 }
-		}
-		
-		categories = {
-			artillery
-			artillery_equipment_1
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		anti_air5 = {
-	
-		start_year = 2020
-			
-		research_cost = 1.5
-		
-		path = {
-			leads_to_tech = anti_air6
-			research_cost_coeff = 1
-		}		
-		enable_equipments = {
-			anti_air_2
-		}
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 10 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}	
-	
-		anti_air6 = {
-	
-		start_year = 2020
-			
-		research_cost = 1.5
-		
-		path = {
-			leads_to_tech = anti_air7
-			research_cost_coeff = 1
-		}	
-	
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 12 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}	
-		anti_air7 = {
-	
-		start_year = 2020
-			
-		research_cost = 1.5
-		
-		enable_equipments = {
-			anti_air_equipment_3
-		}
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 4 y = 14 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
-	howitzer = {
+	obsolete_howitzer = {
 	
 		start_year = 1980
 		
@@ -798,16 +1283,86 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = 0 }
+			position = { x = 5 y = 0 }
 		}
 		
 		path = {
-			leads_to_tech = spg
+			leads_to_tech = outdated_howitzer
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_spg
 			research_cost_coeff = 1
 		}
 	
 		path = {
-			leads_to_tech = anti_air
+			leads_to_tech = outdated_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	outdated_howitzer = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_howitzer_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_howitzer_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	outdated_howitzer_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_howitzer
 			research_cost_coeff = 1
 		}
 		
@@ -819,4 +1374,2054 @@ technologies = {
 			factor = 2
 		}
 	}	
+
+	outdated_howitzer_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_howitzer
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}		
+
+	outdated_spg = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 2 }
+		}
+		
+		path = {
+			leads_to_tech = outdated_spg_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_spg_radar
+			research_cost_coeff = 1
+		}
+	
+
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_spg_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	outdated_spg_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	outdated_anti_tank = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 2 }
+		}
+	
+		path = {
+			leads_to_tech = outdated_anti_tank_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_anti_tank_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	outdated_anti_tank_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	outdated_anti_tank_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	outdated_mlrs = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = 2 }
+		}
+	
+		path = {
+			leads_to_tech = outdated_mlrs_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_mlrs_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	outdated_mlrs_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	outdated_mlrs_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 4 }
+		}
+		
+		path = {
+			leads_to_tech = basic_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_howitzer = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = basic_howitzer_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_howitzer_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	basic_howitzer_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_howitzer
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_howitzer_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_howitzer
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}		
+
+	basic_spg = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 6 }
+		}
+		
+		path = {
+			leads_to_tech = basic_spg_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_spg_radar
+			research_cost_coeff = 1
+		}
+	
+
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_spg_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_spg_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_anti_tank = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 6 }
+		}
+	
+		path = {
+			leads_to_tech = basic_anti_tank_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_anti_tank_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	basic_anti_tank_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_anti_tank_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_mlrs = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = 6 }
+		}
+	
+		path = {
+			leads_to_tech = basic_mlrs_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_mlrs_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_mlrs_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	basic_mlrs_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 8 }
+		}
+		
+		path = {
+			leads_to_tech = improved_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	improved_howitzer = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		path = {
+			leads_to_tech = improved_howitzer_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_howitzer_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	improved_howitzer_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_howitzer
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	improved_howitzer_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_howitzer
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}		
+
+	improved_spg = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 10 }
+		}
+		
+		path = {
+			leads_to_tech = improved_spg_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_spg_radar
+			research_cost_coeff = 1
+		}
+	
+
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_spg_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	improved_spg_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	improved_anti_tank = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 10 }
+		}
+	
+		path = {
+			leads_to_tech = improved_anti_tank_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_anti_tank_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	improved_anti_tank_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 6 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	improved_anti_tank_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	improved_mlrs = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = 10 }
+		}
+	
+		path = {
+			leads_to_tech = improved_mlrs_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_mlrs_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	improved_mlrs_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	improved_mlrs_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 12 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	advanced_howitzer = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_howitzer_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_howitzer_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	advanced_howitzer_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_howitzer
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	advanced_howitzer_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_howitzer
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}		
+
+	advanced_spg = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 14 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_spg_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_spg_radar
+			research_cost_coeff = 1
+		}
+	
+
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_spg_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	advanced_spg_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_spg
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	advanced_anti_tank = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 14 }
+		}
+	
+		path = {
+			leads_to_tech = advanced_anti_tank_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_anti_tank_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	advanced_anti_tank_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 6 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	advanced_anti_tank_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_anti_tank
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	advanced_mlrs = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = 14 }
+		}
+	
+		path = {
+			leads_to_tech = advanced_mlrs_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_mlrs_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	advanced_mlrs_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	advanced_mlrs_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_mlrs
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_howitzer = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = 18 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_howitzer_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_howitzer_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	futuristic_howitzer_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	futuristic_howitzer_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}		
+
+	futuristic_spg = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 18 }
+		}
+		
+		path = {
+			leads_to_tech = futuristic_spg_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_spg_radar
+			research_cost_coeff = 1
+		}
+	
+
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_spg_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	futuristic_spg_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	futuristic_anti_tank = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 18 }
+		}
+	
+		path = {
+			leads_to_tech = futuristic_anti_tank_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_anti_tank_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	futuristic_anti_tank_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 6 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	futuristic_anti_tank_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	futuristic_mlrs = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = 18 }
+		}
+	
+		path = {
+			leads_to_tech = futuristic_mlrs_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_mlrs_radar
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	futuristic_mlrs_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 10 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	futuristic_mlrs_radar = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	obsolete_tbm = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = outdated_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 13 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_tbm = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = outdated_tbm_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = outdated_tbm_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 13 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_tbm_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = basic_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	outdated_tbm_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = basic_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_tbm = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = basic_tbm_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_tbm_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 13 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_tbm_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = improved_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	basic_tbm_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = improved_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_tbm = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = improved_tbm_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = improved_tbm_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 13 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_tbm_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = advanced_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_tbm_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = advanced_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_tbm = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = advanced_tbm_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_tbm_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 13 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_tbm_gun = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = futuristic_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	advanced_tbm_radar = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = futuristic_tbm
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_tbm = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tbm_gun
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = futuristic_tbm_radar
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 13 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_tbm_gun = {
+	
+		start_year = 1980
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 12 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	futuristic_tbm_radar = {
+	
+		start_year = 1980
+	
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 14 y = 20 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
 }
