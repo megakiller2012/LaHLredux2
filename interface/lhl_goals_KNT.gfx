@@ -175,4 +175,20 @@ spriteTypes = {
 		name = "GFX_goal_KNT_role_of_the_unions"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_role_of_the_unions.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_professionals_have_standards"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_professionals_have_standards.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_experimental_forces"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_experimental_forces.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_we_shall_never_surrender"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_we_shall_never_surrender.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_question_of_armor"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_question_of_armor.dds"
+	}
 }
