@@ -514,4 +514,26 @@ technologies = {
 			factor = 2
 		}
     }
+	
+	cavalry = {
+
+		on_research_complete = {
+		}
+
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = spectech_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
 }

@@ -189,6 +189,12 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			gridboxtype = {
+				name = "cavalry_tree"
+				position = { x = 150 y = 935 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 		containerWindowType = {
 			name = "infantry_folder"
@@ -439,7 +445,7 @@ guiTypes = {
 				format = "LEFT"
 			}
 			gridboxtype = {
-				name = "cavalry_tree"
+				name = "urban_special_forces_tree"
 				position = { x = 140 y = 480 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
