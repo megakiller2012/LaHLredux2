@@ -5,8 +5,8 @@ oob = "EST_2020"
 set_research_slots = 3
 
 add_ideas = {
-	100_years_of_humiliations
-
+	EST_100_years_of_humiliation
+}
 set_stability = 0.7
 
 set_war_support = 0.5

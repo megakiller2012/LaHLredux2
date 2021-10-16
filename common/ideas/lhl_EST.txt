@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+	
+		EST_100_years_of_humiliation = {
+			
+			picture = EST_100_years_of_humiliation
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.10
+			political_power_factor = 0.05
+			}
+		}
+	}
+}
