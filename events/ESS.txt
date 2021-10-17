@@ -21,7 +21,7 @@ country_event = {
             desc = "POLITICS_INTERREGNUM_DESC"
 	        picture = "Portrait_ESS_Interregnum.dds"
 	        expire = "9999.1.1"
-			ideology = neocameralism
+			ideology = accelerationism
 			set_variable = {
 			var = ESS_control
 			value = 0
@@ -353,5 +353,94 @@ country_event = {
 		
 		
 		}
+	
+	option = {
+		name = ESS_event.8.b 
+		
+		
+		}
 	}
+	
+	country_event = {
+	id = ESS_event.9
+	title = ESS_event.9.t
+	desc = ESS_event.9.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = ESS_event.9.a
+		custom_effect_tooltip = ESS_event9.a.tt
+		
+		    ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				value = 10
+					}
+				add_stability = -0.05
+		    }
+		add_tech_bonus = {
+			name = maintenance_company
+			bonus = 0.5
+			uses = 2
+			technology = tech_maintenance_company
+		
+		}
+    }   
+	option = {
+		name = ESS_event.9.b
+		custom_effect_tooltip = ESS_event9.b.tt
+		   ESS = {
+			    add_to_variable = { 
+				var = ESS_control
+				value = 5
+				}
+				add_ideas = ESS_accelerated_army
+					}
+					
+    }
+	}
+	option = {
+		name = ESS_event.9.c
+		custom_effect_tooltip = ESS_event9.c.tt
+		    ESS = {
+			    subtract_from_variable = { 
+				var = ESS_control
+				value = 20
+				}
+				
+		}
+    }	
+	country_event = {
+	id = ESS_event.666
+	title = ESS_event.666.t
+	desc = ESS_event.666.d 
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.666.a 
+		
+		kill_country_leader = yes
+		
+		create_country_leader = {
+	        name = "K.N.Y.A.Z.H.N.A."
+            desc = "POLITICS_KNYAZHNA_DESC"
+	        picture = "GFX_portrait_knyazhna"
+	        expire = "9999.1.1"
+			ideology = ethical_millennialism
+			set_variable = {
+			var = ESS_control
+			value = 0
+	        }
+		}
+
+		}
+	
+	
+}
+
 }

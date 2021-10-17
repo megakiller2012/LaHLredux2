@@ -1,4 +1,13 @@
 spriteTypes = {
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_portrait_knyazhna"
+		texturefile = "gfx/leaders/ESS/Portrait_ESS_knyazhna.tga"
+                noOfFrames = 60
+                animation_rate_fps = 40
+                looping = yes
+                play_on_show = yes
+	}
 	frameAnimatedSpriteType = {
 		name = "GFX_MSC_black_order_ss"
 		texturefile = "gfx/goals/goal_MSC_black_order_ss.dds"

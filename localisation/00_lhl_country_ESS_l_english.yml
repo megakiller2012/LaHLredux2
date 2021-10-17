@@ -37,6 +37,14 @@
  military_specialist:0 "Military Specialist"
  ##IDEAS##
  ESS_nick_land:0 "Nick Land"
+ ESS_accelerated_army:0 "Accelerated Army"
+ ESS_accelerated_army_desc:0 "Accelerated Army"
+ ESS_granddad_of_nation:0 "Granddad Of Nation"
+ ESS_granddad_of_nation_desc:0 "Granddad Of Nation"
+ ESS_militants_supremacy:0 "Militant's Supremacy"
+ ESS_militants_supremacy_desc:0 "Militant's Supremacy"
+ ESS_social_responsibility:0 "Social Responsibility"
+ ESS_social_responsibility_desc:0 "Social Responsibility"
  ##FOCUS TREES##
  ESS_luciferoverlondon:0 "Lucifer over London"
  ESS_luciferoverlondon_desc:0 "There are two main enemies in England - cockney and railroads (Small talkie about the potential enemies of the London)"
@@ -561,7 +569,8 @@
  ESS_event.7.a:0 "Mindless Cultists On the North"
  ESS_event.7.b:0 "Sus Imposters On the South"
  #  
- ESS_event.8.t:0 "Booba grafoman"
- ESS_event.8.d:0 "In its essence, the English Union differs from other bandit groups not only by excellent training and fanatical loyalty to its leader, but also by a special worldview and morality. The nationalist knows that he is the most worthy son of his country, a man worthy of more and better. He does not know denial and refusal — for the sake of satisfying his ambitions, he will do anything and go anywhere, unless, of course, it does not harm his colleagues. We can say that Max's gang is a pack of wolves, ready to tear and tear apart the tender world of ordinary people and weaklings. Due to the recent expansion of the ranks of nationalists, such a mood is gradually disappearing under the influence of immature neophytes, which undermines our morale. This disintegration must be stopped in order to preserve the gains of the national revolution."
- ESS_event.8.a:0 "Cool story bro"
+ ESS_event.8.t:0 "Struggle for the reforms"
+ ESS_event.8.d:0 "Revolutionary tradition vs Reactionary rationality."
+ ESS_event.8.a:0 "Decent"
+ ESS_event.8.b:0 "Cent"
  #  

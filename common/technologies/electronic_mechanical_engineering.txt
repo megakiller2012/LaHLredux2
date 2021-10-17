@@ -950,12 +950,7 @@ technologies = {
 		path = {
 			leads_to_tech = improved_rocket_engines 
 			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = jet_engines 
-			research_cost_coeff = 1
-		}
-		
+		}		
 		research_cost = 2
 		start_year = 1944
 		
@@ -1065,37 +1060,6 @@ technologies = {
 		}
 	}
 	
-	jet_engines = {
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 2 }
-		}
-		
-		start_year = 1944
-		research_cost = 2
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 11 }
-		}
-		
-		desc = "JET_ENGINES_SPECIAL"
-
-		on_research_complete = {
-			custom_effect_tooltip = JET_ENGINES_RESEARCHED
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			rocketry
-			jet_technology
-		}
-	}
-	
 	atomic_research = {
 
 		research_speed_factor = 0.04
@@ -1155,11 +1119,6 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 2 }
 		}
-
-		path = {
-			leads_to_tech = nukes 
-			research_cost_coeff = 1
-		}
 		
 		ai_will_do = {
 			factor = 3
@@ -1176,35 +1135,6 @@ technologies = {
 		enable_building = {
 			building = nuclear_reactor
 			level = 1
-		}
-	}
-
-	nukes = {
-	
-		start_year = 1945
-		research_cost = 5
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-		
-		nuclear_production = 1
-		on_research_complete = {
-			if = {
-				limit = {
-					tag = USA
-					has_war_with = JAP
-				}
-				play_warning_to_japan_effect = yes
-			}
-		}
-		categories = {
-			nuclear
 		}
 	}
 

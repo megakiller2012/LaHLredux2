@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	#Ideas#	
+	spriteType = {
+		name = "GFX_idea_EST_100_years_of_humiliation"
+		texturefile = "gfx/interface/ideas/EST/idea_EST_100_years_of_humiliation.dds"
+	}
+	
+}
+
+
+

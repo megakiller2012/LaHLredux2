@@ -498,7 +498,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_orthodox_diplomacy
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_orthodox_diplomacy
 	cost = 3.5
 	x = 25
 	y = 2
@@ -506,7 +506,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_keepers_athos
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_keepers_athos
 	prerequisite = {
         focus = WES_orthodox_diplomacy
 	}
@@ -517,7 +517,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_plead_help
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_plead_help
 	prerequisite = {
         focus = WES_orthodox_diplomacy
 	}
@@ -528,7 +528,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_eurasian_connections
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_eurasian_connections
 	prerequisite = {
         focus = WES_keepers_athos
 	}
@@ -597,7 +597,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_establish_supplies
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_establish_supplies
 	prerequisite = {
         focus = WES_curious_proposal
 	}
@@ -608,7 +608,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_military_expertise
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_military_expertise
 	prerequisite = {
         focus = WES_curious_proposal
 	}
@@ -619,7 +619,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_anglo_russian_state
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_anglo_russian_state
 	prerequisite = {
         focus = WES_establish_supplies
 	}
@@ -1302,7 +1302,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_secret_orthodox
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_secret_orthodox
 	cost = 3.5
 	x = 5
 	y = 7
@@ -1310,7 +1310,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_head_church
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_head_church
 	prerequisite = {
         focus = WES_secret_orthodox
 	}
@@ -1321,7 +1321,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_anglican_tradition
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_anglican_tradition
 	prerequisite = {
         focus = WES_head_church
 	}
@@ -1335,7 +1335,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_under_unity
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_under_unity
 	prerequisite = {
         focus = WES_head_church
 	}
@@ -1349,7 +1349,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_define_dogmas
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_define_dogmas
 	prerequisite = {
         focus = WES_anglican_tradition
 	}
@@ -1360,7 +1360,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_patriarch_england
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_patriarch_england
 	prerequisite = {
         focus = WES_under_unity
 	}
@@ -1371,7 +1371,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_world_knows
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_world_knows
 	prerequisite = {
         focus = WES_define_dogmas
         focus = WES_patriarch_england
@@ -1383,7 +1383,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_orthodox_spectre
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_orthodox_spectre
 	prerequisite = {
         focus = WES_secret_orthodox
 	}
@@ -1394,7 +1394,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_easy_path
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_easy_path
 	prerequisite = {
         focus = WES_orthodox_spectre
 	}
@@ -1408,7 +1408,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_hard_way
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_hard_way
 	prerequisite = {
         focus = WES_orthodox_spectre
 	}
@@ -1422,7 +1422,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_education_programmes
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_education_programmes
 	prerequisite = {
         focus = WES_easy_path
 	}
@@ -1433,7 +1433,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_down_old
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_down_old
 	prerequisite = {
         focus = WES_hard_way
 	}
@@ -1444,7 +1444,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_convert_populace
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_convert_populace
 	prerequisite = {
         focus = WES_education_programmes
         focus = WES_down_old
@@ -1456,7 +1456,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_orders_chilvarly
-	icon = GFX_goal_WES
+	icon = GFX_goal_WES_orders_chilvarly
 	prerequisite = {
         focus = WES_world_knows
         focus = WES_convert_populace

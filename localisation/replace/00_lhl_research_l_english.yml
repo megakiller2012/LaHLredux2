@@ -9,11 +9,12 @@
  MOBILE_INFANTRY_LABEL_TT:0 "Improve speed and organization of motorized infantry."
  BLITZKRIEG_LABEL:0 "MODERN HUMAN WAVE"
  BLITZKRIEG_LABEL_TT:0 "Improve organization of armored units."
- 
  DESPERATE_DEFENSE_LABEL:0 "ARMOR DOMINATION"
  DESPERATE_DEFENSE_LABEL_TT:0 "Maximize recruitment and guerilla tactics."
  MODERN_BLITZKRIEG_LABEL:0 "HYBRID WARFARE"
  MODERN_BLITZKRIEG_LABEL_TT:0 "Improve army organization and counter tactics."
+ GRAND_BATTLEPLAN_DOCTRINE_LABEL:0 "ASSYMMETRIC WARFARE"
+ GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "A military doctrine focused on utilizing limited resources and manpower against a more powerful opponent through the use of special forces and unique echnical solutions."
  
  tactic_blitz:0 "Combined Assault"
  tactic_banzai_charge:0 "Shok Charge"
@@ -63,11 +64,6 @@
 
  
  
- 
- 
- 
- 
- 
  SUPERIOR_FIREPOWER_DOCTRINE_LABEL:0 "FULL SPECTRUM OPERATIONS"
  SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "A collection of atlantist war methods based on air superiority, tank assaults, elite infantry primacy and the delivery of freedom to all."
  DISPERSED_SUPPORT_LABEL:0 "AIRLAND BATTLE"
@@ -79,6 +75,38 @@
  SHOCK_AND_AWE_LABEL:0 ""
  SHOCK_AND_AWE_LABEL_TT:0 "Improve general effectiveness of army."
  
- GRAND_BATTLEPLAN_DOCTRINE_LABEL:0 "GRAND BATTLEPLAN DOCTRINE"
- GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "Extensive planning and preparation before engaging in battle is the key to success."
- MASS_ASSAULT_DOCTRINE_LABEL:0 "MASS ASSAULT DOCTRINE"
+ GRAND_BATTLEPLAN_DOCTRINE_LABEL:0 "ASSYMMETRIC WARFARE"
+ GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "A military doctrine focused on utilizing limited resources and manpower against a more powerful opponent through the use of special forces and unique echnical solutions."
+ 
+ grand_battle_plan:0 "Salvage Focus"
+ grand_battle_plan_desc:0 ""
+ trench_warfare:0 "Fast Redeployment"
+ trench_warfare_desc:0 ""
+ prepared_defense:0 "Mercenary Warfare"
+ prepared_defense_desc:0 ""
+ grand_assault:0 "Small-Unit Tactics"
+ grand_assault_desc:0 ""
+ grand_mechanized_offensive:0 "Technical Warfare"
+ grand_mechanized_offensive_desc:0 ""
+ assault_concentration:0 "Multitool Weapons"
+ assault_concentration_desc:0 ""
+ branch_interoperation:0 "Scrap Arsenal"
+ branch_interoperation_desc:0 ""
+ assault_breakthrough:0 "Specialized Weapons"
+ assault_breakthrough_desc:0 ""
+ central_planning:0 "Improvised Armour"
+ central_planning_desc:0 ""
+ c3i_theory:0 "Patriotic Zeal"
+ c3i_theory_desc:0 ""
+ infantry_offensive:0 "Special Forces Operations"
+ infantry_offensive_desc:0 ""
+ armored_operations:0 "Advanced Arsenal"
+ armored_operations_desc:0 ""
+ infiltration_assault:0 "Drone Support Programm"
+ infiltration_assault_desc:0 ""
+ night_assault_tactics:0 "Night Assault Tactics"
+ night_assault_tactics_desc:0 ""
+ attritional_containment:0 "Desperate Defence"
+ attritional_containment_desc:0 ""
+ infiltration_in_depth:0 "Total War"
+ infiltration_in_depth_desc:0 ""

@@ -59,4 +59,136 @@ spriteTypes = {
 		name = "GFX_goal_KNT_walled_cities"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_walled_cities.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_we_shall_never_surrender"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_we_shall_never_surrender.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_status_of_guilds"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_status_of_guilds.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_rational_egoism"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_rational_egoism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_titanic_ii"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_titanic_ii.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_no_more_wires"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_no_more_wires.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_iter_project"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_iter_project.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_greener_energy"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_greener_energy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_modern_prometheus"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_modern_prometheus.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_limit"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_limit.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_new_era_of_railways"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_new_era_of_railways.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_law"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_law.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_workshop_of_the_world"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_workshop_of_the_world.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_friendly_society"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_friendly_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_colt's_legacy"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_colt's_legacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_it_just_works"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_it_just_works.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_reward_the_geniuses"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_reward_the_geniuses.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_rebirth_of_gentries"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_rebirth_of_gentries.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_mercantilism_of_our_century"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_mercantilism_of_our_century.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_new_place_new_opportunity"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_new_place_new_opportunity.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_everything_within_britain"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_everything_within_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_manchester_model"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_manchester_model.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_gospel_of_wealth"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_gospel_of_wealth.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_support_of_local_communities"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_support_of_local_communities.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_noblesse_oblige"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_noblesse_oblige.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_made_in_britain"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_made_in_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_protect_the_inventors"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_protect_the_inventors.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_royal_ordnance_factories"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_royal_ordnance_factories.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_russel_group_competition"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_russel_group_competition.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_role_of_the_unions"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_role_of_the_unions.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_professionals_have_standards"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_professionals_have_standards.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_experimental_forces"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_experimental_forces.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_we_shall_never_surrender"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_we_shall_never_surrender.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_the_question_of_armor"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_question_of_armor.dds"
+	}
 }
