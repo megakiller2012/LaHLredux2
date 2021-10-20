@@ -1659,7 +1659,7 @@ technologies = {
 	tech_nbc_protection_company = {
 
 		enable_subunits = {
-			nbc_protection_company
+			nbcb_brigade
 		}
 		
 		path = {
@@ -1710,9 +1710,9 @@ technologies = {
 	
 	tech_nbc_protection_company2 = {
 
-		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.05
+		nbcb_brigade = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
 		}
 		
 		
@@ -1761,9 +1761,9 @@ technologies = {
 	
 	tech_nbc_protection_company3 = {
 
-		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.05
+		nbcb_brigade = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
 		}
 		path = {
 			leads_to_tech = tech_nbc_protection_company4
@@ -1804,9 +1804,9 @@ technologies = {
 	}
 	tech_nbc_protection_company4 = {
 
-		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.05
+		nbcb_brigade = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
 		}
 		path = {
 			leads_to_tech = tech_nbc_protection_company5
@@ -1848,9 +1848,9 @@ technologies = {
 	
 	tech_nbc_protection_company5 = {
 
-		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.05
+		nbcb_brigade = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
 		}
 		path = {
 			leads_to_tech = tech_nbc_protection_company6
@@ -1892,9 +1892,9 @@ technologies = {
 	
 	tech_nbc_protection_company6 = {
 
-		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.05
+		nbcb_brigade = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
 		}
 
 		research_cost = 1.5
