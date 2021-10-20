@@ -376,6 +376,16 @@ spriteTypes = {
 	}		
 	
 	SpriteType = {
+		name = "GFX_tech_signal_company5_medium"
+		texturefile = "gfx/interface/technologies/tech_signal_company5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_signal_company6_medium"
+		texturefile = "gfx/interface/technologies/tech_signal_company6.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_tech_military_police4_medium"
 		texturefile = "gfx/interface/technologies/tech_military_police4.dds"
 	}	

@@ -1,16 +1,12 @@
 technologies = {
 	
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
+	@2012 = 0
+	@2014 = 2
+	@2020 = 6
+	@2025 = 12
+	@2028 = 18
+	@2030 = 24
+	@2032 = 30
 
 	tech_uav = {
 		land_reinforce_rate = 0.05
@@ -42,7 +38,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 5
-				date > "1939.8.1"
+				date > "2017.8.1"
 			}
 		}
 		
@@ -102,7 +98,7 @@ technologies = {
 		}		
 		
 		research_cost = 1.0
-		start_year = 1918
+		start_year = 2012
 		folder = {
 			name = support_folder
 			position = { x = 0 y = 0 }
@@ -117,17 +113,17 @@ technologies = {
 			
 			modifier = {
 				factor = 4
-				date > "1937.1.1"
+				date > "2015.1.1"
 			}
 			
 			modifier = {
 				factor = 4
-				date > "1938.1.1"
+				date > "2016.1.1"
 			}
 			
 			modifier = {
 				factor = 4
-				date > "1939.1.1"
+				date > "2017.1.1"
 			}
 		}
 	}
@@ -145,10 +141,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = @2014 }
 		}
 		
 		categories = {
@@ -166,21 +162,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2015.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "2016.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "2017.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}
@@ -203,10 +199,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1939 }
+			position = { x = 0 y = @2020 }
 		}
 		
 		categories = {
@@ -219,17 +215,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -249,10 +245,10 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @2025 }
 		}
 		
 		categories = {
@@ -265,17 +261,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -289,12 +285,16 @@ technologies = {
 				defence = 0.1
 			}
 		}
+		path = {
+			leads_to_tech = tech_engineers5
+			research_cost_coeff = 1
+		}	
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1945 }
+			position = { x = 0 y = @2028 }
 		}
 		
 		categories = {
@@ -307,17 +307,105 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+	
+	tech_engineers5 = {
+
+		engineer = {
+			entrenchment  = 2
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+		}
+		path = {
+			leads_to_tech = tech_engineers6
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_engineers6 = {
+
+		engineer = {
+			entrenchment  = 2
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+		}	
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2035.1.1"
 			}
 		}
 	}
@@ -337,10 +425,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 2 y = @1936 }
+			position = { x = 2 y = @2014 }
 		}
 		
 		categories = {
@@ -358,21 +446,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2015.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "2016.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "2017.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}
@@ -389,10 +477,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 2 y = @1939 }
+			position = { x = 2 y = @2020 }
 		}
 		
 		categories = {
@@ -405,17 +493,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -431,10 +519,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 2 y = @1942 }
+			position = { x = 2 y = @2025 }
 		}
 		
 		categories = {
@@ -447,17 +535,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -466,12 +554,16 @@ technologies = {
 		category_recon = {
 			recon = 2
 		}
+		path = {
+			leads_to_tech = tech_recon5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 2 y = @1945 }
+			position = { x = 2 y = @2028 }
 		}
 		
 		categories = {
@@ -484,17 +576,97 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+	
+	tech_recon5 = {
+
+		category_recon = {
+			recon = 2
+		}
+		path = {
+			leads_to_tech = tech_recon6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_recon6 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2035.1.1"
 			}
 		}
 	}
@@ -511,10 +683,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @1936 }
+			position = { x = 4 y = @2014 }
 		}
 		
 		categories = {
@@ -524,39 +696,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.5
-			
-			modifier = {
-				factor = 5
-				tag = GER
-			}
-
-			modifier = {
-				factor = 10
-				tag = GER
-
-				POL = { has_capitulated = yes }
-				GER = { has_war = yes }
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ITA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 			
 			modifier = {
 				factor = 2
@@ -578,10 +717,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @1939 }
+			position = { x = 4 y = @2020 }
 		}
 		
 		categories = {
@@ -610,10 +749,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @1942 }
+			position = { x = 4 y = @2025 }
 		}
 		
 		categories = {
@@ -635,12 +774,16 @@ technologies = {
 		military_police = {
 			suppression_factor = 0.1
 		}
+		path = {
+			leads_to_tech = tech_military_police5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 4 y = @1945 }
+			position = { x = 4 y = @2028 }
 		}
 		
 		categories = {
@@ -657,6 +800,67 @@ technologies = {
 			}
 		}
 	}
+	
+	tech_military_police5 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
+		path = {
+			leads_to_tech = tech_military_police6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 4 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+	}
+	
+	tech_military_police6 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 4 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+			
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+	}
+	
 
 	tech_maintenance_company = {
 
@@ -670,10 +874,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 6 y = @1936 }
+			position = { x = 6 y = @2014 }
 		}
 		
 		categories = {
@@ -686,17 +890,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2015.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2016.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2017.1.1"
 			}
 		}
 	}
@@ -715,10 +919,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 6 y = @1939 }
+			position = { x = 6 y = @2020 }
 		}
 		
 		categories = {
@@ -731,17 +935,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1941.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -758,10 +962,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 6 y = @1942 }
+			position = { x = 6 y = @2025 }
 		}
 		
 		categories = {
@@ -774,17 +978,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -794,12 +998,16 @@ technologies = {
 			reliability_factor = 0.05
 			equipment_capture_factor = 0.05
 		}
+		path = {
+			leads_to_tech = tech_maintenance_company5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 6 y = @1945 }
+			position = { x = 6 y = @2028 }
 		}
 		
 		categories = {
@@ -812,20 +1020,103 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "2031.1.1"
 			}
 		}
 	}
+	
+	tech_maintenance_company5 = {
+
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+		path = {
+			leads_to_tech = tech_maintenance_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 6 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_maintenance_company6 = {
+
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 6 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
+			}
+		}
+	}
+
 
 	tech_field_hospital = {
 
@@ -843,10 +1134,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @1936 }
+			position = { x = 8 y = @2014 }
 		}
 		
 		categories = {
@@ -860,17 +1151,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2015.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2016.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2017.1.1"
 			}
 		}
 	}
@@ -888,10 +1179,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @1939 }
+			position = { x = 8 y = @2020 }
 		}
 		
 		categories = {
@@ -905,17 +1196,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1941.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -932,10 +1223,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @1942 }
+			position = { x = 8 y = @2025 }
 		}
 		
 		categories = {
@@ -949,17 +1240,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -969,12 +1260,16 @@ technologies = {
 			casualty_trickleback = 0.1
 			experience_loss_factor = -0.10
 		}
+		path = {
+			leads_to_tech = tech_field_hospital5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 8 y = @1945 }
+			position = { x = 8 y = @2028 }
 		}
 		
 		categories = {
@@ -988,17 +1283,101 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+	
+	tech_field_hospital5 = {
+
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+		path = {
+			leads_to_tech = tech_field_hospital6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 8 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			hospital_tech
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_field_hospital6 = {
+
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 8 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			hospital_tech
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
 			}
 		}
 	}
@@ -1019,10 +1398,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @1936 }
+			position = { x = 10 y = @2014 }
 		}
 		
 		categories = {
@@ -1036,21 +1415,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2015.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2016.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2017.1.1"
 			}
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}
@@ -1069,10 +1448,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @1939 }
+			position = { x = 10 y = @2020 }
 		}
 		
 		categories = {
@@ -1086,17 +1465,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 
 			modifier = {
@@ -1118,10 +1497,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @1942 }
+			position = { x = 10 y = @2025 }
 		}
 		
 		categories = {
@@ -1135,17 +1514,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -1155,12 +1534,16 @@ technologies = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
+		path = {
+			leads_to_tech = tech_logistics_company5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 10 y = @1945 }
+			position = { x = 10 y = @2028 }
 		}
 		
 		categories = {
@@ -1174,17 +1557,101 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+	
+	tech_logistics_company5 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+		path = {
+			leads_to_tech = tech_logistics_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 10 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_logistics_company6 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 10 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2035.1.1"
 			}
 		}
 	}
@@ -1205,10 +1672,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @1936 }
+			position = { x = 12 y = @2014 }
 		}
 		
 		categories = {
@@ -1222,21 +1689,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2015.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2016.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2017.1.1"
 			}
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}
@@ -1255,10 +1722,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @1939 }
+			position = { x = 12 y = @2020 }
 		}
 		
 		categories = {
@@ -1272,17 +1739,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 
 			modifier = {
@@ -1304,10 +1771,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @1942 }
+			position = { x = 12 y = @2025 }
 		}
 		
 		categories = {
@@ -1321,17 +1788,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -1341,12 +1808,16 @@ technologies = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
+		path = {
+			leads_to_tech = tech_nbc_protection_company5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 12 y = @1945 }
+			position = { x = 12 y = @2028 }
 		}
 		
 		categories = {
@@ -1360,17 +1831,101 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+	
+	tech_nbc_protection_company5 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+		path = {
+			leads_to_tech = tech_nbc_protection_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 12 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_nbc_protection_company6 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 12 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			motorized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "2035.1.1"
 			}
 		}
 	}
@@ -1392,10 +1947,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1936 }
+			position = { x = 14 y = @2014 }
 		}
 		
 		categories = {
@@ -1410,7 +1965,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}
@@ -1428,10 +1983,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1939 }
+			position = { x = 14 y = @2020 }
 		}
 		
 		categories = {
@@ -1445,17 +2000,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -1471,10 +2026,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1942 }
+			position = { x = 14 y = @2025 }
 		}
 		
 		categories = {
@@ -1488,17 +2043,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -1507,12 +2062,16 @@ technologies = {
 		signal_company = {
 			initiative = 0.12
 		}
+		path = {
+			leads_to_tech = tech_signal_company5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 14 y = @1945 }
+			position = { x = 14 y = @2028 }
 		}
 		
 		categories = {
@@ -1526,17 +2085,99 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+	
+	tech_signal_company5 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+		path = {
+			leads_to_tech = tech_signal_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 14 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_signal_company6 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 14 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
 			}
 		}
 	}
@@ -1556,10 +2197,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @1936 }
+			position = { x = 16 y = @2014 }
 		}
 		
 		categories = {
@@ -1574,7 +2215,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}	
@@ -1591,10 +2232,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @1939 }
+			position = { x = 16 y = @2020 }
 		}
 		
 		categories = {
@@ -1608,17 +2249,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -1634,10 +2275,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @1942 }
+			position = { x = 16 y = @2025 }
 		}
 		
 		categories = {
@@ -1651,17 +2292,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -1670,12 +2311,16 @@ technologies = {
 		signal_company = {
 			initiative = 0.12
 		}
+		path = {
+			leads_to_tech = tech_uav_company5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 16 y = @1945 }
+			position = { x = 16 y = @2028 }
 		}
 		
 		categories = {
@@ -1689,20 +2334,103 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "2031.1.1"
 			}
 		}
 	}	
+	
+	tech_uav_company5 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+		path = {
+			leads_to_tech = tech_uav_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_uav_company6 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
+			}
+		}
+	}
+	
 	tech_transport_helicopters_company = {
 
 		enable_subunits = {
@@ -1718,10 +2446,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 18 y = @1936 }
+			position = { x = 18 y = @2014 }
 		}
 		
 		categories = {
@@ -1736,7 +2464,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}	
@@ -1753,10 +2481,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 18 y = @1939 }
+			position = { x = 18 y = @2020 }
 		}
 		
 		categories = {
@@ -1770,17 +2498,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -1796,10 +2524,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 18 y = @1942 }
+			position = { x = 18 y = @2025 }
 		}
 		
 		categories = {
@@ -1813,17 +2541,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -1832,12 +2560,16 @@ technologies = {
 		signal_company = {
 			initiative = 0.12
 		}
+		path = {
+			leads_to_tech = tech_transport_helicopters_company5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 18 y = @1945 }
+			position = { x = 18 y = @2028 }
 		}
 		
 		categories = {
@@ -1851,20 +2583,102 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+
+	tech_transport_helicopters_company5 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+		path = {
+			leads_to_tech = tech_transport_helicopters_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 18 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
 			}
 		}
 	}	
+
+	tech_transport_helicopters_company6 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 18 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
+			}
+		}
+	}		
 
 	tech_assault_helicopters_company = {
 
@@ -1881,10 +2695,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1936
+		start_year = 2014
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @1936 }
+			position = { x = 20 y = @2014 }
 		}
 		
 		categories = {
@@ -1899,7 +2713,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1940.1.1"
+				date > "2018.1.1"
 			}
 		}
 	}	
@@ -1916,10 +2730,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @1939 }
+			position = { x = 20 y = @2020 }
 		}
 		
 		categories = {
@@ -1933,17 +2747,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "2020.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1938.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1939.1.1"
+				date > "2022.1.1"
 			}
 		}
 	}
@@ -1959,10 +2773,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2025
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @1942 }
+			position = { x = 20 y = @2025 }
 		}
 		
 		categories = {
@@ -1976,17 +2790,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1943.1.1"
+				date > "2026.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1944.1.1"
+				date > "2027.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1945.1.1"
+				date > "2028.1.1"
 			}
 		}
 	}
@@ -1995,12 +2809,16 @@ technologies = {
 		signal_company = {
 			initiative = 0.12
 		}
+		path = {
+			leads_to_tech = tech_assault_helicopters_company5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2028
 		folder = {
 			name = support_folder
-			position = { x = 20 y = @1945 }
+			position = { x = 20 y = @2028 }
 		}
 		
 		categories = {
@@ -2014,17 +2832,99 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1946.1.1"
+				date > "2029.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1947.1.1"
+				date > "2030.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1948.1.1"
+				date > "2031.1.1"
+			}
+		}
+	}
+	
+	tech_assault_helicopters_company5 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+		path = {
+			leads_to_tech = tech_assault_helicopters_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2030
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @2030 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2031.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2032.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+		}
+	}
+	
+	tech_assault_helicopters_company6 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+
+		research_cost = 1.5
+		start_year = 2032
+		folder = {
+			name = support_folder
+			position = { x = 20 y = @2032 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "2033.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2034.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "2035.1.1"
 			}
 		}
 	}
