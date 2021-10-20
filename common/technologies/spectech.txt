@@ -141,6 +141,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			tech_support = 1
+		}
+		
 		research_cost = 1.5
 		
 		folder = {
@@ -214,7 +218,11 @@ technologies = {
 			exosuit_brigade
 		}
 		start_year = 2020
-
+		
+		dependencies = {
+			tech_support = 1
+		}	
+		
 		path = {
 			research_cost_coeff = 1
 		}
