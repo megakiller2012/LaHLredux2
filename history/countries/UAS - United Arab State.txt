@@ -1,6 +1,11 @@
 capital = 741
 oob = "UAS_2020"
 
+create_faction = maghreb_jamahiriya
+add_to_faction = SIC
+add_to_faction = CHD
+add_to_faction = NGR
+
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -62,36 +67,7 @@ if = {
 		puppet = CHD
 	}
 }
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = NGR
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = NGR
-	}
-}
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = SIC
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = SIC
-	}
-}
+
 create_faction = maghreb_jamahiriya
 add_to_faction = SIC
 add_to_faction = CHD
