@@ -25,6 +25,36 @@ set_popularities = {
 	ur_fascism = 34
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = HOL
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = FRA
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = EAG
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = LUX
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = GER
+    value = 200
+}
+
 create_country_leader = {
 	name = "Elisabeth I"
 	picture = "Portrait_BEL_Elisabeth_I.dds"

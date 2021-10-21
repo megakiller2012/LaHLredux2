@@ -20,6 +20,24 @@ set_popularities = {
 	national_bolshevism  = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = SIC
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = CHD
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = NGR
+    value = 200
+}
+
 create_country_leader = {
 	name = "Muammar al-Gaddafi"
 	picture = "Portrait_UAS_Muammar_Al-Gaddafi.dds"
@@ -44,4 +62,37 @@ if = {
 		puppet = CHD
 	}
 }
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = NGR
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = NGR
+	}
+}
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SIC
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = SIC
+	}
+}
 create_faction = maghreb_jamahiriya
+add_to_faction = SIC
+add_to_faction = CHD
+add_to_faction = NGR

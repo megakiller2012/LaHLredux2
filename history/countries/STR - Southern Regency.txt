@@ -22,6 +22,24 @@ set_popularities = {
 	millenarism  = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = COU
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = KAL
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = ACH
+    value = 200
+}
+
 create_country_leader = {
 	name = "Igor Tal'kov"
 	desc = ""

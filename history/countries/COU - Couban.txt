@@ -24,6 +24,23 @@ set_popularities = {
 	ur_fascism = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = ACH
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = KAL
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = STR
+    value = 200
+}
 
 create_country_leader = {
 	name = "Andrej Tkachyov"
@@ -38,7 +55,6 @@ create_country_leader = {
 create_faction = sanitary_cordon
 add_to_faction = ACH
 add_to_faction = KAL
-add_to_faction = KHA
-add_to_faction = LUH
+add_to_faction = STR
 
 

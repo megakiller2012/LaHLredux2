@@ -20,6 +20,24 @@ set_popularities = {
 	right_populism  = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = UAS
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = CHD
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = NGR
+    value = 200
+}
+
 create_country_leader = {
 	name = "Hannibal Gaddafi"
 	picture = "Portrait_HMG_Hannibal_Gaddafi.dds"

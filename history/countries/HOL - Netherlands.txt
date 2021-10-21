@@ -20,6 +20,36 @@ set_popularities = {
 	socialism  = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = GER
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = FRA
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = EAG
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = LUX
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = BEL
+    value = 200
+}
+
 create_country_leader = {
 	name = "Catharina-Amalia I"
 	picture = "Portrait_HOL_Catharina-Amalia_I.dds"
