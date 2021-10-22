@@ -57,6 +57,11 @@ technologies = {
 		enable_equipments = {
 			landing_tank_equipment_1
 		}
+		
+		enable_subunits = {
+			landing_tank_battalion
+		}
+		
 		start_year = 2020
 
 		path = {
@@ -109,6 +114,10 @@ technologies = {
 		enable_equipments = {
 			evangelion_equipment_1
 		}
+		enable_subunits = {
+			evangelion_brigade
+		}
+		
 		start_year = 2020
 
 		path = {
@@ -164,6 +173,10 @@ technologies = {
 
 		enable_equipments = {
 			unmanned_tank_equipment_1
+		}
+		
+		enable_subunits = {
+			unmanned_tank_battalion
 		}
 		start_year = 2020
 
