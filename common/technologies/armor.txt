@@ -60,7 +60,7 @@ technologies = {
 			outdated_main_battle_tank_equipment
 		}
 		enable_subunits = {
-			medium_armor
+			MBT
 		}
 		
 		path = {
@@ -87,7 +87,7 @@ technologies = {
 			outdated_main_battle_tank_equipment
 		}
 		enable_subunits = {
-			medium_armor
+			MBT
 		}
 
 		on_research_complete = {
