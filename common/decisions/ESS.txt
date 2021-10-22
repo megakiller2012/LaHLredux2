@@ -67,6 +67,45 @@ ESS_control_over_london = {
 	}
 }	
 
+ESS_great_gangs_dec = {
+    recruit_the_great_chavs = {
+	    cost = 50
+		days_remove = 1
+		visible = {
+			NOT = { has_global_flag = ESS_chavs_recruited }
+			NOT = { has_global_flag = ESS_chavs_integrated }
+		}
+		complete_effect = {
+				set_global_flag = ESS_chavs_recruited
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"Great Chavs\" division_template = \"London Bands\" start_experience_factor = 0.8 start_equipment_factor = 0.8"
+					prioritize = { 1160 }
+					owner = ESS
+				}
+			}
+			
+		 }
+	} 
+	integrate_the_great_chavs = {
+	    cost = 0
+		days_remove = 1
+		visible = {
+			NOT = { has_global_flag = ESS_chavs_recruited }
+			NOT = { has_global_flag = ESS_chavs_integrated }
+		}
+		complete_effect = {
+		set_global_flag = ESS_chavs_integrated
+            add_manpower = 4000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+					amount = 400
+					producer = ESS
+}
+		} 
+	}
+}	
+
 ESS_prisoners_of_war = {
     ESS_deal_galloway = {
 	    visible = {
