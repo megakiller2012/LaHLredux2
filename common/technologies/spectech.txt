@@ -191,6 +191,11 @@ technologies = {
 		enable_equipments = {
 			power_armor_weapon_equipment_1
 		}
+		
+		enable_subunits = {
+			power_armor_infantry
+		}
+		
 		start_year = 2020
 
 		path = {
