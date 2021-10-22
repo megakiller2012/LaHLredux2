@@ -4716,10 +4716,10 @@ technologies = {
 	
 	outdated_infantry_fighting_vehicle = {
 		enable_equipments = {
-			infantry_fighting_vehicle_equipment 
+			infantry_fighting_vehicle_equipment_1
 		}
 		enable_subunits = {
-			light_armor
+			IFV
 		}	
 		path = {
 			leads_to_tech = outdated_ifv_track
