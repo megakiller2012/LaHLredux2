@@ -335,7 +335,6 @@ equipments = {
 	power_armor_weapon_equipment_1 = {
 		year = 2021
 		archetype = power_armor_weapon_equipment
-		is_buildable = yes
 		priority = 40
 		visual_level = 0
 	}
