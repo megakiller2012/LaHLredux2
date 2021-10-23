@@ -1,0 +1,17 @@
+state={
+	id=1283
+	name="STATE_1283"
+	provinces={
+		1313 3045 4497 6891 9326 13109 13171 13177 13180 13192 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = BAS
+		add_core_of = BAS
+		victory_points = {
+
+		}
+
+	}
+}

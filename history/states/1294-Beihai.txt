@@ -1,0 +1,20 @@
+
+state={
+	id=1294
+	name="STATE_1294"
+
+	history={
+		owner = BFA
+		add_core_of = BFA
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		865 3192 14038 14057 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
