@@ -1,0 +1,17 @@
+state={
+	id=1289
+	name="STATE_1289"
+	provinces={
+		2678 3345 5698 7907 9509 13188 13218 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = CHQ
+		add_core_of = CHQ
+		victory_points = {
+
+		}
+
+	}
+}

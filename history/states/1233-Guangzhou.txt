@@ -1,12 +1,9 @@
+
 state={
 	id=1233
 	name="STATE_1233"
-	provinces={
-		1237 1783 1964 2673 3931 4544 5063 6236 8751 8829 9332 9377 9752 13847 13848 13854 13881 13896 13905 13906 13921 13924 13931 13932 13975 14034 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-		history={
+
+	history={
 		owner = GUD
 		add_core_of = GUD
 		victory_points = {
@@ -14,4 +11,10 @@ state={
 		}
 
 	}
+
+	provinces={
+		1237 1783 6236 8751 8829 9332 9377 9752 13847 13881 13905 13906 13921 13924 13931 13932 13975 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
 }

@@ -184,11 +184,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_experimental_forces.dds"
 	}
 	SpriteType = {
-		name = "GFX_goal_KNT_we_shall_never_surrender"
-		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_we_shall_never_surrender.dds"
+		name = "GFX_goal_KNT_we_shall_go_on_to_the_end"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_we_shall_go_on_to_the_end.dds"
 	}
 	SpriteType = {
 		name = "GFX_goal_KNT_the_question_of_armor"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_the_question_of_armor.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_henry's_toys"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_henry's_toys.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_sabotage_experience"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_sabotage_experience.dds"
 	}
 }

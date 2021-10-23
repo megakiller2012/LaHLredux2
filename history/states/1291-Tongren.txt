@@ -1,0 +1,20 @@
+
+state={
+	id=1291
+	name="STATE_1291"
+
+	history={
+		owner = CHQ
+		add_core_of = CHQ
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		4036 4219 5428 6573 13290 13319 13320 13367 13391 13398 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

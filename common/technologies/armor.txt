@@ -166,7 +166,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			maximum_speed = 0.02
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -213,7 +215,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		category_all_armor = {
+			breakthrough = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -260,7 +264,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		category_all_armor = {
+			fuel_consumption = -0.02
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -307,7 +313,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		category_all_armor = {
+			armor_value = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -354,7 +362,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		category_all_armor = {
+			armor_value = 0.15
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -397,7 +407,9 @@ technologies = {
 			leads_to_tech = basic_main_battle_tank
 			research_cost_coeff = 1
 		}
-		
+		category_all_armor = {
+			reliability = 0.1
+		}
 		categories = {
 			armor
 		}
@@ -439,7 +451,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -6 y = 4 }
 		}
-		
+		category_all_armor = {
+			soft_attack = 0.1
+		}			
 		path = {
 			leads_to_tech = outdated_tank_cannon_1
 			research_cost_coeff = 1
@@ -495,7 +509,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		category_all_armor = {
+			hard_attack = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -542,7 +558,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		category_all_armor = {
+			ap_attack = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -2415,10 +2433,10 @@ technologies = {
 	
 	outdated_armoured_personnel_carrier = {
 		enable_equipments = {
-			armoured_personnel_carrier_equipment
+			armoured_personnel_carrier_equipment_1
 		}
 		enable_subunits = {
-			light_armor
+			APC
 		}	
 		path = {
 			leads_to_tech = outdated_apc_track
