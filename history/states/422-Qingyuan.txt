@@ -1,9 +1,12 @@
-
 state={
 	id=422
 	name="STATE_422"
-
-	history={
+	provinces={
+		2149 2781 3664 5687 5750 5762 6798 6848 7076 7747 7876 8519 8705 9073 9181 9250 13678 13759 13782 13799 13805 13820 17482
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+		history={
 		owner = GUD
 		add_core_of = GUD
 		victory_points = {
@@ -11,10 +14,4 @@ state={
 		}
 
 	}
-
-	provinces={
-		2673 3931 5063 5750 5762 6798 7747 13799 13805 13854 13896 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
 }

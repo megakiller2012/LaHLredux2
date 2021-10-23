@@ -1,9 +1,12 @@
-
 state={
 	id=1231
 	name="STATE_1231"
-
-	history={
+	provinces={
+		419 1313 1625 2444 3045 4497 5919 6891 7198 7577 9326 13109 13171 13177 13180 13192 13212 13219 13236 13242 13257 13292 13301 13326 13336 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+		history={
 		owner = BAS
 		add_core_of = BAS
 		victory_points = {
@@ -11,10 +14,4 @@ state={
 		}
 
 	}
-
-	provinces={
-		1625 13257 13292 13301 13326 13336 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
 }
