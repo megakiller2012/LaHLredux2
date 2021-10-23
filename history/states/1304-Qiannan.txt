@@ -1,0 +1,20 @@
+
+state={
+	id=1304
+	name="STATE_1304"
+
+	history={
+		owner = SWU
+		add_core_of = SWU
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		1687 4753 6130 8479 9532 13636 13651 13677 13692 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

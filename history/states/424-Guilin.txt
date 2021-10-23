@@ -1,15 +1,20 @@
+
 state={
 	id=424
 	name="STATE_424"
-	provinces={
-		1113 1939 3135 3410 4836 4991 5323 6361 6600 7093 7678 8188 9790 13576 13787 13810 13830 13889 		
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = BFA
 		add_core_of = BFA
 		victory_points = {
 
 		}
+
+	}
+
+	provinces={
+		1113 1939 3135 3410 4836 5323 6361 6600 7093 7208 8188 9790 13564 13576 13787 13810 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,20 @@
+
+state={
+	id=1235
+	name="STATE_1235"
+
+	history={
+		owner = GUD
+		add_core_of = GUD
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		1425 4444 6835 9209 9366 13984 13988 14019 14034 14040 14041 14042 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
