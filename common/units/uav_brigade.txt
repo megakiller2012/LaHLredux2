@@ -1,24 +1,21 @@
 sub_units = {
-
 	uav_brigade = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
-		active = no
+		active = yes
 		
 		type = {
 			infantry
 			support
 		}
 		
-		group = armor
+		group = support
 		
 		categories = {
-			category_front_line
 			category_support_battalions
 			category_army
-			category_recon
 		}
 
 		combat_width = 1
@@ -34,7 +31,6 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.1
 
-		#Tanks are awesome
 		soft_attack = 0.5
 
 		suppression = 2

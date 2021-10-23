@@ -23,6 +23,36 @@ set_popularities = {
 	right_populism = 15
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = HOL
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = GER
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = EAG
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = LUX
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = BEL
+    value = 200
+}
+
 create_country_leader = {
 	name = "Jose Bove"
 	picture = "Portrait_FRA_Jose_Bove.dds"

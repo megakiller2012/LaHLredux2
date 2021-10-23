@@ -59,3 +59,39 @@ country_event = {
 		}
     }   	
 }
+country_event = {
+	id = EAG_event.3
+	title = EAG_event.3.t
+	desc = EAG_event.3.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = EAG_event.3.a
+		FROM = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_free
+			}
+		}
+		hidden_effect = {
+		    GER = {
+			    country_event = { id = GER_event.5 days = 2 }
+		    }
+		}
+    }   	
+}
+country_event = {
+	id = EAG_event.4
+	title = EAG_event.4.t
+	desc = EAG_event.4.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = EAG_event.4.a
+		######give helis and manpoper
+    }   	
+}

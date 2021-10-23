@@ -20,6 +20,24 @@ set_popularities = {
 	national_bolshevism  = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = SIC
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = UAS
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = NGR
+    value = 200
+}
+
 create_country_leader = {
 	name = "Khamis Gaddafi"
 	picture = "Portrait_CHD_Khamis_Gaddafi.dds"

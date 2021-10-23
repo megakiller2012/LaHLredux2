@@ -415,6 +415,10 @@
 		prerequisite = {
 			focus = ESS_luciferoverlondon 
 		}
+		completion_reward = {
+		    
+			}
+		
 		x = 7
 		y = 1
 

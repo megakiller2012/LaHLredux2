@@ -237,7 +237,14 @@ spriteTypes = {
 		name = "GFX_tech_nbc_protection_company4_medium"
 		texturefile = "gfx/interface/technologies/tech_nbc_protection_company_equipment_4.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_tech_nbc_protection_company5_medium"
+		texturefile = "gfx/interface/technologies/tech_nbc_protection_company_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_nbc_protection_company6_medium"
+		texturefile = "gfx/interface/technologies/tech_nbc_protection_company_equipment_6.dds"
+	}
 	SpriteType = {
 		name = "GFX_tech_transport_helicopters_company_medium"
 		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_1.dds"
@@ -253,6 +260,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_transport_helicopters_company4_medium"
 		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_transport_helicopters_company5_medium"
+		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_transport_helicopters_company6_medium"
+		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_6.dds"
 	}
 
 	SpriteType = {
@@ -271,6 +286,14 @@ spriteTypes = {
 		name = "GFX_tech_assault_helicopters_company4_medium"
 		texturefile = "gfx/interface/technologies/tech_assault_helicopters_equipment_4.dds"
 	}
+	SpriteType = {
+		name = "GFX_tech_assault_helicopters_company5_medium"
+		texturefile = "gfx/interface/technologies/tech_assault_helicopters_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_assault_helicopters_company6_medium"
+		texturefile = "gfx/interface/technologies/tech_assault_helicopters_equipment_6.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_tech_uav_company_medium"
@@ -287,7 +310,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_uav_company4_medium"
 		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_4.dds"
-	}	
+	}
+	SpriteType = {
+		name = "GFX_tech_uav_company5_medium"
+		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_uav_company6_medium"
+		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_6.dds"
+	}		
 	
 	spriteType = {
         name = "GFX_outdated_tank_track_medium"

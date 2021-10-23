@@ -20,6 +20,36 @@ set_popularities = {
 	hegemonism  = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = HOL
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = FRA
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = EAG
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = GER
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = BEL
+    value = 200
+}
+
 create_country_leader = {
 	name = "Jup Weber"
 	picture = "Portrait_LUX_Jup_Weber.dds"

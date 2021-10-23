@@ -1,6 +1,11 @@
 capital = 741
 oob = "UAS_2020"
 
+create_faction = maghreb_jamahiriya
+add_to_faction = SIC
+add_to_faction = CHD
+add_to_faction = NGR
+
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -18,6 +23,24 @@ set_politics = {
 
 set_popularities = {
 	national_bolshevism  = 100
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = SIC
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = CHD
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = NGR
+    value = 200
 }
 
 create_country_leader = {
@@ -44,4 +67,8 @@ if = {
 		puppet = CHD
 	}
 }
+
 create_faction = maghreb_jamahiriya
+add_to_faction = SIC
+add_to_faction = CHD
+add_to_faction = NGR

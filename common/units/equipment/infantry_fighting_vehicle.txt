@@ -48,7 +48,7 @@ equipments = {
 	infantry_fighting_vehicle_equipment_1 = {
 		year = 1934
 		
-		archetype = amphibious_tank_equipment
+		archetype = infantry_fighting_vehicle_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = no

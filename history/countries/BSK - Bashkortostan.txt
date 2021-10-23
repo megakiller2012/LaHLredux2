@@ -23,4 +23,16 @@ set_popularities = {
 	neocameralism = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = CHS
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = TAT
+    value = 200
+}
+
  ##кто вернет хабирова - выебу##

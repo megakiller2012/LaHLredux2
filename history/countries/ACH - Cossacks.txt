@@ -23,6 +23,24 @@ set_popularities = {
 	hegemonism = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = COU
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = KAL
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = STR
+    value = 200
+}
+
 create_country_leader = {
 	name = "Nikolaj Kozitsyn"
 	desc = "POLITICS_KOS_DESC"

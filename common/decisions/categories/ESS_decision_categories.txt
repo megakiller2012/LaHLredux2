@@ -8,6 +8,14 @@ ESS_control_over_london = {
 	visible_when_empty = yes
 	allowed = { original_tag = ESS }
 }
+ESS_great_gangs_dec = {
+	icon = GFX_
+	visible = {
+	    has_completed_focus = ESS_greater_gangs_of_london
+	}
+	visible_when_empty = no
+	allowed = { original_tag = ESS }
+}
 
 ESS_prisoners_of_war = {
 	icon = GFX_
