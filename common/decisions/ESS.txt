@@ -164,6 +164,9 @@ ESS_great_gangs_dec = {
 					owner = ESS
 			
 		 }
+		 }
+		 }
+		 }
 
 	integrate_the_london_hearts = {
 	    cost = 0
@@ -182,8 +185,15 @@ ESS_great_gangs_dec = {
 					amount = 2000
 					producer = ESS
 								}
+		    ESS = {
+			    country_event = {
+				    days = 20
+					id = ESS_event.10_1
+				}
+			}
+		}
 		} 
-	}
+	
 			
 
     recruit_the_young_league = {
