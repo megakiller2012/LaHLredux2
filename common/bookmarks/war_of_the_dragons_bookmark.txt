@@ -77,14 +77,14 @@ bookmarks={
 			}
 		}
 
-		"---"={
-			history = "OTHER_LHLBOOKMARK_DESC"
-		}
+#		"---"={
+#			history = "OTHER_LHLBOOKMARK_DESC"
+#		}
 
 		# Minors
 
 		SCO = {
-			minor = yes
+			#minor = yes
 			history = "SCO_WODBOOKMARK_DESC"
 			ideology = right_populism
 			ideas = {
@@ -96,7 +96,7 @@ bookmarks={
 		}
 
 		WLS = {
-			minor = yes
+			#minor = yes
 			history = "WLS_WODBOOKMARK_DESC"
 			ideology = regressionism
 			ideas = {
@@ -108,7 +108,7 @@ bookmarks={
 		}
 
 		IRE = {
-			minor = yes
+			#minor = yes
 			history = "IRE_WODBOOKMARK_DESC"
 			ideology = regressionism
 			ideas = {
