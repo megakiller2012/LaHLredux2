@@ -487,4 +487,60 @@ spriteTypes = {
 		name = "GFX_goal_MRC_The_Crowley_Foundation"
 		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Crowley_Foundation.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Construction_Projects"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Construction_Projects.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Establish_The_Holiday_Season"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Establish_The_Holiday_Season.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Rampant_Individualism"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Rampant_Individualism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Sexual_Liberation"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Sexual_Liberation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Great_Monument"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Great_Monument.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Truths_Of_Thelema"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Truths_Of_Thelema.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Fertility_And_Progress"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Fertility_And_Progress.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Media_Presence"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Media_Presence.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Natural_Balance"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Natural_Balance.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Reshape_The_Infrastructure"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Reshape_The_Infrastructure.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_Societal_Integration"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_Societal_Integration.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_High_Priestess_Of_England"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_High_Priestess_Of_England.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Sincerity_Of_Wicca"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Sincerity_Of_Wicca.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_MRC_The_Witch_Estate"
+		texturefile = "gfx/interface/goals/MRC/goal_MRC_The_Witch_Estate.dds"
+	}
 }
