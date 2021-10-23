@@ -166,7 +166,7 @@ technologies = {
 		categories = {
 			armor
 		}
-		category_all_armor = {
+		MBT = {
 			maximum_speed = 0.02
 		}		
 		ai_will_do = {
@@ -2433,10 +2433,10 @@ technologies = {
 	
 	outdated_armoured_personnel_carrier = {
 		enable_equipments = {
-			armoured_personnel_carrier_equipment
+			armoured_personnel_carrier_equipment_1
 		}
 		enable_subunits = {
-			light_armor
+			APC
 		}	
 		path = {
 			leads_to_tech = outdated_apc_track
