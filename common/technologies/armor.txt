@@ -215,7 +215,7 @@ technologies = {
 		categories = {
 			armor
 		}
-		category_all_armor = {
+		MBT = {
 			breakthrough = 0.1
 		}		
 		ai_will_do = {
@@ -264,7 +264,7 @@ technologies = {
 		categories = {
 			armor
 		}
-		category_all_armor = {
+		MBT = {
 			fuel_consumption = -0.02
 		}			
 		ai_will_do = {
@@ -313,7 +313,7 @@ technologies = {
 		categories = {
 			armor
 		}
-		category_all_armor = {
+		MBT = {
 			armor_value = 0.1
 		}			
 		ai_will_do = {
@@ -362,7 +362,7 @@ technologies = {
 		categories = {
 			armor
 		}
-		category_all_armor = {
+		MBT = {
 			armor_value = 0.15
 		}			
 		ai_will_do = {
@@ -407,7 +407,7 @@ technologies = {
 			leads_to_tech = basic_main_battle_tank
 			research_cost_coeff = 1
 		}
-		category_all_armor = {
+		MBT = {
 			reliability = 0.1
 		}
 		categories = {
@@ -451,7 +451,7 @@ technologies = {
 			name = armour_folder
 			position = { x = -6 y = 4 }
 		}
-		category_all_armor = {
+		MBT = {
 			soft_attack = 0.1
 		}			
 		path = {
@@ -509,7 +509,7 @@ technologies = {
 		categories = {
 			armor
 		}
-		category_all_armor = {
+		MBT = {
 			hard_attack = 0.1
 		}			
 		ai_will_do = {
@@ -558,7 +558,7 @@ technologies = {
 		categories = {
 			armor
 		}
-		category_all_armor = {
+		MBT = {
 			ap_attack = 0.1
 		}			
 		ai_will_do = {
@@ -647,7 +647,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			maximum_speed = 0.02
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -694,7 +696,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			breakthrough = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -741,7 +745,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			fuel_consumption = -0.02
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -788,7 +794,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			armor_value = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -835,7 +843,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			armor_value = 0.15
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -878,7 +888,9 @@ technologies = {
 			leads_to_tech = improved_main_battle_tank
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			reliability = 0.1
+		}		
 		categories = {
 			armor
 		}
@@ -920,7 +932,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -6 y = 12 }
 		}
-		
+		MBT = {
+			soft_attack = 0.1
+		}			
 		path = {
 			leads_to_tech = basic_tank_cannon_1
 			research_cost_coeff = 1
@@ -972,7 +986,9 @@ technologies = {
 			leads_to_tech = basic_tank_cannon_2
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			hard_attack = 0.1
+		}		
 		categories = {
 			armor
 		}
@@ -1023,7 +1039,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			ap_attack = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1110,7 +1128,9 @@ technologies = {
 			leads_to_tech = improved_tank_track_1
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			maximum_speed = 0.02
+		}			
 		categories = {
 			armor
 		}
@@ -1157,7 +1177,9 @@ technologies = {
 			leads_to_tech = improved_tank_track_2
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			breakthrough = 0.1
+		}		
 		categories = {
 			armor
 		}
@@ -1208,7 +1230,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			fuel_consumption = -0.02
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1255,7 +1279,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			armor_value = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1302,7 +1328,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			armor_value = 0.15
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1349,7 +1377,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			reliability = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1396,7 +1426,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			soft_attack = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1439,7 +1471,9 @@ technologies = {
 			leads_to_tech = improved_tank_cannon_2
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			hard_attack = 0.1
+		}			
 		categories = {
 			armor
 		}
@@ -1490,7 +1524,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			ap_attack = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1573,7 +1609,9 @@ technologies = {
 			leads_to_tech = advanced_tank_track_1
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			maximum_speed = 0.02
+		}			
 		categories = {
 			armor
 		}
@@ -1620,7 +1658,9 @@ technologies = {
 			leads_to_tech = advanced_tank_track_2
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			breakthrough = 0.1
+		}			
 		categories = {
 			armor
 		}
@@ -1667,7 +1707,9 @@ technologies = {
 			leads_to_tech = futuristic_main_battle_tank
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			fuel_consumption = -0.02
+		}			
 		categories = {
 			armor
 		}
@@ -1718,7 +1760,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			armor_value = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -1761,7 +1805,9 @@ technologies = {
 			leads_to_tech = advanced_tank_armour_2
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			armor_value = 0.15
+		}		
 		categories = {
 			armor
 		}
@@ -1812,7 +1858,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			reliability = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -1859,7 +1907,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			soft_attack = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1906,7 +1956,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			hard_attack = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -1949,7 +2001,9 @@ technologies = {
 			leads_to_tech = futuristic_main_battle_tank
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			ap_attack = 0.1
+		}		
 		categories = {
 			armor
 		}
@@ -2039,7 +2093,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			maximum_speed = 0.02
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2077,7 +2133,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -10 y = 38 }
 		}
-		
+		MBT = {
+			breakthrough = 0.1
+		}			
 		path = {
 			leads_to_tech = futuristic_tank_track_2
 			research_cost_coeff = 1
@@ -2128,7 +2186,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			fuel_consumption = -0.02
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -2175,7 +2235,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			armor_value = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2218,7 +2280,9 @@ technologies = {
 			leads_to_tech = futuristic_tank_armour_2
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			armor_value = 0.15
+		}		
 		categories = {
 			armor
 		}
@@ -2264,7 +2328,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			reliability = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2307,7 +2373,9 @@ technologies = {
 			leads_to_tech = futuristic_tank_cannon_1
 			research_cost_coeff = 1
 		}
-		
+		MBT = {
+			soft_attack = 0.1
+		}		
 		categories = {
 			armor
 		}
@@ -2358,7 +2426,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			hard_attack = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2400,7 +2470,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		MBT = {
+			ap_attack = 0.1
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -2485,7 +2557,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -2532,7 +2606,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			breakthrough = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2575,11 +2651,13 @@ technologies = {
 			leads_to_tech = basic_armoured_personnel_carrier
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			fuel_consumption = -0.02
+		}			
 		categories = {
 			armor
 		}
-		
+	
 		ai_will_do = {
 			factor = 1
 			
@@ -2626,7 +2704,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2673,7 +2753,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.15
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2716,7 +2798,9 @@ technologies = {
 			leads_to_tech = basic_armoured_personnel_carrier
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			reliability = 0.1
+		}		
 		categories = {
 			armor
 		}
@@ -2763,7 +2847,9 @@ technologies = {
 			leads_to_tech = outdated_apc_cannon_1
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			soft_attack = 0.1
+		}	
 		categories = {
 			armor
 		}
@@ -2814,7 +2900,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			hard_attack = 0.1
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -2852,7 +2940,9 @@ technologies = {
 			name = armour_folder
 			position = { x = -2 y = 8 }
 		}
-		
+		APC = {
+			ap_attack = 0.1
+		}	
 		path = {
 			leads_to_tech = basic_armoured_personnel_carrier
 			research_cost_coeff = 1
@@ -2948,7 +3038,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			maximum_speed = 0.02
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -2991,7 +3083,9 @@ technologies = {
 			leads_to_tech = basic_apc_track_2
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			breakthrough = 0.1
+		}			
 		categories = {
 			armor
 		}
@@ -3038,7 +3132,9 @@ technologies = {
 			leads_to_tech = improved_armoured_personnel_carrier
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			fuel_consumption = -0.02
+		}			
 		categories = {
 			armor
 		}
@@ -3089,7 +3185,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -3136,7 +3234,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.15
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -3183,7 +3283,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			reliability = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -3230,7 +3332,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			soft_attack = 0.1
+		}			
 		ai_will_do = {
 			factor = 1
 			
@@ -3277,7 +3381,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			hard_attack = 0.1
+		}		
 		ai_will_do = {
 			factor = 1
 			
@@ -3324,7 +3430,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			ap_attack = 0.1
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -3411,7 +3519,9 @@ technologies = {
 			leads_to_tech = improved_apc_track_1
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			maximum_speed = 0.02
+		}			
 		categories = {
 			armor
 		}
@@ -3458,7 +3568,9 @@ technologies = {
 			leads_to_tech = improved_apc_track_2
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			breakthrough = 0.1
+		}		
 		categories = {
 			armor
 		}
@@ -3505,7 +3617,9 @@ technologies = {
 			leads_to_tech = advanced_armoured_personnel_carrier
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			fuel_consumption = -0.02
+		}	
 		categories = {
 			armor
 		}
@@ -3556,7 +3670,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.1
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -3603,7 +3719,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -3650,7 +3768,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			reliability = 0.1
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -3693,7 +3813,9 @@ technologies = {
 			leads_to_tech = improved_apc_cannon_1
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			soft_attack = 0.1
+		}
 		categories = {
 			armor
 		}
@@ -3744,7 +3866,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -3791,7 +3915,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -3878,7 +4004,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -3925,7 +4053,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			breakthrough = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -3972,7 +4102,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			fuel_consumption = -0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4019,7 +4151,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.1
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -4066,7 +4200,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4109,7 +4245,9 @@ technologies = {
 			leads_to_tech = futuristic_armoured_personnel_carrier
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			reliability = 0.1
+		}
 		categories = {
 			armor
 		}
@@ -4156,7 +4294,9 @@ technologies = {
 			leads_to_tech = advanced_apc_cannon_1
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			soft_attack = 0.1
+		}
 		categories = {
 			armor
 		}
@@ -4207,7 +4347,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4254,7 +4396,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4340,7 +4484,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4387,7 +4533,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			breakthrough = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4430,7 +4578,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			fuel_consumption = -0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4477,7 +4627,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.1
+		}	
 		ai_will_do = {
 			factor = 1
 			
@@ -4524,7 +4676,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4566,7 +4720,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			reliability = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4609,7 +4765,9 @@ technologies = {
 			leads_to_tech = futuristic_apc_cannon_1
 			research_cost_coeff = 1
 		}
-		
+		APC = {
+			soft_attack = 0.1
+		}
 		categories = {
 			armor
 		}
@@ -4660,7 +4818,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4702,7 +4862,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		APC = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4788,7 +4950,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4835,7 +4999,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			breakthrough = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4882,7 +5048,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			fuel_consumption = -0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4929,7 +5097,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -4976,7 +5146,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5023,7 +5195,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			reliability = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5070,7 +5244,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			soft_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5117,7 +5293,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5164,7 +5342,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5250,7 +5430,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5297,7 +5479,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			breakthrough = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5344,7 +5528,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			fuel_consumption = -0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5391,7 +5577,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5438,7 +5626,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5485,7 +5675,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			reliability = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5532,7 +5724,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			soft_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5579,7 +5773,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5626,7 +5822,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5717,7 +5915,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5764,7 +5964,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			breakthrough = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5811,7 +6013,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			fuel_consumption = -0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5858,7 +6062,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5905,7 +6111,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5952,7 +6160,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			reliability = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -5999,7 +6209,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			soft_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6046,7 +6258,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6093,7 +6307,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6180,7 +6396,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6227,7 +6445,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			breakthrough = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6274,7 +6494,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			fuel_consumption = -0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6321,7 +6543,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6368,7 +6592,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6415,7 +6641,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			reliability = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6462,7 +6690,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			soft_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6509,7 +6739,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6556,7 +6788,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6642,7 +6876,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			maximum_speed = 0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6689,7 +6925,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			breakthrough = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6731,7 +6969,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			fuel_consumption = -0.02
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6778,7 +7018,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6825,7 +7067,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			armor_value = 0.15
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6867,7 +7111,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			reliability = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6914,7 +7160,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			soft_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -6961,7 +7209,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			hard_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -7003,7 +7253,9 @@ technologies = {
 		categories = {
 			armor
 		}
-		
+		IFV = {
+			ap_attack = 0.1
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -7100,7 +7352,7 @@ technologies = {
 	improved_armored_car = { 
 	
 		enable_equipments = {
-			armored_car_equipment_2 `
+			armored_car_equipment_2
 		}
 		
 		path = {
