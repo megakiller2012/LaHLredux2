@@ -67,6 +67,10 @@ technologies = {
 		path = {
 			leads_to_tech = infantry_weapons3
 			research_cost_coeff = 1
+		}
+		category_all_infantry = {
+			defense = 0.1
+			breakthrough = 0.1
 		}		
 
 		research_cost = 1.5
@@ -129,7 +133,12 @@ technologies = {
 		path = {
 			leads_to_tech = infantry_weapons5
 			research_cost_coeff = 1
-		}		
+		}	
+		category_all_infantry = {
+			defense = 0.1
+			breakthrough = 0.1
+		}
+		
 		
 		research_cost = 1.5
 		start_year = 1990
@@ -194,6 +203,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = -2 y = 13 }
 		}	
+		category_all_infantry = {
+			defense = 0.1
+			breakthrough = 0.1
+		}
+
 		
 		path = {
 			leads_to_tech = infantry_weapons7
