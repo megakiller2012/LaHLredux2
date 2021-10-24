@@ -2505,10 +2505,10 @@ technologies = {
 	
 	outdated_armoured_personnel_carrier = {
 		enable_equipments = {
-			armoured_personnel_carrier_equipment
+			armoured_personnel_carrier_equipment_1
 		}
 		enable_subunits = {
-			light_armor
+			APC
 		}	
 		path = {
 			leads_to_tech = outdated_apc_track

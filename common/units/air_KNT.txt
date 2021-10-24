@@ -1,0 +1,16 @@
+sub_units = {
+	transport_airship = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { air_transport }
+		need = { transport_airship_equipment = 1 }
+	}
+	suicide_drones = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { suicide }
+		need = { suicide_drones _equipment = 1 }
+	}
+}

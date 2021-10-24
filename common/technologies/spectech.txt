@@ -88,6 +88,11 @@ technologies = {
 		enable_equipments = {
 			transport_airship_equipment_1
 		}
+		
+		enable_subunits = {
+			transport_airship
+		}
+		
 		start_year = 2020
 
 		path = {
@@ -381,6 +386,11 @@ technologies = {
 		enable_equipments = {
 			suicide_drones_equipment_1
 		}
+		
+		enable_subunits = {
+			suicide_drones
+		}
+		
 		start_year = 2020
 
 		path = {
@@ -519,6 +529,11 @@ technologies = {
 		enable_equipments = {
 			supercannons_equipment_1
 		}
+		
+		enable_subunits = {
+			saddam_hussein_supercannons
+		}
+		
 		start_year = 2020
 
 		path = {
@@ -535,6 +550,7 @@ technologies = {
 		categories = {
 			artillery
 		}
+
 		
 		ai_will_do = {
 			factor = 2

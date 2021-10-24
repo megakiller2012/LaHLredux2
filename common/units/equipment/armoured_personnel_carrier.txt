@@ -48,7 +48,7 @@ equipments = {
 	armoured_personnel_carrier_equipment_1 = {
 		year = 1934
 		
-		archetype = amphibious_tank_equipment
+		archetype = armoured_personnel_carrier_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = no
@@ -56,7 +56,7 @@ equipments = {
 	armoured_personnel_carrier_equipment_2 = {
 		year = 1934
 		
-		archetype = amphibious_tank_equipment
+		archetype = armoured_personnel_carrier_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = no
@@ -64,7 +64,7 @@ equipments = {
 	armoured_personnel_carrier_equipment_3 = {
 		year = 1934
 		
-		archetype = amphibious_tank_equipment
+		archetype = armoured_personnel_carrier_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = no
@@ -72,7 +72,7 @@ equipments = {
 	armoured_personnel_carrier_equipment_4 = {
 		year = 1934
 		
-		archetype = amphibious_tank_equipment
+		archetype = armoured_personnel_carrier_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = no
