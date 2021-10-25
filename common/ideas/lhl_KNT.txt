@@ -35,11 +35,11 @@ ideas = {
 			
 			modifier = {
 			stability_weekly_factor = 0.03
-			encryption = 0.25
-			decryption = 0.25
-			subversive_activites_upkeep	= 2
-			compliance_growth = 0.20
-			resistance_growth = -0.20
+			encryption = 0.15
+			decryption = 0.15
+			subversive_activites_upkeep	= 1
+			compliance_growth = 0.10
+			resistance_growth = -0.10
 			}
 		}
 	}
@@ -57,10 +57,19 @@ ideas = {
 			removal_cost = -1
 			
 			targeted_modifier = 
-			{ tag = WES attack_bonus_against = 0.3
-			defense_bonus_against = 0.3}
+			{ tag = WES attack_bonus_against = 0.1
+			defense_bonus_against = 0.1}
+			
 			targeted_modifier = 
-			{tag = GER attack_bonus_against = 0.3 
-			defense_bonus_against = 0.3}
+			{tag = WES attack_bonus_against = 0.1 
+			defense_bonus_against = 0.1}
+			
+			targeted_modifier = 
+			{ tag = SUS attack_bonus_against = 0.1
+			defense_bonus_against = 0.1}
+			
+			targeted_modifier = 
+			{tag = SUS attack_bonus_against = 0.1 
+			defense_bonus_against = 0.1}
 		}
 }
