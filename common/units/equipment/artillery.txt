@@ -1,13 +1,14 @@
 equipments = {
 
-	rocket_artillery_equipment = {
+	artillery_equipment = {
 		year = 1934
 
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
 		type = {
 			artillery
-			motorized 
+			infantry #adding infantry type
+			#motorized #Removing motorized type
 		}
 		group_by = archetype
 		
@@ -37,19 +38,20 @@ equipments = {
 			steel = 2
 		}
 	}
-	
-	rocket_artillery_equipment_1 = {
+
+	artillery_equipment_1 = {
 		year = 1934
 
-		archetype = rocket_artillery_equipment
+		archetype = artillery_equipment
 		priority = 50
 		visual_level = 0
 	}
-	rocket_artillery_equipment_2 = {
+	
+	artillery_equipment_2 = {
 		year = 1939
 
-		archetype = rocket_artillery_equipment
-		parent = rocket_artillery_equipment_1
+		archetype = artillery_equipment
+		parent = artillery_equipment_1
 		priority = 50
 		visual_level = 1
 
@@ -64,11 +66,11 @@ equipments = {
 		}
 	}
 	
-	rocket_artillery_equipment_3 = {
+	artillery_equipment_3 = {
 		year = 1942
 
-		archetype = rocket_artillery_equipment
-		parent = rocket_artillery_equipment_2
+		archetype = artillery_equipment
+		parent = artillery_equipment_2
 		priority = 50
 		visual_level = 2
 		
@@ -81,5 +83,6 @@ equipments = {
 			tungsten = 1
 			steel = 3
 		}
-	}		
+	}
+	
 }

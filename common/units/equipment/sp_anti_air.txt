@@ -1,6 +1,6 @@
 equipments = {
 
-	rocket_artillery_equipment = {
+	sp_anti_air_equipment = {
 		year = 1934
 
 		is_archetype = yes
@@ -38,18 +38,18 @@ equipments = {
 		}
 	}
 	
-	rocket_artillery_equipment_1 = {
+	sp_anti_air_equipment_1 = {
 		year = 1934
 
-		archetype = rocket_artillery_equipment
+		archetype = sp_anti_air_equipment
 		priority = 50
 		visual_level = 0
 	}
-	rocket_artillery_equipment_2 = {
+	sp_anti_air_equipment_2 = {
 		year = 1939
 
-		archetype = rocket_artillery_equipment
-		parent = rocket_artillery_equipment_1
+		archetype = sp_anti_air_equipment
+		parent = sp_anti_air_equipment_1
 		priority = 50
 		visual_level = 1
 
@@ -64,11 +64,11 @@ equipments = {
 		}
 	}
 	
-	rocket_artillery_equipment_3 = {
+	sp_anti_air_equipment_3 = {
 		year = 1942
 
-		archetype = rocket_artillery_equipment
-		parent = rocket_artillery_equipment_2
+		archetype = sp_anti_air_equipment
+		parent = sp_anti_air_equipment_2
 		priority = 50
 		visual_level = 2
 		

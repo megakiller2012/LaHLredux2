@@ -46,6 +46,9 @@ technologies = {
 		enable_equipments = {
 			anti_air_equipment_1
 		}
+		enable_subunits = {
+			anti_air
+		}
 		
 		path = {
 			leads_to_tech = outdated_anti_air_gun
@@ -128,7 +131,10 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			anti_air_equipment_1
+			sp_anti_air_equipment_1
+		}
+		enable_subunits = {
+			spaag
 		}
 		
 		path = {
@@ -212,7 +218,11 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			anti_air_equipment_1
+			rocket_anti_air_equipment_1
+		}
+		
+		enable_subunits = {
+			sam
 		}
 				
 		path = {
@@ -1320,8 +1330,10 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			howitzer_0
 			artillery_equipment_1
+		}
+		enable_subunits = {
+			artillery
 		}
 		
 		research_cost = 1.5
@@ -1405,8 +1417,10 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			howitzer_0
-			artillery_equipment_1
+			spg_equipment_1
+		}
+		enable_subunits = {
+			spg
 		}
 		
 		research_cost = 1.5
@@ -1492,8 +1506,10 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			howitzer_0
-			artillery_equipment_1
+			anti_tank_equipment_1
+		}
+		enable_subunits = {
+			anti_tank
 		}
 		
 		research_cost = 1.5
@@ -1577,8 +1593,10 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			howitzer_0
-			artillery_equipment_1
+			rocket_artillery_equipment_1
+		}
+		enable_subunits = {
+			mlrs
 		}
 		
 		research_cost = 1.5
@@ -2990,7 +3008,7 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			anti_air_equipment_1
+			tactical_ballistic_missile_equipment_1
 		}
 		
 		path = {
@@ -3019,7 +3037,10 @@ technologies = {
 		start_year = 1980
 		
 		enable_equipments = {
-			anti_air_equipment_1
+			tactical_ballistic_missile_equipment_1
+		}
+		enable_subunits = {
+			tactical_missile
 		}
 		
 		path = {

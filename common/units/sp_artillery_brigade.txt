@@ -1,15 +1,15 @@
 sub_units = {
 
-	spaag = {
+	spg = {
 		sprite = medium_armor
 		map_icon_category = armored
-		priority = 301
+		priority = 1796
 		ai_priority = 100
 		active = yes
 		
 		type = {
 			armor
-			anti_air
+			artillery
 		}
 		
 		group = armor
@@ -19,10 +19,10 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 1
+		combat_width = 3
 
 		need = {
-			sp_anti_air_equipment = 12
+			spg_equipment = 40
 		}
 		manpower = 500
 		max_organisation = 0
@@ -30,12 +30,9 @@ sub_units = {
 		max_strength = 0.6
 		training_time = 180
 		weight = 1.5
-		supply_consumption = 0.1
+		supply_consumption = 0.5
 
-		#Tanks are awesome
-		soft_attack = 0.5
-
-		suppression = 2
+		suppression = 1.5
 
 		forest = {
 		    attack = -0.3
