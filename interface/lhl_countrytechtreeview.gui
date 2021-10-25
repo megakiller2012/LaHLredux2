@@ -267,7 +267,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_year2"
-					position = { x = 150 y = 50 }
+					position = { x = 75 y = 50 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -280,7 +280,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year3"
-					position = { x = 350 y = 50 }
+					position = { x = 285 y = 50 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -293,7 +293,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year5"
-					position = { x = 550 y = 50 }
+					position = { x = 495 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2000"
@@ -305,10 +305,10 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year6"
-					position = { x = 750 y = 50 }
+					position = { x = 705 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "2012"
+					text = "2010"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -317,10 +317,10 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year7"
-					position = { x = 950 y = 50 }
+					position = { x = 915 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "2018"
+					text = "2015"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -329,7 +329,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year8"
-					position = { x = 1150 y = 50 }
+					position = { x = 1125 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2020"
@@ -341,7 +341,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year9"
-					position = { x = 1350 y = 50 }
+					position = { x = 1335 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2022"
@@ -353,7 +353,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_year10"
-					position = { x = 1550 y = 50 }
+					position = { x = 1545 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2025"
@@ -365,7 +365,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "infantry_year11"
-					position = { x = 1750 y = 50 }
+					position = { x = 1755 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2028"
@@ -376,7 +376,7 @@ guiTypes = {
 				}						
 				instantTextBoxType = {
 					name = "infantry_year12"
-					position = { x = 1950 y = 50 }
+					position = { x = 1965 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2030"
@@ -384,10 +384,10 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}
+				}	
 				instantTextBoxType = {
 					name = "infantry_year13"
-					position = { x = 2150 y = 50 }
+					position = { x = 2175 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "2035"
@@ -395,7 +395,7 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
-				}			
+				}					
 
 			}				
 			gridboxtype = {
@@ -414,33 +414,15 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 			gridboxtype = {
-				name = "outdated_infantry_weapons_tree"
-				position = { x = 140 y = 115 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}		
-			gridboxtype = {
-				name = "infantry_weapons_tree"
+				name = "infantry_equipment_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
 			}			
 			gridboxtype = {
-				name = "motorised_infantry_tree"
-				position = { x = 140 y = 620 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
 				name = "marines_tree"
 				position = { x = 140 y = 420 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "anti_tank_weapon_tree"
-				position = { x = 140 y = 400 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
