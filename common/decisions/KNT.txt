@@ -207,4 +207,37 @@ KNT_channel_tunnel = {
 			}
 		}
 	}
+	KNT_import_volvos = {
+	cost = 45
+	days_remove = 30
+			complete_effect = {
+			add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 200
+			producer = SCA
+			}
+		}
+	}
+	KNT_import_belgian_arty = {
+	cost = 40
+	days_remove = 30
+			complete_effect = {
+			add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 120
+			producer = BEL
+			}
+		}
+	}
+	KNT_import_dutch_electronics = {
+	cost = 40
+	days_remove = 30
+			complete_effect = {
+			add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 120
+			producer = HOL
+			}
+		}
+	}
 }

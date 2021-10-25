@@ -664,7 +664,6 @@
 		}
 		x = 13
 		y = 8
-
 	} 
 	
 
@@ -689,28 +688,8 @@
 		}
 		x = 25
 		y = 4
-
-	
-		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		shared_focus = {
+	}
+	shared_focus = {
 		id = ESS_essexs_turmoil
 		icon = GFX_goal_unknown
 		cost = 3

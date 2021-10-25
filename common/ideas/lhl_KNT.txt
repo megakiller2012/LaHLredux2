@@ -20,4 +20,47 @@ ideas = {
 			}
 		}
 	}
+	
+	country = {
+	
+		KNT_home_office = {
+			
+			picture = KNT_home_office
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_weekly_factor = 0.03
+			encryption = 0.25
+			decryption = 0.25
+			subversive_activites_upkeep	= 2
+			compliance_growth = 0.20
+			resistance_growth = -0.20
+			}
+		}
+	}
+	
+	country = {
+	
+		KNT_we_shall_never_surrender = {
+			
+			picture = KNT_we_shall_never_surrender
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = 
+			{ tag = WES attack_bonus_against = 0.3
+			defense_bonus_against = 0.3}
+			targeted_modifier = 
+			{tag = GER attack_bonus_against = 0.3 
+			defense_bonus_against = 0.3}
+		}
 }
