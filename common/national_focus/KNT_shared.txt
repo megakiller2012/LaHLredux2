@@ -425,7 +425,7 @@
 			focus = KNT_new_era_of_railways
 		}
 		x = 16
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_no_more_wires
@@ -435,7 +435,7 @@
 			focus = KNT_new_era_of_railways
 		}
 		x = 18
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_the_iter_project
@@ -448,7 +448,7 @@
 			focus = KNT_greener_energy
 		}
 		x = 17
-		y = 10
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_the_modern_prometheus
@@ -458,7 +458,7 @@
 			focus = KNT_the_iter_project
 		}
 		x = 16
-		y = 11
+		y = 13
 	}
 	shared_focus = {
 		id = KNT_titanic_ii
@@ -468,7 +468,7 @@
 			focus = KNT_the_iter_project
 		}
 		x = 18
-		y = 11
+		y = 13
 	}
 	shared_focus = {
 		id = KNT_manchester_model
@@ -568,7 +568,7 @@
 			focus = KNT_friendly_society
 		}
 		x = 12
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_it_just_works
@@ -578,7 +578,7 @@
 			focus = KNT_friendly_society
 		}
 		x = 14
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_the_gospel_of_wealth
@@ -681,7 +681,7 @@
 			focus = KNT_noblesse_oblige
 		}
 		x = 20
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_royal_ordnance_factories 
@@ -691,7 +691,7 @@
 			focus = KNT_noblesse_oblige
 		}
 		x = 22
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_stop_cultural_decadence

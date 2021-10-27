@@ -124,3 +124,17 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = lhl_news.6
+	title = lhl_news.6.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.6"}
+	desc = lhl_news.6.d
+	picture = GFX_collapse_of_eu
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.6.a
+	}
+}
