@@ -142,7 +142,7 @@ equipments = {
 		ap_attack = 12
 		air_attack = 0
 		
-		reliability = 0.9
+		reliability = 0.85
 		build_cost_ic = 0.81
 		resources = {
 			steel = 5
@@ -167,7 +167,7 @@ equipments = {
 		ap_attack = 14
 		air_attack = 0
 		
-		reliability = 1
+		reliability = 0.90
 		build_cost_ic = 0.93
 		resources = {
 			steel = 6
@@ -192,7 +192,7 @@ equipments = {
 		ap_attack = 16
 		air_attack = 0
 		
-		reliability = 1.1
+		reliability =  0.95
 		build_cost_ic = 1.05
 		resources = {
 			steel = 7
