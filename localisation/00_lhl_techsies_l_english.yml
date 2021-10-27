@@ -274,3 +274,10 @@
  DU_ammo:0 "Depleted Uranium Ammunition"
  DU_ammo_desc:0 "Depleted Uranium can be used anti-armor rounds as a penetrator because of its flammability, self-sharpening and high damage towards enemy soldiers because of radiation. On the other hand, such ammunition can cause colossal not only to eco systems but also our own personel"
  
+ ##Equipment##
+ infantry_equipment_4:0 "Infantry Equipment IV"
+ infantry_equipment_4_short:0 "Infantry IV"
+ infantry_equipment_5:0 "Infantry Equipment V"
+ infantry_equipment_5_short:0 "Infantry V"
+ infantry_equipment_6:0 "Infantry Equipment VI"
+ infantry_equipment_6_short:0 "Infantry VI"
