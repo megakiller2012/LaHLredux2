@@ -49,9 +49,3 @@ create_country_leader = {
 	picture = "Portrait_CUM_Berel_Lazar.dds"
 	ideology = neo_reaction
 }
-
-create_country_leader = {
-	name = "Alexandr Nagorny"
-	picture = "Portrait_CUM_Alexandr_Nagorny.dds"
-	ideology = national_populism
-}

@@ -45,6 +45,9 @@
 				id = KNT_event.2
 				}
 			}
+			1165 = {
+			set_demilitarized_zone = no
+			}		
 		}
 		x = 25
 		y = 2
@@ -55,6 +58,14 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_art_of_war
+		}
+		completion_reward = {
+			KNT = {
+				country_event = {
+				days = 1
+				id = KNT_event.6
+				}
+			}
 		}
 		x = 27
 		y = 2
@@ -174,8 +185,10 @@
 		prerequisite = {
 			focus = KNT_inspect_warehouses
 		}
-		KNT = {
+		completion_reward = {
+			KNT = {
 			    add_ideas = KNT_security_service_section_five
+			}
 		}
 		x = 22
 		y = 2
@@ -252,10 +265,12 @@
 			focus = KNT_imperial_preference
 		}
 		completion_reward = {
-		add_building_construction = {
-				type = arms_factory
-				level = 2
-				instant_build = yes 
+			1002 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes 
+				}
 			}
 		}
 		x = 33
@@ -268,10 +283,12 @@
 		prerequisite = {
 			focus = KNT_imperial_preference
 		}
-		KNT = {
-				country_event = {
-				days = 1
-				id = KNT_event.5
+		completion_reward = {
+			KNT = {
+					country_event = {
+					days = 1
+					id = KNT_event.5
+					}
 				}
 			}
 		x = 35

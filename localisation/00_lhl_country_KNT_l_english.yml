@@ -174,3 +174,16 @@
  KNT_deal_dawkins:0 "Deal with Richard Dawkins"
  KNT_deal_corbyn:0 "Deal with Jeremy Corbyn"
  ##EVENTS##
+ KNT_event.1.t:0 "Shaky Ground"
+ KNT_event.1.d:0 ""
+ KNT_event.1.a:0 "To the work!"
+ KNT_event.2.t:0 "Counter Raid"
+ KNT_event.2.d:0 ""
+ KNT_event.2.a:0 "Enter eastern industrial zones"
+ KNT_event.2.b:0 "loot local gangs compounds"
+ KNT_event.2.c:0 "Stole everything you can from the centre"
+ KNT_event.3.t:0 "The Channel Watch"
+ KNT_event.3.d:0 ""
+ KNT_event.3.a:0 "Au revoir, suckers"
+ ##NATIONAL IDEAS##
+ KNT_thin_purple_line:0 "Thin Purple Line"
