@@ -1,46 +1,42 @@
 sub_units = {
 
-	mlrs = {
-		sprite = motorized
+	anti_tank_brigade = {
+		sprite = anti_tank
 		map_icon_category = infantry
-		priority = 1199
+		priority = 1197
 		ai_priority = 100
-		active = no
+		active = yes
 		
 		type = {
-			artillery
-			motorized
-			rocket
+			infantry
+			anti_tank
 		}
-
-		group = mobile
+		
+		group = infantry
 		
 		categories = {
+			category_front_line
 			category_army
 			category_line_artillery
-			category_artillery
 		}		
-
-		combat_width = 3
+		
+		combat_width = 1
 
 		need = {
-			motorized_rocket_equipment = 20
-			motorized_equipment = 15
+			anti_tank_equipment = 36
 		}
-		
 		manpower = 500
 		max_organisation = 0
-		default_morale = 0.1
+		default_morale = 0
 		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
 
-		
-		supply_consumption = 0.28
-		
+		supply_consumption = 0.1
+
 		forest = {
-			attack = -0.1
-			movement = -0.5
+			attack = -0.2
+			movement = -0.2
 		}
 
 		hills = {
@@ -53,12 +49,12 @@ sub_units = {
 
 		jungle = {
 			attack = -0.25
-			movement = -0.5
+			movement = -0.2
 		}
 
 		marsh = {
 			attack = -0.2
-			movement = -0.5
+			movement = -0.3
 		}
 
 		fort = {

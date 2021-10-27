@@ -34,5 +34,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_collapse_of_wrc"
 		texturefile = "gfx/event_pictures/collapse_of_wrc.dds"
-	}		
+	}	
+	spriteType = {
+		name = "GFX_collapse_of_eu"
+		texturefile = "gfx/event_pictures/collapse_of_eu.dds"
+	}	
 }
