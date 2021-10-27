@@ -418,7 +418,7 @@ technologies = {
 	infantry_equipment_5 = {
 		
 		enable_equipments = {
-			infantry_equipment_4
+			infantry_equipment_5
 		}
 		
 		path = {
@@ -546,7 +546,7 @@ technologies = {
 	infantry_equipment_6 = {
 		
 		enable_equipments = {
-			infantry_equipment_4
+			infantry_equipment_6
 		}
 		
 		path = {
