@@ -67,6 +67,12 @@
 			focus = KNT_art_of_war
 		}
 		completion_reward = {
+				KNT = {
+					country_event = {
+					days = 1
+					id = KNT_event.3
+					}
+				}		
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
 					amount = 1000
@@ -82,13 +88,7 @@
 					amount = 250
 					producer = KNT
 				}
-			KNT = {
-				country_event = {
-				days = 1
-				id = KNT_event.3
-				}
 			}
-		}
 		x = 29
 		y = 2
 	}
