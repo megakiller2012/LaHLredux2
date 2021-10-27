@@ -27,7 +27,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Andrew Wakefield"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NTH_Andrew_Wakefield.dds"
 	ideology = ethical_millennialism
 	traits = {
 	}
@@ -45,7 +45,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ash Sarkar"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_NTH_Ash_Sarkar.dds"
 	ideology = soviet_marxism
 	traits = {
 	}
@@ -71,13 +71,13 @@ create_country_leader = {
 create_country_leader = {
 	name = "Parmjit Dhanda"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NTH_Parmjit_Dhanda.dds"
 	ideology = labor_socialism
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Ed Davey"
+	name = "MISSING"
 	desc = ""
 	picture = ""
 	ideology = atlantic_liberalism
@@ -87,7 +87,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Boris Johnson"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NTH_Boris_Johnson.dds"
 	ideology = social_conservatism
 	traits = {
 	}
@@ -95,15 +95,15 @@ create_country_leader = {
 create_country_leader = {
 	name = "John Sentamu"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NTH_John_Sentamu.dds"
 	ideology = neo_feudalism
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "NOBODY"
+	name = "Brendan Perry"
 	desc = ""
-	picture = ""
+	picture = "Portrait_NTH_Brendan_Perry.dds"
 	ideology = charismatic_dictatorship
 	traits = {
 	}
