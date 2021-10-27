@@ -175,8 +175,8 @@
 			focus = KNT_inspect_warehouses
 		}
 		KNT = {
-			    add_ideas = KNT_home_office
-				}
+			    add_ideas = KNT_security_service_section_five
+		}
 		x = 22
 		y = 2
 	}
@@ -334,8 +334,8 @@
 		}
 		completion_reward = {
 			KNT = {
-			    add_ideas = KNT_we_shall_never_surrender
-				}
+			    add_ideas = KNT_stand_against_the_false_king
+			}
 		}
 		x = 27
 		y = 4

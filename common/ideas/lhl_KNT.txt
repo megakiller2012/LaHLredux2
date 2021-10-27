@@ -23,9 +23,9 @@ ideas = {
 	
 	country = {
 	
-		KNT_home_office = {
+		KNT_security_service_section_five = {
 			
-			picture = KNT_home_office
+			picture = KNT_security_service_section_five
 
 			allowed = {
 				always = no
@@ -46,9 +46,9 @@ ideas = {
 	
 	country = {
 	
-		KNT_we_shall_never_surrender = {
+		KNT_stand_against_the_false_king = {
 			
-			picture = KNT_we_shall_never_surrender
+			picture = KNT_stand_against_the_false_king
 
 			allowed = {
 				always = no
