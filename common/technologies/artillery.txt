@@ -89,10 +89,10 @@ technologies = {
 		}
 		
 		anti_air = {
-		     air_attack = 0.05
+		    air_attack = 0.05
 		}
 		anti_air_brigade = {
-		     air_attack = 0.05
+		    air_attack = 0.05
 		}
 				
 		research_cost = 1.5
@@ -372,7 +372,12 @@ technologies = {
 			leads_to_tech = improved_anti_air
 			research_cost_coeff = 1
 		}
-				
+		anti_air = {
+		    air_attack = 0.05
+		}
+		anti_air_brigade = {
+		    air_attack = 0.05
+		}				
 		research_cost = 1.5
 		
 		folder = {
@@ -397,7 +402,12 @@ technologies = {
 			leads_to_tech = improved_anti_air
 			research_cost_coeff = 1
 		}
-				
+		anti_air = {
+		    reliability = 0.02
+		}
+		anti_air_brigade = {
+		    reliability = 0.02
+		}			
 		research_cost = 1.5
 		
 		folder = {
@@ -456,7 +466,9 @@ technologies = {
 			leads_to_tech = improved_spaag
 			research_cost_coeff = 1
 		}
-				
+		spaag = {
+			air_attack = 0.05
+		}				
 		research_cost = 1.5
 		
 		folder = {
@@ -481,7 +493,9 @@ technologies = {
 			leads_to_tech = improved_spaag
 			research_cost_coeff = 1
 		}
-				
+		spaag = {
+			armor_value = 0.05
+	    }
 		research_cost = 1.5
 		
 		folder = {
@@ -540,7 +554,9 @@ technologies = {
 			leads_to_tech = improved_sam
 			research_cost_coeff = 1
 		}
-				
+		sam = {
+			air_attack = 0.05
+	    }				
 		research_cost = 1.5
 		
 		folder = {
@@ -565,7 +581,9 @@ technologies = {
 			leads_to_tech = improved_sam
 			research_cost_coeff = 1
 		}
-				
+		sam = {
+			armor_value = 0.05
+	    }		
 		research_cost = 1.5
 		
 		folder = {
@@ -624,7 +642,12 @@ technologies = {
 			leads_to_tech = advanced_anti_air
 			research_cost_coeff = 1
 		}
-				
+		anti_air = {
+		    air_attack = 0.05
+		}
+		anti_air_brigade = {
+		    air_attack = 0.05
+		}					
 		research_cost = 1.5
 		
 		folder = {
@@ -649,7 +672,12 @@ technologies = {
 			leads_to_tech = advanced_anti_air
 			research_cost_coeff = 1
 		}
-				
+		anti_air = {
+		    reliability = 0.02
+		}
+		anti_air_brigade = {
+		    reliability = 0.02
+		}					
 		research_cost = 1.5
 		
 		folder = {
@@ -708,7 +736,9 @@ technologies = {
 			leads_to_tech = advanced_spaag
 			research_cost_coeff = 1
 		}
-				
+		spaag = {
+			air_attack = 0.05
+		}			
 		research_cost = 1.5
 		
 		folder = {
@@ -733,7 +763,9 @@ technologies = {
 			leads_to_tech = advanced_spaag
 			research_cost_coeff = 1
 		}
-				
+		spaag = {
+			armor_value = 0.05
+	    }
 		research_cost = 1.5
 		
 		folder = {
@@ -792,7 +824,9 @@ technologies = {
 			leads_to_tech = advanced_sam
 			research_cost_coeff = 1
 		}
-				
+		sam = {
+			air_attack = 0.05
+	    }	
 		research_cost = 1.5
 		
 		folder = {
@@ -817,7 +851,9 @@ technologies = {
 			leads_to_tech = advanced_sam
 			research_cost_coeff = 1
 		}
-				
+		sam = {
+			armor_value = 0.05
+	    }
 		research_cost = 1.5
 		
 		folder = {
@@ -876,7 +912,12 @@ technologies = {
 			leads_to_tech = futuristic_anti_air
 			research_cost_coeff = 1
 		}
-				
+		anti_air = {
+		    air_attack = 0.05
+		}
+		anti_air_brigade = {
+		    air_attack = 0.05
+		}
 		research_cost = 1.5
 		
 		folder = {
@@ -901,7 +942,12 @@ technologies = {
 			leads_to_tech = futuristic_anti_air
 			research_cost_coeff = 1
 		}
-				
+		anti_air = {
+		    reliability = 0.02
+		}
+		anti_air_brigade = {
+		    reliability = 0.02
+		}		
 		research_cost = 1.5
 		
 		folder = {
@@ -960,7 +1006,9 @@ technologies = {
 			leads_to_tech = futuristic_spaag
 			research_cost_coeff = 1
 		}
-				
+		spaag = {
+			air_attack = 0.05
+		}
 		research_cost = 1.5
 		
 		folder = {
@@ -985,7 +1033,9 @@ technologies = {
 			leads_to_tech = futuristic_spaag
 			research_cost_coeff = 1
 		}
-				
+		spaag = {
+			armor_value = 0.05
+	    }
 		research_cost = 1.5
 		
 		folder = {
@@ -1044,7 +1094,9 @@ technologies = {
 			leads_to_tech = futuristic_sam
 			research_cost_coeff = 1
 		}
-				
+		sam = {
+			air_attack = 0.05
+	    }
 		research_cost = 1.5
 		
 		folder = {
@@ -1069,7 +1121,9 @@ technologies = {
 			leads_to_tech = futuristic_sam
 			research_cost_coeff = 1
 		}
-				
+		sam = {
+			armor_value = 0.05
+	    }
 		research_cost = 1.5
 		
 		folder = {
@@ -1125,7 +1179,12 @@ technologies = {
 		start_year = 1980
 				
 		research_cost = 1.5
-		
+		anti_air = {
+		    air_attack = 0.05
+		}
+		anti_air_brigade = {
+		    air_attack = 0.05
+		}
 		folder = {
 			name = artillery_folder
 			position = { x = -13 y = 20 }
@@ -1150,7 +1209,12 @@ technologies = {
 			name = artillery_folder
 			position = { x = -11 y = 20 }
 		}
-		
+		anti_air = {
+		    reliability = 0.02
+		}
+		anti_air_brigade = {
+		    reliability = 0.02
+		}	
 		categories = {
 			artillery
 		}
@@ -1204,7 +1268,9 @@ technologies = {
 			name = artillery_folder
 			position = { x = -17 y = 20 }
 		}
-		
+		spaag = {
+			air_attack = 0.05
+		}
 		categories = {
 			artillery
 		}
@@ -1224,7 +1290,9 @@ technologies = {
 			name = artillery_folder
 			position = { x = -15 y = 20 }
 		}
-		
+		spaag = {
+			armor_value = 0.05
+	    }
 		categories = {
 			artillery
 		}
@@ -1279,7 +1347,9 @@ technologies = {
 			name = artillery_folder
 			position = { x = -9 y = 20 }
 		}
-		
+		sam = {
+			air_attack = 0.05
+	    }
 		categories = {
 			artillery
 		}
@@ -1299,7 +1369,9 @@ technologies = {
 			name = artillery_folder
 			position = { x = -7 y = 20 }
 		}
-		
+		sam = {
+			armor_value = 0.05
+	    }
 		categories = {
 			artillery
 		}
@@ -1791,7 +1863,14 @@ technologies = {
 			name = artillery_folder
 			position = { x = -2 y = 8 }
 		}
-		
+
+		artillery = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}	
+
 		path = {
 			leads_to_tech = improved_howitzer
 			research_cost_coeff = 1
@@ -1816,7 +1895,12 @@ technologies = {
 			name = artillery_folder
 			position = { x = 0 y = 8 }
 		}
-		
+		artillery = {
+			reliability = 0.05
+		}
+		artillery_brigade = {
+			reliability = 0.05
+		}		
 		path = {
 			leads_to_tech = improved_howitzer
 			research_cost_coeff = 1
@@ -1878,7 +1962,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = 2 y = 8 }
 		}
-		
+
+		spg = {
+			soft_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = improved_spg
 			research_cost_coeff = 1
@@ -1902,6 +1990,10 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 8 }
+		}
+
+		spg = {
+		    armor_value = 0.05
 		}
 		
 		path = {
@@ -1963,7 +2055,14 @@ technologies = {
 			name = artillery_folder
 			position = { x = 6 y = 8 }
 		}
-		
+
+		anti_tank = {
+			ap_attack = 0.05
+		}
+		anti_tank_brigade = {
+			ap_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = improved_anti_tank
 			research_cost_coeff = 1
@@ -1988,7 +2087,14 @@ technologies = {
 			name = artillery_folder
 			position = { x = 8 y = 8 }
 		}
-		
+
+		anti_tank = {
+			hard_attack = 0.05
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = improved_anti_tank
 			research_cost_coeff = 1
@@ -2048,7 +2154,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = 10 y = 8 }
 		}
-		
+
+		mlrs = {
+			soft_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = improved_mlrs
 			research_cost_coeff = 1
@@ -2073,7 +2183,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = 12 y = 8 }
 		}
-		
+
+		mlrs = {
+			armor_value = 0.05
+		}
+
 		path = {
 			leads_to_tech = improved_mlrs
 			research_cost_coeff = 1
@@ -2133,7 +2247,14 @@ technologies = {
 			name = artillery_folder
 			position = { x = -2 y = 12 }
 		}
-		
+
+		artillery = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = advanced_howitzer
 			research_cost_coeff = 1
@@ -2158,6 +2279,13 @@ technologies = {
 			name = artillery_folder
 			position = { x = 0 y = 12 }
 		}
+		
+		artillery = {
+			reliability = 0.05
+		}
+		artillery_brigade = {
+			reliability = 0.05
+		}	
 		
 		path = {
 			leads_to_tech = advanced_howitzer
@@ -2221,6 +2349,10 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 		
+		spg = {
+			soft_attack = 0.05
+		}
+		
 		path = {
 			leads_to_tech = advanced_spg
 			research_cost_coeff = 1
@@ -2244,6 +2376,10 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 4 y = 12 }
+		}
+		
+		spg = {
+		    armor_value = 0.05
 		}
 		
 		path = {
@@ -2306,6 +2442,13 @@ technologies = {
 			position = { x = 6 y = 12 }
 		}
 		
+		anti_tank = {
+			ap_attack = 0.05
+		}
+		anti_tank_brigade = {
+			ap_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = advanced_anti_tank
 			research_cost_coeff = 1
@@ -2331,6 +2474,13 @@ technologies = {
 			position = { x = 8 y = 12 }
 		}
 		
+		anti_tank = {
+			hard_attack = 0.05
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = advanced_anti_tank
 			research_cost_coeff = 1
@@ -2391,6 +2541,10 @@ technologies = {
 			position = { x = 10 y = 12 }
 		}
 		
+		mlrs = {
+			soft_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = advanced_mlrs
 			research_cost_coeff = 1
@@ -2421,6 +2575,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		mlrs = {
+			armor_value = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -2475,6 +2633,13 @@ technologies = {
 			name = artillery_folder
 			position = { x = -2 y = 16 }
 		}
+
+		artillery = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
 		
 		path = {
 			leads_to_tech = futuristic_howitzer
@@ -2501,6 +2666,13 @@ technologies = {
 			position = { x = 0 y = 16 }
 		}
 		
+		artillery = {
+			reliability = 0.05
+		}
+		artillery_brigade = {
+			reliability = 0.05
+		}	
+
 		path = {
 			leads_to_tech = futuristic_howitzer
 			research_cost_coeff = 1
@@ -2562,6 +2734,10 @@ technologies = {
 			name = artillery_folder
 			position = { x = 2 y = 16 }
 		}
+
+		spg = {
+			soft_attack = 0.05
+		}
 		
 		path = {
 			leads_to_tech = futuristic_spg
@@ -2588,6 +2764,10 @@ technologies = {
 			position = { x = 4 y = 16 }
 		}
 		
+		spg = {
+		    armor_value = 0.05
+		}
+
 		path = {
 			leads_to_tech = futuristic_spg
 			research_cost_coeff = 1
@@ -2648,6 +2828,13 @@ technologies = {
 			position = { x = 6 y = 16 }
 		}
 		
+		anti_tank = {
+			ap_attack = 0.05
+		}
+		anti_tank_brigade = {
+			ap_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = futuristic_anti_tank
 			research_cost_coeff = 1
@@ -2673,6 +2860,13 @@ technologies = {
 			position = { x = 8 y = 16 }
 		}
 		
+		anti_tank = {
+			hard_attack = 0.05
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = futuristic_anti_tank
 			research_cost_coeff = 1
@@ -2738,6 +2932,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		mlrs = {
+			soft_attack = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -2763,6 +2961,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		mlrs = {
+			armor_value = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -2818,6 +3020,13 @@ technologies = {
 			position = { x = -2 y = 20 }
 		}
 		
+		artillery = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -2838,6 +3047,13 @@ technologies = {
 			position = { x = 0 y = 20 }
 		}
 		
+		artillery = {
+			reliability = 0.05
+		}
+		artillery_brigade = {
+			reliability = 0.05
+		}	
+
 		categories = {
 			artillery
 		}
@@ -2895,6 +3111,10 @@ technologies = {
 			position = { x = 2 y = 20 }
 		}
 		
+		spg = {
+			soft_attack = 0.05
+		}
+		
 		categories = {
 			artillery
 		}
@@ -2919,6 +3139,11 @@ technologies = {
 			artillery
 		}
 		
+		spg = {
+		    armor_value = 0.05
+		}
+
+
 		ai_will_do = {
 			factor = 2
 		}
@@ -2970,6 +3195,13 @@ technologies = {
 			position = { x = 6 y = 20 }
 		}
 		
+		anti_tank = {
+			ap_attack = 0.05
+		}
+		anti_tank_brigade = {
+			ap_attack = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -2989,7 +3221,14 @@ technologies = {
 			name = artillery_folder
 			position = { x = 8 y = 20 }
 		}
-		
+				
+		anti_tank = {
+			hard_attack = 0.05
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -3044,7 +3283,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = 10 y = 20 }
 		}
-		
+				
+		mlrs = {
+			soft_attack = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -3064,7 +3307,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = 12 y = 20 }
 		}
-		
+				
+		mlrs = {
+			armor_value = 0.05
+		}
+
 		categories = {
 			artillery
 		}
@@ -3245,7 +3492,11 @@ technologies = {
 			name = artillery_folder
 			position = { x = 12 y = 8 }
 		}
-		
+
+		tactical_missile = {
+			soft_attack = 0.05
+		}		
+
 		categories = {
 			artillery
 		}
@@ -3264,6 +3515,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		tactical_missile = {
+			armor_value = 0.05
+		}
+
 		research_cost = 1.5
 		
 		folder = {
@@ -3323,6 +3578,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		tactical_missile = {
+			soft_attack = 0.05
+		}		
 		research_cost = 1.5
 		
 		folder = {
@@ -3330,6 +3588,7 @@ technologies = {
 			position = { x = 12 y = 12 }
 		}
 		
+
 		categories = {
 			artillery
 		}
@@ -3348,6 +3607,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		tactical_missile = {
+			armor_value = 0.05
+		}
+
 		research_cost = 1.5
 		
 		folder = {
@@ -3407,6 +3670,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		tactical_missile = {
+			soft_attack = 0.05
+		}	
+				
 		research_cost = 1.5
 		
 		folder = {
@@ -3431,7 +3698,11 @@ technologies = {
 			leads_to_tech = futuristic_tbm
 			research_cost_coeff = 1
 		}
-		
+
+		tactical_missile = {
+			armor_value = 0.05
+		}
+
 		research_cost = 1.5
 		
 		folder = {
@@ -3487,7 +3758,11 @@ technologies = {
 		start_year = 1980
 		
 		research_cost = 1.5
-		
+
+		tactical_missile = {
+			soft_attack = 0.05
+		}
+
 		folder = {
 			name = artillery_folder
 			position = { x = 12 y = 20 }
@@ -3507,6 +3782,10 @@ technologies = {
 		start_year = 1980
 	
 		research_cost = 1.5
+		
+		tactical_missile = {
+			armor_value = 0.05
+		}
 		
 		folder = {
 			name = artillery_folder
