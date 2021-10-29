@@ -339,7 +339,7 @@ country_event = {
    }
       }
 	  
-   	country_event = {
+country_event = {
 	id = ESS_event.8
 	title = ESS_event.8.t
 	desc = ESS_event.8.d
@@ -361,7 +361,7 @@ country_event = {
 		}
 	}
 	
-	country_event = {
+country_event = {
 	id = ESS_event.9
 	title = ESS_event.9.t
 	desc = ESS_event.9.d
@@ -412,6 +412,68 @@ country_event = {
 				
 		}
     }	
+country_event = {
+	id = ESS_event.10
+	title = ESS_event.10.t
+	desc = ESS_event.10.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.10.a 
+		
+		
+		}
+	option = {
+		name = ESS_event.10.b 
+		hidden_effect = {
+		ESS = {
+			    country_event = {
+				    days = 180
+					id = ESS_event.11
+				}
+		
+		}
+		}
+		}
+	option = {
+		name = ESS_event.10.c 
+		hidden_effect = {
+		ESS = {
+			    country_event = {
+				    days = 30
+					id = ESS_event.11
+				}
+		
+		}
+	}
+	}
+	}
+	
+country_event = {
+	id = ESS_event.11
+	title = ESS_event.11.t
+	desc = ESS_event.11.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+
+    option = {
+		name = ESS_event.11.a 
+		
+		EAG = {
+			    country_event = {
+				    days = 7
+					id = EAG_event.4
+				}
+		
+		}
+		
+		}
+	}
 	country_event = {
 	id = ESS_event.666
 	title = ESS_event.666.t

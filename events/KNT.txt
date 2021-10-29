@@ -1,0 +1,132 @@
+add_namespace = KNT_event
+
+country_event = {
+	id = KNT_event.1
+	title = KNT_event.1.t
+	desc = KNT_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true
+	option = {
+		name = KNT_event.1.a
+		KNT = {
+			add_ideas = KNT_thin_purple_line
+		}
+		add_timed_idea = { idea = KNT_thin_purple_line  days = 546 }
+    }
+}
+
+country_event = {
+	id = KNT_event.2
+	title = KNT_event.2.t
+	desc = KNT_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true
+	
+	option = {
+		name = KNT_event.2.a
+			add_manpower = -20
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 300
+				producer = ESS
+			}
+    }
+	option = {
+		name = KNT_event.2.b
+			add_manpower = -50
+			add_equipment_to_stockpile = {
+				type = main_battle_tank_equipment
+				amount = 50
+				producer = ESS
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 60
+				producer = ESS
+			}
+    }
+	option = {
+		name = KNT_event.2.c
+			add_manpower = -100
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+				producer = ESS
+			}
+			1165 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes 
+				}
+			}
+			1002 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes 
+				}
+			}
+    }
+}
+
+country_event = {
+	id = KNT_event.3
+	title = KNT_event.3.t
+	desc = KNT_event.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true
+	option = {
+		name = KNT_event.3.a
+		add_equipment_to_stockpile = {
+				type = convoy
+				amount = 6
+				producer = FRA
+		}
+	}	
+}
+
+country_event = {
+	id = KNT_event.4
+	title = KNT_event.4.t
+	desc = KNT_event.4.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true
+	option = {
+		name = KNT_event.4.a
+    }	
+}
+
+country_event = {
+	id = KNT_event.5
+	title = KNT_event.5.t
+	desc = KNT_event.5.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true
+	option = {
+		name = KNT_event.5.a
+    }	
+}
+
+country_event = {
+	id = KNT_event.6
+	title = KNT_event.6.t
+	desc = KNT_event.6.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true
+	option = {
+		name = KNT_event.6.a
+    }	
+}

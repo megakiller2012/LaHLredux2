@@ -17,7 +17,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism  = 100
+	regressionism  = 2
+	millenarism = 15
+	commendationism = 2
+	left_authoritarianism = 2
+	socialism = 2
+	neocameralism = 10
+	national_bolshevism = 10
+	right_populism = 2
+	hegemonism = 7
+	ur_fascism = 48
 }
 
 create_country_leader = {
@@ -31,7 +40,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Vivianne Crowley"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_MRC_Vivianne_Crowley.dds"
 	ideology = ethical_millennialism 
 	traits = {
 	}
@@ -49,7 +58,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jeff Kent"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_MRC_Jeff_Kent.dds"
 	ideology = leftwing_chauvinism
 	traits = {
 	}
@@ -85,7 +94,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Marina Ann Hantzis"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_MRC_Marina_Ann_Hantzis.dds"
 	ideology = atlantic_liberalism
 	traits = {
 	}
@@ -94,7 +103,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nerina Pallot"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_MRC_Nerina_Pallot.dds"
 	ideology = nazbol_gang
 	traits = {
 	}
@@ -103,7 +112,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Daniel Jones Jedi"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_MRC_Daniel_Morgan_Jones.dds"
 	ideology = neoluddism
 	traits = {
 	}

@@ -1,6 +1,6 @@
 sub_units = {
 
-	sp_anti_air_brigade = {
+	spaag = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 301
@@ -22,7 +22,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			modern_tank_aa_equipment = 12
+			sp_anti_air_equipment = 12
 		}
 		manpower = 500
 		max_organisation = 0

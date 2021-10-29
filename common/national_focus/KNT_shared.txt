@@ -45,6 +45,9 @@
 				id = KNT_event.2
 				}
 			}
+			1165 = {
+			set_demilitarized_zone = no
+			}		
 		}
 		x = 25
 		y = 2
@@ -56,6 +59,14 @@
 		prerequisite = {
 			focus = KNT_art_of_war
 		}
+		completion_reward = {
+			KNT = {
+				country_event = {
+				days = 1
+				id = KNT_event.6
+				}
+			}
+		}
 		x = 27
 		y = 2
 	}
@@ -66,6 +77,29 @@
 		prerequisite = {
 			focus = KNT_art_of_war
 		}
+		completion_reward = {
+				KNT = {
+					country_event = {
+					days = 1
+					id = KNT_event.3
+					}
+				}		
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = KNT
+				}
+				add_equipment_to_stockpile = {
+					type = motorized_equipment
+					amount = 200
+					producer = KNT
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 250
+					producer = KNT
+				}
+			}
 		x = 29
 		y = 2
 	}
@@ -81,6 +115,14 @@
 		}
 		prerequisite = {
 			focus = KNT_escaped_from_the_madmen
+		}
+		completion_reward = {
+			KNT = {
+				country_event = {
+				days = 1
+				id = KNT_event.4
+				}
+			}
 		}
 		x = 27
 		y = 3
@@ -118,7 +160,6 @@
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_inspect_warehouses
-			
 		}
 		x = 20
 		y = 2
@@ -133,9 +174,10 @@
 			focus = KNT_caravans_of_the_channel_tunnel
 		}
 		completion_reward = {
-			add_manpower = 150000
+			add_manpower = 30000
 		}
 	}
+	
 	shared_focus = {
 		id = KNT_home_office
 		icon = GFX_goal_KNT_home_office
@@ -143,15 +185,48 @@
 		prerequisite = {
 			focus = KNT_inspect_warehouses
 		}
+		completion_reward = {
+			KNT = {
+			    add_ideas = KNT_security_service_section_five
+			}
+		}
 		x = 22
 		y = 2
 	}
+	
 	shared_focus = {
 		id = KNT_lessons_of_marne
 		icon = GFX_goal_KNT_lessons_of_marne
 		cost = 4.3
 		prerequisite = {
 			focus = KNT_home_office
+		}
+		completion_reward = {
+				
+				division_template = {
+					name = "Cab Brigade Team"
+					priority = 1
+					is_locked = yes
+					division_names_group = KNT_MOT_01
+					regiments = {
+						motorized = { x = 0 y = 0 }
+						motorized = { x = 0 y = 1 }
+						motorized = { x = 0 y = 2 }
+						motorized = { x = 0 y = 3 }
+						motorized = { x = 1 y = 0 }
+						motorized = { x = 1 y = 1 }
+						motorized = { x = 1 y = 2 }
+						motorized = { x = 1 y = 3 }
+					}
+				}
+				
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "name = \"1st Motorized Cab Brigade Team\" division_template = \"Cab Brigade Team\" start_experience_factor = 0.8 start_equipment_factor = 0.8"
+					
+					owner = KNT
+				}
+			}
 		}
 		x = 22
 		y = 3
@@ -164,7 +239,20 @@
 			focus = KNT_shaky_ground
 		}
 		completion_reward = {
-			add_manpower = 150000
+			swap_ideas = {
+				remove_idea = export_focus
+				add_idea = limited_exports
+			}
+			add_resource = {
+			type = oil
+			amount = 3
+			state = 1002
+			}
+			add_resource = {
+			type = steel
+			amount = 2
+			state = 1165
+			}
 		}
 		x = 34
 		y = 1
@@ -176,6 +264,15 @@
 		prerequisite = {
 			focus = KNT_imperial_preference
 		}
+		completion_reward = {
+			1002 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes 
+				}
+			}
+		}
 		x = 33
 		y = 2
 	}
@@ -186,6 +283,14 @@
 		prerequisite = {
 			focus = KNT_imperial_preference
 		}
+		completion_reward = {
+			KNT = {
+					country_event = {
+					days = 1
+					id = KNT_event.5
+					}
+				}
+			}
 		x = 35
 		y = 2
 	}
@@ -199,16 +304,34 @@
 		prerequisite = {
 			focus = KNT_exploit_the_brain_drain
 		}
-		completion_reward = {
-			add_building_construction = {
-			type = bunker
-			level = 3
-			instant_build = yes
-			province = 17509
-			}
-		}
 		x = 34
 		y = 3
+			completion_reward = {
+			1002 = {				
+			add_building_construction = {
+						type = bunker
+						level = 3
+						province = 17509
+						instant_build = yes
+					}
+			}
+			1002 = {				
+			add_building_construction = {
+						type = bunker
+						level = 3
+						province = 17510
+						instant_build = yes
+					}
+			}
+			1165 = {				
+			add_building_construction = {
+						type = bunker
+						level = 3
+						province = 17525
+						instant_build = yes
+					}
+			}
+		}
 	}
 	shared_focus = {
 		id = KNT_we_shall_never_surrender
@@ -225,6 +348,11 @@
 		}
 		prerequisite = {
 			focus = KNT_walled_cities
+		}
+		completion_reward = {
+			KNT = {
+			    add_ideas = KNT_stand_against_the_false_king
+			}
 		}
 		x = 27
 		y = 4
@@ -316,7 +444,7 @@
 			focus = KNT_new_era_of_railways
 		}
 		x = 16
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_no_more_wires
@@ -326,7 +454,7 @@
 			focus = KNT_new_era_of_railways
 		}
 		x = 18
-		y = 9
+		y = 10
 	}
 	shared_focus = {
 		id = KNT_the_iter_project
@@ -339,7 +467,7 @@
 			focus = KNT_greener_energy
 		}
 		x = 17
-		y = 10
+		y = 12
 	}
 	shared_focus = {
 		id = KNT_the_modern_prometheus
@@ -349,7 +477,7 @@
 			focus = KNT_the_iter_project
 		}
 		x = 16
-		y = 11
+		y = 13
 	}
 	shared_focus = {
 		id = KNT_titanic_ii
@@ -359,7 +487,7 @@
 			focus = KNT_the_iter_project
 		}
 		x = 18
-		y = 11
+		y = 13
 	}
 	shared_focus = {
 		id = KNT_manchester_model
@@ -459,7 +587,7 @@
 			focus = KNT_friendly_society
 		}
 		x = 12
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_it_just_works
@@ -469,7 +597,7 @@
 			focus = KNT_friendly_society
 		}
 		x = 14
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_the_gospel_of_wealth
@@ -572,7 +700,7 @@
 			focus = KNT_noblesse_oblige
 		}
 		x = 20
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_royal_ordnance_factories 
@@ -582,7 +710,7 @@
 			focus = KNT_noblesse_oblige
 		}
 		x = 22
-		y = 14
+		y = 15
 	}
 	shared_focus = {
 		id = KNT_stop_cultural_decadence

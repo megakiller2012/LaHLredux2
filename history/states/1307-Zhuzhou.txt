@@ -1,0 +1,20 @@
+
+state={
+	id=1307
+	name="STATE_1307"
+
+	history={
+		owner = CMS
+		add_core_of = CMS
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		483 2917 8962 13444 13540 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

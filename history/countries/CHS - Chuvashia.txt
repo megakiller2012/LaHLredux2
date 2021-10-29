@@ -32,6 +32,18 @@ set_popularities = {
 	regressionism = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = TAT
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = BSK
+    value = 200
+}
+
 create_country_leader = {
 	name = "Uldin Almentai"
 	picture = "Portrait_CHS_Uldin_Almentai.dds"

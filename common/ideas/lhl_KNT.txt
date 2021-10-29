@@ -20,4 +20,77 @@ ideas = {
 			}
 		}
 	}
-}
+	
+	country = {
+	
+		KNT_security_service_section_five = {
+			
+			picture = KNT_security_service_section_five
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_weekly_factor = 0.03
+			encryption = 0.15
+			decryption = 0.15
+			compliance_growth = 0.10
+			resistance_growth = -0.10
+			}
+		}
+	}
+	
+	country = {
+	
+		KNT_stand_against_the_false_king = {
+			
+			picture = KNT_stand_against_the_false_king
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = 
+			{ tag = WES attack_bonus_against = 0.1
+			defense_bonus_against = 0.1}
+			
+			targeted_modifier = 
+			{tag = WES attack_bonus_against = 0.1 
+			defense_bonus_against = 0.1}
+			
+			targeted_modifier = 
+			{ tag = SUS attack_bonus_against = 0.1
+			defense_bonus_against = 0.1}
+			
+			targeted_modifier = 
+			{tag = SUS attack_bonus_against = 0.1 
+			defense_bonus_against = 0.1}
+		}
+	}
+	
+	country = {
+	
+		KNT_thin_purple_line = {
+			
+			picture = KNT_thin_purple_line
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			production_speed_buildings_factor = 0.1
+			production_factory_efficiency_gain_factor = 0.15
+			production_factory_max_efficiency_factor = 0.15
+			consumer_goods_factor =-0.07
+			stability_factor = -0.15
+			}
+		}
+	}

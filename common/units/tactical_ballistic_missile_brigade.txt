@@ -1,6 +1,6 @@
 sub_units = {
 
-	tactical_ballistic_missile_brigade = {
+	tactical_missile = {
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 301
@@ -22,7 +22,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			modern_tank_aa_equipment = 12
+			tactical_ballistic_missile_equipment = 12
 		}
 		manpower = 500
 		max_organisation = 0

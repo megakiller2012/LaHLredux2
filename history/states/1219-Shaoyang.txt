@@ -2,12 +2,8 @@
 state={
 	id=1219
 	name="STATE_1219"
-	provinces={
-		2532 3028 3551 3722 5656 5929 5972 6157 6276 7645 8769 8780 9098 9725 9836 13338 13368 13380 13393 13412 13443 13455 13478 
-	}
-	manpower=1
-	buildings_max_level_factor=1.000
-		history={
+
+	history={
 		owner = CHG
 		add_core_of = CHG
 		victory_points = {
@@ -15,4 +11,10 @@ state={
 		}
 
 	}
+
+	provinces={
+		3028 3551 3722 5656 5972 6276 8769 9098 9725 13380 13393 13412 13443 13455 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
 }

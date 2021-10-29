@@ -1,0 +1,17 @@
+state={
+	id=1285
+	name="STATE_1285"
+	provinces={
+		1798 3562 5155 6433 6816 8318 12873 12887 12908 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = BAS
+		add_core_of = BAS
+		victory_points = {
+
+		}
+
+	}
+}

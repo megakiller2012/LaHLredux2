@@ -1,28 +1,28 @@
 sub_units = {
 
 	nbcb_brigade = {
-		sprite = medium_armor
-		map_icon_category = armored
+		sprite = infantry
+		map_icon_category = infantry
 		priority = 301
 		ai_priority = 100
-		active = yes
+		active = no
 		
 		type = {
-			armor
-			anti_air
+			infantry
+			support
 		}
 		
-		group = armor
+		group = support
 		
 		categories = {
-			category_all_armor
+			category_support_battalions
 			category_army
 		}
 
 		combat_width = 1
 
 		need = {
-			modern_tank_aa_equipment = 12
+			support_equipment = 12
 		}
 		manpower = 500
 		max_organisation = 0
@@ -32,7 +32,6 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.1
 
-		#Tanks are awesome
 		soft_attack = 0.5
 
 		suppression = 2

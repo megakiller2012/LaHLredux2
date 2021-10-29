@@ -574,3 +574,14 @@
  ESS_event.8.a:0 "Decent"
  ESS_event.8.b:0 "Cent"
  #  
+ ESS_event.10.t:0 "London Hearts Demands More Payment"
+ ESS_event.10.d:0 "Pull up in the tank, and I'm off to battle (hey, hey) Here I'm captain, battle cowboy (her, her) Bought a new TU - it's a plane (her) "Liar, liar, liar, liar, liar, liar, liar, liar, liar" That's a helicopter (her, her) Pull up in the tank and I'm off to battle (her, her) I'm captain here, battle cowboy (her, her)Bought a new TU, that's an airplane."B-uh" and you're the one that's dead."
+ ESS_event.10.a:0 "Pay them twice"
+ ESS_event.10.b:0 "Add a half to their payment"
+ ESS_event.10.c:0 "Militant! Come here! There there are marxsists in my office!"
+ # 
+ ESS_event.11.t:0 "Betrayal!"
+ ESS_event.11.d:0 "Londongradskiye Serdca spizdili viertioliotiki i flew away to nemtsi!"
+ ESS_event.11.a:0 "SUKA"
+ #  
+ 

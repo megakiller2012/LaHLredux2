@@ -20,6 +20,18 @@ set_popularities = {
     left_authoritarianism = 100
 }
 
+add_ai_strategy = {
+    type = alliance
+    id = CHS
+    value = 200
+}
+
+add_ai_strategy = {
+    type = alliance
+    id = BSK
+    value = 200
+}
+
 create_country_leader = {
 	name = "Mintimer Shaimiev"
 	desc = "POLITICS_SHAMIEV_DESC"

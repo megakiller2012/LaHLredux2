@@ -40,7 +40,7 @@ equipments = {
 		}
 		
 	}
-
+	
 	infantry_equipment_0 = {
 		year = 1950
 	
@@ -49,7 +49,6 @@ equipments = {
 		priority = 05
 		visual_level = 0
 	}
-
 
 
 	# Regular infantry  1936
@@ -143,10 +142,60 @@ equipments = {
 		ap_attack = 12
 		air_attack = 0
 		
-		reliability = 0.9
+		reliability = 0.85
 		build_cost_ic = 0.81
 		resources = {
 			steel = 5
+		}
+	}
+	
+	infantry_equipment_5 = {
+		year = 2000
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_4
+		priority = 10
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 38
+		breakthrough = 7
+
+		#Offensive Abilities
+		soft_attack = 16
+		hard_attack = 6
+		ap_attack = 14
+		air_attack = 0
+		
+		reliability = 0.90
+		build_cost_ic = 0.93
+		resources = {
+			steel = 6
+		}
+	}
+	
+	infantry_equipment_6 = {
+		year = 2010
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_5
+		priority = 10
+		visual_level = 3
+		
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 8
+
+		#Offensive Abilities
+		soft_attack = 18
+		hard_attack = 8
+		ap_attack = 16
+		air_attack = 0
+		
+		reliability =  0.95
+		build_cost_ic = 1.05
+		resources = {
+			steel = 7
 		}
 	}
 }

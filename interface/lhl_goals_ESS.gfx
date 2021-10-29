@@ -170,5 +170,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ESS_political_education"
 		texturefile = "gfx/interface/goals/ESS/goal_ESS_political_education.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ESS_revolutionary_ethic"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_revolutionary_ethic.dds"
 	}	
+	
 }

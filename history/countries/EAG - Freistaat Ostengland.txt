@@ -1,4 +1,4 @@
-﻿capital = 1004
+capital = 1004
 
 oob = "EAG_2020"
 
@@ -17,7 +17,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism  = 100
+	regressionism  = 4
+	millenarism = 5
+	commendationism = 5
+	left_authoritarianism = 5
+	socialism = 5
+	neocameralism = 20
+	national_bolshevism = 20
+	right_populism = 10
+	hegemonism = 25
+	ur_fascism = 1
 }
 
 create_country_leader = {
@@ -33,7 +42,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ozzy Osbourne"
 	desc = ""
-	picture = ""
+	picture = "Portrait_EAG_Ozzy_Osbourne.dds"
 	ideology = religious_millennialism
 	traits = {
 	}
@@ -42,7 +51,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Robert Griffiths"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_EAG_Robert_Griffiths.dds"
 	ideology = ultrahegelianism
 	traits = {
 	}
@@ -60,7 +69,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Philipp Gnatzy"
 	desc = ""
-	picture = ""
+	picture = "Portrait_EAG_Philipp_Gnatzy.dds"
 	ideology = labor_socialism
 	traits = {
 	}
@@ -89,7 +98,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Theresa May"
 	desc = ""
-	picture = ""
+	picture = "Portrait_EAG_Theresa_May.dds"
 	ideology = national_populism
 	traits = {
 	}
@@ -98,7 +107,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Samuel Vestey"
 	desc = ""
-	picture = ""
+	picture = "Portrait_EAG_Samuel_Vestey.dds"
 	ideology = neo_feudalism
 	traits = {
 	}
