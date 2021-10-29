@@ -19,9 +19,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	national_bolshevism  = 60
-	commendationism = 21
-	hegemonism = 19
+	national_bolshevism  = 30
+	commendationism = 10
+	hegemonism = 10
+	regressionism  = 5
+	millenarism = 3
+	left_authoritarianism = 10
+	socialism = 4
+	neocameralism = 2
+	right_populism = 6
+	ur_fascism = 20
 }
 
 create_country_leader = {

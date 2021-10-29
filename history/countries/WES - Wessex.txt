@@ -179,7 +179,7 @@ create_corps_commander = {
 create_country_leader = {
 	name = "Arthur Uther Pendragon"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_Arthur_Uther_Pendragon_.dds"
 	ideology = religious_millennialism
 	traits = {
 	}
@@ -188,7 +188,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Davyth Fear"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_Davyth_Fear.dds"
 	ideology = ultrahegelianism
 	traits = {
 	}
@@ -197,7 +197,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Neil Kinnock"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_Neil_Kinnock.dds"
 	ideology = paternalism
 	traits = {
 	}
@@ -206,14 +206,14 @@ create_country_leader = {
 create_country_leader = {
 	name = "Roy Rickhuss"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_Roy_Rickhuss.dds"
 	ideology = agrarian_socialism
 	traits = {
 	}
 }
 
 create_country_leader = {
-	name = "Caroline Voaden"
+	name = "NOBODY"
 	desc = ""
 	picture = ".dds"
 	ideology = atlantic_liberalism
@@ -224,7 +224,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Sadiq Khan"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_Sadiq_Khan.dds"
 	ideology = national_anarchism
 	traits = {
 	}
@@ -233,7 +233,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mark Spencer"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_Mark_Spencer.dds"
 	ideology = national_populism
 	traits = {
 	}
@@ -242,7 +242,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Prince Edward, Duke of Kent"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_Prince_Edward_Duke_of_Kent.dds"
 	ideology = stratocracy
 	traits = {
 	}
@@ -251,7 +251,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ya'Acov Darling Khan"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_WES_YaAcov_Darling_Khan.dds"
 	ideology = charismatic_dictatorship
 	traits = {
 	}

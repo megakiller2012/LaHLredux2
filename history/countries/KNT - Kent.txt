@@ -17,13 +17,22 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	right_populism  = 100
+	regressionism  = 5
+	millenarism = 2
+	commendationism = 1
+	left_authoritarianism = 8
+	socialism = 3
+	neocameralism = 30
+	national_bolshevism = 5
+	right_populism = 35
+	hegemonism = 10
+	ur_fascism = 1
 }
 
 create_country_leader = {
 	name = "Rupert Sheldrake"
 	desc = ""
-	picture = ""
+	picture = "Portrait_KNT_Rupert_Sheldrake.dds"
 	ideology = ethical_millennialism
 	traits = {
 	}
@@ -32,7 +41,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "China Mieville"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_KNT_China_Mieville.dds"
 	ideology = ultrahegelianism
 	traits = {
 	}
@@ -41,7 +50,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mike Katz"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_KNT_Mike_Katz.dds"
 	ideology = soviet_marxism
 	traits = {
 	}
@@ -50,7 +59,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Alan Moore"
 	desc = ""
-	picture = ""
+	picture = "Portrait_KNT_Alan_Moore.dds"
 	ideology = labor_socialism
 	traits = {
 	}
@@ -69,7 +78,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Anthony Giddens"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_KNT_Anthony_Giddens.dds"
 	ideology = nazbol_gang
 	traits = {
 	}
@@ -87,7 +96,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Thomas Copinger-Symes"
 	desc = ""
-	picture = ".dds"
+	picture = "Portrait_KNT_Thomas_Copinger-Symes.dds"
 	ideology = nationalism
 	traits = {
 	}
@@ -96,7 +105,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Tony Johnstone-Burt"
 	desc = ""
-	picture = ""
+	picture = "Portrait_KNT_Tony_Johnstone-Burt.dds"
 	ideology = neo_feudalism
 	traits = {
 	}

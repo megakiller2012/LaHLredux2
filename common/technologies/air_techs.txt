@@ -144,6 +144,10 @@ technologies = {
 			jet_engines = 1
 		}
 		
+		enable_equipments = {
+		   lhl_fighter_equipment_0
+		}
+		
 		path = {
 			leads_to_tech = cas_1
 			research_cost_coeff = 1
@@ -642,6 +646,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 3 y = 6 }
 		}
+		enable_equipments = {
+		   lhl_fighter_equipment_1
+		}
 		
 		path = {
 			leads_to_tech = fighter_2
@@ -664,6 +671,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 3 y = 8 }
+		}
+		enable_equipments = {
+		   lhl_fighter_equipment_2
 		}
 		
 		path = {
@@ -689,6 +699,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 3 y = 10 }
 		}
+		enable_equipments = {
+		   lhl_fighter_equipment_3
+		}
 		
 		path = {
 			leads_to_tech = fighter_4
@@ -712,6 +725,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 3 y = 12 }
+		}
+		enable_equipments = {
+		   lhl_fighter_equipment_4
 		}
 		
 		path = {
@@ -737,6 +753,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 3 y = 14 }
 		}
+		enable_equipments = {
+		   lhl_fighter_equipment_5
+		}
 		
 		path = {
 			leads_to_tech = fighter_6
@@ -760,6 +779,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 3 y = 16 }
+		}
+		enable_equipments = {
+		   lhl_fighter_equipment_6
 		}
 		
 		categories = {
