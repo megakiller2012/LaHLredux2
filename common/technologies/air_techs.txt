@@ -229,6 +229,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = -7 y = 6 }
 		}
+		enable_equipments = {
+		   lhl_CAS_equipment_1
+		}
 		
 		path = {
 			leads_to_tech = cas_2
@@ -251,6 +254,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = -7 y = 8 }
+		}
+		enable_equipments = {
+		   lhl_CAS_equipment_2
 		}
 		
 		path = {
@@ -276,6 +282,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = -7 y = 10 }
 		}
+		enable_equipments = {
+		   lhl_CAS_equipment_3
+		}
 		
 		path = {
 			leads_to_tech = cas_4
@@ -299,6 +308,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = -7 y = 12 }
+		}
+		enable_equipments = {
+		   lhl_CAS_equipment_4
 		}
 		
 		path = {
@@ -324,6 +336,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = -7 y = 14 }
 		}
+		enable_equipments = {
+		   lhl_CAS_equipment_5
+		}
 		
 		path = {
 			leads_to_tech = cas_6
@@ -347,6 +362,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = -7 y = 16 }
+		}
+		enable_equipments = {
+		   lhl_CAS_equipment_6
 		}
 		
 		categories = {
