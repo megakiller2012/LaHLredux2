@@ -145,7 +145,7 @@ technologies = {
 		}
 		
 		enable_equipments = {
-		   lhl_fighter_equipment_0
+		   fighter_equipment_0
 		}
 		
 		path = {
@@ -683,7 +683,7 @@ technologies = {
 			position = { x = 3 y = 6 }
 		}
 		enable_equipments = {
-		   lhl_fighter_equipment_1
+		   fighter_equipment_1
 		}
 		
 		path = {
@@ -709,7 +709,7 @@ technologies = {
 			position = { x = 3 y = 8 }
 		}
 		enable_equipments = {
-		   lhl_fighter_equipment_2
+		   lfighter_equipment_2
 		}
 		
 		path = {
@@ -736,7 +736,7 @@ technologies = {
 			position = { x = 3 y = 10 }
 		}
 		enable_equipments = {
-		   lhl_fighter_equipment_3
+		   fighter_equipment_3
 		}
 		
 		path = {
@@ -763,7 +763,7 @@ technologies = {
 			position = { x = 3 y = 12 }
 		}
 		enable_equipments = {
-		   lhl_fighter_equipment_4
+		   fighter_equipment_4
 		}
 		
 		path = {
@@ -790,7 +790,7 @@ technologies = {
 			position = { x = 3 y = 14 }
 		}
 		enable_equipments = {
-		   lhl_fighter_equipment_5
+		   fighter_equipment_5
 		}
 		
 		path = {
@@ -817,7 +817,7 @@ technologies = {
 			position = { x = 3 y = 16 }
 		}
 		enable_equipments = {
-		   lhl_fighter_equipment_6
+		   fighter_equipment_6
 		}
 		
 		categories = {
