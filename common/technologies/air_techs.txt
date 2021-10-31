@@ -386,6 +386,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
 		}
+		enable_equipments = {
+		   lhl_multirole_equipment_1
+		}
 		
 		path = {
 			leads_to_tech = multirole_2
@@ -408,6 +411,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }
+		}
+		enable_equipments = {
+		   lhl_multirole_equipment_2
 		}
 		
 		path = {
@@ -433,6 +439,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 0 y = 10 }
 		}
+		enable_equipments = {
+		   lhl_multirole_equipment_3
+		}
 		
 		path = {
 			leads_to_tech = multirole_4
@@ -456,6 +465,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 12 }
+		}
+		enable_equipments = {
+		   lhl_multirole_equipment_4
 		}
 		
 		path = {
@@ -481,6 +493,9 @@ technologies = {
 			name = air_techs_folder
 			position = { x = 0 y = 14 }
 		}
+		enable_equipments = {
+		   lhl_multirole_equipment_5
+		}
 		
 		path = {
 			leads_to_tech = multirole_6
@@ -504,6 +519,9 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 16 }
+		}
+		enable_equipments = {
+		   lhl_multirole_equipment_6
 		}
 		
 		categories = {
