@@ -8,6 +8,10 @@
  ##POLITICAL PARTIES##
  MSC_regressionism_party:0 "NBP — Katechon"
  MSC_regressionism_party_long:0 "National Bolshevik Party — Faction “Katechon“"
+ MSC_national_bolshevism_party:0 "NBP"
+ MSC_national_bolshevism_party_long:0 "National Bolshevik Party"
+ MSC_millenarism_party:0 "NBP - Dzhemalists"
+ MSC_millenarism_party_long:0 "National Bolshevik Party - Gejdar Dzhmal' Supporters"
  ##COUNTRY NAME##
  MSC_national_bolshevism:0 "Eurasian Union"
  MSC_national_bolshevism_DEF:0 "Eurasian Union"
@@ -22,7 +26,7 @@
  MSC_natella_speranskaja:0 "Natella Speranskaja"
  MSC_evgenij_pchelov:0 "Evgenij Pchelov"
  MSC_sivers:0 "Ambrosius von Sievers"
- MSC_xenia_sobchak:0 "Xenia Sobchak"
+ MSC_xenia_sobchak:0 "Ksenia Sobchak"
  ##FOCUS TREES##
  DUG_11:0 "Dugin best politician"
  MSC_left_hand_path:0 "Left-Hand Path"
