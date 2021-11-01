@@ -199,4 +199,16 @@ spriteTypes = {
 		name = "GFX_goal_KNT_sabotage_experience"
 		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_sabotage_experience.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_KNT_top_gear"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_top_gear.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_future_of_the_pneumatic_weaponry"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_future_of_the_pneumatic_weaponry.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_KNT_airships'_renaissance"
+		texturefile = "gfx/interface/goals/KNT/GFX_goal_KNT_airships'_renaissance.dds"
+	}
 }
